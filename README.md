@@ -4,6 +4,11 @@ Welcome to Final Fantasy IV's latest randomizer (as of July 3, 2023 :) ), Falcon
 
 To see differences between Free Enterprise and Falcon Dive, please see this Google Sheet:  https://docs.google.com/spreadsheets/d/1lULu47K_qzDfWUxVXHlzmDaYO1RL7CbF3A2cvBa1OXk/edit?usp=sharing
 
+## Installation
+You will need to download both GameAssets.zip and FF4FalconDive.zip.  To install, give the program the location of your GameAssets.zip file, as well as the location of the Final Fantasy IV Pixel Remaster directory.  You'll click on "Extract" to extract GameAssets.zip into the appropriate directory, and then you can set your options, click "Randomize!" and you're ready to play!
+
+To revert back to vanilla, all you have to do is click "Revert to vanilla", which will delete everything randomizer related from the Steam directory, and you're all set!
+
 ### Creator, Design, and Programming
 gameboyf9
 
