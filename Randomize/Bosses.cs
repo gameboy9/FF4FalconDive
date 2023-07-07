@@ -295,6 +295,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						monster = allMonsters.Where(c => c.id == normalMonsterID).Single().clone(303);
 						adjustMonsterStats(monster, pairing[0], 50, 50, true);
 						monster.boss = 1;
+						monster.resistance_condition = 111;
 						allMonsters.Add(monster);
 
 						monsterParty = groups.Where(c => c.id == 251).Single();
@@ -416,6 +417,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 34, 34, true);
 						monster.id = 304;
 						monster.boss = 1;
+						monster.resistance_condition = 111;
 						allMonsters.Add(monster);
 
 						monsterParty = groups.Where(c => c.id == 257).Single();
@@ -551,6 +553,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						}
 						adjustMonsterStats(monster, pairing[0], 100);
 						monster.boss = 1;
+						monster.resistance_condition = 111;
 						allMonsters.Add(monster);
 
 						monsterParty = new singleGroup();
@@ -692,8 +695,8 @@ namespace FF4FreeEnterprisePR.Randomize
 				monster.monster_flag_group_id = 1;
 
 			List<int> locationIDs = new List<int> { 10, 15, 19, 29 };
-			// Baron Soldier, Baigan, Left/Right Arm, Sandy, Cindy, Mindy, Calco, Brina, Skullnant, Shadow Dragon, Doctor, Barnabas, King/Queen Eblan, Defense Node, Attack Node, Barnabas-Z
-			List<int> monsterAvoidIDs = new List<int> { 30, 168, 169, 170, 174, 175, 176, 179, 211, 212, 182, 183, 184, 186, 187, 199, 214, 213 };
+			// Baron Soldier, Baigan, Left/Right Arm, Sandy, Cindy, Mindy, Calco, Brina, Skullnant, Shadow Dragon, Doctor, Barnabas, King/Queen Eblan, Defense Node, Attack Node, Barnabas-Z, Bomb, Grey Bomb (both from Mom Bomb)
+			List<int> monsterAvoidIDs = new List<int> { 30, 168, 169, 170, 174, 175, 176, 179, 211, 212, 182, 183, 184, 186, 187, 199, 214, 213, 301, 302 };
 
 			if (monsterAvoidIDs.Contains(monster.id) || normalDisappear)
 				monster.disappear_type_id = 1;

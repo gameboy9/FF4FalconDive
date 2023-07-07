@@ -428,9 +428,9 @@ namespace FF4FreeEnterprisePR.Common
 				// Giant Of Babel - Elements
 				new scenario {
 					bossId = 31,
-					rewardId = -1,
+					rewardId = 30,
 					bossScript = @"Res\Map\Map_30231\Map_30231_6\sc_e_0071.json",
-					winScript =  @"",
+					winScript =  @"Res\Map\Map_30231\Map_30231_6\sc_e_0071_1.json",
 					bossBattleBackground = 20,
 					bossbgm = 0,
 					itemLocations = { },

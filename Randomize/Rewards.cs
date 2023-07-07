@@ -67,12 +67,13 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	"Sylvan Cave-PostPan", // Magma Key or Hook + Pan
 		//	"Baron Superboss", // Baron key
 		//	"Cave Bahamut", // Darkness Crystal
-		//	"Giant Of Babil", // Darkness Crystal
+		//	"Giant Of Babil 1", // Darkness Crystal
 		//	"Lunar Subterranne-Murasame", // Darkness Crystal - 25
 		//	"Lunar Subterranne-Crystal Sword", // Darkness Crystal
 		//	"Lunar Subterranne-White Spear", // Darkness Crystal
 		//	"Lunar Subterranne-Ribbons", // Darkness Crystal
 		//	"Lunar Subterranne-Masamune" // Darkness Crystal - 29
+		//	"Giant Of Babil 2", // Darkness Crystal - 30
 		//	// Upper Babil ALWAYS rewards with the Falcon with the drill installed
 		//	};
 
@@ -91,7 +92,7 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	"Earth Crystal", - 66 // 10
 		//	"Magma Key", - 72
 		//	"Tower Key", - 75
-		//	"Hook", - 81 NEW
+		//	"Hovercraft", - 81 NEW
 		//	"Luca Key", - 74
 		//	"Darkness Crystal", - 73 // 15
 		//	"Rat Tail", - 67
@@ -108,6 +109,8 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	"Crystal Shard 2", - 89 NEW
 		//	"Crystal Shard 3", - 89 NEW
 		//	"Crystal Shard 4"  - 89 NEW // 29
+		//	"Orange Tail", - 90 NEW
+		//	"White Tail", - 91 NEW
 		//};
 
 		static List<int> initialLocations = new List<int> { 0, 4, 5, 6, 7, 8, 9, 10 };
@@ -127,7 +130,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			new List<int> { 16 }, // Tower Key -> CHECK FOR HOOK OR MAGMA KEY
 			new List<int> { 14, 15, 18, 19 }, // Hook -> CHECK FOR PAN, LUCA KEY, TOWER KEY, AND RAT TAIL
 			new List<int> { 20 }, // Luca Key -> CHECK FOR HOOK OR MAGMA KEY
-			new List<int> { 23, 24, 25, 26, 27, 28, 29 }, // Darkness Crystal - 15
+			new List<int> { 23, 24, 25, 26, 27, 28, 29, 30 }, // Darkness Crystal - 15
 			new List<int> { 17 }, // Rat Tail - CHECK FOR HOOK
 			new List<int> { }, 
 			new List<int> { }, 
@@ -141,10 +144,11 @@ namespace FF4FreeEnterprisePR.Randomize
 			new List<int> { },
 			new List<int> { },
 			new List<int> { },
-			new List<int> { } // 29
+			new List<int> { },
+			new List<int> { } // 30
 		};
 
-		static List<int> allRewards = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 };
+		static List<int> allRewards = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 };
 		static List<int> keyRewards = new List<int> { 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 24 };
 
 		class pairing
@@ -166,13 +170,19 @@ namespace FF4FreeEnterprisePR.Randomize
 			List<pairing> tempPairings = new List<pairing>();
 			List<int> validLocations = initialLocations.ToList();
 			List<int> validRewards = allRewards.ToList();
+			List<int> rerollLocations = new List<int> { 9, 12, 13, 14, 20 };
+			List<int> rerollRewards = new List<int> { 6, 16, 17, 18, 19, 20, 21, 22, 23, 25, 30, 31 };
 			bool underground = false;
 			bool moon = false;
 
 			while (validRewards.Count > 0)
 			{
 				int locationID = validLocations[r1.Next() % validLocations.Count];
+				int rerolls = rerollLocations.Contains(locationID) ? 1 : 0;
 				int rewardID = validRewards[r1.Next() % validRewards.Count];
+				// Reroll if a non-progression item is rolled in Ordeals, Magnetic Cavern, Tower of Zot, Dwarf Castle, or Sealed Cave
+				if (rerolls == 1 && rerollRewards.Contains(rewardID))
+					rewardID = validRewards[r1.Next() % validRewards.Count];
 
 				tempPairings.Add(new pairing(locationID, rewardID));
 				validLocations.Remove(locationID);
@@ -222,9 +232,9 @@ namespace FF4FreeEnterprisePR.Randomize
 
 						if (locationAdded)
 						{
-							if (tempPairings.Where(c => c.rewardID == 15).Count() > 0)
+							if (tempPairings.Where(c => c.rewardID == 15 || c.rewardID == 13).Count() > 0)
 								moon = true;
-							if (tempPairings.Where(c => c.rewardID == 11 || c.rewardID == 13).Count() > 0)
+							if (tempPairings.Where(c => c.rewardID == 11).Count() > 0)
 								underground = true;
 							pairings.AddRange(tempPairings);
 							tempPairings.Clear();
@@ -234,7 +244,7 @@ namespace FF4FreeEnterprisePR.Randomize
 							if (moon)             charsRequired = 3;
 							else if (underground) charsRequired = 2;
 
-							// Enforce at least 3 characters when moon access is found.
+							// Enforce at least 3 characters when moon access is found or you have to go through the hovercraft route.
 							// Enforce at least 2 characters when underground access is found.
 							if (charsRequired > 1)
 							{
@@ -353,7 +363,8 @@ namespace FF4FreeEnterprisePR.Randomize
 						case 23: finalItem = 88; break;
 						case 24: finalItem = 62; break;
 						case 25: finalItem = 63; break;
-						case >= 26: finalItem = 89; break;
+						case 26: finalItem = 90; break;
+						case >= 27: finalItem = 89; break;
 					}
 
 					rewardPair.rewardText = "You got " + itemLookup(itemIDLookup(finalItem)) + "!\\n";
