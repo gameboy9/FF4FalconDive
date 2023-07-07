@@ -1,0 +1,1656 @@
+{
+	"SystemFlag": {
+		"SkipInitialize": 0,
+		"KeepPlayerPuppet": 0,
+		"KeepBadStatusVisual": 0
+	},
+	"Segments": [
+		{
+			"Label": "Main",
+			"EntryPoint": 0,
+			"Count": 39
+		}
+	],
+	"ScriptLocal": [],
+	"ScriptLocalValue": [],
+	"Mnemonics": [
+		{
+			"label": "Main",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2001,
+					0,
+					4,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0001",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					6,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level2",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2002,
+					0,
+					9,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level2Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0007",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					11,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level3",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2003,
+					0,
+					14,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level3Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0030",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					16,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level4",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2004,
+					0,
+					19,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level4Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0033",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					21,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level5",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2005,
+					0,
+					24,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level5Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0035",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					26,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level6",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2006,
+					0,
+					29,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level6Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0130",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					31,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level7",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2007,
+					0,
+					34,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level7Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0131",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					36,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level8",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2008,
+					0,
+					39,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level8Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0156",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					41,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level9",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2009,
+					0,
+					44,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level9Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0157",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					46,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level10",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2010,
+					0,
+					49,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level10Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0158",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					51,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level11",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2011,
+					0,
+					54,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level11Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ev_e_0159",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Jump",
+			"operands": {
+				"iValues": [
+					56,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level12",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Branch",
+			"operands": {
+				"iValues": [
+					2012,
+					0,
+					58,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"ScenarioFlag1",
+					"＝",
+					"imm",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Level12Set",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "SetEntities",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"sc_e_0130",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "Finish",
+			"mnemonic": "Nop",
+			"operands": {
+				"iValues": [],
+				"rValues": [],
+				"sValues": []
+			},
+			"type": 1,
+			"comment": ""
+		},
+		{
+			"label": "",
+			"mnemonic": "Exit",
+			"operands": {
+				"iValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"rValues": [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					0
+				],
+				"sValues": [
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					"",
+					""
+				]
+			},
+			"type": 1,
+			"comment": ""
+		}
+	],
+	"Animations": [],
+	"Name": "sc_Map_20020",
+	"Title": {
+		"main": "汎用スクリプト",
+		"sub": "オンラクのデモ"
+	}
+}

@@ -1,0 +1,136 @@
+BGM_FF4_01_NAME	The Prelude
+BGM_FF4_02_NAME	The Red Wings
+BGM_FF4_03_NAME	Kingdom of Baron
+BGM_FF4_04_NAME	Theme of Love
+BGM_FF4_05_NAME	Prologue
+BGM_FF4_06_NAME	Welcome to Our Town!
+BGM_FF4_07_NAME	Main Theme of FINAL FANTASY IV
+BGM_FF4_08_NAME	Battle 1
+BGM_FF4_09_NAME	Fanfare
+BGM_FF4_10_NAME	Enter Fat Chocobo!
+BGM_FF4_11_NAME	Chocobo Chocobo
+BGM_FF4_12_NAME	Into the Darkness
+BGM_FF4_13_NAME	Battle 2
+BGM_FF4_14_NAME	Bomb Ring
+BGM_FF4_15_NAME	Rydia
+BGM_FF4_16_NAME	Damcyan Castle
+BGM_FF4_17_NAME	Sorrow and Loss
+BGM_FF4_18_NAME	Edward's Harp
+BGM_FF4_19_NAME	Mt. Ordeals
+BGM_FF4_20_NAME	Fabul
+BGM_FF4_21_NAME	Run!
+BGM_FF4_22_NAME	Suspicion
+BGM_FF4_23_NAME	Golbez, Clad In Darkness
+BGM_FF4_24_NAME	Hey, Cid!
+BGM_FF4_25_NAME	Mystic Mysidia
+BGM_FF4_26_NAME	A Long Way to Go
+BGM_FF4_28_NAME	Palom & Porom
+BGM_FF4_29_NAME	Battle With the Four Fiends
+BGM_FF4_30_NAME	The Airship
+BGM_FF4_31_NAME	Troian Beauty
+BGM_FF4_32_NAME	Samba de Chocobo!
+BGM_FF4_33_NAME	Tower of Bab-il
+BGM_FF4_34_NAME	Somewhere In the World…
+BGM_FF4_35_NAME	Land of Dwarves
+BGM_FF4_37_NAME	Giott, King of the Dwarves
+BGM_FF4_38_NAME	Dancing Calbrena
+BGM_FF4_39_NAME	Tower of Zot
+BGM_FF4_40_NAME	The Land of Summons
+BGM_FF4_41_NAME	Lunar Whale
+BGM_FF4_42_NAME	Another Moon
+BGM_FF4_43_NAME	The Lunarians
+BGM_FF4_44_NAME	Within the Giant
+BGM_FF4_45_NAME	The Final Battle
+BGM_FF4_46_NAME	Epilogue -1-
+BGM_FF4_47_NAME	Epilogue -2-
+BGM_FF4_48_NAME	Epilogue -3-
+MSG_GAERY_01	Title Splash
+MSG_GAERY_02	The Darkness and the Light
+MSG_GAERY_03	Cecil, Rosa, and Kain
+MSG_GAERY_04	Comrades
+MSG_GAERY_05	Cecil Harvey (A)
+MSG_GAERY_06	Cecil Harvey (B)
+MSG_GAERY_07	Cecil Harvey (C)
+MSG_GAERY_08	Cecil Harvey (D)
+MSG_GAERY_09	Cecil Harvey (E)
+MSG_GAERY_10	Kain Highwind (A)
+MSG_GAERY_11	Kain Highwind (B)
+MSG_GAERY_12	Kain Highwind (C) (Unused)
+MSG_GAERY_13	Rosa Farrell (A)
+MSG_GAERY_14	Rosa Farrell (B)
+MSG_GAERY_15	Rydia (A)
+MSG_GAERY_16	Rydia (B)
+MSG_GAERY_17	Tellah
+MSG_GAERY_18	Edward Chris von Muir
+MSG_GAERY_19	Yang Fang Leiden
+MSG_GAERY_20	Palom & Porom (A)
+MSG_GAERY_21	Palom & Porom (B)
+MSG_GAERY_22	Cid Pollendina
+MSG_GAERY_23	Edge Geraldine (A)
+MSG_GAERY_24	Edge Geraldine (B)
+MSG_GAERY_25	FuSoYa
+MSG_GAERY_26	Golbez
+MSG_GAERY_27	Scarmiglione
+MSG_GAERY_28	Cagnazzo
+MSG_GAERY_29	Barbariccia
+MSG_GAERY_30	Rubicante
+MSG_GAERY_31	Leshy
+MSG_GAERY_32	Zu
+MSG_GAERY_33	Bone Dragon
+MSG_GAERY_34	Baron Guard
+MSG_GAERY_35	Puppeteer
+MSG_GAERY_36	Soldieress
+MSG_GAERY_38	Sorceress
+MSG_GAERY_39	Trap Door
+MSG_GAERY_40	Green Dragon
+MSG_GAERY_41	Giant Soldier
+MSG_GAERY_42	Wicked Mask
+MSG_GAERY_43	White Dragon
+MSG_GAERY_44	Red Dragon (A)
+MSG_GAERY_45	Red Dragon (B)
+MSG_GAERY_46	Octomammoth
+MSG_GAERY_47	Antlion (A)
+MSG_GAERY_48	Antlion (B)
+MSG_GAERY_49	Mom Bomb
+MSG_GAERY_50	Baigan
+MSG_GAERY_51	Magus Sisters (A)
+MSG_GAERY_52	Magus Sisters (B)
+MSG_GAERY_53	Calcobrena (A)
+MSG_GAERY_54	Calcobrena (B)
+MSG_GAERY_55	Shadow Dragon
+MSG_GAERY_56	Doctor (Lugae)
+MSG_GAERY_57	Barnabas
+MSG_GAERY_58	Dr. Lugae (Transformed)
+MSG_GAERY_59	King of Eblan
+MSG_GAERY_60	Queen of Eblan
+MSG_GAERY_61	Demon Wall
+MSG_GAERY_62	Zemus
+MSG_GAERY_63	Zeromus
+MSG_GAERY_64	Asura (A)
+MSG_GAERY_65	Asura (B)
+MSG_GAERY_66	Sylphs
+MSG_GAERY_67	Hovercraft
+MSG_GAERY_68	Airship
+MSG_GAERY_69	Lunar Whale
+MSG_GAERY_70	Giant of Babel (A)
+MSG_GAERY_71	Giant of Babel (B)
+MSG_GAERY_72	Cecil and Kain (A)
+MSG_GAERY_73	Cecil and Kain (B)
+MSG_GAERY_74	Cecil and Kain (C)
+MSG_GAERY_75	Cecil and Kain (D)
+MSG_GAERY_76	Cecil and Kain (E)
+MSG_GAERY_77	Cecil (Dark Knight)
+MSG_GAERY_78	Cecil (Paladin)
+MSG_GAERY_79	Kain
+MSG_GAERY_80	Rosa
+MSG_GAERY_81	Rydia (Child)
+MSG_GAERY_82	Rydia (Adult)
+MSG_GAERY_83	Tellah
+MSG_GAERY_84	Edward
+MSG_GAERY_85	Yang
+MSG_GAERY_86	Palom
+MSG_GAERY_87	Porom
+MSG_GAERY_88	Cid
+MSG_GAERY_89	Edge
+MSG_GAERY_90	FuSoYa
+MSG_GAERY_91	Golbez

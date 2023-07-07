@@ -1,0 +1,1 @@
+{"name":"Map_20080","asset_group_name":"map_20080","texture":[{"name":"town_mythril","asset":"town_mythril"}],"map":[{"name":"Map_20080","tilemap":"Map_20080/tilemap","collision":"Map_20080/collision","entity_default":"Map_20080/entity_default","entity":[],"script":[{"name":"sc_e_0134","asset":"Map_20080/sc_e_0134"},{"name":"sc_map_20080","asset":"Map_20080/sc_map_20080"}]}]}

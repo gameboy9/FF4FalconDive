@@ -1,0 +1,888 @@
+{
+	"id": 21,
+	"layers": [
+		{
+			"draworder": "topdown",
+			"id": 22,
+			"name": "BottomObject",
+			"objects": [
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 13,
+					"name": "オクトマンモス",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 123
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 13
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": -48,
+					"y": 48
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 14,
+					"name": "オクトマンモス",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 123
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 14
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": -48,
+					"y": 80
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 15,
+					"name": "オクトマンモス",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 123
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": -48,
+					"y": 64
+				},
+				{
+					"gid": 2027,
+					"height": 16,
+					"id": 16,
+					"name": "水飛沫",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 190
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 16
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 10
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": -48,
+					"y": 96
+				},
+				{
+					"gid": 2027,
+					"height": 16,
+					"id": 18,
+					"name": "水飛沫",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 190
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 17
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 10
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": -48,
+					"y": 128
+				},
+				{
+					"gid": 2027,
+					"height": 16,
+					"id": 19,
+					"name": "水飛沫",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 190
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 18
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 10
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": -48,
+					"y": 112
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 42,
+					"name": "オクトマンモス",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 123
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 12
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 31
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 304,
+					"y": 128
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"name": "ev_e_0014",
+	"opacity": 1,
+	"type": "group",
+	"visible": true,
+	"x": 0,
+	"y": 0,
+	"width": 36,
+	"height": 28
+}

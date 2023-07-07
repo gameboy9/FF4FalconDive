@@ -1,0 +1,1 @@
+{"name":"Map_20180","asset_group_name":"map_20180","texture":[{"name":"town_tomera","asset":"town_tomera"}],"map":[{"name":"Map_20180","tilemap":"Map_20180/tilemap","collision":"Map_20180/collision","entity_default":"Map_20180/entity_default","entity":[{"name":"ev_e_0142","asset":"Map_20180/ev_e_0142"}],"script":[{"name":"sc_map_20180","asset":"Map_20180/sc_map_20180"}]}]}

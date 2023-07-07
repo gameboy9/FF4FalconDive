@@ -1,0 +1,136 @@
+BGM_FF4_01_NAME	プレリュード
+BGM_FF4_02_NAME	赤い翼
+BGM_FF4_03_NAME	バロン王国
+BGM_FF4_04_NAME	愛のテーマ
+BGM_FF4_05_NAME	オープニング
+BGM_FF4_06_NAME	街のテーマ
+BGM_FF4_07_NAME	ファイナルファンタジー IV メインテーマ
+BGM_FF4_08_NAME	バトル1
+BGM_FF4_09_NAME	勝利のファンファーレ
+BGM_FF4_10_NAME	デブチョコボ登場
+BGM_FF4_11_NAME	チョコボ
+BGM_FF4_12_NAME	ダンジョン
+BGM_FF4_13_NAME	バトル2
+BGM_FF4_14_NAME	ボムの指輪
+BGM_FF4_15_NAME	少女リディア
+BGM_FF4_16_NAME	ダムシアン城
+BGM_FF4_17_NAME	哀しみのテーマ
+BGM_FF4_18_NAME	ギルバートのリュート
+BGM_FF4_19_NAME	試練の山
+BGM_FF4_20_NAME	ファブール国
+BGM_FF4_21_NAME	脱出
+BGM_FF4_22_NAME	疑惑のテーマ
+BGM_FF4_23_NAME	黒い甲冑ゴルベーザ
+BGM_FF4_24_NAME	親方シド
+BGM_FF4_25_NAME	ミシディア国
+BGM_FF4_26_NAME	長い道のり
+BGM_FF4_28_NAME	パロム・ポロムのテーマ
+BGM_FF4_29_NAME	ゴルベーザ四天王とのバトル
+BGM_FF4_30_NAME	飛空艇
+BGM_FF4_31_NAME	トロイア国
+BGM_FF4_32_NAME	サンバ・デ・チョコボ
+BGM_FF4_33_NAME	バブイルの塔
+BGM_FF4_34_NAME	一方その頃
+BGM_FF4_35_NAME	ドワーフの大地
+BGM_FF4_37_NAME	キング・ジォットの城
+BGM_FF4_38_NAME	踊る人形カルコブリーナ
+BGM_FF4_39_NAME	ゾットの塔
+BGM_FF4_40_NAME	幻獣の街
+BGM_FF4_41_NAME	魔導船
+BGM_FF4_42_NAME	もう一つの月
+BGM_FF4_43_NAME	月の民
+BGM_FF4_44_NAME	巨人のダンジョン
+BGM_FF4_45_NAME	最後の闘い
+BGM_FF4_46_NAME	エンディング・テーマ -1-
+BGM_FF4_47_NAME	エンディング・テーマ -2-
+BGM_FF4_48_NAME	エンディング・テーマ -3-
+MSG_GAERY_01	タイトルロゴ
+MSG_GAERY_02	暗黒騎士と聖騎士 
+MSG_GAERY_03	セシルとローザとカイン
+MSG_GAERY_04	仲間たち
+MSG_GAERY_05	セシル・ハーヴィ A
+MSG_GAERY_06	セシル・ハーヴィ B
+MSG_GAERY_07	セシル・ハーヴィ C
+MSG_GAERY_08	セシル・ハーヴィ D
+MSG_GAERY_09	セシル・ハーヴィ E
+MSG_GAERY_10	カイン・ハイウインド A
+MSG_GAERY_11	カイン・ハイウインド B
+MSG_GAERY_12	カイン・ハイウインド C（未採用）
+MSG_GAERY_13	ローザ・ファレル A
+MSG_GAERY_14	ローザ・ファレル B
+MSG_GAERY_15	リディア A
+MSG_GAERY_16	リディア B
+MSG_GAERY_17	テラ
+MSG_GAERY_18	ギルバート・クリス・フォン・ミューア
+MSG_GAERY_19	ヤン・ファン・ライデン
+MSG_GAERY_20	パロム＆ポロム A
+MSG_GAERY_21	パロム＆ポロム B
+MSG_GAERY_22	シド・ポレンディーナ
+MSG_GAERY_23	エドワード・ジェラルダイン（エッジ） A
+MSG_GAERY_24	エドワード・ジェラルダイン（エッジ） B
+MSG_GAERY_25	フースーヤ
+MSG_GAERY_26	ゴルベーザ
+MSG_GAERY_27	土のスカルミリョーネ
+MSG_GAERY_28	水のカイナッツォ
+MSG_GAERY_29	風のバルバリシア
+MSG_GAERY_30	火のルビカンテ
+MSG_GAERY_31	レーシイ
+MSG_GAERY_32	ズー
+MSG_GAERY_33	スカルドラゴン
+MSG_GAERY_34	バロン近衛兵
+MSG_GAERY_35	マリオネイター
+MSG_GAERY_36	レディガーダー
+MSG_GAERY_38	ソーサルレディ
+MSG_GAERY_39	アサルトドアー
+MSG_GAERY_40	グリーンドラゴン
+MSG_GAERY_41	巨人兵
+MSG_GAERY_42	フェイズ
+MSG_GAERY_43	白竜
+MSG_GAERY_44	レッドドラゴン A
+MSG_GAERY_45	レッドドラゴン B
+MSG_GAERY_46	オクトマンモス
+MSG_GAERY_47	アントリオン A
+MSG_GAERY_48	アントリオン B
+MSG_GAERY_49	マザーボム
+MSG_GAERY_50	ベイガン
+MSG_GAERY_51	メーガス三姉妹 A
+MSG_GAERY_52	メーガス三姉妹 B
+MSG_GAERY_53	カルコブリーナ A
+MSG_GAERY_54	カルコブリーナ B
+MSG_GAERY_55	黒竜
+MSG_GAERY_56	博士（ルゲイエ）
+MSG_GAERY_57	バルナバ
+MSG_GAERY_58	ルゲイエ（変身後）
+MSG_GAERY_59	エブラーナ王
+MSG_GAERY_60	エブラーナ王妃
+MSG_GAERY_61	デモンズウォール
+MSG_GAERY_62	ゼムス
+MSG_GAERY_63	ゼロムス
+MSG_GAERY_64	アスラ A
+MSG_GAERY_65	アスラ B
+MSG_GAERY_66	シルフ
+MSG_GAERY_67	ホバー船
+MSG_GAERY_68	飛空艇
+MSG_GAERY_69	魔導船
+MSG_GAERY_70	バブイルの巨人 A
+MSG_GAERY_71	バブイルの巨人 B
+MSG_GAERY_72	セシルとカイン A
+MSG_GAERY_73	セシルとカイン B
+MSG_GAERY_74	セシルとカイン C
+MSG_GAERY_75	セシルとカイン D
+MSG_GAERY_76	セシルとカイン E
+MSG_GAERY_77	セシル（暗黒騎士）
+MSG_GAERY_78	セシル（パラディン）
+MSG_GAERY_79	カイン
+MSG_GAERY_80	ローザ
+MSG_GAERY_81	リディア（子供）
+MSG_GAERY_82	リディア（大人）
+MSG_GAERY_83	テラ
+MSG_GAERY_84	ギルバート
+MSG_GAERY_85	ヤン
+MSG_GAERY_86	パロム
+MSG_GAERY_87	ポロム
+MSG_GAERY_88	シド
+MSG_GAERY_89	エッジ
+MSG_GAERY_90	フースーヤ
+MSG_GAERY_91	ゴルベーザ

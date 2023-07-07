@@ -1,0 +1,1769 @@
+MSG_CHAR_NAME_01	セシル
+MSG_CHAR_NAME_02	カイン
+MSG_CHAR_NAME_03	ローザ
+MSG_CHAR_NAME_04	リディア
+MSG_CHAR_NAME_05	シド
+MSG_CHAR_NAME_06	テラ
+MSG_CHAR_NAME_07	ギルバート
+MSG_CHAR_NAME_08	ヤン
+MSG_CHAR_NAME_09	パロム
+MSG_CHAR_NAME_10	ポロム
+MSG_CHAR_NAME_11	エッジ
+MSG_CHAR_NAME_12	フースーヤ
+MSG_CHAR_NAME_13	ゴルベーザ
+MSG_JOB_NAME_01	暗黒騎士
+MSG_JOB_NAME_02	竜騎士
+MSG_JOB_NAME_03	白魔道士
+MSG_JOB_NAME_04	召喚士
+MSG_JOB_NAME_05	技師
+MSG_JOB_NAME_06	賢者
+MSG_JOB_NAME_07	王族
+MSG_JOB_NAME_08	モンク僧
+MSG_JOB_NAME_09	黒魔道士
+MSG_JOB_NAME_10	白魔導士
+MSG_JOB_NAME_11	忍者
+MSG_JOB_NAME_12	月の民
+MSG_JOB_NAME_13	パラディン
+MSG_MAGIC_NAME_01	<IC_WMGC>ホールド
+MSG_MAGIC_NAME_02	<IC_WMGC>サイレス
+MSG_MAGIC_NAME_03	<IC_WMGC>コンフュ
+MSG_MAGIC_NAME_04	<IC_WMGC>ブリンク
+MSG_MAGIC_NAME_05	<IC_WMGC>プロテス
+MSG_MAGIC_NAME_06	<IC_WMGC>シェル
+MSG_MAGIC_NAME_07	<IC_WMGC>スロウ
+MSG_MAGIC_NAME_08	<IC_WMGC>ヘイスト
+MSG_MAGIC_NAME_09	<IC_WMGC>バーサク
+MSG_MAGIC_NAME_10	<IC_WMGC>リフレク
+MSG_MAGIC_NAME_11	<IC_WMGC>ホーリー
+MSG_MAGIC_NAME_12	<IC_WMGC>ディスペル
+MSG_MAGIC_NAME_13	<IC_WMGC>ライブラ
+MSG_MAGIC_NAME_14	<IC_WMGC>ケアル
+MSG_MAGIC_NAME_15	<IC_WMGC>ケアルラ
+MSG_MAGIC_NAME_16	<IC_WMGC>ケアルダ
+MSG_MAGIC_NAME_17	<IC_WMGC>ケアルガ
+MSG_MAGIC_NAME_18	<IC_WMGC>エスナ
+MSG_MAGIC_NAME_19	<IC_WMGC>レイズ
+MSG_MAGIC_NAME_20	<IC_WMGC>アレイズ
+MSG_MAGIC_NAME_21	<IC_WMGC>ミニマム
+MSG_MAGIC_NAME_22	<IC_WMGC>テレポ
+MSG_MAGIC_NAME_23	<IC_WMGC>サイトロ
+MSG_MAGIC_NAME_24	<IC_WMGC>レビテト
+MSG_MAGIC_NAME_25	<IC_BMGC>トード
+MSG_MAGIC_NAME_26	<IC_BMGC>ポーキー
+MSG_MAGIC_NAME_27	<IC_BMGC>デジョン
+MSG_MAGIC_NAME_28	<IC_BMGC>ポイズン
+MSG_MAGIC_NAME_29	<IC_BMGC>ファイア
+MSG_MAGIC_NAME_30	<IC_BMGC>ファイラ
+MSG_MAGIC_NAME_31	<IC_BMGC>ファイガ
+MSG_MAGIC_NAME_32	<IC_BMGC>ブリザド
+MSG_MAGIC_NAME_33	<IC_BMGC>ブリザラ
+MSG_MAGIC_NAME_34	<IC_BMGC>ブリザガ
+MSG_MAGIC_NAME_35	<IC_BMGC>サンダー
+MSG_MAGIC_NAME_36	<IC_BMGC>サンダラ
+MSG_MAGIC_NAME_37	<IC_BMGC>サンダガ
+MSG_MAGIC_NAME_38	<IC_BMGC>バイオ
+MSG_MAGIC_NAME_39	<IC_BMGC>トルネド
+MSG_MAGIC_NAME_40	<IC_BMGC>クエイク
+MSG_MAGIC_NAME_41	<IC_BMGC>スリプル
+MSG_MAGIC_NAME_42	<IC_BMGC>ブレイク
+MSG_MAGIC_NAME_43	<IC_BMGC>デス
+MSG_MAGIC_NAME_44	<IC_BMGC>ストップ
+MSG_MAGIC_NAME_45	<IC_BMGC>ドレイン
+MSG_MAGIC_NAME_46	<IC_BMGC>アスピル
+MSG_MAGIC_NAME_47	<IC_BMGC>メテオ
+MSG_MAGIC_NAME_48	<IC_BMGC>フレア
+MSG_MAGIC_NAME_49	<IC_SMGC>ゴブリン
+MSG_MAGIC_NAME_50	<IC_SMGC>ボム
+MSG_MAGIC_NAME_51	<IC_SMGC>コカトリス
+MSG_MAGIC_NAME_52	<IC_SMGC>マインドフレア
+MSG_MAGIC_NAME_53	<IC_SMGC>チョコボ
+MSG_MAGIC_NAME_54	<IC_SMGC>シヴァ
+MSG_MAGIC_NAME_55	<IC_SMGC>ラムウ
+MSG_MAGIC_NAME_56	<IC_SMGC>イフリート
+MSG_MAGIC_NAME_57	<IC_SMGC>タイタン
+MSG_MAGIC_NAME_58	<IC_SMGC>ミストドラゴン
+MSG_MAGIC_NAME_59	<IC_SMGC>シルフ
+MSG_MAGIC_NAME_60	<IC_SMGC>オーディン
+MSG_MAGIC_NAME_61	<IC_SMGC>リヴァイアサン
+MSG_MAGIC_NAME_62	<IC_SMGC>アスラ
+MSG_MAGIC_NAME_63	<IC_SMGC>バハムート
+MSG_MAGIC_NAME_64	<IC_BMGC>プチメテオ
+MSG_MAGIC_NAME_65	<IC_BMGC>プチフレア
+MSG_MAGIC_NAME_66	火遁
+MSG_MAGIC_NAME_67	水遁
+MSG_MAGIC_NAME_68	雷迅
+MSG_MAGIC_NAME_69	煙玉
+MSG_MAGIC_NAME_70	影縛り
+MSG_MAGIC_NAME_71	分身
+MSG_MAGIC_NAME_72	マジックアロー
+MSG_MAGIC_NAME_73	ヒール
+MSG_MAGIC_NAME_74	バスナ
+MSG_MAGIC_NAME_75	ポイゾナ
+MSG_MAGIC_NAME_76	ダンシングダガー
+MSG_MAGIC_NAME_77	ゴブリンパンチ
+MSG_MAGIC_NAME_78	自爆
+MSG_MAGIC_NAME_79	石化くちばし
+MSG_MAGIC_NAME_80	マインドブラスト
+MSG_MAGIC_NAME_81	チョコボキック
+MSG_MAGIC_NAME_82	吹雪
+MSG_MAGIC_NAME_83	裁きの雷
+MSG_MAGIC_NAME_84	地獄の火炎
+MSG_MAGIC_NAME_85	大地の怒り
+MSG_MAGIC_NAME_86	霧のブレス
+MSG_MAGIC_NAME_87	風のささやき
+MSG_MAGIC_NAME_88	斬鉄剣
+MSG_MAGIC_NAME_89	津波
+MSG_MAGIC_NAME_90	アスラ
+MSG_MAGIC_NAME_91	メガフレア
+MSG_MON_ATK_01	視線
+MSG_MON_ATK_02	ブラスター
+MSG_MON_ATK_03	平手打ち
+MSG_MON_ATK_04	りんぷん
+MSG_MON_ATK_05	瞳
+MSG_MON_ATK_06	誘惑
+MSG_MON_ATK_07	舌
+MSG_MON_ATK_08	呪い
+MSG_MON_ATK_09	指先
+MSG_MON_ATK_10	死の宣告
+MSG_MON_ATK_11	くちばし
+MSG_MON_ATK_12	石化にらみ
+MSG_MON_ATK_13	マインドブラスト
+MSG_MON_ATK_14	抱擁
+MSG_MON_ATK_15	臭い息
+MSG_MON_ATK_16	ささやき
+MSG_MON_ATK_17	巻きつき
+MSG_MON_ATK_18	ワール
+MSG_MON_ATK_19	次元のひずみ
+MSG_MON_ATK_20	冷たい霧
+MSG_MON_ATK_21	大爆発
+MSG_MON_ATK_22	呪いの歌
+MSG_MON_ATK_23	呪縛の冷気
+MSG_MON_ATK_24	睡眠ガス
+MSG_MON_ATK_25	毒ガス
+MSG_MON_ATK_26	透過レーザー
+MSG_MON_ATK_27	黒い牙
+MSG_MON_ATK_28	ブラックホール
+MSG_MON_ATK_29	王女の歌
+MSG_MON_ATK_30	９ディメンジョン
+MSG_MON_ATK_31	ミールストーム
+MSG_MON_ATK_32	電磁場
+MSG_MON_ATK_33	連鎖爆発
+MSG_MON_ATK_34	ふか
+MSG_MON_ATK_35	回復
+MSG_MON_ATK_36	吸収
+MSG_MON_ATK_37	治療
+MSG_MON_ATK_38	ビッグバーン
+MSG_MON_ATK_39	吸血
+MSG_MON_ATK_40	消化液
+MSG_MON_ATK_41	花粉
+MSG_MON_ATK_42	クラッシュダウン
+MSG_MON_ATK_43	警報
+MSG_MON_ATK_44	召喚
+MSG_MON_ATK_45	ターゲッティング
+MSG_MON_ATK_46	核爆発
+MSG_MON_ATK_47	撤退
+MSG_MON_ATK_48	ビーム
+MSG_MON_ATK_49	物体199
+MSG_MON_ATK_50	炎
+MSG_MON_ATK_51	ブレイズ
+MSG_MON_ATK_52	稲妻
+MSG_MON_ATK_53	雷
+MSG_MON_ATK_54	ダークブレス
+MSG_MON_ATK_55	大津波
+MSG_MON_ATK_56	吹雪
+MSG_MON_ATK_57	津波
+MSG_MON_ATK_58	竜巻
+MSG_MON_ATK_59	レーザー
+MSG_MON_ATK_60	自爆
+MSG_MON_ATK_61	地震
+MSG_MON_ATK_62	火炎放射
+MSG_MON_ATK_63	熱線
+MSG_MON_ATK_64	火炎流
+MSG_MON_ATK_65	斬鉄剣
+MSG_MON_ATK_66	メガフレア
+MSG_MON_ATK_67	針
+MSG_MON_ATK_68	反撃の角
+MSG_MON_ATK_69	再生
+MSG_MON_ATK_71	Ｗメテオ
+MSG_MAG_INF_01	「マヒ」状態にする
+MSG_MAG_INF_02	「沈黙」状態にする
+MSG_MAG_INF_03	「混乱」状態にする
+MSG_MAG_INF_04	敵の目をあざむく分身を作り出す
+MSG_MAG_INF_05	防御力を上げる魔法のまくを張る
+MSG_MAG_INF_06	魔法防御力を上げる魔法のまくを張る
+MSG_MAG_INF_07	時間の流れを遅くする
+MSG_MAG_INF_08	時間の流れを早くする
+MSG_MAG_INF_09	「狂戦士」状態にする
+MSG_MAG_INF_10	魔法を反射するバリアを張る
+MSG_MAG_INF_11	聖なる力をぶつけて攻撃する
+MSG_MAG_INF_12	魔法効果を消し去る
+MSG_MAG_INF_13	ＨＰと弱点を調べる
+MSG_MAG_INF_14	ＨＰを回復する
+MSG_MAG_INF_15	ＨＰを回復する
+MSG_MAG_INF_16	ＨＰを回復する
+MSG_MAG_INF_17	ＨＰを回復する
+MSG_MAG_INF_18	「戦闘不能」以外の状態異常を回復する
+MSG_MAG_INF_19	「戦闘不能」を回復する
+MSG_MAG_INF_20	「戦闘不能」を回復しＨＰを全回復する
+MSG_MAG_INF_21	「こびと」にしたり戻したりする
+MSG_MAG_INF_22	ダンジョンや戦闘から脱出する
+MSG_MAG_INF_23	詳しい地図を見る
+MSG_MAG_INF_24	体を浮かせる
+MSG_MAG_INF_25	「カエル」にしたり戻したりする
+MSG_MAG_INF_26	「ブタ」にしたり戻したりする
+MSG_MAG_INF_27	ひとつ前のフロアに戻る
+MSG_MAG_INF_28	「毒」状態にする
+MSG_MAG_INF_29	炎を放って攻撃する
+MSG_MAG_INF_30	炎を放って攻撃する
+MSG_MAG_INF_31	炎を放って攻撃する
+MSG_MAG_INF_32	冷気を放って攻撃する
+MSG_MAG_INF_33	冷気を放って攻撃する
+MSG_MAG_INF_34	冷気を放って攻撃する
+MSG_MAG_INF_35	雷を発生させて攻撃する
+MSG_MAG_INF_36	雷を発生させて攻撃する
+MSG_MAG_INF_37	雷を発生させて攻撃する
+MSG_MAG_INF_38	細菌を発生させて攻撃しスリップダメージも与える
+MSG_MAG_INF_39	竜巻を発生させて瀕死のダメージを与える
+MSG_MAG_INF_40	地震を起こして敵全体にダメージを与える
+MSG_MAG_INF_41	「眠り」状態にする
+MSG_MAG_INF_42	「石化」状態にする
+MSG_MAG_INF_43	生命活動を停止させ「戦闘不能」にする
+MSG_MAG_INF_44	時間の流れを止めて行動できなくする
+MSG_MAG_INF_45	ＨＰを吸収する
+MSG_MAG_INF_46	ＭＰを吸収する
+MSG_MAG_INF_47	隕石を落として敵全体にダメージを与える
+MSG_MAG_INF_48	熱エネルギーを爆発させてダメージを与える
+MSG_MAG_INF_49	敵１体を攻撃する\n「ゴブリンパンチ」を放つ
+MSG_MAG_INF_50	敵１体に自分の現在ＨＰに応じたダメージを与える\n「自爆」を放つ
+MSG_MAG_INF_51	敵１体を「石化」状態にする\n「石化くちばし」を放つ
+MSG_MAG_INF_52	敵１体にスリップダメージを与え「マヒ」状態にする\n「マインドブラスト」を放つ
+MSG_MAG_INF_53	敵１体を攻撃する\n「チョコボキック」を放つ
+MSG_MAG_INF_54	敵全体を冷気で攻撃する\n「吹雪」を放つ
+MSG_MAG_INF_55	敵全体を雷で攻撃する\n「裁きの雷」を放つ
+MSG_MAG_INF_56	敵全体を炎で攻撃する\n「地獄の火炎」を放つ
+MSG_MAG_INF_57	敵全体に地震でダメージを与える\n「大地の怒り」を放つ
+MSG_MAG_INF_58	敵全体に自分の現在ＨＰに応じたダメージを与える\n「霧のブレス」を放つ
+MSG_MAG_INF_59	敵１体のＨＰを吸収し味方全員を回復する\n「風のささやき」を放つ
+MSG_MAG_INF_60	敵全体を即死させる\n「斬鉄剣」を放つ
+MSG_MAG_INF_61	敵全体に大ダメージを与える\n「津波」を放つ
+MSG_MAG_INF_62	「ケアルダ」「プロテス」「レイズ」の\nいずれかを発動する
+MSG_MAG_INF_63	敵全体に高熱エネルギーで大ダメージを与える\n「メガフレア」を放つ
+MSG_MAG_INF_64	炎を発生させ敵全体を攻撃する
+MSG_MAG_INF_65	津波を発生させ敵全体を攻撃する
+MSG_MAG_INF_66	雷を発生させ敵全体を攻撃する
+MSG_MAG_INF_67	煙で敵の目をごまかし戦闘から脱出する
+MSG_MAG_INF_68	敵の動きを止め行動不能にする
+MSG_MAG_INF_69	敵の目をあざむく分身を自分に作り出す
+MSG_WEAPON_NAME_01	<IC_CLW>炎の爪
+MSG_WEAPON_NAME_02	<IC_CLW>氷の爪
+MSG_WEAPON_NAME_03	<IC_CLW>雷の爪
+MSG_WEAPON_NAME_04	<IC_CLW>妖精の爪
+MSG_WEAPON_NAME_05	<IC_CLW>地獄の爪
+MSG_WEAPON_NAME_06	<IC_CLW>猫の爪
+MSG_WEAPON_NAME_07	<IC_ROD>ロッド
+MSG_WEAPON_NAME_08	<IC_ROD>アイスロッド
+MSG_WEAPON_NAME_09	<IC_ROD>フレイムロッド
+MSG_WEAPON_NAME_10	<IC_ROD>サンダーロッド
+MSG_WEAPON_NAME_11	<IC_ROD>変化のロッド
+MSG_WEAPON_NAME_12	<IC_ROD>妖精のロッド
+MSG_WEAPON_NAME_13	<IC_ROD>星くずのロッド
+MSG_WEAPON_NAME_14	<IC_ROD>リリスのロッド
+MSG_WEAPON_NAME_15	<IC_WND>杖
+MSG_WEAPON_NAME_16	<IC_WND>いやしの杖
+MSG_WEAPON_NAME_17	<IC_WND>ミスリルの杖
+MSG_WEAPON_NAME_18	<IC_WND>力の杖
+MSG_WEAPON_NAME_19	<IC_WND>波動の杖
+MSG_WEAPON_NAME_20	<IC_WND>賢者の杖
+MSG_WEAPON_NAME_21	<IC_WND>ルーンの杖
+MSG_WEAPON_NAME_22	<IC_DSRD>暗黒の剣
+MSG_WEAPON_NAME_23	<IC_DSRD>シャドーブレイド
+MSG_WEAPON_NAME_24	<IC_DSRD>デスブリンガー
+MSG_WEAPON_NAME_25	<IC_NSRD>伝説の剣
+MSG_WEAPON_NAME_26	<IC_NSRD>光の剣
+MSG_WEAPON_NAME_27	<IC_NSRD>エクスカリバー
+MSG_WEAPON_NAME_28	<IC_NSRD>ラグナロク
+MSG_WEAPON_NAME_29	<IC_SRD>フレイムソード
+MSG_WEAPON_NAME_30	<IC_SRD>アイスブランド
+MSG_WEAPON_NAME_31	<IC_SRD>ディフェンダー
+MSG_WEAPON_NAME_32	<IC_SRD>ブラッドソード
+MSG_WEAPON_NAME_33	<IC_SRD>古代の剣
+MSG_WEAPON_NAME_34	<IC_SRD>眠りの剣
+MSG_WEAPON_NAME_35	<IC_SRD>ブレイクブレイド
+MSG_WEAPON_NAME_36	<IC_SRD>ミスリルソード
+MSG_WEAPON_NAME_37	<IC_SRD>アヴェンジャー
+MSG_WEAPON_NAME_38	<IC_SPR>スピア
+MSG_WEAPON_NAME_39	<IC_SPR>ウィンドスピア
+MSG_WEAPON_NAME_40	<IC_SPR>炎の槍
+MSG_WEAPON_NAME_41	<IC_SPR>氷の槍
+MSG_WEAPON_NAME_42	<IC_SPR>飛竜の槍
+MSG_WEAPON_NAME_43	<IC_SPR>ホーリーランス
+MSG_WEAPON_NAME_44	<IC_SPR>ブラッドランス
+MSG_WEAPON_NAME_45	<IC_SPR>グングニル
+MSG_WEAPON_NAME_46	<IC_KTN>くない
+MSG_WEAPON_NAME_47	<IC_KTN>阿修羅
+MSG_WEAPON_NAME_48	<IC_KTN>虎徹
+MSG_WEAPON_NAME_49	<IC_KTN>菊一文字
+MSG_WEAPON_NAME_50	<IC_KTN>村雨
+MSG_WEAPON_NAME_51	<IC_KTN>正宗
+MSG_WEAPON_NAME_52	<IC_NIF>メイジマッシャー
+MSG_WEAPON_NAME_53	<IC_NIF>ミスリルナイフ
+MSG_WEAPON_NAME_54	<IC_NIF>ダンシングダガー
+MSG_WEAPON_NAME_55	<IC_NIF>包丁
+MSG_WEAPON_NAME_56	<IC_WHP>鞭
+MSG_WEAPON_NAME_57	<IC_WHP>チェンウィップ
+MSG_WEAPON_NAME_58	<IC_WHP>電撃鞭
+MSG_WEAPON_NAME_59	<IC_WHP>ファイアビュート
+MSG_WEAPON_NAME_60	<IC_WHP>竜のヒゲ
+MSG_WEAPON_NAME_61	<IC_AX>ドワーフの斧
+MSG_WEAPON_NAME_62	<IC_AX>オーガキラー
+MSG_WEAPON_NAME_63	<IC_AX>ポイズンアクス
+MSG_WEAPON_NAME_64	<IC_AX>ルーンアクス
+MSG_WEAPON_NAME_65	<IC_SRK>手裏剣
+MSG_WEAPON_NAME_66	<IC_SRK>風魔手裏剣
+MSG_WEAPON_NAME_67	<IC_TRW>ブーメラン
+MSG_WEAPON_NAME_68	<IC_TRW>円月輪
+MSG_WEAPON_NAME_69	<IC_HRP>夢の竪琴
+MSG_WEAPON_NAME_70	<IC_HRP>ラミアの竪琴
+MSG_WEAPON_NAME_71	<IC_HMR>木づち
+MSG_WEAPON_NAME_72	<IC_HMR>ミスリルハンマー
+MSG_WEAPON_NAME_73	<IC_HMR>大地のハンマー
+MSG_WEAPON_NAME_74	<IC_BOW>弓
+MSG_WEAPON_NAME_75	<IC_BOW>クロスボウ
+MSG_WEAPON_NAME_76	<IC_BOW>グレートボウ
+MSG_WEAPON_NAME_77	<IC_BOW>キラーボウ
+MSG_WEAPON_NAME_78	<IC_BOW>エルフィンボウ
+MSG_WEAPON_NAME_79	<IC_BOW>与一の弓
+MSG_WEAPON_NAME_80	<IC_BOW>アルテミスの弓
+MSG_WEAPON_NAME_81	<IC_ARW>鉄の矢
+MSG_WEAPON_NAME_82	<IC_ARW>聖なる矢
+MSG_WEAPON_NAME_83	<IC_ARW>炎の矢
+MSG_WEAPON_NAME_84	<IC_ARW>氷の矢
+MSG_WEAPON_NAME_85	<IC_ARW>雷の矢
+MSG_WEAPON_NAME_86	<IC_ARW>暗闇の矢
+MSG_WEAPON_NAME_87	<IC_ARW>毒矢
+MSG_WEAPON_NAME_88	<IC_ARW>口封じの矢
+MSG_WEAPON_NAME_89	<IC_ARW>天使の矢
+MSG_WEAPON_NAME_90	<IC_ARW>与一の矢
+MSG_WEAPON_NAME_91	<IC_ARW>メデューサの矢
+MSG_WEAPON_NAME_92	<IC_ARW>アルテミスの矢
+MSG_WEAPON_NAME_99	<IC_NSRD>Excalipoor
+MSG_WEAPON_NAME_100	<IC_NSRD>Flandango
+MSG_WEAPON_NAME_101	<IC_NSRD>Lightbringer
+MSG_WEAPON_NAME_102	<IC_SRD>Piggy Stick
+MSG_WEAPON_NAME_103	<IC_SPR>Abel's Lance
+MSG_WEAPON_NAME_104	<IC_AX>Gigant Axe
+MSG_WEAPON_NAME_105	<IC_BOW>Perseus Bow
+MSG_WEAPON_NAME_106	<IC_ARW>Perseus Arrow
+MSG_WEAPON_NAME_107	<IC_WHP>Mystic Whip
+MSG_WEAPON_NAME_108	<IC_NIF>Triton's Dagger
+MSG_WEAPON_NAME_109	<IC_NIF>Assassin's Dagger
+MSG_WEAPON_NAME_110	<IC_KTN>Sasuke's Katana
+MSG_WEAPON_NAME_111	<IC_KTN>Mutsunokami
+MSG_WEAPON_NAME_112	<IC_SRK>Scrap Metal
+MSG_WEAPON_NAME_113	<IC_TRW>Rising Sun
+MSG_WEAPON_NAME_114	<IC_CLW>Tiger Fangs
+MSG_WEAPON_NAME_115	<IC_CLW>Dragon Claws
+MSG_WEAPON_NAME_116	<IC_CLW>Godhand
+MSG_WEAPON_NAME_117	<IC_HMR>Thor's Hammer
+MSG_WEAPON_NAME_118	<IC_HMR>Fiery Hammer
+MSG_WEAPON_NAME_119	<IC_ROD>Asura's Rod
+MSG_WEAPON_NAME_120	<IC_WND>Seraphim's Mace
+MSG_WEAPON_NAME_121	<IC_WND>Nirvana
+MSG_WEAPON_NAME_122	<IC_HRP>Apollo's Harp
+MSG_WEAPON_NAME_123	<IC_HRP>Requiem Harp
+MSG_WEAPON_NAME_124	<IC_HRP>Loki's Harp
+MSG_WEAPON_NAME_125	<IC_DSRD>Blood Dark Sword
+MSG_WEAPON_NAME_126	<IC_DSRD>Golbez's Sword
+MSG_WEAPON_NAME_127	<IC_DSRD>Vampire Sword
+MSG_WEAPON_NAME_128	<IC_DSRD>Megido Sword
+MSG_WEAPON_NAME_129	<IC_SRD>Erdrick's Sword
+MSG_WEAPON_NAME_130	<IC_SPR>Vampire Spear
+MSG_WEAPON_NAME_131	<IC_ROD>Super Anger Rod
+MSG_ARMOR_NAME_01	<IC_SHIELD>アイアンシールド
+MSG_ARMOR_NAME_02	<IC_SHIELD>暗黒の盾
+MSG_ARMOR_NAME_03	<IC_SHIELD>デモンズシールド
+MSG_ARMOR_NAME_04	<IC_SHIELD>光の盾
+MSG_ARMOR_NAME_05	<IC_SHIELD>ミスリルシールド
+MSG_ARMOR_NAME_06	<IC_SHIELD>フレイムシールド
+MSG_ARMOR_NAME_07	<IC_SHIELD>アイスシールド
+MSG_ARMOR_NAME_08	<IC_SHIELD>ダイヤシールド
+MSG_ARMOR_NAME_09	<IC_SHIELD>イージスの盾
+MSG_ARMOR_NAME_10	<IC_SHIELD>源氏の盾
+MSG_ARMOR_NAME_11	<IC_SHIELD>ドラゴンシールド
+MSG_ARMOR_NAME_12	<IC_SHIELD>クリスタルの盾
+MSG_ARMOR_NAME_13	<IC_HEAD>アイアンヘルム
+MSG_ARMOR_NAME_14	<IC_HEAD>暗黒の兜
+MSG_ARMOR_NAME_15	<IC_HEAD>ハデスの兜
+MSG_ARMOR_NAME_16	<IC_HEAD>デモンズヘルム
+MSG_ARMOR_NAME_17	<IC_HEAD>光の兜
+MSG_ARMOR_NAME_18	<IC_HEAD>ミスリルヘルム
+MSG_ARMOR_NAME_19	<IC_HEAD>ダイヤの兜
+MSG_ARMOR_NAME_20	<IC_HEAD>源氏の兜
+MSG_ARMOR_NAME_21	<IC_HEAD>ドラゴンヘルム
+MSG_ARMOR_NAME_22	<IC_HEAD>クリスタルヘルム
+MSG_ARMOR_NAME_23	<IC_HEAD>皮の帽子
+MSG_ARMOR_NAME_24	<IC_HEAD>羽根付き帽子
+MSG_ARMOR_NAME_25	<IC_HEAD>三角帽子
+MSG_ARMOR_NAME_26	<IC_HEAD>司祭の帽子
+MSG_ARMOR_NAME_27	<IC_HEAD>金の髪飾り
+MSG_ARMOR_NAME_28	<IC_HEAD>リボン
+MSG_ARMOR_NAME_29	<IC_HEAD>ねじり鉢巻
+MSG_ARMOR_NAME_30	<IC_HEAD>グリーンベレー
+MSG_ARMOR_NAME_31	<IC_HEAD>黒頭巾
+MSG_ARMOR_NAME_32	<IC_HEAD>ガラスのマスク
+MSG_ARMOR_NAME_33	<IC_ARMOR>アイアンアーマー
+MSG_ARMOR_NAME_34	<IC_ARMOR>暗黒の鎧
+MSG_ARMOR_NAME_35	<IC_ARMOR>ハデスの鎧
+MSG_ARMOR_NAME_36	<IC_ARMOR>デモンズアーマー
+MSG_ARMOR_NAME_37	<IC_ARMOR>ナイトの鎧
+MSG_ARMOR_NAME_38	<IC_ARMOR>ミスリルアーマー
+MSG_ARMOR_NAME_39	<IC_ARMOR>フレイムメイル
+MSG_ARMOR_NAME_40	<IC_ARMOR>アイスアーマー
+MSG_ARMOR_NAME_41	<IC_ARMOR>ダイヤアーマー
+MSG_ARMOR_NAME_42	<IC_ARMOR>源氏の鎧
+MSG_ARMOR_NAME_43	<IC_ARMOR>ドラゴンメイル
+MSG_ARMOR_NAME_44	<IC_ARMOR>クリスタルメイル
+MSG_ARMOR_NAME_45	<IC_CLTH>服
+MSG_ARMOR_NAME_46	<IC_CLTH>皮の服
+MSG_ARMOR_NAME_47	<IC_CLTH>大地の衣
+MSG_ARMOR_NAME_48	<IC_CLTH>司祭のローブ
+MSG_ARMOR_NAME_49	<IC_CLTH>黒のローブ
+MSG_ARMOR_NAME_50	<IC_CLTH>光のローブ
+MSG_ARMOR_NAME_51	<IC_CLTH>白のローブ
+MSG_ARMOR_NAME_52	<IC_CLTH>力だすき
+MSG_ARMOR_NAME_53	<IC_CLTH>ミネルバビスチェ
+MSG_ARMOR_NAME_54	<IC_CLTH>囚人の服
+MSG_ARMOR_NAME_55	<IC_CLTH>詩人の服
+MSG_ARMOR_NAME_56	<IC_CLTH>拳法着
+MSG_ARMOR_NAME_57	<IC_CLTH>黒帯道着
+MSG_ARMOR_NAME_58	<IC_ARMOR>アダマンアーマー
+MSG_ARMOR_NAME_59	<IC_CLTH>黒装束
+MSG_ARMOR_NAME_60	<IC_GLOV>鉄の小手
+MSG_ARMOR_NAME_61	<IC_GLOV>暗黒の小手
+MSG_ARMOR_NAME_62	<IC_GLOV>ハデスの小手
+MSG_ARMOR_NAME_63	<IC_GLOV>悪魔の小手
+MSG_ARMOR_NAME_64	<IC_GLOV>ガントレット
+MSG_ARMOR_NAME_65	<IC_GLOV>ミスリルの小手
+MSG_ARMOR_NAME_66	<IC_GLOV>ダイヤの小手
+MSG_ARMOR_NAME_67	<IC_GLOV>巨人の小手
+MSG_ARMOR_NAME_68	<IC_GLOV>源氏の小手
+MSG_ARMOR_NAME_69	<IC_GLOV>ドラゴンの小手
+MSG_ARMOR_NAME_70	<IC_GLOV>クリスタルの小手
+MSG_ARMOR_NAME_71	<IC_GLOV>鉄の腕輪
+MSG_ARMOR_NAME_72	<IC_GLOV>ルビーの指輪
+MSG_ARMOR_NAME_73	<IC_GLOV>銀の腕輪
+MSG_ARMOR_NAME_74	<IC_GLOV>パワーリスト
+MSG_ARMOR_NAME_75	<IC_GLOV>ルーンの腕輪
+MSG_ARMOR_NAME_76	<IC_GLOV>クリスタルリング
+MSG_ARMOR_NAME_77	<IC_GLOV>ダイヤの腕輪
+MSG_ARMOR_NAME_78	<IC_GLOV>守りの指輪
+MSG_ARMOR_NAME_79	<IC_GLOV>呪いの指輪
+MSG_ARMOR_NAME_80	<IC_ARMOR>Grand Armor
+MSG_ARMOR_NAME_81	<IC_ARMOR>Dragoon Plate
+MSG_ARMOR_NAME_82	<IC_ARMOR>Caesar's Plate
+MSG_ARMOR_NAME_83	<IC_ARMOR>Maximillian
+MSG_ARMOR_NAME_84	<IC_CLTH>Red Jacket
+MSG_ARMOR_NAME_85	<IC_CLTH>Brave Suit
+MSG_ARMOR_NAME_86	<IC_CLTH>Chocobo Suit
+MSG_ARMOR_NAME_87	<IC_CLTH>Tabby Suit
+MSG_ARMOR_NAME_88	<IC_CLTH>Battle Gear
+MSG_ARMOR_NAME_89	<IC_CLTH>Assassin's Vest
+MSG_ARMOR_NAME_90	<IC_CLTH>Vishnu Vest
+MSG_ARMOR_NAME_91	<IC_CLTH>Sage's Robe
+MSG_ARMOR_NAME_92	<IC_CLTH>Robe Of Lords
+MSG_ARMOR_NAME_93	<IC_CLTH>Rainbow Robe
+MSG_ARMOR_NAME_94	<IC_CLTH>White Dress
+MSG_ARMOR_NAME_95	<IC_SHIELD>Hero's Shield
+MSG_ARMOR_NAME_96	<IC_SHIELD>Chocobo Shield
+MSG_ARMOR_NAME_97	<IC_HEAD>Hypnocrown
+MSG_ARMOR_NAME_98	<IC_HEAD>Cat-Ear Hood
+MSG_ARMOR_NAME_99	<IC_HEAD>White Tiger Mask
+MSG_ARMOR_NAME_100	<IC_HEAD>Red Cap
+MSG_ARMOR_NAME_101	<IC_HEAD>Rabbit-Ear Hood
+MSG_ARMOR_NAME_102	<IC_HEAD>Augustine Tiara
+MSG_ARMOR_NAME_103	<IC_HEAD>Star of Kami Kazari
+MSG_ARMOR_NAME_104	<IC_HEAD>Royal Crown
+MSG_ARMOR_NAME_105	<IC_HEAD>Dual Mask
+MSG_ARMOR_NAME_106	<IC_HEAD>Demon Hat
+MSG_ARMOR_NAME_107	<IC_HEAD>Philosopher's Hat
+MSG_ARMOR_NAME_108	<IC_HEAD>Grand Helm
+MSG_ARMOR_NAME_109	<IC_HEAD>Caesar Helm
+MSG_ARMOR_NAME_110	<IC_HEAD>Dragoon Helm
+MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
+MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
+MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
+MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ITEM_NAME_01	<IC_BAG>ボムのかけら
+MSG_ITEM_NAME_02	<IC_BAG>ボムの右腕
+MSG_ITEM_NAME_03	<IC_BAG>南極の風
+MSG_ITEM_NAME_04	<IC_BAG>北極の風
+MSG_ITEM_NAME_05	<IC_BAG>ゼウスの怒り
+MSG_ITEM_NAME_06	<IC_BAG>神々の怒り
+MSG_ITEM_NAME_07	<IC_BAG>星の砂
+MSG_ITEM_NAME_08	<IC_BAG>リリスのくちづけ
+MSG_ITEM_NAME_09	<IC_BAG>バンパイアの牙
+MSG_ITEM_NAME_10	<IC_BAG>バッカスの酒
+MSG_ITEM_NAME_11	<IC_BAG>エルメスの靴
+MSG_ITEM_NAME_12	<IC_BAG>銅の砂時計
+MSG_ITEM_NAME_13	<IC_BAG>銀の砂時計
+MSG_ITEM_NAME_14	<IC_BAG>金の砂時計
+MSG_ITEM_NAME_15	<IC_BAG>クモの糸
+MSG_ITEM_NAME_16	<IC_BAG>スケープドール
+MSG_ITEM_NAME_17	<IC_BAG>赤い牙
+MSG_ITEM_NAME_18	<IC_BAG>白い牙
+MSG_ITEM_NAME_19	<IC_BAG>青い牙
+MSG_ITEM_NAME_20	<IC_BAG>光のカーテン
+MSG_ITEM_NAME_21	<IC_BAG>ボムの魂
+MSG_ITEM_NAME_22	<IC_BAG>月のカーテン
+MSG_ITEM_NAME_23	<IC_BAG>静寂の鐘
+MSG_ITEM_NAME_24	<IC_BAG>大地のドラム
+MSG_ITEM_NAME_25	<IC_BAG>クリスタル
+MSG_ITEM_NAME_26	<IC_BAG>クアールのヒゲ
+MSG_ITEM_NAME_27	<IC_BAG>奥義の書
+MSG_ITEM_NAME_28	<IC_BAG>怪獣図鑑
+MSG_ITEM_NAME_29	<IC_BAG>目覚まし時計
+MSG_ITEM_NAME_30	<IC_BAG>ユニコーンの角
+MSG_ITEM_NAME_31	<IC_DRAG>ポーション
+MSG_ITEM_NAME_32	<IC_DRAG>ハイポーション
+MSG_ITEM_NAME_33	<IC_DRAG>エクスポーション
+MSG_ITEM_NAME_34	<IC_DRAG>エーテル
+MSG_ITEM_NAME_35	<IC_DRAG>エーテルドライ
+MSG_ITEM_NAME_36	<IC_DRAG>エリクサー
+MSG_ITEM_NAME_37	<IC_BAG>フェニックスの尾
+MSG_ITEM_NAME_38	<IC_BAG>金の針
+MSG_ITEM_NAME_39	<IC_BAG>乙女のキッス
+MSG_ITEM_NAME_40	<IC_BAG>うちでのこづち
+MSG_ITEM_NAME_41	<IC_BAG>ダイエットフード
+MSG_ITEM_NAME_42	<IC_BAG>やまびこ草
+MSG_ITEM_NAME_43	<IC_BAG>目薬
+MSG_ITEM_NAME_44	<IC_BAG>毒消し
+MSG_ITEM_NAME_45	<IC_BAG>十字架
+MSG_ITEM_NAME_46	<IC_BAG>万能薬
+MSG_ITEM_NAME_47	<IC_BAG>アラーム
+MSG_ITEM_NAME_48	<IC_BAG>金のリンゴ
+MSG_ITEM_NAME_49	<IC_BAG>銀のリンゴ
+MSG_ITEM_NAME_50	<IC_BAG>ソーマのしずく
+MSG_ITEM_NAME_51	<IC_TENTO>テント
+MSG_ITEM_NAME_52	<IC_TENTO>コテージ
+MSG_ITEM_NAME_54	<IC_BAG>非常口
+MSG_ITEM_NAME_55	<IC_BAG>こびとのパン
+MSG_ITEM_NAME_56	<IC_BAG>ゴブリン
+MSG_ITEM_NAME_57	<IC_BAG>ボム
+MSG_ITEM_NAME_58	<IC_BAG>コカトリス
+MSG_ITEM_NAME_59	<IC_BAG>マインドフレア
+MSG_ITEM_NAME_60	<IC_BAG>ギサールの野菜
+MSG_ITEM_NAME_61	<IC_BAG>ギサールの笛
+MSG_KEY_NAME_01	<IC_BAG>会員証
+MSG_KEY_NAME_02	<IC_IOBJ>ボムの指輪
+MSG_KEY_NAME_03	<IC_IOBJ>バロンのカギ
+MSG_KEY_NAME_04	<IC_IOBJ>砂漠の光
+MSG_KEY_NAME_05	<IC_IOBJ>土のクリスタル
+MSG_KEY_NAME_06	<IC_IOBJ>マグマの石
+MSG_KEY_NAME_07	<IC_IOBJ>ルカの首飾り
+MSG_KEY_NAME_08	<IC_IOBJ>ひそひ草
+MSG_KEY_NAME_09	<IC_IOBJ>闇のクリスタル
+MSG_KEY_NAME_10	<IC_IOBJ>ネズミのしっぽ
+MSG_KEY_NAME_11	<IC_IOBJ>アダマンタイト
+MSG_KEY_NAME_12	<IC_IOBJ>愛のフライパン
+MSG_KEY_NAME_13	<IC_IOBJ>ピンクのしっぽ
+MSG_KEY_NAME_14	<IC_IOBJ>ルゲイエのカギ
+MSG_KEY_NAME_15	<IC_IOBJ>ダークマター
+MSG_KEY_NAME_16	<IC_IOBJ>Kaipo Inn Pass
+MSG_KEY_NAME_17	<IC_IOBJ>Hook
+MSG_KEY_NAME_18	<IC_IOBJ>Yellow Tail
+MSG_KEY_NAME_19	<IC_IOBJ>Green Tail
+MSG_KEY_NAME_20	<IC_IOBJ>Blue Tail
+MSG_KEY_NAME_21	<IC_IOBJ>Red Tail
+MSG_KEY_NAME_22	<IC_IOBJ>Brown Tail
+MSG_KEY_NAME_23	<IC_IOBJ>Black Tail
+MSG_KEY_NAME_24	<IC_IOBJ>Trash Can
+MSG_KEY_NAME_25	<IC_IOBJ>Crystal Shard
+MSG_KEY_NAME_26	<IC_IOBJ>Orange Tail
+MSG_KEY_NAME_27	<IC_IOBJ>White Tail
+MSG_WEAPON_INF_01	「炎」の力をまとった爪
+MSG_WEAPON_INF_02	「冷気」の力をまとった爪
+MSG_WEAPON_INF_03	「雷」の力をまとった爪
+MSG_WEAPON_INF_04	敵を「混乱」させることがある爪\n「巨人族」に有効
+MSG_WEAPON_INF_05	敵に「毒」を与えることがある爪
+MSG_WEAPON_INF_06	敵を「眠り」にさせることがある爪
+MSG_WEAPON_INF_07	使うと「マジックアロー」で攻撃するロッド
+MSG_WEAPON_INF_08	「冷気」の力をまとったロッド\n使うと「ブリザド」の効果
+MSG_WEAPON_INF_09	「炎」の力をまとったロッド\n使うと「ファイア」の効果
+MSG_WEAPON_INF_10	「雷」の力をまとったロッド\n使うと「サンダー」の効果
+MSG_WEAPON_INF_11	使うと「ポーキー」の効果があるロッド
+MSG_WEAPON_INF_12	使うと「コンフュ」の効果があるロッド
+MSG_WEAPON_INF_13	使うと「プチメテオ」の効果があるロッド
+MSG_WEAPON_INF_14	相手のＨＰを奪うロッド\n使うと「アスピル」の効果
+MSG_WEAPON_INF_15	使うと「ポイゾナ」で毒を回復する杖
+MSG_WEAPON_INF_16	使うと「ヒール」で全員のＨＰを回復する杖
+MSG_WEAPON_INF_17	「アンデッド」に有効なミスリル製の杖\n使うと「バスナ」で一部の状態異常を回復する
+MSG_WEAPON_INF_18	敵を「狂戦士」状態にすることがある杖
+MSG_WEAPON_INF_19	使うと「ディスペル」の効果がある杖
+MSG_WEAPON_INF_20	使うと「レイズ」の効果がある杖
+MSG_WEAPON_INF_21	敵を「沈黙」させることがある杖\n使うと「サイレス」の効果
+MSG_WEAPON_INF_22	一般的な暗黒剣
+MSG_WEAPON_INF_23	とぎすまされた刃の暗黒剣
+MSG_WEAPON_INF_24	敵を一撃で死に追いやることがある暗黒剣
+MSG_WEAPON_INF_25	ミシディアの伝説が記されている聖剣
+MSG_WEAPON_INF_26	聖なる光で輝いている聖剣
+MSG_WEAPON_INF_27	英雄が使っていた伝説の聖剣
+MSG_WEAPON_INF_28	モンスターに恐れられ封印されていた聖剣
+MSG_WEAPON_INF_29	「炎」の力をまとった剣
+MSG_WEAPON_INF_30	「冷気」の力をまとった剣
+MSG_WEAPON_INF_31	守りの力を秘めた剣\n使うと「プロテス」の効果
+MSG_WEAPON_INF_32	相手のＨＰを奪う剣\n「巨人族」「プリン」に有効
+MSG_WEAPON_INF_33	敵に「呪い」をかけることがある剣\n「霊体」に有効
+MSG_WEAPON_INF_34	敵を「眠り」にさせることがある剣\n使うと「スリプル」の効果
+MSG_WEAPON_INF_35	敵を「徐々に石化」させることがある剣
+MSG_WEAPON_INF_36	「霊体」に有効なミスリル製の剣
+MSG_WEAPON_INF_37	「狂戦士」状態になる呪いがかかった両手剣
+MSG_WEAPON_INF_38	一般的な槍
+MSG_WEAPON_INF_39	鋭利な刃の槍
+MSG_WEAPON_INF_40	「炎」の力をまとった槍\n使うと「ファイラ」の効果
+MSG_WEAPON_INF_41	「冷気」の力をまとった槍\n使うと「ブリザラ」の効果
+MSG_WEAPON_INF_42	「竜族」に有効な槍
+MSG_WEAPON_INF_43	「聖」なる力をまとった槍\n使うと「ホーリー」の効果
+MSG_WEAPON_INF_44	相手のＨＰを奪う槍\n「巨人族」「プリン」に有効
+MSG_WEAPON_INF_45	神々に愛用されていたという伝説の槍
+MSG_WEAPON_INF_46	忍者が使う小刀
+MSG_WEAPON_INF_47	戦いの化身の名前がつけられた刀
+MSG_WEAPON_INF_48	使いやすさに重点を置いた小振りの刀
+MSG_WEAPON_INF_49	鞘に菊の細工が施されている刀
+MSG_WEAPON_INF_50	妖刀と呼ばれている刀\n使うと「プロテス」の効果
+MSG_WEAPON_INF_51	最強と呼ばれる刀\n使うと「ヘイスト」の効果
+MSG_WEAPON_INF_52	敵を「沈黙」させることがあるナイフ\n「魔法使い」に有効
+MSG_WEAPON_INF_53	「霊体」に有効なミスリル製のナイフ
+MSG_WEAPON_INF_54	使うと踊り子の力で攻撃するダガー
+MSG_WEAPON_INF_55	切れ味抜群の包丁
+MSG_WEAPON_INF_56	一般的な鞭\n敵を「マヒ」させることがある
+MSG_WEAPON_INF_57	鉄の鎖の鞭\n敵を「マヒ」させることがある
+MSG_WEAPON_INF_58	「雷」の力をまとった鞭\n敵を「マヒ」させることがある
+MSG_WEAPON_INF_59	「炎」の力をまとった鞭\n敵を「マヒ」させることがある
+MSG_WEAPON_INF_60	「竜族」に有効な鞭\n敵を「マヒ」させることがある
+MSG_WEAPON_INF_61	ドワーフたちが愛用している投げ斧
+MSG_WEAPON_INF_62	「巨人族」に有効な巨大な斧
+MSG_WEAPON_INF_63	敵に「毒」を与えることがある両手斧\n使うと「ポイズン」の効果
+MSG_WEAPON_INF_64	「魔法使い」に有効な両手斧
+MSG_WEAPON_INF_65	忍者が使う「なげる」専用の武器
+MSG_WEAPON_INF_66	忍者が使う「なげる」専用の武器
+MSG_WEAPON_INF_67	木製の投てき武器
+MSG_WEAPON_INF_68	金属製の投てき武器
+MSG_WEAPON_INF_69	眠りを誘う音色を奏でる竪琴\n敵を「眠り」にさせることがある
+MSG_WEAPON_INF_70	誘惑する音色を奏でる竪琴\n敵を「混乱」させることがある
+MSG_WEAPON_INF_71	「機械」に有効な木製のハンマー
+MSG_WEAPON_INF_72	「霊体」「機械」に有効なミスリル製のハンマー
+MSG_WEAPON_INF_73	「炎」の力をまとった「機械」に有効なハンマー\n使うと「クエイク」の効果
+MSG_WEAPON_INF_74	一般的な弓
+MSG_WEAPON_INF_75	狩猟用の弓
+MSG_WEAPON_INF_76	戦闘用の弓
+MSG_WEAPON_INF_77	殺傷能力を高めた弓
+MSG_WEAPON_INF_78	「魔法使い」に有効なエルフが作った弓\n使うと「シェル」の効果
+MSG_WEAPON_INF_79	異国の弓の名手が使っていたと言われる弓
+MSG_WEAPON_INF_80	月の女神の名前がつけられた弓
+MSG_WEAPON_INF_81	鉄製の矢
+MSG_WEAPON_INF_82	「聖」なる力をまとった矢
+MSG_WEAPON_INF_83	「炎」の力をまとった矢
+MSG_WEAPON_INF_84	「冷気」の力をまとった矢
+MSG_WEAPON_INF_85	「雷」の力をまとった矢
+MSG_WEAPON_INF_86	敵を「暗闇」にすることがある矢
+MSG_WEAPON_INF_87	敵に「毒」を与えることがある矢
+MSG_WEAPON_INF_88	敵を「沈黙」させることがある矢\n「魔法使い」に有効
+MSG_WEAPON_INF_89	敵を「混乱」させることがある矢\n「巨人族」に有効
+MSG_WEAPON_INF_90	異国の弓の名手が使っていたと言われる矢
+MSG_WEAPON_INF_91	敵を「石化」させることがある矢
+MSG_WEAPON_INF_92	月の女神の名前がつけられた矢\n「竜族」に有効
+MSG_WEAPON_INF_99	Legendary holy sword. (NOT)
+MSG_WEAPON_INF_100	Holy sword useful against flan creatures.
+MSG_WEAPON_INF_101	Holy sword immersed in holy power.
+MSG_WEAPON_INF_102	Stick that can turn the enemy into a pig.
+MSG_WEAPON_INF_103	Legendary spear with the power of wind.
+MSG_WEAPON_INF_104	Axe that has the chance to poison the enemy.
+MSG_WEAPON_INF_105	Bow said to have been used by a legendary hero.
+MSG_WEAPON_INF_106	Arrow that sometimes confuses an enemy.
+MSG_WEAPON_INF_107	Whip immersed in holy power.
+MSG_WEAPON_INF_108	Short sword with the power of water.
+MSG_WEAPON_INF_109	Dagger that has a chance to kill with one blow.
+MSG_WEAPON_INF_110	Legendary katana of ninjas.
+MSG_WEAPON_INF_111	Illusionary sword.
+MSG_WEAPON_INF_112	Pile of rusty scrap metal.
+MSG_WEAPON_INF_113	The ultimate thrown weapon.
+MSG_WEAPON_INF_114	Claw that sometimes paralyzes the enemy.
+MSG_WEAPON_INF_115	Claw effective against dragons.
+MSG_WEAPON_INF_116	Claw immersed in holy power.
+MSG_WEAPON_INF_117	Hammer that holds the power of lightning.
+MSG_WEAPON_INF_118	Hammer with the power of heat.
+MSG_WEAPON_INF_119	Rod immersed in holy power.
+MSG_WEAPON_INF_120	Staff with the power of healing.
+MSG_WEAPON_INF_121	Staff with the power of reflection.
+MSG_WEAPON_INF_122	Harp immersed in the power of the sun.
+MSG_WEAPON_INF_123	Lute that can release one's soul.
+MSG_WEAPON_INF_124	The ultimate lute.
+MSG_WEAPON_INF_125	A blood sword that a Dark Knight can really take advantage of.
+MSG_WEAPON_INF_126	Cecil's brother's sword enhances a dark knight Cecil.
+MSG_WEAPON_INF_127	An amazingly efficient blood sword... but it comes at a cost.
+MSG_WEAPON_INF_128	The ultimate sword of anger that makes even Zeromus jealous.  Casts Mega Flare when used in battle.
+MSG_WEAPON_INF_129	A sword from a faraway land that anyone can equip, as another randomizer has proven.
+MSG_WEAPON_INF_130	When finished with this rando, take Kain to the FF3 world and speedrun with this spear!
+MSG_WEAPON_INF_131	If you thought Tellah was miffed when he defeated Golbez... Casts Double Meteor when used in battle.
+MSG_ARMOR_INF_01	鉄製の盾
+MSG_ARMOR_INF_02	強力な邪気を持つ盾
+MSG_ARMOR_INF_03	悪魔が持っていたと言われる盾
+MSG_ARMOR_INF_04	「アンデッド」の攻撃に強い盾
+MSG_ARMOR_INF_05	「霊体」の攻撃に強いミスリル製の盾
+MSG_ARMOR_INF_06	「炎」の力をまとった盾\n冷気に強く炎に弱い
+MSG_ARMOR_INF_07	「冷気」の力をまとった盾\n炎に強く冷気に弱い
+MSG_ARMOR_INF_08	「雷」に強い盾
+MSG_ARMOR_INF_09	「石化」を防ぐ盾\n「魔法使い」の攻撃に強い
+MSG_ARMOR_INF_10	異国で使われていた盾
+MSG_ARMOR_INF_11	「炎」「冷気」「雷」に強い盾\n「竜族」の攻撃に強い
+MSG_ARMOR_INF_12	「アンデッド」の攻撃に強い盾
+MSG_ARMOR_INF_13	鉄製の兜
+MSG_ARMOR_INF_14	強力な邪気を持つ兜
+MSG_ARMOR_INF_15	悪魔が持っていたと言われる兜
+MSG_ARMOR_INF_16	悪魔がとりついていると言われる兜
+MSG_ARMOR_INF_17	「アンデッド」の攻撃に強い兜
+MSG_ARMOR_INF_18	「霊体」の攻撃に強いミスリル製の兜
+MSG_ARMOR_INF_19	「雷」に強い兜
+MSG_ARMOR_INF_20	異国で使われていた兜
+MSG_ARMOR_INF_21	「炎」「冷気」「雷」に強い兜\n「竜族」の攻撃に強い
+MSG_ARMOR_INF_22	「炎」「冷気」「雷」に強い兜\n「アンデッド」の攻撃に強い
+MSG_ARMOR_INF_23	皮製の帽子
+MSG_ARMOR_INF_24	絹糸で作られた軽い帽子
+MSG_ARMOR_INF_25	特殊な糸で作られた帽子
+MSG_ARMOR_INF_26	神聖な糸で作られた帽子\n「アンデッド」の攻撃に強い
+MSG_ARMOR_INF_27	「雷」に強い髪飾り\n「竜族」の攻撃に強い
+MSG_ARMOR_INF_28	様々な状態異常を防ぐリボン\n「魔法使い」の攻撃に強い
+MSG_ARMOR_INF_29	「混乱」を防ぐ鉢巻
+MSG_ARMOR_INF_30	魔力がこもった帽子
+MSG_ARMOR_INF_31	「眠り」を防ぐ頭巾
+MSG_ARMOR_INF_32	ガラス製のマスク
+MSG_ARMOR_INF_33	鉄製の鎧
+MSG_ARMOR_INF_34	強力な邪気を持つ鎧
+MSG_ARMOR_INF_35	悪魔が持っていたと言われる鎧
+MSG_ARMOR_INF_36	悪魔がとりついていると言われる鎧
+MSG_ARMOR_INF_37	「アンデッド」の攻撃に強い鎧
+MSG_ARMOR_INF_38	「霊体」の攻撃に強いミスリル製の鎧
+MSG_ARMOR_INF_39	「炎」の力をまとった鎧\n冷気に強く炎に弱い
+MSG_ARMOR_INF_40	「冷気」の力をまとった鎧\n炎に強く冷気に弱い
+MSG_ARMOR_INF_41	「雷」に強い鎧
+MSG_ARMOR_INF_42	異国で使われていた鎧
+MSG_ARMOR_INF_43	「炎」「冷気」「雷」に強い鎧\n「竜族」の攻撃に強い
+MSG_ARMOR_INF_44	様々な状態異常を防ぐ鎧\n「アンデッド」の攻撃に強い
+MSG_ARMOR_INF_45	一般的な服
+MSG_ARMOR_INF_46	皮製の服
+MSG_ARMOR_INF_47	「徐々に石化」を防ぐ服
+MSG_ARMOR_INF_48	神聖な糸で作られたローブ
+MSG_ARMOR_INF_49	黒魔法を使う者のためのローブ
+MSG_ARMOR_INF_50	「雷」に強いローブ\n「アンデッド」の攻撃に強い
+MSG_ARMOR_INF_51	白魔法を使う者のためのローブ\n「暗闇」を防ぐ
+MSG_ARMOR_INF_52	特殊な糸で作られたたすき
+MSG_ARMOR_INF_53	天界の女神が持っていると言われる服\n「マヒ」を防ぐ
+MSG_ARMOR_INF_54	「眠り」を防ぐ服
+MSG_ARMOR_INF_55	「沈黙」を防ぐ服
+MSG_ARMOR_INF_56	格闘家が愛用している服
+MSG_ARMOR_INF_57	軽くて動きやすい異国の服
+MSG_ARMOR_INF_58	様々な状態異常を防ぐアダマンタイト製の鎧\n「炎」「冷気」「雷」に強い
+MSG_ARMOR_INF_59	異国より伝わった黒ずくめの服
+MSG_ARMOR_INF_60	鉄製の小手
+MSG_ARMOR_INF_61	強力な邪気を持つ小手
+MSG_ARMOR_INF_62	悪魔が持っていたと言われる小手
+MSG_ARMOR_INF_63	悪魔がとりついていると言われる小手
+MSG_ARMOR_INF_64	「アンデッド」の攻撃に強い小手
+MSG_ARMOR_INF_65	「霊体」の攻撃に強いミスリル製の小手
+MSG_ARMOR_INF_66	「雷」に強い小手
+MSG_ARMOR_INF_67	「こびと」を防ぐ小手\n「巨人族」の攻撃に強い
+MSG_ARMOR_INF_68	異国で使われていた小手
+MSG_ARMOR_INF_69	「炎」「冷気」「雷」に強い小手\n「竜族」の攻撃に強い
+MSG_ARMOR_INF_70	「アンデッド」の攻撃に強い小手
+MSG_ARMOR_INF_71	鉄製の腕輪
+MSG_ARMOR_INF_72	「ブタ」を防ぐ指輪
+MSG_ARMOR_INF_73	「霊体」の攻撃に強い腕輪
+MSG_ARMOR_INF_74	格闘家の力を高めるリスト
+MSG_ARMOR_INF_75	「沈黙」を防ぐ腕輪\n「魔法使い」の攻撃に強い
+MSG_ARMOR_INF_76	「混乱」「眠り」「マヒ」を防ぐ腕輪\n「竜族」の攻撃に強い
+MSG_ARMOR_INF_77	「雷」に強い腕輪
+MSG_ARMOR_INF_78	「炎」「冷気」「雷」に強い指輪
+MSG_ARMOR_INF_79	防具の属性を強化する呪われている指輪
+MSG_ARMOR_INF_80	Armor resistant against lightning.
+MSG_ARMOR_INF_81	Armor of the legendary dragoon.
+MSG_ARMOR_INF_82	Armor made in worship of an ancient leader.
+MSG_ARMOR_INF_83	Armor made by great blacksmiths.
+MSG_ARMOR_INF_84	Jacket resistant against fire.
+MSG_ARMOR_INF_85	Suit that prevents Curse.
+MSG_ARMOR_INF_86	Chocobo suit that prevents poison.
+MSG_ARMOR_INF_87	Cat suit that prevents poison.
+MSG_ARMOR_INF_88	Gear that prevents Curse, Pig, and Toad.
+MSG_ARMOR_INF_89	Vest that prevents Poison, Petrify, and Paralyze.
+MSG_ARMOR_INF_90	Vest resistant against all attributes.
+MSG_ARMOR_INF_91	Robe that prevents silence.
+MSG_ARMOR_INF_92	Robe resistant against fire, ice, and lightning.
+MSG_ARMOR_INF_93	Robe resistant against magic.
+MSG_ARMOR_INF_94	Dress of purity that is resistant against undead.
+MSG_ARMOR_INF_95	Shield that can only be equipped by true heroes.
+MSG_ARMOR_INF_96	Shield found after making a deal with a Fat Chocobo.  Resistant to Confuse.
+MSG_ARMOR_INF_97	Crown that prevents Toad, Mini, and Pig.
+MSG_ARMOR_INF_98	Hood resistant against ice.
+MSG_ARMOR_INF_99	Mask that prevents Paralyze.
+MSG_ARMOR_INF_100	Hat resistant against fire.
+MSG_ARMOR_INF_101	Discovered after seven trading cards were collected.  Resistant to many conditions.
+MSG_ARMOR_INF_102	Rosa's special hat.  Resists Sleep, Silvence, Confuse, and Pig.
+MSG_ARMOR_INF_103	Rydia's special hat.  Resists Silence, Confuse, and Mini.
+MSG_ARMOR_INF_104	Edward's special crown.  Resistant Poison, Petrify, Silence, and Confuse.
+MSG_ARMOR_INF_105	Yang's special mask.  Resistant to sleep.
+MSG_ARMOR_INF_106	Palom's special hat.  Resists Mini, Toad, and Pig.
+MSG_ARMOR_INF_107	Porom's special hat.  Resists Mini, Toad, and Pig.
+MSG_ARMOR_INF_108	Helm resistant against lightning.
+MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
+MSG_ARMOR_INF_110	Kain's special helmet.
+MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
+MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ITEM_INF_01	「ファイア」と同じ効果がある
+MSG_ITEM_INF_02	「ファイラ」と同じ効果がある
+MSG_ITEM_INF_03	「ブリザド」と同じ効果のある石
+MSG_ITEM_INF_04	「ブリザラ」と同じ効果のある石
+MSG_ITEM_INF_05	「サンダー」と同じ効果のある像
+MSG_ITEM_INF_06	「サンダラ」と同じ効果のある像
+MSG_ITEM_INF_07	「プチメテオ」と同じ効果のある砂
+MSG_ITEM_INF_08	「アスピル」と同じ効果のある像
+MSG_ITEM_INF_09	「ドレイン」と同じ効果のある牙
+MSG_ITEM_INF_10	「バーサク」と同じ効果のある酒
+MSG_ITEM_INF_11	「ヘイスト」と同じ効果のある靴
+MSG_ITEM_INF_12	「ストップ」と同じ効果のある時計
+MSG_ITEM_INF_13	「ストップ」と同じ効果のある時計\n持続時間が長い
+MSG_ITEM_INF_14	「ストップ」と同じ効果のある時計\n持続時間がとても長い
+MSG_ITEM_INF_15	「スロウ」と同じ効果のある糸
+MSG_ITEM_INF_16	「ブリンク」と同じ効果のある人形
+MSG_ITEM_INF_17	炎でダメージを与えるドラゴンの牙
+MSG_ITEM_INF_18	冷気でダメージを与えるドラゴンの牙
+MSG_ITEM_INF_19	雷でダメージを与えるドラゴンの牙
+MSG_ITEM_INF_20	「リフレク」と同じ効果のあるカーテン
+MSG_ITEM_INF_21	使用者の命と引き換えにダメージを与える
+MSG_ITEM_INF_22	直接攻撃無効バリアと「リフレク」効果のあるカーテン
+MSG_ITEM_INF_23	「サイレス」と同じ効果のある鐘
+MSG_ITEM_INF_24	「クエイク」と同じ効果のあるドラム
+MSG_ITEM_INF_25	聖なる光を放つクリスタル
+MSG_ITEM_INF_26	「デス」と同じ効果のあるヒゲ
+MSG_ITEM_INF_27	召喚獣を呼び出す本\n何が出るかは使ってみないとわからない
+MSG_ITEM_INF_28	「ライブラ」と同じ効果のある図鑑
+MSG_ITEM_INF_29	味方全員の「眠り」を回復する時計
+MSG_ITEM_INF_30	味方全員の「眠り」「マヒ」「混乱」「狂戦士」を回復する角
+MSG_ITEM_INF_31	ＨＰを回復する
+MSG_ITEM_INF_32	ＨＰを回復する
+MSG_ITEM_INF_33	ＨＰを回復する
+MSG_ITEM_INF_34	ＭＰを回復する
+MSG_ITEM_INF_35	ＭＰを回復する
+MSG_ITEM_INF_36	ＨＰとＭＰを全回復する
+MSG_ITEM_INF_37	「戦闘不能」を回復する
+MSG_ITEM_INF_38	「石化」を治す
+MSG_ITEM_INF_39	「カエル」を治す
+MSG_ITEM_INF_40	「こびと」を治す
+MSG_ITEM_INF_41	「ブタ」を治す
+MSG_ITEM_INF_42	「沈黙」を治す
+MSG_ITEM_INF_43	「暗闇」を治す
+MSG_ITEM_INF_44	「毒」を消し去る
+MSG_ITEM_INF_45	「呪い」を消し去る
+MSG_ITEM_INF_46	「戦闘不能」以外の状態異常を回復する
+MSG_ITEM_INF_47	魔物を呼び寄せる警報機
+MSG_ITEM_INF_48	最大ＨＰが１００上がる
+MSG_ITEM_INF_49	最大ＨＰが５０上がる
+MSG_ITEM_INF_50	最大ＭＰが１０上がる
+MSG_ITEM_INF_51	全員のＨＰとＭＰを回復する\n野外で使うことができる
+MSG_ITEM_INF_52	全員のＨＰとＭＰを全回復する\n野外で使うことができる
+MSG_ITEM_INF_54	ダンジョンから一気に外に脱出する
+MSG_ITEM_INF_55	「サイトロ」と同じ効果のあるパン
+MSG_ITEM_INF_56	(RYDIA)が「ゴブリン」を覚える
+MSG_ITEM_INF_57	(RYDIA)が「ボム」を覚える
+MSG_ITEM_INF_58	(RYDIA)が「コカトリス」を覚える
+MSG_ITEM_INF_59	(RYDIA)が「マインドフレア」を覚える
+MSG_ITEM_INF_60	でぶチョコボの大好物\nチョコボくさいところで使うと……
+MSG_ITEM_INF_61	でぶチョコボを呼び出せる笛
+MSG_KEY_INF_01	パブ「王様」の会員の証
+MSG_KEY_INF_02	バロン王に渡された指輪
+MSG_KEY_INF_03	バロンの町の扉を開けるためのカギ
+MSG_KEY_INF_04	高熱病に効く薬
+MSG_KEY_INF_05	大地に恵みをもたらすクリスタル
+MSG_KEY_INF_06	マグマの力を閉じ込めた石
+MSG_KEY_INF_07	ルカが持っていた首飾り
+MSG_KEY_INF_08	音を遠くへ運ぶ不思議な草
+MSG_KEY_INF_09	地底世界のクリスタル
+MSG_KEY_INF_10	勇気の証であるネズミのしっぽ
+MSG_KEY_INF_11	非常に硬い貴重な金属
+MSG_KEY_INF_12	愛がこもったフライパン
+MSG_KEY_INF_13	ピンク色のしっぽ
+MSG_KEY_INF_14	ルゲイエが持っていたカギ
+MSG_KEY_INF_15	？？？？
+MSG_KEY_INF_16	Turn this in to stay at the Kaipo Inn for free!
+MSG_KEY_INF_17	Used to move hovercrafts!
+MSG_KEY_INF_18	A tail not commonly found in Pixel Remaster...
+MSG_KEY_INF_24	Apparently you can use this to effectively throw monsters away...
+MSG_KEY_INF_25	This shard slightly shimmers...
+MSG_MON_NAME_01	ゴブリン
+MSG_MON_NAME_02	バジリスク
+MSG_MON_NAME_03	ダイブイーグル
+MSG_MON_NAME_04	フロータイボール
+MSG_MON_NAME_05	インセクタス
+MSG_MON_NAME_06	フェイスバット
+MSG_MON_NAME_07	ウッドアイズ
+MSG_MON_NAME_08	ソードラット
+MSG_MON_NAME_09	ミニマジシャン
+MSG_MON_NAME_10	デザートサハギン
+MSG_MON_NAME_11	フライングアイ
+MSG_MON_NAME_12	ハンドレッグ
+MSG_MON_NAME_13	サンドウォーム
+MSG_MON_NAME_14	ギガントード
+MSG_MON_NAME_15	ファングシェル
+MSG_MON_NAME_16	ゾンビー
+MSG_MON_NAME_17	フライキラー
+MSG_MON_NAME_18	ブラッドフラワ
+MSG_MON_NAME_19	オーガニトード
+MSG_MON_NAME_20	レッドマシュマロ
+MSG_MON_NAME_21	イエローゼリー
+MSG_MON_NAME_22	サハギン
+MSG_MON_NAME_23	レーシイ
+MSG_MON_NAME_24	クリセイルス
+MSG_MON_NAME_25	ゴブリンキャップ
+MSG_MON_NAME_26	黒とかげ
+MSG_MON_NAME_27	アダマンタイマイ
+MSG_MON_NAME_28	ドモボーイ
+MSG_MON_NAME_29	パープルババロア
+MSG_MON_NAME_30	バロン兵
+MSG_MON_NAME_31	ジェネラル
+MSG_MON_NAME_32	ガトリンガ
+MSG_MON_NAME_33	リルマーダー
+MSG_MON_NAME_34	デスビューティ
+MSG_MON_NAME_35	スピリット
+MSG_MON_NAME_36	スケルトン
+MSG_MON_NAME_37	コカトリス
+MSG_MON_NAME_38	ガーゴイル
+MSG_MON_NAME_39	ルドランベビー
+MSG_MON_NAME_40	ベルフェゴール
+MSG_MON_NAME_41	ズー
+MSG_MON_NAME_42	シーポッツ
+MSG_MON_NAME_43	アリゲイター
+MSG_MON_NAME_44	スプラッシャー
+MSG_MON_NAME_45	バロン海兵
+MSG_MON_NAME_46	キャプテン
+MSG_MON_NAME_47	ソウル
+MSG_MON_NAME_48	ブラッディボーン
+MSG_MON_NAME_49	グール
+MSG_MON_NAME_50	スカルジャー
+MSG_MON_NAME_51	レブナント
+MSG_MON_NAME_52	ドラキュレディ
+MSG_MON_NAME_53	エーラパトラ
+MSG_MON_NAME_54	スカルドラゴン
+MSG_MON_NAME_55	雷魚
+MSG_MON_NAME_56	ギガースゲイター
+MSG_MON_NAME_57	ヒュドラ
+MSG_MON_NAME_58	フラッドウォーム
+MSG_MON_NAME_59	バロン近衛兵
+MSG_MON_NAME_60	ラミア
+MSG_MON_NAME_61	ヘルニードル
+MSG_MON_NAME_62	ツインスネーク
+MSG_MON_NAME_63	雷精
+MSG_MON_NAME_64	マインドフレア
+MSG_MON_NAME_65	ナーガ
+MSG_MON_NAME_66	オーガ
+MSG_MON_NAME_67	ケットシー
+MSG_MON_NAME_68	ブラックナイト
+MSG_MON_NAME_69	ケンタウロナイト
+MSG_MON_NAME_70	ミスバンパイア
+MSG_MON_NAME_71	マリオネイター
+MSG_MON_NAME_72	マリオン
+MSG_MON_NAME_73	グルームウイング
+MSG_MON_NAME_74	デスタネット
+MSG_MON_NAME_75	マリード
+MSG_MON_NAME_76	サタナイト
+MSG_MON_NAME_77	アームドママル
+MSG_MON_NAME_78	レディガーダー
+MSG_MON_NAME_79	霊騎士
+MSG_MON_NAME_80	ナーガラージャ
+MSG_MON_NAME_81	メデューサ
+MSG_MON_NAME_82	サウルスゾンビー
+MSG_MON_NAME_83	マグマントータス
+MSG_MON_NAME_85	ドリームエビル
+MSG_MON_NAME_86	ボム
+MSG_MON_NAME_87	ペイニーボム
+MSG_MON_NAME_88	キマイラ
+MSG_MON_NAME_89	ヘルタートル
+MSG_MON_NAME_90	アイアンドレス
+MSG_MON_NAME_91	フレイムドッグ
+MSG_MON_NAME_92	ゴルゴーン
+MSG_MON_NAME_93	ストーンゴーレム
+MSG_MON_NAME_94	リリス
+MSG_MON_NAME_95	マザーラミア
+MSG_MON_NAME_96	トーディトード
+MSG_MON_NAME_97	モルズ
+MSG_MON_NAME_98	ルドラ
+MSG_MON_NAME_99	ソーサラー
+MSG_MON_NAME_100	バーサオーガ
+MSG_MON_NAME_101	フラウドパペット
+MSG_MON_NAME_102	ブラッディバット
+MSG_MON_NAME_103	アルケニー
+MSG_MON_NAME_104	フレイムナイト
+MSG_MON_NAME_105	機械砲
+MSG_MON_NAME_106	レメディボム
+MSG_MON_NAME_107	ダークグラネイド
+MSG_MON_NAME_108	プレイグ
+MSG_MON_NAME_109	ラストアーム
+MSG_MON_NAME_110	クアール
+MSG_MON_NAME_111	機械竜
+MSG_MON_NAME_112	アラウネ
+MSG_MON_NAME_113	プラクティ
+MSG_MON_NAME_114	アンダグランダ
+MSG_MON_NAME_115	アビスウォーム
+MSG_MON_NAME_116	ブラッディレッド
+MSG_MON_NAME_117	ミスリーダ
+MSG_MON_NAME_118	ブリズリザード
+MSG_MON_NAME_119	ヘルフラッパー
+MSG_MON_NAME_120	エビルヘッド
+MSG_MON_NAME_121	ブリーズビースト
+MSG_MON_NAME_122	召喚士
+MSG_MON_NAME_123	ソーサルレディ
+MSG_MON_NAME_124	アサルトドアー
+MSG_MON_NAME_125	トーディウィッチ
+MSG_MON_NAME_126	マモン
+MSG_MON_NAME_127	キマイラブレイン
+MSG_MON_NAME_128	ルナウィルス
+MSG_MON_NAME_129	ゼムスブレス
+MSG_MON_NAME_130	ホワイトムース
+MSG_MON_NAME_131	ブラックプリン
+MSG_MON_NAME_132	ゼムスマインド
+MSG_MON_NAME_133	ミスリルゴーレム
+MSG_MON_NAME_134	グリーンドラゴン
+MSG_MON_NAME_135	プリンプリンセス
+MSG_MON_NAME_136	アイズ
+MSG_MON_NAME_137	機械兵
+MSG_MON_NAME_138	巨人兵
+MSG_MON_NAME_139	月の女神
+MSG_MON_NAME_140	モルボル
+MSG_MON_NAME_141	銀竜
+MSG_MON_NAME_142	イエロードラゴン
+MSG_MON_NAME_143	サタナジュニア
+MSG_MON_NAME_144	ユカリョーテ
+MSG_MON_NAME_145	フェイズ
+MSG_MON_NAME_146	鉄騎兵
+MSG_MON_NAME_147	魔人兵
+MSG_MON_NAME_148	ステイルゴーレム
+MSG_MON_NAME_149	アーリマン
+MSG_MON_NAME_150	ルナザウルス
+MSG_MON_NAME_151	サーチャー
+MSG_MON_NAME_152	暗黒魔道士
+MSG_MON_NAME_153	ダークバハムート
+MSG_MON_NAME_154	プロカリョーテ
+MSG_MON_NAME_155	タイダリアサン
+MSG_MON_NAME_156	ブルードラゴン
+MSG_MON_NAME_157	金竜
+MSG_MON_NAME_158	雷竜
+MSG_MON_NAME_159	白竜
+MSG_MON_NAME_160	レッドドラゴン
+MSG_MON_NAME_161	ベヒーモス
+MSG_MON_NAME_162	ミストドラゴン
+MSG_MON_NAME_163	オクトマンモス
+MSG_MON_NAME_164	アントリオン
+MSG_MON_NAME_165	マザーボム
+MSG_MON_NAME_166	スカルミリョーネ
+MSG_MON_NAME_167	ベイガン
+MSG_MON_NAME_168	右腕
+MSG_MON_NAME_169	左腕
+MSG_MON_NAME_170	カイナッツォ
+MSG_MON_NAME_171	ダークエルフ
+MSG_MON_NAME_172	ドグ
+MSG_MON_NAME_173	マグ
+MSG_MON_NAME_174	ラグ
+MSG_MON_NAME_175	ゴルベーザ
+MSG_MON_NAME_176	バルバリシア
+MSG_MON_NAME_177	カルコ
+MSG_MON_NAME_178	カルコブリーナ
+MSG_MON_NAME_179	黒竜
+MSG_MON_NAME_180	博士
+MSG_MON_NAME_181	バルナバ
+MSG_MON_NAME_182	ルゲイエ
+MSG_MON_NAME_183	エブラーナ王
+MSG_MON_NAME_184	エブラーナ王妃
+MSG_MON_NAME_185	ルビカンテ
+MSG_MON_NAME_186	オーディン
+MSG_MON_NAME_187	リヴァイアサン
+MSG_MON_NAME_188	バハムート
+MSG_MON_NAME_189	デモンズウォール
+MSG_MON_NAME_190	アスラ
+MSG_MON_NAME_191	四天王
+MSG_MON_NAME_192	ダークドラゴン
+MSG_MON_NAME_193	サハギン
+MSG_MON_NAME_194	制御システム
+MSG_MON_NAME_195	防衛システム
+MSG_MON_NAME_196	ゼムス
+MSG_MON_NAME_197	ゼロムス
+MSG_MON_NAME_198	竜騎士
+MSG_MON_NAME_199	吟遊詩人
+MSG_MON_NAME_200	モンク僧
+MSG_MON_NAME_201	暗黒騎士
+MSG_MON_NAME_202	女の子
+MSG_MON_NAME_204	フロータイボール
+MSG_MON_NAME_205	ズー
+MSG_MON_NAME_206	ブリーナ
+MSG_MON_NAME_207	スカルナント
+MSG_MON_NAME_208	合体メカ
+MSG_MON_NAME_209	迎撃システム
+MSG_MON_NAME_210	ミステレグ
+MSG_MON_NAME_211	スカルミリョーネ ２
+MSG_MON_NAME_212	カイナッツォ ２
+MSG_MON_NAME_213	バルバリシア ２
+MSG_MON_NAME_214	ルビカンテ ２
+MSG_LOCATION_STICK	(AREA_NAME)　(MAP_NAME)
+MSG_LOCATION_STICK_01	(AREA_NAME)
+MSG_LOCATION_STICK_02	(MAP_NAME)
+MSG_MAP_NAME_01	地上
+MSG_MAP_NAME_02	地底
+MSG_MAP_NAME_03	月
+MSG_MAP_NAME_04	バロン城
+MSG_MAP_NAME_05	バロンの町
+MSG_MAP_NAME_06	オアシスの村カイポ
+MSG_MAP_NAME_07	ダムシアン城
+MSG_MAP_NAME_08	ファブール城
+MSG_MAP_NAME_09	ミシディア
+MSG_MAP_NAME_10	ミストの村
+MSG_MAP_NAME_11	ミスリルの村
+MSG_MAP_NAME_12	エブラーナ城
+MSG_MAP_NAME_13	トロイアの町
+MSG_MAP_NAME_14	トロイア城
+MSG_MAP_NAME_15	アガルトの村
+MSG_MAP_NAME_16	アダマン島の洞窟
+MSG_MAP_NAME_17	ドワーフ城
+MSG_MAP_NAME_18	トメラの村
+MSG_MAP_NAME_19	ククロの家
+MSG_MAP_NAME_20	ハミングウェイの住処
+MSG_MAP_NAME_21	月の民の館
+MSG_MAP_NAME_23	チョコボの村
+MSG_MAP_NAME_24	地下水脈
+MSG_MAP_NAME_25	アントリオンの洞窟
+MSG_MAP_NAME_26	ホブスの山
+MSG_MAP_NAME_27	試練の山
+MSG_MAP_NAME_28	昔の水路
+MSG_MAP_NAME_29	磁力の洞窟
+MSG_MAP_NAME_30	ゾットの塔
+MSG_MAP_NAME_31	バブイルの塔
+MSG_MAP_NAME_32	エブラーナの洞窟
+MSG_MAP_NAME_33	シルフの洞窟
+MSG_MAP_NAME_34	幻獣の洞窟
+MSG_MAP_NAME_35	幻獣の町
+MSG_MAP_NAME_36	封印の洞窟
+MSG_MAP_NAME_37	月の地下通路
+MSG_MAP_NAME_38	幻獣神の洞窟
+MSG_MAP_NAME_39	バブイルの巨人
+MSG_MAP_NAME_40	月の地下渓谷
+MSG_MAP_NAME_41	ミストの洞窟
+MSG_MAP_NAME_47	トレーニングルーム
+MSG_MAP_NAME_48	祈りの館
+MSG_MAP_NAME_87	祈りの塔
+MSG_MAP_NAME_54	ドワーフの基地
+MSG_MAP_NAME_56	地下に通じる滝
+MSG_MAP_NAME_59	アントリオンの巣
+MSG_MAP_NAME_60	バブイルの塔への抜け道
+MSG_MAP_NAME_63	巨人の口
+MSG_MAP_NAME_64	巨人の首
+MSG_MAP_NAME_65	巨人の胸
+MSG_MAP_NAME_66	巨人の腹
+MSG_MAP_NAME_67	巨人内部の通路
+MSGARA_NAME_36	巨人内部の吹き抜け
+MSGARA_NAME_39	巨人制御装置
+MSG_MAP_NAME_69	エブラーナの町
+MSG_MAP_NAME_70	チョコボの森　バロン
+MSG_MAP_NAME_71	チョコボの森　ファブール
+MSG_MAP_NAME_72	チョコボの森　ミシディア
+MSG_MAP_NAME_73	チョコボの森　トロイア
+MSG_MAP_NAME_74	チョコボの森　南海の孤島
+MSG_MAP_NAME_75	シルフの家
+MSG_MAP_NAME_76	地下の湖
+MSG_MAP_NAME_77	ミストの洞窟　南口
+MSG_MAP_NAME_78	ミストの洞窟　北口
+MSG_MAP_NAME_79	地下水脈　南口
+MSG_MAP_NAME_80	地下水脈　北口
+MSG_MAP_NAME_81	ホブスの山　西口
+MSG_MAP_NAME_82	ホブスの山　東口
+MSG_MAP_NAME_83	月の地下通路　西　南口
+MSG_MAP_NAME_84	月の地下通路　西　北口
+MSG_MAP_NAME_85	月の地下通路　東　北口
+MSG_MAP_NAME_86	月の地下通路　東　南口
+MSG_MAP_NAME_88	月の地下通路　東
+MSG_MAP_NAME_89	月の地下通路　西
+MSGARA_NAME_09	クリスタルルーム
+MSGARA_NAME_10	デビルロード
+MSGARA_NAME_01	宿屋
+MSGARA_NAME_02	酒場
+MSGARA_NAME_03	酒場　２Ｆ
+MSGARA_NAME_04	宿屋　道具屋
+MSGARA_NAME_05	道具屋
+MSGARA_NAME_06	武器屋
+MSGARA_NAME_07	防具屋
+MSGARA_NAME_08	武器防具屋
+MSGARA_NAME_11	左の塔　１Ｆ
+MSGARA_NAME_12	左の塔　２Ｆ
+MSGARA_NAME_13	左の塔　３Ｆ
+MSGARA_NAME_14	右の塔　１Ｆ
+MSGARA_NAME_15	右の塔　２Ｆ
+MSGARA_NAME_16	右の塔　３Ｆ
+MSGARA_NAME_17	右の塔　Ｂ１Ｆ
+MSGARA_NAME_18	右の塔　Ｂ２Ｆ
+MSGARA_NAME_19	隠し部屋
+MSGARA_NAME_20	１Ｆ
+MSGARA_NAME_21	２Ｆ
+MSGARA_NAME_22	３Ｆ
+MSGARA_NAME_23	４Ｆ
+MSGARA_NAME_24	５Ｆ
+MSGARA_NAME_25	６Ｆ
+MSGARA_NAME_26	７Ｆ
+MSGARA_NAME_27	Ｂ１Ｆ
+MSGARA_NAME_28	Ｂ２Ｆ
+MSGARA_NAME_29	Ｂ３Ｆ
+MSGARA_NAME_30	Ｂ４Ｆ
+MSGARA_NAME_31	Ｂ５Ｆ
+MSGARA_NAME_32	Ｂ６Ｆ
+MSGARA_NAME_33	Ｂ７Ｆ
+MSGARA_NAME_34	３合目
+MSGARA_NAME_35	７合目
+MSGARA_NAME_37	王の間
+MSGARA_NAME_38	山頂
+MSGARA_NAME_40	西口
+MSGARA_NAME_41	地下通路
+MSGARA_NAME_42	地下牢
+MSGARA_NAME_43	地底１Ｆ
+MSGARA_NAME_44	地底２Ｆ
+MSGARA_NAME_45	地底３Ｆ
+MSGARA_NAME_46	地底４Ｆ
+MSGARA_NAME_47	地底５Ｆ
+MSGARA_NAME_48	地底６Ｆ
+MSGARA_NAME_49	地底７Ｆ
+MSGARA_NAME_50	地底８Ｆ
+MSGARA_NAME_51	東口
+MSGARA_NAME_52	南口
+MSGARA_NAME_53	入口
+MSGARA_NAME_54	北口
+MSGARA_NAME_55	牢屋
+MSGARA_NAME_56	牢屋　Ｂ１Ｆ
+MSGARA_NAME_57	５合目
+MSGARA_NAME_58	Ｂ８Ｆ
+MSGARA_NAME_59	Ｂ９Ｆ
+MSGARA_NAME_60	Ｂ１０Ｆ
+MSGARA_NAME_61	Ｂ１１Ｆ
+MSGARA_NAME_62	Ｂ１２Ｆ
+MSG_MAP_NAME_42	(CECIL)の部屋
+MSG_MAP_NAME_43	黒魔法研究室
+MSG_MAP_NAME_44	白魔法研究室
+MSG_MAP_NAME_45	(CID)の家
+MSG_MAP_NAME_46	(ROZA)の家
+MSG_MAP_NAME_49	パブ「王様」
+MSG_MAP_NAME_50	黒チョコボ保育園
+MSG_MAP_NAME_51	黒チョコボ保育園　Ｂ１Ｆ
+MSG_MAP_NAME_52	天文台
+MSG_MAP_NAME_53	観測室
+MSG_MAP_NAME_55	パブ「ラリホー！」
+MSG_MAP_NAME_62	幻界図書館
+MSG_MAP_NAME_90	医務室
+MSG_SYSTEM_001	とじる
+MSG_SYSTEM_002	もどる
+MSG_SYSTEM_328	やめる
+MSG_SYSTEM_003	はい
+MSG_SYSTEM_004	いいえ
+MSG_SYSTEM_010	/
+MSG_SYSTEM_011	：
+MSG_SYSTEM_015	×
+MSG_SYSTEM_018	回
+MSG_SYSTEM_019	％
+MSG_SYSTEM_020	？？？？？？？？
+MSG_SYSTEM_022	決定
+MSG_SYSTEM_340	すべて決定
+MSG_SYSTEM_024	初期化
+MSG_SYSTEM_026	先制攻撃のチャンス！
+MSG_SYSTEM_027	不意打ちだ！
+MSG_SYSTEM_028	バックアタックだ！
+MSG_SYSTEM_030	パーティは全滅した……
+MSG_SYSTEM_034	効果がなかった
+MSG_SYSTEM_035	逃げ出した
+MSG_SYSTEM_036	逃げられない！
+MSG_SYSTEM_037	ＭＰが足りない
+MSG_SYSTEM_040	むー、何も思い出せん
+MSG_SYSTEM_042	カエルの歌
+MSG_SYSTEM_043	子守歌
+MSG_SYSTEM_044	誘惑の歌
+MSG_SYSTEM_045	沈黙の歌
+MSG_SYSTEM_046	薬が足りない
+MSG_SYSTEM_047	祈りは天に届かなかった
+MSG_SYSTEM_048	シンクロが乱れた
+MSG_SYSTEM_049	魔法の力アップ！
+MSG_SYSTEM_050	魔物を慌てさせた
+MSG_SYSTEM_051	弱点は特にない
+MSG_SYSTEM_052	炎に弱い
+MSG_SYSTEM_053	冷気に弱い
+MSG_SYSTEM_054	雷に弱い
+MSG_SYSTEM_055	闇の力に弱い
+MSG_SYSTEM_056	聖なる力に弱い
+MSG_SYSTEM_057	飛び道具に弱い
+MSG_SYSTEM_058	盗みそこなった
+MSG_SYSTEM_059	モンスターに見つかった
+MSG_SYSTEM_060	(ITEM_N)を盗んだ
+MSG_SYSTEM_061	(FC_0)／(FC_9)
+MSG_SYSTEM_075	毒のダメージ
+MSG_SYSTEM_076	ＨＰが徐々に回復
+MSG_SYSTEM_077	力をためて攻撃力２倍！
+MSG_SYSTEM_078	防御力アップ
+MSG_SYSTEM_079	獲得ギル
+MSG_SYSTEM_080	獲得経験値
+MSG_SYSTEM_081	獲得アイテム
+MSG_SYSTEM_082	次へ
+MSG_SYSTEM_083	終了
+MSG_SYSTEM_084	ＬＥＶＥＬ　ＵＰ
+MSG_SYSTEM_330	(CHA_N)が(MAGC_N)を覚えた！
+MSG_SYSTEM_085	たたかう
+MSG_SYSTEM_086	あんこく
+MSG_SYSTEM_087	アイテム
+MSG_SYSTEM_088	ジャンプ
+MSG_SYSTEM_089	しろまほう
+MSG_SYSTEM_090	いのり
+MSG_SYSTEM_091	ねらう
+MSG_SYSTEM_092	くろまほう
+MSG_SYSTEM_093	しょうかん
+MSG_SYSTEM_094	おもいだす
+MSG_SYSTEM_095	ためる
+MSG_SYSTEM_096	けり
+MSG_SYSTEM_097	がまん
+MSG_SYSTEM_098	うたう
+MSG_SYSTEM_099	くすり
+MSG_SYSTEM_100	かくれる
+MSG_SYSTEM_101	つよがる
+MSG_SYSTEM_102	ふたりがけ
+MSG_SYSTEM_103	うそなき
+MSG_SYSTEM_104	しらべる
+MSG_SYSTEM_105	なげる
+MSG_SYSTEM_106	ぬすむ
+MSG_SYSTEM_107	にんじゅつ
+MSG_SYSTEM_108	せいしんは
+MSG_SYSTEM_109	かばう
+MSG_SYSTEM_110	かばわない
+MSG_SYSTEM_111	あらわれる
+MSG_SYSTEM_112	チェンジ
+MSG_SYSTEM_113	ぼうぎょ
+MSG_SYSTEM_338	スキップ
+MSG_SYSTEM_114	毒
+MSG_SYSTEM_115	暗闇
+MSG_SYSTEM_116	沈黙
+MSG_SYSTEM_117	ブタ
+MSG_SYSTEM_118	こびと
+MSG_SYSTEM_119	カエル
+MSG_SYSTEM_120	石化
+MSG_SYSTEM_121	戦闘不能
+MSG_SYSTEM_122	狂戦士
+MSG_SYSTEM_123	混乱
+MSG_SYSTEM_124	眠り
+MSG_SYSTEM_125	マヒ
+MSG_SYSTEM_126	レビテト
+MSG_SYSTEM_127	呪い
+MSG_SYSTEM_128	死の宣告
+MSG_SYSTEM_129	ストップ
+MSG_SYSTEM_131	リフレク
+MSG_SYSTEM_339	磁力
+MSG_SYSTEM_341	ＨＰ回復
+MSG_SYSTEM_398	スリップ
+MSG_SYSTEM_132	ミス!!
+MSG_SYSTEM_134	カウンター
+MSG_SYSTEM_135	アイテム
+MSG_SYSTEM_136	まほう
+MSG_SYSTEM_137	そうび
+MSG_SYSTEM_138	ステータス
+MSG_SYSTEM_139	ならびかえ
+MSG_SYSTEM_140	コンフィグ
+MSG_SYSTEM_141	ちゅうだん
+MSG_SYSTEM_142	セーブ
+MSG_SYSTEM_143	ギル
+MSG_SYSTEM_144	ＴＩＭＥ
+MSG_SYSTEM_145	ＬＶ
+MSG_SYSTEM_146	ＨＰ
+MSG_SYSTEM_147	ＭＰ
+MSG_SYSTEM_148	だいじなもの
+MSG_SYSTEM_149	つかう
+MSG_SYSTEM_150	せいとん
+MSG_SYSTEM_151	(STATUS_NAME)＋(VALUE_NUM)
+MSG_SYSTEM_152	(STATUS_NAME)－(VALUE_NUM)
+MSG_SYSTEM_153	(FULL_SPACE)
+MSG_SYSTEM_154	アイテムを持っていません。
+MSG_SYSTEM_155	大事なものを持っていません。
+MSG_SYSTEM_331	バトルで使用できるアイテムを持っていません。
+MSG_SYSTEM_156	装備できるキャラクターがいません。
+MSG_SYSTEM_157	(RYDIA)は(MAGC_N)を覚えた。
+MSG_SYSTEM_160	魔法は使えません。
+MSG_SYSTEM_161	消費ＭＰ
+MSG_SYSTEM_345	しょうかん
+MSG_SYSTEM_318	全員
+MSG_SYSTEM_319	習得順
+MSG_SYSTEM_320	ＭＰ昇順
+MSG_SYSTEM_321	ＭＰ降順
+MSG_SYSTEM_329	せいとんしたいカテゴリを選択してください。
+MSG_SYSTEM_322	自分で魔法を選択して並べ替えます。
+MSG_SYSTEM_323	魔法を習得した順番に自動で並べ替えます。
+MSG_SYSTEM_324	魔法を消費ＭＰが小さい順に自動で並べ替えます。
+MSG_SYSTEM_325	魔法を消費ＭＰが大きい順に自動で並べ替えます。
+MSG_SYSTEM_326	魔法を五十音順に自動で並べ替えます。
+MSG_SYSTEM_163	さいきょう
+MSG_SYSTEM_164	はずす
+MSG_SYSTEM_165	すべてはずす
+MSG_SYSTEM_166	すで
+MSG_SYSTEM_167	なし
+MSG_SYSTEM_168	右手
+MSG_SYSTEM_169	左手
+MSG_SYSTEM_170	頭
+MSG_SYSTEM_171	体
+MSG_SYSTEM_172	腕
+MSG_SYSTEM_173	経験値
+MSG_SYSTEM_174	ＮＥＸＴ
+MSG_SYSTEM_175	力
+MSG_SYSTEM_176	素早さ
+MSG_SYSTEM_177	体力
+MSG_SYSTEM_178	知性
+MSG_SYSTEM_179	精神
+MSG_SYSTEM_180	攻撃
+MSG_SYSTEM_181	命中率
+MSG_SYSTEM_182	防御
+MSG_SYSTEM_183	回避率
+MSG_SYSTEM_184	魔法防御
+MSG_SYSTEM_185	魔法回避率
+MSG_SYSTEM_186	右利き
+MSG_SYSTEM_187	左利き
+MSG_SYSTEM_188	両利き
+MSG_SYSTEM_189	（利き手）
+MSG_SYSTEM_190	コマンド
+MSG_SYSTEM_192	データ
+MSG_SYSTEM_194	EMPTY
+MSG_SYSTEM_344	yyyy/MM/dd　H:mm
+MSG_SYSTEM_195	誰に使いますか？
+MSG_SYSTEM_196	味方全体
+MSG_SYSTEM_197	味方単体
+MSG_SYSTEM_198	敵全体
+MSG_SYSTEM_199	敵単体
+MSG_SYSTEM_200	全体
+MSG_SYSTEM_201	操作説明
+MSG_SYSTEM_202	コマンド切り替え
+MSG_SYSTEM_203	装備変更
+MSG_SYSTEM_204	アイテム選択
+MSG_SYSTEM_205	選択
+MSG_SYSTEM_206	ページアップ/ダウン
+MSG_SYSTEM_207	メニューを閉じる
+MSG_SYSTEM_208	キャンセル
+MSG_SYSTEM_209	説明文切り替え
+MSG_SYSTEM_428	おりる
+MSG_SYSTEM_438	おろす
+MSG_SYSTEM_333	隊列変更
+MSG_SYSTEM_346	全体切り替え
+MSG_SYSTEM_347	単体切り替え
+MSG_SYSTEM_305	拡大
+MSG_SYSTEM_306	縮小
+MSG_SYSTEM_307	移動
+MSG_SYSTEM_210	じぶんで
+MSG_SYSTEM_327	武器
+MSG_SYSTEM_211	防具
+MSG_SYSTEM_212	名前
+MSG_SYSTEM_213	自分でアイテムを選択して並べ替えます。
+MSG_SYSTEM_214	消費アイテムを先頭にして自動で並べ替えます。
+MSG_SYSTEM_215	武器を先頭にして自動で並べ替えます。
+MSG_SYSTEM_216	防具を先頭にして自動で並べ替えます。
+MSG_SYSTEM_217	アイテムを五十音順に自動で並べ替えます。
+MSG_SYSTEM_218	一時停止/再開
+MSG_SYSTEM_219	同時に押し続ける：逃げる
+MSG_SYSTEM_220	敵選択時：全体/単体切り替え
+MSG_SYSTEM_221	味方選択時：全体/単体切り替え
+MSG_SYSTEM_222	リスト選択時：ページアップ
+MSG_SYSTEM_223	リスト選択時：ページダウン
+MSG_SYSTEM_224	行動をスキップ
+MSG_SYSTEM_225	オートバトル開始/終了
+MSG_SYSTEM_226	一時停止/再開
+MSG_SYSTEM_227	逃げる
+MSG_SYSTEM_228	戻る/キャンセル
+MSG_SYSTEM_229	アイテム選択から装備変更に切り替え
+MSG_SYSTEM_230	装備変更からアイテム選択に切り替え
+MSG_SYSTEM_231	対象を単体から全体に切り替え
+MSG_SYSTEM_232	対象を全体から単体に切り替え
+MSG_SYSTEM_233	初期設定に戻す
+MSG_SYSTEM_235	変更
+MSG_SYSTEM_236	武器屋
+MSG_SYSTEM_237	防具屋
+MSG_SYSTEM_238	道具屋
+MSG_SYSTEM_400	武器防具屋
+MSG_SYSTEM_401	酒場
+MSG_SYSTEM_239	価格
+MSG_SYSTEM_240	購入数
+MSG_SYSTEM_241	売却数
+MSG_SYSTEM_242	合計
+MSG_SYSTEM_243	かう
+MSG_SYSTEM_244	うる
+MSG_SYSTEM_245	でる
+MSG_SYSTEM_246	所持数
+MSG_SYSTEM_247	装備数
+MSG_SYSTEM_249	ニューゲーム
+MSG_SYSTEM_250	ロードゲーム
+MSG_SYSTEM_251	TAP TO START
+MSG_SYSTEM_252	PRESS ANY BUTTON
+MSG_SYSTEM_253	©SQUARE ENIX CO., LTD. All Rights Reserved.\nLOGO & IMAGE ILLUSTRATION: ©YOSHITAKA AMANO
+MSG_SYSTEM_254	エクストラ
+MSG_SYSTEM_255	オプション
+MSG_SYSTEM_256	モンスター図鑑
+MSG_SYSTEM_257	サウンドプレイヤー
+MSG_SYSTEM_260	プライバシーポリシー
+MSG_SYSTEM_261	ライセンス
+MSG_SYSTEM_262	ギャラリー
+MSG_SYSTEM_263	宝箱
+MSG_SYSTEM_264	アイテム
+MSG_SYSTEM_265	お知らせ
+MSG_SYSTEM_308	タップ移動モード
+MSG_SYSTEM_267	セーブが完了しました。
+MSG_SYSTEM_268	このデータに上書きしてセーブしますか？
+MSG_SYSTEM_314	セーブデータが壊れています。
+MSG_SYSTEM_315	セーブに失敗しました。
+MSG_SYSTEM_270	オートセーブ
+MSG_SYSTEM_271	中断セーブ
+MSG_SYSTEM_332	クリアセーブ
+MSG_SYSTEM_272	ここまでの状態をセーブしますか？
+MSG_SYSTEM_273	中断セーブが完了しました。
+MSG_SYSTEM_316	中断データが壊れています。
+MSG_SYSTEM_317	中断セーブに失敗しました。
+MSG_SYSTEM_436	ゲームのプレイに必要なストレージが足りません。\n不要なデータを削除して空きストレージを確保してください。
+MSG_SYSTEM_274	このデータで始めますか？
+MSG_SYSTEM_275	クリアデータをセーブしますか？
+MSG_SYSTEM_276	※ラストバトル直前の状態でセーブされます
+MSG_SYSTEM_277	セーブが完了しました。\nタイトル画面に戻りますか？
+MSG_SYSTEM_278	クリアデータをセーブしていません。\nこのままタイトル画面に戻りますか？
+MSG_SYSTEM_280	マップ切り替え
+MSG_SYSTEM_284	現在位置
+MSG_SYSTEM_343	チョコボ
+MSG_SYSTEM_285	黒チョコボ
+MSG_SYSTEM_286	エンタープライズ
+MSG_SYSTEM_287	ファルコン号
+MSG_SYSTEM_288	ホバー船
+MSG_SYSTEM_289	魔導船
+MSG_SYSTEM_399	最新のセーブデータから再開しますか？
+MSG_CFG_INF_01	システム
+MSG_CFG_INF_135	バトルモード
+MSG_CFG_INF_136	バトルスピード
+MSG_CFG_INF_137	バトルメッセージ
+MSG_CFG_INF_138	ウェイト
+MSG_CFG_INF_139	アクティブ
+MSG_CFG_INF_02	カーソル位置記憶
+MSG_CFG_INF_03	オートバトル継続
+MSG_CFG_INF_05	言語設定
+MSG_CFG_INF_06	タイトルに戻る
+MSG_CFG_INF_07	ゲームを終了する
+MSG_CFG_INF_93	画面設定
+MSG_CFG_INF_09	画面モード
+MSG_CFG_INF_94	解像度
+MSG_CFG_INF_153	グラフィック表示
+MSG_CFG_INF_11	明るさ設定
+MSG_CFG_INF_12	サウンド
+MSG_CFG_INF_13	マスター音量
+MSG_CFG_INF_14	BGM音量
+MSG_CFG_INF_15	SE音量
+MSG_CFG_INF_140	バトル中の時間の流れを設定できます。
+MSG_CFG_INF_141	魔法やアイテムの選択中は時間が止まります。
+MSG_CFG_INF_142	魔法やアイテムの選択中でも時間が流れます。
+MSG_CFG_INF_143	バトルが行われる時間の速さを設定できます。
+MSG_CFG_INF_144	バトル中のメッセージの表示速度を設定できます。
+MSG_CFG_INF_95	前回のカーソル位置を記憶しておくか設定できます。
+MSG_CFG_INF_96	オートバトルを次のバトルにも引き継ぐか設定できます。
+MSG_CFG_INF_99	画面の明るさを設定できます。
+MSG_CFG_INF_100	ゲーム全体の音量を設定できます。
+MSG_CFG_INF_101	ＢＧＭの音量を設定できます。
+MSG_CFG_INF_102	ＳＥの音量を設定できます。
+MSG_CFG_INF_104	ゲームパッドの操作ボタンを設定できます。
+MSG_CFG_INF_105	キーボードの操作キーを設定できます。
+MSG_CFG_INF_106	タイトル画面に戻ります。セーブされていないデータは破棄されます。
+MSG_CFG_INF_107	ゲームを終了します。セーブされていないデータは破棄されます。
+MSG_CFG_INF_108	ゲームパッドの操作ボタンを初期設定に戻します。
+MSG_CFG_INF_109	キーボードの操作キーを初期設定に戻します。
+MSG_CFG_INF_158	画面のグラフィックの見え方を設定できます。
+MSG_CFG_INF_18	ゲームパッド設定
+MSG_CFG_INF_19	決定
+MSG_CFG_INF_21	メニューを開く/閉じる
+MSG_CFG_INF_23	ページアップ
+MSG_CFG_INF_24	ページダウン
+MSG_CFG_INF_25	キャラクター表示切り替え（左送り）
+MSG_CFG_INF_26	キャラクター表示切り替え（右送り）
+MSG_CFG_INF_28	キーボード設定
+MSG_CFG_INF_29	上方向に移動
+MSG_CFG_INF_30	下方向に移動
+MSG_CFG_INF_31	左方向に移動
+MSG_CFG_INF_32	右方向に移動
+MSG_CFG_INF_145	キーボード
+MSG_CFG_INF_146	マウス
+MSG_CFG_INF_33	ゲームパッド操作方法
+MSG_CFG_INF_110	走る（押しながら移動）
+MSG_CFG_INF_113	オートバトルＯＮ/ＯＦＦ
+MSG_CFG_INF_114	マップを開く/閉じる
+MSG_CFG_INF_115	ミニマップ表示/非表示
+MSG_CFG_INF_148	一時停止（バトル中）
+MSG_CFG_INF_34	キーボード操作方法
+MSG_CFG_INF_116	ページスクロール
+MSG_CFG_INF_117	フィールド画面
+MSG_CFG_INF_118	メニューを開く
+MSG_CFG_INF_119	マップを開く
+MSG_CFG_INF_120	移動モード切り替え
+MSG_CFG_INF_121	話す
+MSG_CFG_INF_147	調べる
+MSG_CFG_INF_123	バトル画面
+MSG_CFG_INF_35	フィールド画面ＵＩ表示位置
+MSG_CFG_INF_37	移動パッド表示位置
+MSG_CFG_INF_38	メニュー画面ＵＩ表示位置
+MSG_CFG_INF_39	メニューコマンド表示位置
+MSG_CFG_INF_40	バトル画面ＵＩ表示位置
+MSG_CFG_INF_41	バトルコマンド表示位置
+MSG_CFG_INF_154	グラフィック設定
+MSG_CFG_INF_42	操作方法確認
+MSG_CFG_INF_43	ＯＮ
+MSG_CFG_INF_44	ＯＦＦ
+MSG_CFG_INF_45	左
+MSG_CFG_INF_46	右
+MSG_CFG_INF_156	通常
+MSG_CFG_INF_157	アナログ
+MSG_CFG_INF_48	遅い
+MSG_CFG_INF_49	やや遅い
+MSG_CFG_INF_50	標準
+MSG_CFG_INF_51	やや速い
+MSG_CFG_INF_52	速い
+MSG_CFG_INF_129	言語
+MSG_CFG_INF_53	日本語
+MSG_CFG_INF_54	English（英語）
+MSG_CFG_INF_55	Français（フランス語）
+MSG_CFG_INF_56	Italiano（イタリア語）
+MSG_CFG_INF_57	Deutsch（ドイツ語）
+MSG_CFG_INF_58	Español（スペイン語）
+MSG_CFG_INF_59	한국어（韓国語）
+MSG_CFG_INF_60	繁體中文（繁体字）
+MSG_CFG_INF_61	简体中文（簡体字）
+MSG_CFG_INF_62	русский（ロシア語）
+MSG_CFG_INF_63	ภาษาไทย（タイ語）
+MSG_CFG_INF_64	Português brasileiro（ブラジルポルトガル語）
+MSG_CFG_INF_66	フルスクリーン
+MSG_CFG_INF_67	ウィンドウ
+MSG_CFG_INF_68	ボーダーレスウィンドウ
+MSG_CFG_INF_76	選択した言語に変更しますか？
+MSG_CFG_INF_130	※変更後にゲームを再起動します
+MSG_CFG_INF_78	選択した画面設定に変更しますか？
+MSG_CFG_INF_89	タイトル画面に戻ります。
+MSG_CFG_INF_131	保存していない内容は破棄されます。
+MSG_CFG_INF_132	よろしいですか？
+MSG_CFG_INF_155	設定する言語を選択してください。
+MSG_SYSTEM_290	ゲームを終了します。
+MSG_SYSTEM_292	でぶチョコボ
+MSG_SYSTEM_293	よーお、何か用かーい。
+MSG_SYSTEM_294	あずける
+MSG_SYSTEM_295	ひきだす
+MSG_SYSTEM_296	こんなとこで笛吹くなよ。
+MSG_SYSTEM_297	何をくれるんだーい。
+MSG_SYSTEM_298	何が欲しいんだーい。
+MSG_SYSTEM_309	アイテムを預けていません。
+MSG_SYSTEM_310	預ける数
+MSG_SYSTEM_342	引き出す数
+MSG_SYSTEM_311	いくつくれるんだーい。
+MSG_SYSTEM_312	いくつ欲しいんだーい。
+MSG_SYSTEM_303	どなた様がご変更なさいますか？
+MSG_SYSTEM_313	名前変更
+MSG_SYSTEM_334	名前を決めてください。
+MSG_SYSTEM_335	※全角６文字、半角１２文字まで
+MSG_SYSTEM_336	この名前でいいですか？
+MSG_SYSTEM_337	※特殊な文字や記号などは\n正しく表示されない可能性があります
+MSG_PC_KEY_CONFIG_01	BackSpace
+MSG_PC_KEY_CONFIG_02	Enter
+MSG_PC_KEY_CONFIG_03	Shift(L)
+MSG_PC_KEY_CONFIG_04	Shift(R)
+MSG_PC_KEY_CONFIG_05	Alt(L)
+MSG_PC_KEY_CONFIG_06	Alt(R)
+MSG_PC_KEY_CONFIG_07	Tab
+MSG_PC_KEY_CONFIG_08	Caps Lock
+MSG_PC_KEY_CONFIG_09	Space
+MSG_PC_KEY_CONFIG_10	Insert
+MSG_PC_KEY_CONFIG_11	Home
+MSG_PC_KEY_CONFIG_12	Delete
+MSG_PC_KEY_CONFIG_13	Pause
+MSG_PC_KEY_CONFIG_14	ScrollLock
+MSG_PC_KEY_CONFIG_15	Num Enter
+MSG_SYSTEM_349	遭遇したモンスター
+MSG_SYSTEM_350	マップ表示
+MSG_SYSTEM_351	高速移動
+MSG_SYSTEM_421	スクロール
+MSG_SYSTEM_352	表示切り替え
+MSG_SYSTEM_422	マップ切り替え
+MSG_SYSTEM_353	確認
+MSG_SYSTEM_354	倒した数
+MSG_SYSTEM_355	出現場所
+MSG_SYSTEM_358	弱点
+MSG_SYSTEM_359	耐性
+MSG_SYSTEM_360	吸収
+MSG_SYSTEM_361	なし
+MSG_SYSTEM_362	種族
+MSG_SYSTEM_363	即死
+MSG_SYSTEM_364	徐々に石化
+MSG_SYSTEM_365	炎
+MSG_SYSTEM_366	冷気
+MSG_SYSTEM_367	雷
+MSG_SYSTEM_368	闇
+MSG_SYSTEM_369	聖
+MSG_SYSTEM_423	聖（武器）
+MSG_SYSTEM_424	聖（魔法）
+MSG_SYSTEM_370	飛び道具
+MSG_SYSTEM_371	爬虫類
+MSG_SYSTEM_372	魔法使い
+MSG_SYSTEM_373	霊体
+MSG_SYSTEM_374	竜族
+MSG_SYSTEM_375	アンデッド
+MSG_SYSTEM_376	プリン
+MSG_SYSTEM_377	巨人族
+MSG_SYSTEM_378	機械
+MSG_SYSTEM_395	魔力
+MSG_SYSTEM_396	落とすアイテム
+MSG_SYSTEM_397	盗めるアイテム
+MSG_SYSTEM_379	観賞したい画像を選択してください。
+MSG_SYSTEM_380	ウィンドウ非表示
+MSG_SYSTEM_381	ＡＲバトル
+MSG_SYSTEM_427	ＡＲモード
+MSG_SYSTEM_382	カメラＯＮ
+MSG_SYSTEM_383	カメラＯＦＦ
+MSG_SYSTEM_384	編成切り替え
+MSG_SYSTEM_385	バトル開始
+MSG_SYSTEM_386	ＵＩ非表示
+MSG_SYSTEM_387	FINAL FANTASY IVに写真の撮影を許可しますか？
+MSG_SYSTEM_388	許可する
+MSG_SYSTEM_389	許可しない
+MSG_SYSTEM_419	ＡＲバトルを終了しますか？
+MSG_SYSTEM_433	このアプリはＡＲ機能でカメラを使用します。\nカメラへのアクセスを許可してください。
+MSG_SYSTEM_434	現在、このアプリはカメラへの\nアクセスを許可されていません。\nＡＲ機能を使用するためには、\nカメラへのアクセスを許可してください。
+MSG_SYSTEM_435	あとで設定を行う場合は\n端末の設定画面から、このアプリの\nカメラへのアクセスを許可してください。
+MSG_SYSTEM_437	カメラに映したものをバトルの背景に使用します。
+MSG_SYSTEM_390	再生したい楽曲を選択してください。
+MSG_SYSTEM_391	再生
+MSG_SYSTEM_392	停止
+MSG_SYSTEM_393	連続再生ＯＮ
+MSG_SYSTEM_394	連続再生ＯＦＦ
+MSG_SYSTEM_425	連続再生
+MSG_SYSTEM_402	クラウドセーブ
+MSG_SYSTEM_403	アップロード
+MSG_SYSTEM_404	ダウンロード
+MSG_SYSTEM_405	ゲーム内のデータ
+MSG_SYSTEM_406	クラウドのデータ
+MSG_SYSTEM_420	詳細
+MSG_SYSTEM_407	セーブデータをクラウドにバックアップできます。
+MSG_SYSTEM_408	ゲーム内のすべてのセーブデータを\nクラウドにアップロード（上書き）します。
+MSG_SYSTEM_409	クラウドのすべてのセーブデータを\nゲーム内にダウンロード（上書き）します。
+MSG_SYSTEM_410	クラウドにすべてのセーブデータをアップロードします。
+MSG_SYSTEM_411	クラウドのセーブデータがすべて上書きされます。
+MSG_SYSTEM_412	クラウドへのアップロードが完了しました。
+MSG_SYSTEM_413	クラウドへのアップロードに失敗しました。
+MSG_SYSTEM_414	通信状態を確認してください。
+MSG_SYSTEM_415	クラウドからすべてのセーブデータをダウンロードします。
+MSG_SYSTEM_416	ゲーム内のセーブデータがすべて上書きされます。
+MSG_SYSTEM_417	クラウドからのダウンロードが完了しました。
+MSG_SYSTEM_418	クラウドからのダウンロードに失敗しました。
+MSG_SYSTEM_429	同期中…
+MSG_SYSTEM_430	同期に失敗しました。
+MSG_SYSTEM_431	通信に失敗しました。
+MSG_SYSTEM_432	リトライ
+MSG_SYSTEM_426	Now Loading…
+MSG_SYSTEM_439	ライセンス認証に失敗しました。\nアプリを終了します。
+MSG_SYSTEM_440	通信状態や端末の設定を確認し、\nアプリを再起動してください。
+

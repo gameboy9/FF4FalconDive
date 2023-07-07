@@ -1,0 +1,12 @@
+id,transportation_group_id,landing_group_id,asset_id,release_flag,bgm_id,se_id,type_id,encounter_flag,message_id,start_takeoff,end_landing,start_landing,transition_inboard,up_script,down_script,confirm_landing_foot_id
+1,1,0,0,900,0,0,1,1,None,0,0,0,0,0,0,0
+2,2,1,16,901,0,0,8,0,MSG_SYSTEM_288,0,0,0,0,0,0,0
+3,3,2,17,902,28,941,3,0,MSG_SYSTEM_286,0,0,0,0,0,0,0
+4,4,3,18,903,28,941,3,0,MSG_SYSTEM_287,0,0,0,0,0,0,0
+5,5,4,19,904,38,0,8,0,MSG_SYSTEM_289,345,349,0,0,0,0,0
+6,6,5,20,905,10,0,9,0,MSG_SYSTEM_343,0,0,0,0,0,0,0
+7,7,6,21,906,30,0,10,0,MSG_SYSTEM_285,395,0,0,0,0,0,0
+8,8,7,23,907,28,941,8,0,MSG_SYSTEM_287,0,0,0,0,0,0,0
+9,9,8,24,908,28,941,8,0,MSG_SYSTEM_287,0,0,0,0,0,0,0
+10,10,9,25,909,28,941,8,0,MSG_SYSTEM_286,0,0,0,0,0,0,0
+11,11,10,26,910,38,0,8,0,MSG_SYSTEM_289,346,350,0,0,0,0,0

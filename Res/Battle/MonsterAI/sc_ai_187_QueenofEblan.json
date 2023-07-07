@@ -1,0 +1,193 @@
+{
+	"Name": "BattleAI-monster-template",
+	"Title": {
+		"main": "エブラーナ王妃AIスクリプト"
+	},
+	"EntryPoint": 0,
+	"Count": 1,
+	"Mnemonics": [
+		{
+			"label": "0000",
+			"mnemonic": "AttackAfterMes",
+			"operands": {
+				"sValues": [
+					"E0056_ 00_239_b_06"
+				]
+			},
+			"comment": "メッセージ表示タイミング後に設定"
+		},
+		{
+			"label": "0001",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0002",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0003",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					20
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0004",
+			"mnemonic": "ExecMsg",
+			"operands": {
+				"iValues": [
+					2,
+					0
+				],
+				"rValues": [
+					3
+				]
+			}
+		},
+		{
+			"label": "0005",
+			"mnemonic": "IsOnlyAlive",
+			"operands": {
+				"iValues": [
+					15
+				]
+			},
+			"comment": "1体のみ生きている時ジャンプ"
+		},
+		{
+			"label": "0006",
+			"mnemonic": "IsRecevieAbility",
+			"operands": {
+				"iValues": [
+					476,
+					9
+				]
+			},
+			"comment": "エブラーナ王から誘発1を受けたらジャンプ"
+		},
+		{
+			"label": "0007",
+			"mnemonic": "IsRecevieAbility",
+			"operands": {
+				"iValues": [
+					283,
+					12
+				]
+			},
+			"comment": "エブラーナ王から誘発2を受けたらジャンプ"
+		},
+		{
+			"label": "0008",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					2
+				]
+			}
+		},
+		{
+			"label": "0009",
+			"mnemonic": "Nop",
+			"comment": "エブラーナ王から誘発1を受けた時ジャンプ先"
+		},
+		{
+			"label": "0010",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					33
+				]
+			},
+			"comment": "エブラーナ王から誘発1を受けた時カウンター"
+		},
+		{
+			"label": "0011",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					2
+				]
+			}
+		},
+		{
+			"label": "0012",
+			"mnemonic": "Nop",
+			"comment": "エブラーナ王から誘発2を受けた時ジャンプ先"
+		},
+		{
+			"label": "0013",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					333
+				],
+				"sValues": [
+					"E0056_ 00_239_b_06"
+				]
+			},
+			"comment": "エブラーナ王から誘発2を受けた時カウンター"
+		},
+		{
+			"label": "0014",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					2
+				]
+			}
+		},
+		{
+			"label": "0015",
+			"mnemonic": "Nop",
+			"comment": "1体のみ生きている時ジャンプ先"
+		},
+		{
+			"label": "0016",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					0
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0017",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					334
+				]
+			},
+			"comment": "1体のみ生きている時行動"
+		},
+		{
+			"label": "0018",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0019",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					2
+				]
+			}
+		},
+		{
+			"label": "0020",
+			"mnemonic": "Nop",
+			"comment": "バトル終了"
+		},
+		{
+			"label": "0021",
+			"mnemonic": "Exit"
+		}
+	]
+}

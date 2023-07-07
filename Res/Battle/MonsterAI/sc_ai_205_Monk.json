@@ -1,0 +1,241 @@
+{
+	"Name": "BattleAI-monster-template",
+	"Title": {
+		"main": "モンクそうAIスクリプト"
+	},
+	"EntryPoint": 0,
+	"Count": 1,
+	"Mnemonics": [
+		{
+			"label": "0000",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0001",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0002",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					25
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0003",
+			"mnemonic": "ExecMsg",
+			"operands": {
+				"iValues": [
+					2,
+					0
+				],
+				"rValues": [
+					3
+				]
+			}
+		},
+		{
+			"label": "0004",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					1,
+					13
+				]
+			},
+			"comment": "内部モードが1であれば別テーブルへ移動"
+		},
+		{
+			"label": "0005",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					0
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0006",
+			"mnemonic": "ActForTarget",
+			"operands": {
+				"iValues": [
+					1,
+					13,
+					442
+				]
+			},
+			"comment": "通常行動：1ターン目"
+		},
+		{
+			"label": "0007",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					297
+				]
+			},
+			"comment": "通常行動：2ターン目"
+		},
+		{
+			"label": "0008",
+			"mnemonic": "ActForTarget",
+			"operands": {
+				"iValues": [
+					1,
+					13,
+					442
+				]
+			},
+			"comment": "通常行動：3ターン目"
+		},
+		{
+			"label": "0009",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					297
+				]
+			},
+			"comment": "通常行動：4ターン目"
+		},
+		{
+			"label": "0010",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					296
+				]
+			},
+			"comment": "通常行動：5ターン目"
+		},
+		{
+			"label": "0011",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0012",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0013",
+			"mnemonic": "Nop",
+			"comment": "内部モードが1の時ジャンプ先"
+		},
+		{
+			"label": "0014",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0015",
+			"mnemonic": "IsAttackType",
+			"operands": {
+				"iValues": [
+					1,
+					18
+				]
+			},
+			"comment": "カウンターの時ジャンプ"
+		},
+		{
+			"label": "0016",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0017",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0018",
+			"mnemonic": "Nop",
+			"comment": "カウンターの時ジャンプ先"
+		},
+		{
+			"label": "0019",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					226
+				],
+				"sValues": [
+					"E0032_01_025_b_05"
+				]
+			},
+			"comment": "攻撃を受けた時カウンター"
+		},
+		{
+			"label": "0020",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					21
+				]
+			}
+		},
+		{
+			"label": "0021",
+			"mnemonic": "Nop",
+			"comment": "抜け"
+		},
+		{
+			"label": "0022",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					25
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0023",
+			"mnemonic": "ExecMsg",
+			"operands": {
+				"iValues": [
+					2,
+					0
+				],
+				"rValues": [
+					3
+				]
+			}
+		},
+		{
+			"label": "0024",
+			"mnemonic": "ForceExit",
+			"comment": "バトル終了を通知"
+		},
+		{
+			"label": "0025",
+			"mnemonic": "Nop",
+			"comment": "終了"
+		},
+		{
+			"label": "0026",
+			"mnemonic": "Exit"
+		}
+	]
+}

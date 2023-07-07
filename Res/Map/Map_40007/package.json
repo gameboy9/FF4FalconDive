@@ -1,0 +1,1 @@
+{"name":"Map_40007","asset_group_name":"map_40007","texture":[{"name":"Map_event","asset":"Map_event"}],"map":[{"name":"Map_40007","tilemap":"Map_40007/tilemap","collision":"Map_40007/collision","entity_default":"Map_40007/entity_default","entity":[],"script":[{"name":"sc_e_0074_18","asset":"Map_40007/sc_e_0074_18"},{"name":"sc_map_40007","asset":"Map_40007/sc_map_40007"}]}]}

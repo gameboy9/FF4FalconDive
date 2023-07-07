@@ -1,0 +1,1 @@
+{"name":"Map_20120","asset_group_name":"map_20120","texture":[{"name":"town_agult","asset":"town_agult"}],"map":[{"name":"Map_20120","tilemap":"Map_20120/tilemap","collision":"Map_20120/collision","entity_default":"Map_20120/entity_default","entity":[],"script":[{"name":"sc_map_20120","asset":"Map_20120/sc_map_20120"}],"route_instruction":[]}]}

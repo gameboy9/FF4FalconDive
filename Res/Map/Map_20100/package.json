@@ -1,0 +1,1 @@
+{"name":"Map_20100","asset_group_name":"map_20100","texture":[{"name":"town","asset":"town"}],"map":[{"name":"Map_20100","tilemap":"Map_20100/tilemap","collision":"Map_20100/collision","entity_default":"Map_20100/entity_default","entity":[],"script":[{"name":"sc_map_20100","asset":"Map_20100/sc_map_20100"}],"route_instruction":[],"hidden_passage":"Map_20100/hidden_passage"}]}

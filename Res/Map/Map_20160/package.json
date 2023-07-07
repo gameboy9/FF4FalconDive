@@ -1,0 +1,1 @@
+{"name":"Map_20160","asset_group_name":"map_20160","texture":[{"name":"cave_eidolons","asset":"cave_eidolons"}],"map":[{"name":"Map_20160","tilemap":"Map_20160/tilemap","collision":"Map_20160/collision","entity_default":"Map_20160/entity_default","entity":[],"script":[{"name":"sc_map_20160","asset":"Map_20160/sc_map_20160"}]}]}

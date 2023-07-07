@@ -1,0 +1,1769 @@
+MSG_CHAR_NAME_01	เซซิล
+MSG_CHAR_NAME_02	ไคน์
+MSG_CHAR_NAME_03	โรซ่า
+MSG_CHAR_NAME_04	รีเดีย
+MSG_CHAR_NAME_05	ซิด
+MSG_CHAR_NAME_06	เทลล่าห์
+MSG_CHAR_NAME_07	เอ็ดเวิร์ด
+MSG_CHAR_NAME_08	หยาง
+MSG_CHAR_NAME_09	ปาลอม
+MSG_CHAR_NAME_10	โปรอม
+MSG_CHAR_NAME_11	เอดจ์
+MSG_CHAR_NAME_12	ฟูโซยา
+MSG_CHAR_NAME_13	กอลเบซ
+MSG_JOB_NAME_01	อัศวินแห่งความมืด
+MSG_JOB_NAME_02	ทหารม้า
+MSG_JOB_NAME_03	นักเวทขาว
+MSG_JOB_NAME_04	ผู้เรียกอสูร
+MSG_JOB_NAME_05	วิศวกร
+MSG_JOB_NAME_06	นักปราชญ์
+MSG_JOB_NAME_07	เจ้าชาย
+MSG_JOB_NAME_08	นักบวช
+MSG_JOB_NAME_09	นักเวทดำ
+MSG_JOB_NAME_10	นักเวทขาว
+MSG_JOB_NAME_11	นินจา
+MSG_JOB_NAME_12	ชาวจันทรา
+MSG_JOB_NAME_13	อัศวินศักดิ์สิทธิ์
+MSG_MAGIC_NAME_01	<IC_WMGC>ค้าง
+MSG_MAGIC_NAME_02	<IC_WMGC>เป็นใบ้
+MSG_MAGIC_NAME_03	<IC_WMGC>สับสน
+MSG_MAGIC_NAME_04	<IC_WMGC>กะพริบตา
+MSG_MAGIC_NAME_05	<IC_WMGC>ปกป้อง
+MSG_MAGIC_NAME_06	<IC_WMGC>เกราะ
+MSG_MAGIC_NAME_07	<IC_WMGC>ช้า
+MSG_MAGIC_NAME_08	<IC_WMGC>เร่งรีบ
+MSG_MAGIC_NAME_09	<IC_WMGC>บ้าระห่ำ
+MSG_MAGIC_NAME_10	<IC_WMGC>สะท้อน
+MSG_MAGIC_NAME_11	<IC_WMGC>ศักดิ์สิทธิ์
+MSG_MAGIC_NAME_12	<IC_WMGC>ขับไล่
+MSG_MAGIC_NAME_13	<IC_WMGC>สแกน
+MSG_MAGIC_NAME_14	<IC_WMGC>รักษา
+MSG_MAGIC_NAME_15	<IC_WMGC>คูรา
+MSG_MAGIC_NAME_16	<IC_WMGC>คูรากา
+MSG_MAGIC_NAME_17	<IC_WMGC>คูราจา
+MSG_MAGIC_NAME_18	<IC_WMGC>เอซูนา
+MSG_MAGIC_NAME_19	<IC_WMGC>ยกขึ้น
+MSG_MAGIC_NAME_20	<IC_WMGC>สูงขึ้น
+MSG_MAGIC_NAME_21	<IC_WMGC>มินิ
+MSG_MAGIC_NAME_22	<IC_WMGC>เทเลพอร์ต
+MSG_MAGIC_NAME_23	<IC_WMGC>ไซท์
+MSG_MAGIC_NAME_24	<IC_WMGC>ลอย
+MSG_MAGIC_NAME_25	<IC_BMGC>คางคก
+MSG_MAGIC_NAME_26	<IC_BMGC>หมู
+MSG_MAGIC_NAME_27	<IC_BMGC>วาร์ป
+MSG_MAGIC_NAME_28	<IC_BMGC>พิษ
+MSG_MAGIC_NAME_29	<IC_BMGC>ไฟ
+MSG_MAGIC_NAME_30	<IC_BMGC>ไฟรา
+MSG_MAGIC_NAME_31	<IC_BMGC>ไฟรากา
+MSG_MAGIC_NAME_32	<IC_BMGC>พายุหิมะ
+MSG_MAGIC_NAME_33	<IC_BMGC>บลิซซารา
+MSG_MAGIC_NAME_34	<IC_BMGC>บลิซซากา
+MSG_MAGIC_NAME_35	<IC_BMGC>สายฟ้า
+MSG_MAGIC_NAME_36	<IC_BMGC>ธันดารา
+MSG_MAGIC_NAME_37	<IC_BMGC>ธันดากา
+MSG_MAGIC_NAME_38	<IC_BMGC>ไบโอ
+MSG_MAGIC_NAME_39	<IC_BMGC>พายุหมุน
+MSG_MAGIC_NAME_40	<IC_BMGC>แผ่นดินไหว
+MSG_MAGIC_NAME_41	<IC_BMGC>นอนหลับ
+MSG_MAGIC_NAME_42	<IC_BMGC>เบรค
+MSG_MAGIC_NAME_43	<IC_BMGC>เดธ
+MSG_MAGIC_NAME_44	<IC_BMGC>หยุด
+MSG_MAGIC_NAME_45	<IC_BMGC>เดรน
+MSG_MAGIC_NAME_46	<IC_BMGC>ออสโมส
+MSG_MAGIC_NAME_47	<IC_BMGC>ดาวตก
+MSG_MAGIC_NAME_48	<IC_BMGC>ปะทุ
+MSG_MAGIC_NAME_49	<IC_SMGC>ก็อบลิน
+MSG_MAGIC_NAME_50	<IC_SMGC>ระเบิด
+MSG_MAGIC_NAME_51	<IC_SMGC>คอกกะทริซ
+MSG_MAGIC_NAME_52	<IC_SMGC>มายด์เฟลเยอร์
+MSG_MAGIC_NAME_53	<IC_SMGC>โชโคโบะ
+MSG_MAGIC_NAME_54	<IC_SMGC>ชีวา
+MSG_MAGIC_NAME_55	<IC_SMGC>รามู
+MSG_MAGIC_NAME_56	<IC_SMGC>อิฟริท
+MSG_MAGIC_NAME_57	<IC_SMGC>ไททัน
+MSG_MAGIC_NAME_58	<IC_SMGC>มังกรหมอก
+MSG_MAGIC_NAME_59	<IC_SMGC>ซิลฟ์
+MSG_MAGIC_NAME_60	<IC_SMGC>โอดิน
+MSG_MAGIC_NAME_61	<IC_SMGC>เลวีอาธาน
+MSG_MAGIC_NAME_62	<IC_SMGC>อสุรา
+MSG_MAGIC_NAME_63	<IC_SMGC>บาฮามุต
+MSG_MAGIC_NAME_64	<IC_BMGC>ดาวหาง
+MSG_MAGIC_NAME_65	<IC_BMGC>ไฟ
+MSG_MAGIC_NAME_66	เปลวไฟ
+MSG_MAGIC_NAME_67	น้ำท่วม
+MSG_MAGIC_NAME_68	จู่โจมอย่างรวดเร็ว
+MSG_MAGIC_NAME_69	ควัน
+MSG_MAGIC_NAME_70	ตรึง
+MSG_MAGIC_NAME_71	ภาพลวงตา
+MSG_MAGIC_NAME_72	ธนูเวท
+MSG_MAGIC_NAME_73	รักษา
+MSG_MAGIC_NAME_74	บาซูนา
+MSG_MAGIC_NAME_75	พอยโซนา
+MSG_MAGIC_NAME_76	กริชนักเต้น
+MSG_MAGIC_NAME_77	หมัดก็อบลิน
+MSG_MAGIC_NAME_78	ทำลายตัวเอง
+MSG_MAGIC_NAME_79	ปากนกที่ทำให้เป็นหิน
+MSG_MAGIC_NAME_80	มายด์บลาสต์
+MSG_MAGIC_NAME_81	ลูกเตะโชโคโบะ
+MSG_MAGIC_NAME_82	ไดมอนด์ดัสต์
+MSG_MAGIC_NAME_83	สายฟ้าแห่งการพิพากษา
+MSG_MAGIC_NAME_84	ไฟอเวจี
+MSG_MAGIC_NAME_85	ความโกรธเกรี้ยวของไกอา
+MSG_MAGIC_NAME_86	ลมหายใจหมอก
+MSG_MAGIC_NAME_87	สายลมกระซิบ
+MSG_MAGIC_NAME_88	ดาบตัดเหล็ก
+MSG_MAGIC_NAME_89	ซึนามิ
+MSG_MAGIC_NAME_90	อสุรา
+MSG_MAGIC_NAME_91	การปะทุใหญ่
+MSG_MON_ATK_01	จ้อง
+MSG_MON_ATK_02	บลาสเตอร์
+MSG_MON_ATK_03	ตบ
+MSG_MON_ATK_04	ผงพิษ
+MSG_MON_ATK_05	จ้องเขม็ง
+MSG_MON_ATK_06	ล่อลวง
+MSG_MON_ATK_07	เลีย
+MSG_MON_ATK_08	คำสาป
+MSG_MON_ATK_09	ปล่อยรังสี
+MSG_MON_ATK_10	พิพากษา
+MSG_MON_ATK_11	จิก
+MSG_MON_ATK_12	จ้องให้เป็นหิน
+MSG_MON_ATK_13	มายด์บลาสต์
+MSG_MON_ATK_14	กอด
+MSG_MON_ATK_15	ลมหายใจกลิ่นแรง
+MSG_MON_ATK_16	เฮกซ์
+MSG_MON_ATK_17	บีบรัด
+MSG_MON_ATK_18	หมุนวน
+MSG_MON_ATK_19	การบิดเบือนเวลา
+MSG_MON_ATK_20	หมอกเยือกแข็ง
+MSG_MON_ATK_21	ระเบิด
+MSG_MON_ATK_22	เพลงไว้อาลัยต้องสาป
+MSG_MON_ATK_23	ตรึงด้วยน้ำแข็ง
+MSG_MON_ATK_24	แก๊สนอนหลับ
+MSG_MON_ATK_25	แก๊สพิษ
+MSG_MON_ATK_26	เลเซอร์เจาะ
+MSG_MON_ATK_27	เขี้ยวดำ
+MSG_MON_ATK_28	หลุมดำ
+MSG_MON_ATK_29	เต้น
+MSG_MON_ATK_30	มิติที่เก้า
+MSG_MON_ATK_31	น้ำวน
+MSG_MON_ATK_32	คลื่นแม่เหล็กไฟฟ้า
+MSG_MON_ATK_33	ปฏิกิริยาลูกโซ่
+MSG_MON_ATK_34	ตัวอ่อน
+MSG_MON_ATK_35	ฟื้นฟู
+MSG_MON_ATK_36	ดูด
+MSG_MON_ATK_37	ยาสรรพคุณ
+MSG_MON_ATK_38	การระเบิดครั้งใหญ่
+MSG_MON_ATK_39	งานเลี้ยงเลือด
+MSG_MON_ATK_40	กรดย่อยสลาย
+MSG_MON_ATK_41	ละอองเกสร
+MSG_MON_ATK_42	บด
+MSG_MON_ATK_43	เตือน
+MSG_MON_ATK_44	เรียกอสูร
+MSG_MON_ATK_45	ค้นหา
+MSG_MON_ATK_46	แตกตัว
+MSG_MON_ATK_47	ถอย
+MSG_MON_ATK_48	ลำแสง
+MSG_MON_ATK_49	ลูกโลก 199
+MSG_MON_ATK_50	เปลวไฟ
+MSG_MON_ATK_51	เปลวไฟ
+MSG_MON_ATK_52	ฟ้าผ่า
+MSG_MON_ATK_53	ฟ้าแลบ
+MSG_MON_ATK_54	ลมหายใจแห่งความมืด
+MSG_MON_ATK_55	คลื่นทะเล
+MSG_MON_ATK_56	พายุน้ำแข็ง
+MSG_MON_ATK_57	ซึนามิ
+MSG_MON_ATK_58	พายุหมุน
+MSG_MON_ATK_59	เลเซอร์
+MSG_MON_ATK_60	ทำลายตัวเอง
+MSG_MON_ATK_61	แผ่นดินไหว
+MSG_MON_ATK_62	นักขว้างเปลวไฟ
+MSG_MON_ATK_63	รังสีความร้อน
+MSG_MON_ATK_64	ขุมนรก
+MSG_MON_ATK_65	ดาบตัดเหล็ก
+MSG_MON_ATK_66	การปะทุใหญ่
+MSG_MON_ATK_67	เข็ม
+MSG_MON_ATK_68	เขาสัตว์โต้กลับ
+MSG_MON_ATK_69	สร้างใหม่
+MSG_MON_ATK_71	ดาวตกคู่
+MSG_MAG_INF_01	ทำให้เป็นอัมพาต
+MSG_MAG_INF_02	ทำให้เป็นใบ้
+MSG_MAG_INF_03	ทำให้สับสน
+MSG_MAG_INF_04	ทำให้เกิดภาพลวงตาของตัวเราเพื่อหลอกศัตรู
+MSG_MAG_INF_05	ลดความเสียหายทางร่างกายที่ได้รับ
+MSG_MAG_INF_06	ลดความเสียหายทางเวทที่ได้รับ
+MSG_MAG_INF_07	ทำให้เวลาช้าลง
+MSG_MAG_INF_08	เร่งให้เวลาเร็วขึ้น
+MSG_MAG_INF_09	ทำให้เกิดความบ้าระห่ำ
+MSG_MAG_INF_10	สร้างสิ่งกีดขวางที่สะท้อนเวทมนตร์กลับไปหาผู้ร่ายเวท
+MSG_MAG_INF_11	สร้างความเสียหายด้วยพลังศักดิ์สิทธิ์
+MSG_MAG_INF_12	กำจัดผลกระทบจากเวท
+MSG_MAG_INF_13	ตรวจสอบ HP และจุดอ่อนของเป้าหมาย
+MSG_MAG_INF_14	ฟื้นฟู HP
+MSG_MAG_INF_15	ฟื้นฟู HP
+MSG_MAG_INF_16	ฟื้นฟู HP
+MSG_MAG_INF_17	ฟื้นฟู HP
+MSG_MAG_INF_18	รักษาสถานะไม่ปรกติทั้งหมดยกเว้นน็อกเอาต์
+MSG_MAG_INF_19	ช่วยคืนชีพได้หนึ่งคน
+MSG_MAG_INF_20	คืนชีพและฟื้นฟู HP เต็มให้กับหนึ่งเป้าหมาย
+MSG_MAG_INF_21	หดเป้าหมายให้เล็กลงหรือฟื้นฟูสู่สภาพปกติ
+MSG_MAG_INF_22	วาร์ปพาทีมออกไปจากดันเจี้ยนหรือจากการต่อสู้
+MSG_MAG_INF_23	แสดงแผนที่โดยละเอียด
+MSG_MAG_INF_24	ทำให้เป้าหมายลอยขึ้น
+MSG_MAG_INF_25	ทำให้เป้าหมายกลายเป็นคางคกหรือฟื้นฟูสู่สภาพปกติ
+MSG_MAG_INF_26	ทำให้เป้าหมายกลายเป็นหมูหรือฟื้นฟูสู่สภาพปกติ
+MSG_MAG_INF_27	วาร์ปพาทีมกลับไปยังชั้นที่แล้ว
+MSG_MAG_INF_28	ทำให้เป็นพิษ
+MSG_MAG_INF_29	สร้างความเสียหายด้วยธาตุไฟ
+MSG_MAG_INF_30	สร้างความเสียหายด้วยธาตุไฟ
+MSG_MAG_INF_31	สร้างความเสียหายด้วยธาตุไฟ
+MSG_MAG_INF_32	สร้างความเสียหายด้วยธาตุน้ำแข็ง
+MSG_MAG_INF_33	สร้างความเสียหายด้วยธาตุน้ำแข็ง
+MSG_MAG_INF_34	สร้างความเสียหายด้วยธาตุน้ำแข็ง
+MSG_MAG_INF_35	สร้างความเสียหายด้วยธาตุสายฟ้า
+MSG_MAG_INF_36	สร้างความเสียหายด้วยธาตุสายฟ้า
+MSG_MAG_INF_37	สร้างความเสียหายด้วยธาตุสายฟ้า
+MSG_MAG_INF_38	ปล่อยไวรัสที่ทำลายสุขภาพ\nเพื่อสร้างความเสียหาย
+MSG_MAG_INF_39	สร้างพายุหมุนที่สร้างความเสียหายหนัก
+MSG_MAG_INF_40	ทำให้เกิดแผ่นดินไหวที่สร้างความเสียหายแก่ศัตรูทั้งหมด
+MSG_MAG_INF_41	ทำให้หลับ
+MSG_MAG_INF_42	ทำให้กลายเป็นหิน
+MSG_MAG_INF_43	ทำให้ตายทันที
+MSG_MAG_INF_44	ทำให้เวลาหยุดหยุดการกระทำของเป้าหมาย
+MSG_MAG_INF_45	ดูด HP
+MSG_MAG_INF_46	ดูด MP
+MSG_MAG_INF_47	เรียกดาวตกที่สร้างความเสียหายแก่ศัตรูทั้งหมดออกมา
+MSG_MAG_INF_48	สร้างความเสียหายด้วยการเผา
+MSG_MAG_INF_49	ร่ายเวทหมัดก็อบลินที่ใช้โจมตีศัตรูหนึ่งตัว
+MSG_MAG_INF_50	ร่ายเวททำลายตัวเองที่สร้างความเสียหายแก่ศัตรูหนึ่งตัวตามค่า HP ของผู้ร่าย
+MSG_MAG_INF_51	ร่ายเวทปากนกที่ทำให้เป็นหิน ซึ่งทำให้ศัตรูหหนึ่งตัวกลายเป็นหิน
+MSG_MAG_INF_52	ร่ายเวทมายด์บลาสต์ใส่ศัตรูหนึ่งตัวให้เสียสุขภาพและเป็นอัมพาต
+MSG_MAG_INF_53	ร่ายเวทลูกเตะโชโคโบะที่ใช้โจมตีศัตรูหนึ่งตัว
+MSG_MAG_INF_54	ร่ายเวทไดมอนดัสต์ที่สร้างความเสียหายแก่ศัตรูทั้งหมดด้วยน้ำแข็ง
+MSG_MAG_INF_55	ร่ายเวทสายฟ้าแห่งการพิพากษาที่สร้างความเสียหายแก่ศัตรูทั้งหมดด้วยสายฟ้า
+MSG_MAG_INF_56	ร่ายเวทไฟอเวจีที่สร้างความเสียหายแก่ศัตรูทั้งหมดด้วยไฟ
+MSG_MAG_INF_57	ร่ายเวทความโกรธเกรี้ยวของไกอาซึ่งทำให้เกิดแผ่นดินไหวที่สร้างความเสียหายแก่ศัตรูทั้งหมด
+MSG_MAG_INF_58	ร่ายเวทลมหายใจหมอกที่สร้างความเสียหายแก่ศัตรูหนึ่งตัวตามค่า HP ของผู้ร่าย
+MSG_MAG_INF_59	ร่ายเวทสายลมกระซิบที่ดูดHP ของศัตรูเพื่อรักษาทีมทั้งหมด
+MSG_MAG_INF_60	ร่ายเวทดาบตัดเหล็กที่ทำให้ศัตรูทั้งหมดตายทันที
+MSG_MAG_INF_61	ร่ายเวทสึนามิที่สร้างความเสียหายอย่างมากแก่ศัตรูทั้งหมด
+MSG_MAG_INF_62	ร่ายคาถาสุ่มจากหนึ่งในสามคาถาคือ คูรากา,ป้องกัน หรือ ชีวิต
+MSG_MAG_INF_63	ร่ายคาถาการปะทุใหญ่ที่สร้างความเสียหายอย่างมากแก่ศัตรูทั้งหมดด้วยการระเบิดความร้อน
+MSG_MAG_INF_64	โจมตีศัตรูทั้งหมดด้วยไฟ
+MSG_MAG_INF_65	โจมตีศัตรูทั้งหมดด้วยสึนามี
+MSG_MAG_INF_66	โจมตีศัตรูทั้งหมดด้วยสายฟ้า
+MSG_MAG_INF_67	สร้างควันปกคลุมเพื่อช่วยพรรคพวกหนีจากการต่อสู้
+MSG_MAG_INF_68	ทำให้เป้าหมายขยับไม่ได้ชั่วคราว ป้องกันไม่ให้เคลื่อนไหวใด ๆ
+MSG_MAG_INF_69	สร้างภาพลวงตาของตนเองเพื่อหลอกศัตรู
+MSG_WEAPON_NAME_01	<IC_CLW>กรงเล็บแห่งไฟ
+MSG_WEAPON_NAME_02	<IC_CLW>กรงเล็บแห่งน้ำแข็ง
+MSG_WEAPON_NAME_03	<IC_CLW>กรงเล็บแห่งสายฟ้า
+MSG_WEAPON_NAME_04	<IC_CLW>กรงเล็บแห่งแฟรี่
+MSG_WEAPON_NAME_05	<IC_CLW>กรงเล็บแห่งนรก
+MSG_WEAPON_NAME_06	<IC_CLW>กรงเล็บแมว
+MSG_WEAPON_NAME_07	<IC_ROD>คทา
+MSG_WEAPON_NAME_08	<IC_ROD>คทาน้ำแข็ง
+MSG_WEAPON_NAME_09	<IC_ROD>คทาเปลวไฟ
+MSG_WEAPON_NAME_10	<IC_ROD>คทาสายฟ้า
+MSG_WEAPON_NAME_11	<IC_ROD>คทาแปลงร่าง
+MSG_WEAPON_NAME_12	<IC_ROD>คทาแฟรี่
+MSG_WEAPON_NAME_13	<IC_ROD>คทาละอองดาว
+MSG_WEAPON_NAME_14	<IC_ROD>คทาลิลิธ
+MSG_WEAPON_NAME_15	<IC_WND>ไม้เท้า
+MSG_WEAPON_NAME_16	<IC_WND>ไม้เท้ารักษา
+MSG_WEAPON_NAME_17	<IC_WND>ไม้เท้ามิธริล
+MSG_WEAPON_NAME_18	<IC_WND>ไม้เท้าแห่งพลัง
+MSG_WEAPON_NAME_19	<IC_WND>ไม้เท้าไคนีซิส
+MSG_WEAPON_NAME_20	<IC_WND>ไม้เท้าของนักปราชญ์
+MSG_WEAPON_NAME_21	<IC_WND>ไม้เท้าอักษรรูน
+MSG_WEAPON_NAME_22	<IC_DSRD>ดาบแห่งความมืด
+MSG_WEAPON_NAME_23	<IC_DSRD>ดาบแห่งเงา
+MSG_WEAPON_NAME_24	<IC_DSRD>เดธบริงเกอร์
+MSG_WEAPON_NAME_25	<IC_NSRD>ดาบในตำนาน
+MSG_WEAPON_NAME_26	<IC_NSRD>ดาบสายฟ้า
+MSG_WEAPON_NAME_27	<IC_NSRD>เอ็กซ์คาลิเบอร์
+MSG_WEAPON_NAME_28	<IC_NSRD>แร็กนาร็อก
+MSG_WEAPON_NAME_29	<IC_SRD>ดาบเปลวไฟ
+MSG_WEAPON_NAME_30	<IC_SRD>ดาบน้ำแข็ง
+MSG_WEAPON_NAME_31	<IC_SRD>ผู้พิทักษ์
+MSG_WEAPON_NAME_32	<IC_SRD>ดาบเลือด
+MSG_WEAPON_NAME_33	<IC_SRD>ดาบโบราณ
+MSG_WEAPON_NAME_34	<IC_SRD>ดาบหลับใหล
+MSG_WEAPON_NAME_35	<IC_SRD>ดาบกอร์กอน
+MSG_WEAPON_NAME_36	<IC_SRD>ดาบมิธริล
+MSG_WEAPON_NAME_37	<IC_SRD>ผู้ล้างแค้น
+MSG_WEAPON_NAME_38	<IC_SPR>หอก
+MSG_WEAPON_NAME_39	<IC_SPR>หอกลม
+MSG_WEAPON_NAME_40	<IC_SPR>ทวนไฟ
+MSG_WEAPON_NAME_41	<IC_SPR>ทวนน้ำแข็ง
+MSG_WEAPON_NAME_42	<IC_SPR>ทวนไวเวิร์น
+MSG_WEAPON_NAME_43	<IC_SPR>ทวนศักดิ์สิทธิ์
+MSG_WEAPON_NAME_44	<IC_SPR>ทวนเลือด
+MSG_WEAPON_NAME_45	<IC_SPR>กุงเนียร์
+MSG_WEAPON_NAME_46	<IC_KTN>มีดบิน
+MSG_WEAPON_NAME_47	<IC_KTN>อาชูรา
+MSG_WEAPON_NAME_48	<IC_KTN>นักตีดาบ
+MSG_WEAPON_NAME_49	<IC_KTN>คิคุชิมนจิ
+MSG_WEAPON_NAME_50	<IC_KTN>มุราซาเมะ
+MSG_WEAPON_NAME_51	<IC_KTN>มาซามุเนะ
+MSG_WEAPON_NAME_52	<IC_NIF>เมจมาเชอร์
+MSG_WEAPON_NAME_53	<IC_NIF>มีดมิธริล
+MSG_WEAPON_NAME_54	<IC_NIF>กริชนักเต้น
+MSG_WEAPON_NAME_55	<IC_NIF>มีด
+MSG_WEAPON_NAME_56	<IC_WHP>แส้
+MSG_WEAPON_NAME_57	<IC_WHP>แส้โซ่
+MSG_WEAPON_NAME_58	<IC_WHP>แส้ที่โจมตีอย่างรวดเร็ว
+MSG_WEAPON_NAME_59	<IC_WHP>แส้เปลวไฟ
+MSG_WEAPON_NAME_60	<IC_WHP>หนวดมังกร
+MSG_WEAPON_NAME_61	<IC_AX>ขวานคนแคระ
+MSG_WEAPON_NAME_62	<IC_AX>อาวุธฆ่าออร์ก
+MSG_WEAPON_NAME_63	<IC_AX>ขวานอาบพิษ
+MSG_WEAPON_NAME_64	<IC_AX>ขวานอักษรรูน
+MSG_WEAPON_NAME_65	<IC_SRK>ดาวกระจาย
+MSG_WEAPON_NAME_66	<IC_SRK>ดาวกระจายใบพัด
+MSG_WEAPON_NAME_67	<IC_TRW>บูมเมอแรง
+MSG_WEAPON_NAME_68	<IC_TRW>ดาบวงแหวนจันทรา
+MSG_WEAPON_NAME_69	<IC_HRP>พิณแห่งความฝัน
+MSG_WEAPON_NAME_70	<IC_HRP>พิณของลาเมีย
+MSG_WEAPON_NAME_71	<IC_HMR>ค้อนไม้
+MSG_WEAPON_NAME_72	<IC_HMR>ค้อนมิธริล
+MSG_WEAPON_NAME_73	<IC_HMR>ค้อนไกอา
+MSG_WEAPON_NAME_74	<IC_BOW>คันธนู
+MSG_WEAPON_NAME_75	<IC_BOW>หน้าไม้
+MSG_WEAPON_NAME_76	<IC_BOW>คันธนูชั้นยอด
+MSG_WEAPON_NAME_77	<IC_BOW>คันธนูนักฆ่า
+MSG_WEAPON_NAME_78	<IC_BOW>คันธนูเอลฟ์
+MSG_WEAPON_NAME_79	<IC_BOW>คันธนูของโยอิจิ
+MSG_WEAPON_NAME_80	<IC_BOW>คันธนูของอาร์ทิมิส
+MSG_WEAPON_NAME_81	<IC_ARW>ธนูเหล็ก
+MSG_WEAPON_NAME_82	<IC_ARW>ธนูศักดิ์สิทธิ์
+MSG_WEAPON_NAME_83	<IC_ARW>ธนูไฟ
+MSG_WEAPON_NAME_84	<IC_ARW>ธนูน้ำแข็ง
+MSG_WEAPON_NAME_85	<IC_ARW>ธนูสายฟ้า
+MSG_WEAPON_NAME_86	<IC_ARW>ธนูทำให้ตาบอด
+MSG_WEAPON_NAME_87	<IC_ARW>ธนูอาบยาพิษ
+MSG_WEAPON_NAME_88	<IC_ARW>ธนูทำให้เงียบเสียง
+MSG_WEAPON_NAME_89	<IC_ARW>ธนูเทพธิดา
+MSG_WEAPON_NAME_90	<IC_ARW>ธนูโยอิจิ
+MSG_WEAPON_NAME_91	<IC_ARW>ธนูเมดูซ่า
+MSG_WEAPON_NAME_92	<IC_ARW>ธนูอาร์ทิมิส
+MSG_WEAPON_NAME_99	<IC_NSRD>Excalipoor
+MSG_WEAPON_NAME_100	<IC_NSRD>Flandango
+MSG_WEAPON_NAME_101	<IC_NSRD>Lightbringer
+MSG_WEAPON_NAME_102	<IC_SRD>Piggy Stick
+MSG_WEAPON_NAME_103	<IC_SPR>Abel's Lance
+MSG_WEAPON_NAME_104	<IC_AX>Gigant Axe
+MSG_WEAPON_NAME_105	<IC_BOW>Perseus Bow
+MSG_WEAPON_NAME_106	<IC_ARW>Perseus Arrow
+MSG_WEAPON_NAME_107	<IC_WHP>Mystic Whip
+MSG_WEAPON_NAME_108	<IC_NIF>Triton's Dagger
+MSG_WEAPON_NAME_109	<IC_NIF>Assassin's Dagger
+MSG_WEAPON_NAME_110	<IC_KTN>Sasuke's Katana
+MSG_WEAPON_NAME_111	<IC_KTN>Mutsunokami
+MSG_WEAPON_NAME_112	<IC_SRK>Scrap Metal
+MSG_WEAPON_NAME_113	<IC_TRW>Rising Sun
+MSG_WEAPON_NAME_114	<IC_CLW>Tiger Fangs
+MSG_WEAPON_NAME_115	<IC_CLW>Dragon Claws
+MSG_WEAPON_NAME_116	<IC_CLW>Godhand
+MSG_WEAPON_NAME_117	<IC_HMR>Thor's Hammer
+MSG_WEAPON_NAME_118	<IC_HMR>Fiery Hammer
+MSG_WEAPON_NAME_119	<IC_ROD>Asura's Rod
+MSG_WEAPON_NAME_120	<IC_WND>Seraphim's Mace
+MSG_WEAPON_NAME_121	<IC_WND>Nirvana
+MSG_WEAPON_NAME_122	<IC_HRP>Apollo's Harp
+MSG_WEAPON_NAME_123	<IC_HRP>Requiem Harp
+MSG_WEAPON_NAME_124	<IC_HRP>Loki's Harp
+MSG_WEAPON_NAME_125	<IC_DSRD>Blood Dark Sword
+MSG_WEAPON_NAME_126	<IC_DSRD>Golbez's Sword
+MSG_WEAPON_NAME_127	<IC_DSRD>Vampire Sword
+MSG_WEAPON_NAME_128	<IC_DSRD>Megido Sword
+MSG_WEAPON_NAME_129	<IC_SRD>Erdrick's Sword
+MSG_WEAPON_NAME_130	<IC_SPR>Vampire Spear
+MSG_WEAPON_NAME_131	<IC_ROD>Super Anger Rod
+MSG_ARMOR_NAME_01	<IC_SHIELD>โล่เหล็ก
+MSG_ARMOR_NAME_02	<IC_SHIELD>โล่แห่งความมืด
+MSG_ARMOR_NAME_03	<IC_SHIELD>โล่ปีศาจ
+MSG_ARMOR_NAME_04	<IC_SHIELD>โล่แห่งแสง
+MSG_ARMOR_NAME_05	<IC_SHIELD>โล่มิธริล
+MSG_ARMOR_NAME_06	<IC_SHIELD>โล่เปลวไฟ
+MSG_ARMOR_NAME_07	<IC_SHIELD>โล่น้ำแข็ง
+MSG_ARMOR_NAME_08	<IC_SHIELD>โล่เพชร
+MSG_ARMOR_NAME_09	<IC_SHIELD>โล่ป้องกัน
+MSG_ARMOR_NAME_10	<IC_SHIELD>โล่เกนจิ
+MSG_ARMOR_NAME_11	<IC_SHIELD>โล่มังกร
+MSG_ARMOR_NAME_12	<IC_SHIELD>โล่คริสตัล
+MSG_ARMOR_NAME_13	<IC_HEAD>หมวกเหล็ก
+MSG_ARMOR_NAME_14	<IC_HEAD>หมวกแห่งความมืด
+MSG_ARMOR_NAME_15	<IC_HEAD>หมวกพญายม
+MSG_ARMOR_NAME_16	<IC_HEAD>หมวกปีศาจ
+MSG_ARMOR_NAME_17	<IC_HEAD>หมวกแห่งแสง
+MSG_ARMOR_NAME_18	<IC_HEAD>หมวกมิธริล
+MSG_ARMOR_NAME_19	<IC_HEAD>หมวกเพชร
+MSG_ARMOR_NAME_20	<IC_HEAD>หมวกเกนจิ
+MSG_ARMOR_NAME_21	<IC_HEAD>หมวกมังกร
+MSG_ARMOR_NAME_22	<IC_HEAD>หมวกคริสตัล
+MSG_ARMOR_NAME_23	<IC_HEAD>หมวกหนังสัตว์
+MSG_ARMOR_NAME_24	<IC_HEAD>หมวกขนนก
+MSG_ARMOR_NAME_25	<IC_HEAD>หมวกของพ่อมด
+MSG_ARMOR_NAME_26	<IC_HEAD>หมวกของนักปราชญ์
+MSG_ARMOR_NAME_27	<IC_HEAD>ปิ่นปักผมทอง
+MSG_ARMOR_NAME_28	<IC_HEAD>ริบบิ้น
+MSG_ARMOR_NAME_29	<IC_HEAD>สายคาดศีรษะ
+MSG_ARMOR_NAME_30	<IC_HEAD>หมวกเบเร่ต์สีเขียว
+MSG_ARMOR_NAME_31	<IC_HEAD>เสื้อคลุมสีดำ
+MSG_ARMOR_NAME_32	<IC_HEAD>หน้ากากแก้ว
+MSG_ARMOR_NAME_33	<IC_ARMOR>ชุดเกราะเหล็ก
+MSG_ARMOR_NAME_34	<IC_ARMOR>ชุดเกราะแห่งความมืด
+MSG_ARMOR_NAME_35	<IC_ARMOR>ชุดเกราะพญายม
+MSG_ARMOR_NAME_36	<IC_ARMOR>ชุดเกราะปีศาจ
+MSG_ARMOR_NAME_37	<IC_ARMOR>ชุดเกราะของอัศวิน
+MSG_ARMOR_NAME_38	<IC_ARMOR>ชุดเกราะมิธริล
+MSG_ARMOR_NAME_39	<IC_ARMOR>เกราะเปลวไฟ
+MSG_ARMOR_NAME_40	<IC_ARMOR>ชุดเกราะน้ำแข็ง
+MSG_ARMOR_NAME_41	<IC_ARMOR>ชุดเกราะเพชร
+MSG_ARMOR_NAME_42	<IC_ARMOR>ชุดเกราะเกนจิ
+MSG_ARMOR_NAME_43	<IC_ARMOR>เกราะมังกร
+MSG_ARMOR_NAME_44	<IC_ARMOR>เกราะคริสตัล
+MSG_ARMOR_NAME_45	<IC_CLTH>เสื้อผ้า
+MSG_ARMOR_NAME_46	<IC_CLTH>เสื้อหนังสัตว์
+MSG_ARMOR_NAME_47	<IC_CLTH>เครื่องแต่งกายไกอา
+MSG_ARMOR_NAME_48	<IC_CLTH>เสื้อคลุมของนักปราชญ์
+MSG_ARMOR_NAME_49	<IC_CLTH>ชุดคลุมสีดำ
+MSG_ARMOR_NAME_50	<IC_CLTH>ชุดคลุมแห่งแสง
+MSG_ARMOR_NAME_51	<IC_CLTH>ชุดคลุมสีขาว
+MSG_ARMOR_NAME_52	<IC_CLTH>สายสะพายแห่งพลัง
+MSG_ARMOR_NAME_53	<IC_CLTH>ชุดสตรีมิเนอร์วา
+MSG_ARMOR_NAME_54	<IC_CLTH>เครื่องแต่งกายนักโทษ
+MSG_ARMOR_NAME_55	<IC_CLTH>เสื้อคลุมของกวี
+MSG_ARMOR_NAME_56	<IC_CLTH>ชุดยูโด
+MSG_ARMOR_NAME_57	<IC_CLTH>ชุดยูโดสายดำ
+MSG_ARMOR_NAME_58	<IC_ARMOR>ชุดเกราะอะดาแมนท์
+MSG_ARMOR_NAME_59	<IC_CLTH>เสื้อสีดำ
+MSG_ARMOR_NAME_60	<IC_GLOV>ถุงมือเหล็ก
+MSG_ARMOR_NAME_61	<IC_GLOV>ถุงมือแห่งความมืด
+MSG_ARMOR_NAME_62	<IC_GLOV>ถุงมือพญายม
+MSG_ARMOR_NAME_63	<IC_GLOV>ถุงมือปีศาจ
+MSG_ARMOR_NAME_64	<IC_GLOV>ถุงมือหุ้มโลหะ
+MSG_ARMOR_NAME_65	<IC_GLOV>ถุงมือมิธริล
+MSG_ARMOR_NAME_66	<IC_GLOV>ถุงมือเพชร
+MSG_ARMOR_NAME_67	<IC_GLOV>ถุงมือของยักษ์
+MSG_ARMOR_NAME_68	<IC_GLOV>ถุงมือเกนจิ
+MSG_ARMOR_NAME_69	<IC_GLOV>ถุงมือมังกร
+MSG_ARMOR_NAME_70	<IC_GLOV>ถุงมือคริสตัล
+MSG_ARMOR_NAME_71	<IC_GLOV>ปลอกแขนเหล็ก
+MSG_ARMOR_NAME_72	<IC_GLOV>แหวนทับทิม
+MSG_ARMOR_NAME_73	<IC_GLOV>ปลอกแขนเงิน
+MSG_ARMOR_NAME_74	<IC_GLOV>ปลอกแขนแห่งพลัง
+MSG_ARMOR_NAME_75	<IC_GLOV>ปลอกแขนอักษรรูน
+MSG_ARMOR_NAME_76	<IC_GLOV>แหวนคริสตัล
+MSG_ARMOR_NAME_77	<IC_GLOV>ปลอกแขนเพชร
+MSG_ARMOR_NAME_78	<IC_GLOV>แหวนคุ้มกัน
+MSG_ARMOR_NAME_79	<IC_GLOV>แหวนต้องสาป
+MSG_ARMOR_NAME_80	<IC_ARMOR>Grand Armor
+MSG_ARMOR_NAME_81	<IC_ARMOR>Dragoon Plate
+MSG_ARMOR_NAME_82	<IC_ARMOR>Caesar's Plate
+MSG_ARMOR_NAME_83	<IC_ARMOR>Maximillian
+MSG_ARMOR_NAME_84	<IC_CLTH>Red Jacket
+MSG_ARMOR_NAME_85	<IC_CLTH>Brave Suit
+MSG_ARMOR_NAME_86	<IC_CLTH>Chocobo Suit
+MSG_ARMOR_NAME_87	<IC_CLTH>Tabby Suit
+MSG_ARMOR_NAME_88	<IC_CLTH>Battle Gear
+MSG_ARMOR_NAME_89	<IC_CLTH>Assassin's Vest
+MSG_ARMOR_NAME_90	<IC_CLTH>Vishnu Vest
+MSG_ARMOR_NAME_91	<IC_CLTH>Sage's Robe
+MSG_ARMOR_NAME_92	<IC_CLTH>Robe Of Lords
+MSG_ARMOR_NAME_93	<IC_CLTH>Rainbow Robe
+MSG_ARMOR_NAME_94	<IC_CLTH>White Dress
+MSG_ARMOR_NAME_95	<IC_SHIELD>Hero's Shield
+MSG_ARMOR_NAME_96	<IC_SHIELD>Chocobo Shield
+MSG_ARMOR_NAME_97	<IC_HEAD>Hypnocrown
+MSG_ARMOR_NAME_98	<IC_HEAD>Cat-Ear Hood
+MSG_ARMOR_NAME_99	<IC_HEAD>White Tiger Mask
+MSG_ARMOR_NAME_100	<IC_HEAD>Red Cap
+MSG_ARMOR_NAME_101	<IC_HEAD>Rabbit-Ear Hood
+MSG_ARMOR_NAME_102	<IC_HEAD>Augustine Tiara
+MSG_ARMOR_NAME_103	<IC_HEAD>Star of Kami Kazari
+MSG_ARMOR_NAME_104	<IC_HEAD>Royal Crown
+MSG_ARMOR_NAME_105	<IC_HEAD>Dual Mask
+MSG_ARMOR_NAME_106	<IC_HEAD>Demon Hat
+MSG_ARMOR_NAME_107	<IC_HEAD>Philosopher's Hat
+MSG_ARMOR_NAME_108	<IC_HEAD>Grand Helm
+MSG_ARMOR_NAME_109	<IC_HEAD>Caesar Helm
+MSG_ARMOR_NAME_110	<IC_HEAD>Dragoon Helm
+MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
+MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
+MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
+MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ITEM_NAME_01	<IC_BAG>สะเก็ดระเบิด
+MSG_ITEM_NAME_02	<IC_BAG>แขนระเบิด
+MSG_ITEM_NAME_03	<IC_BAG>สายลมแห่งแอนตาร์กติก
+MSG_ITEM_NAME_04	<IC_BAG>สายลมแห่งอาร์กติก
+MSG_ITEM_NAME_05	<IC_BAG>ความโกรธเกรี้ยวของซูส
+MSG_ITEM_NAME_06	<IC_BAG>ความเดือดดาลของเหล่าเทพ
+MSG_ITEM_NAME_07	<IC_BAG>ละอองดาว
+MSG_ITEM_NAME_08	<IC_BAG>จุมพิตของลิลิธ
+MSG_ITEM_NAME_09	<IC_BAG>เขี้ยวแวมไพร์
+MSG_ITEM_NAME_10	<IC_BAG>เหล้าแอปเปิ้ลของบัคคัส
+MSG_ITEM_NAME_11	<IC_BAG>รองเท้าของเฮอร์มีส
+MSG_ITEM_NAME_12	<IC_BAG>นาฬิกาทราย
+MSG_ITEM_NAME_13	<IC_BAG>นาฬิกาทรายสีเงิน
+MSG_ITEM_NAME_14	<IC_BAG>นาฬิกาทรายสีทอง
+MSG_ITEM_NAME_15	<IC_BAG>ใยแมงมุม
+MSG_ITEM_NAME_16	<IC_BAG>เป้าหลอก
+MSG_ITEM_NAME_17	<IC_BAG>เขี้ยวสีแดง
+MSG_ITEM_NAME_18	<IC_BAG>เขี้ยวสีขาว
+MSG_ITEM_NAME_19	<IC_BAG>เขี้ยวสีน้ำเงิน
+MSG_ITEM_NAME_20	<IC_BAG>ม่านแสง
+MSG_ITEM_NAME_21	<IC_BAG>แกนระเบิด
+MSG_ITEM_NAME_22	<IC_BAG>ม่านจันทรา
+MSG_ITEM_NAME_23	<IC_BAG>ระฆังแห่งความเงียบ
+MSG_ITEM_NAME_24	<IC_BAG>กลองไกอา
+MSG_ITEM_NAME_25	<IC_BAG>คริสตัล
+MSG_ITEM_NAME_26	<IC_BAG>หนวดของโคเอิล
+MSG_ITEM_NAME_27	<IC_BAG>ตำราไสยเวท
+MSG_ITEM_NAME_28	<IC_BAG>ตำราอสูร
+MSG_ITEM_NAME_29	<IC_BAG>นาฬิกาเตือน
+MSG_ITEM_NAME_30	<IC_BAG>เขายูนิคอร์น
+MSG_ITEM_NAME_31	<IC_DRAG>โพชั่น
+MSG_ITEM_NAME_32	<IC_DRAG>ไฮโพชั่น
+MSG_ITEM_NAME_33	<IC_DRAG>เอ็กซ์โพชั่น
+MSG_ITEM_NAME_34	<IC_DRAG>อีเทอร์
+MSG_ITEM_NAME_35	<IC_DRAG>ดรายอีเทอร์
+MSG_ITEM_NAME_36	<IC_DRAG>ยาอายุวัฒนะ
+MSG_ITEM_NAME_37	<IC_BAG>ปีกนกฟีนิกซ์
+MSG_ITEM_NAME_38	<IC_BAG>เข็มสีทอง
+MSG_ITEM_NAME_39	<IC_BAG>จุมพิตของสาวพรหมจรรย์
+MSG_ITEM_NAME_40	<IC_BAG>ค้อนไม้
+MSG_ITEM_NAME_41	<IC_BAG>อาหารลดน้ำหนัก
+MSG_ITEM_NAME_42	<IC_BAG>สมุนไพรเสียงสะท้อน
+MSG_ITEM_NAME_43	<IC_BAG>ยาหยอดตา
+MSG_ITEM_NAME_44	<IC_BAG>ยาถอนพิษ
+MSG_ITEM_NAME_45	<IC_BAG>ไม้กางเขน
+MSG_ITEM_NAME_46	<IC_BAG>รักษา
+MSG_ITEM_NAME_47	<IC_BAG>ไซเรน
+MSG_ITEM_NAME_48	<IC_BAG>แอปเปิ้ลสีทอง
+MSG_ITEM_NAME_49	<IC_BAG>แอปเปิ้ลสีเงิน
+MSG_ITEM_NAME_50	<IC_BAG>หยดน้ำโซมะ
+MSG_ITEM_NAME_51	<IC_TENTO>เต็นท์
+MSG_ITEM_NAME_52	<IC_TENTO>กระท่อม
+MSG_ITEM_NAME_54	<IC_BAG>ทางออกฉุกเฉิน
+MSG_ITEM_NAME_55	<IC_BAG>ขนมปังคนแคระ
+MSG_ITEM_NAME_56	<IC_BAG>ก็อบลิน
+MSG_ITEM_NAME_57	<IC_BAG>ระเบิด
+MSG_ITEM_NAME_58	<IC_BAG>คอกกะทริซ
+MSG_ITEM_NAME_59	<IC_BAG>มายด์เฟลเยอร์
+MSG_ITEM_NAME_60	<IC_BAG>ผักกีซาล
+MSG_ITEM_NAME_61	<IC_BAG>นกหวีดกีซาล
+MSG_KEY_NAME_01	<IC_BAG>บัตรสมาชิก
+MSG_KEY_NAME_02	<IC_IOBJ>แหวนระเบิด
+MSG_KEY_NAME_03	<IC_IOBJ>กุญแจบารอน
+MSG_KEY_NAME_04	<IC_IOBJ>ทับทิมทราย
+MSG_KEY_NAME_05	<IC_IOBJ>คริสตัลแห่งดิน
+MSG_KEY_NAME_06	<IC_IOBJ>หินแม็กมา
+MSG_KEY_NAME_07	<IC_IOBJ>สร้อยคอของลูคา
+MSG_KEY_NAME_08	<IC_IOBJ>ต้นคู่แฝดพิณ
+MSG_KEY_NAME_09	<IC_IOBJ>คริสตัลแห่งความมืด
+MSG_KEY_NAME_10	<IC_IOBJ>หางหนู
+MSG_KEY_NAME_11	<IC_IOBJ>อะดาแมนไทท์
+MSG_KEY_NAME_12	<IC_IOBJ>กระทะ
+MSG_KEY_NAME_13	<IC_IOBJ>หางสีชมพู
+MSG_KEY_NAME_14	<IC_IOBJ>กุญแจของดร.ลูเก้
+MSG_KEY_NAME_15	<IC_IOBJ>เรื่องชั่วร้าย
+MSG_KEY_NAME_16	<IC_IOBJ>Kaipo Inn Pass
+MSG_KEY_NAME_17	<IC_IOBJ>Hook
+MSG_KEY_NAME_18	<IC_IOBJ>Yellow Tail
+MSG_KEY_NAME_19	<IC_IOBJ>Green Tail
+MSG_KEY_NAME_20	<IC_IOBJ>Blue Tail
+MSG_KEY_NAME_21	<IC_IOBJ>Red Tail
+MSG_KEY_NAME_22	<IC_IOBJ>Brown Tail
+MSG_KEY_NAME_23	<IC_IOBJ>Black Tail
+MSG_KEY_NAME_24	<IC_IOBJ>Trash Can
+MSG_KEY_NAME_25	<IC_IOBJ>Crystal Shard
+MSG_KEY_NAME_26	<IC_IOBJ>Orange Tail
+MSG_KEY_NAME_27	<IC_IOBJ>White Tail
+MSG_WEAPON_INF_01	กรงเล็บที่ดูดซับพลังแห่งไฟ
+MSG_WEAPON_INF_02	กรงเล็บที่ดูดซับพลังแห่งน้ำแข็ง
+MSG_WEAPON_INF_03	กรงเล็บที่ดูดซับพลังแห่งสายฟ้า
+MSG_WEAPON_INF_04	กรงเล็บที่ทำให้ศัตรูสับสนได้และใช้ได้ผลกับศัตรูที่เป็นยักษ์
+MSG_WEAPON_INF_05	กรงเล็บที่พ่นพิษใส่ศัตรูได้
+MSG_WEAPON_INF_06	กรงเล็บที่ทำให้ศัตรูหลับ
+MSG_WEAPON_INF_07	คทาเวทที่ให้คาถาลูกศรเวทเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_08	คทาที่ซึมซับพลังแห่งน้ำแข็ง ให้คาถาพายุหิมะเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_09	คทาที่ซึมซับพลังแห่งไฟ ให้คาถาไฟเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_10	คทาที่ซึมซับพลังแห่งสายฟ้า ให้คาถาสายฟ้าเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_11	คทาที่ซึมซับความโกรธเกรี้ยวของอสูร ให้คาถาหมูเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_12	คทาที่ซึมซับเวทมนตร์แฟรี่ให้คาถาสับสนเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_13	คทาที่ซึมซับพลังแห่งดวงดาว ให้คาถาดาวหางเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_14	คทาที่ดูดซับ HP ให้คาถาออสโมสเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_15	ไม้เท้าที่ซึมซับพลังของการถอนพิษ ให้คาถาพอยโซนาเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_16	ไม้เท้าที่ฟื้นฟู HPให้คาถารักษาเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_17	ไม้เท้ามิธริลที่ใช้ได้ผลกับผีดิบ ให้คาถาบาซูนาเพื่อรักษาสถานะผิดปกติบางอย่าง
+MSG_WEAPON_INF_18	ไม้เท้าที่ทำให้ศัตรูบ้าคลั่งได้
+MSG_WEAPON_INF_19	ไม้เท้าที่ให้คาถาขับไล่เมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_20	ไม้เท้าที่ให้คาถาชีวิตเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_21	ไม้เท้าที่ให้คาถาเป็นใบ้เมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_22	ดาบแห่งความมืดทั่วไป
+MSG_WEAPON_INF_23	ดาบแห่งความมืดที่มีใบมีดคม
+MSG_WEAPON_INF_24	ดาบแห่งความมืดที่ทำให้ตายทันที
+MSG_WEAPON_INF_25	ดาบศักดิ์สิทธิ์ที่สลักตำนานของมิซิเดีย
+MSG_WEAPON_INF_26	ดาบศักดิ์สิทธิ์ที่เปล่งแสงศักดิ์สิทธิ์ออกมา
+MSG_WEAPON_INF_27	ดาบศักดิ์สิทธิ์ในตำนานของวีรบุรุษ
+MSG_WEAPON_INF_28	ดาบศักดิ์สิทธิ์ที่ปีศาจหวาดกลัวและเคยโดนผนึกไว้
+MSG_WEAPON_INF_29	ดาบที่ดูดซับพลังแห่งไฟ
+MSG_WEAPON_INF_30	ดาบที่ดูดซับพลังแห่งน้ำแข็ง
+MSG_WEAPON_INF_31	กระบี่ที่ซึมซับพลังปกป้องให้คาถาปกป้องเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_32	กระบี่ที่ขโมย HP และใช้ได้ผลกับศัตรูที่เป็นยักษ์และแฟลน
+MSG_WEAPON_INF_33	กระบี่ที่สาปศัตรูได้และใช้ได้ผลกับผีปอป
+MSG_WEAPON_INF_34	กระบี่ที่ร่ายคาถานอนหลับใส่ศัตรู
+MSG_WEAPON_INF_35	กระบี่ที่ทำให้ศัตรูค่อยๆกลายเป็นหิน
+MSG_WEAPON_INF_36	ดาบที่ใช้ต่อกรกับผีปอบ
+MSG_WEAPON_INF_37	กระบี่ต้องสาปแบบจับด้วยสองมือซึ่งทำให้เกิดสภาวะบ้าคลั่ง
+MSG_WEAPON_INF_38	หอกทั่วไป
+MSG_WEAPON_INF_39	หอกที่มีใบมีดคม
+MSG_WEAPON_INF_40	หอกที่ซึมซับพลังแห่งเปลวไฟ ให้คาถาไฟเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_41	หอกที่ซึมซับพลังแห่งน้ำแข็ง ให้คาถาบลิซซาราเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_42	หอกที่ใช้ได้ผลกับมังกร
+MSG_WEAPON_INF_43	หอกที่ดูดซับพลังศักดิ์สิทธิ์ ให้คาถาศักดิ์สิทธิ์เมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_44	หอกที่ขโมย HP และใช้ได้ผลกับศัตรูที่เป็นยักษ์และแฟลน
+MSG_WEAPON_INF_45	หอกในตำนานที่เหล่าเทพนิยมใช้
+MSG_WEAPON_INF_46	ดาบเล็กที่นินจาใช้
+MSG_WEAPON_INF_47	ดาบที่ได้รับชื่อตามอวตารสงคราม
+MSG_WEAPON_INF_48	ดาบสั้นที่หลอมออกมาให้ใช้ง่าย
+MSG_WEAPON_INF_49	ดาบที่มีดอกเบญจมาศสลักอยู่บนฝักดาบ
+MSG_WEAPON_INF_50	ดาบคาตานะที่เก็บซ่อนพลังของโลกอื่นไว้ ให้คาถาปกป้องเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_51	ดาบคาตานะที่แข็งแกร่งที่สุดในแผ่นดินให้คาถาเร่งรีบเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_52	มีดที่ทำให้เป็นใบ้ได้และใช้ได้ผลกับพ่อมด
+MSG_WEAPON_INF_53	มีดที่ใช้ต่อกรกับผีปอบ
+MSG_WEAPON_INF_54	กริชที่ซึมซับความแข็งแรงของนักเต้น
+MSG_WEAPON_INF_55	มีดทำครัวที่ตัดได้ทุกอย่าง
+MSG_WEAPON_INF_56	แส้ทั่วไปที่ทำให้เป็นอัมพาตได้
+MSG_WEAPON_INF_57	แส้ที่ทำมาจากโซ่เหล็กซึ่งทำให้เป็นอัมพาตได้
+MSG_WEAPON_INF_58	แส้สายฟ้าที่ทำให้เป็นอัมพาตได้
+MSG_WEAPON_INF_59	แส้ไฟที่ทำให้เป็นอัมพาตได้
+MSG_WEAPON_INF_60	แส้สังหารมังกรที่ทำให้เป็นอัมพาตได้
+MSG_WEAPON_INF_61	ขวานสำหรับขว้างที่คนแคระนิยมใช้ทั่วไป
+MSG_WEAPON_INF_62	ขวานยักษ์ที่ใช้ต่อกรกับยักษ์
+MSG_WEAPON_INF_63	ขวานที่ต้องจับด้วยสองมือซึ่งร่ายคาถาติดพิษใส่ศัตรูได้
+MSG_WEAPON_INF_64	ขวานที่ต้องจับด้วยสองมือซึ่งใช้ได้ผลกับพ่อมด
+MSG_WEAPON_INF_65	อาวุธที่นินจาใช้ขว้าง
+MSG_WEAPON_INF_66	อาวุธที่นินจาใช้ขว้าง
+MSG_WEAPON_INF_67	อาวุธสำหรับขว้างที่ทำจากไม้
+MSG_WEAPON_INF_68	อาวุธสำหรับขว้างที่ทำจากโลหะ
+MSG_WEAPON_INF_69	พิณที่ก่อให้เกิดทำนองขับกล่อมทำให้ศัตรูหลับได้
+MSG_WEAPON_INF_70	พิณที่ก่อให้เกิดเสียงดนตรีล่อลวงซึ่งทำให้เกิดความสับสน
+MSG_WEAPON_INF_71	ค้อนไม้ที่ใช้ได้ผลกับเครื่องจักร
+MSG_WEAPON_INF_72	ค้อนที่ใช้ได้ผลกับผีปอบและเครื่องจักร
+MSG_WEAPON_INF_73	ค้อนไฟที่ใช้ได้ผลกับเครื่องจักร ให้คาถาแผ่นดินไหวเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_74	คันธนูทั่วไป
+MSG_WEAPON_INF_75	คันธนูใช้ในการล่าสัตว์
+MSG_WEAPON_INF_76	คันธนูใช้ในการรบ
+MSG_WEAPON_INF_77	คันธนูที่เพิ่มพลังการโจมตีให้รุนแรงขึ้น
+MSG_WEAPON_INF_78	คันธนูสังหารพ่อมดที่เอลฟ์สร้างขึ้น ให้คาถาเกราะเมื่อใช้ในการต่อสู้
+MSG_WEAPON_INF_79	คันธนูของนักธนูที่มีชื่อเสียง
+MSG_WEAPON_INF_80	คันธนูที่ได้รับชื่อตามเทพีแห่งจันทรา
+MSG_WEAPON_INF_81	ลูกศรที่ทำจากเหล็ก
+MSG_WEAPON_INF_82	ลูกศรที่ดูดซับพลังศักดิ์สิทธิ์
+MSG_WEAPON_INF_83	ลูกศรที่ดูดซับพลังแห่งไฟ
+MSG_WEAPON_INF_84	ลูกศรที่ดูดซับพลังแห่งน้ำแข็ง
+MSG_WEAPON_INF_85	ลูกศรที่ดูดซับพลังแห่งสายฟ้า
+MSG_WEAPON_INF_86	ลูกศรที่ล้อมให้ศัตรูอยู่ในความมืด
+MSG_WEAPON_INF_87	ลูกศรที่ทำให้ศัตรูโดนพิษ
+MSG_WEAPON_INF_88	ลูกศรที่ทำให้เป็นใบ้ได้และใช้ได้ผลกับพ่อมด
+MSG_WEAPON_INF_89	ลูกศรที่ทำให้สับสนได้และใช้ได้ผลกับศัตรูที่เป็นยักษ์
+MSG_WEAPON_INF_90	คันธนูของนักธนูที่มีชื่อเสียงจากดินแดนห่างไกล
+MSG_WEAPON_INF_91	ลูกศรที่ทำให้ศัตรูกลายเป็นหิน
+MSG_WEAPON_INF_92	ลูกศรที่ได้รับชื่อตามเทพีแห่งจันทราซึ่งใช้ได้ผลกับมังกร
+MSG_WEAPON_INF_99	Legendary holy sword. (NOT)
+MSG_WEAPON_INF_100	Holy sword useful against flan creatures.
+MSG_WEAPON_INF_101	Holy sword immersed in holy power.
+MSG_WEAPON_INF_102	Stick that can turn the enemy into a pig.
+MSG_WEAPON_INF_103	Legendary spear with the power of wind.
+MSG_WEAPON_INF_104	Axe that has the chance to poison the enemy.
+MSG_WEAPON_INF_105	Bow said to have been used by a legendary hero.
+MSG_WEAPON_INF_106	Arrow that sometimes confuses an enemy.
+MSG_WEAPON_INF_107	Whip immersed in holy power.
+MSG_WEAPON_INF_108	Short sword with the power of water.
+MSG_WEAPON_INF_109	Dagger that has a chance to kill with one blow.
+MSG_WEAPON_INF_110	Legendary katana of ninjas.
+MSG_WEAPON_INF_111	Illusionary sword.
+MSG_WEAPON_INF_112	Pile of rusty scrap metal.
+MSG_WEAPON_INF_113	The ultimate thrown weapon.
+MSG_WEAPON_INF_114	Claw that sometimes paralyzes the enemy.
+MSG_WEAPON_INF_115	Claw effective against dragons.
+MSG_WEAPON_INF_116	Claw immersed in holy power.
+MSG_WEAPON_INF_117	Hammer that holds the power of lightning.
+MSG_WEAPON_INF_118	Hammer with the power of heat.
+MSG_WEAPON_INF_119	Rod immersed in holy power.
+MSG_WEAPON_INF_120	Staff with the power of healing.
+MSG_WEAPON_INF_121	Staff with the power of reflection.
+MSG_WEAPON_INF_122	Harp immersed in the power of the sun.
+MSG_WEAPON_INF_123	Lute that can release one's soul.
+MSG_WEAPON_INF_124	The ultimate lute.
+MSG_WEAPON_INF_125	A blood sword that a Dark Knight can really take advantage of.
+MSG_WEAPON_INF_126	Cecil's brother's sword enhances a dark knight Cecil.
+MSG_WEAPON_INF_127	An amazingly efficient blood sword... but it comes at a cost.
+MSG_WEAPON_INF_128	The ultimate sword of anger that makes even Zeromus jealous.  Casts Mega Flare when used in battle.
+MSG_WEAPON_INF_129	A sword from a faraway land that anyone can equip, as another randomizer has proven.
+MSG_WEAPON_INF_130	When finished with this rando, take Kain to the FF3 world and speedrun with this spear!
+MSG_WEAPON_INF_131	If you thought Tellah was miffed when he defeated Golbez... Casts Double Meteor when used in battle.
+MSG_ARMOR_INF_01	โล่ที่ทำจากเหล็ก
+MSG_ARMOR_INF_02	โล่ที่แฝงไปด้วยอำนาจมืดอันทรงพลัง
+MSG_ARMOR_INF_03	โล่ที่ว่ากันว่าเคยเป็นของปีศาจ
+MSG_ARMOR_INF_04	โล่ที่ทนต่อการโจมตีของพวกผีดิบ
+MSG_ARMOR_INF_05	โล่ที่ทนต่อการโจมตีของผีปอบ
+MSG_ARMOR_INF_06	โล่ที่ดูดซับพลังแห่งไฟซึ่งทนต่อธาตุน้ำแข็งและอ่อนแอต่อธาตุไฟ
+MSG_ARMOR_INF_07	โล่ที่ดูดซับพลังแห่งน้ำแข็งซึ่งทนต่อธาตุไฟและอ่อนแอต่อธาตุน้ำแข็ง
+MSG_ARMOR_INF_08	โล่ที่ทนต่อสายฟ้า
+MSG_ARMOR_INF_09	โล่ที่ทนต่อการโจมตีทางเวทและป้องกันการกลายเป็นหิน
+MSG_ARMOR_INF_10	โล่ที่เคยถูกใช้ในดินแดนอันไกลโพ้น
+MSG_ARMOR_INF_11	โล่ที่ทนต่อการโจมตีของมังกร ไฟ น้ำแข็งและสายฟ้า
+MSG_ARMOR_INF_12	โล่ที่ทนต่อการโจมตีของพวกผีดิบ
+MSG_ARMOR_INF_13	หมวกที่ทำจากเหล็ก
+MSG_ARMOR_INF_14	หมวกที่แฝงไปด้วยอำนาจมืดอันทรงพลัง
+MSG_ARMOR_INF_15	หมวกที่ว่ากันว่าเคยเป็นของปีศาจ
+MSG_ARMOR_INF_16	หมวกที่ว่ากันว่าปีศาจเคยครอบครอง
+MSG_ARMOR_INF_17	หมวกที่ทนต่อการโจมตีของพวกผีดิบ
+MSG_ARMOR_INF_18	หมวกที่ทนต่อการโจมตีของผีปอบ
+MSG_ARMOR_INF_19	หมวกที่ทนต่อสายฟ้า
+MSG_ARMOR_INF_20	หมวกที่เคยถูกใช้ในดินแดนอันไกลโพ้น
+MSG_ARMOR_INF_21	หมวกที่ทนต่อการโจมตีของมังกร ไฟ น้ำแข็งและสายฟ้า
+MSG_ARMOR_INF_22	หมวกที่ทนต่อการโจมตีของผีดิบ ไฟ น้ำแข็งและสายฟ้า
+MSG_ARMOR_INF_23	หมวกที่ทำจากหนังสัตว์
+MSG_ARMOR_INF_24	หมวกน้ำหนักเบาที่ทำจากเส้นไหม
+MSG_ARMOR_INF_25	หมวกที่ทำจากด้ายพิเศษ
+MSG_ARMOR_INF_26	หมวกแก๊ปที่ทนต่อการโจมตีของผีดิบและทำมาจากด้ายศักดิ์สิทธิ์
+MSG_ARMOR_INF_27	ปิ่นปักผมที่ทนต่อการโจมตีของผีดิบและสายฟ้า
+MSG_ARMOR_INF_28	ริบบิ้นที่ทนต่อการโจมตีทางเวทและป้องกันสถานะผิดปกติหลายอย่าง
+MSG_ARMOR_INF_29	ผ้าโพกหัวที่ป้องกันคาถาสับสน
+MSG_ARMOR_INF_30	หมวกที่เปี่ยมไปด้วยพลังเวท
+MSG_ARMOR_INF_31	เสื้อฮู้ดที่ป้องกันการหลับใหล
+MSG_ARMOR_INF_32	หน้ากากที่ทำจากแก้ว
+MSG_ARMOR_INF_33	ชุดเกราะที่ทำจากเหล็ก
+MSG_ARMOR_INF_34	ชุดเกราะที่แฝงไปด้วยอำนาจมืดอันทรงพลัง
+MSG_ARMOR_INF_35	ชุดเกราะที่ว่ากันว่าเคยเป็นของปีศาจ
+MSG_ARMOR_INF_36	ชุดเกราะที่ว่ากันว่าปีศาจเคยครอบครอง
+MSG_ARMOR_INF_37	ชุดเกราะที่ทนต่อการโจมตีของพวกผีดิบ
+MSG_ARMOR_INF_38	ชุดเกราะที่ทนต่อการโจมตีของผีปอบ
+MSG_ARMOR_INF_39	ชุดเกราะที่ดูดซับพลังแห่งไฟซึ่งทนต่อธาตุน้ำแข็งและอ่อนแอต่อธาตุไฟ
+MSG_ARMOR_INF_40	ชุดเกราะที่ดูดซับพลังแห่งน้ำแข็งซึ่งทนต่อธาตุไฟและอ่อนแอต่อธาตุน้ำแข็ง
+MSG_ARMOR_INF_41	ชุดเกราะที่ทนต่อสายฟ้า
+MSG_ARMOR_INF_42	ชุดเกราะที่เคยถูกใช้ในดินแดนอันไกลโพ้น
+MSG_ARMOR_INF_43	ชุดเกราะที่ทนต่อการโจมตีของมังกร ไฟ น้ำแข็งและสายฟ้า
+MSG_ARMOR_INF_44	ชุดเกราะที่ทนต่อการโจมตีของผีดิบและป้องกันสถานะผิดปกติหลายอย่าง
+MSG_ARMOR_INF_45	เซ็ตเสื้อผ้าทั่วไป
+MSG_ARMOR_INF_46	เสื้อผ้าที่ทำจากหนังสัตว์
+MSG_ARMOR_INF_47	เสื้อผ้าที่ป้องกันอาการค่อย ๆ กลายเป็นหิน
+MSG_ARMOR_INF_48	ชุดคลุมที่ทำจากด้ายศักดิ์สิทธิ์
+MSG_ARMOR_INF_49	ชุดคลุมที่ทำขึ้นสำหรับผู้ใช้มนตร์ดำ
+MSG_ARMOR_INF_50	ชุดคลุมที่ทนต่อการโจมตีของผีดิบและสายฟ้า
+MSG_ARMOR_INF_51	ชุดคลุมที่ทนต่อความมืดซึ่งทำขึ้นมาสำหรับผู้ใช้มนต์ขาว
+MSG_ARMOR_INF_52	สายสะพายทำจากด้ายพิเศษ
+MSG_ARMOR_INF_53	เสื้อผ้าที่ทนต่อการเป็นอัมพาตซึ่งเทพีแห่งสวรรค์เคยสวมใส่
+MSG_ARMOR_INF_54	เสื้อผ้าที่ป้องกันคาถาหลับใหล
+MSG_ARMOR_INF_55	เสื้อผ้าที่ป้องกันการเป็นใบ้
+MSG_ARMOR_INF_56	เสื้อผ้าที่นักสู้ชื่นชอบ
+MSG_ARMOR_INF_57	เสื้อผ้าที่เบาและสบายจากดินแดนอันไกลโพ้น
+MSG_ARMOR_INF_58	ชุดเกราะอะแมนดาไทท์ที่ป้องกันสถานะผิดปกติหลายอย่างและทนต่อไฟน้ำแข็งและสายฟ้า
+MSG_ARMOR_INF_59	ชุดสีดำล้วนที่นำมาจากดินแดนอันไกลโพ้น
+MSG_ARMOR_INF_60	ถุงมือที่ทำจากเหล็ก
+MSG_ARMOR_INF_61	ถุงมือที่แฝงไปด้วยอำนาจมืดอันทรงพลัง
+MSG_ARMOR_INF_62	ถุงมือที่ว่ากันว่าเคยเป็นของปีศาจ
+MSG_ARMOR_INF_63	ถุงมือที่ว่ากันว่าปีศาจเคยครอบครอง
+MSG_ARMOR_INF_64	ถุงมือที่ทนต่อการโจมตีของพวกผีดิบ
+MSG_ARMOR_INF_65	ถุงมือที่ทนต่อการโจมตีของผีปอบ
+MSG_ARMOR_INF_66	ถุงมือที่ทนต่อสายฟ้า
+MSG_ARMOR_INF_67	ถุงมือที่ทนศัตรูที่เป็นยักษ์ได้และป้องกันสถานะมินิ
+MSG_ARMOR_INF_68	ถุงมือที่เคยมีการใช้ในดินแดนอันไกลโพ้น
+MSG_ARMOR_INF_69	ถุงมือที่ทนต่อการโจมตีของมังกร ไฟ น้ำแข็งและสายฟ้า
+MSG_ARMOR_INF_70	ถุงมือที่ทนต่อการโจมตีของพวกผีดิบ
+MSG_ARMOR_INF_71	ปลอกแขนที่ทำจากเหล็ก
+MSG_ARMOR_INF_72	แหวนที่ป้องกันสถานะกลายเป็นหมู
+MSG_ARMOR_INF_73	ปลอกแขนที่ทนต่อการโจมตีของผีปอบ
+MSG_ARMOR_INF_74	สายรัดข้อมือที่เพิ่มพลังของนักสู้
+MSG_ARMOR_INF_75	ปลอกแขนที่ทนต่อการโจมตีทางเวทและป้องกันการเป็นใบ้
+MSG_ARMOR_INF_76	แหวนที่ทนต่อการโจมตีของมังกรและป้องกันการสับสนการหลับใหลและการเป็นอัมพาต
+MSG_ARMOR_INF_77	ปลอกแขนที่ทนต่อสายฟ้า
+MSG_ARMOR_INF_78	แหวนที่ทนต่อไฟ น้ำแข็งและสายฟ้า
+MSG_ARMOR_INF_79	แหวนที่เสริมการทนทานต่อธาตุ
+MSG_ARMOR_INF_80	Armor resistant against lightning.
+MSG_ARMOR_INF_81	Armor of the legendary dragoon.
+MSG_ARMOR_INF_82	Armor made in worship of an ancient leader.
+MSG_ARMOR_INF_83	Armor made by great blacksmiths.
+MSG_ARMOR_INF_84	Jacket resistant against fire.
+MSG_ARMOR_INF_85	Suit that prevents Curse.
+MSG_ARMOR_INF_86	Chocobo suit that prevents poison.
+MSG_ARMOR_INF_87	Cat suit that prevents poison.
+MSG_ARMOR_INF_88	Gear that prevents Curse, Pig, and Toad.
+MSG_ARMOR_INF_89	Vest that prevents Poison, Petrify, and Paralyze.
+MSG_ARMOR_INF_90	Vest resistant against all attributes.
+MSG_ARMOR_INF_91	Robe that prevents silence.
+MSG_ARMOR_INF_92	Robe resistant against fire, ice, and lightning.
+MSG_ARMOR_INF_93	Robe resistant against magic.
+MSG_ARMOR_INF_94	Dress of purity that is resistant against undead.
+MSG_ARMOR_INF_95	Shield that can only be equipped by true heroes.
+MSG_ARMOR_INF_96	Shield found after making a deal with a Fat Chocobo.  Resistant to Confuse.
+MSG_ARMOR_INF_97	Crown that prevents Toad, Mini, and Pig.
+MSG_ARMOR_INF_98	Hood resistant against ice.
+MSG_ARMOR_INF_99	Mask that prevents Paralyze.
+MSG_ARMOR_INF_100	Hat resistant against fire.
+MSG_ARMOR_INF_101	Discovered after seven trading cards were collected.  Resistant to many conditions.
+MSG_ARMOR_INF_102	Rosa's special hat.  Resists Sleep, Silvence, Confuse, and Pig.
+MSG_ARMOR_INF_103	Rydia's special hat.  Resists Silence, Confuse, and Mini.
+MSG_ARMOR_INF_104	Edward's special crown.  Resistant Poison, Petrify, Silence, and Confuse.
+MSG_ARMOR_INF_105	Yang's special mask.  Resistant to sleep.
+MSG_ARMOR_INF_106	Palom's special hat.  Resists Mini, Toad, and Pig.
+MSG_ARMOR_INF_107	Porom's special hat.  Resists Mini, Toad, and Pig.
+MSG_ARMOR_INF_108	Helm resistant against lightning.
+MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
+MSG_ARMOR_INF_110	Kain's special helmet.
+MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
+MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ITEM_INF_01	ให้ผลลัพธ์เหมือนกับคาถาไฟ
+MSG_ITEM_INF_02	ให้ผลลัพธ์เหมือนกับคาถาไฟร่า
+MSG_ITEM_INF_03	หินที่ให้ผลลัพธ์เหมือนกับคาถาพายุหิมะ
+MSG_ITEM_INF_04	หินที่ให้ผลลัพธ์เหมือนกับคาถาบลิซซารา
+MSG_ITEM_INF_05	รูปปั้นที่ให้ผลลัพธ์เหมือนกับคาถาสายฟ้า
+MSG_ITEM_INF_06	รูปปั้นที่ให้ผลลัพธ์เหมือนกับคาถาธันดารา
+MSG_ITEM_INF_07	ทรายที่ให้ผลลัพธ์เหมือนกับคาถาดาวหาง
+MSG_ITEM_INF_08	รูปปั้นที่ให้ผลลัพธ์เหมือนกับคาถาออสโมส
+MSG_ITEM_INF_09	เขี้ยวที่ให้ผลลัพธ์เหมือนกับคาถาเดรน
+MSG_ITEM_INF_10	เครื่องดื่มที่ให้ผลลัพธ์เหมือนกับคาถาบ้าระห่ำ
+MSG_ITEM_INF_11	รองเท้าที่ให้ผลลัพธ์เหมือนกับคาถาเร่งรีบ
+MSG_ITEM_INF_12	นาฬิกาที่ให้ผลลัพธ์เหมือนกับคาถาหยุด
+MSG_ITEM_INF_13	นาฬิกาที่ให้ผลลัพธ์เหมือนกับคาถาหยุดแต่สามารถหยุดได้นานกว่า
+MSG_ITEM_INF_14	นาฬิกาที่ให้ผลลัพธ์เหมือนกับคาถาหยุดแต่สามารถหยุดได้นานกว่ามาก
+MSG_ITEM_INF_15	ด้ายเหนียวที่ให้ผลลัพธ์เหมือนกับคาถาช้า
+MSG_ITEM_INF_16	ตุ๊กตาที่ให้ผลลัพธ์เหมือนกับคาถากะพริบตา
+MSG_ITEM_INF_17	เขี้ยวมังกรที่สามารถสร้างความเสียหายด้วยไฟ
+MSG_ITEM_INF_18	เขี้ยวมังกรที่สามารถสร้างความเสียหายด้วยน้ำแข็ง
+MSG_ITEM_INF_19	เขี้ยวมังกรที่สามารถสร้างความเสียหายด้วยสายฟ้า
+MSG_ITEM_INF_20	ม่านที่ให้ผลลัพธ์เหมือนกับคาถาสะท้อน
+MSG_ITEM_INF_21	สร้างความเสียหายแลกเปลี่ยนกับชีวิตของผู้ใช้
+MSG_ITEM_INF_22	ม่านที่ทำให้การโจมตีไม่เกิดผลและให้ใช้คาถาสะท้อน
+MSG_ITEM_INF_23	ระฆังที่ให้ผลลัพธ์เหมือนกับคาถาเป็นใบ้
+MSG_ITEM_INF_24	กลองที่ให้ผลลัพธ์เหมือนกับคาถาแผ่นดินไหว
+MSG_ITEM_INF_25	คริสตัลที่ส่องแสงศักดิ์สิทธิ์ออกมา
+MSG_ITEM_INF_26	หนวดที่ให้ผลลัพธ์เหมือนกับคาถาเดธ
+MSG_ITEM_INF_27	ตำราที่ใช้เรียกปีศาจ เจ้าจะรู้ว่าเป็นปีศาจตัวไหนก็ต่อเมื่อได้ลองเรียกออกมา!
+MSG_ITEM_INF_28	ตำราที่ให้ผลลัพธ์เหมือนกับคาถาสแกน
+MSG_ITEM_INF_29	นาฬิกาที่ปลดปล่อยทีมจากคาถาหลับใหล
+MSG_ITEM_INF_30	เขาที่ปลดปล่อยทีมจากคาถาหลับใหล อัมพาต คาถาสับสนและคาถาบ้าระห่ำ
+MSG_ITEM_INF_31	กู้คืน HP
+MSG_ITEM_INF_32	กู้คืน HP
+MSG_ITEM_INF_33	กู้คืน HP
+MSG_ITEM_INF_34	กู้คืน MP
+MSG_ITEM_INF_35	กู้คืน MP
+MSG_ITEM_INF_36	กู้คืน HP และ MP ให้เต็ม
+MSG_ITEM_INF_37	ฟื้นคืนทีมหนึ่งคนจากสถานะน็อกเอาต์
+MSG_ITEM_INF_38	รักษาทีมหนึ่งคนจากการเป็นหิน
+MSG_ITEM_INF_39	รักษาทีมหนึ่งคนจากสถานะคางคก
+MSG_ITEM_INF_40	รักษาทีมหนึ่งคนจากมินิ
+MSG_ITEM_INF_41	รักษาทีมหนึ่งคนจากสถานะหมู
+MSG_ITEM_INF_42	รักษาทีมหนึ่งคนจากการเป็นใบ้
+MSG_ITEM_INF_43	รักษาทีมหนึ่งคนจากการตาบอด
+MSG_ITEM_INF_44	รักษาทีมหนึ่งคนจากการโดนพิษ
+MSG_ITEM_INF_45	รักษาทีมหนึ่งคนจากการโดนสาป
+MSG_ITEM_INF_46	บรรเทาอาการป่วยทุกสถานะแต่ฟื้นคืนสมาชิกทีมที่น็อกเอาต์ไม่ได้
+MSG_ITEM_INF_47	เสียงสัญญาณที่ใช้เรียกปีศาจ
+MSG_ITEM_INF_48	เพิ่ม HP สูงสุดที่ 100
+MSG_ITEM_INF_49	เพิ่ม HP สูงสุดที่ 50
+MSG_ITEM_INF_50	เพิ่ม MP สูงสุดที่ 10
+MSG_ITEM_INF_51	กู้คืน HP และ MP ของทีมสามารถใช้ได้กลางแจ้ง
+MSG_ITEM_INF_52	กู้คืน HP และ MP ของทีมให้เต็ม สามารถใช้ได้กลางแจ้ง
+MSG_ITEM_INF_54	ทำให้เจ้าสามารถหลบหนีจากดันเจี้ยนได้ทันที
+MSG_ITEM_INF_55	ขนมปังที่ให้ผลลัพธ์เหมือนกับคาถาไซท์
+MSG_ITEM_INF_56	สอนคาถาก็อบลินให้(RYDIA)
+MSG_ITEM_INF_57	สอนคาถาระเบิดให้(RYDIA)
+MSG_ITEM_INF_58	สอนคาถาคอกกะทริซให้(RYDIA)
+MSG_ITEM_INF_59	สอนคาถามายด์เฟลเยอร์ให้(RYDIA)
+MSG_ITEM_INF_60	อาหารโปรดของโชโคโบะอ้วน ลองใช้มันในที่ที่มีกลิ่นของโชโคโบะ
+MSG_ITEM_INF_61	นกหวีดที่ใช้เรียกโชโคโบะตัวอ้วน
+MSG_KEY_INF_01	หลักฐานการเป็นสมาชิกที่โรงเหล้าราชา
+MSG_KEY_INF_02	แหวนที่ได้รับจากราชาบารอน
+MSG_KEY_INF_03	กุญแจที่เปิดประตูที่ล็อกอยู่ในเมืองบารอน
+MSG_KEY_INF_04	ยาที่สามารถรักษาไข้สูงได้
+MSG_KEY_INF_05	คริสตัลที่นำพามาซึ่งความอุดมสมบูรณ์ของผืนดิน
+MSG_KEY_INF_06	หินที่มีพลังแม็กมาอยู่ภายใน
+MSG_KEY_INF_07	สร้อยคอที่ลูคาใส่
+MSG_KEY_INF_08	พิณลึกลับที่ส่งเสียงได้นานและไกล
+MSG_KEY_INF_09	คริสตัลแห่งโลกใต้พิภพ
+MSG_KEY_INF_10	สัญลักษณ์แห่งความกล้าหาญและความแข็งแกร่ง
+MSG_KEY_INF_11	โลหะมีค่าที่แข็งเป็นพิเศษ
+MSG_KEY_INF_12	กระทะที่ทำอาหารที่เต็มไปด้วยความรักมากมาย
+MSG_KEY_INF_13	หางสีชมพูสด
+MSG_KEY_INF_14	กุญแจของดร.ลูเก้
+MSG_KEY_INF_15	???
+MSG_KEY_INF_16	Turn this in to stay at the Kaipo Inn for free!
+MSG_KEY_INF_17	Used to move hovercrafts!
+MSG_KEY_INF_18	A tail not commonly found in Pixel Remaster...
+MSG_KEY_INF_24	Apparently you can use this to effectively throw monsters away...
+MSG_KEY_INF_25	This shard slightly shimmers...
+MSG_MON_NAME_01	ก็อบลิน
+MSG_MON_NAME_02	บาซิลิสก์
+MSG_MON_NAME_03	เฮลไดเวอร์
+MSG_MON_NAME_04	ลูกตาบินได้
+MSG_MON_NAME_05	อินเซกตัส
+MSG_MON_NAME_06	ค้างคาวถ้ำ
+MSG_MON_NAME_07	เทรนท์
+MSG_MON_NAME_08	หนูขนเม่น
+MSG_MON_NAME_09	นักเวทจิ๋ว
+MSG_MON_NAME_10	ปีศาจทะเลทรายซาฮากิน
+MSG_MON_NAME_11	ฟลายอิ้งอายส์
+MSG_MON_NAME_12	ตัวร้อยขา
+MSG_MON_NAME_13	เพรียงทราย
+MSG_MON_NAME_14	คางคกยักษ์
+MSG_MON_NAME_15	วีลเชลล์
+MSG_MON_NAME_16	ซอมบี้
+MSG_MON_NAME_17	ปลานักฆ่า
+MSG_MON_NAME_18	ดอกไม้เลือด
+MSG_MON_NAME_19	คางคกคลั่ง
+MSG_MON_NAME_20	มูสแดง
+MSG_MON_NAME_21	เจลลี่เหลือง
+MSG_MON_NAME_22	ซาฮากิน
+MSG_MON_NAME_23	เลชี
+MSG_MON_NAME_24	ดักแด้
+MSG_MON_NAME_25	กัปตันก็อบลิน
+MSG_MON_NAME_26	กิ้งก่าดำ
+MSG_MON_NAME_27	อะดาแมนทอยส์
+MSG_MON_NAME_28	โดโมวอย
+MSG_MON_NAME_29	บาวารัวส์สีม่วง
+MSG_MON_NAME_30	ทหารบารอน
+MSG_MON_NAME_31	แม่ทัพ
+MSG_MON_NAME_32	กัตลิงเกอร์
+MSG_MON_NAME_33	ลิล เมอร์เดอร์เรอร์
+MSG_MON_NAME_34	ดอกไม้แห่งความตาย
+MSG_MON_NAME_35	วิญญาณ
+MSG_MON_NAME_36	โครงกระดูก
+MSG_MON_NAME_37	คอกกะทริซ
+MSG_MON_NAME_38	การ์กอยล์
+MSG_MON_NAME_39	ร็อคเบบี้
+MSG_MON_NAME_40	เบลเฟกอร์
+MSG_MON_NAME_41	ซู
+MSG_MON_NAME_42	แมลงน้ำ
+MSG_MON_NAME_43	จระเข้
+MSG_MON_NAME_44	แสปลชเชอร์
+MSG_MON_NAME_45	นักรบบารอน
+MSG_MON_NAME_46	กัปตัน
+MSG_MON_NAME_47	โซล
+MSG_MON_NAME_48	บลัดโบนส์
+MSG_MON_NAME_49	ผีปอบ
+MSG_MON_NAME_50	สกัลเดียร์
+MSG_MON_NAME_51	เรเวแนนท์
+MSG_MON_NAME_52	เลดี้แดร็กคูลา
+MSG_MON_NAME_53	นาคถ้ำ
+MSG_MON_NAME_54	มังกรโครงกระดูก
+MSG_MON_NAME_55	อิเล็กโทรฟิช
+MSG_MON_NAME_56	กิกาซเกเตอร์
+MSG_MON_NAME_57	ไฮดรา
+MSG_MON_NAME_58	เพรียงน้ำ
+MSG_MON_NAME_59	ทหารองครักษ์บารอน
+MSG_MON_NAME_60	ลาเมีย
+MSG_MON_NAME_61	เฮลล์นีดเดิ้ล
+MSG_MON_NAME_62	งูแฝด
+MSG_MON_NAME_63	กรัดเจอร์
+MSG_MON_NAME_64	มายด์เฟลเยอร์
+MSG_MON_NAME_65	นาค
+MSG_MON_NAME_66	ออร์ก
+MSG_MON_NAME_67	เคทซิธ
+MSG_MON_NAME_68	อัศวินดำ
+MSG_MON_NAME_69	อัศวินคนครึ่งม้า
+MSG_MON_NAME_70	มิสแวมไพร์
+MSG_MON_NAME_71	คนชักหุ่นกระบอก
+MSG_MON_NAME_72	หุ่นกระบอก
+MSG_MON_NAME_73	กลูมวิง
+MSG_MON_NAME_74	เดธเชลล์
+MSG_MON_NAME_75	สครีมเมอร์
+MSG_MON_NAME_76	นักรบ
+MSG_MON_NAME_77	อาร์มาดิลโล
+MSG_MON_NAME_78	ทหารหญิง
+MSG_MON_NAME_79	อัศวินผี
+MSG_MON_NAME_80	ราชานาค
+MSG_MON_NAME_81	เมดูซ่า
+MSG_MON_NAME_82	ไดโนซอมบี้
+MSG_MON_NAME_83	เต่าแม็กมา
+MSG_MON_NAME_85	อีวิลดรีมเมอร์
+MSG_MON_NAME_86	ระเบิด
+MSG_MON_NAME_87	ระเบิดสีเทา
+MSG_MON_NAME_88	ไคมีรา
+MSG_MON_NAME_89	เต่านรก
+MSG_MON_NAME_90	ไอรอนแบ็ค
+MSG_MON_NAME_91	สุนัขล่าเนื้อตัวลุกเป็นไฟ
+MSG_MON_NAME_92	กอร์กอน
+MSG_MON_NAME_93	สโตนโกเล็ม
+MSG_MON_NAME_94	ลิลิธ
+MSG_MON_NAME_95	เจ้าแม่ลาเมีย
+MSG_MON_NAME_96	คางคกจิ๋ว
+MSG_MON_NAME_97	มอร์
+MSG_MON_NAME_98	ร็อค
+MSG_MON_NAME_99	หมอผี
+MSG_MON_NAME_100	ออร์กคลั่ง
+MSG_MON_NAME_101	ตุ๊กตาปีศาจ
+MSG_MON_NAME_102	ค้างคาวเลือด
+MSG_MON_NAME_103	อารัคเน่
+MSG_MON_NAME_104	อัศวินตัวลุกเป็นไฟ
+MSG_MON_NAME_105	บีมเมอร์
+MSG_MON_NAME_106	บอลลูน
+MSG_MON_NAME_107	ระเบิดมือแห่งความมืด
+MSG_MON_NAME_108	เพลก
+MSG_MON_NAME_109	ลาสต์อาร์ม
+MSG_MON_NAME_110	โคเอิล
+MSG_MON_NAME_111	มังกรเม็ก
+MSG_MON_NAME_112	ทารันทูล่า
+MSG_MON_NAME_113	เกรมลิน
+MSG_MON_NAME_114	อันเดอร์กราวน์เดอร์
+MSG_MON_NAME_115	เพรียงนรก
+MSG_MON_NAME_116	บลัดดี้อาย
+MSG_MON_NAME_117	ครอวเลอร์
+MSG_MON_NAME_118	กิ้งก่าน้ำแข็ง
+MSG_MON_NAME_119	เฮลแฟลปเปอร์
+MSG_MON_NAME_120	ค้างคาวปีศาจ
+MSG_MON_NAME_121	โคลด์บีสต์
+MSG_MON_NAME_122	ผู้เรียกอสูร
+MSG_MON_NAME_123	หมอผีหญิง
+MSG_MON_NAME_124	ประตูกับดัก
+MSG_MON_NAME_125	แม่มดแห่งหนองน้ำ
+MSG_MON_NAME_126	แมมมอน
+MSG_MON_NAME_127	ไคมีราเบรน
+MSG_MON_NAME_128	ไวรัสจันทรา
+MSG_MON_NAME_129	ลมหายใจของเซมุส
+MSG_MON_NAME_130	มูสขาว
+MSG_MON_NAME_131	แบล็กแฟลน
+MSG_MON_NAME_132	จิตของเซมุส
+MSG_MON_NAME_133	มิธริลโกเล็ม
+MSG_MON_NAME_134	มังกรเขียว
+MSG_MON_NAME_135	เจ้าหญิงแฟลน
+MSG_MON_NAME_136	ลูกตาระวังภัย
+MSG_MON_NAME_137	ทหารเม็ก
+MSG_MON_NAME_138	ทหารยักษ์
+MSG_MON_NAME_139	ผู้พิทักษ์เซลีน
+MSG_MON_NAME_140	มัลโบโร
+MSG_MON_NAME_141	มังกรเงิน
+MSG_MON_NAME_142	มังกรเหลือง
+MSG_MON_NAME_143	มินิซาตาน่า
+MSG_MON_NAME_144	ยูคาริโอต
+MSG_MON_NAME_145	หน้ากากชั่วร้าย
+MSG_MON_NAME_146	เซนทอเรียน
+MSG_MON_NAME_147	นักรบยักษ์
+MSG_MON_NAME_148	สตีลโกเลม
+MSG_MON_NAME_149	อหริมัน
+MSG_MON_NAME_150	ลูน่าซอร์
+MSG_MON_NAME_151	เสิร์ชเชอร์
+MSG_MON_NAME_152	นักปราชญ์แห่งความมืด
+MSG_MON_NAME_153	บาฮามุตแห่งความมืด
+MSG_MON_NAME_154	โปรคาริโอต
+MSG_MON_NAME_155	โอโกโปโก
+MSG_MON_NAME_156	มังกรน้ำเงิน
+MSG_MON_NAME_157	มังกรทอง
+MSG_MON_NAME_158	มังกรสายฟ้า
+MSG_MON_NAME_159	มังกรขาว
+MSG_MON_NAME_160	มังกรแดง
+MSG_MON_NAME_161	เบเฮโมธ
+MSG_MON_NAME_162	มังกรหมอก
+MSG_MON_NAME_163	อ็อกโตแมมมอธ
+MSG_MON_NAME_164	แมลงช้าง
+MSG_MON_NAME_165	ระเบิดตัวแม่
+MSG_MON_NAME_166	สคาร์มิโลเน
+MSG_MON_NAME_167	ไบแกน
+MSG_MON_NAME_168	แขนขวา
+MSG_MON_NAME_169	แขนซ้าย
+MSG_MON_NAME_170	แคกนาซโซ
+MSG_MON_NAME_171	เอลฟ์แห่งความมืด
+MSG_MON_NAME_172	แซนดี้
+MSG_MON_NAME_173	ซินดี้
+MSG_MON_NAME_174	มินดี้
+MSG_MON_NAME_175	กอลเบซ
+MSG_MON_NAME_176	บาร์บาริกเซีย
+MSG_MON_NAME_177	คาลโค
+MSG_MON_NAME_178	คาลโคบรีนา
+MSG_MON_NAME_179	มังกรเงา
+MSG_MON_NAME_180	ด็อกเตอร์
+MSG_MON_NAME_181	บาร์นาบัส
+MSG_MON_NAME_182	ดร.ลูเก้
+MSG_MON_NAME_183	ราชาแห่งเอบลัน
+MSG_MON_NAME_184	ราชินีแห่งเอบลัน
+MSG_MON_NAME_185	รูบิคันเต้
+MSG_MON_NAME_186	โอดิน
+MSG_MON_NAME_187	เลวีอาธาน
+MSG_MON_NAME_188	บาฮามุต
+MSG_MON_NAME_189	กำแพงปีศาจ
+MSG_MON_NAME_190	อสุรา
+MSG_MON_NAME_191	เจ้าแห่งธาตุ
+MSG_MON_NAME_192	มังกรแห่งความมืด
+MSG_MON_NAME_193	ซาฮากิน
+MSG_MON_NAME_194	ซีพียู
+MSG_MON_NAME_195	ปุ่มป้องกัน
+MSG_MON_NAME_196	เซมุส
+MSG_MON_NAME_197	เซโรมุส
+MSG_MON_NAME_198	ทหารม้า
+MSG_MON_NAME_199	กวี
+MSG_MON_NAME_200	นักบวช
+MSG_MON_NAME_201	อัศวินแห่งความมืด
+MSG_MON_NAME_202	เด็กหญิง
+MSG_MON_NAME_204	ลูกตาบินได้
+MSG_MON_NAME_205	ซู
+MSG_MON_NAME_206	บรินา
+MSG_MON_NAME_207	สกัลแนนท์
+MSG_MON_NAME_208	บาร์นาบัสซี
+MSG_MON_NAME_209	ปุ่มโจมตี
+MSG_MON_NAME_210	ไข่ลึกลับ
+MSG_MON_NAME_211	สคาร์มิโลเน 2
+MSG_MON_NAME_212	แคกนาซโซ 2
+MSG_MON_NAME_213	บาร์บาริกเซีย 2
+MSG_MON_NAME_214	รูบิคันเต้ 2
+MSG_LOCATION_STICK	(AREA_NAME) - (MAP_NAME)
+MSG_LOCATION_STICK_01	(AREA_NAME)
+MSG_LOCATION_STICK_02	(MAP_NAME)
+MSG_MAP_NAME_01	เหนือพิภพ
+MSG_MAP_NAME_02	ใต้พิภพ
+MSG_MAP_NAME_03	จันทรา
+MSG_MAP_NAME_04	ปราสาทบารอน
+MSG_MAP_NAME_05	เมืองบารอน
+MSG_MAP_NAME_06	ไคโป โอเอซิสแห่งทะเลทราย
+MSG_MAP_NAME_07	ปราสาทดัมเชียน
+MSG_MAP_NAME_08	ปราสาทฟาบูล
+MSG_MAP_NAME_09	มิซิเดีย
+MSG_MAP_NAME_10	หมอก
+MSG_MAP_NAME_11	มิธริล
+MSG_MAP_NAME_12	ปราสาทเอบลัน
+MSG_MAP_NAME_13	เมืองทรอยอา
+MSG_MAP_NAME_14	ปราสาททรอยอา
+MSG_MAP_NAME_15	อการ์ต
+MSG_MAP_NAME_16	ถ้ำอะดาแมนท์
+MSG_MAP_NAME_17	ปราสาทคนแคระ
+MSG_MAP_NAME_18	ทอมรา
+MSG_MAP_NAME_19	โรงตีเหล็กของก็อกกอล
+MSG_MAP_NAME_20	บ้านของฮัมมิ่งเวย์
+MSG_MAP_NAME_21	พระราชวังคริสตัล
+MSG_MAP_NAME_23	หมู่บ้านโชโคโบะ
+MSG_MAP_NAME_24	ทางน้ำใต้ดิน
+MSG_MAP_NAME_25	ถ้ำแมลงช้าง
+MSG_MAP_NAME_26	ภูเขาฮ็อบส์
+MSG_MAP_NAME_27	ภูเขาทรมานตน
+MSG_MAP_NAME_28	ทางน้ำเก่า
+MSG_MAP_NAME_29	ถ้ำแม่เหล็ก
+MSG_MAP_NAME_30	หอคอยแห่งซ็อต
+MSG_MAP_NAME_31	หอคอยแห่งบาเบล
+MSG_MAP_NAME_32	ถ้ำเอบลัน
+MSG_MAP_NAME_33	ถ้ำซิลฟ์
+MSG_MAP_NAME_34	ถ้ำอสูร
+MSG_MAP_NAME_35	ดินแดนอสูร
+MSG_MAP_NAME_36	ถ้ำปิดตาย
+MSG_MAP_NAME_37	เส้นทางจันทรา
+MSG_MAP_NAME_38	ถ้ำของบาฮามุต
+MSG_MAP_NAME_39	ยักษ์แห่งบาเบล
+MSG_MAP_NAME_40	หุบเหวจันทรา
+MSG_MAP_NAME_41	ถ้ำหมอก
+MSG_MAP_NAME_47	ห้องฝึกฝน
+MSG_MAP_NAME_48	หอภาวนา
+MSG_MAP_NAME_87	หอคอยสักการะ
+MSG_MAP_NAME_54	ฐานคนแคระ
+MSG_MAP_NAME_56	น้ำตก
+MSG_MAP_NAME_59	รังแมลงช้าง
+MSG_MAP_NAME_60	เส้นทางไปหอคอยแห่งบาเบล
+MSG_MAP_NAME_63	ปากของยักษ์
+MSG_MAP_NAME_64	คอของยักษ์
+MSG_MAP_NAME_65	หน้าอกของยักษ์
+MSG_MAP_NAME_66	ท้องของยักษ์
+MSG_MAP_NAME_67	ทางเดินภายในยักษ์
+MSGARA_NAME_36	ปล่องบันไดของยักษ์
+MSGARA_NAME_39	ซีพียูของยักษ์
+MSG_MAP_NAME_69	ถิ่นฐานเอบลัน
+MSG_MAP_NAME_70	ป่าโชโคโบะ เขตบารอน
+MSG_MAP_NAME_71	ป่าโชโคโบะ เขตฟาบูล
+MSG_MAP_NAME_72	ป่าโชโคโบะ เขตมิซิเดีย
+MSG_MAP_NAME_73	ป่าโชโคโบะ เขตทรอยอา
+MSG_MAP_NAME_74	ป่าโชโคโบะ เกาะทางใต้
+MSG_MAP_NAME_75	กระท่อมซิลฟ์
+MSG_MAP_NAME_76	ทะเลสาบใต้ดิน
+MSG_MAP_NAME_77	ถ้ำหมอก ทางเข้าทิศใต้
+MSG_MAP_NAME_78	ถ้ำหมอก ทางเข้าทิศเหนือ
+MSG_MAP_NAME_79	ทางน้ำใต้ดินทางเข้าทิศใต้
+MSG_MAP_NAME_80	ทางน้ำใต้ดินทางเข้าทิศเหนือ
+MSG_MAP_NAME_81	ภูเขาฮ็อบส์ทางเข้าทิศตะวันตก
+MSG_MAP_NAME_82	ภูเขาฮ็อบส์ทางเข้าทิศตะวันออก
+MSG_MAP_NAME_83	เส้นทางจันทราตะวันตกทางเข้าทิศใต้
+MSG_MAP_NAME_84	เส้นทางจันทราตะวันตกทางเข้าทิศเหนือ
+MSG_MAP_NAME_85	เส้นทางจันทราตะวันออกทางเข้าทิศเหนือ
+MSG_MAP_NAME_86	เส้นทางจันทราตะวันออกทางเข้าทิศใต้
+MSG_MAP_NAME_88	เส้นทางจันทราตะวันออก
+MSG_MAP_NAME_89	เส้นทางจันทราตะวันตก
+MSGARA_NAME_09	ห้องคริสตัล
+MSGARA_NAME_10	ถนนปีศาจ
+MSGARA_NAME_01	ที่พัก
+MSGARA_NAME_02	โรงเหล้า
+MSGARA_NAME_03	โรงเหล้า ชั้น 2
+MSGARA_NAME_04	ที่พักและร้านขายไอเท็ม
+MSGARA_NAME_05	ร้านขายไอเท็ม
+MSGARA_NAME_06	ร้านขายอาวุธ
+MSGARA_NAME_07	ร้านขายชุดเกราะ
+MSGARA_NAME_08	ร้านขายชุดเกราะและอาวุธ
+MSGARA_NAME_11	หอคอยตะวันตก ชั้น 1
+MSGARA_NAME_12	หอคอยตะวันตก ชั้น 2
+MSGARA_NAME_13	หอคอยตะวันตก ชั้น 3
+MSGARA_NAME_14	หอคอยตะวันออก ชั้น 1
+MSGARA_NAME_15	หอคอยตะวันออก ชั้น 2
+MSGARA_NAME_16	หอคอยตะวันออก ชั้น 3
+MSGARA_NAME_17	หอคอยตะวันออก ชั้น B1
+MSGARA_NAME_18	หอคอยตะวันออก ชั้น B2
+MSGARA_NAME_19	ห้องลับ
+MSGARA_NAME_20	ชั้น 1
+MSGARA_NAME_21	ชั้น 2
+MSGARA_NAME_22	ชั้น 3
+MSGARA_NAME_23	ชั้น 4
+MSGARA_NAME_24	ชั้น 5
+MSGARA_NAME_25	ชั้น 6
+MSGARA_NAME_26	ชั้น 7
+MSGARA_NAME_27	ชั้น B1
+MSGARA_NAME_28	ชั้น B2
+MSGARA_NAME_29	ชั้น B3
+MSGARA_NAME_30	ชั้น B4
+MSGARA_NAME_31	ชั้น B5
+MSGARA_NAME_32	ชั้น B6
+MSGARA_NAME_33	ชั้น B7
+MSGARA_NAME_34	สันเขา
+MSGARA_NAME_35	ทางผ่าน
+MSGARA_NAME_37	ท้องพระโรง
+MSGARA_NAME_38	ยอดเขา
+MSGARA_NAME_40	ทางเข้าทิศตะวันตก
+MSGARA_NAME_41	เส้นทางใต้ดิน
+MSGARA_NAME_42	ดันเจี้ยน
+MSGARA_NAME_43	โลกใต้พิภพ ชั้น 1
+MSGARA_NAME_44	โลกใต้พิภพ ชั้น 2
+MSGARA_NAME_45	โลกใต้พิภพ ชั้น 3
+MSGARA_NAME_46	โลกใต้พิภพ ชั้น 4
+MSGARA_NAME_47	โลกใต้พิภพ ชั้น 5
+MSGARA_NAME_48	โลกใต้พิภพ ชั้น 6
+MSGARA_NAME_49	โลกใต้พิภพ ชั้น 7
+MSGARA_NAME_50	โลกใต้พิภพ ชั้น 8
+MSGARA_NAME_51	ทางเข้าทิศตะวันออก
+MSGARA_NAME_52	ทางเข้าทิศใต้
+MSGARA_NAME_53	ทางเข้า
+MSGARA_NAME_54	ทางเข้าทิศเหนือ
+MSGARA_NAME_55	คุก
+MSGARA_NAME_56	คุก ชั้น B1
+MSGARA_NAME_57	ทางเดิน
+MSGARA_NAME_58	ชั้น B8
+MSGARA_NAME_59	ชั้น B9
+MSGARA_NAME_60	ชั้น B10
+MSGARA_NAME_61	ชั้น B11
+MSGARA_NAME_62	ชั้น B12
+MSG_MAP_NAME_42	ห้องของ (CECIL)
+MSG_MAP_NAME_43	ห้องวิจัยมนตร์ดำ
+MSG_MAP_NAME_44	ห้องวิจัยมนตร์ขาว
+MSG_MAP_NAME_45	บ้านของ (CID)
+MSG_MAP_NAME_46	บ้านของ (ROZA)
+MSG_MAP_NAME_49	โรงเหล้าของราชา
+MSG_MAP_NAME_50	ฟาร์มโชโคโบะสีดำ
+MSG_MAP_NAME_51	ฟาร์มโชโคโบะ ชั้น B1
+MSG_MAP_NAME_52	หอดูดาว
+MSG_MAP_NAME_53	ห้องสังเกตการณ์
+MSG_MAP_NAME_55	โรงเหล้าลาลี โฮ
+MSG_MAP_NAME_62	ห้องสมุด
+MSG_MAP_NAME_90	โรงพยาบาล
+MSG_SYSTEM_001	ปิด
+MSG_SYSTEM_002	ย้อนกลับ
+MSG_SYSTEM_328	ออก
+MSG_SYSTEM_003	ใช่
+MSG_SYSTEM_004	ไม่ใช่
+MSG_SYSTEM_010	/
+MSG_SYSTEM_011	(HALF_COLON)
+MSG_SYSTEM_015	x
+MSG_SYSTEM_018	x
+MSG_SYSTEM_019	%
+MSG_SYSTEM_020	??????
+MSG_SYSTEM_022	ยืนยัน
+MSG_SYSTEM_340	เสร็จ
+MSG_SYSTEM_024	ค่าเริ่มต้น
+MSG_SYSTEM_026	โจมตีก่อน!
+MSG_SYSTEM_027	ลอบโจมตี!
+MSG_SYSTEM_028	โจมตีด้านหลัง!
+MSG_SYSTEM_030	ทีมพ่ายแพ้
+MSG_SYSTEM_034	ไม่มีผล
+MSG_SYSTEM_035	หลบหนี
+MSG_SYSTEM_036	หนีไม่ได้!
+MSG_SYSTEM_037	ค่า MP ไม่พอ
+MSG_SYSTEM_040	จำไม่ได้
+MSG_SYSTEM_042	บทเพลงของคางคก
+MSG_SYSTEM_043	เพลงกล่อมเด็ก
+MSG_SYSTEM_044	บทเพลงแห่งการล่อลวง
+MSG_SYSTEM_045	บทเพลงแห่งความเงียบ
+MSG_SYSTEM_046	มีไอเท็มฟื้นฟูไม่พอ
+MSG_SYSTEM_047	คำภาวนาไม่ได้รับการตอบรับ
+MSG_SYSTEM_048	เข้ากันไม่ได้
+MSG_SYSTEM_049	พลังเวทมนตร์เพิ่ม!
+MSG_SYSTEM_050	ทำให้ศัตรูสับสน
+MSG_SYSTEM_051	ไม่มีจุดอ่อนเป็นพิเศษ
+MSG_SYSTEM_052	เปราะบางต่อไฟ
+MSG_SYSTEM_053	เปราะบางต่อน้ำแข็ง
+MSG_SYSTEM_054	เปราะบางต่อสายฟ้า
+MSG_SYSTEM_055	เปราะบางต่อพลังความมืด
+MSG_SYSTEM_056	เปราะบางต่อพลังศักดิ์สิทธิ์
+MSG_SYSTEM_057	เปราะบางต่ออาวุธเคลื่อนที่
+MSG_SYSTEM_058	ขโมยไม่ได้
+MSG_SYSTEM_059	ถูกศัตรูจับได้!
+MSG_SYSTEM_060	ขโมย (ITEM_N)!
+MSG_SYSTEM_061	(FC_0) / (FC_9)
+MSG_SYSTEM_075	โดนทำร้ายด้วยยาพิษ
+MSG_SYSTEM_076	ค่อยๆฟื้นคืน HP
+MSG_SYSTEM_077	พลังที่เก็บไว้เพื่อให้พลังโจมตีเป็นสองเท่า!
+MSG_SYSTEM_078	การป้องกันเพิ่มขึ้น!
+MSG_SYSTEM_079	กิล
+MSG_SYSTEM_080	EXP
+MSG_SYSTEM_081	ไอเท็ม
+MSG_SYSTEM_082	ถัดไป
+MSG_SYSTEM_083	ปิด
+MSG_SYSTEM_084	เลเวลเพิ่ม
+MSG_SYSTEM_330	(CHA_N) เรียนสำเร็จ(MAGC_N)!
+MSG_SYSTEM_085	การโจมตี
+MSG_SYSTEM_086	ความมืด
+MSG_SYSTEM_087	ไอเท็ม
+MSG_SYSTEM_088	กระโดด
+MSG_SYSTEM_089	มนตร์ขาว
+MSG_SYSTEM_090	สวดภาวนา
+MSG_SYSTEM_091	เล็ง
+MSG_SYSTEM_092	มนตร์ดำ
+MSG_SYSTEM_093	เรียกอสูร
+MSG_SYSTEM_094	รำลึก
+MSG_SYSTEM_095	โฟกัส
+MSG_SYSTEM_096	เตะ
+MSG_SYSTEM_097	รัด
+MSG_SYSTEM_098	ร้องเพลง
+MSG_SYSTEM_099	รักษา
+MSG_SYSTEM_100	ซ่อน
+MSG_SYSTEM_101	ตบตา
+MSG_SYSTEM_102	ร่ายเวทย์แฝด
+MSG_SYSTEM_103	ร้องไห้
+MSG_SYSTEM_104	ตรวจสอบ
+MSG_SYSTEM_105	ขว้าง
+MSG_SYSTEM_106	ขโมย
+MSG_SYSTEM_107	วิชานินจา
+MSG_SYSTEM_108	ฟื้นคืน
+MSG_SYSTEM_109	คุ้มกัน
+MSG_SYSTEM_110	เลิกคุ้มกัน
+MSG_SYSTEM_111	ปรากฏตัว
+MSG_SYSTEM_112	กลับด้าน
+MSG_SYSTEM_113	ป้องกัน
+MSG_SYSTEM_338	ข้าม
+MSG_SYSTEM_114	พิษ
+MSG_SYSTEM_115	ความมืด
+MSG_SYSTEM_116	ใบ้
+MSG_SYSTEM_117	หมู
+MSG_SYSTEM_118	มินิ
+MSG_SYSTEM_119	คางคก
+MSG_SYSTEM_120	แข็ง
+MSG_SYSTEM_121	น็อกเอาต์
+MSG_SYSTEM_122	บ้าระห่ำ
+MSG_SYSTEM_123	สับสน
+MSG_SYSTEM_124	นอนหลับ
+MSG_SYSTEM_125	อัมพาต
+MSG_SYSTEM_126	ลอย
+MSG_SYSTEM_127	คำสาป
+MSG_SYSTEM_128	พิพากษา
+MSG_SYSTEM_129	หยุด
+MSG_SYSTEM_131	สะท้อน
+MSG_SYSTEM_339	แม่เหล็ก
+MSG_SYSTEM_341	กู้คืน HP
+MSG_SYSTEM_398	ดูดกำลัง
+MSG_SYSTEM_132	พลาด
+MSG_SYSTEM_134	โต้ตอบ!
+MSG_SYSTEM_135	ไอเท็ม
+MSG_SYSTEM_136	เวทมนตร์
+MSG_SYSTEM_137	อุปกรณ์
+MSG_SYSTEM_138	สถานะ
+MSG_SYSTEM_139	เรียง
+MSG_SYSTEM_140	การตั้งค่า
+MSG_SYSTEM_141	บันทึกด่วน
+MSG_SYSTEM_142	บันทึก
+MSG_SYSTEM_143	กิล
+MSG_SYSTEM_144	เวลา
+MSG_SYSTEM_145	LV
+MSG_SYSTEM_146	HP
+MSG_SYSTEM_147	MP
+MSG_SYSTEM_148	ไอเท็มหลัก
+MSG_SYSTEM_149	ใช้
+MSG_SYSTEM_150	จัดระเบียบ
+MSG_SYSTEM_151	(STATUS_NAME) +(VALUE_NUM)
+MSG_SYSTEM_152	(STATUS_NAME) -(VALUE_NUM)
+MSG_SYSTEM_153	(HALF_SPACE)
+MSG_SYSTEM_154	ไม่มีไอเท็ม
+MSG_SYSTEM_155	ไม่มีไอเท็มหลัก
+MSG_SYSTEM_331	เจ้าไม่มีไอเท็มที่สามารถใช้ในการต่อสู้ได้เลย
+MSG_SYSTEM_156	ไม่สามารถใส่ให้สมาชิกทีมปัจจุบันได้
+MSG_SYSTEM_157	(RYDIA) ได้เรียน (MAGC_N)
+MSG_SYSTEM_160	ใช้เวทมนตร์ไม่ได้
+MSG_SYSTEM_161	MP ที่เสียไป
+MSG_SYSTEM_345	เรียกอสูร
+MSG_SYSTEM_318	ทั้งหมด
+MSG_SYSTEM_319	เรียนสำเร็จ
+MSG_SYSTEM_320	MP(จากน้อยไปมาก)
+MSG_SYSTEM_321	MP(จากมากไปน้อย)
+MSG_SYSTEM_329	เลือกหมวดหมู่เพื่อจัดระเบียบ
+MSG_SYSTEM_322	เลือกและจัดการคาถาเวทมนตร์ด้วยตนเอง
+MSG_SYSTEM_323	จัดการเวทมนตร์ให้คาถาที่เรียนแล้วขึ้นมาก่อน
+MSG_SYSTEM_324	จัดการเวทมนตร์ให้คาถาที่ใช้ค่า MP น้อยที่สุดขึ้นมาก่อน
+MSG_SYSTEM_325	จัดการเวทมนตร์ให้คาถาที่ใช้ค่า MP มากที่สุดขึ้นมาก่อน
+MSG_SYSTEM_326	
+MSG_SYSTEM_163	ดีที่สุด
+MSG_SYSTEM_164	ถอดออก
+MSG_SYSTEM_165	ถอดออกทั้งหมด
+MSG_SYSTEM_166	มือเปล่า
+MSG_SYSTEM_167	ไม่มี
+MSG_SYSTEM_168	มือขวา
+MSG_SYSTEM_169	มือซ้าย
+MSG_SYSTEM_170	ศีรษะ
+MSG_SYSTEM_171	ลำตัว
+MSG_SYSTEM_172	แขน
+MSG_SYSTEM_173	EXP
+MSG_SYSTEM_174	เลเวลถัดไปใน
+MSG_SYSTEM_175	พละกำลัง
+MSG_SYSTEM_176	ความเร็ว
+MSG_SYSTEM_177	ความแข็งแกร่ง
+MSG_SYSTEM_178	สติปัญญา
+MSG_SYSTEM_179	วิญญาณ
+MSG_SYSTEM_180	การโจมตี
+MSG_SYSTEM_181	ความแม่นยำ
+MSG_SYSTEM_182	การป้องกัน
+MSG_SYSTEM_183	การหลีกหนี
+MSG_SYSTEM_184	การป้องกันเวทมนตร์
+MSG_SYSTEM_185	การหลีกหนีเวทมนตร์
+MSG_SYSTEM_186	ถนัดขวา
+MSG_SYSTEM_187	ถนัดซ้าย
+MSG_SYSTEM_188	ทั้งสอง
+MSG_SYSTEM_189	(มือข้างที่ถนัด)
+MSG_SYSTEM_190	คำสั่ง
+MSG_SYSTEM_192	ไฟล์
+MSG_SYSTEM_194	ว่างเปล่า
+MSG_SYSTEM_344	dd/MM/yyyy(FULL_SPACE)H:mm
+MSG_SYSTEM_195	เลือกเป้าหมาย
+MSG_SYSTEM_196	ทั้งทีม
+MSG_SYSTEM_197	สมาชิกทีมหนึ่งคน
+MSG_SYSTEM_198	ศัตรูทั้งหมด
+MSG_SYSTEM_199	ศัตรูหนึ่งตัว
+MSG_SYSTEM_200	ทั้งหมด
+MSG_SYSTEM_201	การควบคุม
+MSG_SYSTEM_202	คำสั่งเพิ่มเติม
+MSG_SYSTEM_203	เปลี่ยนอุปกรณ์
+MSG_SYSTEM_204	ไอเท็ม
+MSG_SYSTEM_205	เลือก
+MSG_SYSTEM_206	เลื่อนดูหน้า
+MSG_SYSTEM_207	ปิดเมนู
+MSG_SYSTEM_208	ยกเลิก
+MSG_SYSTEM_209	ดูคำอธิบาย
+MSG_SYSTEM_428	ลงจากเรือ
+MSG_SYSTEM_438	ร่อนลง
+MSG_SYSTEM_333	เปลี่ยนรูปแบบ
+MSG_SYSTEM_346	ทุกคนเป็นเป้าหมาย
+MSG_SYSTEM_347	เป้าหมายหนึ่งคน
+MSG_SYSTEM_305	ซูมเข้า
+MSG_SYSTEM_306	ซูมออก
+MSG_SYSTEM_307	ย้าย
+MSG_SYSTEM_210	เลือกเอง
+MSG_SYSTEM_327	อาวุธ
+MSG_SYSTEM_211	ชุดเกราะ
+MSG_SYSTEM_212	ชื่อ
+MSG_SYSTEM_213	เลือกและจัดการไอเท็มด้วยตนเอง
+MSG_SYSTEM_214	จัดการคลังให้ไอเท็มใช้ครั้งเดียวขึ้นมาก่อน
+MSG_SYSTEM_215	จัดการคลังให้อาวุธขึ้นมาก่อน
+MSG_SYSTEM_216	จัดการคลังให้ชุดเกราะขึ้นมาก่อน
+MSG_SYSTEM_217	
+MSG_SYSTEM_218	พัก/เริ่มใหม่
+MSG_SYSTEM_219	กดและค้างไว้ : หลบหนี
+MSG_SYSTEM_220	ศัตรูเป้าหมาย :ทั้งหมด/หนึ่งตัว
+MSG_SYSTEM_221	สมาชิกทีมเป้าหมาย :ทั้งหมด/หนึ่งคน
+MSG_SYSTEM_222	รายการ : เลื่อนหน้าขึ้น
+MSG_SYSTEM_223	รายการ : เลื่อนหน้าลง
+MSG_SYSTEM_224	ข้ามรอบการเล่น
+MSG_SYSTEM_225	เริ่ม/หยุดการต่อสู้อัตโนมัติ
+MSG_SYSTEM_226	พัก/เริ่มใหม่
+MSG_SYSTEM_227	หลบหนี
+MSG_SYSTEM_228	ย้อนกลับ/ยกเลิก
+MSG_SYSTEM_229	สลับไปที่การเปลี่ยน\nอุปกรณ์สวมใส่
+MSG_SYSTEM_230	สลับไปที่ไอเท็ม
+MSG_SYSTEM_231	ทุกคนเป็นเป้าหมาย
+MSG_SYSTEM_232	เป้าหมายหนึ่งคน
+MSG_SYSTEM_233	เรียกการตั้งค่าเริ่มต้นคืนมา
+MSG_SYSTEM_235	เปลี่ยน
+MSG_SYSTEM_236	อาวุธ
+MSG_SYSTEM_237	ชุดเกราะ
+MSG_SYSTEM_238	ไอเท็ม
+MSG_SYSTEM_400	ร้านขายชุดเกราะและอาวุธ
+MSG_SYSTEM_401	โรงเหล้า
+MSG_SYSTEM_239	ราคา
+MSG_SYSTEM_240	จำนวน
+MSG_SYSTEM_241	จำนวน
+MSG_SYSTEM_242	ทั้งหมด
+MSG_SYSTEM_243	ซื้อ
+MSG_SYSTEM_244	ขาย
+MSG_SYSTEM_245	ออก
+MSG_SYSTEM_246	สต็อก
+MSG_SYSTEM_247	สวมใส่อยู่
+MSG_SYSTEM_249	เริ่มเกมใหม่
+MSG_SYSTEM_250	โหลดเกม
+MSG_SYSTEM_251	แตะเพื่อเริ่ม
+MSG_SYSTEM_252	กดปุ่มใดก็ได้
+MSG_SYSTEM_253	©SQUARE ENIX CO., LTD.สงวนลิขสิทธิ์\nLogo & Image Illustration: ©YOSHITAKA AMANO
+MSG_SYSTEM_254	พิเศษ
+MSG_SYSTEM_255	ตัวเลือก
+MSG_SYSTEM_256	ตำราอสูร
+MSG_SYSTEM_257	ตัวเล่นเสียง
+MSG_SYSTEM_260	นโยบายความเป็นส่วนตัว
+MSG_SYSTEM_261	ใบอนุญาต
+MSG_SYSTEM_262	คลังภาพ
+MSG_SYSTEM_263	หีบสมบัติ
+MSG_SYSTEM_264	ไอเท็ม
+MSG_SYSTEM_265	การแจ้งเตือน
+MSG_SYSTEM_308	โหมดการสัมผัส
+MSG_SYSTEM_267	บันทึกสำเร็จ
+MSG_SYSTEM_268	บันทึกทับข้อมูลเดิม?
+MSG_SYSTEM_314	การบันทึกข้อมูลเกิดความเสียหาย
+MSG_SYSTEM_315	ไม่สามารถบันทึกข้อมูลได้
+MSG_SYSTEM_270	บันทึกอัตโนมัติ
+MSG_SYSTEM_271	บันทึกด่วน
+MSG_SYSTEM_332	การบันทึกเกมที่เล่นจบแล้ว
+MSG_SYSTEM_272	บันทึกความคืบหน้าเกมของเจ้า?
+MSG_SYSTEM_273	บันทึกด่วนสำเร็จ
+MSG_SYSTEM_316	การบันทึกข้อมูลแบบด่วนเกิดความเสียหาย
+MSG_SYSTEM_317	ไม่สามารถบันทึกข้อมูลแบบด่วนได้
+MSG_SYSTEM_436	พื้นที่จัดเก็บข้อมูลไม่เพียงพอสำหรับเกม\nโปรดลบไฟล์ที่ไม่จำเป็นเพื่อเพิ่มพื้นที่จัดเก็บ
+MSG_SYSTEM_274	ต้องการเริ่มเล่นโดยใช้ข้อมูลนี้หรือไม่?
+MSG_SYSTEM_275	บันทึกข้อมูลเกมที่เล่นจบแล้วหรือไม่?
+MSG_SYSTEM_276	*ข้อมูลบันทึกความคืบหน้าจนถึงบอสตัวสุดท้าย
+MSG_SYSTEM_277	บันทึกเรียบร้อยกลับหน้าจอหลักหรือไม่?
+MSG_SYSTEM_278	ข้อมูลเกมที่เล่นจบแล้วยังไม่ถูกบันทึก กลับสู่หน้าจอหลักหรือไม่?
+MSG_SYSTEM_280	สลับแผนที่
+MSG_SYSTEM_284	ตำแหน่งปัจจุบัน
+MSG_SYSTEM_343	โชโคโบะ
+MSG_SYSTEM_285	โชโคโบะดำ
+MSG_SYSTEM_286	เรือเหาะเอ็นเตอร์ไพรส์
+MSG_SYSTEM_287	ฟัลคอน
+MSG_SYSTEM_288	เรือโฮเวอร์คราฟต์
+MSG_SYSTEM_289	เรือเหาะวาฬจันทรา
+MSG_SYSTEM_399	เล่นต่อจากข้อมูลที่บันทึกล่าสุด?
+MSG_CFG_INF_01	ระบบ
+MSG_CFG_INF_135	โหมดการต่อสู้
+MSG_CFG_INF_136	ความเร็วการต่อสู้
+MSG_CFG_INF_137	ข้อความการต่อสู้
+MSG_CFG_INF_138	รอ
+MSG_CFG_INF_139	ใช้งาน
+MSG_CFG_INF_02	ความจำเคอร์เซอร์
+MSG_CFG_INF_03	ต่อสู้แบบอัตโนมัติต่อ
+MSG_CFG_INF_05	ตั้งค่าภาษา
+MSG_CFG_INF_06	กลับสู่หน้าจอหลัก
+MSG_CFG_INF_07	ออกจากเกม
+MSG_CFG_INF_93	ตั้งค่าหน้าจอ
+MSG_CFG_INF_09	โหมด
+MSG_CFG_INF_94	ความคมชัด
+MSG_CFG_INF_153	หน้าจอการแสดงผล
+MSG_CFG_INF_11	ความสว่าง
+MSG_CFG_INF_12	เสียง
+MSG_CFG_INF_13	ระดับเสียงมาสเตอร์
+MSG_CFG_INF_14	ระดับเสียง BGM
+MSG_CFG_INF_15	ระดับเสียง SFX
+MSG_CFG_INF_140	ตั้งค่าการเดินของเวลาในการต่อสู้
+MSG_CFG_INF_141	เวลาหยุดเมื่อเลือกไอเท็มหรือคาถาเวท
+MSG_CFG_INF_142	เวลาเดินต่อเมื่อเลือกไอเท็มหรือคาถาเวท
+MSG_CFG_INF_143	ตั้งค่าความเร็วเมื่อเกิดการต่อสู้
+MSG_CFG_INF_144	ปรับความเร็วการแสดงข้อความในการต่อสู้
+MSG_CFG_INF_95	เปิดหรือปิดความจำตำแหน่งเคอร์เซอร์
+MSG_CFG_INF_96	ตั้งค่าการต่อสู้อัตโนมัติให้ยังคงทำงานในการต่อสู้ครั้งถัดไป
+MSG_CFG_INF_99	ปรับความสว่างหน้าจอ
+MSG_CFG_INF_100	ปรับระดับเสียงของทั้งเกม
+MSG_CFG_INF_101	ปรับระดับเสียงของดนตรีประกอบ
+MSG_CFG_INF_102	ปรับระดับเสียงของเสียงประกอบ
+MSG_CFG_INF_104	ตั้งค่าควบคุมบนแป้นเกม
+MSG_CFG_INF_105	ตั้งค่าควบคุมบนคีย์บอร์ด
+MSG_CFG_INF_106	กลับสู่หน้าจอหลักความคืบหน้าเกมที่ยังไม่ได้บันทึกจะหายไป
+MSG_CFG_INF_107	ออกจากเกม ความคืบหน้าเกมที่ยังไม่ได้บันทึกจะหายไป
+MSG_CFG_INF_108	การควบคุมเเป้นเกมจะกลับเป็นการตั้งค่าเริ่มต้น
+MSG_CFG_INF_109	การควบคุมคีย์บอร์ดจะกลับเป็นการตั้งค่าเริ่มต้น
+MSG_CFG_INF_158	ปรับเปลี่ยนรูปลักษณ์กราฟิกของหน้าจอ
+MSG_CFG_INF_18	ตั้งค่าเเป้นเกม
+MSG_CFG_INF_19	ยืนยัน
+MSG_CFG_INF_21	เปิด/ปิดเมนู
+MSG_CFG_INF_23	เลื่อนหน้าขึ้น
+MSG_CFG_INF_24	เลื่อนหน้าลง
+MSG_CFG_INF_25	สลับสมาชิกทีม(ซ้าย)
+MSG_CFG_INF_26	สลับสมาชิกทีม(ขวา)
+MSG_CFG_INF_28	ตั้งค่าคีย์บอร์ด
+MSG_CFG_INF_29	เลื่อนขึ้น
+MSG_CFG_INF_30	เลื่อนลง
+MSG_CFG_INF_31	เลื่อนซ้าย
+MSG_CFG_INF_32	เลื่อนขวา
+MSG_CFG_INF_145	คีย์บอร์ด
+MSG_CFG_INF_146	เม้าส์
+MSG_CFG_INF_33	การควบคุมแป้นเกม
+MSG_CFG_INF_110	วิ่ง(กดและค้างไว้)
+MSG_CFG_INF_113	เปิด/ปิดการต่อสู้อัตโนมัติ
+MSG_CFG_INF_114	เปิด/ปิดแผนที่
+MSG_CFG_INF_115	เปิด/ปิดแผนที่เล็ก
+MSG_CFG_INF_148	พักการต่อสู้
+MSG_CFG_INF_34	การควบคุมคีย์บอร์ด
+MSG_CFG_INF_116	เลื่อน
+MSG_CFG_INF_117	เมนูฟิลด์
+MSG_CFG_INF_118	เมนู
+MSG_CFG_INF_119	แผนที่
+MSG_CFG_INF_120	การควบคุมการเคลื่อนไหว
+MSG_CFG_INF_121	คุย
+MSG_CFG_INF_147	โต้ตอบ
+MSG_CFG_INF_123	เมนูการต่อสู้
+MSG_CFG_INF_35	หน้าจอเมนูฟิลด์
+MSG_CFG_INF_37	การแสดงแป้นทิศทาง
+MSG_CFG_INF_38	หน้าจอเมนู
+MSG_CFG_INF_39	การแสดงแถบเมนู
+MSG_CFG_INF_40	การแสดง IU การต่อสู้
+MSG_CFG_INF_41	หน้าจอคำสั่งต่อสู้
+MSG_CFG_INF_154	กราฟฟิก
+MSG_CFG_INF_42	การควบคุม
+MSG_CFG_INF_43	เปิด
+MSG_CFG_INF_44	ปิด
+MSG_CFG_INF_45	ซ้าย
+MSG_CFG_INF_46	ขวา
+MSG_CFG_INF_156	มาตรฐาน
+MSG_CFG_INF_157	คลาสสิก
+MSG_CFG_INF_48	ช้ามาก
+MSG_CFG_INF_49	ช้า
+MSG_CFG_INF_50	ปกติ
+MSG_CFG_INF_51	เร็ว
+MSG_CFG_INF_52	เร็วมาก
+MSG_CFG_INF_129	ภาษา
+MSG_CFG_INF_53	日本語 (ภาษาญี่ปุ่น)
+MSG_CFG_INF_54	English (ภาษาอังกฤษ)
+MSG_CFG_INF_55	Français (ภาษาฝรั่งเศส)
+MSG_CFG_INF_56	Italiano (ภาษาอิตาลี)
+MSG_CFG_INF_57	Deutsch (ภาษาเยอรมัน)
+MSG_CFG_INF_58	Español (ภาษาสเปน)
+MSG_CFG_INF_59	한국어 (ภาษาเกาหลี)
+MSG_CFG_INF_60	繁體中文 (ภาษาจีนตัวเต็ม)
+MSG_CFG_INF_61	简体中文 (ภาษาจีนตัวย่อ)
+MSG_CFG_INF_62	русский (ภาษารัสเซีย)
+MSG_CFG_INF_63	ภาษาไทย
+MSG_CFG_INF_64	Português brasileiro (ภาษาบราซิลโปรตุกีส)
+MSG_CFG_INF_66	เต็มจอ
+MSG_CFG_INF_67	หน้าต่าง
+MSG_CFG_INF_68	หน้าต่างไร้ขอบ
+MSG_CFG_INF_76	เปลี่ยนเป็นภาษาที่เลือกไว้หรือไม่?
+MSG_CFG_INF_130	*เกมจะเริ่มใหม่หลังจากเปลี่ยนการตั้งค่า
+MSG_CFG_INF_78	ใช้การตั้งค่าหน้าจอเหล่านี้หรือไม่?
+MSG_CFG_INF_89	กลับสู่หน้าจอหลัก
+MSG_CFG_INF_131	การตั้งค่าที่ยังไม่ได้บันทึกจะถูกยกเลิก
+MSG_CFG_INF_132	ต้องการดำเนินการต่อหรือไม่
+MSG_CFG_INF_155	เลือกภาษา
+MSG_SYSTEM_290	ออกจากเกม
+MSG_SYSTEM_292	โชโคโบะอ้วน:
+MSG_SYSTEM_293	สวัสดี! เจ้าต้องการอะไร?
+MSG_SYSTEM_294	ฝาก
+MSG_SYSTEM_295	ถอน
+MSG_SYSTEM_296	เฮ้ย! อย่าใช้มันที่นี่!
+MSG_SYSTEM_297	เจ้าให้อะไรข้ามาหรือ?
+MSG_SYSTEM_298	เจ้าอยากได้อะไร?
+MSG_SYSTEM_309	ไม่มีไอเท็มเก็บไว้
+MSG_SYSTEM_310	เก็บไว้
+MSG_SYSTEM_342	ถอน
+MSG_SYSTEM_311	เจ้าจะให้ข้าเท่าไหร่?
+MSG_SYSTEM_312	เจ้าต้องการเท่าไหร่?
+MSG_SYSTEM_303	เจ้าต้องการเปลี่ยนชื่อของใคร?
+MSG_SYSTEM_313	เปลี่ยนชื่อ
+MSG_SYSTEM_334	เลือกชื่อตัวละคร
+MSG_SYSTEM_335	สูงสุด 6 ตัวอักษรและสัญลักษณ์แบบเต็มความกว้าง\nหรือ 12 ตัวอักษรและสัญลักษณ์แบบครึ่งความกว้าง
+MSG_SYSTEM_336	ใช้ชื่อนี้?
+MSG_SYSTEM_337	*ตัวอักษรและสัญลักษณ์บางตัวอาจแสดงได้ไม่ถูกต้อง
+MSG_PC_KEY_CONFIG_01	Backspace
+MSG_PC_KEY_CONFIG_02	ปุ่ม Enter
+MSG_PC_KEY_CONFIG_03	ปุ่ม Shift (L)
+MSG_PC_KEY_CONFIG_04	ปุ่ม Shift (R)
+MSG_PC_KEY_CONFIG_05	ปุ่ม Alt (L)
+MSG_PC_KEY_CONFIG_06	ปุ่ม Alt (R)
+MSG_PC_KEY_CONFIG_07	ปุ่ม Tab
+MSG_PC_KEY_CONFIG_08	ปุ่ม Caps Lock
+MSG_PC_KEY_CONFIG_09	ปุ่มเคาะเว้นวรรค
+MSG_PC_KEY_CONFIG_10	ปุ่ม Insert
+MSG_PC_KEY_CONFIG_11	ปุ่ม Home
+MSG_PC_KEY_CONFIG_12	ปุ่ม Delete
+MSG_PC_KEY_CONFIG_13	ปุ่ม Pause/Break
+MSG_PC_KEY_CONFIG_14	ปุ่ม Scroll Lock
+MSG_PC_KEY_CONFIG_15	ปุ่ม Num Enter
+MSG_SYSTEM_349	จำนวนครั้งที่ปะทะกัน
+MSG_SYSTEM_350	แสดงแผนที่
+MSG_SYSTEM_351	การเลื่อนหน้าแบบรวดเร็ว
+MSG_SYSTEM_421	เลื่อน
+MSG_SYSTEM_352	เปลี่ยนหน้าจอ
+MSG_SYSTEM_422	เปลี่ยนแผนที่
+MSG_SYSTEM_353	ยืนยัน
+MSG_SYSTEM_354	จำนวนครั้งที่ชนะ
+MSG_SYSTEM_355	พื้นที่วางไข่
+MSG_SYSTEM_358	จุดอ่อน
+MSG_SYSTEM_359	ความต้านทาน
+MSG_SYSTEM_360	ดูด
+MSG_SYSTEM_361	ไม่มี
+MSG_SYSTEM_362	ประเภท
+MSG_SYSTEM_363	ตายทันที
+MSG_SYSTEM_364	ค่อยๆ กลายเป็นหิน
+MSG_SYSTEM_365	ไฟ
+MSG_SYSTEM_366	น้ำแข็ง
+MSG_SYSTEM_367	สายฟ้า
+MSG_SYSTEM_368	ความมืด
+MSG_SYSTEM_369	ศักดิ์สิทธิ์
+MSG_SYSTEM_423	ศักดิ์สิทธิ์ (อาวุธ)
+MSG_SYSTEM_424	ศักดิ์สิทธิ์ (เวทมนตร์)
+MSG_SYSTEM_370	อาวุธพิสัยไกล
+MSG_SYSTEM_371	สัตว์เลื้อยคลาน
+MSG_SYSTEM_372	นักเวท
+MSG_SYSTEM_373	ปอบ
+MSG_SYSTEM_374	มังกร
+MSG_SYSTEM_375	ผีดิบ
+MSG_SYSTEM_376	แฟลน
+MSG_SYSTEM_377	ยักษ์
+MSG_SYSTEM_378	แมชชีน
+MSG_SYSTEM_395	พลังเวทมนตร์
+MSG_SYSTEM_396	ไอเท็มที่ดรอปได้
+MSG_SYSTEM_397	ไอเท็มที่ขโมยได้
+MSG_SYSTEM_379	เลือกภาพเพื่อเปิดดู
+MSG_SYSTEM_380	ซ่อนข้อความ
+MSG_SYSTEM_381	การต่อสู้แบบ AR
+MSG_SYSTEM_427	โหมด AR
+MSG_SYSTEM_382	เปิดกล้อง
+MSG_SYSTEM_383	ปิดกล้อง
+MSG_SYSTEM_384	จัดรูปแบบศัตรูใหม่
+MSG_SYSTEM_385	เริ่มการต่อสู้
+MSG_SYSTEM_386	ซ่อนเมนู
+MSG_SYSTEM_387	อนุญาตให้ FINAL FANTASY เข้าถึงรูปภาพของเจ้าหรือไม่?
+MSG_SYSTEM_388	อนุญาต
+MSG_SYSTEM_389	ปฏิเสธ
+MSG_SYSTEM_419	จบการต่อสู้แบบ AR\nหรือไม่?
+MSG_SYSTEM_433	การแสดงผลของฟีเจอร์ AR ต้องใช้กล้องถ่ายรูป\nโปรดอนุญาตให้แอปพลิเคชันเข้าถึงกล้องถ่ายรูปของคุณ
+MSG_SYSTEM_434	ขณะนี้แอปไม่สามารถเข้าถึงกล้องถ่ายรูปของคุณได้เพื่อการใช้ฟีเจอร์ AR\nโปรดอนุญาตให้แอปเข้าถึงกล้องถ่ายรูปของคุณ
+MSG_SYSTEM_435	หากคุณเลือกที่จะเปลี่ยนการตั้งค่าของแอปในภายหลัง\nโปรดอนุญาตให้แอปเข้าถึงฟังก์ชันกล้องถ่ายรูปจากการตั้งค่าบนอุปกรณ์ของคุณ
+MSG_SYSTEM_437	ภาพจากกล้องของคุณจะใช้เป็นพื้นหลังสำหรับการต่อสู้
+MSG_SYSTEM_390	เลือกเพลงเพื่อเล่น
+MSG_SYSTEM_391	เล่น
+MSG_SYSTEM_392	พัก
+MSG_SYSTEM_393	เปิดการเล่นทั้งหมด
+MSG_SYSTEM_394	ปิดการเล่นทั้งหมด
+MSG_SYSTEM_425	เล่นทั้งหมด
+MSG_SYSTEM_402	ฟังก์ชั่นที่บันทึกบนคลาวด์
+MSG_SYSTEM_403	อัปโหลด
+MSG_SYSTEM_404	ดาวน์โหลด
+MSG_SYSTEM_405	ไฟล์ที่บันทึกในเครื่อง
+MSG_SYSTEM_406	ไฟล์ที่บันทึกบนคลาวด์
+MSG_SYSTEM_420	รายละเอียด
+MSG_SYSTEM_407	เจ้าสามารถสำรองไฟล์ที่\nเจ้าบันทึกไว้ไปยังคลาวด์ได้้
+MSG_SYSTEM_408	อัปโหลดไฟล์ที่บันทึกในเครื่อง\nทั้งหมดและเขียนทับข้อมูลบนคลาวด์์
+MSG_SYSTEM_409	ดาวน์โหลดไฟล์ที่บันทึกบนคลาวด์\nทั้งหมดและเขียนทับข้อมูลในเครื่อง
+MSG_SYSTEM_410	จะทำการอัปโหลดไฟล์ที่\nบันทึกไว้ทั้งหมดไปยังคลาวด์
+MSG_SYSTEM_411	จะมีการเขียนทับไฟล์ทั้งหมด\nที่บันทึกไว้บนคลาวด์
+MSG_SYSTEM_412	อัปโหลดไปยังคลาวด์สมบูรณ์
+MSG_SYSTEM_413	อัปโหลดไปยังคลาวด์ล้มเหลว
+MSG_SYSTEM_414	โปรดตรวจสอบการเชื่อมต่อ\nอินเทอร์เน็ตของเจ้า
+MSG_SYSTEM_415	จะทำการดาวน์โหลดไฟล์ที่\nบันทึกไว้ทั้งหมดจากคลาวด์
+MSG_SYSTEM_416	จะมีการเขียนทับไฟล์ทั้งหมด\nที่บันทึกไว้ในเครื่อง
+MSG_SYSTEM_417	ดาวน์โหลดจากคลาวด์สมบูรณ์
+MSG_SYSTEM_418	ดาวน์โหลดจากคลาวด์ล้มเหลว
+MSG_SYSTEM_429	กำลังดำเนินการ...
+MSG_SYSTEM_430	การซิงค์ข้อมูลล้มเหลว
+MSG_SYSTEM_431	เครือข่ายล้มเหลว
+MSG_SYSTEM_432	ลองอีกครั้ง
+MSG_SYSTEM_426	กำลังดาวน์โหลด...
+MSG_SYSTEM_439	การยืนยันใบอนุญาตล้มเหลว แอปจะปิดการทำงาน
+MSG_SYSTEM_440	โปรดตรวจสอบการตั้งค่า อุปกรณ์และการเชื่อมต่อ อินเทอร์เน็ตของเจ้า และเปิดแอปใหม่อีกครั้ง
+

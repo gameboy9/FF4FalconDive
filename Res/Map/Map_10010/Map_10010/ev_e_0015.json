@@ -1,0 +1,1374 @@
+{
+	"id": 21,
+	"layers": [
+		{
+			"draworder": "topdown",
+			"id": 22,
+			"name": "GroundObject",
+			"objects": [
+				{
+					"gid": 1000,
+					"height": 16,
+					"id": 218,
+					"name": "炎の爆破表現",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 250
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 164
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4184,
+					"y": 624
+				},
+				{
+					"gid": 1000,
+					"height": 16,
+					"id": 220,
+					"name": "炎の爆破表現1",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 250
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 167
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4184,
+					"y": 640
+				},
+				{
+					"gid": 1000,
+					"height": 16,
+					"id": 221,
+					"name": "炎の爆破表現2",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 250
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 165
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4184,
+					"y": 656
+				},
+				{
+					"gid": 1000,
+					"height": 16,
+					"id": 222,
+					"name": "炎の爆破表現3",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 250
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 166
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4184,
+					"y": 672
+				},
+				{
+					"gid": 1000,
+					"height": 16,
+					"id": 223,
+					"name": "炎の爆破表現4",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 250
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 168
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4184,
+					"y": 688
+				},
+				{
+					"gid": 1000,
+					"height": 16,
+					"id": 224,
+					"name": "炎の爆破表現5",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 250
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 169
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4184,
+					"y": 704
+				},
+				{
+					"gid": 1000,
+					"height": 16,
+					"id": 225,
+					"name": "炎の爆破表現6",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 250
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 170
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4184,
+					"y": 720
+				},
+				{
+					"gid": 1024,
+					"height": 16,
+					"id": 393,
+					"name": "赤い翼1",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 247
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 161
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4144,
+					"y": 624
+				},
+				{
+					"gid": 1024,
+					"height": 16,
+					"id": 396,
+					"name": "赤い翼2",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 247
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 162
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4144,
+					"y": 656
+				},
+				{
+					"gid": 1024,
+					"height": 16,
+					"id": 397,
+					"name": "赤い翼3",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 247
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 163
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4144,
+					"y": 688
+				},
+				{
+					"gid": 1001,
+					"height": 32,
+					"id": 443,
+					"name": "ダムシアン城_崩壊後",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 278
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1084
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 1792,
+					"y": -16
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"name": "ev_e_0015",
+	"opacity": 1,
+	"type": "group",
+	"visible": true,
+	"x": 0,
+	"y": 0,
+	"width": 256,
+	"height": 256
+}

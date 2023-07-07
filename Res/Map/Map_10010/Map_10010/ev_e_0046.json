@@ -1,0 +1,601 @@
+{
+	"id": 54,
+	"layers": [
+		{
+			"draworder": "topdown",
+			"id": 53,
+			"name": "GroundObject",
+			"objects": [
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 320,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1030
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1776,
+					"y": 3200
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 326,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1031
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1792,
+					"y": 3184
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 327,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1032
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1776,
+					"y": 3184
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 328,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1033
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1760,
+					"y": 3184
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 329,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1034
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1760,
+					"y": 3200
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 330,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1035
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1760,
+					"y": 3216
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 331,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1036
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1776,
+					"y": 3216
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 332,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1037
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1792,
+					"y": 3216
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 333,
+					"name": "ドワーフ戦車隊と赤い翼の交戦",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1038
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 357
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1792,
+					"y": 3200
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"name": "ev_e_0046",
+	"opacity": 1,
+	"type": "group",
+	"visible": true,
+	"x": 0,
+	"y": 0,
+	"width": 256,
+	"height": 256
+}

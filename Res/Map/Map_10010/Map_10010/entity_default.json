@@ -1,0 +1,8540 @@
+{
+	"id": 16,
+	"layers": [
+		{
+			"draworder": "topdown",
+			"id": 17,
+			"name": "GroundObject",
+			"objects": [
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 1,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 2,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2320
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 3,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1696,
+					"y": 2320
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 4,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1696,
+					"y": 2304
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 5,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2304
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 7,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 24
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1680,
+					"y": 2336
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 8,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 7
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 24
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1680,
+					"y": 2320
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 9,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 24
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1728,
+					"y": 2320
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 10,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 24
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1728,
+					"y": 2336
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 11,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 10
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 162
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1296,
+					"y": 1920
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 12,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1296,
+					"y": 1936
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 13,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 12
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 162
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1424,
+					"y": 1712
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 14,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 13
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1424,
+					"y": 1728
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 15,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 14
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2080,
+					"y": 1472
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 16,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2080,
+					"y": 1488
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 17,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 16
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 163
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2288,
+					"y": 1136
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 18,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 17
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2288,
+					"y": 1152
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 19,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 18
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 169
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2288,
+					"y": 1040
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 20,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2288,
+					"y": 1056
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 21,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 170
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2224,
+					"y": 960
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 22,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 7
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2224,
+					"y": 976
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 23,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 22
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 172
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2080,
+					"y": 864
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 24,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 23
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2080,
+					"y": 880
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 25,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 24
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 38
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 736
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 27,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 25
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 38
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1968,
+					"y": 736
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 28,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 26
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 38
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1968,
+					"y": 720
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 29,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 27
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 38
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 720
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 30,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 28
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 736
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 31,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 29
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 173
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2256,
+					"y": 704
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 32,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 30
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 10
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2256,
+					"y": 720
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 33,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 31
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 178
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2512,
+					"y": 592
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 34,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2512,
+					"y": 608
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 35,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 33
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 181
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2640,
+					"y": 592
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 36,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 34
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 12
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2640,
+					"y": 608
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 37,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 35
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 44
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3520,
+					"y": 736
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 38,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 36
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 13
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3520,
+					"y": 752
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 39,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 37
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 44
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3504,
+					"y": 736
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 40,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 38
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 44
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3504,
+					"y": 720
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 41,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 39
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 44
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3520,
+					"y": 720
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 42,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 40
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 57
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2544,
+					"y": 2992
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 43,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 41
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 14
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2544,
+					"y": 3008
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 44,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 42
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 57
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2560,
+					"y": 2992
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 45,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 43
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3568,
+					"y": 3008
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 46,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 44
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 182
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3568,
+					"y": 2992
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 47,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 45
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 17
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1600,
+					"y": 1712
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 48,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 46
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 67
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1616,
+					"y": 1712
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 49,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 47
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 72
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3440,
+					"y": 1888
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 50,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 48
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 18
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3440,
+					"y": 1904
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 51,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 49
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 77
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 816,
+					"y": 3584
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 52,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 50
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 816,
+					"y": 3600
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 53,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 51
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 77
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 800,
+					"y": 3584
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 54,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 52
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 77
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 800,
+					"y": 3568
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 55,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 53
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 77
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 816,
+					"y": 3568
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 56,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 54
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 86
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 656,
+					"y": 1152
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 57,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 55
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 656,
+					"y": 1152
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 58,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 56
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 86
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1152
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 59,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 57
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 86
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1136
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 60,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 58
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 96
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1120
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 61,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 59
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 96
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 624,
+					"y": 1120
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 62,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 60
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 96
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 624,
+					"y": 1104
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 63,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 61
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 96
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1104
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 64,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 62
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1120
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 65,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 63
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 192
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1264,
+					"y": 656
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 66,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 64
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 22
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1264,
+					"y": 672
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 67,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 65
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 106
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1744,
+					"y": 3248
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 69,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 66
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 106
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1760,
+					"y": 3264
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 70,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 67
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 23
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1744,
+					"y": 3248
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 73,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 68
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 226
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 464,
+					"y": 3504
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 74,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 69
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 24
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 464,
+					"y": 3520
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 75,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 70
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 117
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3584,
+					"y": 1984
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 76,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 71
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 26
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3584,
+					"y": 2000
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 77,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 72
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 27
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1504,
+					"y": 2400
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 78,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 73
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 155
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1504,
+					"y": 2416
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 79,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 74
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 28
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3728,
+					"y": 576
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 80,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 75
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 156
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3728,
+					"y": 560
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 81,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 76
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 29
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3472,
+					"y": 3152
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 82,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 77
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 157
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3488,
+					"y": 3152
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 83,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 78
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 158
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 624,
+					"y": 1424
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 84,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 79
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 30
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 624,
+					"y": 1408
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 85,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 80
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 159
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1456,
+					"y": 1072
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 86,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 81
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 31
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1472,
+					"y": 1072
+				},
+				{
+					"gid": 996,
+					"height": 16,
+					"id": 87,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 82
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 160
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 736,
+					"y": 656
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 88,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 83
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 736,
+					"y": 672
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 198,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 180
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 10
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 11
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1296,
+					"y": 1936
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 199,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 181
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 12
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 13
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1424,
+					"y": 1728
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 200,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 182
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 16
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 17
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2288,
+					"y": 1152
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 201,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 183
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 18
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 19
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2288,
+					"y": 1056
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 202,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 184
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 21
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2224,
+					"y": 976
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 203,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 185
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 22
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 23
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2080,
+					"y": 880
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 204,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 186
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 29
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 30
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2256,
+					"y": 720
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 205,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 187
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 31
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 32
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2512,
+					"y": 608
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 206,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 188
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 33
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 34
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2640,
+					"y": 608
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 207,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 189
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 44
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 43
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3568,
+					"y": 3008
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 208,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 190
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 68
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 69
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 464,
+					"y": 3520
+				},
+				{
+					"gid": 1007,
+					"height": 16,
+					"id": 209,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 191
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 63
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 64
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1264,
+					"y": 672
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 901
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 902
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 903
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 904
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 905
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 906
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 7
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 907
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 908
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1712,
+					"y": 2336
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 909
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 14
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 15
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2080,
+					"y": 1488
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 910
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 24
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 28
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 736
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 911
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 25
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 28
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 736
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 912
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 26
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 28
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 736
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 913
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 27
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 28
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 736
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 914
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 35
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 36
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3520,
+					"y": 752
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 915
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 37
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 36
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3520,
+					"y": 752
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 916
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 38
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 36
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3520,
+					"y": 752
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 917
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 39
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 36
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3520,
+					"y": 752
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 918
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 40
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 41
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2544,
+					"y": 3008
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 919
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 42
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 41
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 2544,
+					"y": 3008
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 920
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 46
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 45
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1600,
+					"y": 1712
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 921
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 47
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 48
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 3440,
+					"y": 1904
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 922
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 49
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 50
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 816,
+					"y": 3600
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 923
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 51
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 50
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 816,
+					"y": 3600
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 924
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 52
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 50
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 816,
+					"y": 3600
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 925
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 53
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 50
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 816,
+					"y": 3600
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 926
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 54
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 55
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 656,
+					"y": 1152
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 927
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 56
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 55
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 656,
+					"y": 1152
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 928
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 57
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 55
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 656,
+					"y": 1152
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 929
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 58
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 62
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1120
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 930
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 59
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 62
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1120
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 931
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 60
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 62
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1120
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 932
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 61
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 62
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 1120
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 933
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 65
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 67
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1744,
+					"y": 3248
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 934
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 66
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 67
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1744,
+					"y": 3248
+				},
+				{
+					"gid": 1001,
+					"height": 32,
+					"id": 284,
+					"name": "城１",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 277
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1001
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 624,
+					"y": 1120
+				},
+				{
+					"gid": 1001,
+					"height": 32,
+					"id": 285,
+					"name": "城１",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 277
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1002
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 1696,
+					"y": 2320
+				},
+				{
+					"gid": 1001,
+					"height": 32,
+					"id": 286,
+					"name": "壊れたお城",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 278
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1003
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 800,
+					"y": 3584
+				},
+				{
+					"gid": 1001,
+					"height": 32,
+					"id": 287,
+					"name": "城１",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 277
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1004
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 3504,
+					"y": 736
+				},
+				{
+					"gid": 1001,
+					"height": 32,
+					"id": 288,
+					"name": "塔（地上）",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 280
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1005
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "h_center_width",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "h_left_width",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "h_right_width",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "height",
+							"type": "int",
+							"value": 144
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "v_bottom_height",
+							"type": "int",
+							"value": 31
+						},
+						{
+							"name": "v_center_height",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "v_top_height",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "width",
+							"type": "int",
+							"value": 32
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 608,
+					"y": 3328
+				},
+				{
+					"gid": 1001,
+					"height": 32,
+					"id": 289,
+					"name": "塔（地上）",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 280
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1006
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "h_center_width",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "h_left_width",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "h_right_width",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "height",
+							"type": "int",
+							"value": 144
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "v_bottom_height",
+							"type": "int",
+							"value": 31
+						},
+						{
+							"name": "v_center_height",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "v_top_height",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "width",
+							"type": "int",
+							"value": 32
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 624,
+					"y": 3296
+				},
+				{
+					"gid": 1001,
+					"height": 32,
+					"id": 290,
+					"name": "塔（地上）",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 280
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1007
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "h_center_width",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "h_left_width",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "h_right_width",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "height",
+							"type": "int",
+							"value": 144
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "v_bottom_height",
+							"type": "int",
+							"value": 31
+						},
+						{
+							"name": "v_center_height",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "v_top_height",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "width",
+							"type": "int",
+							"value": 32
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 592,
+					"y": 3296
+				},
+				{
+					"gid": 1024,
+					"height": 16,
+					"id": 309,
+					"name": "魔導船",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 240
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 100
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4112,
+					"y": 16
+				},
+				{
+					"gid": 1024,
+					"height": 16,
+					"id": 310,
+					"name": "Default _エンタープライズ号",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 238
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1021
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4144,
+					"y": 768
+				},
+				{
+					"height": 64,
+					"id": 311,
+					"name": "ミストの村山出現",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1023
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 80,
+					"x": 1632,
+					"y": 1664
+				},
+				{
+					"height": 32,
+					"id": 408,
+					"name": "エブラーナ城城壁",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1069
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 800,
+					"y": 3552
+				},
+				{
+					"height": 32,
+					"id": 412,
+					"name": "ダムシアン城城壁",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1070
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": true
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 1968,
+					"y": 704
+				},
+				{
+					"gid": 1024,
+					"height": 16,
+					"id": 439,
+					"name": "汎用：（ドリル）ファルコン号",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 290
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1081
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 4144,
+					"y": 784
+				},
+				{
+					"gid": 997,
+					"height": 16,
+					"id": 442,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1082
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 100
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1776,
+					"y": 3200
+				},
+				{
+					"gid": 1000,
+					"height": 48,
+					"id": 499,
+					"name": "滝（バロン）",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 334
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1128
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 0
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 64,
+					"x": 1440,
+					"y": 2064
+				},
+				{
+					"gid": 1000,
+					"height": 48,
+					"id": 500,
+					"name": "滝（トロイア）",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 335
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "building",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1129
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 0
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 48,
+					"x": 528,
+					"y": 1136
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 502,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1130
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 592,
+					"y": 3296
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 503,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1131
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 608,
+					"y": 3296
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 504,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1132
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 624,
+					"y": 3296
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 505,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1133
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 3296
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 507,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1134
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 592,
+					"y": 3280
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 508,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1135
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 608,
+					"y": 3280
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 509,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1136
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 624,
+					"y": 3280
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 510,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1137
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 640,
+					"y": 3280
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 511,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1138
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 608,
+					"y": 3328
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 512,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1139
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 624,
+					"y": 3328
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 515,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1140
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 608,
+					"y": 3312
+				},
+				{
+					"gid": 1006,
+					"height": 16,
+					"id": 516,
+					"name": "",
+					"properties": [
+						{
+							"name": "collision_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "confirm_landing",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1141
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "3,5,9,10"
+						},
+						{
+							"name": "through_condition_type",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 624,
+					"y": 3312
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"draworder": "topdown",
+			"id": 60,
+			"name": "UpperObject",
+			"objects": [
+				{
+					"height": 80,
+					"id": 365,
+					"name": "開いた山",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1047
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": true
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 80,
+					"x": 1744,
+					"y": 3152
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"name": "DefaultObjectGroup",
+	"opacity": 0.54,
+	"type": "group",
+	"visible": true,
+	"x": 0,
+	"y": 0,
+	"width": 256,
+	"height": 256
+}

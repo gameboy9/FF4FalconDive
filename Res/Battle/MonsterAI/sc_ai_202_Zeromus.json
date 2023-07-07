@@ -1,0 +1,878 @@
+{
+	"Name": "BattleAI-monster-template",
+	"Title": {
+		"main": "ゼロムスAIスクリプト"
+	},
+	"EntryPoint": 0,
+	"Count": 1,
+	"Mnemonics": [
+		{
+			"label": "0000",
+			"mnemonic": "AttackAfterMes",
+			"operands": {
+				"sValues": [
+					"E0074_04_317_b_18"
+				]
+			},
+			"comment": "メッセージ表示タイミング後に設定"
+		},
+		{
+			"label": "0001",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0002",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					89
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0003",
+			"mnemonic": "ExecMsg",
+			"operands": {
+				"iValues": [
+					2,
+					0
+				],
+				"rValues": [
+					3
+				]
+			}
+		},
+		{
+			"label": "0004",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					1,
+					17
+				]
+			},
+			"comment": "内部モードが1であれば別テーブルへ移動"
+		},
+		{
+			"label": "0005",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					2,
+					44
+				]
+			},
+			"comment": "内部モードが2であれば別テーブルへ移動"
+		},
+		{
+			"label": "0006",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					3,
+					66
+				]
+			},
+			"comment": "内部モードが3であれば別テーブルへ移動"
+		},
+		{
+			"label": "0007",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					2,
+					77
+				]
+			},
+			"comment": "直前に魔法攻撃を受けた時ジャンプ"
+		},
+		{
+			"label": "0008",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					3,
+					85
+				]
+			},
+			"comment": "直前に召喚魔法を受けた時ジャンプ"
+		},
+		{
+			"label": "0009",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					0
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0010",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "通常行動：1ターン目"
+		},
+		{
+			"label": "0011",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					351
+				]
+			},
+			"comment": "通常行動：2ターン目"
+		},
+		{
+			"label": "0012",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					463
+				]
+			},
+			"comment": "通常行動：3ターン目"
+		},
+		{
+			"label": "0013",
+			"mnemonic": "CounterActByAbility",
+			"operands": {
+				"iValues": [
+					463,
+					150
+				]
+			},
+			"comment": "誘発：ビッグバーン"
+		},
+		{
+			"label": "0014",
+			"mnemonic": "CounterActByAbility",
+			"operands": {
+				"iValues": [
+					463,
+					358
+				]
+			},
+			"comment": "誘発：内部モード１変更"
+		},
+		{
+			"label": "0015",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0016",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0017",
+			"mnemonic": "Nop",
+			"comment": "内部モードが1の時ジャンプ先"
+		},
+		{
+			"label": "0018",
+			"mnemonic": "IsParameterValue",
+			"operands": {
+				"iValues": [
+					2,
+					5,
+					2,
+					16000,
+					40
+				]
+			},
+			"comment": "HPが16000以下の時ジャンプ"
+		},
+		{
+			"label": "0019",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					2,
+					77
+				]
+			},
+			"comment": "直前に魔法攻撃を受けた時ジャンプ"
+		},
+		{
+			"label": "0020",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					3,
+					85
+				]
+			},
+			"comment": "直前に召喚魔法を受けた時ジャンプ"
+		},
+		{
+			"label": "0021",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0022",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが1の時行動：1ターン目"
+		},
+		{
+			"label": "0023",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					351
+				]
+			},
+			"comment": "内部モードが1の時行動：2ターン目"
+		},
+		{
+			"label": "0024",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					150
+				]
+			},
+			"comment": "内部モードが1の時行動：3ターン目"
+		},
+		{
+			"label": "0025",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					153
+				],
+				"sValues": [
+					"E0074_04_317_b_18"
+				]
+			},
+			"comment": "内部モードが1の時行動：4ターン目"
+		},
+		{
+			"label": "0026",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが1の時行動：5ターン目"
+		},
+		{
+			"label": "0027",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					351
+				]
+			},
+			"comment": "内部モードが1の時行動：6ターン目"
+		},
+		{
+			"label": "0028",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					150
+				]
+			},
+			"comment": "内部モードが1の時行動：7ターン目"
+		},
+		{
+			"label": "0029",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					463
+				]
+			},
+			"comment": "内部モードが1の時行動：8ターン目"
+		},
+		{
+			"label": "0030",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが1の時行動：ATB消費"
+		},
+		{
+			"label": "0031",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					153
+				],
+				"sValues": [
+					"E0074_04_317_b_18"
+				]
+			},
+			"comment": "内部モードが1の時行動：9ターン目"
+		},
+		{
+			"label": "0032",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが1の時行動：10ターン目"
+		},
+		{
+			"label": "0033",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					351
+				]
+			},
+			"comment": "内部モードが1の時行動：11ターン目"
+		},
+		{
+			"label": "0034",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					150
+				]
+			},
+			"comment": "内部モードが1の時行動：12ターン目"
+		},
+		{
+			"label": "0035",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					153
+				],
+				"sValues": [
+					"E0074_04_317_b_18"
+				]
+			},
+			"comment": "内部モードが1の時行動：13ターン目"
+		},
+		{
+			"label": "0036",
+			"mnemonic": "CounterActByAbility",
+			"operands": {
+				"iValues": [
+					463,
+					357
+				]
+			},
+			"comment": "誘発：魔力49に変更"
+		},
+		{
+			"label": "0037",
+			"mnemonic": "CounterActByAbility",
+			"operands": {
+				"iValues": [
+					463,
+					352
+				]
+			},
+			"comment": "誘発：ゼロムス用バイオ"
+		},
+		{
+			"label": "0038",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0039",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0040",
+			"mnemonic": "Nop",
+			"comment": "HPが16000以下の時ジャンプ先"
+		},
+		{
+			"label": "0041",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					353
+				]
+			},
+			"comment": "ダメージを受けた時カウンター"
+		},
+		{
+			"label": "0042",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					359
+				]
+			},
+			"comment": "ダメージを受けた時カウンター"
+		},
+		{
+			"label": "0043",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0044",
+			"mnemonic": "Nop",
+			"comment": "内部モードが2の時ジャンプ先"
+		},
+		{
+			"label": "0045",
+			"mnemonic": "IsParameterValue",
+			"operands": {
+				"iValues": [
+					2,
+					5,
+					2,
+					12000,
+					63
+				]
+			},
+			"comment": "HPが12000以下の時ジャンプ"
+		},
+		{
+			"label": "0046",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					2,
+					77
+				]
+			},
+			"comment": "直前に魔法攻撃を受けた時ジャンプ"
+		},
+		{
+			"label": "0047",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					3,
+					85
+				]
+			},
+			"comment": "直前に召喚魔法を受けた時ジャンプ"
+		},
+		{
+			"label": "0048",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					2
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0049",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが2の時行動：1ターン目"
+		},
+		{
+			"label": "0050",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					351
+				]
+			},
+			"comment": "内部モードが2の時行動：2ターン目"
+		},
+		{
+			"label": "0051",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					150
+				]
+			},
+			"comment": "内部モードが2の時行動：3ターン目"
+		},
+		{
+			"label": "0052",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					153
+				],
+				"sValues": [
+					"E0074_04_317_b_18"
+				]
+			},
+			"comment": "内部モードが2の時行動：4ターン目"
+		},
+		{
+			"label": "0053",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					463
+				]
+			},
+			"comment": "内部モードが2の時行動：5ターン目"
+		},
+		{
+			"label": "0054",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが2の時行動：ATB消費"
+		},
+		{
+			"label": "0055",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが2の時行動：6ターン目"
+		},
+		{
+			"label": "0056",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが2の時行動：7ターン目"
+		},
+		{
+			"label": "0057",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					351
+				]
+			},
+			"comment": "内部モードが2の時行動：8ターン目"
+		},
+		{
+			"label": "0058",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					150
+				]
+			},
+			"comment": "内部モードが2の時行動：9ターン目"
+		},
+		{
+			"label": "0059",
+			"mnemonic": "CounterActByAbility",
+			"operands": {
+				"iValues": [
+					463,
+					355
+				]
+			},
+			"comment": "誘発：魔力21に変更"
+		},
+		{
+			"label": "0060",
+			"mnemonic": "CounterActByAbility",
+			"operands": {
+				"iValues": [
+					463,
+					55
+				]
+			},
+			"comment": "誘発：フレア"
+		},
+		{
+			"label": "0061",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0062",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0063",
+			"mnemonic": "Nop",
+			"comment": "HPが12000以下の時ジャンプ先"
+		},
+		{
+			"label": "0064",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					360
+				]
+			},
+			"comment": "ダメージを受けた時カウンター"
+		},
+		{
+			"label": "0065",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0066",
+			"mnemonic": "Nop",
+			"comment": "内部モードが3の時ジャンプ先"
+		},
+		{
+			"label": "0067",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					2,
+					77
+				]
+			},
+			"comment": "直前に魔法攻撃を受けた時ジャンプ"
+		},
+		{
+			"label": "0068",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					3,
+					85
+				]
+			},
+			"comment": "直前に召喚魔法を受けた時ジャンプ"
+		},
+		{
+			"label": "0069",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					3
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0070",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					463
+				]
+			},
+			"comment": "内部モードが3の時行動：1ターン目"
+		},
+		{
+			"label": "0071",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが1の時行動：ATB消費"
+		},
+		{
+			"label": "0072",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モードが1の時行動：3ターン目"
+		},
+		{
+			"label": "0073",
+			"mnemonic": "CounterActByAbility",
+			"operands": {
+				"iValues": [
+					463,
+					354
+				]
+			},
+			"comment": "誘発：魔力3に変更"
+		},
+		{
+			"label": "0074",
+			"mnemonic": "CounterActByAbility",
+			"operands": {
+				"iValues": [
+					463,
+					54
+				]
+			},
+			"comment": "誘発：メテオ"
+		},
+		{
+			"label": "0075",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0076",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0077",
+			"mnemonic": "Nop",
+			"comment": "直前に魔法攻撃を受けた時ジャンプ先"
+		},
+		{
+			"label": "0078",
+			"mnemonic": "IsReverseAttribute",
+			"operands": {
+				"iValues": [
+					5,
+					82
+				]
+			},
+			"comment": "聖属性攻撃を受けた時ジャンプ"
+		},
+		{
+			"label": "0079",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					355
+				]
+			},
+			"comment": "聖属性以外の魔法を受けた時カウンター"
+		},
+		{
+			"label": "0080",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					55
+				]
+			},
+			"comment": "聖属性以外の魔法を受けた時カウンター"
+		},
+		{
+			"label": "0081",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0082",
+			"mnemonic": "Nop",
+			"comment": "聖属性魔法攻撃を受けた時ジャンプ先"
+		},
+		{
+			"label": "0083",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					148
+				]
+			},
+			"comment": "聖属性魔法を受けた時カウンター"
+		},
+		{
+			"label": "0084",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0085",
+			"mnemonic": "Nop",
+			"comment": "直前に召喚魔法を受けた時ジャンプ先"
+		},
+		{
+			"label": "0086",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					356
+				]
+			},
+			"comment": "召喚魔法を受けた時カウンター"
+		},
+		{
+			"label": "0087",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					352
+				]
+			},
+			"comment": "召喚魔法を受けた時カウンター"
+		},
+		{
+			"label": "0088",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0089",
+			"mnemonic": "Nop",
+			"comment": "終了"
+		},
+		{
+			"label": "0090",
+			"mnemonic": "Exit"
+		}
+	]
+}

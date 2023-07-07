@@ -1,0 +1,1 @@
+{"name":"Map_20191","asset_group_name":"map_20191","texture":[{"name":"core","asset":"core"}],"map":[{"name":"Map_20191_1","tilemap":"Map_20191_1/tilemap","collision":"Map_20191_1/collision","entity_default":"Map_20191_1/entity_default","entity":[],"script":[{"name":"sc_e_0109","asset":"Map_20191_1/sc_e_0109"},{"name":"sc_map_20191_1","asset":"Map_20191_1/sc_map_20191_1"}]}]}

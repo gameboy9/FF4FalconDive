@@ -1,0 +1,208 @@
+{
+	"Name": "BattleAI-monster-template",
+	"Title": {
+		"main": "スカルミリョーネ1AIスクリプト"
+	},
+	"EntryPoint": 0,
+	"Count": 1,
+	"Mnemonics": [
+		{
+			"label": "0000",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0001",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					21
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0002",
+			"mnemonic": "ExecMsg",
+			"operands": {
+				"iValues": [
+					2,
+					0
+				],
+				"rValues": [
+					3
+				]
+			}
+		},
+		{
+			"label": "0003",
+			"mnemonic": "IsOnlyAlive",
+			"operands": {
+				"iValues": [
+					14
+				]
+			},
+			"comment": "1体のみの時ジャンプ"
+		},
+		{
+			"label": "0004",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					0
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0005",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "通常行動：1ターン目"
+		},
+		{
+			"label": "0006",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					283
+				],
+				"sValues": [
+					"E0027_00_185_b_01"
+				]
+			},
+			"comment": "通常行動：2ターン目"
+		},
+		{
+			"label": "0007",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "通常行動：3ターン目"
+		},
+		{
+			"label": "0008",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0009",
+			"mnemonic": "IsRecevieAbility",
+			"operands": {
+				"iValues": [
+					283,
+					12
+				]
+			},
+			"comment": "指定アビリティを受けた時ジャンプ"
+		},
+		{
+			"label": "0010",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					39
+				]
+			},
+			"comment": "ダメージを受けた時のカウンター"
+		},
+		{
+			"label": "0011",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0012",
+			"mnemonic": "Nop",
+			"comment": "指定アビリティを受けた時ジャンプ先"
+		},
+		{
+			"label": "0013",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0014",
+			"mnemonic": "Nop",
+			"comment": "1体のみの時ジャンプ先"
+		},
+		{
+			"label": "0015",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0016",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					39
+				]
+			},
+			"comment": "1体のみの時行動：1ターン目"
+		},
+		{
+			"label": "0017",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "1体のみの時行動：2ターン目"
+		},
+		{
+			"label": "0018",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					39
+				]
+			},
+			"comment": "ダメージを受けた時のカウンター"
+		},
+		{
+			"label": "0019",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0020",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0021",
+			"mnemonic": "Nop",
+			"comment": "終了"
+		},
+		{
+			"label": "0022",
+			"mnemonic": "Exit"
+		}
+	]
+}

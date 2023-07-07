@@ -1,0 +1,392 @@
+{
+	"Name": "BattleAI-monster-template",
+	"Title": {
+		"main": "バルバリシアAIスクリプト"
+	},
+	"EntryPoint": 0,
+	"Count": 1,
+	"Mnemonics": [
+		{
+			"label": "0000",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0001",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					42
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0002",
+			"mnemonic": "ExecMsg",
+			"operands": {
+				"iValues": [
+					2,
+					0
+				],
+				"rValues": [
+					3
+				]
+			}
+		},
+		{
+			"label": "0003",
+			"mnemonic": "IsRecevieAbility",
+			"operands": {
+				"iValues": [
+					463,
+					34
+				]
+			},
+			"comment": "竜巻誘発を受けた時ジャンプ"
+		},
+		{
+			"label": "0004",
+			"mnemonic": "IsRecevieAbility",
+			"operands": {
+				"iValues": [
+					476,
+					38
+				]
+			},
+			"comment": "トルネド→指先誘発を受けた時ジャンプ"
+		},
+		{
+			"label": "0005",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					1,
+					11
+				]
+			},
+			"comment": "内部モードが1であれば別テーブルへ移動"
+		},
+		{
+			"label": "0006",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					2,
+					21
+				]
+			},
+			"comment": "内部モードが2であれば別テーブルへ移動"
+		},
+		{
+			"label": "0007",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					0
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0008",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					463
+				]
+			},
+			"comment": "通常行動:竜巻誘発"
+		},
+		{
+			"label": "0009",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0010",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0011",
+			"mnemonic": "Nop",
+			"comment": "内部モード1の時ジャンプ先"
+		},
+		{
+			"label": "0012",
+			"mnemonic": "IsRecevieAbility",
+			"operands": {
+				"iValues": [
+					215,
+					27
+				]
+			},
+			"comment": "「ジャンプ」を受けていれば別テーブルへ移動"
+		},
+		{
+			"label": "0013",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					1,
+					31
+				]
+			},
+			"comment": "物理攻撃を受けたら別テーブルへ移動"
+		},
+		{
+			"label": "0014",
+			"mnemonic": "IsCounterTypeId",
+			"operands": {
+				"iValues": [
+					2,
+					31
+				]
+			},
+			"comment": "魔法攻撃を受けたら別テーブルへ移動"
+		},
+		{
+			"label": "0015",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0016",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					476
+				]
+			},
+			"comment": "内部モード1の時行動:トルネド→指先誘発"
+		},
+		{
+			"label": "0017",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "内部モード1の時行動:1拍置く"
+		},
+		{
+			"label": "0018",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "内部モード1の時行動:たたかう"
+		},
+		{
+			"label": "0019",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0020",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0021",
+			"mnemonic": "Nop",
+			"comment": "内部モード2の時ジャンプ先"
+		},
+		{
+			"label": "0022",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					2
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0023",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "内部モード2の時行動:たたかう"
+		},
+		{
+			"label": "0024",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					319
+				]
+			},
+			"comment": "内部モード2の時行動:内部モードを0に変更"
+		},
+		{
+			"label": "0025",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0026",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0027",
+			"mnemonic": "Nop",
+			"comment": "「ジャンプ」を受けた時ジャンプ先"
+		},
+		{
+			"label": "0028",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					320
+				]
+			},
+			"comment": "「ジャンプ」を受けた時の時カウンター：パラメータ変動解除"
+		},
+		{
+			"label": "0029",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					317
+				]
+			},
+			"comment": "「ジャンプ」を受けた時の時カウンター：通常状態になる"
+		},
+		{
+			"label": "0030",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0031",
+			"mnemonic": "Nop",
+			"comment": "物理・魔法攻撃を受けた時ジャンプ先"
+		},
+		{
+			"label": "0032",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					226
+				]
+			},
+			"comment": "物理・魔法攻撃を受けた時の時カウンター"
+		},
+		{
+			"label": "0033",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0034",
+			"mnemonic": "Nop",
+			"comment": "竜巻誘発を受けた時ジャンプ先"
+		},
+		{
+			"label": "0035",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					320
+				]
+			},
+			"comment": "竜巻誘発を受けた時カウンター：パラメータ変動解除"
+		},
+		{
+			"label": "0036",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					318
+				]
+			},
+			"comment": "竜巻誘発を受けた時カウンター：竜巻状態になる"
+		},
+		{
+			"label": "0037",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0038",
+			"mnemonic": "Nop",
+			"comment": "トルネド→指先誘発を受けた時ジャンプ先"
+		},
+		{
+			"label": "0039",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					49
+				]
+			},
+			"comment": "トルネド→指先誘発を受けた時カウンター：トルネド"
+		},
+		{
+			"label": "0040",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					122
+				]
+			},
+			"comment": "トルネド→指先誘発を受けた時カウンター：指先"
+		},
+		{
+			"label": "0041",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0042",
+			"mnemonic": "Nop",
+			"comment": "バトル終了"
+		},
+		{
+			"label": "0043",
+			"mnemonic": "Exit"
+		}
+	]
+}

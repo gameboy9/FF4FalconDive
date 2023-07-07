@@ -1,0 +1,2669 @@
+SPEAKER_01	¿?
+SPEAKER_02	(CAIN)
+SPEAKER_03	(CECIL)
+SPEAKER_04	(CID)
+SPEAKER_05	(EDGE)
+SPEAKER_06	(FOOSUYA)
+SPEAKER_07	(GILBART)
+SPEAKER_08	(PALOM)
+SPEAKER_09	(PALOM) y (POLOM)
+SPEAKER_10	(POLOM)
+SPEAKER_11	(ROZA)
+SPEAKER_12	Madre de (ROZA)
+SPEAKER_13	(RYDIA)
+SPEAKER_14	(TELLA)
+SPEAKER_15	(YANG)
+SPEAKER_16	Mujer de (YANG)
+SPEAKER_17	Asura
+SPEAKER_18	Anna
+SPEAKER_19	Rey de Eblan
+SPEAKER_21	Reina de Eblan
+SPEAKER_23	Cagnazzo
+SPEAKER_24	Capitán
+SPEAKER_25	Corio
+SPEAKER_26	Golbez
+SPEAKER_27	Gurami
+SPEAKER_28	Abuelo
+SPEAKER_29	General
+SPEAKER_30	Giott
+SPEAKER_32	Sílfide
+SPEAKER_33	Scarmiglione
+SPEAKER_34	Zemus
+SPEAKER_35	Zeromus
+SPEAKER_36	Elfo oscuro
+SPEAKER_37	Bruja maldita
+SPEAKER_38	Sandy
+SPEAKER_39	Enano
+SPEAKER_41	Rey enano
+SPEAKER_42	Don Registro
+SPEAKER_43	Barnabás
+SPEAKER_44	Barbariccia
+SPEAKER_45	Rey de Baronia
+SPEAKER_46	Rey de Fabul
+SPEAKER_47	Baigan
+SPEAKER_48	Cindy
+SPEAKER_49	Hermanas Magus
+SPEAKER_50	Monje
+SPEAKER_51	Mindy
+SPEAKER_52	Leviatán
+SPEAKER_53	Luca
+SPEAKER_54	Lugae
+SPEAKER_55	Dr. Lugae
+SPEAKER_56	Rubicante
+SPEAKER_59	Todos
+SPEAKER_60	Guardia
+SPEAKER_61	Bardo
+SPEAKER_62	Antiguo rey
+SPEAKER_63	Niño bestia
+SPEAKER_64	Rey eidolón
+SPEAKER_65	Dios eidolón
+SPEAKER_66	Mujer
+SPEAKER_68	Niña
+SPEAKER_69	Devota
+SPEAKER_70	Marino
+SPEAKER_71	Marineros
+SPEAKER_72	Capitán
+SPEAKER_73	Hombre
+SPEAKER_74	Niño
+SPEAKER_75	Maestro
+SPEAKER_76	Tripulación
+SPEAKER_77	Soldado
+SPEAKER_80	Anciano
+E0001_01_342_a_01	Estamos llegando a Baronia, mi capitán.
+E0001_01_342_a_02	Muy bien...
+E0001_01_342_a_03	El capitán no parece contento.
+E0001_01_342_a_04	¿Qué esperas? Yo tampoco estoy contento. <P>\nSé que un buen soldado debe seguir órdenes, ¡pero no es justo atacar a inocentes para robarles los Cristales!
+E0001_03_342_a_01	¡Las Alas Rojas se crearon para proteger a los débiles, no masacrarlos!
+E0001_03_342_a_02	¡Ya basta!
+E0001_03_342_a_03	¡Ca... capitán!
+E0001_03_342_a_04	¿No me diga que aprueba nuestras acciones?
+E0001_03_342_a_05	¡Prestad atención! La incursión contra Mysidia era imprescindible para la prosperidad de nuestro reino. <P>\nSu majestad y el Consejo Real decideron que Mysidia suponía una amenaza directa contra Baronia debido a la poderosa magia de los Cristales.<P>\nPara que Baronia pueda prosperar, necesitamos los Cristales. Como soldados, nuestro deber es proteger Baronia a toda costa...
+E0001_03_342_a_06	Mi capitán...
+E0001_03_342_a_07	¡Capitán! ¡Hemos detectado un grupo de monstruos!
+E0001_03_342_a_08	¡Preparaos para la batalla!
+E0001_04_342_a_01	Argh...
+E0001_04_342_a_02	¿Te encuentras bien?
+E0001_04_342_a_03	¡Aquí viene otra oleada!
+E0001_04_342_a_04	¡Rayos!
+E0001_05_342_a_01	¡Quiero un informe de situación!
+E0001_05_342_a_02	No hemos sufrido bajas, mi capitán.
+E0001_05_342_a_03	Pero últimamente están apareciendo más monstruos de lo normal...
+E0001_05_342_a_04	Son ya demasiados.
+E0001_05_342_a_05	Quizá sea algún tipo de presagio...
+E0001_05_342_a_06	Estamos sobrevolando Baronia, mi capitán.
+E0001_05_342_a_07	Entendido. Preparaos para aterrizar.
+E0001_07_004_a_01	¡Enhorabuena, capitán! Otro Cristal más.
+E0001_07_004_a_02	Los mysidianos no ofrecieron ninguna resistencia... Estaban totalmente indefensos.
+E0001_07_004_a_03	¿No me diga que se apiada de los enemigos de Baronia? Vamos, el rey espera.
+E0001_10_007_a_01	Perdóneme, capitán, pero debo hablar con el rey en privado. Por favor, espere aquí.
+E0001_11_008_a_01	Su alteza, temo informarle que (CECIL) es un traidor. Es obvio que repudia su autoridad real.
+E0001_11_008_a_02	¡¿Cómo dices?! Gracias por informarme, mi fiel consejero.<P>\nPero no importa con tal de que pueda recuperarme los Cristales. Dile que pase.
+E0001_11_008_a_03	Sí, su alteza.
+E0001_11_008_a_04	¡Capitán! El rey le llama a su presencia.
+E0001_11_008_a_05	El reino de Baronia aclama entero tu triunfante regreso. Ahora, entrégame el Cristal.
+E0001_11_008_a_06	Aquí está, su alteza.
+E0001_11_008_a_07	Has entregado el Cristal del Agua.
+E0001_11_008_a_08	Parece auténtico, debo decir.
+E0001_11_008_a_09	Así que este es el Cristal del Agua... Qué resplandor... Puedes irte, (CECIL).
+E0001_11_008_a_10	¡Pero... su alteza...!
+E0001_11_008_a_11	¿Sí...?
+E0001_11_008_a_12	¿Qué quiere, capitán?
+E0001_11_008_a_13	Disculpe mi atrevimiento, su alteza, pero desearía saber cuáles son sus intenciones con los Cristales.<P>\nEstamos perdiendo la confianza de nuestros hombres.
+E0001_11_008_a_14	Dime, ¿acaso compartes la desazón de tus subordinados?
+E0001_11_008_a_15	¡No! Yo solo quería...
+E0001_11_008_a_16	¡Silencio! El descontento en tus filas conduce a la alta traición, y eso no lo toleraré.<P>\n¡Te relevo de tu puesto al mando de las Alas Rojas con efecto inmediato!
+E0001_11_008_a_24	¡Pero, su alteza...!
+E0001_11_008_a_17	No obstante, te encomendaré otra tarea. <P>\nDerrota a la bestia fantasmal que acosa el valle de Mist y entrega este anillo de bom a sus habitantes.<P>\nPartirás mañana al amanecer, de modo que procura descansar bien.
+E0001_11_008_a_18	Le ruego recapacite, su alteza.
+E0001_11_008_a_19	(CECIL) jamás le traicionaría.
+E0001_11_008_a_20	¡No toleraré más insolencias, (CAIN)! Si tanto te preocupas por él, mejor será que le acompañes.
+E0001_11_008_a_25	¡Pero, su alteza...!
+E0001_11_008_a_21	¡Tomad el anillo y marchaos de una vez!
+E0001_11_008_a_22	Has recibido el anillo de bom.
+E0001_11_008_a_23	¡Mi rey...!
+E0001_12_006_a_01	Lo siento, (CAIN).
+E0001_12_006_a_02	Tranquilo, seguro que cuando completemos esta misión, recuperaremos la confianza del rey. <P>\nPronto estarás de vuelta en las Alas Rojas, protegiendo Baronia una vez más.
+E0001_12_006_a_03	...
+E0001_12_006_a_04	Tú descansa, que ya preparo yo todo para mañana.
+E0101_00_006_a_01	¿Qué te ocurre?
+E0101_00_006_a_02	Siento haberte metido en este lío...
+E0101_00_006_a_03	No te disculpes, esto es cosa mía. Me hago cargo de mis propias acciones.
+E0101_00_006_a_04	Me entrené en las artes oscuras a petición del rey, pero…<P>\nse suponía que protegería Baronia con ellas, no que saquearía en su nombre.
+E0101_00_006_a_05	No te martirices. El rey debe de tener sus razones.
+E0101_00_006_a_06	Cómo te envidio, (CAIN)...
+E0101_00_006_a_07	Si yo también hubiese elegido el camino de las artes oscuras, seguro que hubiera medrado...<P>\nPero al igual que mi padre, ser draconarius va más conmigo.<P>\nSiempre pensé que de seguir sus pasos le sentiría más cerca de mí. Perderle siendo tan niño fue un mazazo.
+E0101_00_006_a_08	(CAIN)...
+E0101_00_006_a_09	Basta ya de mis tonterías, no vaya a ser que te pienses que soy un sensiblero... <P>\nLo único de lo que te tienes que preocupar es de sobrevivir mañana.<P>\nNo me gustaría tener que volver y explicar cómo perdí al preeminente caballero de Baronia.
+E0101_00_006_a_10	No dejaré que hagas todo el trabajo sucio.
+E0101_00_006_a_11	¡Así me gusta!<P>\nAhora intenta descansar un poco, que mañana va a ser un día muy duro.
+E0002_00_009_a_01	¡(CECIL)!
+E0002_00_009_a_02	Qué alivio verte sano y salvo. No sabes cuánto me preocupé por ti, fue todo tan precipitado...
+E0002_00_009_a_03	Tranquila, estoy bien. Me gustaría poder decir lo mismo de aquellos pobres mysidianos...
+E0002_00_009_a_06	¡(CECIL)!
+E0002_00_009_a_04	Te iré a ver más tarde, ¿vale?
+E0002_00_009_a_05	Muy bien...
+E0003_00_004_a_01	Vaya, mira a quién tenemos por aquí. Tenías a (ROZA) muerta de preocupación.
+E0003_00_004_a_02	¡Como se te ocurra hacerla llorar otra vez, te pongo en órbita! ¿Entendido? <P>\nDime, ¿cómo están mis barcos voladores? Seguro que los zoquetes que tienes por subalternos me los han destrozado... <P>\nOye, ¿te pasa algo, chaval? Menuda cara me llevas.
+E0003_00_004_a_03	Verás...
+E0003_00_004_a_04	¡¿Pero qué me dices?! ¡¿Cómo es que te han encargado esa misión?! <P>\nLas Alas Rojas van a estar perdidas sin ti. Pero ¿en qué demonios estará pensando el rey? <P>\n¿Sabías que me ha pedido que le construya un nuevo barco volador? Seguro que es para atacar a más inocentes.<P>\nLa gente empieza a sentirse incómoda... En fin, ten cuidado y asegúrate de volver sano y salvo.<P>\n¡Mira la hora! La que me va a caer cuando llegue a casa... ¡Vaya genio tiene mi hija!
+E0004_00_014_a_01	He cambiado sus sábanas, señor. Me han contado que parte mañana al amanecer. Descanse bien.
+E0005_00_015_a_01	¿Qué le ocurre al rey? Su afán de poseer los Cristales lo ha convertido en un tirano que no duda en usar cualquier medio para conseguirlos. <P>\nPero no puedo desafiarlo. <P>\n¿Cómo podría hacerle eso al hombre que nos crió a (CAIN) y a mí como si fuésemos sus propios hijos? <P>\nMe es imposible traicionarle. Siempre fue un honrado caballero que cuidó de mí... Pero ¡esto es demasiado!
+E0005_00_015_a_14	¡(CECIL)!
+E0005_00_015_a_02	¿Qué ocurre? Acabas de volver de Mysidia y ahora tienes que viajar a no sé dónde para luchar contra un monstruo.<P>\nAdemás, estás actuando de una manera muy extraña.
+E0005_00_015_a_03	Todo saldrá bien...
+E0005_00_015_a_04	(CECIL), mírame cuando me hables.
+E0005_00_015_a_05	En Mysidia tuvimos que mancharnos las manos de sangre inocente para robarles el Cristal. <P>\nFue horroroso, pero supongo que este es el destino de un caballero oscuro.<P>\nMi alma se está volviendo del mismo color que mi armadura.
+E0005_00_015_a_06	Eso no ocurrirá jamás.
+E0005_00_015_a_07	Aun así, no puedo desafiar a mi rey. Soy un miserable cobarde...
+E0005_00_015_a_08	El (CECIL) que yo conozco nunca hablaría de esta manera. <P>\nEl (CECIL) que amo no es así...
+E0005_00_015_a_09	Mañana partes para Mist, ¿verdad? Prométeme que llevarás cuidado.
+E0005_00_015_a_10	Sí, no te preocupes. Además, me acompaña (CAIN).
+E0005_00_015_a_11	No me va a pasar nada. Confía en mí.
+E0005_00_015_a_12	Rezaré por ti. Si te ocurriera algo, yo...
+E0005_00_015_a_13	Gracias, (ROZA)...<P>\nPero recuerda... que soy un caballero oscuro y eso me impide estar a tu lado...
+E0006_00_005_a_01	¿Preparado para la acción?
+E0006_00_005_a_02	Claro que sí.
+E0006_00_005_a_03	¿Pues a qué esperas?
+E0033_00_005_a_01	¡Señor (CECIL)!
+E0033_00_005_a_02	Bienvenido de vuelta, capitán...
+E0033_00_005_a_03	¿Tú también, Baigan...?
+E0033_00_005_a_04	¿Ocurre algo, capitán?
+E0033_00_005_a_05	¿Tú también sirves a este Golbez?
+E0033_00_005_a_06	¡Nunca! Como capitán de la Guardia real, he jurado mi lealtad tan solo a Baronia.
+E0033_00_005_a_07	¿Dónde está (CID)? He oído que lo han apresado en el castillo.
+E0033_00_005_a_08	Yo también intenté rescatarlo con mis hombres, pero fuimos atacados... <P>\nSolo me he salvado yo.
+E0033_00_005_a_09	No me digas...\n¡Entonces debes unirte a nosotros!
+E0033_00_005_a_10	Sería un honor.
+E0033_00_005_a_11	El capitán Baigan de la Guardia real se ha unido al grupo.
+E0033_00_005_a_12	¿Qué os pasa?
+E0033_00_005_a_13	Aquí hay gato encerrado.
+E0033_00_005_a_14	Sí. Esto me huele mal.
+E0033_00_005_a_15	¡¿Cómo?! ¿Es que detectáis algún monstruo?
+E0033_00_005_a_16	Venga ya, se te ve a la legua...
+E0033_00_005_a_17	No se dedique al teatro, porque no iría nadie a verle.
+E0033_00_005_a_18	¡Baigan! ¿Cómo pudiste traicionar a Baronia?
+E0033_00_005_a_19	Los deseos de Golbez son los deseos de Baronia ¡Temblad ante mi nuevo poder!
+E0033_01_005_a_01	¡Ja! ¡Pan comido!
+E0033_01_005_a_02	Hasta Baigan nos ha traicionado...
+E0034_00_008_a_01	¡(CECIL)! Me alegro de que hayas podido volver sano y salvo...
+E0034_00_008_a_02	Gracias.
+E0034_00_008_a_03	Pero veo que te has convertido en paladín. Nos eras mucho más útil como caballero oscuro.<P>\n¿Qué se supone que debo hacer contigo ahora?
+E0034_00_008_a_04	Pero ¿su alteza...?
+E0034_00_008_a_05	¿Su alteza...? ¡Ah, claro! El viejales que se negó a entregarnos su reino... <P>\nJa, ja, ja. Si soy sincero, me he divertido haciéndome pasar por él.
+E0034_00_008_a_06	¡¿Qué has hecho con nuestro rey?!
+E0034_00_008_a_07	Pronto lo sabrás. Y de paso, podrás darle mis recuerdos a Scarmiglione en el inframundo. <P>\nEse esmirriado nunca se mereció ser uno de los cuatro Señores Elementales. <P>\nSu poder no tiene ni punto de comparación con nuestra grandeza.
+E0034_00_008_a_08	Entonces, tú eres...
+E0034_00_008_a_09	¡Observad al Señor del Agua! ¡Cagnazzo!
+E0034_00_008_b_01	¡Ha invocado torrentes de agua!
+E0034_00_008_b_02	¡Defensa quelonia!
+E0034_00_008_b_03	¡Electro rompe la barrera!
+E0034_01_008_a_01	¡Maldito impostor!
+E0034_01_008_a_02	¡Alguien se va a llevar una tunda por haberme encerrado en esa pocilga!<P>\n¿Eh...? Pero si...
+E0034_01_008_a_03	¡(CID)!
+E0034_01_008_a_04	¿(CECIL)? ¡Estás vivo! ¡Ya empezaba a preocuparme!
+E0034_01_008_a_05	Lo siento...
+E0034_01_008_a_06	¿Dónde está (ROZA)?<P>\nSalió en tu busca, convencida de que seguías vivo...
+E0034_01_008_a_07	Golbez la ha raptado...
+E0034_01_008_a_08	¡¿Qué?! Pero ¿cómo has dejado que ocurra algo así? <P>\nPrimero mis barcos voladores, ahora (ROZA)...
+E0034_01_008_a_09	Ponerse a echar voces no servirá de nada.<P>\nQuizá sería mejor si nos dirigieras hacia tu barco volador en vez de darle al pico. La chica corre peligro.
+E0034_01_008_a_10	¿Quién rayos es el viejales socarrón este?
+E0034_01_008_a_11	Mira quién fue a hablar.
+E0034_01_008_a_12	Pero ¿qué dices? ¡Si podría ser tu hijo, abuelo!
+E0034_01_008_a_13	Cálmense, por favor. No es momento de pelear. (CID), le presento al gran sabio, (TELLA).
+E0034_01_008_a_14	Este es el maestro (YANG), sumo sacerdote de Fabul. <P>\nYo soy (POLOM), una maga aprendiz de Mysidia.
+E0034_01_008_a_15	Ahora tenemos a dos vejestorios en el grupo... Estupendo...
+E0034_01_008_a_16	Ese malhablado es mi hermano gemelo, (PALOM).
+E0034_01_008_a_17	¡Como si tú fueras la educada!
+E0034_01_008_a_18	Es un placer poder conocerle.
+E0034_01_008_a_19	Vaya, al fin alguien formal.
+E0034_01_008_a_20	(CID), ¿dónde tienes el barco volador nuevo?
+E0034_01_008_a_21	Je, je, je.
+E0034_01_008_a_22	Donde a nadie se le ocurriría mirar. ¡Le he dado un toque de los míos!
+E0034_01_008_a_23	¡Debemos darnos prisa! ¡La vida de (ROZA) está en peligro!
+E0034_01_008_a_24	¡No hace falta que me grites! Yo no me he quedado sordo con la edad como tú.<P>\n¡Seguidme!
+E0034_02_007_a_01	Ja, ja, ja, ja... <P>\n¡Puede que hayáis ganado la batalla, pero no la guerra! <P>\nUníos a Cagnazzo en el inframundo. No me gusta la soledad, después de todo. Ja, ja, ja...
+E0034_02_007_a_02	¡Las paredes!
+E0034_02_007_a_03	¡No se abre!
+E0034_02_007_a_04	¡Este lado también está cerrado!
+E0034_02_007_a_05	¡(PALOM)! ¡(POLOM)!
+E0034_02_007_a_06	¡Solo hay una manera!
+E0034_02_007_a_07	¡(CECIL), gracias por hacernos vivir tantas aventuras!
+E0034_02_007_a_08	Pero ¿qué pensáis hacer? Ni se os ocurra...
+E0034_02_007_a_09	¡No vamos a permitir que muráis aquí!
+E0034_02_007_a_10	¡Gracias por todo, maestro (TELLA)! ¡Cuida de (CECIL)!
+E0034_02_007_a_11	¿Preparada, hermana?
+E0034_02_007_a_12	¡Sí, hermano!
+E0034_02_007_a_13	¡No!
+E0034_02_007_a_14	¡Petra!
+E0034_02_007_a_15	¡(PALOM)!
+E0034_02_007_a_16	¡(POLOM)!
+E0034_02_007_a_17	¡Esperad! ¡Puedo revertir su estado!<P>\n¡Esna!
+E0034_02_007_a_18	El hechizo no surte ningún efecto porque los gemelos decidieron petrificarse por voluntad propia.
+E0034_02_007_a_19	¡Insensatos! Yo estoy ya viejo, era mi deber... ¡Debería haber sido yo!
+E0034_02_007_a_20	Oh, no... Tan jóvenes y...
+E0034_02_007_a_21	Os vengaré... Lo juro por todo lo sagrado... ¡Os vengaré!
+E0034_02_007_a_22	¡Es hora de ajustar las cuentas con Golbez! ¡Al Enterprise!
+E0034_02_007_a_23	Voy a acabar contigo Golbez, ¿me oyes?
+E0034_02_007_a_24	¡¡¡Voy a por ti, miserable!!!
+E0034_04_006_a_01	¿Aquí? Si no hay nada.
+E0034_04_006_a_02	¡Hay que saber dónde mirar!
+E0034_06_327_a_01	Asombroso...
+E0034_06_327_a_02	¡Vaya, vaya!
+E0034_06_327_a_03	Menuda belleza, ¿no os parece? ¡Pongámosla en marcha!
+E0034_08_323_a_01	¡A los puestos de combate! ¡Es hora de desatar todo el poder del Enterprise!
+E0034_08_323_a_02	¡Espera!
+E0034_08_323_a_03	¿Qué es eso?
+E0034_08_323_a_04	Parece una bandera blanca...
+E0034_10_324_a_01	¡(CAIN)!
+E0034_10_324_a_02	¡Je! Así que sigues vivo.
+E0034_10_324_a_03	¡(CAIN)! ¡Eres una sabandija!
+E0034_10_324_a_04	¿Dónde está (ROZA)?
+E0034_10_324_a_05	Sabía que preguntarías por ella. Si quieres volver a verla, tráeme el Cristal de la Tierra.
+E0034_10_324_a_06	¡¿Qué dices?!
+E0034_10_324_a_07	¡Sinvergüenza!
+E0034_10_324_a_08	Una vez hayáis recuperado el Cristal, ya os vendré a buscar. <P>\nSi queréis volver a ver a (ROZA), os sugiero que os deis prisa.
+E0034_10_324_a_09	¡Pagarás por esto, bellaco!
+E0034_10_324_a_10	¡Abre los ojos, (CAIN)!
+E0034_10_324_a_11	Eso es todo por ahora.
+E0034_12_323_a_01	Déjalo, (CECIL).
+E0034_12_323_a_02	Cuando pille a esa sucia sabandija...
+E0034_12_323_a_03	(CID), pon rumbo hacia el noroeste. Nos vamos a Troia.
+E0044_02_015_a_01	Pero si esto es...
+E0044_02_015_a_02	Tu viejo cuarto en Baronia.
+E0044_02_015_a_03	Desde que nos deshicimos del rey falso, ya no corremos peligro aquí.
+E0044_02_015_a_04	(CECIL), debo decirte algo...
+E0044_02_015_a_05	¿Qué ocurre?
+E0044_02_015_a_06	Es acerca de los Cristales.
+E0044_02_015_a_07	Ahora que hemos perdido el Cristal de la Tierra, Golbez posee ahora todos los Cristales.
+E0044_02_015_a_08	No es cierto, solo posee cuatro Cristales.
+E0044_02_015_a_09	¿Hay más de cuatro?
+E0044_02_015_a_10	¡No me digas que las leyendas eran ciertas!
+E0044_02_015_a_11	No puede ser...
+E0044_02_015_a_12	No me lo invento. Los cuatro Cristales de la Oscuridad existen.
+E0044_02_015_a_13	Ya veo... Entonces los Cristales de este mundo son los Cristales de la Luz...
+E0044_02_015_a_14	¿Entonces existe otro tipo de Cristales?
+E0044_02_015_a_15	¿Y están en otro mundo, puede ser?
+E0044_02_015_a_16	Exacto. Lo cual significa que Golbez solo tiene la mitad de los Cristales.
+E0044_02_015_a_17	Pero aunque existan, ¿cómo los encontramos?
+E0044_02_015_a_18	Si Golbez pudo, nosotros también.
+E0044_02_015_a_19	¡No hay tiempo que perder!
+E0044_02_015_a_20	Se encuentran bajo la superficie terrestre... en el inframundo.
+E0044_02_015_a_21	¿Cómo?
+E0044_02_015_a_22	¿En el inframundo? ¿Estás seguro?
+E0044_02_015_a_23	Se lo oí comentar a Golbez de pasada. <P>\nTambién dijo que cuando haya reunido todos los Cristales, el camino lunar se abrirá...
+E0044_02_015_a_24	¿Un camino a la luna...?
+E0044_02_015_a_25	No estoy seguro de qué hablaba, pero podemos empezar probando esto. <P>\nMejor será que te lo quedes. Nos será de ayuda, seguro.
+E0044_02_015_a_26	Has obtenido magma.
+E0044_02_015_a_27	Así que esto...
+E0044_02_015_a_28	Esto se debe utilizar en algún lugar para abrir el camino al inframundo.
+E0044_02_015_a_29	Sí, pero ¿dónde?
+E0044_02_015_a_30	A saber dónde podemos utilizarlo.
+E0044_02_015_a_31	Ojalá lo supiera...
+E0044_02_015_a_32	¡No os preocupéis! Con el Enterprise podremos explorar el mundo hasta encontrar ese sitio.
+E0044_02_015_a_33	Pero dejamos el barco volador en la Torre de Zot.
+E0044_02_015_a_34	¿Y qué? Mi pequeña está equipada con un sistema de piloto automático. <P>\nSeguro que ya ha vuelto ella solita. ¡Por algo es último modelo!
+E0044_02_015_a_35	Solucionado, pues.
+E0044_02_015_a_36	(CID), ¿qué haríamos sin ti?
+E0044_02_015_a_37	No lo sé, pero seguro que nada bueno. <P>\n¡Hora de irse a la cama! ¡Que mañana partimos pronto hacia el inframundo!
+E0044_02_015_a_38	Lo que todavía no entiendo es por qué Golbez no acabó conmigo cuando tuvo su oportunidad en la torre.
+E0044_02_015_a_39	¿(CECIL)?
+E0044_02_015_a_40	Estaba pensando en voz alta. Vamos, hay que descansar.
+E0044_03_015_a_41	¡Hora de moverse!
+E0055_00_004_a_01	Hola, (CECIL). El jefe nos pidió que le pusiéramos este gancho al Enterprise.<P>\nNo tardaremos mucho.
+E0055_01_004_a_01	¡Acabamos! Ahora ya puedes cargar el aerodeslizador en el barco volador.
+E0055_01_004_a_02	Sitúa el Enterprise encima del aerodeslizador y pulsa el botón de aceptar para cargar o descargar el vehículo.
+E0055_01_004_a_02_2	Sitúa el Enterprise encima del aerodeslizador y toca (!) para cargar o descargar el vehículo.
+E0055_01_004_a_03	Con los dos vehículos podrás explorar cualquier paradero, incluyendo la cueva de Eblan de al lado de la torre de Babel.
+E0055_01_004_a_04	Basta con cambiar de vehículo cerca de las aguas menos profundas.
+E0055_01_004_a_05	La verdad es que (CID)...
+E0055_01_004_a_06	Ya sabemos que no puede estarse quieto, siempre gritando y corriendo de un lado a otro,
+E0055_01_004_a_07	pero sabe cuidar de sí mismo.
+E0055_01_004_a_08	Bueno, tenemos trabajo para parar un tren. ¡Ánimos y que vaya bien!
+E0137_00_021_a_01	(CECIL)...
+E0137_00_021_a_02	¡Su alteza!
+E0137_00_021_a_03	Debes encontrar la Tierra de invocación. <P>\nRegresa a continuación, quizá sea capaz de ayudarte entonces.
+E0137_00_021_a_04	Sí, su alteza.
+E0108_00_021_a_01	Veo que has conseguido regresar.
+E0108_00_021_a_02	Su alteza...
+E0108_00_021_a_03	No te compadezcas de mí. Aunque me hayan asesinado, he conseguido\nun poder eterno. <P>\nLa invocadora que te acompaña podrá llamarme a vuestra presencia siempre que necesitéis mi ayuda. Mi espada es vuestra. <P>\nPero primero debes probar tu coraje y fuerza... ¡Que empiece la batalla!
+E0108_00_021_b_01	¡Odín rebosa del poder del Rayo!
+E0108_01_021_a_01	Te has hecho fuerte. Debes utilizar tu nueva fuerza para proteger Baronia.<P>\nO más bien, el mundo entero. <P>\nYo lucharé a tu lado como Odín.
+E0108_01_021_a_02	Gracias, su alteza.
+E0108_01_021_a_03	(RYDIA) ha aprendido a invocar a Odín.
+E0135_01_022_a_01	¡Cerdícolis!<P>\n¿Eh...? <P>\nVaya...
+E0135_01_022_a_02	Parece que te he lanzado Minimalia. Lo siento.
+E0136_01_020_a_01	La ruta está sellada por una fuerza invisible.
+N101_C02_004_07_01	Está prohibida la entrada a esta torre.
+N101_C02_004_03_01	Todo en orden, mi capitán.
+N101_C02_004_03_02	Aún no me puedo creer que el rey fuera un monstruo...
+N101_C02_004_04_01	En el castillo se respira un ambiente aciago...
+N101_C02_004_04_02	Descuidamos nuestras responsabilidades...
+N101_C02_004_01_01	Intente descansar, capitán, que mañana debe partir muy temprano.
+N101_C02_004_02_01	Está anocheciendo, mi capitán. Por favor, permanezca dentro del castillo.
+N101_C02_004_01_02	El rey ha prohibido su entrada en el castillo hasta que entregue el anillo de bom al pueblo de Mist.
+N101_C02_004_01_03	¡¿Qué pretende?! ¡No tiene permiso para estar aquí!
+N105_C01_004_06_01	¿Has visto al ingeniero (CID)? Pidió que revisáramos todos los barcos voladores y después desapareció.
+N105_C01_004_06_02	¡Jefe! ¡Estás vivo!
+N105_C01_004_06_03	Supongo que el jefe está ocupado. ¡Como siempre!
+N105_C01_004_05_01	Hoy nos toca trasnochar otra vez. No creo que pueda soportarlo...<P>\n¡Eh! ¡Ni se te ocurra decirle al jefe que me he estado quejando!
+N105_C01_004_05_02	¡Jefe...! ¿Es un fantasma o eres tú de verdad? ¡Ah! Estaba a punto de volver al trabajo...
+N105_C01_004_05_03	He mejorado hasta tal punto que creo que podría sustituir al jefe... <P>\nEh, pero no vayas a decirle nada...
+N101_C02_005_01_01	He oído que consiguió recuperar el Cristal de los mysidianos.
+N101_C02_005_01_02	Los soldados que formaban el ejército de Golbez eran todos monstruos. No había ni un humano entre sus secuaces.
+N101_C02_005_02_01	¡Estoy de guardia! ¡No me moleste!
+N101_C02_005_02_02	Lo que le ocurrió al rey fue una verdadera tragedia...
+N101_C02_005_03_01	Asegúrese de proveerse de todos los objetos del almacén que necesite para completar su misión.<P>\nPulse el interruptor de la pared para abrir la puerta.
+N101_C02_005_03_02	Puedo oír la voz del rey fallecido resonando desde las profundidades... ¿Estará embrujando el castillo?
+N101_C02_006_04_01	Su alteza está actuando de una manera muy extraña últimamente.
+N101_C02_006_04_02	¡Larga vida a (CECIL)! ¡El trono ha de ser suyo!
+N101_C02_006_03_01	Digan lo que digan, yo confío en el rey.
+N101_C02_006_03_02	¡(CECIL), debemos vengar al rey!
+N101_C02_006_05_01	El valle de Mist se encuentra al noroeste de Baronia. Siempre está cubierto por una densa niebla.
+N101_C02_006_05_02	Juramos sobre nuestro honor de draconarius que protegeremos el castillo.
+N101_C02_006_06_01	Ahora que usted y el comandante (CAIN) han unido fuerzas, nada les podrá detener.
+N101_C02_006_06_02	Falté al deber de proteger a mi rey. No me atrevo a ver al comandante (CAIN).
+P002_C00_006_07_01	¿Qué pasa, no puedes pegar ojo?
+N003_C01_006_01_01	Últimamente he oído varios rumores preocupantes acerca del rey.
+N003_C01_006_01_02	Daremos nuestras vidas en defensa de Baronia.
+N003_C01_006_02_01	Mejor será que suprima cualquier pensamiento traicionero si quiere conservar su vida.
+N003_C01_006_02_02	Debería haber intentado parar al rey antes de que las cosas llegaran hasta este punto...
+N003_C01_007_01_01	El rey está muy disgustado. No quiere verle hasta que haya entregado el anillo de bom al pueblo de Mist.
+N003_C01_008_01_01	Jamás volveremos a permitir que los monstruos tomen el castillo.
+N118_C01_022_02_01	Hemos estado trabajando diligentemente para desarrollar nuevos hechizos ofensivos.
+N118_C01_022_02_02	¿Cómo no me di cuenta de que el rey había sido suplantado por un monstruo? <P>\nAún me queda mucho por aprender...
+N118_C01_022_03_01	Los hechizos básicos, como Piro o Hielo, no surten efecto contra algunos monstruos.<P>\nRecuerdo haber oído hablar de hechizos más poderosos, pero no soy capaz de aprenderlos...
+N118_C01_022_03_02	¡Así que el hechizo arcano, Meteo, existía de verdad!
+N118_C01_022_01_01	¡Morfeo!<P>\nJe, je, ¡felices sueños!<P>\n¿Eh? ¿Cómo es que no estás roncando?<P>\n¡Caracoles! ¿Qué habré hecho mal?
+N117_C01_023_02_01	El rey lleva días rebosando energía y vigor, pese a su edad...
+N117_C01_023_02_02	Apoyaremos a los soldados con nuestra magia blanca.
+N117_C01_023_03_01	Todavía estoy estudiando los principios básicos de la magia blanca. <P>\nExisten cuatro niveles del hechizo Cura: Cura, Cura+, Cura++ y Cura+++.
+N117_C01_023_03_02	No me puedo creer que un monstruo estuviera suplantando al rey.
+N117_C01_023_01_01	(ROZA) decidió hacerse maga blanca para poder ayudarte en tus aventuras.<P>\nSiempre está preocupada por ti.
+N117_C01_023_01_02	Mis pensamientos van con el difunto rey. Espero que pueda descansar en paz.
+N101_C02_011_01_01	Hemos encarcelado a los magos mysidianos aquí. Si quiere puede hablar con ellos, mi capitán.
+N101_C02_011_01_02	Espero que nunca tengamos que encarcelar a nadie más.
+N118_C01_011_02_01	¡Tarde o temprano vas a pagar por esto! ¿Me oyes?
+N117_C01_011_03_01	Me da igual que no nos liberéis, pero ¡devolvedle el Cristal a Mysidia!
+N118_C01_011_04_01	¡No tenéis ni idea de lo que habéis hecho! ¡El Cristal no es una joya cualquiera!
+N101_C02_012_01_01	¡Ayyyyy! Ese bicharraco me ha roto el brazo.
+N101_C02_012_01_02	¿Mi capitán?... ¡No le reconocía!
+N101_C02_012_02_01	Capitán...
+N101_C02_012_02_02	Me alegro de volver a verle, capitán.
+N101_C02_012_03_01	Intentaremos olvidar lo ocurrido en Mysidia con un trago tras otro...
+N101_C02_012_03_02	¡Usted es el único que puede ocupar el trono!
+N101_C02_012_05_01	Todavía no me puedo creer las atrocidades que cometimos.
+N101_C02_012_05_02	¡Golbez se ha apoderado de las Alas Rojas!
+N101_C02_012_04_01	¿Dónde está el famoso sentido del honor de las Alas Rojas?
+N101_C02_012_04_02	¡Ojalá nos quedaran barcos voladores!
+P013_C00_015_02_01	Buenas noches.
+N101_C02_016_01_01	Los tesoros sagrados de Baronia se guardan tras estas paredes. Se prohíbe la entrada sin permiso.
+E0006_02_352_a_01	Y así fue cómo el caballero oscuro
+E0006_02_352_a_02	(CECIL) fue despojado de
+E0006_02_352_a_03	su rango de comandante de
+E0006_02_352_a_04	las Alas Rojas. Ahora, él y el
+E0006_02_352_a_05	draconarius (CAIN) se
+E0006_02_352_a_06	dirigen al oscuro valle donde
+E0006_02_352_a_07	se encuentra el pueblo de Mist.
+E0006_02_352_a_08	
+E0006_02_352_a_09	El advenimiento del barco volador
+E0006_02_352_a_10	permitió alcanzar los sueños
+E0006_02_352_a_11	de Baronia, pero también supuso
+E0006_02_352_a_12	el inicio de su militarización.
+E0006_02_352_a_13	
+E0006_02_352_a_14	Sus fuerzas aéreas, las Alas Rojas,
+E0006_02_352_a_15	pronto subyugaron a otros reinos.
+E0006_02_352_a_16	Al mismo tiempo aparecen más monstruos
+E0006_02_352_a_17	a plena luz del día, pero Baronia
+E0006_02_352_a_18	solo pone empeño en usar
+E0006_02_352_a_19	su poder para obtener los Cristales
+E0006_02_352_a_20	de los otros reinos, pero ¿por qué...?
+E0006_02_352_a_21	Los Cristales tan solo irradian
+E0006_02_352_a_22	su Luz mágica en silencio...
+E0032_00_025_a_01	¡(YANG)!
+E0032_00_025_a_02	¿Eh?
+E0032_00_025_a_03	¿Qué te pasa? ¿No me reconoces? ¡Soy yo, (CECIL)!
+E0032_00_025_a_04	(CECIL)... Ah, el caballero oscuro renegado. ¡Detenedlo inmediatamente!
+E0032_00_025_a_05	¡Sí, señor!
+E0032_01_025_a_01	¡(YANG)! ¿Qué te pasa? ¿Por qué me haces esto?
+E0032_01_025_a_02	¡No te hagas el despistado, granuja!
+E0032_01_025_b_01	¡(YANG)!
+E0032_01_025_b_02	¡Muere!
+E0032_01_025_b_03	¡Soy yo! ¿No me reconoces?
+E0032_01_025_b_04	¡Uoooh!
+E0032_01_025_b_05	Uf...
+E0032_02_025_a_01	¡(CECIL)! ¿Qué ha pasado? ¡No recuerdo nada tras el ataque de Leviatán!
+E0032_02_025_a_02	Es evidente que sufriste de amnesia y que los agentes de Baronia aprovecharon para manipularte.
+E0032_02_025_a_03	Dispensadme...
+E0032_02_025_a_04	¿Dónde están (RYDIA) y (GILBART)?
+E0032_02_025_a_05	A (RYDIA)... se la tragó Leviatán.<P>\nDe (GILBART)... no sé nada...
+E0032_02_025_a_06	No...
+E0032_02_025_a_07	¿Dónde estamos?
+E0032_02_025_a_08	En Baronia. Vamos a un lugar seguro donde podamos hablar en privado.
+E0032_02_025_a_09	El monje (YANG) se ha unido al grupo.
+E0032_02_025_a_10	Gracias por encargaros de aquellos soldados. Estaríamos encantados si os quedarais a pasar la noche.
+E0032_02_025_a_11	¿Y este caballero?
+E0032_02_025_a_12	(YANG), te presento a (TELLA). Su hija y (GILBART) eran... eh...
+E0032_02_025_a_13	Mi hija le quería tanto que se sacrificó por él.
+E0032_02_025_a_14	Lamento su desgracia. Yo soy (YANG), de Fabul.
+E0032_02_025_a_15	¡Yo soy el prodigio de Mysidia! ¡(PALOM) el grande!
+E0032_02_025_a_16	No le preste atención a mi hermano. Yo soy (POLOM).
+E0032_02_025_a_17	¡No me puedo creer que te engañaran así!
+E0032_02_025_a_18	¡(PALOM)! ¡Discúlpate ahora mismo!
+E0032_02_025_a_19	Tu hermano tiene razón. Mis acciones fueron imperdonables.
+E0032_02_025_a_20	Mejor será que nos centremos en encontrar a (CID).
+E0032_02_025_a_21	No va a ser nada fácil dar con una manera de infiltrarnos en el castillo.
+E0032_02_025_a_22	¿Eh? ¿Qué es esto?
+E0032_02_025_a_23	¡Eso es la llave de Baronia! Pero ¿cómo...?<P>\n¡Claro! Al darte control de una patrulla te la debieron de entregar.<P>\nCon esto estoy seguro de que podremos rescatar a (CID) en el castillo.
+E0032_02_025_a_24	Has obtenido la llave de Baronia.
+E0130_00_024_a_01	¡Jamás diría semejante cosa de nuestro rey! ¡En serio! <P>\n¡Si te callas la boca, te enseño algo que te va a alucinar!
+E0131_00_024_a_01	"Tú eras un caballero oscuro antes, ¿verdad? Pues me gusta el nuevo ""look"". ¡Bailemos un poco!"
+N999_C01_024_01_01	Está cerrada.
+N999_C01_024_01_02	La puerta se ha abierto.
+N102_C01_024_01_01	¿Quieres ir al valle de Mist? Primero tienes que pasar por la cueva al noroeste de Baronia.
+N102_C01_024_01_02	Si desafías al rey, acabarás igual que (CID).
+N102_C01_024_01_03	¡Caballero (CECIL)! ¡Tiene que vengar al rey!
+N101_C02_024_03_01	Mantente alejado de Mist, algo me dice que puedes pasar apuros allí.
+N101_C02_024_03_02	Había un grupo de soldados con un extraño monje en la posada. Seguro que buscaban algo...
+N101_C02_024_03_03	¿Qué futuro le espera a Baronia ahora? El rey no dejó ningún heredero.
+N104_C01_024_03_01	El rey comete un grave error al pedirle a sus hombres que aprendan las artes oscuras.
+N104_C01_024_03_02	¿Por qué nos tortura de esta manera el rey? ¡Te digo que se ha vuelto loco!
+N104_C01_024_03_03	¿Tú eres aquel caballero oscuro? ¡Pues sí que estás cambiado!
+N106_C02_024_04_01	Los caballeros oscuros me dan un poco de miedo, pero molan mucho.
+N106_C02_024_04_02	No sé si es verdad que murió aquel caballero oscuro... Me caía bien.
+N106_C02_024_04_03	¡Lo sabía! ¡Tú eres el caballero (CECIL)!<P>\n¡Haz que Golbez pague caras sus acciones!
+N105_C00_024_05_01	Aquel edificio al oeste del pueblo conduce a un viejo canal que lleva al interior del castillo, pero siempre está cerrado con candado.
+N007_C02_024_06_01	Últimamente no bailo por culpa de las nuevas leyes del reino. ¡Qué aburrimiento!
+N101_C02_026_02_01	Si vas a emprender un largo viaje, recuerda abastecerte de pociones, antídotos y tiendas de lona.
+N105_C00_028_01_01	He oído que el rey os obliga a hacer cosas horribles...<P>\nSea lo que sea, asegúrate de mantener a (ROZA) al margen, ¿entendido?
+N105_C00_028_01_02	¿Dónde está (ROZA)? Se marchó de Baronia para encontrarte.
+N105_C00_028_01_03	¡(ROZA)! ¡Benditos los ojos!
+P003_C00_028_02_01	Lo siento, mamá.
+N105_C00_028_01_04	Nunca debí dejarte ser maga... ¡No vuelvas a marcharte a ningún sitio!
+P003_C00_028_02_02	No me arrepiento de ser maga blanca y luchar al lado de un valiente caballero... igual que tú y papá.
+N105_C00_028_01_05	...<P>\nTu padre fue un gran caballero, sí.\n(CECIL), por favor, cuida de ella por mí.
+P005_C00_027_02_01	Zzz... ¡Eureka! He creado... motor... nuevo... Zzz...
+N105_C00_027_90_10	Zzz... But your Free Enterprise is in another randomizer! Zzz...
+N101_C02_027_01_01	Welcome to Final Fantasy IV:  Fabul Gauntlet!<P>\nRULES (including races):\nSet your configuration and initial party setup now.<P>\nBegin your timer as soon as you leave this room.  If you are in a race, leave this room when GO is called.<P>\nLeave town to enter your first gauntlet.<P>\nKeep your eye out for Warpingway, which will take you back to the starting area if required.<P>\nGood luck!
+N101_C02_027_01_03	¡Papá! ¡No sabes cuánto me he preocupado por ti!<P>\nCuidadmelo bien, ¿vale? Sé que es un viejo testarudo, pero es el único padre que tengo.
+N101_C02_027_01_04	¿Qué tal está mi padre? Seguro que sigue jugando con sus barcos voladores como un niño.
+N999_C02_027_02_01	Aves del mundo
+N999_C02_027_03_01	Historia de los astilleros
+N999_C02_027_04_01	Principios de la aerodinámica
+N003_C01_025_05_01	¡Dame algo de beber! ¿Tú qué miras, bobo?
+N107_C02_025_02_01	¿Eres uno de los malos? Pues sí que lo pareces.
+N107_C02_025_02_02	Este lugar siempre está lleno de esos soldados, por eso la gente ya no viene...
+N107_C02_025_02_03	Antes vestías como un malo de los cuentos, ¡pero ahora pareces un Guerrero de la Luz!
+N999_C03_025_01_01	¡SE BUSCAN BAILARINAS!<P>\nBuscamos atractivas y talentosas bailarinas. Pregunta dentro.
+N101_C02_025_03_01	¿(CECIL), de las Alas Rojas? ¡Pero si yo no he hecho nada! ¡Hoy mismo iba a pagar mis impuestos!
+N101_C02_025_03_02	Los soldados siempre están armando alboroto y actúan como si la posada fuese de ellos.
+N101_C02_025_03_03	Gracias a ti está todo mucho más tranquilo y la gente parece divertirse.
+N102_C00_025_04_01	Usted es un caballero oscuro. Jamás se me ocurriría cobrarle algo.
+N102_C00_025_04_02	¡(CID) está preso en el castillo!<P>\nSe rumorea que consiguió esconder un barco volador súper avanzado antes de que lo atraparan.
+N102_C00_025_04_03	¿Te apetece algo, (CECIL)? ¡Invito yo!
+N101_C02_029_01_01	El camino del averno conduce a Mysidia, pero ha estado cerrado desde que los mysidianos sellaron su salida. <P>\nAntes, Baronia y Mysidia utilizaban este camino para facilitar sus transacciones comerciales. Ahora está abandonado. <P>\nLas escaleras conducen a la sala de entrenamiento.
+N101_C02_029_01_02	Parece ser que los mysidianos han decidido romper el sello.
+N999_C05_029_02_01	El camino está sellado y no se puede utilizar.
+N101_C02_030_04_01	Sitúa a los personajes con baja VIT en la retaguardia. <P>\nPulsa el botón direccional derecho durante la batalla para cambiar la fila o para que el personaje se defienda. <P>\nSi quieres usar un arma de tu inventario como objeto en combate, selecciona Objetos en el menú y sitúa el cursor en lo alto de la lista para mostrar las armas y elegir una.<P>\nCuando quieras cambiar de arma solo tienes que abrir la lista y pulsar el botón de menú.
+N101_C02_030_04_01_2	Sitúa a los personajes con baja VIT en la retaguardia. <P>\nToca la flecha derecha durante la batalla para cambiar la fila o para que el personaje se defienda. <P>\nSi quieres usar un arma de tu inventario como objeto en combate, selecciona Objetos en el menú y desplázate hasta lo alto de la lista para mostrar las armas y elegir una.<P>\nCuando quieras cambiar de arma solo tienes que abrir la lista y pulsar el botón de Cambiar de equipo.
+N101_C02_030_06_01	En las cuevas encontrarás zonas mágicas donde podrás guardar tu partida. Sé prudente.
+N101_C02_030_01_01	Si tu inventario está lleno, habla con el Chocobo gordo en cualquier bosque de chocobos. <P>\nÉl podrá guardarte cualquier objeto que no necesites. Utiliza las verduras gysahl cuando detectes el olor de chocobo.
+N101_C02_030_02_01	¡No seas demasiado temerario en batalla porque te puede costar el pellejo!<P>\nSigue estos consejos y podrás disfrutar de\nuna larga vida, como yo hago.<P>\nPulsa L y R simultáneamente para huir de la batalla.<P>\nAlgunos hechizos pueden lanzarse sobre múltiples blancos.<P>\nDurante una batalla, pulsa el botón direccional izquierdo para seleccionar a todos los enemigos, o el derecho para tus aliados.<P>\nSi quieres utilizar tu magia desde el menú, pulsa derecha o izquierda para aplicarla al grupo.
+N101_C02_030_02_01_2	¡No seas demasiado temerario en batalla porque te puede costar el pellejo!<P>\nSigue estos consejos y podrás disfrutar de\nuna larga vida, como yo hago.<P>\nToca el botón de arriba a la derecha para huir de la batalla.<P>\nAlgunos hechizos pueden lanzarse sobre múltiples blancos.<P>\nDurante una batalla, toca el botón direccional izquierdo para seleccionar a todos los enemigos, o el derecho para tus aliados.<P>\nSi quieres utilizar tu magia desde el menú, escoge Todos para aplicarla al grupo.
+N101_C02_030_03_01	El hombre junto a la pared se llama Don Registro. Habla con él si quieres cambiar tu nombre.
+N104_C01_030_05_01	En batalla tendrás que tomar rápidas decisiones. Si eres principiante, quizá deberías cambiar la velocidad de batalla.<P>\nSi seleccionas el modo de batalla activo, los enemigos atacarán incluso mientras eliges los comandos de magia, objetos y demás.
+E0154_00_162_a_01	¡MARCHAOS!
+E0154_00_162_a_02	¡¿Eh?! ¿Quién ha dicho eso?
+E0155_00_162_a_01	¡MARCHAOS YA!
+E0155_00_162_a_02	Puede que sea la bestia del valle de Mist...
+E0007_00_162_a_01	¡GUERREROS DE BARONIA!
+E0007_00_162_a_02	¡¿Quién eres?!
+E0007_00_162_a_03	SALID AHORA O SUFRID LAS CONSECUENCIAS.
+E0007_00_162_a_04	¡Da la cara!
+E0007_00_162_a_05	HABÉIS DECIDIDO IGNORAR MIS AVISOS... PAGARÉIS POR VUESTRA IMPERTINENCIA.
+E0007_00_162_a_06	Tenemos que llegar a Mist... ¡No vamos a volver!
+E0007_00_162_a_07	QUE ASÍ SEA.
+E0007_00_162_a_08	¡La niebla se está enturbiando!
+E0007_00_162_b_01	¡El dragón se ha convertido en niebla!
+E0007_00_162_b_02	Es inútil atacar a la niebla.
+E0007_00_162_b_03	Cualquier ataque generará un peligroso hálito.
+E0007_00_162_b_04	¡Ataca cuando aparezca el dragón!
+E0007_00_162_b_05	El dragón se ha materializado. ¡Ataca ahora!
+E0008_00_067_a_01	El anillo está brillando.
+E0008_00_067_a_2	¿Cómo...?
+E0008_00_067_a_3	¿Para esto nos ha mandado aquí?
+E0008_00_067_a_4	No me puedo creer que hayamos destruido el pueblo...
+E0008_00_067_a_5	¿Por qué nos obligaría a llevar a cabo tal barbaridad?
+E0008_00_067_a_6	¡Nooo! ¡Mamá!
+E0008_00_067_a_7	¿Qué...?
+E0008_00_067_a_8	El dragón de mi madre ha muerto... y ahora ella también...
+E0008_00_067_a_9	¿Cómo?
+E0008_00_067_a_10	He oído hablar de personas con el poder de invocar diferentes monstruos. <P>\nSe llaman invocadores.
+E0008_00_067_a_11	Entonces... nosotros somos los responsables de su muerte al haber matado a su dragón.
+E0008_00_067_a_12	¡¿Vosotros matasteis al dragón de mi madre?!
+E0008_00_067_a_13	Pero... ¿Cómo podíamos saberlo...?
+E0008_00_067_a_14	Así que el propósito del rey era aniquilar a todos los invocadores del pueblo.
+E0008_00_067_a_15	Madre mía...
+E0008_00_067_a_16	Me temo que es cierto. También vamos a tener que liquidar a la niña.
+E0008_00_067_a_17	¡¿Qué dices?!
+E0008_00_067_a_18	Nuestro deber es obedecer las órdenes del rey.
+E0008_00_067_a_19	Pero si es solo una cría...
+E0008_00_067_a_20	¿Pretendes desafiar al rey?
+E0008_00_067_a_21	¡Me niego a seguir masacrando a pobres inocentes en nombre del rey!
+E0008_00_067_a_22	Sabía que dirías algo por el estilo...\nSupongo que esto nos convierte en rebeldes.
+E0008_00_067_a_23	"¿""Nos""?"
+E0008_00_067_a_24	Todo lo que soy se lo debo al rey, pero tampoco puedo deshonrar el nombre de los draconarius.
+E0008_00_067_a_25	¿Te unes a mi causa?...
+E0008_00_067_a_26	Necesitaremos aliados para enfrentarnos a una nación tan militarizada... <P>\nTambién tenemos que rescatar a (ROZA).
+E0008_00_067_a_27	Gracias, (CAIN).
+E0008_00_067_a_28	No me las des. Esto no lo hago por ti.
+E0008_00_067_a_29	...
+E0008_00_067_a_30	Aquí corremos peligro, será mejor que nos vayamos. ¿Qué hacemos con la niña?
+E0008_00_067_a_31	No la podemos dejar aquí. Tendremos que llevarla con nosotros.
+E0008_00_067_a_32	Tranquila, no te queremos hacer daño. Aquí corres peligro, vente con...
+E0008_00_067_a_33	¡No!
+E0008_00_067_a_34	¡Venga, vamos! ¡Tenemos que irnos ahora mismo!
+E0008_00_067_a_35	¡No! ¡Déjame en paz!
+E0008_00_067_a_36	¡Espera!
+E0008_00_067_a_37	Os odio a los dos... ¡Matasteis a mi mamá!
+E0008_00_067_b_01	¡¡¡Iros de aquí!!!
+E0008_02_067_a_01	¡Gracias al cielo! Está sana y salva.
+E0008_02_067_a_02	¿(CAIN)?
+E0008_02_067_a_04	¡¿(CAIN)?!
+E0008_02_067_a_03	Tengo que sacarla de aquí y llevarla a algún lugar seguro... ¡(CAIN), espero que sigas vivo!
+N104_C01_067_04_01	Las bestias que acuden a la llamada de los invocadores provienen de la Tierra de invocación, en las profundidades subterráneas.
+N102_C02_067_01_01	Un incendio, cuyo origen se desconoce, se llevó a casi todas las almas que vivían en Mist.
+N102_C01_067_03_01	Se rumorea que bajo la tierra de Baronia existe un ser que puede fulminar a un enemigo de un solo golpe.
+N102_C01_067_02_01	¿Será esto el fin de la larga historia de los invocadores de Mist?...
+E0009_00_032_a_01	Tengo que encontrarle un lugar donde pueda descansar...
+E0009_01_034_a_01	¡Bienvenidos a mi posada!... <P>\n¡¿Pero qué le pasa a la pobre?! Mira lo pálida que está. Llevadla a una cama, no os cobraré nada.
+E0009_01_034_a_02	Gracias, no sabes cuánto te lo agradezco.
+E0009_01_034_a_03	¿Qué tal te encuentras, pequeña?
+E0009_01_034_a_04	...
+E0009_01_034_a_05	Yo me llamo (CECIL). Y tú ¿cómo te llamas?
+E0009_01_034_a_06	...
+E0009_01_034_a_07	De veras siento lo ocurrido con tu madre. Entiendo que no me quieras perdonar. <P>\nPero ¿podrías al menos dejar que te proteja?
+E0009_01_034_a_08	...
+E0009_01_034_a_09	¡(CECIL)! ¡Por fin le encuentro!
+E0009_01_034_a_10	¡...!
+E0009_01_034_a_11	¡Alto!
+E0009_01_034_a_12	Estoy cumpliendo con las órdenes del rey. Todos los invocadores de Mist deben ser eliminados. ¡Entregue a la niña y se le perdonará!
+E0009_01_034_a_13	Ni hablar.
+E0009_01_034_a_14	¡No, por favor!
+E0009_01_034_a_15	¡Si no la entrega, morirá!
+E0009_01_034_a_16	¡Jamás!
+E0009_02_034_a_01	¿Te encuentras bien?
+E0009_02_034_a_02	Sí. No hace falta que te preocupes. Jamás dejaré que te lastimen.
+E0009_02_034_a_03	¿De verdad...?
+E0009_02_034_a_04	De verdad.
+E0009_02_034_a_05	Me llamo (RYDIA)...
+E0009_02_034_a_06	(RYDIA)...
+E0009_02_034_a_07	La invocadora (RYDIA) se ha unido al grupo.
+E0009_02_034_a_08	¡Hora de moverse!
+E0010_00_037_a_01	¡(ROZA)!
+E0010_00_037_a_02	(ROZA)...
+E0018_00_037_a_25	¡(ROZA)!
+E0018_00_037_a_01	La luz del rubí del desierto baña a (ROZA).
+E0018_00_037_a_02	¡Oh!...
+E0018_00_037_a_03	¡(CECIL)!<P>\n¡Estás vivo! ¡Qué mal lo he pasado!...
+E0018_00_037_a_04	No tenías por qué...
+E0018_00_037_a_05	Pensé que te había perdido para siempre...<P>\nMe dijeron que moriste en el terremoto de Mist.
+E0018_00_037_a_06	Siento haberte hecho sufrir tanto...<P>\n(ROZA), ¿quién es Golbez?
+E0018_00_037_a_07	El nuevo capitán de las Alas Rojas nombrado por el rey, que por cierto ha estado actuando de forma muy extraña.<P>\nCreo que Golbez lo está manipulando para reunir los Cristales para sus propios fines.<P>\nAhora que ya tiene el Cristal del Agua de Mysidia, seguro que va tras el Cristal del Fuego de Damcyan, el Cristal del Aire de Fabul y el Cristal de la Tierra de Troia.
+E0018_00_037_a_08	El Cristal del Fuego ya es suyo...
+E0018_00_037_a_09	Ah, permíteme presentaros...<P>\n(GILBART) es el príncipe de Damcyan. (RYDIA) es una invocadora de Mist.<P>\nSin su ayuda, nunca habría podido recuperar el rubí del desierto ni curar tu fiebre.
+E0018_00_037_a_10	Hola, ¿qué tal?
+E0018_00_037_a_11	Hola, (RYDIA). No sabes cuánto os agradezco lo que habéis hecho por mí.
+E0018_00_037_a_12	Ahora debes descansar. Viajaremos a Fabul en breve.
+E0018_00_037_a_13	Pero el paso a Fabul del monte Hobs está bloqueado por gruesas capas de hielo.
+E0018_00_037_a_14	(RYDIA), ¿puedes conjurar Piro?
+E0018_00_037_a_15	No...
+E0018_00_037_a_16	Piro es uno de los hechizos más básicos... Como invocadora no te debería...<P>\n*cof cof*
+E0018_00_037_a_17	(ROZA), no vas a poder acompañarnos en esas condiciones...
+E0018_00_037_a_18	No te preocupes por mí. Una maga blanca seguro que os sirve de gran ayuda.
+E0018_00_037_a_19	Pero...
+E0018_00_037_a_20	(ROZA) solo quiere estar a tu lado, (CECIL).
+E0018_00_037_a_21	Vale, iremos todos. Asegúrate de descansar bien esta noche. Partiremos por la mañana.
+E0018_00_037_a_22	Gracias.
+E0018_00_037_a_23	La maga blanca (ROZA) se ha unido al grupo.
+E0018_00_037_a_24	Esa noche...
+E0018_01_032_a_01	...
+E0018_01_032_a_02	Cuánto te echo de menos, mi Anna...
+E0018_01_032_a_03	¡Ahhh!
+E0018_01_032_b_01	(GILBART).
+E0018_01_032_b_02	¡A... Anna!
+E0018_01_032_b_03	Debes luchar, (GILBART). Tú puedes.
+E0018_01_032_b_04	Debes creer en ti mismo.
+E0018_01_032_b_05	Anna...
+E0018_01_032_b_06	¡Gragh!
+E0018_02_032_a_01	¡¿Anna?! ¡No!
+E0018_02_032_a_02	Debo dejar este mundo... para ir a un lugar mejor...
+E0018_02_032_a_03	¡No! ¡No te vayas! No puedo vivir sin ti...
+E0018_02_032_a_04	No permitas que Golbez consiga todos los Cristales. Debes luchar por proteger a tus súbditos y seres queridos... <P>\nComo hiciste por mí...
+E0018_02_032_a_05	¡Te juro que lucharé hasta el final!<P>\nPero... ¿qué puedo hacer sin ti?...
+E0018_03_037_a_01	¡Hora de moverse!
+E0127_00_032_a_01	Me gustaría ir a Damcyan para ser bailarina, pero la Cueva fluvial está llena de monstruos...<P>\nBueno, yo sigo entrenando. ¡Mira cómo me muevo!
+N102_C01_032_04_01	Al norte de aquí queda el castillo de Damcyan, morada del rey que gobierna el desierto.<P>\nHe oído que el príncipe tiene una voz exquisita, ¡además de ser bastante agraciado!
+N103_C01_032_03_01	Si vas a viajar con esa niña en tu grupo, te sugiero que la sitúes en la retaguardia en combate.
+N114_C02_032_02_01	He oído que una chica baroniana se desmayó a las puertas del pueblo y se la llevaron a casa de alguien para que se recuperara.
+N103_C02_032_06_01	Anna se enamoró locamente de un hombre, pero el sabio (TELLA) no lo aprobaba, así que los tortolitos se dieron a la fuga.
+N106_C01_032_05_01	La Cueva fluvial se encuentra al noreste de aquí, pero es demasiado peligrosa. Han visto en sus adentros ocho sierpes acuáticas.
+N102_C02_032_01_01	Esto es Kaipo, el oasis del desierto de Damcyan.
+N105_C00_034_02_01	No me puedo creer que Anna se escapara. Ella y su padre, el sabio (TELLA), se llevaban muy bien.
+N103_C00_035_03_01	¡Vaya, tenemos visita! Últimamente, nadie se pasa por aquí por culpa de los monstruos.
+N114_C02_035_02_01	Al este de Damcyan se encuentra la Cueva del antoleón, que está llena de tesoros.<P>\n¡Es una pena que solo pueda entrar la familia real!
+N110_C01_035_01_01	Soy un erudito ambulante y me gustaría poder visitar Fabul, al este de Damcyan, para poder estudiar sus costumbres.<P>\n¡Pero un viejales de la Cueva fluvial no me quiere dejar pasar!
+N999_C03_035_01_01	¡Apaga tu sed con el ponche de Kaipo!
+N105_C01_037_01_01	"Encontramos a una chica baroniana inconsciente a las afueras del pueblo.<P>\nLa pobre padece de fiebre árida. <P>\nNo hace más que repetir ""(CECIL)"" una y otra vez."
+N105_C01_037_01_02	Tu debes de ser el (CECIL) ese de marras. Espero que cuides bien de ella, que la tienes siempre pensando en ti.
+N104_C02_037_02_01	Para curar la fiebre árida hace falta una joya poco común, el rubí del desierto.<P>\nSolo se puede encontrar en la Cueva del antoleón.
+N104_C02_037_02_02	Aunque ha sido por poco tiempo, empezaba a verte como a una hija. Vuelve pronto.
+P003_C00_037_03_01	...<P>\n(CECIL)...<P>\nTen cuidado, (CECIL).
+N999_C02_037_04_01	El rubí del desierto: el remedio de la fiebre árida
+E0011_00_136_a_01	Veo que portas una espada oscura, viajero. Mira por dónde, necesito la ayuda de un caballero oscuro urgentemente.
+E0011_00_136_a_02	¿Por qué? ¿Qué ocurre?
+E0011_00_136_a_03	Tengo que llegar a Damcyan para poder rescatar a mi hija de su raptor, un bardo bellaco. ¡Debemos partir lo antes posible!
+E0011_00_136_a_04	Tú debes ser el sabio (TELLA), ¿no?
+E0011_00_136_a_05	El que viste y calza. <P>\nLa invocadora que va contigo nos será también de gran ayuda. <P>\nEl monstruo del lago es muy resistente a mi magia, pero juntos creo que podremos derrotarlo y abrirnos camino a Damcyan.
+E0011_00_136_a_06	Nosotros también necesitamos llegar allí.
+E0011_00_136_a_07	Pues no se hable más, unamos nuestras fuerzas entonces.
+E0011_00_136_a_08	El sabio (TELLA) se ha unido al grupo.
+E0012_00_166_a_01	Descansaremos aquí.
+E0012_00_166_a_02	Este campo mágico repele a todos los monstruos. En su interior puedes guardar tu partida y usar cabañas y tiendas de lona.<P>\nUtilizaremos la mía para prepararnos para la incipiente batalla.
+E0012_01_349_a_01	La chica ya se ha dormido. La pobre estaría agotada. ¿Quién es?
+E0012_01_349_a_02	Una invocadora del pueblo de Mist.
+E0012_01_349_a_03	Puedo observar que tiene un gran potencial. <P>\nCon el entrenamiento adecuado, podría ser una gran maga. Mírala, qué cara tan inocente... Me recuerda a mi Anna...
+E0012_01_349_a_04	¿Quién es Anna?
+E0012_01_349_a_05	Mi hija. Se fugó a Damcyan con su novio, un bardo, porque yo no aprobaba su relación...
+E0012_01_349_a_06	Y tú, ¿por qué viajas a Damcyan?
+E0012_01_349_a_07	Una amiga mía sufre de la fiebre árida.
+E0012_01_349_a_08	Ah, así que buscas el rubí del desierto. No te va a ser nada fácil hacerte con él.<P>\nUna criatura endiablada con ocho enormes tentáculos lo guarda. Pero no nos queda más remedio que luchar si queremos llegar a Damcyan...<P>\nantes de que sea demasiado tarde.
+E0012_01_349_a_09	¿Demasiado tarde para qué?
+E0012_01_349_a_10	Algo me alerta de un peligro inminente, aunque ojalá mis instintos estén equivocados.
+E0012_02_166_a_01	¡Hora de moverse!
+E0080_00_169_a_01	Este camino conduce al aire libre, pero la bestia se encuentra en la próxima cueva.<P> Utiliza una tienda de lona afuera si la necesitas.
+E0013_00_170_a_01	¡Está ahí abajo!
+E0014_00_172_a_01	¡Ahí está!
+E0014_00_172_a_02	¡Cuidado!
+E0014_00_172_b_01	¡No esperaba menos de un caballero negro!
+E0014_00_172_b_02	¡Está debilitándose!
+E0014_01_172_a_01	¡Vamos! Damcyan queda al otro lado de estas cataratas.
+P001_C00_170_02_01	La corriente es demasiado fuerte. ¡No podemos cruzar!
+P006_C00_136_02_01	Pero ¿qué hacéis aquí? Esta caverna está plagada de monstruos. Venga, volved a Kaipo. ¡Deprisa!
+E0016_00_041_a_01	¡No puede ser! ¡Es Anna!
+E0016_00_041_a_02	¡Tú! ¡Eres el bardo que me robó a mi Anna! ¡Esto es todo tu culpa!
+E0016_00_041_a_03	¿Eh?
+E0016_00_041_b_01	¡Bardo cuchufletero!
+E0016_00_041_b_02	¡Espera! ¡No!
+E0016_00_041_b_03	¡Muere de una vez!
+E0016_00_041_b_04	¡Escucha lo que digo! ¡Por favor...!
+E0016_00_041_b_05	¡Cállate!
+E0016_00_041_b_06	Perdóname, te lo ruego...
+E0016_00_041_b_07	¡Toma!
+E0016_00_041_b_08	¡¡¡Ayyy!!!
+E0016_00_041_b_09	¡Papá, para!
+E0016_01_041_a_01	¡Oh, Anna! No sabes cuánto me alegro...
+E0016_01_041_a_02	Papá, (GILBART) es el príncipe de Damcyan. Siento haberme escapado, pero es que nos queremos tanto...<P>\nAun así sabía que nunca podría ser feliz sin tu aprobación. Por eso íbamos de camino hacia Kaipo cuando...
+E0016_01_041_a_03	Fuimos emboscados por las Alas Rojas, bajo el mando de Golbez.
+E0016_01_041_a_04	Nunca he oído hablar de este tal Golbez. ¿Quién se supone que es?
+E0016_01_041_a_05	No sé nada de él, pero su poder era algo temible...
+E0016_01_041_a_06	Pero ¿por qué atacaron Damcyan?
+E0016_01_041_a_07	Buscaban el Cristal y no perdonaron la vida a nadie que se les interpuso...<P>\nMi madre, mi padre... incluso Anna intentaron protegerme de sus flechas.
+E0016_01_041_a_08	¿Tanto le quieres que estás dispuesta a sacrificar tu vida por él...?
+E0016_01_041_a_09	Perdóname, papá...<P>\n(GILBART)... te amo...
+E0016_01_041_a_10	¡Anna!
+E0016_01_041_a_11	¡¿Anna?! ¡Anna!
+E0016_01_041_a_12	Mi Anna... ¡Maldito seas, Golbez! ¡Dime todo lo que sabes de él!
+E0016_01_041_a_13	Apareció en Baronia un día y se proclamó el nuevo capitán de las Alas Rojas. <P>\nÉl... Él es el responsable de sus sanguinarios ataques en búsqueda de los Cristales...
+E0016_01_041_a_14	¡Para de lloriquear! Eso no va a devolvernos a Anna.<P>\nGolbez de Baronia... ¡Acabaré con tu vida con mis propias manos!
+E0016_01_041_a_15	¡(TELLA)! ¡Espera! No puedes enfrentarte a él tú solo.
+E0016_01_041_a_16	Golbez morirá. No necesito ni tu ayuda, ni la de nadie.
+E0016_01_041_a_17	(TELLA) ha abandonado el grupo.
+E0016_01_041_a_18	¡Anna!
+E0016_01_041_a_19	¡Para de llorar!
+E0016_01_041_a_20	Se supone que los mayores no lloran.<P>\nYo perdí a mi mamá, pero he decidido que no voy a llorar más.
+E0016_01_041_a_21	(RYDIA)...
+E0016_01_041_a_22	¡No me importa! ¡Dejadme en paz!<P>\nMe voy a quedar aquí con Anna. Jamás la abandonaré. ¡Ya todo me da igual!
+E0016_01_041_a_23	¡Ya basta! Ahora es el rey legítimo de Damcyan, será mejor que empiece a comportarse como tal. <P>\nSe lo debe a todos sus súbditos. Se lo debe a Anna.<P>\nSu alteza, yo soy (CECIL), y requiero su ayuda.
+E0016_01_041_a_24	¿De qué hablas?
+E0016_01_041_a_25	Una amiga que dejé en Kaipo tiene la fiebre árida.<P>\nNecesito el rubí del desierto para poder salvarla. ¿Me puede ayudar?
+E0016_01_041_a_26	¿...Cómo se llama?
+E0016_01_041_a_27	(ROZA).
+E0016_01_041_a_28	Es alguien a quien quieres mucho, ¿verdad? Igual que yo quería a Anna...
+E0016_01_041_a_29	Podrás encontrar el rubí del desierto en la Cueva del antoleón, al este de aquí.<P>\nEl rubí está formado por el líquido que el antoleón segrega al poner sus huevos.<P>\nTendremos que utilizar el aerodeslizador para cruzar los bajíos y alcanzar la cueva.<P>\nDespués de adquirir el rubí, podremos atravesar más aguas bajas para llegar a Kaipo.
+E0016_01_041_a_30	Mejor será partir lo antes posible. Pongámonos en marcha.
+E0016_01_041_a_31	El príncipe (GILBART) se ha unido al grupo.
+E0016_01_041_a_32	Adiós, Anna...
+N102_C02_041_06_01	Somos los únicos supervivientes. Queremos llegar a Kaipo, pero sin un aerodeslizador con el que cruzar los bajíos, lo veo difícil.
+N102_C02_041_07_01	Tenía pensado escalar al monte Hobs para llegar a Fabul, pero el camino está bloqueado por una espesa capa de hielo.
+N102_C02_042_01_01	¡No puedo ver! ¿Quién es? Por favor... no permitas que... roben nuestros tesoros...
+N102_C02_038_01_01	...
+N102_C02_039_01_01	Nos han robado... el Cristal...
+N102_C02_039_02_01	El bombardeo fue horrible...
+N102_C02_040_02_01	...
+N102_C02_040_03_01	El bombardeo fue horrible...
+N102_C02_040_01_01	Las urnas curativas... en el piso de arriba...
+E0017_00_177_a_01	Aquí es donde el antoleón pone sus huevos.
+E0017_00_177_a_02	¡Ayyy!
+E0017_00_177_a_03	Tranquila, no pasa nada. Los antoleones son unos animales muy mansos.<P>\nNo suelen atacar a los humanos. Mira, ahora verás como tomo el rubí sin problemas...
+E0017_00_177_a_04	¡Ayyy!
+E0017_00_177_a_05	¡Vamos! ¡Hay que ayudarle!
+E0017_01_177_a_01	Has obtenido el rubí del desierto.
+E0017_01_177_a_02	Pero ¿a santo de qué me ha atacado? Siempre han sido totalmente inofensivos.
+E0017_01_177_a_03	Los monstruos están multiplicándose estos días y su comportamiento está cambiando.<P>\nTengo el presentimiento de que algo va mal...
+E0017_01_177_a_04	Basta de hablar, ¡curemos a (ROZA)!
+E0017_01_177_a_05	Tienes razón. ¡En marcha!
+E0019_00_178_a_01	(RYDIA), ¿crees que puedes conjurar Piro?
+E0019_00_178_a_02	...
+E0019_00_178_a_03	¿Qué te pasa?
+E0019_00_178_a_04	Vamos, cariño, sé que puedes hacerlo.
+E0019_00_178_a_05	...<P>\nNo.
+E0019_00_178_a_06	¿Por qué?
+E0019_00_178_a_07	Es que... ¡Odio el fuego!
+E0019_00_178_a_08	Claro... Su pueblo fue arrasado por el fuego cuando yo...
+E0019_00_178_a_09	(RYDIA), eres la única que puede desbloquear este camino.
+E0019_00_178_a_10	...
+E0019_00_178_a_11	Si no podemos llegar a Fabul, mucha gente correrá grave peligro. Por favor, (RYDIA). Tienes que ser valiente.
+E0019_00_178_a_12	Ser... valientes...
+E0019_00_178_a_13	¡Tú puedes, (RYDIA)!
+E0019_00_178_a_14	¡Vamos, (RYDIA)!
+E0019_00_178_a_15	...
+E0019_00_178_a_16	...
+E0019_00_178_a_17	¡Piro!
+E0019_00_178_a_18	(RYDIA) ha aprendido Piro.
+E0019_00_178_a_19	(RYDIA), eres increíble.
+E0019_00_178_a_20	¡Je, je!
+E0019_00_178_a_21	Sabía que podías hacerlo.
+E0019_00_178_a_22	Gracias, (RYDIA).
+N999_C06_178_02_01	El camino está bloqueado por una gruesa capa de hielo.
+E0020_00_180_a_01	¿Qué pasa aquí?
+E0020_00_180_a_02	Por su atuendo diría que es uno de los monjes de Fabul.
+E0020_00_180_a_03	¡Kiai!
+E0020_00_180_a_04	¡Kiai!
+E0020_01_180_a_01	¡Hala! ¡Ese bom no es normal!
+E0020_01_180_a_02	¡Hay que ayudarle!
+E0020_01_180_b_01	¡HORA DE ESTALLAR!
+E0020_02_180_a_01	Os debo la vida. Soy (YANG), un monje maestro de Fabul. <P>\nVine aquí con mis hombres para entrenarnos, pero fuimos emboscados por un tropel de monstruos... Eran mis mejores monjes...
+E0020_02_180_a_02	Yo me llamo (CECIL) y traigo noticias urgentes para Fabul.
+E0020_02_180_a_03	Un ruin villano conocido como Golbez está manipulando las fuerzas de Baronia para robar los Cristales del mundo.
+E0020_02_180_a_04	Entonces seguro que también desea nuestro Cristal del Viento.
+E0020_02_180_a_05	Sin duda. Hace unos días arrebató el Cristal de Damcyan.
+E0020_02_180_a_06	Ahora va a por el de Fabul.
+E0020_02_180_a_07	Pues no nos va a ser nada fácil detenerlo. En Fabul solo quedan estudiantes.<P>\nNo tendrán muchas posibilidades en una batalla contra las fuerzas armadas de Baronia.
+E0020_02_180_a_08	Puedes estar seguro de que Golbez es el responsable del ataque que acabó con las vidas de tus hombres...
+E0020_02_180_a_09	¡Entonces el ataque es inminente! ¡Debo irme!
+E0020_02_180_a_10	Te seguiremos hasta Fabul. Queremos ayudar ahora que la ciudad tiene las defensas bajas.
+E0020_02_180_a_11	Os lo agradezco. Pero esto no es asunto vuestro.
+E0020_02_180_a_12	Te equivocas. Esto también tiene que ver con nosotros.
+E0020_02_180_a_13	Yo soy el príncipe de Damcyan.
+E0020_02_180_a_14	(ROZA) y yo somos baronianos, y esta niña es la víctima de uno de los asaltos que realicé en nombre de mi rey...
+E0020_02_180_a_15	...
+E0020_02_180_a_16	Ah... Sería un honor teneros a todos como compañeros, entonces.
+E0020_02_180_a_17	No nos queda mucho tiempo, tenemos que darnos prisa.
+E0020_02_180_a_18	Fabul se encuentra detrás de las montañas al este.
+E0020_02_180_a_19	El monje maestro (YANG) se ha unido al grupo.
+E0021_00_047_a_01	Por fin has llegado, (YANG).
+E0021_00_047_a_02	Su alteza, debemos prepararnos para la batalla.<P>\nLas fuerzas de Baronia están a punto de lanzar una ofensiva para robarnos nuestro Cristal.
+E0021_00_047_a_03	¿Cómo es que sabes esto?
+E0021_00_047_a_04	Estos dos son ciudadanos de Baronia y vinieron para advertirnos.
+E0021_00_047_a_05	¿Y los demás...?
+E0021_00_047_a_06	Su alteza, nos queda poco tiempo.<P>\nDebemos reforzar las defensas cuanto antes.
+E0021_00_047_a_07	(YANG), ¿podemos fiarnos del caballero oscuro y de sus compañeros?
+E0021_00_047_a_08	Desde luego. Arriesgaron sus vidas por ayudarme.
+E0021_00_047_a_09	¡Debemos darnos prisa!
+E0021_00_047_a_10	¡Por favor, nos quedamos sin tiempo!
+E0021_00_047_a_11	Es un placer volver a verle.
+E0021_00_047_a_12	¿Príncipe (GILBART)?
+E0021_00_047_a_13	Su alteza, la armada de Baronia diezmó Damcyan y robó nuestro Cristal. Muchos murieron en el ataque: mis padres, mi Anna...<P>\n¡No podemos permitir que se repita la misma tragedia!
+E0021_00_047_a_14	Perdonad mis sospechas. (YANG), prepara a los hombres para la batalla.<P>\nPríncipe (GILBART), caballero oscuro, ¿ayudaréis a Fabul?
+E0021_00_047_a_15	Soy consciente de que no puedo obligaros, pero...
+E0021_00_047_a_16	Ellos ya han dado muestras de su predisposición y fuerzas. Nos uniremos a los soldados de la vanguardia.
+E0021_00_047_a_17	Muy bien. ¿Quizá los magos podrían ayudar en la enfermería?
+E0021_00_047_a_18	Desde luego, su alteza.
+E0021_00_047_a_19	El destino de Fabul queda en vuestras manos...
+E0021_00_047_a_20	¡Por Fabul!
+E0021_00_047_a_21	¡En marcha, (CECIL)!
+E0021_00_047_a_22	(CECIL)...
+E0021_00_047_a_23	Ten cuidado...
+E0021_00_047_a_24	(RYDIA), cuida de (ROZA) por mí.
+E0021_01_044_a_01	¡Aquí vienen!
+E0021_01_044_a_02	¡Atacad!
+E0021_02_044_a_01	¡Las Alas Rojas!
+E0021_02_044_a_02	¡No podemos contenerlos!
+E0021_02_044_a_03	¡Hay que retirarse!
+E0021_03_045_a_01	Nos superan en número... Siento haberos involucrado en esto...
+E0021_03_045_a_02	Esta también es nuestra batalla. ¡Y todavía no me he rendido!
+E0021_03_045_a_03	¡Aquí vienen!
+E0021_04_045_a_01	¡Hay que retroceder!
+E0021_05_046_a_01	La cámara real está justo detrás. ¡Debemos aguantar aquí!
+E0021_05_046_a_02	El rey ya se ha refugiado en un lugar seguro, junto con las mujeres y los niños. Nuestro deber es alejar al enemigo...
+E0021_05_046_a_03	¡Y aplastarlo!
+E0021_06_046_a_01	¡Larguémonos de aquí!
+E0021_06_046_a_02	¡Oh!
+E0021_07_047_a_01	Hemos conseguido cerrar la puerta. Ahora debemos mantener esta posición.
+E0021_07_047_a_02	¿Dónde está el Cristal?
+E0021_07_047_a_03	En la cámara superior.
+E0021_07_047_a_04	La puerta se ha abierto.
+E0021_07_047_a_05	¡No! Pero ¡¿qué has hecho?!
+E0021_07_047_a_06	Es... ¡es uno de ellos!
+E0021_09_047_a_01	No podemos luchar contra tal superioridad numérica.<P>\n¡Retirada! ¡A la sala del Cristal!
+E0021_09_047_a_02	¡Ayyy!
+E0021_09_047_a_03	¡(GILBART)!
+E0021_11_048_a_01	Mucho tiempo sin vernos, ¿eh?
+E0021_11_048_a_02	¡(CAIN)! ¡Sigues vivo!
+E0021_11_048_a_03	Así parece.
+E0021_11_048_a_04	Ya hablaremos. ¡Primero hay que luchar!
+E0021_11_048_a_05	Desde luego. ¿Crees que me podrás derrotar?
+E0021_11_048_a_06	Pero ¿qué...?
+E0021_11_048_a_07	¡En guardia!
+E0021_11_048_a_08	¡(CAIN)! ¡Eres mi amigo! ¡Mi hermano!
+E0021_11_048_a_09	¡Defiéndete, cobarde!
+E0021_11_048_b_01	¿Por qué haces esto?
+E0021_11_048_b_02	Ahórrate saliva.
+E0021_11_048_b_03	¿Qué te ha pasado?
+E0021_11_048_b_04	¡Calla y pelea!
+E0021_11_048_b_05	¡Hasta aquí has llegado, (CECIL)!
+E0021_12_048_a_01	¡¿Golbez te ha embaucado a ti también?!
+E0021_12_048_a_02	¿Algún último deseo?
+E0021_12_048_a_03	¡Parad!
+E0021_12_048_a_04	¡No!
+E0021_12_048_a_05	¡(ROZA)!
+E0021_12_048_a_06	(CAIN), nunca pensé que tú nos traicionarías...
+E0021_12_048_a_07	¡Mpppf! Pero yo...
+E0021_12_048_a_08	¿Por qué vacilas, (CAIN)?
+E0021_12_048_a_09	¡Golbez!
+E0021_12_048_a_10	Así que tú eres Golbez.
+E0021_12_048_a_11	Y supongo que tú eres (CECIL). Nunca dudes en matar a un enemigo, (CAIN).<P>\nPresta atención y te enseñaré cómo se debe hacer.
+E0021_12_048_a_12	¡(CECIL)!
+E0021_12_048_a_13	¡No!
+E0021_12_048_a_14	¡Silencio!
+E0021_12_048_a_15	¡(CAIN)! Toma el Cristal.
+E0021_12_048_a_16	Sí, señor.
+E0021_12_048_a_17	¡(CAIN), por favor!
+E0021_12_048_a_18	¡...!
+E0021_12_048_a_19	(ROZA), no...
+E0021_12_048_a_20	Veo que esta mujer es muy importante para ti. Me la llevaré conmigo para darle emoción a nuestro reencuentro. ¡Vamos, (CAIN)!
+E0021_12_048_a_21	La próxima vez no tendrás tanta suerte.
+E0021_12_048_a_22	Espera...
+E0021_12_048_a_23	Ugh...
+E0021_12_048_a_24	¡Cura!
+E0021_12_048_a_25	¿Te sientes mejor?
+E0021_12_048_a_26	Gracias, (RYDIA), pero...
+E0021_12_048_a_27	Se ha llevado el Cristal. He fracasado...
+E0021_12_048_a_28	Y también se ha llevado a (ROZA)...
+E0021_12_048_a_29	¡Entonces por qué estamos perdiendo el tiempo! ¡Hay que rescatar a (ROZA) y recuperar los Cristales!
+E0021_12_048_a_30	Tiene razón. ¡No podemos andar cabizbajos!
+E0021_12_048_a_31	(CECIL), ahora nos toca ayudarte a ti.<P>\nPero por ahora, curemos nuestras heridas.
+E0021_12_048_a_32	Gracias...
+E0022_00_049_a_01	Maestro (YANG), por favor llámeme si necesita cualquier cosa.
+E0022_00_049_a_02	Tendremos que formular un plan para el rescate, ¿no?
+E0022_00_049_a_03	Para luchar contra Golbez necesitaremos un barco volador.<P>\n¡Pero Baronia es el único reino que los posee!
+E0022_00_049_a_04	Entonces no nos queda más remedio que infiltrarnos en Baronia y robar uno.
+E0022_00_049_a_05	El ejército de Baronia consta principalmente de las Alas Rojas, de ahí que descuiden sus fuerzas navales.<P>\nCreo que podremos pasar desapercibidos si utilizamos un barco.
+E0022_00_049_a_06	Pues hará falta uno.
+E0022_00_049_a_07	Mañana mismo le pediré un barco al rey.<P>\nPor vosotros, no escatimará en recursos para ayudar.
+E0022_00_049_a_08	Gracias, (YANG).
+E0022_00_049_a_09	¿Quién era el draconarius?
+E0022_00_049_a_10	Se llama (CAIN) y... era mi mejor amigo.<P>\nJuramos juntos dejar atrás Baronia, y ahora...
+E0022_00_049_a_11	Vaya, siento oír eso...
+E0022_00_049_a_12	Descansemos algo, que ha sido un día duro.
+E0022_00_049_a_13	...
+E0022_01_056_a_01	Entendido. Pondré a vuestra disposición un barco.<P>\n(YANG), acompaña y ayuda a (CECIL).<P>\n(CECIL), toma esta espada. Perteneció a un caballero oscuro que vino a Fabul hace muchos años.<P>\nTiene tremendo poder, pero rezuma energía oscura, y la oscuridad jamás vencerá al mal.<P>\nEspero que puedas derrotar a Golbez...
+E0022_01_056_a_02	Has recibido la Quitapenas.
+E0022_01_056_a_03	En el muelle al este encontraréis un barco que os llevará adonde queréis ir.
+E0022_01_056_a_04	Tenemos que detener a Golbez. Si consigue reunir los Cristales, el mundo se verá sumido en el caos.<P>\nCuento con vosotros.
+E0023_00_331_a_01	¡Buena suerte! ¡Tened cuidado y dadles una buena zurra de mi parte!
+E0023_00_331_a_02	¡Claro que sí!
+E0023_00_331_a_03	¡Animo, (CECIL)! Pronto estaréis juntos otra vez.
+E0023_00_331_a_04	Lo intentaremos por todos los medios.
+E0023_00_331_a_05	Sé que puedo confiar en ti para cuidar de todo.
+E0023_00_331_a_06	Descuida. Ten cuidado, pichoncito.
+E0023_00_331_a_07	Tú eres (CECIL), ¿no? Me contaron que les metiste caña a esos baronianos.<P>\nRelajaos y disfrutad del viaje.
+E0023_00_331_a_08	¡Levad el ancla!
+E0023_00_331_a_09	¡Sí, capitán!
+E0023_02_332_a_01	¿Qué haremos cuando lleguemos a Baronia?
+E0023_02_332_a_02	Primero, tenemos que encontrarnos con (CID), ingeniero jefe de Baronia. Seguro que nos puede ayudar.
+E0023_02_332_a_03	Solo espero que ese hombre siga a salvo...
+E0023_02_332_a_04	...
+E0023_02_332_a_05	¿Tienes frío? Estás temblando.
+E0023_02_332_a_06	No es nada. No te preocupes...
+E0023_04_332_a_01	¡¿Qué ocurre?!
+E0023_06_332_a_01	¡Por las barbas del dios marino!
+E0023_06_332_a_02	¡Por el salmón sagrado!
+E0023_06_332_a_03	¡Mecachis en la mar!
+E0023_06_332_a_04	¡No puede ser!
+E0023_06_332_a_05	¡Sí, lo es! ¡Es Leviatán!
+E0023_08_332_a_01	¡Cambio de rumbo!
+E0023_08_332_a_02	¡Ayyy!
+E0023_08_332_a_03	¡(RYDIA)!
+E0023_08_332_a_04	¡(RYDIA)! ¡(YANG)!
+E0023_08_332_a_05	¡Auh!
+E0023_08_332_a_06	¡(GILBART)!
+E0023_10_344_a_01	...<P>\nOh... Uf...
+E0023_10_344_a_02	¿Dónde estoy?
+E0023_10_344_a_03	¡(RYDIA)!
+E0023_10_344_a_04	¡(GILBART)!
+E0023_10_344_a_05	¡(YANG)!
+E0023_10_344_a_06	¿Dónde están los demás?
+E0111_00_053_a_01	¡¿Qué dices?! ¿Que mi marido está en el fondo del mar?
+E0111_00_053_a_02	¿Qué se le ha perdido ahí?<P>\n¡No estoy llorando! ¡Tengo algo en el ojo...!
+E0111_00_053_a_03	Tomad esto. Dadle una buena torta con ella, a ver si espabila.
+E0111_00_053_a_04	Has recibido una sartén.
+E0113_00_053_a_01	Gracias por todo. A lo mejor esto os puede servir de algo.
+E0113_00_053_a_02	Has recibido un cuchillo.
+E0113_00_053_a_03	Dile que no se preocupe por mí. Que se dedique a recuperar fuerzas.
+E0132_00_055_a_01	¿Quieres verme bailar?
+E0132_00_055_a_02	¡Qué aburrido eres!
+E0132_00_055_a_03	Pero ¿qué demonios...?
+E0132_00_055_a_04	¡Kiai!
+E0132_00_055_a_05	¡Kiai!
+E0132_00_055_a_06	¡Kiai!
+N011_C02_044_01_01	¡Maestro (YANG)! El rey quiere verle.
+N011_C02_044_01_02	Daremos nuestras vidas por defender Fabul.
+N011_C02_044_01_03	Saludos, señor.
+N011_C02_044_01_04	¡Es demasiado peligroso salir de aquí! Intenta descansar antes, al menos.
+N011_C02_045_01_01	¿Nuestros mejores hombres fueron aniquilados? ¡Imposible!
+N011_C02_045_01_02	Si fuéramos más poderosos...
+N011_C02_045_01_03	Entre los marineros corre un extraño rumor. Hablan de la ira del dios del mar...
+N011_C02_045_01_04	Bienvenido.
+N011_C02_046_01_01	Nos alegramos de su regreso, maestro.
+N011_C02_046_01_02	Nosotros nos encargamos de la seguridad. Intentad descansar en la posada.
+N011_C02_046_01_03	Varias naves han naufragado últimamente, pero desconocemos la razón. Tened cuidado.
+N011_C02_046_01_04	Me alegro de verle sano y salvo, señor.
+N104_C01_047_02_01	El rey está descansando en su cuarto. Fue herido durante el ataque.
+N011_C02_052_03_01	¡Golbez pagará caro por esto!
+N011_C02_052_02_01	¿Cómo puede ser que Baronia controle a todos esos monstruos?
+N117_C01_052_01_01	Esta enfermería está lista para cualquier eventualidad.
+N117_C01_052_01_02	Ojalá mi magia fuera igual de poderosa que la de (ROZA)...
+N103_C00_053_01_01	¿Dónde te habías metido? Seguro que has estado haciendo el vago...
+P008_C00_053_02_01	Eh, yo... Os presento a mi mujer.<P>\n(CECIL) y sus compañeros me salvaron la vida en el monte Hobs.
+N103_C00_053_01_02	No sabéis cuánto os lo agradezco.<P>\nY tú, ¿no deberías ir a ver al rey?
+N103_C00_053_01_03	¡Pichoncito! ¡Has vuelto!
+P008_C00_053_02_02	Solo gracias a la ayuda de mis compañeros.
+N103_C00_053_01_04	¡Sois sus ángeles de la guarda!
+P008_C00_053_02_03	Y tú, ¿qué tal? ¿Todo bien?
+N103_C00_053_01_05	Sí, sí. Esos matones de Baronia salieron corriendo en cuanto les zurré con mi sartén. A propósito, me debes una nueva.
+N103_C00_053_01_06	¡¿Cómo?! ¡No digas tonterías! ¡Mi marido no está muerto!
+N011_C02_054_01_01	Oímos que os atacaron en el monte Hobs. ¿Estáis todos bien?
+N011_C02_054_01_02	Si al menos tuviéramos un barco volador, contaríamos con alguna posibilidad.
+N011_C02_054_01_03	Rezaré por vosotros.
+N011_C02_054_03_01	¡Maestro! ¡No estaba dormido! Solo meditaba...
+N102_C01_055_03_01	¿Cómo fue el entrenamiento, maestro?
+N102_C01_055_03_02	¡Aquello fue un ataque de una potencia demoledora!
+N103_C00_055_02_01	Estaremos a salvo mientras permanezcamos dentro del castillo con los monjes.
+N103_C00_055_02_02	Menos mal que nuestras casas quedan dentro de las murallas. Si no, podríamos haberlo perdido todo.
+N106_C01_055_01_01	Maestro (YANG), he oído que se acercan algunos malos. ¡Hágales papilla con su patada marca de la casa!
+N106_C01_055_01_02	¡Kiai, kiaia, kiai!<P>\n¡Jopé, tengo unas ganas de empezar a entrenar!<P>\nDicen que todo se basa en la fuerza mental.
+N006_C01_056_01_01	Fabul ha sufrido mucho. Debemos reagruparnos para poder defender a la gente.<P>\nNo os preocupéis por mí. Volved a la posada y descansad.
+N105_C01_056_02_01	Estos son los aposentos del rey.
+N105_C01_056_02_02	El rey fue un monje muy conocido en su juventud. ¡No os preocupéis por él!
+P001_C00_056_01_01	¡Qué cama tan enorme! Ojalá fuese mía...
+E0024_00_058_a_01	Tú eres el soldado que dirigió el ataque contra mi pueblo. ¿Por qué has vuelto?
+E0024_00_058_a_02	Me llamo (CECIL). Soy el antiguo capitán de las Alas Rojas.<P>\nEn ese momento no tuve valor para rebelarme contra las órdenes de mi rey, pero ahora...
+E0024_00_058_a_03	Tus disculpas no devolverán la vida a aquellos a quienes se la quitaste.
+E0024_00_058_a_04	Yo solo...
+E0024_00_058_a_05	Pero noto que algo has cambiado...<P>\nDime qué te ha traído a mi pueblo.
+E0024_00_058_a_06	Estamos luchando contra Golbez, un despiadado hombre que se ha hecho con bastante poder en Baronia.<P>\nCuando íbamos de camino hacia el reino para rescatar a una amiga, fuimos atacados por Leviatán...
+E0024_00_058_a_07	Quizá esto sea una prueba para que demuestres tu verdadero valor.<P>\nPero debes abandonar esa espada oscura de la que tanto dependes si deseas derrotar al mal.<P>\nAntes de que tu alma caiga irrevocablemente al lado oscuro, deberás viajar al monte Ordalía, al este de aquí.<P>\nAllí encontrarás tu verdadero destino.
+E0024_00_058_a_08	¡Pero las vidas de mis compañeros corren grave peligro!<P>\n¡No podemos perder más tiempo!
+E0024_00_058_a_09	Entiendo que tus amigos sean muy importantes para ti. Pero debes ser paciente. Te aguarda un gran destino.<P>\nDebes ir al monte Ordalía y transformar esa espada oscura en una de luz.<P>\nQuienes superan las pruebas y aceptan la luz se convierten en paladines.<P>\nAunque muchos han viajado al monte Ordalía, ninguno ha sido capaz de volver...<P>\n¿Deseas encontrar tu destino en la cima de la montaña, a pesar de todo?
+E0024_00_058_a_10	Sí. Debo expiar mis pecados.
+E0024_00_058_a_11	Me lo imaginaba. He elegido a dos magos que te ayudarán en tu odisea.<P>\n¡(PALOM)! ¡(POLOM)!
+E0024_00_058_a_12	¿Nos ha llamado?
+E0024_00_058_a_13	¿Dónde está (PALOM)?
+E0024_00_058_a_14	¡(PALOM)! ¡Ven aquí ahora mismo!
+E0024_00_058_a_15	No me puedo creer que tenga que ser el tío este de Baronia. Espero que agradezcas que (PALOM), el prodigio de Mysidia, vaya a ayudarte.
+E0024_00_058_a_16	¿Estos dos son magos?
+E0024_00_058_a_17	Efectivamente. Él es (PALOM) y su hermana, (POLOM).<P>\nAunque solo son aprendices, deberían serte de gran ayuda.
+E0024_00_058_a_18	¡Yo soy el mejor mago de Mysidia!<P>\nSiéntete afortunado de que vaya contigo.
+E0024_00_058_a_19	¡(PALOM)! Como no te comportes en este viaje, te va a caer una...
+E0024_00_058_a_20	Yo me llamo (POLOM). Es un placer conocerle.
+E0024_00_058_a_21	¡(PALOM)! Te toca a ti.
+E0024_00_058_a_22	Vale... Es un placer conocerte.
+E0024_00_058_a_23	El mago negro (PALOM) y la maga blanca (POLOM) se han unido al grupo.
+E0024_00_058_a_24	Ahora debéis partir hacia el monte Ordalía. Vosotros dos, ayudad a (CECIL) en todo lo que haga falta.
+E0030_00_058_a_01	¡Increíble! ¡Lo has conseguido!
+E0030_00_058_a_02	Señor (CECIL), ha estado magnífico.
+E0030_00_058_a_03	Y que lo digas. Superó todas las pruebas con honores.
+E0030_00_058_a_04	Pero ¿de qué habláis?
+E0030_00_058_a_05	Siento tener que decirte que les encomendé la tarea de espiarte. Mis disculpas.
+E0030_00_058_a_06	Resumiendo, así es.
+E0030_00_058_a_07	Me siento fatal por no haberle dicho nada. Pero no podía hacer otra cosa.
+E0030_00_058_a_08	Ya sospechaba yo algo cuando os enviaron conmigo.<P>\nPero tiene su lógica, después de lo que hice...
+E0030_00_058_a_09	Lo importante es que te has convertido en paladín y conquistado la oscuridad que te corrompía por dentro.<P>\nNo puede ser... Esa espada... ¿Dónde conseguiste esa espada?
+E0030_00_058_a_10	La recibí en la cima de la montaña.
+E0030_00_058_a_11	¿Será...? ¡Lo es! Esta espada tiene grabada una antigua leyenda mysidiana.
+E0030_00_058_a_12	¿Una leyenda...?
+E0030_02_058_a_01	"La luz que encontré en el monte me llamó ""hijo"". ¿Qué era esa luz?"
+E0030_02_058_a_02	Una buena pregunta para la cual no tengo respuesta. Las leyendas siempre guardan muchos misterios.<P>\nDurante generaciones, a los mysidianos solo nos han pedido que rezáramos por el cumplimiento de la leyenda<P>\ny la llegada del portador de la luz sagrada. Quizá seas tú el elegido...
+E0030_02_058_a_03	¡Basta de parlotear! ¡Golbez debe pagar por sus acciones!
+E0030_02_058_a_04	¿(TELLA)?
+E0030_02_058_a_05	Hace mucho tiempo que no nos vemos.
+E0030_02_058_a_06	Nos lo encontramos en el monte Ordalía.
+E0030_02_058_a_07	Y ¿sabes qué? ¡El abuelo aprendió a conjurar Meteo!
+E0030_02_058_a_08	¡Oh, no! ¿Cómo se pudo romper el sello? Ese hechizo puede provocar la destrucción del mundo.
+E0030_02_058_a_09	El destino del mundo no me importa. Solo deseo vengar a mi Anna.
+E0030_02_058_a_10	¿Tu hija Anna?
+E0030_02_058_a_11	Golbez acabó con su vida. Ahora utilizaré Meteo para acabar con la suya.
+E0030_02_058_a_12	(TELLA), nunca deberías permitir que el odio controle tus acciones.<P>\nAdemás, tu condición física no te permite conjurar Meteo. Es muy peligroso para ti.
+E0030_02_058_a_13	¡Estoy dispuesto a sacrificar mi vida para acabar con la de Golbez!
+E0030_02_058_a_14	Sigues igual de testarudo que una mula.
+E0030_02_058_a_15	¡Ja! Mira quién habla.
+E0030_02_058_a_16	Supongo que con tus hechizos y el nuevo poder de (CECIL) tenéis la posibilidad de derrotar a Golbez...
+E0030_02_058_a_17	De todas formas, debemos volver a Baronia para conseguir un barco volador.
+E0030_02_058_a_18	Muy bien. Os abriré el camino del Averno.<P>\nComo paladín, estoy seguro de que podrás utilizar esta ruta sin peligro.<P>\nAhora debo volver a la Torre de la adoración. Os tendré presentes en mis oraciones.
+E0030_02_058_a_19	Gracias por todo.
+E0030_02_058_a_20	(PALOM) y (POLOM), volved a vuestros estudios.
+E0030_02_058_a_21	Maestro, te rogamos que nos permitas acompañarles.
+E0030_02_058_a_22	Usted fue quien dijo que deberíamos hacer todo lo que pudiéramos por ayudarle.
+E0030_02_058_a_23	Muy bien. Los dos superasteis las pruebas del monte Ordalía.<P>\nQuizá este sea vuestro destino. Cuidad de ellos, por favor.
+E0030_02_058_a_24	Pero yo... eh...
+E0030_02_058_a_25	¿Qué pasa? ¿Es que no quieres nuestra ayuda?
+E0030_02_058_a_26	Estoy segura de que la valorará.
+E0030_02_058_a_27	No te preocupes, viejo amigo. Yo cuidaré de ellos.
+E0030_02_058_a_28	Venga, pues. Cuento con vosotros.
+E0030_02_058_a_29	¡Guay!
+E0030_02_058_a_30	(PALOM), recuerda que esto no va a ser como ir de excursión.
+E0030_02_058_a_31	La entrada al camino del Averno está en la parte este del pueblo.<P>\n(PALOM) y (POLOM), tened cuidado y volved pronto. Suerte a todos.
+E0068_00_057_a_01	Siempre supe que volverías. Reúnete con nosotros en la Torre de la adoración.
+E0068_02_060_a_01	Recemos todos juntos. ¡Es hora de hacer realidad la leyenda!
+E0068_04_060_a_01	¡Mira! Nuestras oraciones...<P>\n¡Nuestras oraciones han sido atendidas!
+E0068_06_060_a_01	No existe duda. Esa gloriosa nave...
+E0068_06_060_a_02	¡La Ballena lunar!
+E0068_08_060_a_01	Una extraña voz me habló durante mis oraciones.<P>\nDebes volar a la Luna. Alguien te aguarda allí.
+E0068_08_060_a_02	Pero ¿cómo podemos alcanzar la Luna?
+E0068_08_060_a_03	La Ballena lunar no es una nave de este mundo.<P>\nSegún las antiguas leyendas mysidianas, porta un Cristal que le permite navegar entre la Luna y aquí. Debes comunicarte con él.
+E0068_08_060_a_04	Lo intentaré.
+E0133_00_063_a_01	¡Eh! ¡Mira esto!
+E0133_00_063_a_02	Tengo sueño... Mucho sueño...
+E0133_01_057_a_01	Je, je, je... Aún necesitas mucha práctica.
+E0138_00_063_a_01	¡Anda, pero si estás agotado! Toma esto y ya verás lo bien que te sientes.
+E0138_00_063_a_02	¡Agh! ¡Uf! ¡Aaaj!
+E0138_00_063_a_03	¡Ja, ja! ¡Estaba envenenado! ¡Ahora pagarás por tus crímenes, maldito caballero oscuro!
+E0152_00_057_a_01	¿Quién iba a decirlo? ¡Tú por aquí otra vez! <P>\n¡Toma esto! ¡Rana!
+N118_C01_057_02_01	¿Tú, un paladín? ¡Ja!
+N118_C01_057_02_02	Así que todavía quedaba gente en el mundo capaz de llevar la armadura de un paladín...
+N118_C01_057_01_01	¡Yo no hablo con gente de tu calaña!
+N118_C01_057_01_02	Con una espada oscura no podrás derrotar a las hordas de no muertos que plagan el monte Ordalía.
+N118_C01_057_01_03	Pero ¿cómo es que alguien como tú se ha convertido en paladín?
+N117_C01_057_04_01	El camino del Averno es una vía distorsionada entre dimensiones temporales.<P>\nSe dice que hay que sacrificar una cantidad notable de vitalidad para poder cruzarlo.
+N117_C01_057_05_01	Me apena ver cómo los humanos se lastiman y se matan entre sí.
+N117_C01_057_05_02	Debes superar las pruebas que te aguardan en el monte Ordalía si deseas renunciar a la espada oscura.
+N117_C01_057_05_03	Ahora has de tener la conducta de un paladín.
+N118_C01_057_08_01	¿Cómo te atreves a venir aquí?
+N118_C01_057_08_02	Muchos son los que han viajado al monte Ordalía para encontrar la luz sagrada...<P>\nNinguno ha vuelto.
+N118_C01_057_08_03	¡Que sepas que aún no te he perdonado!
+N117_C01_057_07_01	No te puedes ni imaginar cuánto dolor y sufrimiento nos has causado.
+N117_C01_057_07_02	El monte Ordalía queda al este de aquí.
+N117_C01_057_07_03	Puedo ver que has sufrido mucho. Yo también oraré por ti.
+N118_C01_057_06_01	Dentro de este edificio se encuentra el camino del Averno que conduce hasta Baronia.<P>\nEste se selló después de un trágico accidente.
+N117_C01_057_03_01	¡Agh! ¡Tú eres ese caballero oscuro de Baronia!
+N117_C01_057_03_02	¡Agh! ¿Que quieres ser paladín? No me hagas reír, hombre.
+N117_C01_057_03_03	¡Agh! Pero esa armadura... ¿Te has hecho paladín?<P>\nTierra, trágame...
+N118_C01_062_01_01	¿Qué quieres? ¿Más armas con las que masacrar a más gente?
+N118_C01_062_01_02	No puedes utilizar la mayoría de estas armaduras a no ser que seas paladín.<P>\nEso significa que aquí no hay nada para ti, ¡ya puedes largarte!
+N118_C01_062_01_03	Ya te lo dije. No puedes utilizar esta armadura hasta que seas paladín...<P>\n¡No me digas que...!
+N999_C03_063_01_01	¡Baronia pagará caras sus atrocidades!
+N118_C01_063_01_01	¡Por favor! ¡No me mates!
+N118_C01_063_01_02	¡No me mates! ¡No me mates! ¿Eh...? ¡¿Que te vas al monte Ordalía?!
+N118_C01_063_01_03	Guau, tienes un aspecto magnífico.
+N118_C01_063_04_01	¡Vete a freír verduras gysahl! ¡Hip! ¡Hiiip! ¡Tú no me asustas!
+N118_C01_063_04_02	¿Tú, paladín? ¡Sí, claro, y yo emperador! ¡Ja, ja! ¡Hip!
+N118_C01_063_04_03	¡Uf! Creo que me he pasado un poquito. ¡Hip, hip! Juraría haber visto a un paladín y todo...
+N117_C01_063_03_01	¡Vil monstruo! ¡Libera a mi gente!
+N117_C01_063_03_02	¡(PALOM)! ¡(POLOM)! ¡No os fieis de este hombre!
+N117_C01_063_03_03	¡Qué esplendor! ¡La luz de un verdadero paladín!
+N118_C01_063_02_01	¿Tú, paladín? Ni en tus sueños.
+N118_C01_063_02_02	¡Que me parta un rayo! ¡Lo conseguiste!
+N118_C01_058_04_01	Todos nacemos inocentes, pero aun así hay gente mala en el mundo. ¿Por qué será?
+N118_C01_058_04_02	El paladín es la antítesis del caballero oscuro.
+N118_C01_058_04_03	Tu destino te ha conducido a ser un paladín, pero ¿qué te aguardará en el futuro?
+N999_C02_058_03_01	Cura para novatos
+N999_C02_058_04_01	Enciclopedia de magia negra
+N999_C02_058_05_01	Orígenes de los Cuatro Elementos
+N118_C01_058_03_01	El maestro nos dijo que perdonáramos tus atrocidades... pero yo no puedo.
+N118_C01_058_03_02	Solo confiaré en ti cuando te hayas convertido en paladín.
+N118_C01_058_03_03	De ahora en adelante, tienes toda mi confianza.
+N117_C01_058_02_01	Estás en el oratorio. Puedes hablar con el maestro, si deseas.
+N117_C01_058_02_02	Debes ir y probar que mereces recibir la luz sagrada.
+N117_C01_058_02_03	¡Ahora que te has liberado de la oscuridad brillas como el mismo sol!
+N004_C01_060_01_01	Creo que eres el salvador de nuestro mundo.<P>\nLo único que puedo hacer es rezar por ti.<P>\n(PALOM) y (POLOM), prestad atención a (CECIL) y ayudadle en su misión.
+N004_C01_060_01_02	Ya entiendo... (PALOM), (POLOM)... estoy tan orgulloso de los dos...<P>\nVuestros nombres se recordarán en la historia de Mysidia para siempre.
+N004_C01_060_01_03	(TELLA)... Le advertí que no luchara con odio en el corazón...<P>\nEspero que su alma halle reposo.
+N004_C01_060_01_04	Debes regresar a la Luna y cumplir con tu destino.
+N118_C01_060_03_01	El maestro viene a rezar aquí mucho últimamente.
+N118_C01_060_03_02	Debes llegar a la Luna lo antes posible.
+N117_C01_060_02_01	Rezamos por absolutamente todas las almas.
+N117_C01_060_02_02	Seguiremos rezando.
+P009_C00_060_20_01	¡Suerte! Cómo nos gustaría poder acompañarte...
+P010_C00_060_18_01	Te has convertido en un gran paladín. ¡Siempre creí en ti!
+P008_C00_060_17_01	Sois los elegidos. Suerte en batalla.
+P007_C00_060_19_01	(TELLA) creía en ti tanto como lo hago yo.<P>\n¡Te acompañamos en espíritu!
+N010_C00_060_12_01	Nunca imaginé que ocurriría esto...
+N010_C00_060_13_01	(GILBART) ha rezado incesantemente para que vuelvas sano y salvo.
+N030_C00_060_14_01	Tienes que volver a visitarnos algún día, ¿vale? ¡Prométemelo!
+N015_C00_060_15_01	El destino del mundo y de todos los que vivimos en él está en tus manos.
+N005_C01_060_10_01	¡Vuelve sano y salvo, (CECIL)!
+N005_C01_060_11_01	El jefe se pone de mala uva cuando no estás aquí.<P>\n¡Más te vale volver sano y salvo, (CECIL)!
+P005_C00_060_16_01	¡Demonios! Yo también quiero ir...<P>\n¡Pero como no vuelvas te mato! ¿Entendido?
+E0025_00_182_a_01	Vamos, ¿a qué esperas?
+E0025_00_182_a_02	¡No me rayes! ¡Ya voy!
+E0025_00_182_a_03	¡Hielo!
+E0025_00_182_a_04	¡Ja! ¡Pan comido!
+E0025_00_182_a_05	¡Paf!
+E0025_00_182_a_06	¡(PALOM)! El maestro nos enseñó a no ser creídos.
+E0025_00_182_a_07	Perdónele sus payasadas.
+E0025_00_182_a_08	Mientras tanto...
+E0026_00_183_a_01	¡(TELLA)!
+E0026_00_183_a_02	¿(CECIL)?
+E0026_00_183_a_03	¿Qué te trae por aquí? No me digas que tú también buscas Meteo.
+E0026_00_183_a_04	¿Meteo...?
+E0026_00_183_a_05	¿Cómo puede ser que conozca el hechizo Meteo?
+E0026_00_183_a_06	¡Porque es (TELLA)! ¿A que sí, abuelo?
+E0026_00_183_a_07	¡No te pases! ¡Es un gran sabio!
+E0026_00_183_a_08	Es un honor conocerle. Estamos aquí bajo órdenes de nuestro maestro.
+E0026_00_183_a_09	Así es, se supone que debemos espiar...
+E0026_00_183_a_10	¡Paf!
+E0026_00_183_a_11	Perdóneme. Como le estaba contando, servimos de guías para el señor (CECIL). Yo me llamo (POLOM).
+E0026_00_183_a_12	Y yo soy (PALOM), el mejor mago de Mysidia. He oído mucho sobre ti.
+E0026_00_183_a_13	Conque niños de Mysidia, ¿eh? Dime, (CECIL), ¿dónde están (RYDIA) y (GILBART)?
+E0026_00_183_a_14	Leviatán nos atacó cuando íbamos de camino a Baronia...
+E0026_00_183_a_15	¡¿Cómo?! Pero ¿no me digas que han muerto?
+E0026_00_183_a_16	Me temo que sí. Además, Golbez raptó a (ROZA).
+E0026_00_183_a_17	¡Cuánto te apuestas a que es su novia!
+E0026_00_183_a_18	¡Calla!
+E0026_00_183_a_19	Pensé que habías decidido ir directamente a Baronia para luchar contra Golbez...
+E0026_00_183_a_20	Mis hechizos no son lo bastante poderosos para derrotar a Golbez. Por eso he venido aquí en busca del legendario hechizo Meteo.<P>\nPuedo detectar un fuerte campo mágico en esta montaña. Seguro que aquí encontraré lo que busco.
+E0026_00_183_a_21	Pero ese hechizo es demasiado peligroso para una persona de su edad.<P>\nHace falta mucha vitalidad para conjurar Meteo...
+E0026_00_183_a_22	Sé que solo soy un pobre anciano, pero Golbez pagará por sus crímenes.<P>\n¡Aunque me vaya la vida en ello!
+E0026_00_183_a_23	...
+E0026_00_183_a_24	¡Anda que...! ¡Qué cabezones son los mayores!
+E0026_00_183_a_25	Tú calla. Un criajo como tú no puede entenderlo.
+E0026_00_183_a_26	(CECIL), todavía no has contestado a mi pregunta. ¿Qué haces aquí?
+E0026_00_183_a_27	Vine con la esperanza de hacerme paladín. No puedo derrotar a Golbez con la espada oscura...<P>\ny siempre he deseado poder renunciar a esa odiosa arma.
+E0026_00_183_a_28	¿Quién es Golbez?
+E0026_00_183_a_29	Nunca prestas atención. Golbez es el que está controlando Baronia.
+E0026_00_183_a_30	No es un hombre cualquiera. Posee unos poderes y una maldad inimaginables.
+E0026_00_183_a_31	Así que quieres convertirte en paladín. Eso significa que esta montaña posee algún secreto, como sospechaba. Os acompañaré hasta la cima.
+E0026_00_183_a_32	El sabio (TELLA) se ha unido al grupo.
+E0156_00_185_a_01	Sssrrr...
+E0156_00_185_a_02	(PALOM), para de hacer eso.
+E0156_00_185_a_03	¿Que pare de hacer qué?
+E0157_00_185_a_01	Sssrrr...
+E0157_00_185_a_02	¡Te he dicho que pares!
+E0157_00_185_a_03	¡Que yo no he hecho nada!
+E0027_00_185_a_01	Sssrrr...
+E0027_00_185_a_02	Noto una presencia malévola.
+E0027_00_185_a_03	Creo que disfrutaré viendo como rogáis por vuestras miserables vidas...
+E0027_00_185_a_04	¡Da la cara! ¿Quién eres?
+E0027_00_185_a_05	Bajo las órdenes del maestro Golbez, yo, Scarmiglione de la Tierra, os enviaré a las profundidades del infierno.<P>\nPero primero... ¡mis pobres no muertos tienen que comer!
+E0027_00_185_b_01	¡Despedazadlos!
+E0027_00_185_b_02	Pero ¿qué me ocurre?
+E0028_00_185_a_01	Sssrrr... Pobres ignorantes. Mi verdadero poder proviene de la muerte...<P>\n¡Acompañadme en el viaje al infierno!
+E0028_00_185_b_01	Este es mi verdadero aspecto.
+E0028_00_185_b_02	¡Morid!
+E0028_00_185_b_03	¡Inhalad esto y uníos a los no muertos!
+E0028_01_185_a_01	¡Desgraciados! ¿Cómo es posible?
+E0028_01_185_a_02	¡Uf!... ¡Argggh!
+E0029_00_185_a_01	Hijo mío, yo...
+E0029_00_185_a_02	"¿Quién eres para llamarme ""hijo mío""?"
+E0029_01_350_a_01	He sufrido una eternidad de agonía y pena esperando tu llegada. Ahora, te encomiendo mi poder.<P>\nMi dolor se hará mayor, pero no nos queda otro remedio.
+E0029_01_350_a_02	Rompe con tu pasado y vence a la oscuridad de tu corazón. Solo entonces podrás recibir el poder sagrado.<P>\nDeberás luchar contra el caballero oscuro al que tanto repudias... ¡Deberás vencerte a ti mismo!
+E0029_01_350_a_03	¡¿Eh?!
+E0029_01_350_a_04	¿Qué está pasando?
+E0029_01_350_a_05	¡No lo sé! ¡Pero hay otro (CECIL)!
+E0029_01_350_a_06	¡(CECIL)!
+E0029_01_350_a_07	¡Eh!
+E0029_01_350_a_08	¡Cuidado!
+E0029_01_350_a_09	¡Atrás! Esta es mi batalla... La batalla para redimir mis pecados.
+E0029_01_350_b_01	Un verdadero paladín...
+E0029_01_350_b_02	enfundaría su espada.
+E0029_01_350_b_03	Algunos luchan por la ley.
+E0029_01_350_b_04	Otros luchan por la justicia.
+E0029_01_350_b_05	Pero hay algo más por qué luchar...
+E0029_01_350_b_06	Algún día lo sabrás.
+E0029_02_350_a_01	Has superado la prueba. Recibe mi espíritu en tu corazón. Mi alma, mi luz...<P>\nCon estos poderes deberás detener a Golbez. Suerte, hijo mío.
+E0029_02_350_a_02	¡Espera, por favor!
+E0029_02_350_a_03	(CECIL) se ha convertido en paladín.
+E0029_02_350_a_04	¿Te encuentras bien?
+E0029_02_350_a_05	Tienes pinta de...
+E0029_02_350_a_06	Basta ya, (PALOM).
+E0029_02_350_a_07	Esta sensación... No puedo describirla, pero... me es muy familiar. Y esa voz...
+E0029_02_350_a_08	¡Oooh!
+E0029_02_350_a_09	¿Maestro (TELLA)?
+E0029_02_350_a_10	¡Mis hechizos! ¡Los recuerdo todos!
+E0029_02_350_a_11	(TELLA) ha recuperado todos sus hechizos.
+E0029_02_350_a_12	¡Oh!<P>\n¿Me... te... o?<P>\nEsa luz rompió el sello sobre Meteo de alguna manera.
+E0029_02_350_a_13	(TELLA) ha aprendido Meteo.
+E0029_02_350_a_14	Es un gran sabio, está claro.
+E0029_02_350_a_15	¡Eh, (POLOM)! Creo que quizá...
+E0029_02_350_a_16	Ejem, ¿(CECIL)?
+E0029_02_350_a_17	Tenemos que decirte algo...
+E0029_02_350_a_18	Ahora puedo destruir a Golbez de una vez. ¡Seré su perdición!
+E0029_02_350_a_19	¡Vamos, (CECIL)! ¡A Baronia se ha dicho!
+E0029_02_350_a_20	Sí, claro... A Baronia...
+E0029_02_350_a_21	"Esa luz... ¿Por qué me llamaba ""hijo""?"
+E0029_02_350_a_22	¡Eh! ¡Esperad!
+E0029_02_350_a_23	¿Vamos?
+E0029_02_350_a_24	Sí.
+E0134_00_072_a_01	¿Has venido para ver nuestro baile habitual? ¡No te arrepentirás!
+E0134_00_073_a_02	¡Somos los hermanos Mitrilo! ¿Preparado para un poco de marcha? ¡Pues vamos, entonces!
+E0134_00_073_a_03	¡Oh, sí!
+N122_C01_072_01_01	¿Qué hace un humano por estos lares? Cuidado con dónde pones los pies, no vaya a ser que me chafes.
+N122_C02_072_03_01	¡Caray! ¿Es que sois todos gigantes?
+N120_C03_072_04_01	Ni me puedo imaginar cuánto tendrás que comer para llenar un cuerpo así de grande.
+N120_C03_072_05_01	El monte Mitrilo queda en el lejano norte. Pero seguro que con esas patas tan largas podrías llegar en un abrir y cerrar de ojos.
+N002_C00_072_02_01	El Rana, el Mini y yo trabajamos extrayendo, refinando y procesando el mitrilo para fabricar armas y armaduras.
+N122_C02_072_06_01	¡Guay!
+N120_C03_072_08_01	¡Somos la caña!
+N122_C01_075_02_01	Soy la niña más bonita del pueblo. ¿Que no me puedes ver porque soy demasiada pequeña?<P>\n¡Pues acércate un poquito, entonces!
+N122_C02_075_03_01	No es nada fácil tener una hija tan hermosa. Siempre tengo que protegerla de la escoria de este mundo.
+E0128_00_093_a_01	¡Adelante! El espectáculo comenzará en breve, ¿le gustaría tomar asiento?
+E0139_00_091_a_01	¿Podría ver su carné de socio, por favor?
+E0139_00_091_a_02	Gracias. Disfrute del espectáculo.
+N103_C02_086_01_01	Bienvenido a Troia. La ciudad del agua y los árboles.
+N104_C00_086_02_01	¡Lárgate! ¡Búscate tu propio sitio!
+N109_C02_086_03_01	¡Oh, ver para creer! ¿Por qué estás nadando con tu armadura?<P>\n¡Se te va a oxidar, merluzo!
+N109_C01_086_04_01	¡El agua está muy buena! ¿Por qué no te das un baño?
+N105_C01_086_05_01	¿Has visto a mi marido? ¿Dónde se habrá metido ese viejo chocho?
+N114_C02_086_06_01	Me llevé una caja fuerte a la cueva noreste, pero tuve que dejarla poque no podía con el peso de tanto que la llené de joyas.
+N026_C00_086_07_01	¿¡Eh...?!<P>\n¿Qué haces? ¿No ves que estoy tomando el sol?
+N107_C01_086_09_01	¿Has oído hablar de las hierbas sonoras? Se supone que pueden transmitir tu voz a larga distancia.
+N105_C00_094_01_01	Gracias al abundante suministro de agua y pastos, podemos cultivar nuestras verduras y hasta criar chocobos.
+N999_C02_094_03_01	Hábitat de los chocobos
+N999_C02_094_04_01	Tú también puedes criar chocobos
+N106_C02_095_02_01	¡Quiero un chocobo negro para poder volar! Pero no me puedo acercar a ellos. Se ponen como fieras.
+N107_C01_095_01_01	¡Me encantan los chocobos! Aunque son un poco apestosos...
+N105_C00_095_03_01	Por alguna razón, estos chocobos negros no pueden volar.<P>\nPero los que viven en el pueblo de los chocobos al norte de aquí sí que pueden, aunque solo sea a poca altitud.<P>\nLo curioso es que solo pueden aterrizar en un bosque.
+N103_C02_095_04_01	Los chocobos negros siempre saben cómo volver a casa.<P>\nEl problema es que suelen escaparse después de hacer un viaje de ida y vuelta.
+N999_C03_095_01_01	- El Diario de Troia -<P>\n¡Se descubre una nueva raza de chocobos! Los increíbles chocobos negros revolucionarán cómo viajamos.
+N116_C01_095_05_01	Kué, kué.
+N102_C01_091_08_01	¡Stellaaaa! ¡Qué guapa eres!<P>\n¡Pero qué...! ¡Si eres un hombre! ¡Socorro!
+N109_C02_091_07_01	¡Hola, guapo! Charla conmigo un poquito.
+N109_C01_091_02_01	Se respira un aire limpio y fresco. La comida es abundante y buena. ¡Y encima hay muchas chicas!
+N105_C00_091_09_01	Tranquilo, yo cuidaré de ti.<P>\n¿Por qué me miras así? ¡¿Tienes algún problema conmigo?!
+N104_C00_091_04_01	¡Aquí estoy en la gloria! ¿Qué puede ofrecerme el paraíso que no tenga ya aquí?
+N102_C02_091_06_01	¡Sí! ¡Por fin! ¡Un asiento en la barra! ¡Menuda vidorra es esta!
+N114_C01_091_05_01	Este local siempre está lleno de hermosas mujeres.
+N103_C00_091_10_01	¡Hola, guapo! Avísame si necesitas algo.
+N102_C02_092_01_01	Espero que tengas billetes, jefe. Aquí, poderoso caballero mercantil es Don Guil. ¿Sabes lo que te digo?
+N105_C00_092_02_01	¡Sal ahora mismo! Esto es solo para miembros.
+N109_C02_092_03_01	Tráeme un abrigo de piel la próxima vez. ¿Vale, cariño?
+N104_C00_092_04_01	¡Lo que tú quieras, luz de mi vida!
+N103_C00_092_05_01	Mi trabajo es asegurarme de llevar a todo el mundo lo que pide.
+N104_C02_092_07_01	Y en ese momento, atravesé al duende con mi acero y conseguí escapar.
+N109_C01_092_08_01	Este viejales no hace más que recordar sus viejas aventuras...<P>\nSi intenta contarme otro disparate, no seré responsable de mis actos.
+N105_C00_092_09_01	¡Que ni se le ocurra al abuelo intentar algo con mi querida Jenny!
+N104_C00_093_02_01	¿No tienes mejores cosas que hacer que estar aquí empinando el codo?
+N109_C02_093_03_01	¡Eeeh!<P>\n¡Fuera de aquí pervertido! ¡Esto es un vestuario!
+E0035_00_100_a_01	¡(GILBART)!
+E0035_00_100_a_02	¿(CECIL)...? Qué alegría saber que sigues vivo. Yo también quiero luchar junto a ti...
+E0035_00_100_a_03	En tu condición actual no puedes ayudarnos. ¡Lo que tienes que hacer es dormir!
+E0035_00_100_a_04	(TELLA)... no sé cómo disculparme...<P>\nAnna murió por mi culpa...
+E0035_00_100_a_05	...
+E0035_00_100_a_06	Jamás me lo podré... perdonar...
+E0035_00_100_a_07	(GILBART), lo importante ahora es que recuperes fuerzas.<P>\nDebes descansar más.
+E0035_00_100_a_08	(YANG)... Así que sobrevivimos todos... ¿Dónde está (RYDIA)?
+E0035_00_100_a_09	No sé... ni cómo decirlo...
+E0035_00_100_a_10	¡No...! La pobre...<P>\nY yo aquí en un momento como este. Más penoso no podría ser...
+E0035_00_100_a_11	¡Eh, tú! Me contaron que sin ti no estarían ni (CECIL) ni (ROZA) con nosotros! ¡Te debo una!<P>\nA lo mejor si te subes al Enterprise con nosotros, te podré devolver el favor en algún momento.
+E0035_00_100_a_12	Supongo que tú eres (CID), el ingeniero...<P>\nEntonces... ¿ya tenemos un barco volador?...
+E0035_00_100_a_13	(CECIL), ¡¿dónde está (ROZA)?!
+E0035_00_100_a_14	Golbez la raptó, y para recuperarla debo entregar el Cristal de Troia, que está en manos del elfo oscuro.
+E0035_00_100_a_15	El elfo oscuro...
+E0035_00_100_a_16	(CECIL), quiero que aceptes esto.
+E0035_00_100_a_17	¿Qué es?
+E0035_00_100_a_18	La única manera con la que puedo ayudar ahora.
+E0035_00_100_a_19	Has recibido hierbas sonoras.
+E0035_00_100_a_20	(CECIL), ¡tienes que salvar a (ROZA)!
+E0081_01_100_a_01	¡(CECIL)! ¡Todos se encuentran en grave peligro!
+E0081_01_100_a_02	¡No puedes moverte en tu estado!
+E0081_01_100_a_03	¡¿Adónde crees que vas?!
+E0081_01_100_a_04	A buscar... mi... arpa... ¡Ayyy!
+E0081_01_100_a_05	¡Debes tumbarte y descansar! ¡No debes hacer esfuerzos!
+E0081_01_100_a_06	No me... importa... lo que me pase...<P>\n¡Tengo... que... salvarlos! ¡Soy el único que puede!
+E0038_00_100_a_01	Habéis vuelto.
+E0038_00_100_a_02	Gracias a ti.
+E0038_00_100_a_03	No hice nada que vosotros no hubierais hecho...
+E0038_00_100_a_04	Lo que no entiendo es cómo funcionó...
+E0038_00_100_a_05	Oí esa música cuando era un bardo ambulante...<P>\nSe suponía que era una melodía que embrujaba a los elfos, y se me ocurrió que quizá...
+E0038_00_100_a_06	Te debemos nuestras vidas.
+E0038_00_100_a_07	No, no. Yo solo... Cof... ¡Uf!
+E0038_00_100_a_08	¡(GILBART)!
+E0038_00_100_a_09	(TELLA)...
+E0038_00_100_a_10	Siempre me pregunté qué veía en ti mi Anna... Ahora lo entiendo.<P>\nCoraje, sacrificio e integridad. Fue afortunada de encontrar a alguien como tú.
+E0038_00_100_a_11	Pero yo...
+E0038_00_100_a_12	Silencio. Reposa y cúrate. Vengaré a Anna también de tu parte.
+E0038_00_100_a_13	Gracias...
+E0038_00_100_a_14	(GILBART), estoy ansioso por tenerte luchando a mi lado otra vez.
+E0038_00_100_a_15	Ahora por lo menos entiendo por qué se sacrificó mi Anna...
+E0039_00_098_a_01	¡Increíble! ¡Lo conseguiste!
+E0039_00_098_a_02	¡El Cristal de la Tierra!
+E0039_00_098_a_03	¡Lo has recuperado!
+E0039_00_098_a_04	¡Viva!
+E0039_00_098_a_05	Veo que has conseguido recuperar el Cristal.
+E0039_00_098_a_06	¡Conozco esa voz!
+E0039_00_098_a_07	¡(CAIN)!
+E0039_00_098_a_08	Tráelo y sube a la nave. Te llevaré junto a (ROZA).
+E0040_01_320_a_01	¿Dónde está el Cristal de la Tierra?
+E0040_01_320_a_02	Aquí lo tienes. ¿Dónde está (ROZA)?
+E0040_01_320_a_03	En la torre de Zot. Sígueme.
+N101_C02_096_01_01	Bienvenido al castillo de Troia.
+N101_C02_096_02_01	Si necesitáis cualquier cosa, no dudéis en pedirla.
+N101_C02_096_03_01	¿Deseáis saber más acerca de los Cristales? Entonces deberéis hablar con las devotas del castillo.
+N101_C02_096_04_01	Las devotas son las solemnes servidoras de los dioses. Honradlas y comportaos respetuosamente, ¿entendido?
+N120_C03_096_08_01	¡Croac!
+N120_C03_096_06_01	¡Croac!
+N120_C03_096_05_01	...
+N101_C02_097_01_01	Un hombre de Damcyan  apareció hace poco en Troia. Proclama ser un príncipe.
+N101_C02_097_02_01	Troia nunca ha estado en guerra. No sé cómo de bien podríamos defender Troia si la guerra estallase...
+N101_C02_097_03_01	He oído que Baronia está cada día más agresiva. Espero que no decidan atacarnos...
+N101_C02_097_04_01	A diferencia de los otros reinos, a Troia la gobiernan mujeres. Hasta los soldados son mujeres.
+N105_C00_097_07_01	Las devotas se han convocado en la próxima sala. Y sí, soy ministra, aunque no lo parezca.
+N101_C02_097_05_01	¿Que baile para ti...? ¡¿Estás ciego?! ¿No ves que soy una militar?
+N101_C02_097_06_01	Esta armadura no ofrece mucha protección, pero es muy ligera. ¡Además de ser el último grito en leotardos!
+N109_C02_104_01_01	Esto antes era el calabozo de Troia, pero ahora es donde se guardan todos nuestros tesoros.
+N109_C02_104_01_02	¿Las devotas os han concedido acceso a esta sala?
+N109_C02_104_01_03	Vaya, qué honesto eres.
+N109_C02_104_01_04	¡No me mientas! ¡Que te he pillado!
+N109_C02_104_01_05	Podéis pasar cuando queráis.
+N101_C02_100_01_01	¡Hablad más bajo! ¿Es que no veis que aquí hay un hombre muy enfermo intentando recuperarse?
+N102_C02_100_02_01	Estamos atendiendo al príncipe las veinticuatro horas del día. Yo soy el enfermero y ella la doctora.
+N103_C01_100_03_01	Necesita mucho reposo. Tiene una constitución muy delicada, lo que explica por qué tarda tanto en recuperarse.
+P007_C00_100_04_01	¡(CECIL)! ¡Salva a (ROZA)!
+P007_C00_100_04_02	Tened cuidado.
+P007_C00_100_04_03	¡¿(TELLA) ha muerto?! <P>\n¡Imposible! ¿Cómo puede ser...?
+P007_C00_100_04_04	(YANG)... Quizá si os hubiera acompañado nada de esto hubiese ocurrido...
+P007_C00_100_04_05	¿(YANG) está vivo? ¡Qué alivio saberlo!...<P>\n¿Se lo has contado a su mujer?
+N999_C07_100_03_01	Es el arpa de (GILBART).
+N101_C02_098_01_01	Las ocho devotas son todas hermanas y han servido a los Cristales durante generaciones.
+N101_C02_098_02_01	Las mujeres gobiernan de una manera mucho más civilizada que los hombres.
+N010_C00_098_03_01	¡No sabemos qué hacer desde que el elfo oscuro nos robó el Cristal!
+N010_C00_098_03_02	El poder del Cristal varía dependiendo de su portador.<P>\nSi acaba en las manos equivocadas, quién sabe lo que puede ocurrir...
+N010_C00_098_03_03	Se rumorea que existen más de cuatro Cristales. Si eso es verdad, aún tenemos alguna esperanza.
+N010_C00_098_04_01	Hemos gobernado Troia durante años gracias a la bendición del Cristal de la Tierra, pero ahora...
+N010_C00_098_04_02	Pero ¿qué ocurre?
+N010_C00_098_04_03	¡Qué desolador! No solo Troia corre grave peligro, ¡sino el mundo entero!
+N010_C00_098_05_01	Las piezas de equipo metálicas dificultarán el movimiento en la cueva.<P>\nRecordad esto a la hora de equiparos.
+N010_C00_098_05_02	¡Pero si nos lo acaban de devolver! Bueno, si no hay más remedio... ¡Pero es solo un préstamo!
+N010_C00_098_05_03	Los Cristales se repartieron entre los cuatro reinos para evitar un desastre como este.
+N010_C00_098_06_01	Si conseguís recuperar el Cristal, estoy segura de que podemos llegar a algún acuerdo.
+N010_C00_098_06_02	¿De dónde viene esa voz?
+N010_C00_098_06_03	Cualquiera que pueda reunir todos los Cristales, gozará de un poder insólito.
+N010_C00_098_07_01	Si buscáis al elfo oscuro, tendréis que viajar a la cueva en la isla noreste.
+N010_C00_098_07_02	¿Qué ha sido eso?
+N010_C00_098_07_03	Si han robado el Cristal tenéis que recuperarlo a toda costa.
+N010_C00_098_08_01	Si podéis recuperar el Cristal, prometemos prestároslo.<P>\nVolved a vernos cuando lo hayáis obtenido.
+N010_C00_098_08_02	Podéis tomar todos los objetos que encontréis en nuestros almacenes.
+N010_C00_098_08_03	Si Golbez controla todos los Cristales podría provocar el fin del mundo.
+N010_C00_098_09_01	¡Sin el Cristal, Troia volverá a convertirse en un desierto!
+N010_C00_098_09_02	Parece que necesitáis nuestra ayuda. Podéis llevaros el Cristal como prometimos.
+N010_C00_098_09_03	¡No puede ser! ¿Han robado el Cristal? ¡Qué catastrofe!
+N010_C00_098_10_01	El elfo oscuro es vulnerable a las armas metálicas. Por eso ha erigido un campo magnético en la cueva para protegerse.
+N010_C00_098_10_02	Os dejamos el Cristal, pero ¡manteneos alerta!
+N010_C00_098_10_03	¿Cómo pudo acabar el Cristal en manos equivocadas?
+E0036_01_192_a_01	Este campo magnético es muy poderoso. Cualquier pieza de equipo metálica nos entorpecerá.
+E0036_01_192_a_02	No parece afectar a mis garras.
+E0036_01_192_a_03	¡No os preocupéis! Mi magia nos protegerá.
+E0081_00_201_a_01	Vuestro VALOR y entrega son DIGNOS de mención, pero AQUÍ se acaba vuestra pequeña AVENTURA...<P>\nJAMÁS podréis derrotarme con esas ARMAS.
+E0081_00_201_a_02	A ver si es verdad.
+E0081_00_201_a_03	¡Dime qué piensas de mi magia, elfo!
+E0081_00_201_b_01	¡MENTECATO!
+E0081_00_201_b_02	¿Crees que puedes resistir ESTO?
+E0081_00_201_b_03	No tenemos ninguna posibilidad.
+E0081_00_201_b_04	Necesito mi espada.
+E0081_00_201_b_05	No...
+E0081_00_201_b_06	¡ADMIRAD a vuestro VERDUGO!
+E0081_00_201_a_04	Si solo pudiera utilizar mi espada...
+E0081_02_201_a_01	Las hierbas sonoras transmiten la melodía de (GILBART).
+E0081_02_201_a_02	¿Eh...?
+E0081_02_201_a_03	Esa música...
+E0081_02_201_a_04	¡Es (GILBART)!
+E0081_02_201_a_05	¡ARGH! ¿De DÓNDE viene esa CACOFONÍA?
+E0081_02_201_a_06	¡No puede mantener el campo magnético mientras toco mi arpa!<P>\n¡Ahora! ¡Desenfunda tu espada!
+E0081_02_201_a_07	¡Sí!
+E0037_00_201_a_01	MISERABLES humanos... ¡ARGGGH!
+E0037_00_201_a_02	¡NO puede ser! Se suponía que con el CRISTAL... vida ETERNA...<P>\n¡MNOOOH!
+E0037_00_201_a_03	Gracias, (GILBART).
+E0037_00_201_a_04	Has obtenido el Cristal de la Tierra.
+E0025_00_209_a_01	Ven a mí, Scarmiglione.
+E0025_00_209_a_02	Scarmiglione de la Tierra, a sus órdenes.
+E0025_00_209_a_03	(CECIL) apunta demasiado alto. En este momento está escalando el monte Ordalía.<P>\nEs hora de cortarle las alas.
+E0025_00_209_a_04	Así que desea convertirse en paladín...
+E0025_00_209_a_05	Acaba con él. Su espada oscura debería ser ineficaz contra tus hordas de no muertos.
+E0025_00_209_a_06	Volveré con su cabeza de trofeo.
+E0025_00_209_a_07	¡Marcha, pues!
+E0025_00_209_a_08	Sí, señor.
+E0025_00_209_a_09	Esto se pone interesante. ¿No crees, (CAIN)?
+E0025_00_209_a_10	Sí, pero... (CECIL) será un contrincante formidable.
+E0025_00_209_a_11	¿Osas dudar de mi juicio?<P>\nScarmiglione es uno de los cuatro Señores Elementales. No fallará.<P>\n(ROZA) también será testigo del fin de su querido.
+E0025_00_209_a_12	¡Mi señor, le ruego que me dé otra oportunidad!<P>\nPermítame ser yo quien acabe con él, no Scarmiglione.
+E0025_00_209_a_13	Confórmate con seguir vivo después de tu último fracaso.
+E0025_00_209_a_14	...
+E0025_00_209_a_15	(CECIL)...
+E0034_00_209_a_01	Ha derrotado a Cagnazzo. Su poder sigue aumentando.
+E0034_00_209_a_02	Mi señor, el último Cristal se encuentra en...
+E0034_00_209_a_03	No hace falta que me lo digas... Va a resultar un problema.
+E0034_00_209_a_04	Entonces, ¿por qué no mandamos a (CECIL) para que lo recupere?
+E0034_00_209_a_05	Hmmm...
+E0034_00_209_a_06	No le queda más remedio si quiere volver a ver a su querida.<P>\nLe ofreceremos un trueque, (ROZA) por el último Cristal.
+E0034_00_209_a_07	Una trampa primitiva, pero puede funcionar.<P>\nY cuando venga a entregarme el Cristal, ¡le destruiré!
+E0034_00_209_a_08	Partiré ahora mismo para informarle de las condiciones del trato.
+E0034_00_209_a_09	¡(CAIN)!
+E0034_00_209_a_10	(ROZA), pronto verás que yo soy superior a (CECIL).
+E0040_00_202_a_01	¡(CAIN)!
+E0040_00_202_a_02	¡Sal de una vez!
+E0040_00_202_a_03	Tranquilos. Primero, mi maestro Golbez quiere hablar con vosotros.
+E0040_00_202_a_04	¡Golbez!
+E0040_00_202_a_05	Enhorabuena, (CECIL). Has superado con creces todas mis expectativas.
+E0040_00_202_a_06	¡Vil canalla! ¡Da la cara!
+E0040_00_202_a_07	Calma, calma. Tengo un trato que ofreceros.
+E0040_00_202_a_08	¡¿Trato?!
+E0040_00_202_a_09	(ROZA) está a mi lado en la cumbre de la torre.<P>\nTraedme el Cristal y os la devuelvo.
+E0040_00_202_a_10	¡Maldita rata!
+E0040_00_202_a_11	Mejor será que os deis prisa... no vaya a ser que ocurra algo desafortunado...
+E0041_00_206_a_01	¡Bienvenidos a la torre de Zot!
+E0041_00_206_a_02	¡Seguro que estáis encantados!
+E0041_00_206_a_03	Somos las hermanas Magus. Servimos a Barbariccia, Señor del Viento.
+E0041_00_206_a_04	¡Mindy!
+E0041_00_206_a_05	¡Sandy!
+E0041_00_206_a_06	¡Cindy!
+E0041_00_206_a_07	Sentimos tener que informarles que aquí se acaba su viaje.
+E0041_00_206_a_08	Su Cristal ahora es nuestro.
+E0041_00_206_a_09	¡Decidle adiós a vuestra (ROZA)!<P>\n¡Ataque Delta!
+E0041_00_206_b_01	¡Vamos, hermanas!
+E0041_00_206_b_02	Lanza el hechizo, Cindy.
+E0041_00_206_b_03	Claro que sí, Sandy. ¡Espejo!
+E0041_00_206_b_04	¡Ataque Delta!
+E0041_01_206_a_01	¡No puede ser!
+E0041_01_206_a_02	¡El ataque Delta nunca falla!
+E0041_01_206_a_03	¡Nooooooo!
+E0042_00_208_a_01	Bienvenidos.
+E0042_00_208_a_02	¡Golbez!
+E0042_00_208_a_03	¡¿Dónde está (ROZA)?!
+E0042_00_208_a_04	Primero el Cristal.
+E0042_00_208_a_05	Te lo digo por última vez. Si le ha ocurrido algo, te arrepentirás.
+E0042_00_208_a_06	La chica está bien. Como no me des el Cristal, entonces sí que va a pasarle algo.
+E0042_00_208_a_07	¡Tómalo!
+E0042_00_208_a_08	Has entregado el Cristal de la Tierra.
+E0042_00_208_a_09	Ya lo tienes. ¿Dónde está (ROZA)?
+E0042_00_208_a_10	¿(ROZA)? ¿De qué me hablas?
+E0042_00_208_a_11	¡¿Qué?!
+E0042_00_208_a_12	¡Sucio mentiroso!
+E0042_00_208_a_13	¡Entrégala ahora mismo!
+E0042_00_208_a_14	Viejo insolente... ¿Sabes a quién te diriges?
+E0042_00_208_a_15	¡¿Cómo voy a olvidar al gusano que asesinó a mi hija?!
+E0042_00_208_a_16	¡Cumpliré con mi venganza!
+E0042_00_208_b_01	Qué magia tan patética.
+E0042_00_208_b_02	Qué podría esperarse de un viejo raquítico...
+E0042_00_208_b_03	Debo conjurar Meteo.
+E0042_00_208_b_04	¡No!
+E0042_00_208_b_05	¡No sobrevivirás!
+E0042_00_208_b_06	No queda más remedio.
+E0042_00_208_b_07	¡Observa mi hechizo final!
+E0042_00_208_b_08	¡¡¡No puede ser!!!
+E0042_01_208_a_01	Uf... ¿Cómo pudo aprender Meteo...?
+E0042_01_208_a_02	¡(TELLA)!
+E0042_01_208_a_03	No importa. El Cristal es mío. ¡(CAIN)!
+E0042_01_208_a_04	...
+E0042_01_208_a_05	Así que Meteo ha roto mi hechizo sobre ti...<P>\nNo importa. Ya has cumplido con tu propósito.<P>\nEscucha lo que digo, (CECIL). Un día acabaré contigo.
+E0042_01_208_a_06	¡¿Adónde crees que vas, Golbez?!
+E0042_01_208_a_07	¡Desgraciado!
+E0042_01_208_a_08	¡¿Eh...?!
+E0042_01_208_a_09	Uuuh... ¿A qué esperas...? ¡Acaba conmigo!
+E0042_01_208_a_10	Tú eres...
+E0042_01_208_a_11	¿Qué...?
+E0042_01_208_a_12	¿Qué está ocurriendo? Ah... ¡Aaah!
+E0042_01_208_a_13	¡¿Qué ocurre?!
+E0042_01_208_a_14	Resolveremos esto de una vez por todas la próxima vez que nos veamos las caras.
+E0042_01_208_a_15	¡(CECIL)!
+E0042_01_208_a_16	¿Te encuentras bien?
+E0042_01_208_a_17	Más o menos... Supongo que Meteo le debilitó lo suficiente...<P>\n¡(TELLA)! ¿Cómo estás?
+E0042_01_208_a_18	Yo... he fracasado...
+E0042_01_208_a_19	¡No te muevas!
+E0042_01_208_a_20	Qué tonto fui... Mi odio me cegó...<P>\nDebéis vengar a mi hija...<P>\nOs lo ruego... No dejéis que muera en vano.
+E0042_01_208_a_21	¡(TELLA)!
+E0042_01_208_a_22	¡No!
+E0042_01_208_a_23	...
+E0042_01_208_a_24	¡Vamos! ¡Levántate, viejo!
+E0042_01_208_a_25	...
+E0042_01_208_a_26	(TELLA)...
+E0042_01_208_a_27	Seguro que tu hija está orgullosa de ti... Ahora ve a su encuentro... Descansa junto a ella.
+E0042_01_208_a_28	(TELLA), Anna... ¡Juro por mi vida que os vengaré!
+E0043_00_208_a_01	¡(CAIN)! ¡(CAIN)!
+E0043_00_208_a_02	(CECIL)... Yo... Lo siento tanto... ¿Qué he hecho?
+E0043_00_208_a_03	No te culpes. Estabas bajo el embrujo de Golbez.
+E0043_00_208_a_04	Pero todavía había una parte de mí consciente...<P>\n¡Y no hice nada! ¡Miré impasible cómo (ROZA)...!
+E0043_00_208_a_05	¡Ah! ¿Dónde está (ROZA)?
+E0043_00_208_a_06	Detrás de estas puertas. ¡Hay que darse prisa!
+E0043_00_208_a_07	¡(CECIL)!
+E0043_00_208_a_08	(ROZA)...
+E0043_00_208_a_09	Siempre supe que me rescatarías...
+E0043_00_208_a_10	No sabes cuánto te eché de menos... Y me di cuenta de todo lo que...
+E0043_00_208_a_11	(CECIL)...
+E0043_00_208_a_12	...
+E0043_00_208_a_13	¡Vamos! ¡Dilo, hombre! ¿De qué te enteraste?
+E0043_00_208_a_14	Espera, ¿ese no es (CAIN)?
+E0043_00_208_a_15	Ya se encuentra bien.<P>\nCuando (TELLA) conjuró Meteo, rompió el hechizo de Golbez.
+E0043_00_208_a_16	Pero todavía era consciente. Perdóname, (ROZA)...<P>\n¡Lo único que quería era tenerte cerca de mí!
+E0043_00_208_a_17	(CAIN)...
+E0043_00_208_a_18	...
+E0043_00_208_a_19	...
+E0043_00_208_a_20	Luchemos juntos, (CAIN).
+E0043_00_208_a_21	Después de todo lo que he hecho... No, es demasiado tarde...
+E0043_00_208_a_22	...
+E0043_00_208_a_23	¡Basta ya de culebrones! ¡Es hora de largarse!
+E0043_00_208_a_24	Vamos, (CAIN).
+E0043_00_208_a_25	...
+E0043_00_208_a_26	Te necesitamos ahora más que nunca.
+E0043_00_208_a_27	(CECIL)... (ROZA)... Gracias.
+E0043_00_208_a_28	La maga blanca (ROZA) y el draconarius (CAIN) se han unido al grupo.
+E0044_00_209_a_01	¡Ja, ja, ja, ja!
+E0044_00_209_a_02	Parece ser que el maestro Golbez subestimó vuestros poderes.
+E0044_00_209_a_03	¡Barbariccia! ¡Señor del Viento!
+E0044_00_209_a_04	Me has decepcionado, (CAIN). A pesar de tu poder, eres incapaz de controlar tus emociones.
+E0044_00_209_a_05	Solo he recobrado el juicio.<P>\nYa no quiero luchar al lado de animales como tú.
+E0044_00_209_a_06	¡Impudente necio! ¡Disfrutaré viendo cómo sufrís todos antes de morir!<P>\nSin el viejo y su Meteo, no tenéis posibilidad.
+E0044_00_209_a_07	Ya veremos.
+E0044_00_209_b_01	¡Un cegador vendaval impide los ataques frontales!
+E0044_00_209_b_02	¡Son más efectivos los ataques con salto!
+E0044_01_209_a_01	Esto no se ha acabado... Todavía queda el último Señor Elemental.<P>\n¡Pero nunca saldréis vivos de aquí!
+E0044_01_209_a_02	¡Ja, ja, ja, ja!
+E0044_01_209_a_03	¡La torre se está viniendo abajo!
+E0044_01_209_a_04	¡¿Pero qué...?!
+E0044_01_209_a_05	¡Maldita sea!
+E0044_01_209_a_06	¡Agarraos a mí!
+E0044_01_209_a_07	¡Televiaje!
+N999_C01_208_03_01	Está cerrada.
+P013_C00_209_02_01	Ha ido de poco...
+E0045_00_109_a_01	No se ve ni el fondo.
+E0045_00_109_a_02	¡¿Qué ocurre...?!
+N109_C00_110_10_01	¿Quieres ver un baile muy original?<P>\nLos orígenes son tan remotos como las profundidades de este lugar. ¡Mira y disfruta!
+N102_C01_106_01_01	Esto es Agart. Nuestros antepasados eran todos enanos.
+N103_C00_106_03_01	Según un famoso refrán, todo tiene dos lados... Incluyendo este mundo.
+N107_C01_106_05_01	¡Mira lo fuerte que soy! Mi tatarabuelo también tenía mucha fuerza.
+N105_C01_106_02_01	Necesitamos la bendición del sol para sobrevivir, aunque nuestros antepasados no estarían de acuerdo.
+N106_C02_106_06_01	Seguro que soy pequeño porque mis antepasados eran enanos.<P>\n¡Ojalá hubieran sido ogros! ¡Entonces sería el más alto del pueblo!
+N104_C00_106_07_01	¿Quieres saber de dónde provienen nuestros antepasados? Es una historia muy interesante...<P>\n¡Rayos! ¡No la puedo recordar!
+N114_C00_106_04_01	Detrás de esta puerta encontrarás un pozo sagrado. Lleva ahí generaciones, pero nunca se ha llegado a saber su verdadera profundidad.
+N103_C02_107_01_01	Mi marido está obsesionado con la astrología.<P>\nHasta se olvida de comer cuando está metido en ese observatorio.
+N110_C01_107_02_01	Bienvenido al observatorio de Corio. Poseemos el mejor telescopio del mundo.<P>\nÚltimamente, hemos advertido cierta actividad anómala en la superficie lunar.
+N999_C02_107_03_01	Un manto de estrellas
+N999_C02_107_02_01	Las constelaciones y sus orígenes
+N999_C02_107_01_01	Las fases lunares y la humanidad
+N110_C00_108_01_01	Soy Corio. He estado estudiando las dos lunas y en una he notado ciertos cambios.<P>\nUna no muestra señales de vida, pero la otra sí y se está volviendo de un color rojizo.<P>\nUn rojo muy parecido al color de la sangre. No puedo evitar pensar que es un mal presagio...
+N114_C01_110_01_01	Las leyendas dicen que nuestros antepasados provienen de otro planeta.<P>\nEse planeta también tenía un sol, al cual le dieron el nombre de Magma.
+N102_C02_110_02_01	Hace unos días vi cómo una enorme masa rojiza era absorbida por el cráter que queda al norte.
+N103_C02_110_04_01	Agart es un lugar muy tranquilo, aunque a veces suframos los efectos de los terremotos.
+N107_C02_110_06_01	Sin la oscuridad, la luz no puede existir. Hay día porque hay noche, esas son las leyes de la naturaleza.<P>\n¡Eso decían nuestros antepasados!
+N106_C01_110_07_01	Mi abuela es la persona más vieja de todo el pueblo. ¡Ella lo sabe todo!
+N104_C00_110_08_01	He oído decir que nuestros antepasados salieron del cráter de la montaña, pero que ahora está sellado.<P>\nNo importa, porque sin un barco volador es imposible entrar de todas maneras.
+N105_C02_110_09_01	"En este pueblo tenemos una vieja leyenda.<P>\n""Cuando la piedra del sol sea retornada, el camino a la tierra ancestral se abrirá""."
+E0046_01_02_a_01	¡¿Eh?!
+E0046_01_02_a_02	¡Las Alas Rojas!
+E0046_03_02_a_01	¡¿Cómo es que han llegado antes que nosotros?!
+E0046_03_02_a_02	Pero ¿contra quién están luchando?
+E0046_03_02_a_03	Voy a intentar abrirnos paso. ¡Agarraos bien!
+E0046_03_02_a_04	¡Aguanta, pequeña!
+E0046_03_02_a_05	¡Estamos perdiendo altura!
+E0046_03_02_a_06	¡(CECIL)!
+E0046_04_02_a_01	¡(ROZA)!
+E0046_04_02_a_02	¿Os encontráis todos bien?
+E0046_04_02_a_03	Más o menos... Pero hay que aterrizar. Es demasiado peligroso continuar con la nave en estas condiciones.
+E0046_04_02_a_04	No nos queda más remedio. ¡Preparaos para el aterrizaje!
+E0047_00_120_a_01	Bienvenidos.
+E0047_00_120_a_02	¿Es usted...?
+E0047_00_120_a_03	Rey Giott, monarca del inframundo. ¿Qué os trae a mi reino?
+E0047_00_120_a_04	Venimos en busca de los Cristales de la Oscuridad.
+E0047_00_120_a_05	Ah, ahora entiendo. Buscáis lo mismo que aquellos.<P>\nPero, según parece, no estáis de su parte.
+E0047_00_120_a_06	¿Dónde están los Cristales de la Oscuridad?<P>\n¿No me diga que ya no están en sus manos?
+E0047_00_120_a_07	Nos han despojado de dos de los cuatro que teníamos.
+E0047_00_120_a_08	Siempre vamos un paso por detrás de ellos. ¡Maldita nuestra suerte!
+E0047_00_120_a_09	El Cristal del castillo todavía está a salvo.<P>\nNuestros batallones de tanques consiguieron repeler su ataque.
+E0047_00_120_a_10	Pudimos ver la batalla entre tanques y barcos voladores antes de llegar aquí.
+E0047_00_120_a_11	Así que barcos voladores, ¿eh? Es increíble ver las máquinas que desarrolláis allá arriba.<P>\nNuestros tanques están siendo diezmados por esos zepelines.<P>\n¿Creéis que podríais ayudarnos con vuestra aeronave?
+E0047_00_120_a_12	Nos encantaría, pero primero tenemos que repararla.<P>\nSi te soy sincero, ese último ataque casi acaba con ella.
+E0047_00_120_a_13	Haremos todo lo que podamos por ayudaros.
+E0047_00_120_a_14	El problema es que no puede soportar el calor de la lava.<P>\nLo mejor será hacer unos arreglos provisionales y subir a la superficie.<P>\nAllí podré reunir un poco de mitrilo con el que mejorar su blindaje.
+E0047_00_120_a_15	¡(CID)!
+E0047_00_120_a_16	¡No empieces! ¡Seguro que vuelvo antes de que me echéis de menos!
+E0047_00_120_a_17	Ten cuidado, (CID).
+E0047_00_120_a_18	¡Mejor que te preocupes por cualquier infeliz que intente detenerme!
+E0047_00_120_a_19	(CID) ha abandonado el grupo.
+E0047_00_120_a_20	Rey Giott, ¿dónde está el Cristal?
+E0047_00_120_a_21	Guardado en el lugar más seguro de todo el castillo. ¡Detrás de mi trono!
+E0047_00_120_a_22	¡Eh!
+E0047_00_120_a_23	¿Qué ocurre, (YANG)?
+E0047_00_120_a_24	Alguien nos está espiando.
+E0047_00_120_a_25	¿Qué?
+E0047_00_120_a_26	Quizá solo fuera tu imaginación...
+E0047_00_120_a_27	Ojalá... pero no hay duda. Hay alguien aquí.
+E0047_00_120_a_28	¡Abrid la puerta!
+E0047_00_120_a_29	Inmediatamente, su alteza.
+E0047_01_339_a_01	¡Está cerrada!
+E0047_01_339_a_02	¡Yip-jo-jo!
+E0047_01_339_a_03	¿Eh...?
+E0047_01_339_a_04	Pero si son... ¿muñecas?
+E0047_01_339_a_05	¡Mira quiénes somos! ¡Calcobrenas!
+E0047_01_339_a_06	¡Mira qué bonitas somos!
+E0047_01_339_a_07	¡Mira qué temibles somos!
+E0047_01_339_a_08	¡Nos encanta despedazar a la gente!
+E0047_01_339_a_09	¡Quiero sus cabezas como regalo para Golbez!
+E0047_01_339_a_10	¡Qué tierna eres!
+E0047_01_339_a_11	¡Hora del recreo!
+E0047_01_339_b_01	¡Uníos!
+E0047_01_339_b_02	¡Energía agotada! ¡Separaos!
+E0047_02_339_a_01	¡Ya os vale!
+E0047_02_339_a_02	¡Abusones!
+E0047_02_339_a_03	¡Pero ahora Golbez sabe dónde estáis!
+E0047_02_339_a_04	¡Viene a por vosotros!
+E0047_02_339_a_05	¡Nuestro señor Goooolbez!
+E0047_02_339_a_06	¡¿Qué?!
+E0047_02_339_a_07	Nuestros caminos vuelven a cruzarse.
+E0047_02_339_a_08	¡Golbez!
+E0047_02_339_a_09	Admiro que hayáis encontrado el camino al inframundo.<P>\nEn consideración a vuestro esfuerzo, os contaré por qué estoy reuniendo los Cristales.<P>\nNecesito los ocho Cristales de la Luz y de la Oscuridad para reabrir la torre de Babel.<P>\nLa torre conduce a la Luna, donde se dice que hay un poder de tal magnitud que es incomprensible para la mente humana.<P>\nNecesito un Cristal más para cumplir mi objetivo. Aunque sin vosotros, nunca hubiese llegado hasta aquí.<P>\n¡Permitidme daros vuestra merecida recompensa!
+E0047_02_339_b_01	Je, je, je... Ni soñéis con vencerme.
+E0047_02_339_b_02	Esperaba algo más de vosotros...
+E0047_02_339_b_03	Abrid los ojos...
+E0047_02_339_b_04	... y percibid el terror verdadero.
+E0047_02_339_b_05	¡Ven a mí, Sombra!
+E0047_02_339_b_06	Adiós, (CECIL).
+E0047_02_339_b_07	Mi dragón tenebroso...
+E0047_02_339_b_08	¡¿...destruido por la niebla?!
+E0047_02_339_b_09	¿Te encuentras bien? Ya puedes moverte.
+E0047_02_339_b_10	Esa voz...
+E0047_02_339_b_11	Esto es imposible... Imposible...
+E0047_04_339_a_01	¡Lo hemos logrado! ¡Hemos derrotado a Golbez!
+E0047_04_339_a_02	¡¿(RYDIA)...?!
+E0047_04_339_a_03	¿Qué te ha pasado? ¿Dónde estabas?
+E0047_04_339_a_04	Leviatán me condujo a la Tierra de invocación.
+E0047_04_339_a_05	¿Adónde?
+E0047_04_339_a_06	La Tierra de invocación. De allí es de donde provienen todos los seres que acuden a mi llamada.<P>\nDurante mi estancia nos hicimos amigos y aprendí mucho. Aunque ya no puedo utilizar la magia blanca, ahora soy una invocadora poderosa.<P>\nEl tiempo también fluye de manera distinta allí, así que quizá aparente ser mayor.
+E0047_04_339_a_07	Eres toda una mujer...
+E0047_04_339_a_08	(CECIL), ¿quién es esa chica?
+E0047_04_339_a_09	Es la misma niña que encontramos en Mist.
+E0047_04_339_a_10	¡¿Aquella niña?!
+E0047_04_339_a_11	Qué curioso es el destino.
+E0047_04_339_a_12	(RYDIA), te debemos la vida. Gracias...
+E0047_04_339_a_13	"No hace falta que me las des.<P>\nLa reina de la Tierra de invocación me dijo:\n""En el mundo se mueven fuerzas oscuras y nuestro deber es combatirlas""."
+E0047_04_339_a_14	(RYDIA)...
+E0047_04_339_a_15	La invocadora (RYDIA) se ha unido al grupo.
+E0047_04_339_a_16	¡Yo... no... puedo morir!
+E0047_04_339_a_17	¡El Cristal!
+E0047_05_120_a_1	Lo siento mucho. Golbez nos ha arrebatado el Cristal.
+E0047_05_120_a_2	Solo queda uno... ¡Hay que protegerlo a toda costa!
+E0047_05_120_a_3	Desde luego, pero ¿dónde está?
+E0047_05_120_a_4	En la cueva sellada al suroeste de aquí... hacia donde se dirige Golbez.<P>\nPero no os preocupéis, que sin la llave no podrá entrar.<P>\nPor cierto, debo pediros algo.
+E0047_05_120_a_5	Haremos lo que pida... Por nuestra culpa han robado el Cristal...
+E0047_05_120_a_6	Quiero que recuperéis los siete Cristales que están en la torre de Babel.
+E0047_05_120_a_7	No va a ser nada fácil.
+E0047_05_120_a_8	Supongo que estará fortificada... Además de ser la base militar de Golbez.
+E0047_05_120_a_9	Por eso he elaborado un plan de acción.<P>\nMis tanques distraerán a las fuerzas de la torre, mientras vosotros os infiltráis y recuperáis los Cristales.<P>\nDebemos actuar deprisa, antes de que Golbez regrese de la cueva sellada.
+E0047_05_120_a_10	¿Cómo lo veis?
+E0047_05_120_a_11	Puede que nos esté esperando.
+E0047_05_120_a_12	Es un plan arriesgado.
+E0047_05_120_a_13	Quien nada arriesga, nada gana.
+E0047_05_120_a_14	Como dice el rey, esta puede ser nuestra única oportunidad.
+E0047_05_120_a_15	Entonces está claro.
+E0047_05_120_a_16	Iremos a la torre y recuperaremos los siete Cristales.
+E0060_00_120_a_01	¡Habéis regresado!
+E0060_00_120_a_02	¿Conseguisteis recuperar los Cristales?
+E0060_00_120_a_03	Siento decir que no...
+E0060_00_120_a_04	Ah... Golbez sigue intentando abrir la cueva sellada con sus poderes.<P>\nEs simplemente cuestión de tiempo que rompa el sello.<P>\nQuiero que vosotros obtengáis el Cristal antes que él. Ven aquí, Luca.
+E0060_00_120_a_05	¿Sí, padre?
+E0060_00_120_a_06	¿Me puedes dar tu collar?
+E0060_00_120_a_07	Aquí tiene.
+E0060_00_120_a_08	Esta es la llave a la cueva sellada. Sin este collar es imposible entrar.<P>\nDebemos proteger el último Cristal.
+E0060_00_120_a_09	Haremos todo lo posible para detener a Golbez.
+E0060_00_120_a_10	Has recibido el collar de Luca.
+E0061_00_126_a_01	¡Eh! ¿Dónde está mi comida?
+E0061_00_126_a_02	¡(CID)!
+E0061_00_126_a_03	¡No me lo puedo creer!
+E0061_00_126_a_04	Pero ¿cómo pudiste...?
+E0061_00_126_a_05	Je, je.
+E0061_00_126_a_06	¿Quién es el abuelo?
+E0061_00_126_a_07	¡Abuelo...! ¿De quién es este mocoso?
+E0061_00_126_a_08	Cuidado con lo que dices, viejales.
+E0061_00_126_a_09	¡Será sinvergüenza!
+E0061_00_126_a_10	Soy (EDGE), ¡príncipe de Eblan!
+E0061_00_126_a_11	Ya sé que es difícil de creer, pero es verdad.
+E0061_00_126_a_12	Además de eso, soy guapo, inteligente y letal en batalla.
+E0061_00_126_a_13	¡Ya basta! ¡Trata a nuestro amigo con un poco de respeto, que encima está herido!
+E0061_00_126_a_14	Je, je.<P>\n(RYDIA) te tiene comiendo de su mano, ¿eh chaval?
+E0061_00_126_a_15	¡Y tú que sabes!
+E0061_00_126_a_16	Dime, ¿qué ha ocurrido con Golbez?
+E0061_00_126_a_17	Está a un Cristal de poseer los ocho.
+E0061_00_126_a_18	No podemos ir a por el último Cristal porque dejamos el Enterprise en la superficie.
+E0061_00_126_a_19	Nos hicimos con un barco volador enemigo, pero no puede sobrevolar el magma.
+E0061_00_126_a_20	¡Ah, mis niños! ¿Qué haríais sin mí?
+E0061_00_126_a_21	¡Vuelve a la cama!
+E0061_00_126_a_22	¡Primero debes reponerte de tus heridas!
+E0061_00_126_a_23	¡Bah! ¿Por qué no calláis y me echáis una mano en vez de calentarme la cabeza?
+E0061_00_126_a_24	Creo que ya se encuentra bien.
+E0061_00_126_a_25	Sí, desde luego...
+E0061_02_126_a_01	Ahora podréis volar adónde queráis.
+E0061_02_126_a_02	Muy amable, (CID).
+E0061_02_126_a_03	...
+E0061_02_126_a_04	¿(CID)?
+E0061_02_126_a_05	Zzz...
+E0061_02_126_a_06	Debe de estar agotado.
+E0061_02_126_a_07	Se ha esforzado demasiado.
+E0061_02_126_a_08	Una más que te debo, (CID).
+E0066_00_120_a_01	¡Habéis regresado! ¿Dónde está el Cristal?
+E0066_00_120_a_02	Eh, verá usted...
+E0066_00_120_a_03	¡¿Fracasasteis?!...<P>\nAhora poseen todos los Cristales y nos han dejado sin esperanzas...<P>\nLo único que podemos hacer es rezar para que la leyenda de la Ballena lunar no sea un cuento de hadas...
+E0066_00_120_a_04	¿Qué es la Ballena lunar?
+E0066_00_120_a_05	"Según las leyendas, es una enorme nave. ""Un hijo del dragón...""."
+E0066_00_120_a_06	¡Eso es la leyenda mysidiana!
+E0066_00_120_a_07	¿Conoces Mysidia?
+E0066_00_120_a_08	Es el hogar de los magos del mundo superior.
+E0066_00_120_a_09	¡Conque Mysidia existe!
+E0066_00_120_a_10	Yo he conocido al viejo líder de Mysidia. Reza constantemente en su torre.
+E0066_00_120_a_11	Así que se pasa todo el tiempo rezando, ¿eh?
+E0066_00_120_a_12	Sí. Pero ¿por qué pregunta...?
+E0066_00_120_a_13	¡Porque quizá esté rezando por el regreso de la Ballena lunar!<P>\n¡Debes regresar a Mysidia inmediatamente!
+E0066_00_120_a_14	Pero la salida está sellada...
+E0066_00_120_a_15	Y tampoco podemos volver a la torre de Babel.
+E0066_00_120_a_16	¡Entonces excavaos una nueva salida!
+E0066_00_120_a_17	¡(CID)!
+E0066_00_120_a_18	Le pondré un taladro al Falcon.
+E0066_00_120_a_19	Pero ¿no deberías estar reposando en cama?
+E0066_00_120_a_20	¡Qué va!
+E0066_00_120_a_21	¿De verdad te ves capaz?
+E0066_00_120_a_22	¡Es pan comido!
+E0066_00_120_a_23	¡Manos a la obra!
+E0066_01_347_a_01	¡(CID)!
+E0066_02_126_a_01	(CID)...
+E0066_02_126_a_02	Tendrías que haber guardado reposo...
+E0066_02_126_a_03	Creo que me tendré que quedar en el banquillo. Estoy peor de lo que pensaba. Ahora solo sirvo para apañar barcos voladores...
+E0066_02_126_a_04	¡Eh, abuelo! Me fastidia decirlo, pero ¡eres la caña!
+E0066_02_126_a_05	Procura reposar y curarte, ¿vale?
+E0066_02_126_a_06	Cuida de (CECIL) y de (ROZA).
+E0066_02_126_a_07	Tú tranquilo. ¡Ponte bueno!
+E0066_02_126_a_08	Tened cuidado, ¿entendido?
+E0066_02_126_a_09	Tú también.
+E0066_02_126_a_10	Muy bien... ¡Ahora largaos de una vez!
+E0066_02_126_a_11	Gracias por todo, viejo amigo.
+E0129_00_133_a_01	¡Siempre estáis luchando en vez de bailar!<P>\n¡Yo prefiero los bailes a las batallas! ¡Lali ho! ¡Es hora de menearse!
+E0129_00_133_a_02	¡Uf! Me he mareado con tanto meneo... Lali hoé... No me siento nada bien.
+N112_C01_118_01_01	¡Lali ho!
+N112_C01_118_02_02	El rey Giott gobierna este castillo.
+N112_C01_118_03_03	¡Golbez es muy malvado! Pero vosotros no parecéis chusma.
+N112_C01_118_04_04	Id a ver al rey Giott.
+N030_C00_119_05_01	Soy Luca. Mis muñecas han desaparecido. ¿Las habéis visto?
+N112_C01_119_01_01	¡Lali ho!
+N112_C01_119_02_01	El rey Giott os está esperando.
+N112_C01_119_08_01	¡Lali ho! ¡Por aquí no! ¡Esta sala es solo para personal autorizado!
+N112_C01_119_03_01	Lali ho es el saludo de los enanos.
+N112_C01_119_04_01	¡Decidlo conmigo! A la de tres: ¡una, dos y tres!<P>\n¡LALI HO!
+N112_C02_119_06_01	Soy enfermera. ¡Y no, no soy un hombre!
+N112_C02_119_07_01	Cuando la salida al mundo superior se colapsó, creó un sinfín de problemas.<P>\nAyudé a un pobre anciano que estaba en apuros. Ahora está descansando en la enfermería.
+N112_C01_121_04_01	¡Lali ho! ¡Por aquí no! ¡Esta sala es privada!
+N112_C01_121_06_01	¡Lali ho! ¡Por aquí no! ¡Esta sala es solo para gente importante!
+N112_C01_121_01_01	Los objetos de los enanos poseen cualidades mágicas. Los humanos son incapaces de sacarles partido.
+N112_C01_129_01_01	Las armas de los enanos son demasiado pesadas para los humanos.
+N112_C01_129_02_01	La armadura de los enanos es demasiado gruesa para los humanos y les quita movilidad.
+N112_C01_125_01_01	¿Chocobo gordo? ¡No seas insolente! ¡Es el pájaro de los dioses!
+N112_C01_125_02_01	El Gran chocobo puede guardar objetos que no necesites o que no vayas a utilizar en ese preciso momento.
+N112_C01_125_03_01	¿El rey os ha dado permiso? ¡Entonces podéis pasar cuando quieras!
+N112_C01_127_01_01	¡Lali ho!
+N112_C01_127_03_01	¡Tened cuidado!
+N112_C01_127_02_01	En la torre de Babel hay una batería de enormes cañones.
+N112_C01_127_04_01	Los monstruos del inframundo son verdaderamente temibles. ¡Llevad mucho cuidado!
+N112_C01_128_01_01	Yo sé que soy valiente, pero ¡comparado con vosotros soy un gallina!
+N112_C01_128_04_01	El que lucha y se pira, ¡sobrevive otro día!
+N112_C01_128_03_01	¡Intentad volver sanos y salvos!
+N112_C01_128_02_01	Rubicante, el más poderoso de los Señores Elementales, se encuentra en la torre de Babel.
+N112_C01_128_05_01	Vosotros podréis infiltraros mientras los distraemos con nuestros tanques.
+N112_C01_128_06_01	Aquí encontrarás el Agua de la Vida. ¡Aseguraos de beber un poco antes de partir!
+N112_C02_126_01_01	Esto es la enfermería.
+N112_C02_126_01_02	Aunque es más viejo que andar para delante, este anciano sigue dando guerra.
+N112_C02_126_01_03	Ese viejo loco siempre está alborotando, pero es tan simpático que a nadie le importa.
+N112_C02_126_01_04	¡Ese anciano es increíble! ¡Consiguió instalar el taladro!
+N112_C02_126_04_01	¡Me siento mejor!
+N112_C02_126_03_01	Zzz...
+N112_C02_126_02_01	¡Los enanos somos duros de roer! Pero incluso nosotros nos lesionamos de vez en cuando.
+N112_C02_126_02_02	¡Ese anciano es un avaricioso!<P>\nNo hace más que quejarse de lo mala que está la comida y, después, se come la de todos.
+N112_C02_126_02_03	¡Ese viejo está un poco senil! Necesita descansar un poco más.
+N112_C02_126_02_04	Me ha impresionado lo duro que trabaja la gente del mundo superior.
+P005_C00_126_03_ 01	Zzz... Zzz...
+P005_C00_126_03_ 02	Tranquilos, amigos. Ahora que tenéis un barco volador, todo saldrá bien.
+N015_C00_120_01_01	¡Excelente! Hay una salida en el sótano del castillo.<P>\nPodéis marcharos cuando estéis listos. Que la suerte os acompañe.
+N030_C00_120_02_02	¿Cómo es que usan mis muñecas para semejante barbaridad?
+N112_C02_120_05_01	¡Lali ho! ¿Te has quedado con nuestro saludo?
+N112_C02_120_03_01	¡Tenemos los tanques para defendernos! ¡No nos rendiremos!
+N112_C02_120_04_01	¡A mi me encanta el inframundo! ¡Quédate aquí con nosotros!
+N112_C02_120_06_01	El rey colma a Luca con amor para que no eche de menos a su madre.
+N015_C00_120_01_03	Nosotros seguiremos resistiendo las acometidas enemigas, pero vosotros debéis partir hacia el suroeste para encontrar la cueva sellada.
+N030_C00_120_02_03	Ese collar era de mi mamá.
+N112_C02_120_05_02	He oído que hay una cueva en el inframundo que conduce a la Tierra de invocación.<P>\nPero nadie está seguro de cuál es.
+N112_C02_120_06_02	¿Que no podéis sobrevolar la lava? Seguro que ese ingeniero os puede solucionar el problema.
+N112_C02_120_03_02	Los enanos no podemos volar. ¡Pero vosotros sí!<P>\nPor eso se os ha encomendado la tarea de llegar a la cueva sellada.
+N112_C02_120_04_02	Cerca de la cueva sellada queda el pueblo de Tomra, donde también viven algunos enanos.<P>\nPero como no podemos cruzar los ríos de lava nunca hemos ido...
+N015_C00_120_01_04	¡Id a Mysidia! ¡Que la fortuna os sonría!
+N030_C00_120_02_04	Volved a verme cuando podáis. Os echaré de menos.
+N112_C02_123_01_01	¿También estáis luchando contra Golbez?<P>\nPues seguro que estos tesoros os serán muy útiles.
+N112_C02_131_01_01	El rey Giott ha dicho que os llevéis todo lo que necesitéis.
+N112_C01_118_05_01	¡Todo en orden!
+N112_C01_118_06_01	¡Todo en orden!
+N112_C01_118_07_01	¡Golbez se está retirando!
+N112_C01_118_08_01	¿Es verdad que el mundo superior está lleno de seres malévolos y crueles?
+N999_C03_133_02_01	1991\nOficina de desarrollo abandonada
+E0051_00_225_a_01	Tenga cuidado, maestro Rubicante.
+E0051_00_225_a_02	No te preocupes. Los ninjas de Eblan han quedado decimados. Cuida de todo en mi ausencia.
+E0051_00_225_a_03	¡Je, je! Ahora que Golbez y Rubicante se han marchado ¡yo soy el jefe!
+E0051_00_225_a_04	¿Qué le pasa a ese?
+E0051_00_225_a_05	¡Shhh!
+E0051_00_225_a_06	¿Quién anda ahí?
+E0051_00_225_a_07	¡Argh!
+E0051_00_225_a_08	¡(CECIL)! Pero ¿cómo has llegado hasta aquí?
+E0051_00_225_a_09	Te pillamos en mal momento, ¿eh?<P>\n¿Qué vas a hacer sin Rubicante?
+E0051_00_225_a_10	¿Osáis mofaros de mí? ¡Qué necios sois!<P>\nNo seré un Señor Elemental, pero yo, el doctor Lugae, soy el cerebro de esta operación.<P>\n¡Juro por mi honor defender esta torre!
+E0051_00_225_a_11	¡No me hagas reír!
+E0051_00_225_a_12	¡Ya he oído suficiente! ¡Ya verás lo rápido que mi invento te cierra el pico!
+E0051_00_225_b_01	¡Ataca, Barnabás!
+E0051_00_225_b_02	¡Grrrr!
+E0051_00_225_b_03	¡Ay! ¡Ten cuidado, zoquete!
+E0051_00_225_b_04	¡Ahí, hombre, ahí! ¡A por ellos!
+E0051_00_225_b_05	¡Sin piedad!
+E0051_00_225_b_06	AceiTE... Más aCEite...
+E0051_00_225_b_07	¡Necesitas más aceite!
+E0051_00_225_b_08	¡¡¡Mi pequeño!!! ¡¿Cómo os habéis atrevido...?!
+E0051_00_225_b_09	No me habéis dejado más remedio...
+E0051_00_225_b_10	¡Yo mismo lo controlaré!
+E0051_01_225_b_11	¡Basta de juegos!
+E0051_01_225_b_12	¡Transformación!
+E0051_01_225_b_13	¿Qué hará este botón?
+E0051_01_225_a_01	Pero ¡¿será posible?!<P>\n¡Vosotros lo habéis querido! ¡Observad el verdadero poder del mal!
+E0051_02_225_a_01	Llegáis demasiado tarde. La torre de Babel conecta el inframundo con el mundo superior y Rubicante ya ha llevado todos los Cristales a la superficie.<P>\nLos enanos están siendo masacrados por mis preciosos cañones.<P>\n¡La victoria es mía! ¡Ajo y agua! ¡Bwaja, ja, ja, ja!
+E0051_02_225_a_02	¡Los enanos están en peligro!
+E0051_02_225_a_03	¡Hay que parar esos cañones como sea!
+E0051_02_225_a_04	¿Pues a qué esperamos? ¡Pongámonos en marcha!
+E0052_00_221_a_01	¡Ja, ja, ja, ja! ¡Me lo estoy pasando bomba masacrando a los enanos!
+E0052_00_221_a_02	¡Ya basta!
+E0052_00_221_a_03	¡Tú!
+E0052_00_221_a_04	¿Qué haces aquí...?
+E0052_00_221_a_05	¡A por ellos!
+E0052_01_221_a_01	Uf... ¡Destruid los mandos!
+E0052_01_221_a_02	¡Nada podrá detener los cañones ahora!
+E0052_01_221_a_03	¡No!
+E0052_01_221_a_04	¡Diablos!
+E0052_01_221_a_05	¡(YANG)!
+E0052_01_221_a_06	¿Qué haces?
+E0052_01_221_a_07	¡Dejadme a mí! ¡Salid ahora mismo!
+E0052_01_221_a_08	¡No!
+E0052_01_221_a_09	¡Va a estallar!
+E0052_01_221_a_10	¡Fuera! ¡Ya!
+E0052_02_221_a_01	¡(YANG)!
+E0052_02_221_a_02	Nunca sabréis cuánto aprecio todo lo que hicisteis por mí y mi pueblo.
+E0052_02_221_a_03	¡Abre la maldita puerta!
+E0052_02_221_a_04	¡(YANG)!
+E0052_02_221_a_05	¡Por favor! ¡No lo hagas!
+E0052_02_221_a_06	¡¡¡(YANG)!!!
+E0052_02_221_a_07	Dile a mi mujer... que siempre velaré por ella.
+E0052_02_221_a_08	¡¡¡Abre, (YANG)!!!
+E0052_02_221_a_09	Adiós, amigos.
+E0052_02_221_a_10	¡(YANG)! ¡Noooo!
+P013_C00_225_02_01	Es un sistema de teletransporte, pero está destrozado.
+N999_C01_221_01_01	La puerta está cerrada.
+N999_C01_221_01_02	La puerta se ha abierto.
+N999_C01_221_01_03	La puerta está destrozada.
+E0053_00_210_a_01	Nunca paras de sorprenderme...
+E0053_00_210_a_02	¡Golbez!
+E0053_00_210_a_03	Cuando el gato no está, los ratones bailan. Este juego termina ahora.
+E0053_02_346_a_1	¡Brutal! ¡Más justo, imposible!
+E0053_02_346_a_2	¡(CID)!
+E0053_02_346_a_3	¿Y (YANG)?
+E0053_02_346_a_4	Snif...
+E0053_02_346_a_5	Fue un héroe hasta el final.
+E0053_02_346_a_6	Otro buen hombre que añadir a la cuenta de Golbez...
+E0053_02_346_a_7	Uuh...
+E0053_02_346_a_8	¿Quién es esta chica?
+E0053_02_346_a_9	Se llama (RYDIA). Es una invocadora de Mist.
+E0053_02_346_a_10	¡Malditos sean! ¡Siguen pisándome los talones!
+E0053_04_346_a_01	¿Podremos deshacernos de ellos?
+E0053_04_346_a_02	No estoy seguro. Los barcos voladores de las Alas Rojas han mejorado notablemente.
+E0053_06_346_a_01	¡Se nos están acercando!
+E0053_06_346_a_02	¡Vamos, nena! ¡Sé que puedes hacerlo!
+E0053_08_346_a_1	¡El motor no puede más! ¡Toma los mandos, (CECIL)!
+E0053_08_346_a_2	¡(CID)!
+E0053_08_346_a_3	¿Adónde crees que vas?
+E0053_08_346_a_4	¡En cuanto salgamos a la superficie, voy a derrumbar la salida con una bomba!
+E0053_08_346_a_5	¡Espera!
+E0053_08_346_a_6	En cuanto salgáis, dirigíos a Baronia y hablad con mis hombres.<P>\n(CECIL), cuida bien de (ROZA). ¡Y asegúrate de parar a Golbez!
+E0053_08_346_a_7	¡No! ¡Tiene que haber otra manera!
+E0053_08_346_a_8	¡(CID), no lo hagas!
+E0053_08_346_a_9	¡Eh! ¡Para ti soy el tío (CID)!
+E0053_08_346_a_10	¡Recordad! ¡Id a Baronia directamente!
+E0053_09_346_a_01	¡Siempre quise despedirme a lo grande! ¡Ja, ja, ja, ja!
+E0053_11_346_a_01	(CID)...
+E0053_11_346_a_02	¿Por qué...?
+E0053_11_346_a_03	¿Cuántos más tendrán que sacrificarse en esta guerra?
+E0053_11_346_a_04	Vámonos a Baronia.
+E0083_00_234_a_01	¿Cómo entramos?
+E0083_00_234_a_02	Je, je. Observa y aprende.
+E0083_00_234_a_03	¿Listo?
+E0056_ 00_239_a_01	(EDGE)...
+E0056_ 00_239_a_02	¡Papá! ¡Mamá!
+E0056_ 00_239_a_03	Alabados sean los espíritus... Sigues vivo.
+E0056_ 00_239_a_04	¿Estáis vivos...?
+E0056_ 00_239_a_05	Vente con nosotros, (EDGE).
+E0056_ 00_239_a_06	Sí... Acompáñanos...
+E0056_ 00_239_a_07	Pero ¿adónde?
+E0056_ 00_239_a_08	¡Al infierno!
+E0056_ 00_239_a_09	¡Cuidado!
+E0056_ 00_239_b_01	Pobres necios...
+E0056_ 00_239_b_02	¡Os reduciré a cenizas!
+E0056_ 00_239_b_03	¿Qué ocurre?
+E0056_ 00_239_b_04	¡Madre! ¡Padre!
+E0056_ 00_239_b_05	Soy yo, (EDGE). ¡Vuestro hijo!
+E0056_ 00_239_b_06	¡El rey y la reina han recuperado la conciencia!
+E0056_ 00_239_b_07	(EDGE)...
+E0056_ 00_239_b_08	Ya no somos humanos...
+E0056_ 00_239_b_09	Este ya no es nuestro mundo.
+E0056_ 00_239_b_10	Lo siento, (EDGE).
+E0056_ 00_239_b_11	...
+E0056_ 00_239_b_12	Debemos marcharnos ahora.
+E0056_ 00_239_b_13	Eblan está en buenas manos.
+E0056_ 00_239_b_14	Gobiérnales bien.
+E0056_ 00_239_b_15	¡No os marchéis!
+E0056_ 00_239_b_16	Adiós, hijo mío.
+E0056_ 00_239_b_17	¡Madre!
+E0056_ 00_239_b_18	¡No me dejéis!
+E0056_ 01_239_a_01	...
+E0056_ 01_239_a_02	(EDGE)...
+E0056_ 01_239_a_03	¿Qué ha hecho Lugae? Pero ¿cómo se pudo atrever a...?
+E0056_ 01_239_a_04	¡Rubicante! ¡Maldito demonio!
+E0056_ 01_239_a_05	Fue Lugae quien convirtió a tus padres en monstruos.<P>\nSiento tu pérdida. Mi único deseo era derrotarte en una batalla justa, de igual a igual.
+E0056_ 01_239_a_06	¡Al carajo tú y tus monsergas!
+E0056_ 01_239_a_07	Admiro tu coraje, pero la ira no conduce a la verdadera fuerza.<P>\nSolo te ciega a la verdad.
+E0056_ 01_239_a_08	¡Basta ya! ¡Te demonstraré el poder del odio!
+E0056_ 01_239_a_09	La ira ha despertado los poderes latentes de (EDGE).
+E0056_ 01_239_a_10	(EDGE) ha aprendido Descarga e Inundación.
+E0056_ 01_239_a_11	¡Qué fascinante! Pero nada puede atravesar mi Capa ígnea, ¡ni siquiera el hielo!
+E0057_00_239_a_01	Voy a reponer tus fuerzas al máximo. No me decepciones.
+E0057_00_239_a_02	Puntos de VIT y PM al máximo.
+E0057_00_239_b_01	Qué técnica tan pobre.
+E0057_00_239_b_02	Así es como se hace.
+E0057_00_239_b_03	Habéis luchado valerosamente.
+E0057_00_239_b_04	Pero esto no es el final.
+E0057_00_239_b_05	Volveré... Esto no se ha acabado...
+E0057_01_239_a_01	Unidos, hasta los débiles se vuelven poderosos. Normal que a Golbez le estéis dando tanto trabajo... Hasta más ver...
+E0057_01_239_a_02	...<P>\nPadre...<P>\nMadre...<P>\nAhora podréis descansar en paz.
+E0057_01_239_a_03	¡Su alteza!
+E0057_01_239_a_04	¡Abuelo!
+E0057_01_239_a_05	¡Permítenos luchar a tu lado! ¿Dónde está ese miserable de Rubicante?
+E0057_01_239_a_06	Lo derrotamos. Se ha acabado.
+E0057_01_239_a_07	¡Espléndido!
+E0057_01_239_a_08	Sin ellos no lo podría haber hecho.
+E0057_01_239_a_09	¡No me digas!
+E0057_01_239_a_10	Entonces, ¿quién es ese tal Golbez?
+E0057_01_239_a_11	El amo de Rubicante. Intenta reunir los Cristales para viajar a la Luna.
+E0057_01_239_a_12	¿Por qué quiere llegar a la Luna?
+E0057_01_239_a_13	No lo sabemos.<P>\nParece ser que busca una fuente de energía.
+E0057_01_239_a_14	¡Tenemos que detenerlo!
+E0057_01_239_a_15	Así que él es el responsable de todo esto.<P>\nOs acompañaré.
+E0057_01_239_a_16	Pero, alteza, le necesitamos en Eblan.
+E0057_01_239_a_17	Lo único que importa es detener a ese malnacido antes de que sea demasiado tarde.<P>\nSi no el mundo entero correrá peligro, no solo Eblan.
+E0057_01_239_a_18	Pero...
+E0057_01_239_a_19	No te preocupes, volveré pronto.
+E0057_01_239_a_20	Si así lo ha decidido...<P>\nOs ruego que cuidéis de nuestro príncipe.
+E0057_01_239_a_21	¡Buena suerte, majestad!
+E0057_01_239_a_22	Gracias a todos.
+E0057_01_239_a_23	Venga, ¡vamos a por Golbez!
+E0057_01_239_a_24	Primero tendremos que reunir los Cristales.
+E0057_01_239_a_25	Entonces, ¡que no se haga de esperar!
+E0058_00_321_a_01	¡Es una trampa!
+E0058_00_321_a_02	Uugh... ¡Eso ha dolido!
+E0058_00_321_a_03	Menuda caída.
+E0059_00_347_a_01	¡¿Eh...?!
+E0059_00_347_a_02	¡Un barco volador enemigo!
+E0059_00_347_a_03	Podemos usar esta nave para escapar.
+E0059_00_347_a_04	¡Pero no es nuestra!
+E0059_00_347_a_05	¿Por qué no? Además, seguro que la necesitamos más que el dueño.
+E0059_00_347_a_06	Podría ser una trampa.
+E0059_00_347_a_07	No está nada mal. La llamaré... ¡Falcon!<P>\n¿Qué te parece, (RYDIA)?
+E0059_00_347_a_08	Lo que a ti te parezca.<P>\nPero ¡vámonos ya!
+E0059_00_347_a_09	Buena idea.
+E0059_00_347_a_10	¡Falcon! ¡A todo motor!
+E0055_00_232_a_01	¡Rubicante! ¡Por fin te he encontrado!
+E0055_00_232_a_02	¿Y quién se supone que eres tú?
+E0055_00_232_a_03	Soy (EDGE), ¡el príncipe de Eblan!
+E0055_00_232_a_04	¿Eblan? El nombre no me suena.
+E0055_00_232_a_05	No importa. ¡He jurado acabar contigo y cumpliré con mi palabra!
+E0055_01_232_a_01	¡Argh!
+E0055_01_232_a_02	La verdad es que me has impresionado. Continúa entrenando.<P>\nIntenta no decepcionarme en nuestro próximo encuentro.
+E0055_01_232_a_03	¡Esto no.... ha... terminado!
+E0055_01_232_a_04	¿Estás bien?
+E0055_01_232_a_05	No me puedo creer que haya perdido...<P>\n¿Y vosotros quiénes sois?
+E0055_01_232_a_06	Nosotros también perseguimos a Rubicante.
+E0055_01_232_a_07	¡No os metáis en esto! ¡Rubicante es mío!
+E0055_01_232_a_08	Es evidente que no sabes con quién te metes.<P>\nRubicante es un Señor Elemental.
+E0055_01_232_a_09	Has sufrido su poder en tus carnes, ¿no?
+E0055_01_232_a_10	¡Ja! ¿Te piensas que soy uno de esos príncipes mimados?<P>\nSoy el heredero de la corona de Eblan y un maestro en el letal arte del ninjutsu.<P>\n¡Ahora salid de aquí! Estoy más que capacitado para cuidarme yo solito.
+E0055_01_232_a_11	¡Ya basta!<P>\n¡No quiero que nadie más muera!
+E0055_01_232_a_12	(TELLA), (YANG), (CID)... Todos nos han dejado...<P>\nNo puedo soportarlo más... Snifff.
+E0055_01_232_a_13	Eh, yo...
+E0055_01_232_a_14	(RYDIA)...
+E0055_01_232_a_15	Snif, snif...
+E0055_01_232_a_16	Rubicante es el más poderoso de todos los Señores Elementales.<P>\nSi unimos nuestras fuerzas quizá podamos recuperar el Cristal, pero aun así será casi imposible.
+E0055_01_232_a_17	Vale, vale... Me uniré a nosotros.<P>\nAdemás, nunca pude soportar ver a una chica guapa llorar.
+E0055_01_232_a_18	Vaya pico de oro tiene nuestro príncipe...<P>\n(ROZA), intenta ayudarle.
+E0055_01_232_a_19	¡Cura!
+E0055_01_232_a_20	¡Gracias, encanto!<P>\n¡Vaya! ¡Con dos chicas tan atractivas, quizá esto no sea tan mala idea!
+E0055_01_232_a_21	¡Vamos, pues! ¡Es hora de demostrar quién soy yo!
+E0055_01_232_a_22	Buf, qué motivado se le ve...
+E0055_01_232_a_23	¡El ninja (EDGE) se ha unido al grupo!
+N102_C01_227_01_01	¿Quién va ahí? Ah, humanos...
+N102_C01_227_01_02	¡Demuéstrele al mundo su grandeza, majestad!
+N102_C01_227_03_01	Tras la destrucción del castillo, esto es todo lo que queda de nuestro reino...
+N102_C01_227_02_01	¡Somos el noble pueblo de Eblan!
+N102_C01_227_07_01	Nos queda muy poca comida. No sé cuánto más podremos aguantar...
+N102_C01_227_06_01	Los supervivientes se han refugiado aquí.
+N102_C01_227_05_01	El príncipe se adelantó para realizar un reconocimiento, pero todavía no ha vuelto.
+N102_C01_227_05_02	Nosotros mantendremos el orden hasta que nuestro príncipe vuelva.
+N102_C01_227_04_01	Esto es un camino a la torre de Babel... La morada de Rubicante.
+N102_C01_230_01_01	¿Cómo pudieron neutralizar nuestro ninjutsu con tal facilidad?
+N102_C01_230_02_01	¿De dónde vino ese monstruo?
+N102_C01_230_03_01	Aún no me puedo creer lo que le hicieron a los reyes...
+N104_C02_230_04_01	Soy ministro de Eblan. El príncipe es impetuoso y severo, pero aun así tiene buen corazón.<P>\nHa ido a la torre de Babel para vengar a sus padres, los reyes.
+N104_C02_230_04_02	No se preocupe por nosotros, alteza. Pero por favor, tenga cuidado.
+N106_C01_230_05_01	¡Yo me aseguraré de que nadie pueda hacer daño a mi madre! ¡Pronto voy a tener un hermanito!
+N103_C01_230_07_01	Es tan valeroso...
+N103_C01_230_06_01	Quizá el ninjutsu de Eblan desaparezca con nosotros...
+N103_C02_230_09_01	¡No os rindáis!
+N102_C01_230_10_01	El príncipe vengará a sus padres y derrotará a todos nuestros enemigos, ya veréis.
+N102_C01_230_10_02	El príncipe... Tiene que estar bien, digo yo.
+N107_C02_230_08_01	El príncipe nos ha jurado que se encargará de todos los monstruos.<P>\nCuando acabe podremos volver al castillo.
+N101_C01_231_01_01	¡No me puedo creer que permitiéramos al príncipe irse solo!
+N101_C01_231_02_01	Cuando se le mete algo en la cabeza a nuestro príncipe no hay manera de pararlo.
+N101_C01_232_01_01	Por favor, intentad devolvernos a nuestro príncipe.
+N101_C01_232_02_01	El príncipe ha ido en busca de Rubicante.
+N101_C01_232_03_01	¡Tenga cuidado, alteza!
+E0110_00_263_a_01	...
+E0112_00_263_a_01	¡Eh! ¡Para!
+E0112_00_263_a_02	Zzz... Uh... ¿Ya es la hora de entrenar...?<P>\nDéjame dormir un poquito más...
+E0112_00_263_a_03	¡¿(CECIL)...?!
+E0112_00_263_a_04	¡(YANG)!
+E0112_00_263_a_05	¡Cuánto me alegro de verte!
+E0112_00_263_a_06	Las sílfides me salvaron la vida.
+E0112_00_263_a_07	Igual que tú salvaste las nuestras cuando destruiste aquellos cañones.
+E0112_00_263_a_08	Vamos, es hora de continuar con nuestra misión.
+E0112_00_263_a_09	¡¿Qué dices?! Lo que tú tienes que hacer es descansar.
+E0112_00_263_a_10	No puedo descansar mientras mis amigos arriesgan sus vidas.
+E0112_00_263_a_11	Tranquilízate.
+E0112_00_263_a_12	¿Y tú eres...?
+E0112_00_263_a_13	Soy (EDGE), de Eblan. No te preocupes que ya ocupo yo tu lugar.
+E0112_00_263_a_14	Conque de Eblan ¿eh? Supongo que serás un ninja, pero aun así debo...
+E0112_00_263_a_15	¡Ni hablar! ¡Nosotras lucharemos al lado de tus compañeros!
+E0112_00_263_a_16	¿Eh?
+E0112_00_263_a_17	Ella es una invocadora, ¿verdad? Entonces podrá invocarnos siempre que quiera.
+E0112_00_263_a_18	¡Genial! ¡Muchas gracias!
+E0112_00_263_a_19	(RYDIA) ha aprendido Sílfide.
+E0112_00_263_a_20	Os estaré eternamente agradecido.
+N035_C00_263_04_01	Lo encontramos inconsciente cerca de la entrada de la cueva.<P>\nHemos estado cuidándolo, pero todavía no se ha despertado...
+N035_C00_263_04_02	¿Qué pasaría si (YANG) se muere?
+N035_C00_263_04_03	Saludad a (YANG) de nuestra parte, por favor.
+N035_C00_263_04_04	Sabes invocar, ¿verdad? ¡Entonces puedes contar con nosotros!<P>\n¡Lucharemos juntos!  Lo haremos por (YANG), que nos enseñó lo fuerte y bondadoso que es el corazón humano.
+N035_C00_263_03_01	¡Jamás entregaremos a (YANG)!
+N035_C00_263_03_02	Los humanos son demasiado violentos.
+N035_C00_263_03_03	Si de verdad tiene una mujer, quién soy yo para prohibirle que se marche...
+N035_C00_263_02_01	¡Largaos de aquí!
+N035_C00_263_02_02	¡No os llevéis a (YANG)! ¡Os lo suplico!
+N035_C00_263_02_03	Todas le echaremos de menos.
+N035_C00_263_01_01	¡Ahhh! ¡Humanos!
+N035_C00_263_01_02	Nosotras cuidaremos de (YANG).
+N035_C00_263_01_03	¡No sabes cuánto me alegra saber que (YANG) ya se ha recuperado!
+P008_C00_263_05_01	Pero...
+E0119_00_265_a_01	Pasé por aquí cuando me marché de la Tierra de invocación.<P>\nQuizá Leviatán nos podría ayudar.
+E0120_01_00_143_a_01	¡Reina Asura!
+E0120_01_00_143_a_02	(RYDIA), cariño, ¿por qué has vuelto?
+E0120_01_00_143_a_03	Necesitamos tu ayuda.
+E0120_01_00_143_a_04	Muy bien. Pero ya sabéis cómo funcionan las cosas por aquí. Primero deberéis probar vuestro coraje. <P>\n¿Creéis tener la fuerza y coraje necesarios para enfrentaros a mí?
+E0120_01_00_143_a_05	Entonces siento decir que no os puedo ayudar.
+E0120_01_00_143_a_06	¡Que empiece el reto!
+E0120_02_01_143_a_01	Has demonstrado tu valor. (RYDIA), ahora podrás invocarme siempre que me necesites.
+E0120_02_01_143_a_02	(RYDIA) ha aprendido Asura.
+E0120_03_00_143_a_01	Sois los primeros en vencer a Asura. Pero el mal no se puede derrotar solo con la fuerza.<P>\nSe necesita un alma virtuosa para resistir las tentaciones de la maldad.<P>\n¿Pondréis a prueba la fortaleza de vuestro espíritu contra mis poderes?
+E0120_03_00_143_a_02	Volved cuando estéis preparados.
+E0120_03_01_143_a_01	Vuestro espíritu reluce con el poder del bien. Yo, Leviatán, rey de los espíritus invocados, os serviré en batalla.
+E0120_03_01_143_a_02	(RYDIA) ha aprendido Leviatán.
+N013_C01_134_01_01	¡(RYDIA), has vuelto!
+N013_C00_134_04_01	(RYDIA) es el primer ser humano en venir aquí.
+N013_C02_134_03_01	Esta es la Tierra de invocación, de donde provienen todos los seres invocados.
+N013_C00_134_02_01	Nuestro rey reside en las profundidades.
+N013_C02_136_01_01	¡Cuánto tiempo sin verte, querida (RYDIA)!
+N116_C03_136_02_01	¿Qué tal, (RYDIA)...?<P>\n¿Qué os pasa? ¿Nunca habéis visto un chocobo parlante?
+N116_C03_136_03_01	¡(RYDIA)! Me alegro de verte otra vez.
+N116_C03_136_04_01	¡Hola, (RYDIA)! ¿Estos son los amigos de los que tanto hablabas?
+N013_C02_136_06_01	Para poder ver al rey, primero debéis derrotar a la reina Asura.
+N013_C01_136_08_01	Esta tierra está gobernada por la reina Asura y el rey de la invocación.
+N013_C01_136_07_01	Me han dicho que algunos de mis hermanos están haciendo travesuras en vuestro mundo.
+N116_C03_136_05_01	Esta es la biblioteca, nuestra arca de la sabiduría particular.
+N013_C01_139_02_01	No sé si los humanos tendrán la destreza necesaria para manejar nuestras armas.
+N013_C02_139_03_01	¡Eh! ¡(RYDIA)!
+N013_C01_140_02_01	No traigas a más humanos por aquí, (RYDIA).
+N013_C00_140_03_01	Solo deseamos vivir en paz y tranquilidad.
+N013_C02_137_06_01	¿Qué tal está Ifrit? La última vez que lo vi echaba chispas. Ja, ja, ja.
+N013_C01_137_05_01	Chocobo, Shiva, Lamú... Todos viven aquí.
+N013_C02_137_04_01	Si usas el hechizo Lévita contra Titán, está vendido.
+N013_C01_138_01_01	¿Por qué no te quedas con nosotros, (RYDIA)?
+N013_C01_141_01_01	Este libro es tan conmovedor...
+N013_C00_141_02_01	¡Shhh! ¡Que esto es una biblioteca, caracoles! ¡No un guateque!
+N999_C02_141_04_01	Titán, el martillo de la Tierra.<P>\nCon su poder desgarra la superficie, abriendo enormes grietas que pueden engullir a cualquier enemigo.
+N999_C02_141_05_01	Ifrit, engendro del Fuego.<P>\nSu magia ígnea es capaz de incinerar todo a su alrededor.
+N999_C02_141_06_01	Se rumorea que existen aun más clases de invocaciones por descubrir.
+N999_C02_141_07_01	Lamú, juez divino.<P>\nCapaz de invocar una tormenta divina que azota al enemigo con poderosos rayos.
+N999_C02_141_08_01	Shiva, reina del hielo.<P>\nLos desafortunados que la disgustan acaban como estatuas de escarcha.
+N999_C02_141_09_01	Chocobo.<P>\nEl primero en huir de una batalla. Pero es tan mono que a nadie le importa que lo haga.
+N999_C02_141_01_01	Invocación: una clase de magia que permite llamar a combatir a espíritus.<P>\nSolo unos cuantos humanos son aún capaces de usarla.
+N999_C02_141_02_01	La historia de la raza humana es muy breve cuando se compara con la de la Tierra de la invocación.
+N999_C02_141_03_01	Solo quienes poseen una gran fortaleza física y mental pueden pasar por la cueva que conduce al mundo humano...
+N013_C00_142_01_01	Aquí tenemos un sinfín de libros. Necesitarías varias vidas para leerlos todos.
+N013_C01_142_02_01	¿También existe la literatura en vuestro mundo?
+N999_C02_142_06_01	Si Libra no puede analizar las características de un monstruo, siempre puedes recurrir al bestiario.
+N999_C02_142_07_01	Invocaciones, monstruos, humanos.<P>\n¿Qué ocurrió en el pasado? ¿Qué aguarda el futuro? La vida es un eterno misterio.
+N999_C02_142_08_01	Hace eones, una enorme ballena descendió a la Tierra desde la Luna.<P>\nPor ahora, duerme dentro del dragón...
+N999_C02_142_09_01	El rey de la invocación nos creó y vela por nosotros. Nunca ha conocido la derrota.<P>\nQuizá la única manera de aplacarle sería reflejar su propio poder contra él.
+N999_C02_142_10_01	Dos lunas.<P>\nTiempo ha, ambas conformaban una sola. Así rezan los escritos.
+N999_C02_142_01_01	Asura, reina de la Tierra de invocación.<P>\nLa mujer del rey, defiende el camino que conduce a él.<P>\nSolo quienes la derroten podrán ver el verdadero aspecto del soberano.
+N999_C02_142_02_01	El rey de la invocación.<P>\nSeñor de los océanos, apareció un día en el mar del norte. Sus poderes no tienen igual en estas tierras.
+N999_C02_142_03_01	Odín, el conquistador.<P>\nSolo ha sufrido la derrota una vez, cuando un relámpago destruyó su espada.<P>\nSu demoledor ataque, Zantetsuken, puede aniquilar a cualquier enemigo de un solo golpe.
+N999_C02_142_04_01	Sílfides, efímeras bellezas.<P>\nCuando combinan sus poderes poseen una fuerza formidable.
+N999_C02_142_05_01	La ley de la Tierra de invocación.<P>\nLa verdadera fuerza reside en el alma virtuosa, pero para obtener este poder, uno debe demostrar que lo merece.
+N013_C02_143_01_01	Esta es la cámara real.
+N013_C02_143_02_01	Debéis recibir el permiso de la reina Asura para poder hablar con el rey.
+N104_C00_143_03_01	¿Pensáis que yo soy el rey? Si solo soy un pobre anciano.
+N112_C00_144_03_01	¡Por los espíritus! ¿De dónde habéis salido?
+N112_C00_144_02_01	¿Sabíais que al noroeste hay una isla que conduce a la Tierra de invocación Inquietante, ¿no?
+N112_C00_144_01_01	Me han dicho que los mares del mundo de arriba son azules. ¡Es algo pertubador!
+N112_C00_144_04_01	"¿""Lali ho""? ¡Aquí decimos holi ho!"
+N112_C00_144_05_01	¿Venís del mundo superior? ¡Así que las leyendas contaban la verdad!
+N112_C00_144_06_01	¡Holy-ho! He oído que en el castillo las han pasado canutas. ¿Qué es lo que ocurrió?
+N112_C00_146_01_01	Las sílfides nos tienen miedo, aunque solo queremos ayudarles.
+N112_C00_146_02_01	Dicen que las sílfides viven en las cuevas al noroeste.
+N112_C00_147_03_01	¡Oh, un huésped! ¡Hace tanto tiempo que no pasa nadie por aquí!
+N112_C00_148_01_01	Pues sí que habéis viajado lejos. ¡Tomad todo lo que queráis!
+N112_C00_148_02_01	¡Holy-ho! Llevaos lo que queráis. Todo es gratis.
+E0062_00_268_a_01	La llave del sello abrirá el camino hacia el Cristal de la Oscuridad.
+E0063_ 00_290_a_01	Has obtenido el Cristal de la Oscuridad.
+E0064_ 00_289_a_01	¡Las paredes!
+E0064_ 00_289_a_02	¡Se están moviendo!
+E0064_ 00_289_a_03	¡Se ha debido activar una trampa al mover el Cristal!
+E0064_ 00_289_a_04	¡Al garete con nuestros planes!
+E0064_ 01_289_a_01	¡Así se hace!
+E0064_ 01_289_a_02	¡Chúpate esa!
+E0065_ 00_268_a_01	¿Qué...?
+E0065_ 00_268_a_02	(CAIN)... Eres mío, (CAIN). ¡Tráeme el Cristal!
+E0065_ 00_268_a_03	¡Golbez!
+E0065_ 00_268_a_04	¡(CAIN)!
+E0065_ 00_268_a_05	¡No permitas que te controle!
+E0065_ 00_268_a_06	Estoy... bien.<P>\n¡Ya no soy tu esclavo!
+E0065_ 00_268_a_07	Uf...
+E0065_ 00_268_a_08	¡Han robado el Cristal de la Oscuridad!
+E0065_ 00_268_a_09	¡¿Qué haces?!
+E0065_ 00_268_a_10	¡(CAIN)!
+E0065_ 00_268_a_11	Ahora puedo reactivar la torre de Babel.<P>\n¡Nada detendrá mi ascenso a la Luna!
+E0065_ 00_268_a_12	¡Despierta, (CAIN)!
+E0065_ 00_268_a_13	...
+E0065_ 00_268_a_14	¡(CAIN)! ¡Resiste!
+E0065_ 00_268_a_15	Con todos los Cristales reunidos, ¡el camino a la Luna se abrirá!
+E0065_ 00_268_a_16	¡No lo hagas!
+E0065_ 00_268_a_17	¡Bwa, ja, ja, ja!
+E0065_ 00_268_a_18	No...
+E0065_ 00_268_a_19	¡Maldita sea!<P>\nOtra vez no...
+P013_C00_ 274_02_01	¡Mirad! ¡La puerta se ha transformado en un monstruo!
+E0105_00_117_a_01	¡Fuera de aquí! ¡Hasta que no reciba una cola, no digo ni pío!
+E0105_00_117_a_02	¡Esa es la cola de rata que tanto tiempo llevo buscando!<P>\nMira, te doy un poco de este mineral a cambio de la cola.
+E0105_00_117_a_03	Has recibido adamantita.
+N122_C01_117_02_01	¡No me lo creo! ¡La legendaria cola rosa! ¡Toma esto a cambio!
+N122_C01_117_02_02	Has recibido un arnés adamantino.
+N122_C02_117_01_01	Papá descubrió un curioso mineral aquí. Pero él prefería coleccionar colas de animales. Cuanto más raras, mejor.
+E0106_00_151_a_01	¡Jamás volveré a ser herrero!<P>\nNo forjaré otra espada hasta que tenga en mis manos adamantita, el legendario metal.
+E0106_00_151_a_02	¡Adamantita! ¡Dame esa vieja espada! ¡La convertiré en lo nunca visto!
+E0106_00_151_a_03	Has entregado la Espada legendaria.
+E0107_00_150_a_01	¡Está lista! ¡La espada sagrada, Excálibur! Utilízala bien.
+E0107_00_150_a_02	Has recibido la Excálibur.
+N112_C00_150_02_01	Esto es el taller del Maestro Kokkol, el mejor herrero de todo el mundo.
+N112_C00_150_02_02	¡El maestro ha regresado!
+N112_C00_150_01_01	El maestro ha perdido la ilusión. Malgasta sus días durmiendo sin hacer nada.
+N112_C00_150_01_02	Me estoy esforzando por ser el mejor herrero que el mundo haya conocido. ¡Incluso mejor que el maestro!
+N112_C00_150_01_03	¡Mira lo que ha fabricado el maestro!
+N112_C00_150_03_01	¡Eh! ¡Un poco de paciencia! ¡Esto no se puede hacer con prisa!
+N112_C00_150_03_02	¡Esto ha reavivado mi amor por la herrería!
+N012_C02_152_04_01	Hace años, un miembro de nuestra raza construyó una nave y viajó al planeta azul.<P>\nTenía una gran habilidad para catalogar y nombrar a seres y objetos.
+N012_C00_152_03_01	Nosotros somos los tarareadores.
+N012_C02_152_02_01	¿Que quieres cambiar tu nombre? ¡Y a mí qué me dices!
+N012_C01_152_5	Ummmm, ummm...
+E0069_00_153_a_01	¡Bienvenidos!
+E0069_00_153_a_02	¿Quién eres?
+E0069_00_153_a_03	Yo soy (FOOSUYA).<P>\nSe me ha encomendado el deber de proteger el sueño de los selenitas.
+E0069_00_153_a_04	¿Quiénes son los selenitas?
+E0069_00_153_a_05	Hace milenios, un pequeño planeta entre Marte y Júpiter estaba al borde de la destrucción.<P>\nFue entonces cuando decidieron construir una nave para escapar al planeta azul, la Tierra...
+E0069_00_153_a_06	El planeta azul...
+E0069_00_153_a_07	Vuestro planeta, por desgracia lleno de seres demasiado primitivos.<P>\nAl final los selenitas decidieron crear otra luna donde podrían descansar mientras que las otras razas evolucionaban.
+E0069_00_153_a_08	Así que los selenitas son extraterrestres...
+E0069_00_153_a_09	Sin embargo, había uno que se negó a entrar en reposo.<P>\nSu único deseo era arrasar el planeta azul y todo lo que en él vivía para crear su nuevo hogar.
+E0069_00_153_a_10	Qué terrible...
+E0069_00_153_a_11	Con mis poderes conseguí atraparle y hacerle caer en estado de letargo.<P>\nPero durante su profundo sueño consiguió transmitir su malvado poder a los seres malignos que plagan vuestro planeta.<P>\nSeres que ha utilizado para reunir los Cristales.
+E0069_00_153_a_12	¡Entonces él es el responsable de las acciones de Golbez!
+E0069_00_153_a_13	¿Cómo se llama este misterioso ser?
+E0069_00_153_a_14	Se llama Zemus. Está reuniendo los Cristales para reactivar el ascensor dimensional.<P>\nCon él pretende traer al Gigante de Babel a vuestro mundo para sembrar la destrucción total.
+E0069_00_153_a_15	¡No!
+E0069_00_153_a_16	La mayoría de los selenitas creemos que las dos razas podrán coexistir.<P>\nSimplemente dormimos mientras esperamos a que los humanos evolucionen lo suficiente para poder aceptar nuestra sabiduría.
+E0069_00_153_a_17	¿Y la Ballena lunar?
+E0069_00_153_a_18	Fue construida hace años por mi hermano menor, KluYa, para transportarnos al planeta azul.<P>\nSiempre había soñado con descubrir nuevos planetas.<P>\nDebido a su afán de explorar, desarrolló la tecnología necesaria para crear el camino del averno y los barcos voladores.<P>\nEn el planeta azul, KluYa se enamoró y tuvo dos hijos.<P>\nTú eres uno de ellos...
+E0069_00_153_a_19	¡¿Cómo que yo?! Pero... ¡eso significa que la voz que oí en el monte Ordalía era...!
+E0069_00_153_a_20	Era la voz del espíritu de KluYa... tu padre.<P>\nNo tengo dudas... Eres el vivo retrato de él a tu edad.
+E0069_00_153_a_21	Entonces... esa era la voz de mi padre...
+E0069_00_153_a_22	KluYa te ha otorgado el poder necesario para poner fin al nefasto plan de Zemus.<P>\nNo puedes fallar. ¡El destino de tu mundo y el de los selenitas depende de ti!<P>\nDebes ir a la torre de Babel, en Eblan, lo antes posible.
+E0069_00_153_a_23	Pero ¿cómo podemos traspasar la barrera que la rodea?
+E0069_00_153_a_24	Creo que puedo anular la barrera.<P>\nNo podemos permitir que el Gigante de Babel alcance el planeta azul, así que ¡me uniré a vosotros!
+E0069_00_153_a_25	El selenita (FOOSUYA) se ha unido al grupo.
+E0073_00_154_a_01	Os conduciremos al núcleo.
+B006_C00_154_01_01	Somos los ocho Cristales de la Luna.
+B006_C00_154_01_02	La destrucción de la torre de Babel ha roto el sello del núcleo. Ahora podéis llegar a Zemus.
+B006_C00_154_02_01	Junto con los ocho Cristales de la Tierra mantenemos el equilibrio entre vuestro planeta y la Luna.
+B006_C00_154_02_02	En el núcleo encontraréis poderosas armas que los selenitas escondieron por miedo a que se utilizaran contra ellos.<P>\nAllí también encontraréis a Zemus.
+B006_C00_154_03_01	Estamos cercando la entrada al núcleo, la celda de Zemus.
+B006_C00_154_03_02	Os conduciremos al núcleo.
+B006_C00_154_04_01	Zemus ha conjurado una barrera que prohíbe el paso al núcleo.
+B006_C00_154_04_02	Debes ir al núcleo de la Luna.
+B006_C00_154_05_01	Zemus manipuló a Golbez para que reuniera los ocho Cristales de la Tierra y después amplificó sus poderes en la torre de Babel.
+B006_C00_154_05_02	Somos los ocho Cristales de la Luna.
+B006_C00_154_06_01	Juntos, los ocho Cristales lunares hemos encarcelado a Zemus.
+B006_C00_154_06_02	La barrera que separa a Zemus de los selenitas es de un poder inimaginable.
+B006_C00_154_07_01	Aun en cautividad, los poderes de Zemus siguen incrementando.
+B006_C00_154_07_02	El esfuerzo de intentar contener la locura de Zemus nos deja al límite de nuestras fuerzas.
+B006_C00_154_08_01	Los selenitas reposan en las profundidades del núcleo.<P>\n(FOOSUYA) ha velado su sueño durante milenios.
+B006_C00_154_08_02	(FOOSUYA) y el hijo de KluYa todavía no han regresado...
+N999_C08_154_01_01	Está sellado por una fuerza desconocida.
+E0125_00_295_a_01	Habéis convencido a Leviatán, pero eso no demuestra nada.<P>\n¡Yo, Bahamut, dios de la invocación, dictaré la sentencia final!
+E0125_00_295_b_01	5
+E0125_00_295_b_02	4
+E0125_00_295_b_03	3
+E0125_00_295_b_04	2
+E0125_00_295_b_05	1
+E0125_01_295_a_01	Vuestro poder mental y físico son dignos de mi respeto.<P>\n(RYDIA), invócame siempre que tengas necesidad.
+E0125_01_295_a_02	(RYDIA) ha aprendido Bahamut.
+N106_C00_295_01_01	¿Qué deseáis?
+N106_C00_295_01_02	Sois los primeros en ser aceptados por el dios de la invocación.
+N107_C00_295_02_01	Oh... Tú sí que eres un ejemplar interesante...
+N107_C00_295_02_02	Parece que cargas con el peso de todo el mundo en tus hombros.
+N016_C00_295_03_01	El rey de la invocación no os ha reconocido. Marchaos ahora mismo.
+N016_C00_295_03_02	Vuestro poder mental y físico son dignos de mi respeto.<P>\n(RYDIA), invócame siempre que tengas necesidad.
+E0070_04_160_a_01	¡Aaah!
+E0070_04_160_a_02	¡La torre!
+E0070_04_160_a_03	¡Hemos llegado demasiado tarde!
+E0070_04_160_a_04	¿Cómo que hemos llegado demasiado tarde?
+E0070_04_160_a_05	¡El Gigante de Babel se manifiesta!
+E0070_06_160_a_01	¡No!
+E0070_06_160_a_02	Qué bien... Nos ha salido redondo entonces.
+E0070_06_160_a_03	¡Tiene que haber algo que podamos hacer!
+E0070_06_160_a_04	¡¿Qué es eso?!
+E0070_08_345_a_01	¡Los tanques de los enanos están a vuestro servicio!<P>\n¡Lucharemos junto a vosotros por nuestra tierra! ¡Por nuestros hogares!
+E0070_08_345_a_02	¡Lali ho!
+E0070_09_345_a_01	¡No podía permitir que lucharais mientras yo descansaba!<P>\n¡Estoy con vosotros!
+E0070_11_346_a_01	¡Relajaos que aquí llega la caballería!<P>\n¡A toda máquina!
+E0070_11_346_a_02	¡SEÑOR, SÍ SEÑOR!
+E0070_12_346_a_01	¿Qué pasa, colegas? ¿A que me echabais de menos?
+E0070_12_346_a_02	El maestro consiguió revertir nuestra petrificación.
+E0070_12_346_a_03	¡Es el deber de todos nosotros luchar por el futuro de la Tierra!
+E0070_13_346_a_01	Gracias al valor que me has infundido, (CECIL), ¡yo también lucharé con vosotros!
+E0070_15_160_a_01	¡Gracias a todos!
+E0070_15_160_a_02	¡El gigante parece estar aturdido!
+E0070_15_160_a_03	¡Esta es nuestra oportunidad para entrar en el Gigante de Babel!
+E0070_15_160_a_04	¡Claro! ¡Vamos al corazón! ¿Verdad?
+E0070_15_160_a_05	¡(CID)!
+E0070_17_346_a_01	Dirígete hacia su boca.
+E0070_17_346_a_02	¿Quién es este?
+E0070_17_346_a_03	(FOOSUYA), un selenita.
+E0070_17_346_a_04	¿Un selenita...?
+E0070_17_346_a_05	Dime, ¿puedes hacer lo que te pido o no?
+E0070_17_346_a_06	¡Pché! ¡No hay nada que no pueda hacer con un barco volador!
+E0070_17_346_a_07	¡Ahora!
+E0070_17_346_a_08	¡Agarraos!
+E0071_00_243_a_01	Por fin habéis llegado.
+E0071_00_243_a_02	El Gigante de Babel es imparable.
+E0071_00_243_a_03	Ja, ja, ja, ja, ja... Ha llegado el momento...
+E0071_00_243_a_04	¡El momento de vuestra destrucción final!
+E0071_00_243_a_05	¡Los Señores Elementales!
+E0071_00_243_a_06	Así es.
+E0071_00_243_a_07	El maestro Zemus nos ha otorgado una segunda oportunidad.
+E0071_00_243_a_08	¡Esta será vuestra última batalla!
+E0071_00_243_a_09	Me alegro de tener esta nueva oportunidad de probar mis poderes contra vosotros. También hemos aprendido el valor de luchar en equipo.<P>\nPermitidme reponer vuestra fuerza antes de la batalla.
+E0071_00_243_a_10	Puntos de VIT y PM al máximo.
+E0071_00_243_a_11	Esta vez no fracasaremos.
+E0071_01_243_a_01	¡Maestro Zemus!
+E0071_01_243_a_02	Solo pido una oportunidad más... Por favor...
+E0071_01_243_a_03	Imposible... Nos han derrotado otra vez...
+E0071_01_243_a_04	Adiós, valientes guerreros.
+E0072_00_249_a_01	¡Hemos alcanzado el centro del gigante! ¡Estamos en su núcleo!
+E0072_00_249_a_02	¡Caray!
+E0072_00_249_a_03	Primero, tendremos que destruir el nodo defensivo antes de que pueda restaurar la unidad central.
+E0072_01_249_a_01	¡Así se hace!
+E0072_01_249_a_02	¡Lo detuvimos!
+E0072_01_249_a_03	¡Malditos seáaais!
+E0072_01_249_a_04	¡Mi Gigante! ¡¿Cómo os atrevéis?!
+E0072_01_249_a_05	¡Tú!
+E0072_01_249_a_06	¿Nos conocemos?
+E0072_01_249_a_07	Debes buscar en tu interior para recordar quién eres en realidad...
+E0072_01_249_a_08	¡Cállate...!
+E0072_01_249_a_09	¡Despierta!
+E0072_01_249_a_10	¿Qué me ha ocurrido? ¿De dónde venía todo ese odio? ¿Toda esa maldad...?
+E0072_01_249_a_11	Has conseguido reencontrarte con tu verdadero yo.<P>\n¿Recuerdas el nombre de tu padre?
+E0072_01_249_a_12	Mi padre... Mi padre es... KluYa.
+E0072_01_249_a_13	¡¿Cómo?!
+E0072_01_249_a_14	Eso quiere decir que sois...
+E0072_01_249_a_15	¡No me digas que sois hermanos!
+E0072_01_249_a_16	¿Mi hermano...?
+E0072_01_249_a_17	Solo eras una marioneta en sus manos.<P>\nA consecuencia de tu sangre selenita, le fue muy fácil utilizar sus poderes para controlarte para sus propios fines...<P>\nPero aún no me puedo creer que te obligara a luchar contra tu propia familia.
+E0072_01_249_a_18	¡Ya basta!
+E0072_01_249_a_19	No me puedo creer que estuviera luchando contra mi propia sangre...<P>\n¿Cómo puede ser que odiara a mi propio hermano de tal manera?
+E0072_01_249_a_20	Eres mi... mi hermano...
+E0072_01_249_a_21	¿Por qué te escogería a ti?<P>\nPodría haberme pasado a mí...\nEn mis venas también corre sangre selenita.
+E0072_01_249_a_22	Fui su elegido... porque yo mismo había sembrado las semillas de la maldad en mi corazón...<P>\nZemus no hizo más que utilizar mi propia mezquindad...
+E0072_01_249_a_23	¡¿Adónde vas?!
+E0072_01_249_a_24	¡A por Zemus, que tengo que ajustar cuentas!
+E0072_01_249_a_25	¡Espera!
+E0072_01_249_a_26	Yo también soy selenita, igual que Zemus. Mi deber es acompañarte.
+E0072_01_249_a_27	Adiós, (CECIL)...
+E0072_01_249_a_28	¿Vas a dejar que se vaya así, (CECIL)?
+E0072_01_249_a_29	Sabes que Golbez no tiene intención de volver... ¿verdad?
+E0072_01_249_a_30	...
+E0072_01_249_a_31	Tienes que hacer algo. ¡Es tu hermano!
+E0072_01_249_a_32	Mi hermano...
+E0072_01_249_a_33	¡Sí, tu hermano!
+E0072_01_249_a_34	...
+E0072_01_249_a_35	Creo que tenemos problemas...
+E0072_01_249_a_36	¡Hay que largarse!
+E0072_01_249_a_37	¡(CECIL)!
+E0072_01_249_a_38	...
+E0072_01_249_a_39	¿Qué narices estás haciendo?
+E0072_01_249_a_40	¡Tenemos que encontrar alguna forma de salir!
+E0072_01_249_a_41	¡Por aquí!
+E0072_01_249_a_42	¡(CAIN)!
+E0072_01_249_a_43	¡A mí no me la das con queso otra vez!
+E0072_01_249_a_44	¡Las charlas, para luego! ¡Primero tenemos que salir de aquí!
+E0072_01_249_a_45	¡Deprisa!
+E0072_03_161_a_1	Por fin he conseguido volver en mí mismo...<P>\nEntiendo que no perdonéis mis actos después de todo lo que hice...
+E0072_03_161_a_2	Claro que no te vamos a perdonar. ¡Lo del gigante es todo tu culpa!
+E0072_03_161_a_3	¡¡¡Oye!!!
+E0072_03_161_a_4	(ROZA)...
+E0072_03_161_a_5	¡No es su culpa! ¡Ya viste cómo Zemus tenía a Golbez bajo su control!
+E0072_03_161_a_6	¿Golbez también?
+E0072_03_161_a_7	Golbez era el hermano de (CECIL)...
+E0072_03_161_a_8	...
+E0072_03_161_a_9	Un selenita conocido como Zemus le estaba controlando aprovechándose de su descendencia común.
+E0072_03_161_a_10	Golbez y (FOOSUYA) han viajado a la Luna para destruir a Zemus.
+E0072_03_161_a_11	No me lo puedo creer... ¡¿Golbez es el hermano de (CECIL)?!
+E0072_03_161_a_12	Mi sitio también está en la Luna. ¡Zemus debe sufrir por sus acciones!
+E0072_03_161_a_13	Con tal de que no nos traiciones otra vez...
+E0072_03_161_a_14	Si ocurriese otra vez, tienes mi permiso para liquidarme.
+E0072_03_161_a_15	¡Pues entonces me apunto! <P>\n¡Quiero darle su merecido a ese selenita de pacotilla!
+E0072_03_161_a_16	(EDGE)...
+E0072_03_161_a_17	Yo también voy.
+E0072_03_161_a_18	¡Vamos a la Luna!
+E0072_03_161_a_19	(CECIL)...
+E0072_03_161_a_20	(ROZA), (RYDIA). Quiero que vosotras dos os quedéis aquí.<P>\nNo quiero exponeros a semejante peligro.
+E0072_03_161_a_21	¡No es justo, (CECIL)!
+E0072_03_161_a_22	¡Para nada!
+E0072_03_161_a_23	Por favor, debéis abandonar la Ballena lunar lo antes posible.
+E0072_03_161_a_24	En este tipo de situación, una chavalilla como tú no hace más que estorbar.
+E0072_03_161_a_25	"¿A quién estás llamando ""chavalilla""?"
+E0072_03_161_a_26	Mírala...
+E0072_03_161_a_27	(CECIL)...
+E0072_03_161_a_28	¡(CAIN)! ¡(EDGE)!
+E0072_07_161_a_01	¡En marcha!
+E0072_07_161_a_02	¡(ROZA)!
+E0072_07_161_a_03	...
+E0072_07_161_a_04	Apártate, (ROZA), por favor.
+E0072_07_161_a_05	¡No! ¡O me llevas o nos quedamos todos!
+E0072_07_161_a_06	¿Por qué me haces esto?...
+E0072_07_161_a_07	Lo único que quiero de esta vida es estar junto a ti... Lo demás no importa.
+E0072_07_161_a_08	(ROZA)...
+E0072_07_161_a_09	No te deja más remedio, (CECIL)...
+E0072_07_161_a_10	Las mata callando...
+E0072_07_161_a_11	Vale... (ROZA), daré mi vida por protegerte.
+E0072_07_161_a_12	¡Ha funcionado!
+E0072_07_161_a_13	¡¿Qué haces tú aquí?!
+E0072_07_161_a_14	Ya te lo dije. Esta guerra no la luchas tú solo.<P>\nAdemás, yo soy la única que puede invocar bestias que nos ayuden...
+E0072_07_161_a_15	¡Pero...! ¿Tú también, (RYDIA)?<P>\nPues nada... Ya estamos todos, supongo. ¡Vamos a por ellos!
+E0116_00_298_a_01	¡Al que busca esta espada solo le espera la muerte!
+E0116_01_298_a_01	You found Rainbow Robe!
+E0117_00_302_a_01	¡Los que son condenados por Zemus jamás portarán esta espada!
+E0117_01_302_a_01	You found Asura Rod!
+E0114_00_311_a_01	¡Si codicias la lanza sagrada, tu inmolación está asegurada!
+E0114_01_311_a_01	You found Hero Shield!
+E0118_00_312_a_01	Protegeremos las cintas con nuestro poder sagrado.
+E0115_00_313_a_01	¡Jamás portará alguien la espada maldita, Masamune!
+E0115_00_313_a_02	You found Asura Rod!
+E0074_00_317_a_01	¡Golbez! ¡(FOOSUYA)!
+E0074_00_317_b_01	¡Conjura Meteo! ¡Ahora!
+E0074_00_317_b_02	¡Listo!
+E0074_00_317_b_03	Muere en el intento.
+E0074_00_317_b_04	El cuerpo fallece.
+E0074_00_317_b_05	Pero el espíritu perdura...
+E0074_01_317_a_01	Lo conseguimos...
+E0074_01_317_a_02	Posees un gran poder... Es una pena que Zemus te controlara.
+E0074_01_317_a_03	¡Aquí llega la caballería!
+E0074_01_317_a_04	¡Estáis todos aquí!
+E0074_01_317_a_05	Veo que llegamos tarde. Me prometí que acabaría con él yo mismo.
+E0074_01_317_a_06	(CECIL)...
+E0074_01_317_a_07	...
+E0074_01_317_a_08	(CECIL)...
+E0074_01_317_a_09	Somos... la maldad encarnada... Somos... la... malevolencia de Zemus...
+E0074_01_317_a_10	Somos... Zeromus... ¡Y execramos a todo ser vivo!
+E0074_01_317_a_11	¡Imposible! ¡Su muerte solo parece haber incrementado su poder!
+E0074_01_317_a_12	Zemus... O Zeromus, lo que seas.<P>\n¡Esta vez te aniquilaré por completo!
+E0074_01_317_a_13	¡Es hora de que desaparezcas!
+E0074_01_317_b_01	¡Meteo no surte efecto!
+E0074_01_317_b_02	¡Utiliza el Cristal!
+E0074_01_317_b_03	Elegiste el camino de la Oscuridad.
+E0074_01_317_b_04	El Cristal no puede purificar tus pecados.
+E0074_01_317_b_05	¡Ahora eres parte de las tinieblas!
+E0074_01_317_b_06	¡Muere!
+E0074_01_317_b_07	Sufrid... Morid...<P>\nNuestro odio es eterno... Nunca pararemos hasta extinguir toda vida...<P>\nEs vuestro turno... Caed... ¡Caed a los abismos!
+E0074_03_60_a_1	¡Maestro!
+E0074_03_60_a_2	¡(CECIL) y los demás corren grave peligro!
+E0074_03_60_a_3	Ajá...
+E0074_03_60_a_4	¡Ahora es cuando debemos rezar! ¡Recemos por ellos y este planeta!
+E0074_03_60_a_5	¡(PALOM), (POLOM)! ¡Hay que esforzarse para que (CECIL) pueda recibir nuestra fuerza!
+E0074_03_60_a_6	¡(CECIL)!
+E0074_03_60_a_7	¡Toma mi fuerza!
+E0074_03_60_a_8	¡Como no volváis todos sanos y salvos os vais a enterar!
+E0074_03_60_a_9	¡Tenéis que volver a salvo!
+E0074_03_60_a_10	¡Hacedlo por el reino!
+E0074_03_60_a_11	¡Estamos con vosotros!
+E0074_03_60_a_12	¡Nosotros también rezaremos!
+E0074_03_60_a_13	¡Vamos!
+E0074_03_60_a_14	¡Por (CECIL) y los demás!
+E0074_03_60_a_15	¡Oh, Luna, oye mi voz! ¡Acepta nuestras plegarias!
+E0074_04_317_a_01	¡Golbez...!
+E0074_04_317_a_02	Usa... ¡esto!
+E0074_04_317_a_03	Has recibido el Cristal.
+E0074_04_317_a_04	¡Zeromus! ¡Me niego a caer ante ti!
+E0074_04_317_b_01	¡Ey!
+E0074_04_317_b_02	¡Déjanos ayudarte!
+E0074_04_317_b_03	Sus oraciones te reponen vitalidad.
+E0074_04_317_b_04	¡No te rindas!
+E0074_04_317_b_05	Confía en ti mismo.
+E0074_04_317_b_06	Sus oraciones te otorgan fuerza.
+E0074_04_317_b_07	¡Mantén la concentración!
+E0074_04_317_b_08	¡Ni se te ocurra morirte!
+E0074_04_317_b_09	Sus oraciones incrementan tu resistencia.
+E0074_04_317_b_10	Debes prevalecer.
+E0074_04_317_b_11	Hermano.
+E0074_04_317_b_12	Entrega al Cristal...
+E0074_04_317_b_13	el poder sagrado que hay en ti.
+E0074_04_317_b_14	¡Zeromus! ¡Muestra tu aspecto verdadero!
+E0074_04_317_b_15	Sus oraciones te otorgan poder sagrado.
+E0074_04_317_b_16	Zeromus ha revelado su aspecto verdadero.
+E0074_04_317_b_17	Gr ... gh... ga...
+E0074_04_317_b_18	¡Se ha anulado todo efecto mágico!
+E0074_05_317_a_01	¡Imposible! No podemos perecer... No mientras exista...<P>\nel mal en los corazones... de los hombres...<P>\n¡Aaaaaarghhh!
+E0074_05_317_a_02	¡Magnífico!
+E0074_05_317_a_03	Nunca pude imaginar que poseyerais tal poder...<P>\nSospecho que los seres humanos habéis evolucionado hasta tal punto que ya sobrepasáis incluso a los mismos selenitas.
+E0074_05_317_a_04	¡Y que lo digas! ¡Acabas de ver la prueba definitiva!
+E0074_05_317_a_05	No puedo olvidar las últimas palabras de Zeromus...
+E0074_05_317_a_06	Mientras exista el mal...
+E0074_05_317_a_07	La verdadera maldad jamás desaparecerá.<P>\nEn todo ser vivo se libra una batalla entre el bien y el mal.<P>\nEs parte de la armonía universal, que mantiene el equilibrio entre la Luz y la Oscuridad.<P>\nVosotros conquistasteis el mal en vuestros corazones y por eso derrotasteis a Zemus.
+E0074_05_317_a_08	¡Qué rollo! ¡Ni que fuera para tanto!
+E0074_05_317_a_09	¡Qué maleducado eres! Me sorprende que Zemus no intentara controlarte, ¡porque maldad no te falta!
+E0074_05_317_a_10	¡Me hieres en el alma! Si soy más bueno que el pan...
+E0074_05_317_a_11	Eh... Bueno, mejor será que vuelva a mi hogar. ¿Qué haréis vosotros?
+E0074_05_317_a_12	Nosotros también volveremos a casa.
+E0074_05_317_a_13	Desde luego. Más de uno estará preocupado por nosotros.
+E0074_05_317_a_14	Me alegro de que podáis contar con amigos tan buenos.<P>\n¡Me despido con la esperanza de que nuestros caminos vuelvan a cruzarse!
+E0074_05_317_a_15	¿Podría...? ¿Podría acompañarte?
+E0074_05_317_a_16	¿De verdad deseas acompañarme?
+E0074_05_317_a_17	Sí... Me sería imposible volver a casa después de todas las atrocidades que he cometido.<P>\nTambién me gustaría poder conocer la raza de mi padre.
+E0074_05_317_a_18	Tu sangre selenita anhela regresar a su verdadero hogar...<P>\nSería un honor que me acompañases, pero debes prepararte para un largo sueño.
+E0074_05_317_a_19	Gracias...
+E0074_05_317_a_20	Antes, cuando gritaste mi nombre, parecía que estabas preocupado...<P>\n¿Significa eso que me has perdonado, (CECIL)?...<P>
+E0074_05_317_a_21	...
+E0074_05_317_a_22	¡Qué tonterías digo! Alguien como yo no merece la redención.
+E0074_05_317_a_23	Pasaremos un largo periodo de tiempo en un profundo letargo.<P>\nEspero que podáis disfrutar de paz y tranquilidad en el futuro.
+E0074_05_317_a_24	Vamos.
+E0074_05_317_a_25	Sí...
+E0074_05_317_a_26	(CECIL)...
+E0074_05_317_a_27	¿Estás seguro de que quieres dejar las cosas así?
+E0074_05_317_a_28	¡Es tu hermano!
+E0074_05_317_a_29	Adiós a todos.
+E0074_05_317_a_30	¡(CECIL)!
+E0074_05_317_a_31	...<P>\nAdiós no... ¡Hasta la próxima, hermano!
+E0074_05_317_a_32	(CECIL)...
+E0074_05_317_a_33	¡Hasta luego, (CECIL)! ¡Cuídate, hermano!
+E0030_00_353_a_01	Congratulations!
+E0030_00_353_a_02	You have defeated The Fabul Gauntlet!
+E0030_00_353_a_03	" "
+E0030_00_353_a_04	Thank you for playing!
+E0030_00_353_a_05	
+E0030_00_353_a_06	Creator, Design, and Programming
+E0030_00_353_a_07	gameboyf9
+E0074_06_354_a_01	Thanks to the Beta Helpers
+E0074_06_354_a_02	Invenerable, LQFleury14, Eatitup_86, PoorlyDrawnBees,
+E0074_06_354_a_03	FrançoiseHarpie, sorbius, Infinious, and Buffalax
+E0074_06_354_a_04	
+E0074_06_354_a_05	Special Thanks to...
+E0074_06_354_a_06	mcgrew, Albeoris, Silvris, and Rexx Raul
+E0074_08_335_a_01	Empezaremos con el entrenamiento de hoy.
+E0074_08_335_a_02	Sí, maestro.
+E0074_08_335_a_03	Eh... ¿Dónde está (PALOM)?
+E0074_08_335_a_04	¡Ya estamos! ¡Otra vez no!
+E0074_09_336_a_01	Entonces, decidí conjurar Hielo contra el monstruo del monte Ord...
+E0074_09_336_a_02	¡Patapaf!
+E0074_09_336_a_03	¡Ayyy!
+E0074_09_336_a_04	¡Has llegado tarde a clase otra vez! ¡El maestro está muy enfadado!
+E0074_10_335_a_01	¿Cuántas veces tendré que castigarte antes de que aprendas, hijo mío?
+E0074_10_335_a_02	¡A este paso, te harán falta décadas de estudio para que llegues a ser la mitad de sabio de lo que era (TELLA)!
+E0074_10_335_a_03	Como castigo, tendrás que entrenar el doble que tu hermana hoy.
+E0074_10_335_a_04	¡Eso no es justo!
+E0074_10_335_a_05	¡Pues a mí me parece que el castigo se queda corto!
+E0074_11_337_a_01	¿Cuándo te darás cuenta de que tienes responsabilidades? ¡Eres el príncipe, rayos!
+E0074_11_337_a_02	¡Lo sé! ¡Lo sé! ¡Hay que ver...!
+E0074_11_337_a_03	Si en vez de perseguir faldas te dedicaras a gobernar como es debido...
+E0074_11_337_a_04	Que sí, lo que tú digas.
+E0074_11_337_a_05	Me da a mí que todo va a seguir igual...
+E0074_11_337_a_06	¡Basta ya! ¡Lo entiendo! ¡Asumiré mis responsabilidades reales!...<P>\nPero es que no puedo parar de pensar en (RYDIA)... Es tan guapa...
+E0074_11_337_a_07	¡Su alteza! ¡¿Acaso me está escuchando?!
+E0074_12_341_a_01	Esa chica ha demostrado poseer un espíritu inquebrantable.
+E0074_12_341_a_02	Desde luego. Jamás me atreví a pensar que conseguiría volver.
+E0074_12_341_a_03	¡(RYDIA)!
+E0074_12_341_a_04	(RYDIA), ¿por qué tengo colmillos y tú no? ¡Ojalá no los tuviera para parecerme más a ti! ¡Quiero ser como tú!
+E0074_12_341_a_05	¡No digas tonterías! ¡Las apariencias no importan!
+E0074_12_341_a_06	Estoy ansiosa por ver lo que el futuro depara a la Tierra de invocación.
+E0074_12_341_a_07	¡Yo estoy ansioso de ver lo hermosa que se volverá esta muchacha!
+E0074_12_341_a_08	Lo importante está en nuestro interior.
+E0074_12_341_a_09	¿A que sí, (CECIL)?...
+E0074_13_333_a_01	Cariño...
+E0074_13_333_a_02	"Ahora que eres una reina tienes que llamarme ""mi rey""."
+E0074_13_333_a_03	Vale, vale... ¡Pero es que no me pega ser tan formal!
+E0074_13_333_a_04	¡Ahivá! ¡Llego tarde al entrenamiento!
+E0074_13_333_a_05	¡Vamos!
+E0074_13_333_a_06	¡Kiai!
+E0074_13_333_a_07	¡Cariño! ¿No deberías...?
+E0074_13_333_a_08	Ten fe en él. (YANG) creará un maravilloso reino para todos nosotros.
+E0074_14_330_a_01	¡Su alteza!
+E0074_14_330_a_02	¡Espero que algún día no muy lejano nos deleite con su canto sobre el paladín!
+E0074_14_330_a_03	Descuida, pero cuando acabe con mis labores. Me imaginaba que lo que más deseabais era devolver el castillo a sus días de gloria.
+E0074_14_330_a_04	¡Desde luego!
+E0074_14_330_a_05	Prometido, ¿vale?
+E0074_14_330_a_06	Anna...
+E0074_14_330_a_07	Espero que estés orgullosa de mí. Estoy ayudando a mi pueblo... Cuido de ellos igual que quería cuidar de ti, como me enseñaste.<P>\nSeguro que tú y (TELLA) estáis bien...
+E0074_15_340_a_01	¡Lali ho!
+E0074_15_340_a_02	¡Nuestra prioridad es reconstruir el castillo lo antes posible!
+E0074_15_340_a_03	¡Su alteza! ¡No tenemos suficientes materiales!
+E0074_15_340_a_04	Desmantelad los tanques entonces. La guerra jamás nos amenazará otra vez.
+E0074_15_340_a_05	Papá, me pregunto cómo le ira todo a (CECIL) y a sus amigos...
+E0074_15_340_a_06	¡Se me había olvidado decírtelo!<P>\nPues resulta que (CECIL) y (ROZA)... ¡son los nuevos reyes de Baronia!
+E0074_15_340_a_07	¡Qué bien!
+E0074_15_340_a_08	¡Y nos han invitado a la ceremonia de coronación!
+E0074_15_340_a_09	¡Qué pasada!
+E0074_15_340_a_10	¡Pero, su alteza! ¡No nos está ayudando en nada!
+E0074_15_340_a_11	¿Quién es el rey? ¡Yo! ¿Quién da las órdenes? ¡Yo! ¡Ahora vuelve al trabajo, vago!
+E0074_15_340_a_12	¡Lali ho!
+E0074_16_351_a_01	(CECIL)... (ROZA)...<P>\nTodavía siento vergüenza de mis actos... Me es difícil miraros a la cara.<P>\nPor eso debo probarme en el monte Ordalía, igual que tú, (CECIL). Entrenaré hasta ser el mejor draconarius del mundo, incluso mejor que mi padre...<P>\nHasta ese día... ¡no volveré a Baronia!
+E0074_17_338_a_01	¡Eh!
+E0074_17_338_a_02	¿Qué te pasa?
+E0074_17_338_a_03	¡Mira esto! ¡La Luna...!
+E0074_19_329_a_01	¡Ah...!
+E0074_19_329_a_02	¿Ocurre algo, (CECIL)?
+E0074_19_329_a_03	Me pareció oír... Me pareció oír la voz de mi hermano...
+E0074_19_329_a_04	¿De veras?
+E0074_19_329_a_05	No estoy seguro, pero... Olvídalo. Seguro que no es más que mi imaginación.
+E0074_19_329_a_06	¡Eh, vosotros dos! ¿Por qué no estáis listos? ¡Hoy es vuestro gran día!
+E0074_19_329_a_07	¡Ostras! ¡Se nos ha echado el tiempo encima!
+E0074_19_329_a_08	¡Ya haréis manitas todo lo que queráis más adelante!<P>\n¡Venga! ¡Vamos, (ROZA)!...<P>\nEh, esto... ¿Vamos, su alteza?
+E0074_19_329_a_09	Para ti siempre seré (ROZA).
+E0074_19_329_a_10	¡Pues ponte las pilas y vístete de una vez!<P>\n¡Y no te olvides de ponerte el maquillaje, que no tenemos todo el día! ¡A la gente no le gusta esperar a la novia!
+E0074_19_329_a_11	¡Ya voy! ¡Ya voy!
+E0074_19_329_a_12	Tengo tantas ganas de ver a todos otra vez... Hace tanto que no nos vemos... ¿Estás listo, (CECIL)?
+E0074_19_329_a_13	Sí, cuando quieras.
+E0074_19_329_a_14	No era solo mi imaginación...<P>\nOí la voz de mi hermano...<P>\nOí cómo me decía adiós...
+S0005_999_a_01	Has encontrado: (ITEM_N).
+S0005_999_a_02	Has obtenido: (ITEM_N).
+S0005_999_a_03	Has obtenido: (NUM) guiles.
+S0005_999_a_04	Has encontrado: (NUM) guiles.
+S0005_999_a_05	¡Monstruos!
+S0005_999_a_06	Está vacío.
+S0005_999_a_07	¡No puedes llevar más!
+E9999_99_999_c_01	Sí.
+E9999_99_999_c_02	No.
+N999_C11_999_1_01	No ha ocurrido nada.
+N999_C09_999_1_01	Un campo mágico permite el uso de tiendas de lona y cabañas en esta zona. Aquí puedes descansar y guardar tus avances.
+N999_C01_999_1_01	Está cerrada.
+N999_C01_999_1_02	La puerta se ha abierto.
+N999_C10_999_1_01	¡Ay, quema, quema!
+E0103_00_153_a_01	Puntos de VIT repuestos y estados alterados anulados.
+E0104_00_153_a_01	PM repuestos.
+E0153_00_128_a_01	Puntos de VIT y PM repuestos.
+S9999_999_a_01	¡Saludos! ¿Cómo le puedo ayudar?
+S9999_999_a_06	¡Muchas gracias!
+S9999_999_a_09	¿Cuántos quieres?
+S9999_999_a_10	¿Cuántos quieres vender?
+S0004_999_a_01	Son (KINGAKU) guiles por noche. ¿Te parece bien?
+S0004_999_a_02	Vuelve cuando quieras.
+S0004_999_a_03	¡No tienes suficientes guiles!
+S0004_999_a_04	Buenas noches.
+S0004_999_a_05	¡En marcha!
+N116_C03_999_01_01	¡Un chocobo!
+N116_C01_999_05_01	¡Un chocobo negro!
+N116_C00_999_04_01	¡Un chocobo blanco!
+N116_C00_999_04_02	PM repuestos.
+N028_C00_999_06_01	Aquí huele a chocobo.
+N028_C00_999_06_02	¡El Chocobo gordo!
+N012_C01_999_05_01	¡Muy buenos días! ¿Te gustaría cambiar de nombre?
+N012_C01_999_05_02	Muy bien. Estaré siempre a tu disposición, por si cambias de idea.
+N012_C01_999_05_03	¡No te olvides de volver a visitarme!
+M031_01	¡Al ataque!
+M046_01	¡A la carga!
+M136_01	Rastreando intrusos...
+M125_01	Croac...
+M124_01	¡Sorpresa!
+M033_01	Je, je. ¡Te he engañado!
+M033_02	¡Te lo devuelvo con intereses!
+M135_01	¡Vamos a bailar!
+M129_01	Informando al maestro Zemus...
+S0011_999_a_01	¿Quieres descansar?
+S0012_999_a_01	¿Quieres salir?
+THANKS_TO_EVERYONE	A todos los fans del mundo, los de siempre y los de ahora.\nA todos los miembros del equipo que hizo posible la versión original.\nA todos vosotros, gracias desde lo más profundo de nuestros corazones.

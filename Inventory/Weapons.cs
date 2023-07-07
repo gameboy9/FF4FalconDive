@@ -302,7 +302,6 @@ namespace FF4FreeEnterprisePR.Inventory
 			while (bad)
 			{
 				finalSelection = selection[r1.Next() % selection.Count];
-				if (finalSelection == erdrickSword) { var asdf = 1234; }
 				if (includeBonus || !bonusWeapons.Contains(finalSelection)) bad = false;
 				if (includeExclusive || !fgExclusiveWeapons.Contains(finalSelection)) bad = false;
 			}

@@ -1,0 +1,5524 @@
+{
+	"id": 16,
+	"layers": [
+		{
+			"draworder": "topdown",
+			"id": 18,
+			"name": "BottomObject",
+			"objects": [
+				{
+					"gid": 2020,
+					"height": 16,
+					"id": 1,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 240,
+					"y": 528
+				},
+				{
+					"gid": 2020,
+					"height": 16,
+					"id": 2,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 256,
+					"y": 528
+				},
+				{
+					"gid": 2020,
+					"height": 16,
+					"id": 3,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 272,
+					"y": 528
+				},
+				{
+					"gid": 2021,
+					"height": 16,
+					"id": 4,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 2
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 256,
+					"y": 496
+				},
+				{
+					"gid": 2031,
+					"height": 16,
+					"id": 46,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 230
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 4
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 256,
+					"y": 496
+				},
+				{
+					"gid": 2020,
+					"height": 16,
+					"id": 5,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 97
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 256,
+					"y": 192
+				},
+				{
+					"height": 16,
+					"id": 6,
+					"name": "TileAnimRegion",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 256,
+					"y": 176
+				},
+				{
+					"gid": 2023,
+					"height": 16,
+					"id": 7,
+					"name": "OpenTrigger",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 7
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 9
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 256,
+					"y": 192
+				},
+				{
+					"gid": 2021,
+					"height": 16,
+					"id": 8,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 2
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 256,
+					"y": 208
+				},
+				{
+					"gid": 2020,
+					"height": 16,
+					"id": 9,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 97
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 112,
+					"y": 96
+				},
+				{
+					"height": 16,
+					"id": 10,
+					"name": "TileAnimRegion",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 10
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 112,
+					"y": 80
+				},
+				{
+					"gid": 2023,
+					"height": 16,
+					"id": 11,
+					"name": "OpenTrigger",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 9
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 112,
+					"y": 96
+				},
+				{
+					"gid": 2021,
+					"height": 16,
+					"id": 12,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 12
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 2
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 112,
+					"y": 112
+				},
+				{
+					"gid": 2020,
+					"height": 16,
+					"id": 13,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 13
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 97
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 400,
+					"y": 96
+				},
+				{
+					"height": 16,
+					"id": 14,
+					"name": "TileAnimRegion",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 14
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 400,
+					"y": 80
+				},
+				{
+					"gid": 2023,
+					"height": 16,
+					"id": 15,
+					"name": "OpenTrigger",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 9
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 400,
+					"y": 96
+				},
+				{
+					"gid": 2021,
+					"height": 16,
+					"id": 16,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 16
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 2
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 400,
+					"y": 112
+				},
+				{
+					"gid": 2020,
+					"height": 16,
+					"id": 17,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 17
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 100
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 144,
+					"y": 208
+				},
+				{
+					"height": 16,
+					"id": 18,
+					"name": "TileAnimRegion",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 18
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 144,
+					"y": 192
+				},
+				{
+					"gid": 2023,
+					"height": 16,
+					"id": 19,
+					"name": "OpenTrigger",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 19
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 9
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 144,
+					"y": 208
+				},
+				{
+					"gid": 2021,
+					"height": 16,
+					"id": 20,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 2
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 144,
+					"y": 224
+				},
+				{
+					"gid": 2020,
+					"height": 16,
+					"id": 21,
+					"name": "GotoMap",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "map_id",
+							"type": "int",
+							"value": 101
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "point_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 368,
+					"y": 208
+				},
+				{
+					"height": 16,
+					"id": 22,
+					"name": "TileAnimRegion",
+					"properties": [
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 22
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "reverse",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 368,
+					"y": 192
+				},
+				{
+					"gid": 2023,
+					"height": 16,
+					"id": 23,
+					"name": "OpenTrigger",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 23
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "se_id",
+							"type": "int",
+							"value": 9
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 368,
+					"y": 208
+				},
+				{
+					"gid": 2021,
+					"height": 16,
+					"id": 25,
+					"name": "PointIn",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 24
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "title_id",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "title_type",
+							"type": "int",
+							"value": 2
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 368,
+					"y": 224
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 27,
+					"name": "兵士（赤）①",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 25
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N101_C02_096_01_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 240,
+					"y": 384
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 29,
+					"name": "兵士（赤）②",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 26
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N101_C02_096_02_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 272,
+					"y": 384
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 30,
+					"name": "兵士（赤）③",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 27
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N101_C02_096_03_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 240,
+					"y": 208
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 31,
+					"name": "兵士（赤）④",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 28
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N101_C02_096_04_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 272,
+					"y": 208
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 32,
+					"name": "カエル（緑）⑨",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 29
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N120_C03_096_08_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 208,
+					"y": 272
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 33,
+					"name": "カエル（緑）⑥",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 30
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N120_C03_096_06_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 320,
+					"y": 256
+				},
+				{
+					"height": 64,
+					"id": 34,
+					"name": "MoveArea",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 31
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 13
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 192,
+					"y": 224
+				},
+				{
+					"height": 64,
+					"id": 35,
+					"name": "MoveArea",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 32
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 13
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 32,
+					"x": 304,
+					"y": 224
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 36,
+					"name": "カエル（緑）⑧",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 33
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N120_C03_096_08_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 32,
+					"y": 272
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 37,
+					"name": "カエル（緑）⑤",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 34
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N120_C03_096_05_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 32,
+					"y": 96
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 38,
+					"name": "カエル（緑）⑫",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 35
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N120_C03_096_08_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 464,
+					"y": 64
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 39,
+					"name": "カエル（緑）⑦",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 36
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N120_C03_096_06_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 480,
+					"y": 112
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 40,
+					"name": "カエル（緑）⑪",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 8
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 37
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N120_C03_096_08_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 464,
+					"y": 192
+				},
+				{
+					"gid": 2048,
+					"height": 16,
+					"id": 41,
+					"name": "カエル（緑）⑩",
+					"properties": [
+						{
+							"name": "accept_action_direction",
+							"type": "int",
+							"value": 15
+						},
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "all_layers",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 9
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 38
+						},
+						{
+							"name": "eye_contact",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "idling",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "message_key",
+							"type": "string",
+							"value": "N120_C03_096_08_01"
+						},
+						{
+							"name": "move_interval_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_speed_id",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_step",
+							"type": "int",
+							"value": 1
+						},
+						{
+							"name": "move_type",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "move_while_display_message",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 6
+						},
+						{
+							"name": "pushed",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "talk_target_transportation_ids",
+							"type": "string",
+							"value": ""
+						},
+						{
+							"name": "target_character_status_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "turn_around",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": false
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 432,
+					"y": 448
+				},
+				{
+					"height": 432,
+					"id": 42,
+					"name": "MoveArea",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 39
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 13
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 208,
+					"x": 304,
+					"y": 32
+				},
+				{
+					"height": 416,
+					"id": 43,
+					"name": "MoveArea",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 40
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 13
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 208,
+					"x": 16,
+					"y": 32
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 50,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 127,
+					"y": 94
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 51,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 415,
+					"y": 94
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 52,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 95,
+					"y": 94
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 53,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 191,
+					"y": 190
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 54,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 159,
+					"y": 206
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 55,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 127,
+					"y": 206
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 56,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 239,
+					"y": 190
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 57,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 271,
+					"y": 190
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 58,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 319,
+					"y": 190
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 59,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 351,
+					"y": 206
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 60,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 383,
+					"y": 206
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 61,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 367,
+					"y": 430
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 62,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 383,
+					"y": 430
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 63,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 399,
+					"y": 430
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 64,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 415,
+					"y": 430
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 65,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 95,
+					"y": 430
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 66,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 111,
+					"y": 430
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 67,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 127,
+					"y": 430
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 68,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 143,
+					"y": 430
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 69,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 239,
+					"y": 366
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 70,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 271,
+					"y": 366
+				},
+				{
+					"gid": 2032,
+					"height": 16,
+					"id": 71,
+					"name": "EffectEntity_fire",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "affected",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "asset_id",
+							"type": "int",
+							"value": 320
+						},
+						{
+							"name": "birdview_puppet",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "blend_type",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "collision",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "flight_altitude_ratio",
+							"type": "float",
+							"value": 1
+						},
+						{
+							"name": "front",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "ignore_depth_test",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 11
+						},
+						{
+							"name": "play_on_awake",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "split",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "visible_minimap",
+							"type": "bool",
+							"value": true
+						},
+						{
+							"name": "zoffset",
+							"type": "int",
+							"value": -1
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 383,
+					"y": 94
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"draworder": "topdown",
+			"id": 20,
+			"name": "MinimapObject",
+			"objects": [
+				{
+					"gid": 1985,
+					"height": 16,
+					"id": 26,
+					"name": "ワールドマップ",
+					"properties": [
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 4
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 41
+						},
+						{
+							"name": "minimap_icon_type",
+							"type": "int",
+							"value": 3
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 18
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 256,
+					"y": 496
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"name": "DefaultObjectGroup",
+	"opacity": 1,
+	"type": "group",
+	"visible": true,
+	"x": 0,
+	"y": 0,
+	"width": 33,
+	"height": 33
+}

@@ -1,0 +1,165 @@
+{
+	"Name": "BattleAI-monster-template",
+	"Title": {
+		"main": "エブラーナ王妃AIスクリプト"
+	},
+	"EntryPoint": 0,
+	"Count": 1,
+	"Mnemonics": [
+		{
+			"label": "0000",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0001",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					17
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0002",
+			"mnemonic": "IsOnlyAlive",
+			"operands": {
+				"iValues": [
+					12
+				]
+			},
+			"comment": "1体のみ生きている時ジャンプ"
+		},
+		{
+			"label": "0003",
+			"mnemonic": "IsRecevieAbility",
+			"operands": {
+				"iValues": [
+					476,
+					6
+				]
+			},
+			"comment": "エブラーナ王から誘発1を受けたらジャンプ"
+		},
+		{
+			"label": "0004",
+			"mnemonic": "IsRecevieAbility",
+			"operands": {
+				"iValues": [
+					283,
+					9
+				]
+			},
+			"comment": "エブラーナ王から誘発2を受けたらジャンプ"
+		},
+		{
+			"label": "0005",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0006",
+			"mnemonic": "Nop",
+			"comment": "エブラーナ王から誘発1を受けた時ジャンプ先"
+		},
+		{
+			"label": "0007",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					33
+				]
+			},
+			"comment": "エブラーナ王から誘発1を受けた時カウンター"
+		},
+		{
+			"label": "0008",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0009",
+			"mnemonic": "Nop",
+			"comment": "エブラーナ王から誘発2を受けた時ジャンプ先"
+		},
+		{
+			"label": "0010",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					333
+				],
+				"sValues": [
+					"E0056_ 00_239_b_06"
+				]
+			},
+			"comment": "エブラーナ王から誘発2を受けた時カウンター"
+		},
+		{
+			"label": "0011",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0012",
+			"mnemonic": "Nop",
+			"comment": "1体のみ生きている時ジャンプ先"
+		},
+		{
+			"label": "0013",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					0
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0014",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					334
+				]
+			},
+			"comment": "1体のみ生きている時行動"
+		},
+		{
+			"label": "0015",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0016",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0017",
+			"mnemonic": "Nop",
+			"comment": "バトル終了"
+		},
+		{
+			"label": "0018",
+			"mnemonic": "Exit"
+		}
+	]
+}

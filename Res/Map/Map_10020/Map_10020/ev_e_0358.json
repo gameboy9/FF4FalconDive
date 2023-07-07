@@ -1,0 +1,601 @@
+{
+	"id": 37,
+	"layers": [
+		{
+			"draworder": "topdown",
+			"id": 38,
+			"name": "GroundObject",
+			"objects": [
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 159,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 132
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1968,
+					"y": 368
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 198,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 133
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 352
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 200,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 128
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1968,
+					"y": 352
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 201,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 129
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 368
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 202,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 130
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1952,
+					"y": 352
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 203,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 131
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1952,
+					"y": 368
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 339,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 183
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1968,
+					"y": 384
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 340,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 184
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1984,
+					"y": 384
+				},
+				{
+					"gid": 998,
+					"height": 16,
+					"id": 341,
+					"name": "地下から地上に上る",
+					"properties": [
+						{
+							"name": "action_id",
+							"type": "int",
+							"value": 2
+						},
+						{
+							"name": "direction",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 185
+						},
+						{
+							"name": "gimmick",
+							"type": "bool",
+							"value": false
+						},
+						{
+							"name": "interactive_icon_type",
+							"type": "int",
+							"value": 5
+						},
+						{
+							"name": "link_object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_id",
+							"type": "int",
+							"value": 0
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 21
+						},
+						{
+							"name": "script_id",
+							"type": "int",
+							"value": 358
+						},
+						{
+							"name": "target_transportation_ids",
+							"type": "string",
+							"value": "4,8,9,10"
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1952,
+					"y": 384
+				}
+			],
+			"opacity": 1,
+			"type": "objectgroup",
+			"visible": true,
+			"x": 0,
+			"y": 0
+		}
+	],
+	"name": "ev_e_0358",
+	"opacity": 1,
+	"type": "group",
+	"visible": true,
+	"x": 0,
+	"y": 0,
+	"width": 144,
+	"height": 144
+}

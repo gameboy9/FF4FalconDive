@@ -1,0 +1,1769 @@
+MSG_CHAR_NAME_01	Cecil
+MSG_CHAR_NAME_02	Cain
+MSG_CHAR_NAME_03	Rosa
+MSG_CHAR_NAME_04	Rydia
+MSG_CHAR_NAME_05	Cid
+MSG_CHAR_NAME_06	Tellah
+MSG_CHAR_NAME_07	Edward
+MSG_CHAR_NAME_08	Yang
+MSG_CHAR_NAME_09	Palom
+MSG_CHAR_NAME_10	Porom
+MSG_CHAR_NAME_11	Edge
+MSG_CHAR_NAME_12	Fusoya
+MSG_CHAR_NAME_13	Golbez
+MSG_JOB_NAME_01	Cavaliere delle tenebre
+MSG_JOB_NAME_02	Dragone
+MSG_JOB_NAME_03	Maga bianca
+MSG_JOB_NAME_04	Invocatrice
+MSG_JOB_NAME_05	Ingegnere
+MSG_JOB_NAME_06	Saggio
+MSG_JOB_NAME_07	Principe
+MSG_JOB_NAME_08	Monaco
+MSG_JOB_NAME_09	Mago nero
+MSG_JOB_NAME_10	Maga bianca
+MSG_JOB_NAME_11	Ninja
+MSG_JOB_NAME_12	Seleniano
+MSG_JOB_NAME_13	Paladino
+MSG_MAGIC_NAME_01	<IC_WMGC>Blocco
+MSG_MAGIC_NAME_02	<IC_WMGC>Silenzio
+MSG_MAGIC_NAME_03	<IC_WMGC>Caos
+MSG_MAGIC_NAME_04	<IC_WMGC>Elusione
+MSG_MAGIC_NAME_05	<IC_WMGC>Egida
+MSG_MAGIC_NAME_06	<IC_WMGC>Guscio
+MSG_MAGIC_NAME_07	<IC_WMGC>Adagio
+MSG_MAGIC_NAME_08	<IC_WMGC>Fretta
+MSG_MAGIC_NAME_09	<IC_WMGC>Furia
+MSG_MAGIC_NAME_10	<IC_WMGC>Reflex
+MSG_MAGIC_NAME_11	<IC_WMGC>Sancta
+MSG_MAGIC_NAME_12	<IC_WMGC>Dissipatio
+MSG_MAGIC_NAME_13	<IC_WMGC>Scan
+MSG_MAGIC_NAME_14	<IC_WMGC>Energia
+MSG_MAGIC_NAME_15	<IC_WMGC>Energira
+MSG_MAGIC_NAME_16	<IC_WMGC>Energida
+MSG_MAGIC_NAME_17	<IC_WMGC>Energiga
+MSG_MAGIC_NAME_18	<IC_WMGC>Esna
+MSG_MAGIC_NAME_19	<IC_WMGC>Reiz
+MSG_MAGIC_NAME_20	<IC_WMGC>Areiz
+MSG_MAGIC_NAME_21	<IC_WMGC>Minimum
+MSG_MAGIC_NAME_22	<IC_WMGC>Teletrasporto
+MSG_MAGIC_NAME_23	<IC_WMGC>Vista
+MSG_MAGIC_NAME_24	<IC_WMGC>Levita
+MSG_MAGIC_NAME_25	<IC_BMGC>Rospo
+MSG_MAGIC_NAME_26	<IC_BMGC>Porcello
+MSG_MAGIC_NAME_27	<IC_BMGC>Sbalzo
+MSG_MAGIC_NAME_28	<IC_BMGC>Veleno
+MSG_MAGIC_NAME_29	<IC_BMGC>Fuoco
+MSG_MAGIC_NAME_30	<IC_BMGC>Fuoca
+MSG_MAGIC_NAME_31	<IC_BMGC>Fuocoga
+MSG_MAGIC_NAME_32	<IC_BMGC>Bufera
+MSG_MAGIC_NAME_33	<IC_BMGC>Buferara
+MSG_MAGIC_NAME_34	<IC_BMGC>Buferaga
+MSG_MAGIC_NAME_35	<IC_BMGC>Tuono
+MSG_MAGIC_NAME_36	<IC_BMGC>Tuona
+MSG_MAGIC_NAME_37	<IC_BMGC>Tuonaga
+MSG_MAGIC_NAME_38	<IC_BMGC>Bio
+MSG_MAGIC_NAME_39	<IC_BMGC>Tornado
+MSG_MAGIC_NAME_40	<IC_BMGC>Terremoto
+MSG_MAGIC_NAME_41	<IC_BMGC>Sonno
+MSG_MAGIC_NAME_42	<IC_BMGC>Pietra
+MSG_MAGIC_NAME_43	<IC_BMGC>Morte
+MSG_MAGIC_NAME_44	<IC_BMGC>Stop
+MSG_MAGIC_NAME_45	<IC_BMGC>Parassita
+MSG_MAGIC_NAME_46	<IC_BMGC>Osmosi
+MSG_MAGIC_NAME_47	<IC_BMGC>Meteora
+MSG_MAGIC_NAME_48	<IC_BMGC>Fusione
+MSG_MAGIC_NAME_49	<IC_SMGC>Goblin
+MSG_MAGIC_NAME_50	<IC_SMGC>Piros
+MSG_MAGIC_NAME_51	<IC_SMGC>Coccatrice
+MSG_MAGIC_NAME_52	<IC_SMGC>Noetikos
+MSG_MAGIC_NAME_53	<IC_SMGC>Chocobo
+MSG_MAGIC_NAME_54	<IC_SMGC>Shiva
+MSG_MAGIC_NAME_55	<IC_SMGC>Ramuh
+MSG_MAGIC_NAME_56	<IC_SMGC>Ifrit
+MSG_MAGIC_NAME_57	<IC_SMGC>Titano
+MSG_MAGIC_NAME_58	<IC_SMGC>Drago della nebbia
+MSG_MAGIC_NAME_59	<IC_SMGC>Silfidi
+MSG_MAGIC_NAME_60	<IC_SMGC>Odino
+MSG_MAGIC_NAME_61	<IC_SMGC>Leviatano
+MSG_MAGIC_NAME_62	<IC_SMGC>Asura
+MSG_MAGIC_NAME_63	<IC_SMGC>Bahamut
+MSG_MAGIC_NAME_64	<IC_BMGC>Cometa
+MSG_MAGIC_NAME_65	<IC_BMGC>Pyro
+MSG_MAGIC_NAME_66	Fiammata arcana
+MSG_MAGIC_NAME_67	Ondata arcana
+MSG_MAGIC_NAME_68	Lampo tonante
+MSG_MAGIC_NAME_69	Sfere fumogene
+MSG_MAGIC_NAME_70	Aghi oscuri
+MSG_MAGIC_NAME_71	Moltiplicazione
+MSG_MAGIC_NAME_72	Freccia magica
+MSG_MAGIC_NAME_73	Guarigione
+MSG_MAGIC_NAME_74	Rimedio
+MSG_MAGIC_NAME_75	Purificazione
+MSG_MAGIC_NAME_76	Pugnale danzante
+MSG_MAGIC_NAME_77	Pugno del goblin
+MSG_MAGIC_NAME_78	Autodistruzione
+MSG_MAGIC_NAME_79	Becco pietrificante
+MSG_MAGIC_NAME_80	Esplosione mentale
+MSG_MAGIC_NAME_81	Chococalcio
+MSG_MAGIC_NAME_82	Polvere di diamanti
+MSG_MAGIC_NAME_83	Spirale di fulmini
+MSG_MAGIC_NAME_84	Fiamme infernali
+MSG_MAGIC_NAME_85	Ira della terra
+MSG_MAGIC_NAME_86	Respiro di nebbia
+MSG_MAGIC_NAME_87	Sussurro del vento
+MSG_MAGIC_NAME_88	Zantetsuken
+MSG_MAGIC_NAME_89	Tsunami
+MSG_MAGIC_NAME_90	Asura
+MSG_MAGIC_NAME_91	Megafusione
+MSG_MON_ATK_01	Occhiata
+MSG_MON_ATK_02	Esplosivo
+MSG_MON_ATK_03	Schiaffo
+MSG_MON_ATK_04	Polvere velenosa
+MSG_MON_ATK_05	Sguardo
+MSG_MON_ATK_06	Seduzione
+MSG_MON_ATK_07	Leccata
+MSG_MON_ATK_08	Maledizione
+MSG_MON_ATK_09	Tocco litico
+MSG_MON_ATK_10	Condanna
+MSG_MON_ATK_11	Becco
+MSG_MON_ATK_12	Sguardo pietrificante
+MSG_MON_ATK_13	Esplosione mentale
+MSG_MON_ATK_14	Abbraccio
+MSG_MON_ATK_15	Alito fetido
+MSG_MON_ATK_16	Sussurro
+MSG_MON_ATK_17	Groviglio
+MSG_MON_ATK_18	Vortice
+MSG_MON_ATK_19	Distorsione temporale
+MSG_MON_ATK_20	Nebbia fredda
+MSG_MON_ATK_21	Conflagrazione
+MSG_MON_ATK_22	Canto maledetto
+MSG_MON_ATK_23	Malia fredda
+MSG_MON_ATK_24	Gas soporifero
+MSG_MON_ATK_25	Gas venefico
+MSG_MON_ATK_26	Laser perforante
+MSG_MON_ATK_27	Zanne nere
+MSG_MON_ATK_28	Buco nero
+MSG_MON_ATK_29	Canto nobile
+MSG_MON_ATK_30	Nona dimensione
+MSG_MON_ATK_31	Maelstrom
+MSG_MON_ATK_32	Campo elettromagnetico
+MSG_MON_ATK_33	Esplosione a catena
+MSG_MON_ATK_34	Schiusa
+MSG_MON_ATK_35	Recupero
+MSG_MON_ATK_36	Assorbimento
+MSG_MON_ATK_37	Medicamento
+MSG_MON_ATK_38	Big Bang
+MSG_MON_ATK_39	Succhiasangue
+MSG_MON_ATK_40	Fluidi digestivi
+MSG_MON_ATK_41	Polline
+MSG_MON_ATK_42	Crollo
+MSG_MON_ATK_43	Allerta
+MSG_MON_ATK_44	Invocazione
+MSG_MON_ATK_45	Puntamento
+MSG_MON_ATK_46	Esplosione nucleare
+MSG_MON_ATK_47	Ritirata
+MSG_MON_ATK_48	Raggio
+MSG_MON_ATK_49	Oggetto 199
+MSG_MON_ATK_50	Fiamme
+MSG_MON_ATK_51	Vampata
+MSG_MON_ATK_52	Lampo
+MSG_MON_ATK_53	Fulmini
+MSG_MON_ATK_54	Respiro oscuro
+MSG_MON_ATK_55	Ondata colossale
+MSG_MON_ATK_56	Tempesta di neve
+MSG_MON_ATK_57	Tsunami
+MSG_MON_ATK_58	Tornado
+MSG_MON_ATK_59	Laser
+MSG_MON_ATK_60	Autodistruzione
+MSG_MON_ATK_61	Terremoto
+MSG_MON_ATK_62	Lanciafiamme
+MSG_MON_ATK_63	Raggio termico
+MSG_MON_ATK_64	Tornado di fiamme
+MSG_MON_ATK_65	Zantetsuken
+MSG_MON_ATK_66	Megafusione
+MSG_MON_ATK_67	Ago
+MSG_MON_ATK_68	Contrattacco di corno
+MSG_MON_ATK_69	Rigenerazione
+MSG_MON_ATK_71	Meteora gemella
+MSG_MAG_INF_01	Infligge Paralisi.
+MSG_MAG_INF_02	Infligge Mutismo.
+MSG_MAG_INF_03	Infligge Confusione.
+MSG_MAG_INF_04	Moltiplica la propria immagine per ingannare il nemico.
+MSG_MAG_INF_05	Riduce il danno fisico subito.
+MSG_MAG_INF_06	Riduce il danno magico subito.
+MSG_MAG_INF_07	Rallenta lo scorrere del tempo.
+MSG_MAG_INF_08	Accelera lo scorrere del tempo.
+MSG_MAG_INF_09	Infligge Furore.
+MSG_MAG_INF_10	Crea una barriera che riflette la magia.
+MSG_MAG_INF_11	Infligge danno sacro.
+MSG_MAG_INF_12	Annulla gli effetti magici.
+MSG_MAG_INF_13	Rivela PV e punti deboli del bersaglio.
+MSG_MAG_INF_14	Fa recuperare PV in quantità modesta.
+MSG_MAG_INF_15	Fa recuperare PV in quantità media.
+MSG_MAG_INF_16	Fa recuperare PV in quantità discreta.
+MSG_MAG_INF_17	Fa recuperare PV in quantità elevata.
+MSG_MAG_INF_18	Cura tutte le alterazioni di stato tranne KO.
+MSG_MAG_INF_19	Rianima un alleato KO.
+MSG_MAG_INF_20	Rianima un alleato KO e gli fa recuperare tutti i PV.
+MSG_MAG_INF_21	Infligge o cura Mini.
+MSG_MAG_INF_22	Trasporta la squadra fuori da un luogo pericoloso o da una battaglia.
+MSG_MAG_INF_23	Visualizza una mappa dettagliata.
+MSG_MAG_INF_24	Fa levitare la squadra.
+MSG_MAG_INF_25	Infligge o cura Ranocchio.
+MSG_MAG_INF_26	Infligge o cura Maiale.
+MSG_MAG_INF_27	Riporta la squadra al piano precedente.
+MSG_MAG_INF_28	Infligge Veleno.
+MSG_MAG_INF_29	Infligge danno di Fuoco di lieve entità.
+MSG_MAG_INF_30	Infligge danno di Fuoco di media entità.
+MSG_MAG_INF_31	Infligge danno di Fuoco di elevata entità.
+MSG_MAG_INF_32	Infligge danno di Ghiaccio di lieve entità.
+MSG_MAG_INF_33	Infligge danno di Ghiaccio di media entità.
+MSG_MAG_INF_34	Infligge danno di Ghiaccio di elevata entità.
+MSG_MAG_INF_35	Infligge danno di Tuono di lieve entità.
+MSG_MAG_INF_36	Infligge danno di Tuono di media entità.
+MSG_MAG_INF_37	Infligge danno di Tuono di elevata entità.
+MSG_MAG_INF_38	Rilascia una tossina che infligge danni da Crisi.
+MSG_MAG_INF_39	Genera un tornado che infligge danno di elevata entità.
+MSG_MAG_INF_40	Causa un terremoto che infligge danno a tutti i nemici.
+MSG_MAG_INF_41	Infligge Sonno.
+MSG_MAG_INF_42	Infligge Pietra.
+MSG_MAG_INF_43	Mette KO il bersaglio all'istante.
+MSG_MAG_INF_44	Ferma il tempo e impedisce al bersaglio di agire.
+MSG_MAG_INF_45	Assorbe PV dal bersaglio.
+MSG_MAG_INF_46	Assorbe PM dal bersaglio.
+MSG_MAG_INF_47	Richiama meteore che infliggono danno a tutti i nemici.
+MSG_MAG_INF_48	Scatena un'esplosione di energia termica che infligge danno.
+MSG_MAG_INF_49	Lancia Pugno del goblin per attaccare un nemico.
+MSG_MAG_INF_50	Lancia Autodistruzione per infliggere a un nemico danni proporzionali ai PV attuali.
+MSG_MAG_INF_51	Lancia Becco pietrificante per infliggere Pietra a un nemico.
+MSG_MAG_INF_52	Lancia Esplosione mentale per infliggere danni da Crisi e Paralisi.
+MSG_MAG_INF_53	Lancia Chococalcio per attaccare un nemico.
+MSG_MAG_INF_54	Lancia Polvere di diamanti per infliggere danni di Ghiaccio a tutti i nemici.
+MSG_MAG_INF_55	Lancia Spirale di fulmini per infliggere danni di Tuono a tutti i nemici.
+MSG_MAG_INF_56	Lancia Fiamme infernali per infliggere danni di Fuoco a tutti i nemici.
+MSG_MAG_INF_57	Lancia Ira della terra per infliggere danni di Terra a tutti i nemici.
+MSG_MAG_INF_58	Lancia Respiro di nebbia per infliggere a tutti i nemici danni proporzionali ai propri PV.
+MSG_MAG_INF_59	Lancia Sussurro del vento per assorbire PV da un nemico e guarire la squadra.
+MSG_MAG_INF_60	Lancia Zantetsuken per uccidere istantaneamente tutti i nemici.
+MSG_MAG_INF_61	Lancia Tsunami per infliggere danni ingenti a tutti i nemici.
+MSG_MAG_INF_62	Lancia casualmente Energida, Egida o Reiz.
+MSG_MAG_INF_63	Lancia Megafusione per infliggere danni ingenti a tutti i nemici con un'ondata termica.
+MSG_MAG_INF_64	Attacca tutti i nemici con il potere delle fiamme.
+MSG_MAG_INF_65	Genera uno tsunami che attacca tutti i nemici.
+MSG_MAG_INF_66	Scatena il potere dei fulmini per attaccare tutti i nemici.
+MSG_MAG_INF_67	Offusca la vista del nemico con il fumo per permettere alla squadra di fuggire dalla battaglia.
+MSG_MAG_INF_68	Blocca i movimenti del bersaglio impedendone qualsiasi azione.
+MSG_MAG_INF_69	Moltiplica la propria immagine per ingannare il nemico.
+MSG_WEAPON_NAME_01	<IC_CLW>Artiglio del fuoco
+MSG_WEAPON_NAME_02	<IC_CLW>Artiglio del ghiaccio
+MSG_WEAPON_NAME_03	<IC_CLW>Artiglio del tuono
+MSG_WEAPON_NAME_04	<IC_CLW>Artiglio fatato
+MSG_WEAPON_NAME_05	<IC_CLW>Artiglio infernale
+MSG_WEAPON_NAME_06	<IC_CLW>Artiglio di gatto
+MSG_WEAPON_NAME_07	<IC_ROD>Bacchetta
+MSG_WEAPON_NAME_08	<IC_ROD>Bacchetta del ghiaccio
+MSG_WEAPON_NAME_09	<IC_ROD>Bacchetta del fuoco
+MSG_WEAPON_NAME_10	<IC_ROD>Bacchetta del tuono
+MSG_WEAPON_NAME_11	<IC_ROD>Bacchetta della bestia
+MSG_WEAPON_NAME_12	<IC_ROD>Bacchetta fatata
+MSG_WEAPON_NAME_13	<IC_ROD>Bacchetta stellare
+MSG_WEAPON_NAME_14	<IC_ROD>Bacchetta di Lilith
+MSG_WEAPON_NAME_15	<IC_WND>Bastone
+MSG_WEAPON_NAME_16	<IC_WND>Bastone guaritore
+MSG_WEAPON_NAME_17	<IC_WND>Bastone di mithril
+MSG_WEAPON_NAME_18	<IC_WND>Bastone potente
+MSG_WEAPON_NAME_19	<IC_WND>Bastone delle maree
+MSG_WEAPON_NAME_20	<IC_WND>Bastone del saggio
+MSG_WEAPON_NAME_21	<IC_WND>Bastone delle rune
+MSG_WEAPON_NAME_22	<IC_DSRD>Spada delle tenebre
+MSG_WEAPON_NAME_23	<IC_DSRD>Lama dell'ombra
+MSG_WEAPON_NAME_24	<IC_DSRD>Nekrosys
+MSG_WEAPON_NAME_25	<IC_NSRD>Spada della leggenda
+MSG_WEAPON_NAME_26	<IC_NSRD>Spada della luce
+MSG_WEAPON_NAME_27	<IC_NSRD>Excalibur
+MSG_WEAPON_NAME_28	<IC_NSRD>Ragnarok
+MSG_WEAPON_NAME_29	<IC_SRD>Spada focum
+MSG_WEAPON_NAME_30	<IC_SRD>Brando gelum
+MSG_WEAPON_NAME_31	<IC_SRD>Protettrice
+MSG_WEAPON_NAME_32	<IC_SRD>Sanguinaria
+MSG_WEAPON_NAME_33	<IC_SRD>Spada antica
+MSG_WEAPON_NAME_34	<IC_SRD>Lama del sonno
+MSG_WEAPON_NAME_35	<IC_SRD>Lama di pietra
+MSG_WEAPON_NAME_36	<IC_SRD>Spada di mithril
+MSG_WEAPON_NAME_37	<IC_SRD>Vendicatrice
+MSG_WEAPON_NAME_38	<IC_SPR>Lancia
+MSG_WEAPON_NAME_39	<IC_SPR>Lancia del vento
+MSG_WEAPON_NAME_40	<IC_SPR>Lancia del fuoco
+MSG_WEAPON_NAME_41	<IC_SPR>Lancia del ghiaccio
+MSG_WEAPON_NAME_42	<IC_SPR>Lancia della viverna
+MSG_WEAPON_NAME_43	<IC_SPR>Lancia sacra
+MSG_WEAPON_NAME_44	<IC_SPR>Lancia del sangue
+MSG_WEAPON_NAME_45	<IC_SPR>Gungnir
+MSG_WEAPON_NAME_46	<IC_KTN>Kunai
+MSG_WEAPON_NAME_47	<IC_KTN>Ashura
+MSG_WEAPON_NAME_48	<IC_KTN>Kotetsu
+MSG_WEAPON_NAME_49	<IC_KTN>Kikuichimonji
+MSG_WEAPON_NAME_50	<IC_KTN>Murasame
+MSG_WEAPON_NAME_51	<IC_KTN>Masamune
+MSG_WEAPON_NAME_52	<IC_NIF>Tritamago
+MSG_WEAPON_NAME_53	<IC_NIF>Coltello di mithril
+MSG_WEAPON_NAME_54	<IC_NIF>Pugnale danzante
+MSG_WEAPON_NAME_55	<IC_NIF>Coltello da cucina
+MSG_WEAPON_NAME_56	<IC_WHP>Frusta
+MSG_WEAPON_NAME_57	<IC_WHP>Frusta di catena
+MSG_WEAPON_NAME_58	<IC_WHP>Frusta elettrizzante
+MSG_WEAPON_NAME_59	<IC_WHP>Frusta del fuoco
+MSG_WEAPON_NAME_60	<IC_WHP>Baffo di drago
+MSG_WEAPON_NAME_61	<IC_AX>Ascia dei nani
+MSG_WEAPON_NAME_62	<IC_AX>Ammazzaorchi
+MSG_WEAPON_NAME_63	<IC_AX>Ascia velenosa
+MSG_WEAPON_NAME_64	<IC_AX>Ascia runica
+MSG_WEAPON_NAME_65	<IC_SRK>Shuriken
+MSG_WEAPON_NAME_66	<IC_SRK>Shuriken di Fuuma
+MSG_WEAPON_NAME_67	<IC_TRW>Boomerang
+MSG_WEAPON_NAME_68	<IC_TRW>Luna crescente
+MSG_WEAPON_NAME_69	<IC_HRP>Arpa dei sogni
+MSG_WEAPON_NAME_70	<IC_HRP>Arpa di Lamia
+MSG_WEAPON_NAME_71	<IC_HMR>Martello di legno
+MSG_WEAPON_NAME_72	<IC_HMR>Martello di mithril
+MSG_WEAPON_NAME_73	<IC_HMR>Martello della terra
+MSG_WEAPON_NAME_74	<IC_BOW>Arco
+MSG_WEAPON_NAME_75	<IC_BOW>Balestra
+MSG_WEAPON_NAME_76	<IC_BOW>Grande arco
+MSG_WEAPON_NAME_77	<IC_BOW>Arco assassino
+MSG_WEAPON_NAME_78	<IC_BOW>Arco elfico
+MSG_WEAPON_NAME_79	<IC_BOW>Arco di Yoichi
+MSG_WEAPON_NAME_80	<IC_BOW>Arco di Artemide
+MSG_WEAPON_NAME_81	<IC_ARW>Freccia di ferro
+MSG_WEAPON_NAME_82	<IC_ARW>Freccia sacra
+MSG_WEAPON_NAME_83	<IC_ARW>Freccia del fuoco
+MSG_WEAPON_NAME_84	<IC_ARW>Freccia del ghiaccio
+MSG_WEAPON_NAME_85	<IC_ARW>Freccia del tuono
+MSG_WEAPON_NAME_86	<IC_ARW>Freccia accecante
+MSG_WEAPON_NAME_87	<IC_ARW>Freccia velenosa
+MSG_WEAPON_NAME_88	<IC_ARW>Freccia silente
+MSG_WEAPON_NAME_89	<IC_ARW>Freccia degli angeli
+MSG_WEAPON_NAME_90	<IC_ARW>Freccia di Yoichi
+MSG_WEAPON_NAME_91	<IC_ARW>Freccia di Medusa
+MSG_WEAPON_NAME_92	<IC_ARW>Freccia di Artemide
+MSG_WEAPON_NAME_99	<IC_NSRD>Excalipoor
+MSG_WEAPON_NAME_100	<IC_NSRD>Flandango
+MSG_WEAPON_NAME_101	<IC_NSRD>Lightbringer
+MSG_WEAPON_NAME_102	<IC_SRD>Piggy Stick
+MSG_WEAPON_NAME_103	<IC_SPR>Abel's Lance
+MSG_WEAPON_NAME_104	<IC_AX>Gigant Axe
+MSG_WEAPON_NAME_105	<IC_BOW>Perseus Bow
+MSG_WEAPON_NAME_106	<IC_ARW>Perseus Arrow
+MSG_WEAPON_NAME_107	<IC_WHP>Mystic Whip
+MSG_WEAPON_NAME_108	<IC_NIF>Triton's Dagger
+MSG_WEAPON_NAME_109	<IC_NIF>Assassin's Dagger
+MSG_WEAPON_NAME_110	<IC_KTN>Sasuke's Katana
+MSG_WEAPON_NAME_111	<IC_KTN>Mutsunokami
+MSG_WEAPON_NAME_112	<IC_SRK>Scrap Metal
+MSG_WEAPON_NAME_113	<IC_TRW>Rising Sun
+MSG_WEAPON_NAME_114	<IC_CLW>Tiger Fangs
+MSG_WEAPON_NAME_115	<IC_CLW>Dragon Claws
+MSG_WEAPON_NAME_116	<IC_CLW>Godhand
+MSG_WEAPON_NAME_117	<IC_HMR>Thor's Hammer
+MSG_WEAPON_NAME_118	<IC_HMR>Fiery Hammer
+MSG_WEAPON_NAME_119	<IC_ROD>Asura's Rod
+MSG_WEAPON_NAME_120	<IC_WND>Seraphim's Mace
+MSG_WEAPON_NAME_121	<IC_WND>Nirvana
+MSG_WEAPON_NAME_122	<IC_HRP>Apollo's Harp
+MSG_WEAPON_NAME_123	<IC_HRP>Requiem Harp
+MSG_WEAPON_NAME_124	<IC_HRP>Loki's Harp
+MSG_WEAPON_NAME_125	<IC_DSRD>Blood Dark Sword
+MSG_WEAPON_NAME_126	<IC_DSRD>Golbez's Sword
+MSG_WEAPON_NAME_127	<IC_DSRD>Vampire Sword
+MSG_WEAPON_NAME_128	<IC_DSRD>Megido Sword
+MSG_WEAPON_NAME_129	<IC_SRD>Erdrick's Sword
+MSG_WEAPON_NAME_130	<IC_SPR>Vampire Spear
+MSG_WEAPON_NAME_131	<IC_ROD>Super Anger Rod
+MSG_ARMOR_NAME_01	<IC_SHIELD>Scudo di ferro
+MSG_ARMOR_NAME_02	<IC_SHIELD>Scudo delle tenebre
+MSG_ARMOR_NAME_03	<IC_SHIELD>Scudo demoniaco
+MSG_ARMOR_NAME_04	<IC_SHIELD>Scudo della luce
+MSG_ARMOR_NAME_05	<IC_SHIELD>Scudo di mithril
+MSG_ARMOR_NAME_06	<IC_SHIELD>Scudo del fuoco
+MSG_ARMOR_NAME_07	<IC_SHIELD>Scudo del ghiaccio
+MSG_ARMOR_NAME_08	<IC_SHIELD>Scudo di diamante
+MSG_ARMOR_NAME_09	<IC_SHIELD>Scudo dell'egida
+MSG_ARMOR_NAME_10	<IC_SHIELD>Scudo di Genji
+MSG_ARMOR_NAME_11	<IC_SHIELD>Scudo del drago
+MSG_ARMOR_NAME_12	<IC_SHIELD>Scudo di cristallo
+MSG_ARMOR_NAME_13	<IC_HEAD>Elmo di ferro
+MSG_ARMOR_NAME_14	<IC_HEAD>Elmo delle tenebre
+MSG_ARMOR_NAME_15	<IC_HEAD>Elmo di Ade
+MSG_ARMOR_NAME_16	<IC_HEAD>Elmo demoniaco
+MSG_ARMOR_NAME_17	<IC_HEAD>Elmo della luce
+MSG_ARMOR_NAME_18	<IC_HEAD>Elmo di mithril
+MSG_ARMOR_NAME_19	<IC_HEAD>Elmo di diamante
+MSG_ARMOR_NAME_20	<IC_HEAD>Elmo di Genji
+MSG_ARMOR_NAME_21	<IC_HEAD>Elmo del drago
+MSG_ARMOR_NAME_22	<IC_HEAD>Elmo di cristallo
+MSG_ARMOR_NAME_23	<IC_HEAD>Cappello di cuoio
+MSG_ARMOR_NAME_24	<IC_HEAD>Cappello piumato
+MSG_ARMOR_NAME_25	<IC_HEAD>Magicappello
+MSG_ARMOR_NAME_26	<IC_HEAD>Cappello da sacerdote
+MSG_ARMOR_NAME_27	<IC_HEAD>Fermacapelli d'oro
+MSG_ARMOR_NAME_28	<IC_HEAD>Fiocco
+MSG_ARMOR_NAME_29	<IC_HEAD>Fascetta intrecciata
+MSG_ARMOR_NAME_30	<IC_HEAD>Berretto verde
+MSG_ARMOR_NAME_31	<IC_HEAD>Cappuccio nero
+MSG_ARMOR_NAME_32	<IC_HEAD>Maschera di vetro
+MSG_ARMOR_NAME_33	<IC_ARMOR>Armatura di ferro
+MSG_ARMOR_NAME_34	<IC_ARMOR>Armatura delle tenebre
+MSG_ARMOR_NAME_35	<IC_ARMOR>Armatura di Ade
+MSG_ARMOR_NAME_36	<IC_ARMOR>Armatura demoniaca
+MSG_ARMOR_NAME_37	<IC_ARMOR>Armatura da cavaliere
+MSG_ARMOR_NAME_38	<IC_ARMOR>Armatura di mithril
+MSG_ARMOR_NAME_39	<IC_ARMOR>Cotta della fiamma
+MSG_ARMOR_NAME_40	<IC_ARMOR>Armatura del gelo
+MSG_ARMOR_NAME_41	<IC_ARMOR>Armatura di diamante
+MSG_ARMOR_NAME_42	<IC_ARMOR>Armatura di Genji
+MSG_ARMOR_NAME_43	<IC_ARMOR>Cotta del drago
+MSG_ARMOR_NAME_44	<IC_ARMOR>Cotta di cristallo
+MSG_ARMOR_NAME_45	<IC_CLTH>Veste
+MSG_ARMOR_NAME_46	<IC_CLTH>Veste di cuoio
+MSG_ARMOR_NAME_47	<IC_CLTH>Abito della Terra
+MSG_ARMOR_NAME_48	<IC_CLTH>Abito da sacerdote
+MSG_ARMOR_NAME_49	<IC_CLTH>Abito nero
+MSG_ARMOR_NAME_50	<IC_CLTH>Abito della luce
+MSG_ARMOR_NAME_51	<IC_CLTH>Abito bianco
+MSG_ARMOR_NAME_52	<IC_CLTH>Fascia della forza
+MSG_ARMOR_NAME_53	<IC_CLTH>Bustino di Minerva
+MSG_ARMOR_NAME_54	<IC_CLTH>Veste da prigioniero
+MSG_ARMOR_NAME_55	<IC_CLTH>Veste da bardo
+MSG_ARMOR_NAME_56	<IC_CLTH>Veste da kenpo
+MSG_ARMOR_NAME_57	<IC_CLTH>Cintura nera
+MSG_ARMOR_NAME_58	<IC_ARMOR>Armatura di adamantite
+MSG_ARMOR_NAME_59	<IC_CLTH>Mantello nero
+MSG_ARMOR_NAME_60	<IC_GLOV>Guanti di ferro
+MSG_ARMOR_NAME_61	<IC_GLOV>Guanti delle tenebre
+MSG_ARMOR_NAME_62	<IC_GLOV>Guanti di Ade
+MSG_ARMOR_NAME_63	<IC_GLOV>Guanti del demone
+MSG_ARMOR_NAME_64	<IC_GLOV>Guanti da battaglia
+MSG_ARMOR_NAME_65	<IC_GLOV>Guanti di mithril
+MSG_ARMOR_NAME_66	<IC_GLOV>Guanti di diamante
+MSG_ARMOR_NAME_67	<IC_GLOV>Guanti del gigante
+MSG_ARMOR_NAME_68	<IC_GLOV>Guanti di Genji
+MSG_ARMOR_NAME_69	<IC_GLOV>Guanti del drago
+MSG_ARMOR_NAME_70	<IC_GLOV>Guanti di cristallo
+MSG_ARMOR_NAME_71	<IC_GLOV>Bracciale di ferro
+MSG_ARMOR_NAME_72	<IC_GLOV>Anello di rubino
+MSG_ARMOR_NAME_73	<IC_GLOV>Bracciale d'argento
+MSG_ARMOR_NAME_74	<IC_GLOV>Bracciale del potere
+MSG_ARMOR_NAME_75	<IC_GLOV>Bracciale delle rune
+MSG_ARMOR_NAME_76	<IC_GLOV>Anello di cristallo
+MSG_ARMOR_NAME_77	<IC_GLOV>Bracciale di diamante
+MSG_ARMOR_NAME_78	<IC_GLOV>Anello della protezione
+MSG_ARMOR_NAME_79	<IC_GLOV>Anello della maledizione
+MSG_ARMOR_NAME_80	<IC_ARMOR>Grand Armor
+MSG_ARMOR_NAME_81	<IC_ARMOR>Dragoon Plate
+MSG_ARMOR_NAME_82	<IC_ARMOR>Caesar's Plate
+MSG_ARMOR_NAME_83	<IC_ARMOR>Maximillian
+MSG_ARMOR_NAME_84	<IC_CLTH>Red Jacket
+MSG_ARMOR_NAME_85	<IC_CLTH>Brave Suit
+MSG_ARMOR_NAME_86	<IC_CLTH>Chocobo Suit
+MSG_ARMOR_NAME_87	<IC_CLTH>Tabby Suit
+MSG_ARMOR_NAME_88	<IC_CLTH>Battle Gear
+MSG_ARMOR_NAME_89	<IC_CLTH>Assassin's Vest
+MSG_ARMOR_NAME_90	<IC_CLTH>Vishnu Vest
+MSG_ARMOR_NAME_91	<IC_CLTH>Sage's Robe
+MSG_ARMOR_NAME_92	<IC_CLTH>Robe Of Lords
+MSG_ARMOR_NAME_93	<IC_CLTH>Rainbow Robe
+MSG_ARMOR_NAME_94	<IC_CLTH>White Dress
+MSG_ARMOR_NAME_95	<IC_SHIELD>Hero's Shield
+MSG_ARMOR_NAME_96	<IC_SHIELD>Chocobo Shield
+MSG_ARMOR_NAME_97	<IC_HEAD>Hypnocrown
+MSG_ARMOR_NAME_98	<IC_HEAD>Cat-Ear Hood
+MSG_ARMOR_NAME_99	<IC_HEAD>White Tiger Mask
+MSG_ARMOR_NAME_100	<IC_HEAD>Red Cap
+MSG_ARMOR_NAME_101	<IC_HEAD>Rabbit-Ear Hood
+MSG_ARMOR_NAME_102	<IC_HEAD>Augustine Tiara
+MSG_ARMOR_NAME_103	<IC_HEAD>Star of Kami Kazari
+MSG_ARMOR_NAME_104	<IC_HEAD>Royal Crown
+MSG_ARMOR_NAME_105	<IC_HEAD>Dual Mask
+MSG_ARMOR_NAME_106	<IC_HEAD>Demon Hat
+MSG_ARMOR_NAME_107	<IC_HEAD>Philosopher's Hat
+MSG_ARMOR_NAME_108	<IC_HEAD>Grand Helm
+MSG_ARMOR_NAME_109	<IC_HEAD>Caesar Helm
+MSG_ARMOR_NAME_110	<IC_HEAD>Dragoon Helm
+MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
+MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
+MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
+MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ITEM_NAME_01	<IC_BAG>Scheggia di piros
+MSG_ITEM_NAME_02	<IC_BAG>Braccio di piros
+MSG_ITEM_NAME_03	<IC_BAG>Vento d'antartide
+MSG_ITEM_NAME_04	<IC_BAG>Vento d'artide
+MSG_ITEM_NAME_05	<IC_BAG>Ira di Zeus
+MSG_ITEM_NAME_06	<IC_BAG>Ira degli dei
+MSG_ITEM_NAME_07	<IC_BAG>Polvere di stelle
+MSG_ITEM_NAME_08	<IC_BAG>Bacio di Lilith
+MSG_ITEM_NAME_09	<IC_BAG>Zanna del vampiro
+MSG_ITEM_NAME_10	<IC_BAG>Liquore di bacco
+MSG_ITEM_NAME_11	<IC_BAG>Calzari di Ermes
+MSG_ITEM_NAME_12	<IC_BAG>Clessidra di bronzo
+MSG_ITEM_NAME_13	<IC_BAG>Clessidra d'argento
+MSG_ITEM_NAME_14	<IC_BAG>Clessidra d'oro
+MSG_ITEM_NAME_15	<IC_BAG>Tela di ragno
+MSG_ITEM_NAME_16	<IC_BAG>Esca
+MSG_ITEM_NAME_17	<IC_BAG>Zanna rossa
+MSG_ITEM_NAME_18	<IC_BAG>Zanna bianca
+MSG_ITEM_NAME_19	<IC_BAG>Zanna blu
+MSG_ITEM_NAME_20	<IC_BAG>Cortina luminosa
+MSG_ITEM_NAME_21	<IC_BAG>Anima di piros
+MSG_ITEM_NAME_22	<IC_BAG>Cortina lunare
+MSG_ITEM_NAME_23	<IC_BAG>Campana del silenzio
+MSG_ITEM_NAME_24	<IC_BAG>Tamburo della Terra
+MSG_ITEM_NAME_25	<IC_BAG>Cristallo
+MSG_ITEM_NAME_26	<IC_BAG>Baffo di iaguaro
+MSG_ITEM_NAME_27	<IC_BAG>Grimorio
+MSG_ITEM_NAME_28	<IC_BAG>Bestiario
+MSG_ITEM_NAME_29	<IC_BAG>Sveglia
+MSG_ITEM_NAME_30	<IC_BAG>Corno di unicorno
+MSG_ITEM_NAME_31	<IC_DRAG>Pozione
+MSG_ITEM_NAME_32	<IC_DRAG>Granpozione
+MSG_ITEM_NAME_33	<IC_DRAG>Extrapozione
+MSG_ITEM_NAME_34	<IC_DRAG>Etere
+MSG_ITEM_NAME_35	<IC_DRAG>Super etere
+MSG_ITEM_NAME_36	<IC_DRAG>Elisir
+MSG_ITEM_NAME_37	<IC_BAG>Coda di fenice
+MSG_ITEM_NAME_38	<IC_BAG>Ago dorato
+MSG_ITEM_NAME_39	<IC_BAG>Bacio di pulzella
+MSG_ITEM_NAME_40	<IC_BAG>Mazzuolo
+MSG_ITEM_NAME_41	<IC_BAG>Cibo dietetico
+MSG_ITEM_NAME_42	<IC_BAG>Erba dell'eco
+MSG_ITEM_NAME_43	<IC_BAG>Collirio
+MSG_ITEM_NAME_44	<IC_BAG>Antidoto
+MSG_ITEM_NAME_45	<IC_BAG>Croce
+MSG_ITEM_NAME_46	<IC_BAG>Panacea
+MSG_ITEM_NAME_47	<IC_BAG>Allarme
+MSG_ITEM_NAME_48	<IC_BAG>Mela d'oro
+MSG_ITEM_NAME_49	<IC_BAG>Mela d'argento
+MSG_ITEM_NAME_50	<IC_BAG>Goccia di Soma
+MSG_ITEM_NAME_51	<IC_TENTO>Tenda
+MSG_ITEM_NAME_52	<IC_TENTO>Padiglione
+MSG_ITEM_NAME_54	<IC_BAG>Uscita d'emergenza
+MSG_ITEM_NAME_55	<IC_BAG>Pane degli gnomi
+MSG_ITEM_NAME_56	<IC_BAG>Goblin
+MSG_ITEM_NAME_57	<IC_BAG>Piros
+MSG_ITEM_NAME_58	<IC_BAG>Coccatrice
+MSG_ITEM_NAME_59	<IC_BAG>Noetikos
+MSG_ITEM_NAME_60	<IC_BAG>Erba ghisal
+MSG_ITEM_NAME_61	<IC_BAG>Flauto ghisal
+MSG_KEY_NAME_01	<IC_BAG>Tessera d'associazione
+MSG_KEY_NAME_02	<IC_IOBJ>Anello piros
+MSG_KEY_NAME_03	<IC_IOBJ>Chiave di Baron
+MSG_KEY_NAME_04	<IC_IOBJ>Luce del deserto
+MSG_KEY_NAME_05	<IC_IOBJ>Cristallo della Terra
+MSG_KEY_NAME_06	<IC_IOBJ>Pietra magmatica
+MSG_KEY_NAME_07	<IC_IOBJ>Collana di Luka
+MSG_KEY_NAME_08	<IC_IOBJ>Erba sussurrante
+MSG_KEY_NAME_09	<IC_IOBJ>Cristallo dell'oscurità
+MSG_KEY_NAME_10	<IC_IOBJ>Coda di topo
+MSG_KEY_NAME_11	<IC_IOBJ>Adamantite
+MSG_KEY_NAME_12	<IC_IOBJ>Padella dell'amore
+MSG_KEY_NAME_13	<IC_IOBJ>Coda rosa
+MSG_KEY_NAME_14	<IC_IOBJ>Chiave di Lugae
+MSG_KEY_NAME_15	<IC_IOBJ>Materia oscura
+MSG_KEY_NAME_16	<IC_IOBJ>Kaipo Inn Pass
+MSG_KEY_NAME_17	<IC_IOBJ>Hook
+MSG_KEY_NAME_18	<IC_IOBJ>Yellow Tail
+MSG_KEY_NAME_19	<IC_IOBJ>Green Tail
+MSG_KEY_NAME_20	<IC_IOBJ>Blue Tail
+MSG_KEY_NAME_21	<IC_IOBJ>Red Tail
+MSG_KEY_NAME_22	<IC_IOBJ>Brown Tail
+MSG_KEY_NAME_23	<IC_IOBJ>Black Tail
+MSG_KEY_NAME_24	<IC_IOBJ>Trash Can
+MSG_KEY_NAME_25	<IC_IOBJ>Crystal Shard
+MSG_KEY_NAME_26	<IC_IOBJ>Orange Tail
+MSG_KEY_NAME_27	<IC_IOBJ>White Tail
+MSG_WEAPON_INF_01	Artiglio infuso del potere del Fuoco.
+MSG_WEAPON_INF_02	Artiglio infuso del potere del Ghiaccio.
+MSG_WEAPON_INF_03	Artiglio infuso del potere del Tuono.
+MSG_WEAPON_INF_04	Artiglio efficace contro i giganti che può infliggere Confusione.
+MSG_WEAPON_INF_05	Artiglio che può infliggere Veleno.
+MSG_WEAPON_INF_06	Artiglio che può infliggere Sonno.
+MSG_WEAPON_INF_07	Bacchetta che lancia Freccia magica se usata come oggetto in battaglia.
+MSG_WEAPON_INF_08	Bacchetta infusa del potere del Ghiaccio. Lancia Bufera se usata come oggetto in battaglia.
+MSG_WEAPON_INF_09	Bacchetta infusa del potere del Fuoco. Lancia Fuoco se usata come oggetto in battaglia.
+MSG_WEAPON_INF_10	Bacchetta infusa del potere del Tuono. Lancia Tuono se usata come oggetto in battaglia.
+MSG_WEAPON_INF_11	Bacchetta che lancia Porcello se usata come oggetto in battaglia.
+MSG_WEAPON_INF_12	Bacchetta che lancia Caos se usata come oggetto in battaglia.
+MSG_WEAPON_INF_13	Bacchetta che lancia Cometa se usata come oggetto in battaglia.
+MSG_WEAPON_INF_14	Bacchetta che sottrae PV all'avversario. Lancia Osmosi se usata come oggetto in battaglia.
+MSG_WEAPON_INF_15	Bastone infuso di potere sanante che lancia Purificazione se usato come oggetto in battaglia.
+MSG_WEAPON_INF_16	Bastone infuso di potere rigenerante che lancia Guarigione se usato come oggetto in battaglia.
+MSG_WEAPON_INF_17	Bastone di mithril efficace contro i non morti. Lancia Rimedio se usato come oggetto in battaglia.
+MSG_WEAPON_INF_18	Bastone che può infliggere Furore.
+MSG_WEAPON_INF_19	Bastone che lancia Dissipatio se usato come oggetto in battaglia.
+MSG_WEAPON_INF_20	Bastone che lancia Reiz se usato come oggetto in battaglia.
+MSG_WEAPON_INF_21	Bastone che ammutolisce il nemico. Lancia Silenzio se usato come oggetto in battaglia.
+MSG_WEAPON_INF_22	Spada delle tenebre comune.
+MSG_WEAPON_INF_23	Spada delle tenebre dalla lama affilata.
+MSG_WEAPON_INF_24	Spada delle tenebre che può uccidere il nemico in un sol colpo.
+MSG_WEAPON_INF_25	Spada sacra che reca incisa la leggenda di Mysidia.
+MSG_WEAPON_INF_26	Spada sacra che emana una luce benedetta.
+MSG_WEAPON_INF_27	Spada sacra di un eroe leggendario.
+MSG_WEAPON_INF_28	Spada sacra un tempo sigillata e temuta dai mostri.
+MSG_WEAPON_INF_29	Spada infusa del potere del Fuoco.
+MSG_WEAPON_INF_30	Spada infusa del potere del Ghiaccio.
+MSG_WEAPON_INF_31	Spada infusa di potere di protettivo. Lancia Egida se usata come oggetto in battaglia.
+MSG_WEAPON_INF_32	Spada efficace contro giganti e budini che sottrae PV all'avversario.
+MSG_WEAPON_INF_33	Spada efficace contro gli spettri che può infliggere Maledizione.
+MSG_WEAPON_INF_34	Spada che può infliggere Sonno. Lancia Sonno se usata come oggetto in battaglia.
+MSG_WEAPON_INF_35	Spada che può infliggere Pietrificazione.
+MSG_WEAPON_INF_36	Spada in mithril efficace contro gli spettri.
+MSG_WEAPON_INF_37	Spada a due mani che maledice chi la brandisce con Furore.
+MSG_WEAPON_INF_38	Lancia comune.
+MSG_WEAPON_INF_39	Lancia dalla lama acuminata.
+MSG_WEAPON_INF_40	Lancia infusa del potere del Fuoco. Ha l'effetto di Fuoca se usata come oggetto in battaglia.
+MSG_WEAPON_INF_41	Lancia infusa del potere del Ghiaccio. Ha l'effetto di Buferara se usata come oggetto in battaglia
+MSG_WEAPON_INF_42	Lancia efficace contro i draghi.
+MSG_WEAPON_INF_43	Lancia infusa di potere sacro. Ha l'effetto di Sancta se usata come oggetto in battaglia.
+MSG_WEAPON_INF_44	Lancia efficace contro giganti e budini  che sottrae PV all'avversario.
+MSG_WEAPON_INF_45	Lancia leggendaria favorita dagli dei.
+MSG_WEAPON_INF_46	Katana piccola usata dai ninja.
+MSG_WEAPON_INF_47	Katana che porta il nome della personificazione della battaglia.
+MSG_WEAPON_INF_48	Katana corta e particolarmente maneggevole.
+MSG_WEAPON_INF_49	Katana dal marchio di crisantemo inciso sul fodero.
+MSG_WEAPON_INF_50	Katana che ha fama di possedere poteri occulti. Lancia Egida se usata come oggetto in battaglia.
+MSG_WEAPON_INF_51	Katana celebrata per la sua potenza insuperabile. Lancia Fretta se usata come oggetto in battaglia.
+MSG_WEAPON_INF_52	Coltello efficace contro i maghi e che può infliggere Mutismo.
+MSG_WEAPON_INF_53	Coltello in mithril efficace contro gli spettri.
+MSG_WEAPON_INF_54	Pugnale che attacca con il potere di una ballerina se usato come oggetto in battaglia.
+MSG_WEAPON_INF_55	Coltello da cucina dalla notevole affilatura.
+MSG_WEAPON_INF_56	Frusta comune che può paralizzare il nemico.
+MSG_WEAPON_INF_57	Frusta costituita da una catena di ferro che può paralizzare il nemico.
+MSG_WEAPON_INF_58	Frusta infusa del potere del Tuono che può paralizzare il nemico.
+MSG_WEAPON_INF_59	Frusta infusa del potere del Fuoco che può paralizzare il nemico.
+MSG_WEAPON_INF_60	Frusta efficace contro i draghi che può paralizzare il nemico.
+MSG_WEAPON_INF_61	Ascia da lancio preferita dei nani.
+MSG_WEAPON_INF_62	Ascia di grandi dimensioni efficace contro i giganti.
+MSG_WEAPON_INF_63	Ascia a due mani che può infliggere Veleno. Lancia Veleno se usata come oggetto in battaglia.
+MSG_WEAPON_INF_64	Ascia a due mani efficace contro i maghi.
+MSG_WEAPON_INF_65	Arma da lancio usata dai ninja.
+MSG_WEAPON_INF_66	Arma da lancio usata dai ninja.
+MSG_WEAPON_INF_67	Arma da lancio in legno.
+MSG_WEAPON_INF_68	Arma da lancio in metallo.
+MSG_WEAPON_INF_69	Arpa dal timbro soporifero che può infliggere Sonno.
+MSG_WEAPON_INF_70	Arpa dal timbro seducente che può infliggere Confusione.
+MSG_WEAPON_INF_71	Martello in legno efficace contro le macchine.
+MSG_WEAPON_INF_72	Martello in mithril efficace contro spettri e macchine.
+MSG_WEAPON_INF_73	Martello infuso del potere del Fuoco ed efficace contro le macchine. Lancia Terremoto se usato come oggetto in battaglia.
+MSG_WEAPON_INF_74	Arco comune.
+MSG_WEAPON_INF_75	Balestra utilizzata per la caccia.
+MSG_WEAPON_INF_76	Arco utilizzato per il combattimento.
+MSG_WEAPON_INF_77	Arco dall'elevata tendenza ai colpi critici.
+MSG_WEAPON_INF_78	Arco in legno creato dagli elfi ed efficace contro i maghi. Lancia Guscio se usato come oggetto in battaglia.
+MSG_WEAPON_INF_79	Arco che si dice essere appartenuto a un grande arciere d'una terra lontana.
+MSG_WEAPON_INF_80	Arco che porta il nome della dea della luna.
+MSG_WEAPON_INF_81	Freccia in ferro.
+MSG_WEAPON_INF_82	Freccia infusa di potere sacro.
+MSG_WEAPON_INF_83	Freccia infusa del potere del Fuoco.
+MSG_WEAPON_INF_84	Freccia infusa del potere del Ghiaccio.
+MSG_WEAPON_INF_85	Freccia infusa del potere del Tuono.
+MSG_WEAPON_INF_86	Freccia che può infliggere Cecità.
+MSG_WEAPON_INF_87	Freccia che può infliggere Veleno.
+MSG_WEAPON_INF_88	Freccia efficace contro i maghi che può infliggere Mutismo.
+MSG_WEAPON_INF_89	Freccia efficace contro i giganti che può infliggere Confusione.
+MSG_WEAPON_INF_90	Freccia che si dice sia appartenuta a un grande arciere d'una terra lontana.
+MSG_WEAPON_INF_91	Freccia che può infliggere Pietra.
+MSG_WEAPON_INF_92	Arco efficace contro i draghi che porta il nome della dea della luna.
+MSG_WEAPON_INF_99	Legendary holy sword. (NOT)
+MSG_WEAPON_INF_100	Holy sword useful against flan creatures.
+MSG_WEAPON_INF_101	Holy sword immersed in holy power.
+MSG_WEAPON_INF_102	Stick that can turn the enemy into a pig.
+MSG_WEAPON_INF_103	Legendary spear with the power of wind.
+MSG_WEAPON_INF_104	Axe that has the chance to poison the enemy.
+MSG_WEAPON_INF_105	Bow said to have been used by a legendary hero.
+MSG_WEAPON_INF_106	Arrow that sometimes confuses an enemy.
+MSG_WEAPON_INF_107	Whip immersed in holy power.
+MSG_WEAPON_INF_108	Short sword with the power of water.
+MSG_WEAPON_INF_109	Dagger that has a chance to kill with one blow.
+MSG_WEAPON_INF_110	Legendary katana of ninjas.
+MSG_WEAPON_INF_111	Illusionary sword.
+MSG_WEAPON_INF_112	Pile of rusty scrap metal.
+MSG_WEAPON_INF_113	The ultimate thrown weapon.
+MSG_WEAPON_INF_114	Claw that sometimes paralyzes the enemy.
+MSG_WEAPON_INF_115	Claw effective against dragons.
+MSG_WEAPON_INF_116	Claw immersed in holy power.
+MSG_WEAPON_INF_117	Hammer that holds the power of lightning.
+MSG_WEAPON_INF_118	Hammer with the power of heat.
+MSG_WEAPON_INF_119	Rod immersed in holy power.
+MSG_WEAPON_INF_120	Staff with the power of healing.
+MSG_WEAPON_INF_121	Staff with the power of reflection.
+MSG_WEAPON_INF_122	Harp immersed in the power of the sun.
+MSG_WEAPON_INF_123	Lute that can release one's soul.
+MSG_WEAPON_INF_124	The ultimate lute.
+MSG_WEAPON_INF_125	A blood sword that a Dark Knight can really take advantage of.
+MSG_WEAPON_INF_126	Cecil's brother's sword enhances a dark knight Cecil.
+MSG_WEAPON_INF_127	An amazingly efficient blood sword... but it comes at a cost.
+MSG_WEAPON_INF_128	The ultimate sword of anger that makes even Zeromus jealous.  Casts Mega Flare when used in battle.
+MSG_WEAPON_INF_129	A sword from a faraway land that anyone can equip, as another randomizer has proven.
+MSG_WEAPON_INF_130	When finished with this rando, take Kain to the FF3 world and speedrun with this spear!
+MSG_WEAPON_INF_131	If you thought Tellah was miffed when he defeated Golbez... Casts Double Meteor when used in battle.
+MSG_ARMOR_INF_01	Scudo in ferro.
+MSG_ARMOR_INF_02	Scudo dalla grande forza malefica.
+MSG_ARMOR_INF_03	Scudo che si dice sia appartenuto a un demone.
+MSG_ARMOR_INF_04	Scudo resistente contro gli attacchi dei non morti.
+MSG_ARMOR_INF_05	Scudo in mithril resistente contro gli attacchi degli spettri.
+MSG_ARMOR_INF_06	Scudo infuso del potere del Fuoco, resistente contro il Ghiaccio ma debole contro il suo stesso elemento.
+MSG_ARMOR_INF_07	Scudo infuso del potere del Ghiaccio, resistente contro il Fuoco ma debole contro il suo stesso elemento.
+MSG_ARMOR_INF_08	Scudo resistente contro il Tuono.
+MSG_ARMOR_INF_09	Scudo resistente agli attacchi dei maghi che previene Pietra.
+MSG_ARMOR_INF_10	Scudo utilizzato in una terra lontana.
+MSG_ARMOR_INF_11	Scudo resistente agli attacchi dei draghi e contro Fuoco, Ghiaccio e Tuono e.
+MSG_ARMOR_INF_12	Scudo resistente contro gli attacchi dei non morti.
+MSG_ARMOR_INF_13	Elmo di ferro.
+MSG_ARMOR_INF_14	Elmo infuso di grande forza malefica.
+MSG_ARMOR_INF_15	Elmo che si dice sia appartenuto a un demone.
+MSG_ARMOR_INF_16	Elmo che si dice sia posseduto da un demone.
+MSG_ARMOR_INF_17	Elmo resistente contro gli attacchi dei non morti.
+MSG_ARMOR_INF_18	Elmo in mithril resistente contro gli attacchi degli spettri.
+MSG_ARMOR_INF_19	Elmo resistente contro il Tuono.
+MSG_ARMOR_INF_20	Elmo utilizzato in una terra lontana.
+MSG_ARMOR_INF_21	Elmo resistente agli attacchi dei draghi e contro Fuoco, Ghiaccio e Tuono.
+MSG_ARMOR_INF_22	Elmo resistente agli attacchi dei non morti. e contro Fuoco, Ghiaccio e Tuono.
+MSG_ARMOR_INF_23	Cappello in cuoio.
+MSG_ARMOR_INF_24	Cappello leggero di seta.
+MSG_ARMOR_INF_25	Cappello realizzato con un tessuto speciale.
+MSG_ARMOR_INF_26	Cappello realizzato con tessuto sacro e resistente agli attacchi dei non morti.
+MSG_ARMOR_INF_27	Fermacapelli resistente contro il Tuono e agli attacchi dei draghi.
+MSG_ARMOR_INF_28	Fiocco che previene varie alterazioni di stato e protegge dagli attacchi dei maghi.
+MSG_ARMOR_INF_29	Fascetta che previene Confusione.
+MSG_ARMOR_INF_30	Berretto infuso di potere magico.
+MSG_ARMOR_INF_31	Cappuccio che previene Sonno.
+MSG_ARMOR_INF_32	Maschera in vetro.
+MSG_ARMOR_INF_33	Armatura in ferro.
+MSG_ARMOR_INF_34	Armatura dalla grande forza malefica.
+MSG_ARMOR_INF_35	Armatura che si dice sia appartenuta a un demone.
+MSG_ARMOR_INF_36	Armatura che si dice sia posseduta da un demone.
+MSG_ARMOR_INF_37	Armatura resistente contro gli attacchi dei non morti.
+MSG_ARMOR_INF_38	Armatura in mithril resistente contro gli attacchi degli spettri.
+MSG_ARMOR_INF_39	Cotta infusa del potere del Fuoco, resistente contro il Ghiaccio ma debole contro il suo stesso elemento.
+MSG_ARMOR_INF_40	Armatura infusa del potere del Ghiaccio, resistente contro il Fuoco ma debole contro il suo stesso elemento.
+MSG_ARMOR_INF_41	Armatura resistente contro il Tuono.
+MSG_ARMOR_INF_42	Armatura utilizzata in una terra lontana.
+MSG_ARMOR_INF_43	Cotta resistente agli attacchi dei draghi e contro Fuoco, Ghiaccio e Tuono.
+MSG_ARMOR_INF_44	Armatura che previene varie alterazioni di stato e protegge dagli attacchi dei non morti.
+MSG_ARMOR_INF_45	Veste generica.
+MSG_ARMOR_INF_46	Veste in cuoio.
+MSG_ARMOR_INF_47	Abito che previene Pietrificazione.
+MSG_ARMOR_INF_48	Abito realizzato in tessuto sacro.
+MSG_ARMOR_INF_49	Abito per gli utilizzatori della magia nera.
+MSG_ARMOR_INF_50	Abito resistente contro il Tuono e agli attacchi dei non morti.
+MSG_ARMOR_INF_51	Abito per gli utilizzatori della magia bianca che protegge dall'oscurità.
+MSG_ARMOR_INF_52	Fascia realizzata in tessuto speciale.
+MSG_ARMOR_INF_53	Bustino che si dice sia stato indossato dalla dea del cielo e che protegge da Paralisi.
+MSG_ARMOR_INF_54	Veste che previene Sonno.
+MSG_ARMOR_INF_55	Veste che previene Mutismo.
+MSG_ARMOR_INF_56	Tenuta preferita dai praticanti di arti marziali.
+MSG_ARMOR_INF_57	Tenuta leggera e comoda proveniente da una terra lontana.
+MSG_ARMOR_INF_58	Armatura in adamantite che protegge da varie alterazioni di stato e resistente a Fuoco, Ghiaccio e Tuono.
+MSG_ARMOR_INF_59	Mantello nero come la notte proveniente da una terra lontana.
+MSG_ARMOR_INF_60	Guanti in ferro.
+MSG_ARMOR_INF_61	Guanti dalla grande forza malefica.
+MSG_ARMOR_INF_62	Guanti che si dice siano stati usati da un demone.
+MSG_ARMOR_INF_63	Guanti che si dice siano posseduti da un demone.
+MSG_ARMOR_INF_64	Guanti resistenti agli attacchi dei non morti.
+MSG_ARMOR_INF_65	Guanti in mithril resistenti agli attacchi degli spettri.
+MSG_ARMOR_INF_66	Guanti resistenti contro il Tuono.
+MSG_ARMOR_INF_67	Guanti resistenti agli attacchi dei giganti e che prevengono Mini.
+MSG_ARMOR_INF_68	Guanti utilizzati in una terra lontana.
+MSG_ARMOR_INF_69	Guanti resistenti agli attacchi dei draghi e contro Fuoco, Ghiaccio e Tuono.
+MSG_ARMOR_INF_70	Guanti resistenti contro gli attacchi dei non morti.
+MSG_ARMOR_INF_71	Bracciale in ferro.
+MSG_ARMOR_INF_72	Anello che previene Maiale.
+MSG_ARMOR_INF_73	Bracciale resistente contro gli attacchi degli spettri.
+MSG_ARMOR_INF_74	Bracciale che aumenta la forza nelle arti marziali.
+MSG_ARMOR_INF_75	Bracciale resistente agli attacchi dei maghi e che previene Mutismo.
+MSG_ARMOR_INF_76	Anello resistente agli attacchi dei draghi e che previene Sonno, Confusione e Paralisi.
+MSG_ARMOR_INF_77	Bracciale resistente contro il Tuono.
+MSG_ARMOR_INF_78	Anello resistente contro Fuoco, Ghiaccio e Tuono.
+MSG_ARMOR_INF_79	Anello maledetto che rafforza le resistenze elementali.
+MSG_ARMOR_INF_80	Armor resistant against lightning.
+MSG_ARMOR_INF_81	Armor of the legendary dragoon.
+MSG_ARMOR_INF_82	Armor made in worship of an ancient leader.
+MSG_ARMOR_INF_83	Armor made by great blacksmiths.
+MSG_ARMOR_INF_84	Jacket resistant against fire.
+MSG_ARMOR_INF_85	Suit that prevents Curse.
+MSG_ARMOR_INF_86	Chocobo suit that prevents poison.
+MSG_ARMOR_INF_87	Cat suit that prevents poison.
+MSG_ARMOR_INF_88	Gear that prevents Curse, Pig, and Toad.
+MSG_ARMOR_INF_89	Vest that prevents Poison, Petrify, and Paralyze.
+MSG_ARMOR_INF_90	Vest resistant against all attributes.
+MSG_ARMOR_INF_91	Robe that prevents silence.
+MSG_ARMOR_INF_92	Robe resistant against fire, ice, and lightning.
+MSG_ARMOR_INF_93	Robe resistant against magic.
+MSG_ARMOR_INF_94	Dress of purity that is resistant against undead.
+MSG_ARMOR_INF_95	Shield that can only be equipped by true heroes.
+MSG_ARMOR_INF_96	Shield found after making a deal with a Fat Chocobo.  Resistant to Confuse.
+MSG_ARMOR_INF_97	Crown that prevents Toad, Mini, and Pig.
+MSG_ARMOR_INF_98	Hood resistant against ice.
+MSG_ARMOR_INF_99	Mask that prevents Paralyze.
+MSG_ARMOR_INF_100	Hat resistant against fire.
+MSG_ARMOR_INF_101	Discovered after seven trading cards were collected.  Resistant to many conditions.
+MSG_ARMOR_INF_102	Rosa's special hat.  Resists Sleep, Silvence, Confuse, and Pig.
+MSG_ARMOR_INF_103	Rydia's special hat.  Resists Silence, Confuse, and Mini.
+MSG_ARMOR_INF_104	Edward's special crown.  Resistant Poison, Petrify, Silence, and Confuse.
+MSG_ARMOR_INF_105	Yang's special mask.  Resistant to sleep.
+MSG_ARMOR_INF_106	Palom's special hat.  Resists Mini, Toad, and Pig.
+MSG_ARMOR_INF_107	Porom's special hat.  Resists Mini, Toad, and Pig.
+MSG_ARMOR_INF_108	Helm resistant against lightning.
+MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
+MSG_ARMOR_INF_110	Kain's special helmet.
+MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
+MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ITEM_INF_01	Stesso effetto di Fuoco.
+MSG_ITEM_INF_02	Stesso effetto di Fuoca.
+MSG_ITEM_INF_03	Pietra con lo stesso effetto di Bufera.
+MSG_ITEM_INF_04	Pietra con lo stesso effetto di Buferara.
+MSG_ITEM_INF_05	Effigie con lo stesso effetto di Tuono.
+MSG_ITEM_INF_06	Effigie con lo stesso effetto di Tuona.
+MSG_ITEM_INF_07	Sabbia con lo stesso effetto di Cometa.
+MSG_ITEM_INF_08	Effigie con lo stesso effetto di Osmosi.
+MSG_ITEM_INF_09	Zanna con lo stesso effetto di Assorbimento.
+MSG_ITEM_INF_10	Liquore con lo stesso effetto di Furia.
+MSG_ITEM_INF_11	Calzari con lo stesso effetto di Fretta.
+MSG_ITEM_INF_12	Orologio con lo stesso effetto di Stop.
+MSG_ITEM_INF_13	Orologio con lo stesso effetto di Stop, ma con durata estesa.
+MSG_ITEM_INF_14	Orologio con lo stesso effetto di Stop, ma con durata notevolmente estesa.
+MSG_ITEM_INF_15	Ragnatela con lo stesso effetto di Adagio.
+MSG_ITEM_INF_16	Bambola con lo stesso effetto di Elusione.
+MSG_ITEM_INF_17	Zanna di drago che infligge danni di fuoco.
+MSG_ITEM_INF_18	Zanna di drago che infligge danni di gelo.
+MSG_ITEM_INF_19	Zanna di drago che infligge danni di tuono.
+MSG_ITEM_INF_20	Cortina con lo stesso effetto di Reflex.
+MSG_ITEM_INF_21	Sacrifica la vita di chi la utilizza per infliggere danno.
+MSG_ITEM_INF_22	Cortina che annulla gli attacchi fisici e garantisce lo stesso effetto di Reflex.
+MSG_ITEM_INF_23	Campana con lo stesso effetto di Silenzio.
+MSG_ITEM_INF_24	Tamburo con lo stesso effetto di Terremoto.
+MSG_ITEM_INF_25	Cristallo che emette luce sacra.
+MSG_ITEM_INF_26	Baffo con lo stesso effetto di Morte.
+MSG_ITEM_INF_27	Tomo che invoca un eidolon. Chissà cosa ne verrà fuori?
+MSG_ITEM_INF_28	Compendio con lo stesso effetto di Scan.
+MSG_ITEM_INF_29	Orologio che cura la squadra da Sonno.
+MSG_ITEM_INF_30	Corno che cura la squadra da Sonno, Paralisi, Confusione e Furore.
+MSG_ITEM_INF_31	Fa recuperare PV in quantità modesta.
+MSG_ITEM_INF_32	Fa recuperare PV in quantità discreta.
+MSG_ITEM_INF_33	Fa recuperare PV in quantità elevata.
+MSG_ITEM_INF_34	Fa recuperare PM in quantità modesta.
+MSG_ITEM_INF_35	Fa recuperare PM in quantità discreta.
+MSG_ITEM_INF_36	Fa recuperare tutti i PV e i PM.
+MSG_ITEM_INF_37	Rianima un alleato.
+MSG_ITEM_INF_38	Cura Pietra.
+MSG_ITEM_INF_39	Cura Ranocchio.
+MSG_ITEM_INF_40	Cura Mini.
+MSG_ITEM_INF_41	Cura Maiale.
+MSG_ITEM_INF_42	Cura Mutismo.
+MSG_ITEM_INF_43	Cura Cecità.
+MSG_ITEM_INF_44	Cura Veleno.
+MSG_ITEM_INF_45	Cura Maledizione.
+MSG_ITEM_INF_46	Cura tutte le alterazioni di stato tranne KO.
+MSG_ITEM_INF_47	Allarme che richiama i mostri.
+MSG_ITEM_INF_48	Incrementa di 100 i PV massimi.
+MSG_ITEM_INF_49	Incrementa di 50 i PV massimi.
+MSG_ITEM_INF_50	Incrementa di 10 i PM massimi.
+MSG_ITEM_INF_51	Fa recuperare parte dei PV e PM alla squadra.\nUtilizzabile solo all'aperto.
+MSG_ITEM_INF_52	Fa recuperare tutti i PV e i PM alla squadra.\nUtilizzabile solo all'aperto.
+MSG_ITEM_INF_54	Trasporta istantaneamente all'esterno di un luogo pericoloso.
+MSG_ITEM_INF_55	Pane con lo stesso effetto di Vista.
+MSG_ITEM_INF_56	Insegna a (RYDIA) l'invocazione Goblin.
+MSG_ITEM_INF_57	Insegna a (RYDIA) l'invocazione Piros.
+MSG_ITEM_INF_58	Insegna a (RYDIA) l'invocazione Coccatrice.
+MSG_ITEM_INF_59	Insegna a (RYDIA) l'invocazione Noetikos.
+MSG_ITEM_INF_60	Adorata dal chocobo ciccio. Usala dove si sente odore di chocobo.
+MSG_ITEM_INF_61	Flauto che richiama il chocobo ciccio.
+MSG_KEY_INF_01	Tessera di riconoscimento dei soci della taverna "Sua Maestà".
+MSG_KEY_INF_02	Anello ricevuto dal Re di Baron.
+MSG_KEY_INF_03	Chiave per aprire alcune porte nella città di Baron.
+MSG_KEY_INF_04	Medicina efficace contro la febbre gialla.
+MSG_KEY_INF_05	Cristallo che porta la benedizione sulla Terra.
+MSG_KEY_INF_06	Pietra che racchiude il potere del magma.
+MSG_KEY_INF_07	Collana indossata da Luka.
+MSG_KEY_INF_08	Erba che trasporta i suoni a lunga distanza.
+MSG_KEY_INF_09	Cristallo dell'Inframondo.
+MSG_KEY_INF_10	Coda di topo che testimonia il coraggio di chi la porta.
+MSG_KEY_INF_11	Metallo prezioso di straordinaria durezza.
+MSG_KEY_INF_12	Padella simbolo d'amore.
+MSG_KEY_INF_13	Coda color rosa.
+MSG_KEY_INF_14	Chiave che era in possesso del professor Lugae.
+MSG_KEY_INF_15	???
+MSG_KEY_INF_16	Turn this in to stay at the Kaipo Inn for free!
+MSG_KEY_INF_17	Used to move hovercrafts!
+MSG_KEY_INF_18	A tail not commonly found in Pixel Remaster...
+MSG_KEY_INF_24	Apparently you can use this to effectively throw monsters away...
+MSG_KEY_INF_25	This shard slightly shimmers...
+MSG_MON_NAME_01	Goblin
+MSG_MON_NAME_02	Basilisco
+MSG_MON_NAME_03	Avvoltoio
+MSG_MON_NAME_04	Fluttocchio
+MSG_MON_NAME_05	Insectus
+MSG_MON_NAME_06	Pipistrello
+MSG_MON_NAME_07	Legnocchio
+MSG_MON_NAME_08	Fendespino
+MSG_MON_NAME_09	Minimago
+MSG_MON_NAME_10	Sahagin del deserto
+MSG_MON_NAME_11	Occhi volanti
+MSG_MON_NAME_12	Centozampe
+MSG_MON_NAME_13	Verme della sabbia
+MSG_MON_NAME_14	Gradodo
+MSG_MON_NAME_15	Zanchiglia
+MSG_MON_NAME_16	Zombie
+MSG_MON_NAME_17	Pesce assassino
+MSG_MON_NAME_18	Fiore sanguinario
+MSG_MON_NAME_19	Organirospo
+MSG_MON_NAME_20	Spumone rosso
+MSG_MON_NAME_21	Gelatina gialla
+MSG_MON_NAME_22	Sahagin
+MSG_MON_NAME_23	Leszi
+MSG_MON_NAME_24	Crisalide
+MSG_MON_NAME_25	Capitano goblin
+MSG_MON_NAME_26	Lucertola nera
+MSG_MON_NAME_27	Adamanthart
+MSG_MON_NAME_28	Domovoi
+MSG_MON_NAME_29	Bavarese viola
+MSG_MON_NAME_30	Soldato di Baron
+MSG_MON_NAME_31	Generale
+MSG_MON_NAME_32	Rafficatore
+MSG_MON_NAME_33	Minikiller
+MSG_MON_NAME_34	Bellezza mortale
+MSG_MON_NAME_35	Spirito
+MSG_MON_NAME_36	Scheletro
+MSG_MON_NAME_37	Coccatrice
+MSG_MON_NAME_38	Gargolla
+MSG_MON_NAME_39	Cucciolo di rudra
+MSG_MON_NAME_40	Belfagor
+MSG_MON_NAME_41	Zuu
+MSG_MON_NAME_42	Nassa marina
+MSG_MON_NAME_43	Alligatore
+MSG_MON_NAME_44	Sguazzante
+MSG_MON_NAME_45	Marinaio di Baron
+MSG_MON_NAME_46	Capitano
+MSG_MON_NAME_47	Anima
+MSG_MON_NAME_48	Scheletro insanguinato
+MSG_MON_NAME_49	Ghoul
+MSG_MON_NAME_50	Soldateschio
+MSG_MON_NAME_51	Revenant
+MSG_MON_NAME_52	Draculessa
+MSG_MON_NAME_53	Elapatra
+MSG_MON_NAME_54	Scheledrago
+MSG_MON_NAME_55	Watt
+MSG_MON_NAME_56	Gigalligatore
+MSG_MON_NAME_57	Idra
+MSG_MON_NAME_58	Verme d'acqua
+MSG_MON_NAME_59	Guardia di Baron
+MSG_MON_NAME_60	Lamia
+MSG_MON_NAME_61	Istrice infernale
+MSG_MON_NAME_62	Doppia serpe
+MSG_MON_NAME_63	Spirito tonante
+MSG_MON_NAME_64	Noetikos
+MSG_MON_NAME_65	Naga
+MSG_MON_NAME_66	Orco
+MSG_MON_NAME_67	Cait Sith
+MSG_MON_NAME_68	Cavaliere nero
+MSG_MON_NAME_69	Cavaliere centauro
+MSG_MON_NAME_70	Vampiressa
+MSG_MON_NAME_71	Marionettista
+MSG_MON_NAME_72	Marionetta
+MSG_MON_NAME_73	Alitetre
+MSG_MON_NAME_74	Conchiglia mortale
+MSG_MON_NAME_75	Ammaliatrice
+MSG_MON_NAME_76	Cavaliere satanico
+MSG_MON_NAME_77	Armadillo
+MSG_MON_NAME_78	Soldatessa
+MSG_MON_NAME_79	Cavaliere spettro
+MSG_MON_NAME_80	Nagaraja
+MSG_MON_NAME_81	Medusa
+MSG_MON_NAME_82	Zombisauro
+MSG_MON_NAME_83	Testuggine magmatica
+MSG_MON_NAME_85	Malisogno
+MSG_MON_NAME_86	Piros
+MSG_MON_NAME_87	Piros doloroso
+MSG_MON_NAME_88	Chimera
+MSG_MON_NAME_89	Tartaruga infernale
+MSG_MON_NAME_90	Mantoferro
+MSG_MON_NAME_91	Cane ardente
+MSG_MON_NAME_92	Gorgone
+MSG_MON_NAME_93	Golem di pietra
+MSG_MON_NAME_94	Lilith
+MSG_MON_NAME_95	Lamia madre
+MSG_MON_NAME_96	Rospetto
+MSG_MON_NAME_97	Morz
+MSG_MON_NAME_98	Rudra
+MSG_MON_NAME_99	Stregone
+MSG_MON_NAME_100	Orco folle
+MSG_MON_NAME_101	Pupazzo ingannevole
+MSG_MON_NAME_102	Pipistrello sanguinario
+MSG_MON_NAME_103	Aracne
+MSG_MON_NAME_104	Cavaliere ardente
+MSG_MON_NAME_105	Cannone meccanico
+MSG_MON_NAME_106	Pirobolos
+MSG_MON_NAME_107	Granata scura
+MSG_MON_NAME_108	Pestocchio
+MSG_MON_NAME_109	Sterminatore
+MSG_MON_NAME_110	Iaguaro
+MSG_MON_NAME_111	Drago meccanico
+MSG_MON_NAME_112	Araune
+MSG_MON_NAME_113	Practi
+MSG_MON_NAME_114	Scavatore
+MSG_MON_NAME_115	Verme degli abissi
+MSG_MON_NAME_116	Rossosangue
+MSG_MON_NAME_117	Ingannatore
+MSG_MON_NAME_118	Lucertola gelata
+MSG_MON_NAME_119	Falena infernale
+MSG_MON_NAME_120	Pipistrello maligno
+MSG_MON_NAME_121	Bestia gelata
+MSG_MON_NAME_122	Invocatore
+MSG_MON_NAME_123	Stregona
+MSG_MON_NAME_124	Porta d'assalto
+MSG_MON_NAME_125	Strega ranocchia
+MSG_MON_NAME_126	Mamon
+MSG_MON_NAME_127	Chimera letale
+MSG_MON_NAME_128	Lunavirus
+MSG_MON_NAME_129	Respiro di Zemus
+MSG_MON_NAME_130	Mousse bianca
+MSG_MON_NAME_131	Budino mero
+MSG_MON_NAME_132	Mente di Zemus
+MSG_MON_NAME_133	Golem di mithril
+MSG_MON_NAME_134	Drago verde
+MSG_MON_NAME_135	Budino nobile
+MSG_MON_NAME_136	Occhio spia
+MSG_MON_NAME_137	Soldato meccanico
+MSG_MON_NAME_138	Soldato gigante
+MSG_MON_NAME_139	Dea della luna
+MSG_MON_NAME_140	Molboro
+MSG_MON_NAME_141	Drago d'argento
+MSG_MON_NAME_142	Drago giallo
+MSG_MON_NAME_143	Minidiavolo
+MSG_MON_NAME_144	Eucariote
+MSG_MON_NAME_145	Maschera malvagia
+MSG_MON_NAME_146	Cavaliere di ferro
+MSG_MON_NAME_147	Soldato colosso
+MSG_MON_NAME_148	Golem d'acciaio
+MSG_MON_NAME_149	Alyman
+MSG_MON_NAME_150	Lunasauro
+MSG_MON_NAME_151	Cercatore
+MSG_MON_NAME_152	Mago delle tenebre
+MSG_MON_NAME_153	Bahamut oscuro
+MSG_MON_NAME_154	Procariote
+MSG_MON_NAME_155	Ogopogo
+MSG_MON_NAME_156	Drago blu
+MSG_MON_NAME_157	Drago d'oro
+MSG_MON_NAME_158	Drago del fulmine
+MSG_MON_NAME_159	Drago bianco
+MSG_MON_NAME_160	Drago rosso
+MSG_MON_NAME_161	Behemoth
+MSG_MON_NAME_162	Drago della nebbia
+MSG_MON_NAME_163	Octomammut
+MSG_MON_NAME_164	Antoleon
+MSG_MON_NAME_165	Mamma piros
+MSG_MON_NAME_166	Scarmiglione
+MSG_MON_NAME_167	Baigan
+MSG_MON_NAME_168	Braccio destro
+MSG_MON_NAME_169	Braccio sinistro
+MSG_MON_NAME_170	Cagnazzo
+MSG_MON_NAME_171	Elfo oscuro
+MSG_MON_NAME_172	Sandy
+MSG_MON_NAME_173	Cindy
+MSG_MON_NAME_174	Mindy
+MSG_MON_NAME_175	Golbez
+MSG_MON_NAME_176	Barbariccia
+MSG_MON_NAME_177	Calca
+MSG_MON_NAME_178	Calcabrina
+MSG_MON_NAME_179	Drago nero
+MSG_MON_NAME_180	Professor Lugae
+MSG_MON_NAME_181	Barnaba
+MSG_MON_NAME_182	Lugae
+MSG_MON_NAME_183	Re di Eblan
+MSG_MON_NAME_184	Regina di Eblan
+MSG_MON_NAME_185	Rubicante
+MSG_MON_NAME_186	Odino
+MSG_MON_NAME_187	Leviatano
+MSG_MON_NAME_188	Bahamut
+MSG_MON_NAME_189	Muro diabolico
+MSG_MON_NAME_190	Asura
+MSG_MON_NAME_191	Tetrarca elementale
+MSG_MON_NAME_192	Drago oscuro
+MSG_MON_NAME_193	Sahagin
+MSG_MON_NAME_194	Globo di controllo
+MSG_MON_NAME_195	Globo di difesa
+MSG_MON_NAME_196	Zemus
+MSG_MON_NAME_197	Zeromus
+MSG_MON_NAME_198	Dragone
+MSG_MON_NAME_199	Bardo
+MSG_MON_NAME_200	Monaco
+MSG_MON_NAME_201	Cavaliere delle tenebre
+MSG_MON_NAME_202	Ragazza
+MSG_MON_NAME_204	Fluttocchio
+MSG_MON_NAME_205	Zuu
+MSG_MON_NAME_206	Brina
+MSG_MON_NAME_207	Teschio redivivo
+MSG_MON_NAME_208	Barnaba-Z
+MSG_MON_NAME_209	Globo d'attacco
+MSG_MON_NAME_210	Uovo misterioso
+MSG_MON_NAME_211	Scarmiglione II
+MSG_MON_NAME_212	Cagnazzo II
+MSG_MON_NAME_213	Barbariccia II
+MSG_MON_NAME_214	Rubicante II
+MSG_LOCATION_STICK	(AREA_NAME) - (MAP_NAME)
+MSG_LOCATION_STICK_01	(AREA_NAME)
+MSG_LOCATION_STICK_02	(MAP_NAME)
+MSG_MAP_NAME_01	Superficie
+MSG_MAP_NAME_02	Inframondo
+MSG_MAP_NAME_03	Luna
+MSG_MAP_NAME_04	Castello di Baron
+MSG_MAP_NAME_05	Città di Baron
+MSG_MAP_NAME_06	Villaggio oasi di Kaipo
+MSG_MAP_NAME_07	Castello di Damcyan
+MSG_MAP_NAME_08	Castello di Fabul
+MSG_MAP_NAME_09	Mysidia
+MSG_MAP_NAME_10	Villaggio delle nebbie
+MSG_MAP_NAME_11	Villaggio del mithril
+MSG_MAP_NAME_12	Castello di Eblan
+MSG_MAP_NAME_13	Città di Troia
+MSG_MAP_NAME_14	Castello di Troia
+MSG_MAP_NAME_15	Città di Agart
+MSG_MAP_NAME_16	Caverna di Adaman
+MSG_MAP_NAME_17	Castello dei nani
+MSG_MAP_NAME_18	Villaggio di Tomra
+MSG_MAP_NAME_19	Fucina di Kokkol
+MSG_MAP_NAME_20	Dimora degli Hummingway
+MSG_MAP_NAME_21	Palazzo dei seleniani
+MSG_MAP_NAME_23	Villaggio dei chocobo
+MSG_MAP_NAME_24	Fiume sotterraneo
+MSG_MAP_NAME_25	Caverna dell'antoleon
+MSG_MAP_NAME_26	Monte dei folletti
+MSG_MAP_NAME_27	Monte dell'ordalia
+MSG_MAP_NAME_28	Vecchio canale
+MSG_MAP_NAME_29	Caverna magnetica
+MSG_MAP_NAME_30	Torre di Zot
+MSG_MAP_NAME_31	Torre di Babele
+MSG_MAP_NAME_32	Caverna di Eblan
+MSG_MAP_NAME_33	Caverna delle silfidi
+MSG_MAP_NAME_34	Caverna degli eidolon
+MSG_MAP_NAME_35	Reame degli eidolon
+MSG_MAP_NAME_36	Caverna sigillata
+MSG_MAP_NAME_37	Tunnel lunare
+MSG_MAP_NAME_38	Antro del Dio degli eidolon
+MSG_MAP_NAME_39	Gigante di Babele
+MSG_MAP_NAME_40	Gola lunare
+MSG_MAP_NAME_41	Caverna delle nebbie
+MSG_MAP_NAME_47	Sala d'addestramento
+MSG_MAP_NAME_48	Palazzo delle preghiere
+MSG_MAP_NAME_87	Torre delle orazioni
+MSG_MAP_NAME_54	Fortezza dei nani
+MSG_MAP_NAME_56	Cascata sotterranea
+MSG_MAP_NAME_59	Nido dell'antoleon
+MSG_MAP_NAME_60	Cunicolo per la Torre di Babele
+MSG_MAP_NAME_63	Bocca del Gigante
+MSG_MAP_NAME_64	Collo del Gigante
+MSG_MAP_NAME_65	Petto del Gigante
+MSG_MAP_NAME_66	Ventre del Gigante
+MSG_MAP_NAME_67	Gigante, passaggio interno
+MSGARA_NAME_36	Gigante, scalinata
+MSGARA_NAME_39	Gigante, sala di controllo
+MSG_MAP_NAME_69	Accampamento di Eblan
+MSG_MAP_NAME_70	Bosco dei chocobo, Baron
+MSG_MAP_NAME_71	Bosco dei chocobo, Fabul
+MSG_MAP_NAME_72	Bosco dei chocobo, Mysidia
+MSG_MAP_NAME_73	Bosco dei chocobo, Città di Troia
+MSG_MAP_NAME_74	Bosco dei chocobo, isola meridionale
+MSG_MAP_NAME_75	Casa delle silfidi
+MSG_MAP_NAME_76	Lago sotterraneo
+MSG_MAP_NAME_77	Caverna delle nebbie, accesso sud
+MSG_MAP_NAME_78	Caverna delle nebbie, accesso nord
+MSG_MAP_NAME_79	Fiume sotterraneo, accesso sud
+MSG_MAP_NAME_80	Fiume sotterraneo, accesso nord
+MSG_MAP_NAME_81	Monte dei folletti, accesso ovest
+MSG_MAP_NAME_82	Monte dei folletti, accesso est
+MSG_MAP_NAME_83	Tunnel lunare ovest, accesso sud
+MSG_MAP_NAME_84	Tunnel lunare ovest, accesso nord
+MSG_MAP_NAME_85	Tunnel lunare est, accesso nord
+MSG_MAP_NAME_86	Tunnel lunare est, accesso sud
+MSG_MAP_NAME_88	Tunnel lunare est
+MSG_MAP_NAME_89	Tunnel lunare ovest
+MSGARA_NAME_09	Sala del Cristallo
+MSGARA_NAME_10	Strada del diavolo
+MSGARA_NAME_01	Locanda
+MSGARA_NAME_02	Taverna
+MSGARA_NAME_03	Taverna, 1° piano
+MSGARA_NAME_04	Locanda, emporio
+MSGARA_NAME_05	Emporio
+MSGARA_NAME_06	Armeria
+MSGARA_NAME_07	Corazzeria
+MSGARA_NAME_08	Armeria e corazzeria
+MSGARA_NAME_11	Torre ovest, piano terra
+MSGARA_NAME_12	Torre ovest, 1° piano
+MSGARA_NAME_13	Torre ovest, 2° piano
+MSGARA_NAME_14	Torre est, piano terra
+MSGARA_NAME_15	Torre est, 1° piano
+MSGARA_NAME_16	Torre est, 2° piano
+MSGARA_NAME_17	Torre est, piano -1
+MSGARA_NAME_18	Torre est, piano -2
+MSGARA_NAME_19	Stanza segreta
+MSGARA_NAME_20	Piano terra
+MSGARA_NAME_21	1° piano
+MSGARA_NAME_22	2° piano
+MSGARA_NAME_23	3° piano
+MSGARA_NAME_24	4° piano
+MSGARA_NAME_25	5° piano
+MSGARA_NAME_26	6° piano
+MSGARA_NAME_27	Piano -1
+MSGARA_NAME_28	Piano -2
+MSGARA_NAME_29	Piano -3
+MSGARA_NAME_30	Piano -4
+MSGARA_NAME_31	Piano -5
+MSGARA_NAME_32	Piano -6
+MSGARA_NAME_33	Piano -7
+MSGARA_NAME_34	Sentiero
+MSGARA_NAME_35	Passo
+MSGARA_NAME_37	Sala del trono
+MSGARA_NAME_38	Vetta
+MSGARA_NAME_40	Accesso occidentale
+MSGARA_NAME_41	Tunnel
+MSGARA_NAME_42	Segrete
+MSGARA_NAME_43	Inframondo, piano terra
+MSGARA_NAME_44	Inframondo, 1° piano
+MSGARA_NAME_45	Inframondo, 2° piano
+MSGARA_NAME_46	Inframondo, 3° piano
+MSGARA_NAME_47	Inframondo, 4° piano
+MSGARA_NAME_48	Inframondo, 5° piano
+MSGARA_NAME_49	Inframondo, 6° piano
+MSGARA_NAME_50	Inframondo, 7° piano
+MSGARA_NAME_51	Accesso orientale
+MSGARA_NAME_52	Accesso meridionale
+MSGARA_NAME_53	Accesso
+MSGARA_NAME_54	Accesso settentrionale
+MSGARA_NAME_55	Cella
+MSGARA_NAME_56	Cella, sotterraneo
+MSGARA_NAME_57	Valico
+MSGARA_NAME_58	Piano -8
+MSGARA_NAME_59	Piano -9
+MSGARA_NAME_60	Piano -10
+MSGARA_NAME_61	Piano -11
+MSGARA_NAME_62	Piano -12
+MSG_MAP_NAME_42	Stanza di (CECIL)
+MSG_MAP_NAME_43	Laboratorio di magia nera
+MSG_MAP_NAME_44	Laboratorio di magia bianca
+MSG_MAP_NAME_45	Casa di (CID)
+MSG_MAP_NAME_46	Casa di (ROZA)
+MSG_MAP_NAME_49	Taverna "Sua Maestà"
+MSG_MAP_NAME_50	Allevamento dei chocobo neri
+MSG_MAP_NAME_51	Allevamento dei chocobo neri, sotterraneo
+MSG_MAP_NAME_52	Osservatorio astronomico
+MSG_MAP_NAME_53	Stanza di osservazione
+MSG_MAP_NAME_55	Taverna "Lali-oh"
+MSG_MAP_NAME_62	Biblioteca del Reame degli eidolon
+MSG_MAP_NAME_90	Infermeria
+MSG_SYSTEM_001	Chiudi
+MSG_SYSTEM_002	Indietro
+MSG_SYSTEM_328	Termina
+MSG_SYSTEM_003	Sì
+MSG_SYSTEM_004	No
+MSG_SYSTEM_010	/
+MSG_SYSTEM_011	(HALF_COLON)
+MSG_SYSTEM_015	x
+MSG_SYSTEM_018	x
+MSG_SYSTEM_019	%
+MSG_SYSTEM_020	?????????
+MSG_SYSTEM_022	Seleziona
+MSG_SYSTEM_340	Fatto
+MSG_SYSTEM_024	Predefinito
+MSG_SYSTEM_026	Occasione di attacco prioritario!
+MSG_SYSTEM_027	Imboscata!
+MSG_SYSTEM_028	Attacco alle spalle!
+MSG_SYSTEM_030	La squadra è stata annientata...
+MSG_SYSTEM_034	Nessun effetto.
+MSG_SYSTEM_035	Fuga!
+MSG_SYSTEM_036	Fuga impossibile!
+MSG_SYSTEM_037	MP insufficienti.
+MSG_SYSTEM_040	Non riesce a ricordare nulla.
+MSG_SYSTEM_042	Canzone del ranocchio
+MSG_SYSTEM_043	Ninna nanna
+MSG_SYSTEM_044	Canzone della seduzione
+MSG_SYSTEM_045	Canzone del silenzio
+MSG_SYSTEM_046	Medicinali insufficienti.
+MSG_SYSTEM_047	La preghiera non è stata esaudita.
+MSG_SYSTEM_048	Sincronia insufficiente.
+MSG_SYSTEM_049	Forza magica incrementata!
+MSG_SYSTEM_050	Il nemico è disorientato.
+MSG_SYSTEM_051	Nessuna vulnerabilità.
+MSG_SYSTEM_052	Debole contro il Fuoco.
+MSG_SYSTEM_053	Debole contro il Ghiaccio.
+MSG_SYSTEM_054	Debole contro il Tuono.
+MSG_SYSTEM_055	Debole contro l'oscurità.
+MSG_SYSTEM_056	Debole contro il sacro.
+MSG_SYSTEM_057	Debole contro le armi da lancio.
+MSG_SYSTEM_058	Tentativo di furto fallito.
+MSG_SYSTEM_059	Tentativo di furto scoperto dal nemico!
+MSG_SYSTEM_060	Rubato: (ITEM_N)!
+MSG_SYSTEM_061	(FC_0)/(FC_9)
+MSG_SYSTEM_075	Danno da Veleno.
+MSG_SYSTEM_076	Recupero graduale di PV.
+MSG_SYSTEM_077	Forza accumulata per un attacco a potenza doppia!
+MSG_SYSTEM_078	Difesa incrementata!
+MSG_SYSTEM_079	Guil
+MSG_SYSTEM_080	ESP
+MSG_SYSTEM_081	Oggetti
+MSG_SYSTEM_082	Avanti
+MSG_SYSTEM_083	Chiudi
+MSG_SYSTEM_084	NUOVO LIVELLO!
+MSG_SYSTEM_330	(CHA_N) ha imparato (MAGC_N)！
+MSG_SYSTEM_085	Attacco
+MSG_SYSTEM_086	Tenebre
+MSG_SYSTEM_087	Oggetti
+MSG_SYSTEM_088	Salto
+MSG_SYSTEM_089	Magia bianca
+MSG_SYSTEM_090	Preghiera
+MSG_SYSTEM_091	Mira
+MSG_SYSTEM_092	Magia nera
+MSG_SYSTEM_093	Invocazione
+MSG_SYSTEM_094	Ricordo
+MSG_SYSTEM_095	Accumulo
+MSG_SYSTEM_096	Calcio
+MSG_SYSTEM_097	Resistenza
+MSG_SYSTEM_098	Canto
+MSG_SYSTEM_099	Medicina
+MSG_SYSTEM_100	Sparizione
+MSG_SYSTEM_101	Bluff
+MSG_SYSTEM_102	Duetto
+MSG_SYSTEM_103	Scenata
+MSG_SYSTEM_104	Analisi
+MSG_SYSTEM_105	Lancio
+MSG_SYSTEM_106	Furto
+MSG_SYSTEM_107	Arti ninja
+MSG_SYSTEM_108	Benedizione
+MSG_SYSTEM_109	Copertura
+MSG_SYSTEM_110	Termine copertura
+MSG_SYSTEM_111	Ritorno
+MSG_SYSTEM_112	Posizione
+MSG_SYSTEM_113	Difesa
+MSG_SYSTEM_338	Salta
+MSG_SYSTEM_114	Veleno
+MSG_SYSTEM_115	Cecità
+MSG_SYSTEM_116	Mutismo
+MSG_SYSTEM_117	Maiale
+MSG_SYSTEM_118	Mini
+MSG_SYSTEM_119	Ranocchio
+MSG_SYSTEM_120	Pietra
+MSG_SYSTEM_121	KO
+MSG_SYSTEM_122	Furore
+MSG_SYSTEM_123	Confusione
+MSG_SYSTEM_124	Sonno
+MSG_SYSTEM_125	Paralisi
+MSG_SYSTEM_126	Levitazione
+MSG_SYSTEM_127	Maledizione
+MSG_SYSTEM_128	Condanna
+MSG_SYSTEM_129	Stop
+MSG_SYSTEM_131	Reflex
+MSG_SYSTEM_339	Magnetismo
+MSG_SYSTEM_341	Recupero PV
+MSG_SYSTEM_398	Crisi
+MSG_SYSTEM_132	Mancato!
+MSG_SYSTEM_134	Contrattacco
+MSG_SYSTEM_135	Oggetti
+MSG_SYSTEM_136	Magie
+MSG_SYSTEM_137	Equipaggiamento
+MSG_SYSTEM_138	Stato
+MSG_SYSTEM_139	Formazione
+MSG_SYSTEM_140	Configurazione
+MSG_SYSTEM_141	Salvataggio rapido
+MSG_SYSTEM_142	Salva
+MSG_SYSTEM_143	Guil
+MSG_SYSTEM_144	Tempo
+MSG_SYSTEM_145	Liv.
+MSG_SYSTEM_146	PV
+MSG_SYSTEM_147	PM
+MSG_SYSTEM_148	Rarità
+MSG_SYSTEM_149	Usa
+MSG_SYSTEM_150	Ordina
+MSG_SYSTEM_151	(STATUS_NAME) +(VALUE_NUM)
+MSG_SYSTEM_152	(STATUS_NAME) -(VALUE_NUM)
+MSG_SYSTEM_153	(HALF_SPACE)
+MSG_SYSTEM_154	Nessun oggetto.
+MSG_SYSTEM_155	Nessuna rarità.
+MSG_SYSTEM_331	Nessun oggetto utilizzabile in battaglia.
+MSG_SYSTEM_156	Nessun personaggio può equipaggiarsene.
+MSG_SYSTEM_157	(RYDIA) ha imparato (MAGC_N).
+MSG_SYSTEM_160	Non sa usare la magia.
+MSG_SYSTEM_161	Consumo PM
+MSG_SYSTEM_345	Invocazione
+MSG_SYSTEM_318	Tutti
+MSG_SYSTEM_319	Cronologico
+MSG_SYSTEM_320	PM (crescente)
+MSG_SYSTEM_321	PM (decrescente)
+MSG_SYSTEM_329	Seleziona il criterio di ordinamento.
+MSG_SYSTEM_322	Riordina le magie manualmente.
+MSG_SYSTEM_323	Ordina le magie in base a quando sono state apprese.
+MSG_SYSTEM_324	Ordina le magie per consumo di PM crescente.
+MSG_SYSTEM_325	Ordina le magie per consumo di PM decrescente.
+MSG_SYSTEM_326	
+MSG_SYSTEM_163	Ottimizza
+MSG_SYSTEM_164	Rimuovi
+MSG_SYSTEM_165	Rimuovi tutto
+MSG_SYSTEM_166	Mani nude
+MSG_SYSTEM_167	---
+MSG_SYSTEM_168	Mano destra
+MSG_SYSTEM_169	Mano sinistra
+MSG_SYSTEM_170	Testa
+MSG_SYSTEM_171	Corpo
+MSG_SYSTEM_172	Braccia
+MSG_SYSTEM_173	ESP
+MSG_SYSTEM_174	Al prossimo livello
+MSG_SYSTEM_175	Forza
+MSG_SYSTEM_176	Agilità
+MSG_SYSTEM_177	Resistenza
+MSG_SYSTEM_178	Intelligenza
+MSG_SYSTEM_179	Spirito
+MSG_SYSTEM_180	Attacco
+MSG_SYSTEM_181	Precisione
+MSG_SYSTEM_182	Difesa
+MSG_SYSTEM_183	Schivata
+MSG_SYSTEM_184	Difesa magica
+MSG_SYSTEM_185	Schivata magica
+MSG_SYSTEM_186	Destro
+MSG_SYSTEM_187	Mancino
+MSG_SYSTEM_188	Ambidestro
+MSG_SYSTEM_189	(dominante)
+MSG_SYSTEM_190	Comandi
+MSG_SYSTEM_192	Salvataggio
+MSG_SYSTEM_194	Vuoto
+MSG_SYSTEM_344	dd/MM/yyyy(FULL_SPACE)H:mm
+MSG_SYSTEM_195	Seleziona il bersaglio.
+MSG_SYSTEM_196	Squadra
+MSG_SYSTEM_197	Alleato
+MSG_SYSTEM_198	Tutti i nemici
+MSG_SYSTEM_199	Nemico
+MSG_SYSTEM_200	Tutti
+MSG_SYSTEM_201	Manuale dei comandi
+MSG_SYSTEM_202	Altri comandi
+MSG_SYSTEM_203	Cambia equipaggiamento
+MSG_SYSTEM_204	Selezione degli oggetti
+MSG_SYSTEM_205	Scegli
+MSG_SYSTEM_206	Pagina su/giù
+MSG_SYSTEM_207	Chiudi il menu
+MSG_SYSTEM_208	Annulla
+MSG_SYSTEM_209	Visualizza/Nascondi
+MSG_SYSTEM_428	Sbarca
+MSG_SYSTEM_438	Cala
+MSG_SYSTEM_333	Cambia linea
+MSG_SYSTEM_346	Cambia tutti
+MSG_SYSTEM_347	Cambia singolo
+MSG_SYSTEM_305	Ingrandisci
+MSG_SYSTEM_306	Riduci
+MSG_SYSTEM_307	Movimento
+MSG_SYSTEM_210	Manuale
+MSG_SYSTEM_327	Armi
+MSG_SYSTEM_211	Armature
+MSG_SYSTEM_212	Nome
+MSG_SYSTEM_213	Organizza l'inventario manualmente.
+MSG_SYSTEM_214	Riordina l'inventario per visualizzare gli oggetti consumabili per primi.
+MSG_SYSTEM_215	Riordina l'inventario per visualizzare le armi per prime.
+MSG_SYSTEM_216	Riordina l'inventario per visualizzare le armature per prime.
+MSG_SYSTEM_217	
+MSG_SYSTEM_218	Pausa/Riprendi
+MSG_SYSTEM_219	Fuga (pressione prolungata)
+MSG_SYSTEM_220	Selezione nemici (tutti/singolo)
+MSG_SYSTEM_221	Selezione alleati (tutti/singolo)
+MSG_SYSTEM_222	Pagina su (elenchi)
+MSG_SYSTEM_223	Pagina giù (elenchi)
+MSG_SYSTEM_224	Salta l'azione
+MSG_SYSTEM_225	Attiva/Disattiva il combattimento automatico
+MSG_SYSTEM_226	Pausa/Riprendi
+MSG_SYSTEM_227	Fuga
+MSG_SYSTEM_228	Indietro/Annulla
+MSG_SYSTEM_229	Passa da Oggetti a Equipaggiamento
+MSG_SYSTEM_230	Passa da Equipaggiamento a Oggetti
+MSG_SYSTEM_231	Passa da un bersaglio singolo a tutti i bersagli
+MSG_SYSTEM_232	Passa da tutti i bersagli a un bersaglio singolo
+MSG_SYSTEM_233	Ripristina le impostazioni predefinite
+MSG_SYSTEM_235	Cambia
+MSG_SYSTEM_236	Armi
+MSG_SYSTEM_237	Armature
+MSG_SYSTEM_238	Oggetti
+MSG_SYSTEM_400	Armeria e corazzeria
+MSG_SYSTEM_401	Taverna
+MSG_SYSTEM_239	Prezzo
+MSG_SYSTEM_240	Quantità
+MSG_SYSTEM_241	Quantità
+MSG_SYSTEM_242	Totale
+MSG_SYSTEM_243	Compra
+MSG_SYSTEM_244	Vendi
+MSG_SYSTEM_245	Esci
+MSG_SYSTEM_246	Inventario
+MSG_SYSTEM_247	In uso
+MSG_SYSTEM_249	Nuova partita
+MSG_SYSTEM_250	Carica partita
+MSG_SYSTEM_251	TOCCA PER INIZIARE
+MSG_SYSTEM_252	PREMI PER INIZIARE
+MSG_SYSTEM_253	©SQUARE ENIX CO., LTD. Tutti i diritti riservati.\nLogo e illustrazione: ©YOSHITAKA AMANO
+MSG_SYSTEM_254	Extra
+MSG_SYSTEM_255	Opzioni
+MSG_SYSTEM_256	Bestiario
+MSG_SYSTEM_257	Riproduttore musicale
+MSG_SYSTEM_260	Informativa sulla privacy
+MSG_SYSTEM_261	Licenza
+MSG_SYSTEM_262	Galleria
+MSG_SYSTEM_263	Forzieri
+MSG_SYSTEM_264	Oggetti
+MSG_SYSTEM_265	Notifiche
+MSG_SYSTEM_308	Controlli tattili
+MSG_SYSTEM_267	Salvataggio completato.
+MSG_SYSTEM_268	Sovrascrivi questo salvataggio?
+MSG_SYSTEM_314	I dati di salvataggio sono corrotti.
+MSG_SYSTEM_315	Salvataggio non riuscito.
+MSG_SYSTEM_270	Salvataggio automatico
+MSG_SYSTEM_271	Salvataggio rapido
+MSG_SYSTEM_332	Dati di completamento
+MSG_SYSTEM_272	Salvi i progressi?
+MSG_SYSTEM_273	Salvataggio rapido completato.
+MSG_SYSTEM_316	I dati del salvataggio rapido sono corrotti.
+MSG_SYSTEM_317	Salvataggio rapido non riuscito.
+MSG_SYSTEM_436	Lo spazio di archiviazione disponibile non è sufficiente per avviare il gioco. Elimina dati superflui per liberare spazio.
+MSG_SYSTEM_274	Riprendi il gioco da questo salvataggio?
+MSG_SYSTEM_275	Salvi i dati di completamento del gioco?
+MSG_SYSTEM_276	(Saranno salvati i progressi immediatamente precedenti alla battaglia finale.)
+MSG_SYSTEM_277	Salvataggio riuscito. Torni alla schermata del titolo?
+MSG_SYSTEM_278	I dati di completamento non sono stati salvati. Torni comunque alla schermata del titolo?
+MSG_SYSTEM_280	Cambia mappa
+MSG_SYSTEM_284	Posizione attuale
+MSG_SYSTEM_343	Chocobo
+MSG_SYSTEM_285	Chocobo nero
+MSG_SYSTEM_286	Enterprise
+MSG_SYSTEM_287	Falcon
+MSG_SYSTEM_288	Eliscafo
+MSG_SYSTEM_289	Traghetto lunare
+MSG_SYSTEM_399	Ricominci dal salvataggio più recente?
+MSG_CFG_INF_01	Sistema
+MSG_CFG_INF_135	Modalità di battaglia
+MSG_CFG_INF_136	Velocità di battaglia
+MSG_CFG_INF_137	Messaggi di battaglia
+MSG_CFG_INF_138	Attesa
+MSG_CFG_INF_139	Attiva
+MSG_CFG_INF_02	Posizione cursore memorizzata
+MSG_CFG_INF_03	Combattimento automatico continuo
+MSG_CFG_INF_05	Lingua
+MSG_CFG_INF_06	Schermata del titolo
+MSG_CFG_INF_07	Esci dal gioco
+MSG_CFG_INF_93	Impostazioni schermo
+MSG_CFG_INF_09	Modalità
+MSG_CFG_INF_94	Risoluzione
+MSG_CFG_INF_153	Stile grafico
+MSG_CFG_INF_11	Luminosità
+MSG_CFG_INF_12	Audio
+MSG_CFG_INF_13	Volume generale
+MSG_CFG_INF_14	Volume musica
+MSG_CFG_INF_15	Volume effetti
+MSG_CFG_INF_140	Imposta il modo in cui il tempo scorre durante le battaglie.
+MSG_CFG_INF_141	Il tempo si ferma mentre selezioni oggetti o magie.
+MSG_CFG_INF_142	Il tempo continua a scorrere mentre selezioni oggetti o magie.
+MSG_CFG_INF_143	Imposta la velocità di svolgimento delle battaglie.
+MSG_CFG_INF_144	Imposta la velocità di visualizzazione dei messaggi durante le battaglie.
+MSG_CFG_INF_95	Scegli se il cursore memorizza l'ultima posizione.
+MSG_CFG_INF_96	Scegli se il combattimento automatico resta attivo per la battaglia successiva.
+MSG_CFG_INF_99	Imposta la luminosità dello schermo.
+MSG_CFG_INF_100	Regola il volume generale del gioco.
+MSG_CFG_INF_101	Regola il volume della musica.
+MSG_CFG_INF_102	Regola il volume degli effetti sonori.
+MSG_CFG_INF_104	Imposta i comandi per il controller.
+MSG_CFG_INF_105	Imposta i comandi per la tastiera.
+MSG_CFG_INF_106	Torna alla schermata del titolo. I progressi non salvati saranno persi.
+MSG_CFG_INF_107	Chiudi il gioco. I progressi non salvati saranno persi.
+MSG_CFG_INF_108	Ripristina i comandi per il controller alle impostazioni predefinite.
+MSG_CFG_INF_109	Ripristina i comandi per la tastiera alle impostazioni predefinite.
+MSG_CFG_INF_158	Regola l'aspetto grafico delle schermate.
+MSG_CFG_INF_18	Impostazioni controller
+MSG_CFG_INF_19	Conferma
+MSG_CFG_INF_21	Apri/Chiudi il menu
+MSG_CFG_INF_23	Pagina su
+MSG_CFG_INF_24	Pagina giù
+MSG_CFG_INF_25	Cambia personaggio (sinistra)
+MSG_CFG_INF_26	Cambia personaggio (destra)
+MSG_CFG_INF_28	Impostazioni tastiera
+MSG_CFG_INF_29	Movimento ↑
+MSG_CFG_INF_30	Movimento ↓
+MSG_CFG_INF_31	Movimento ←
+MSG_CFG_INF_32	Movimento →
+MSG_CFG_INF_145	Tastiera
+MSG_CFG_INF_146	Mouse
+MSG_CFG_INF_33	Comandi controller
+MSG_CFG_INF_110	Corri (premuto)
+MSG_CFG_INF_113	Attiva/Disattiva il combattimento automatico
+MSG_CFG_INF_114	Apri/Chiudi la mappa
+MSG_CFG_INF_115	Mostra/Nascondi la minimappa
+MSG_CFG_INF_148	Pausa (in battaglia)
+MSG_CFG_INF_34	Comandi tastiera
+MSG_CFG_INF_116	Scorri
+MSG_CFG_INF_117	Mappamondo
+MSG_CFG_INF_118	Apri il menu
+MSG_CFG_INF_119	Apri la mappa
+MSG_CFG_INF_120	Modalità di spostamento
+MSG_CFG_INF_121	Parla
+MSG_CFG_INF_147	Esamina
+MSG_CFG_INF_123	Schermata di battaglia
+MSG_CFG_INF_35	Posizione dell'interfaccia nel mappamondo
+MSG_CFG_INF_37	Posizione della croce direzionale
+MSG_CFG_INF_38	Posizione dell'interfaccia nel menu
+MSG_CFG_INF_39	Posizione dei comandi del menu
+MSG_CFG_INF_40	Posizione dell'interfaccia in battaglia
+MSG_CFG_INF_41	Posizione dei comandi di battaglia
+MSG_CFG_INF_154	Grafica
+MSG_CFG_INF_42	Comandi
+MSG_CFG_INF_43	Sì
+MSG_CFG_INF_44	No
+MSG_CFG_INF_45	Sinistra
+MSG_CFG_INF_46	Destra
+MSG_CFG_INF_156	Standard
+MSG_CFG_INF_157	Analogico
+MSG_CFG_INF_48	Molto lenta
+MSG_CFG_INF_49	Lenta
+MSG_CFG_INF_50	Normale
+MSG_CFG_INF_51	Veloce
+MSG_CFG_INF_52	Molto veloce
+MSG_CFG_INF_129	Lingua
+MSG_CFG_INF_53	日本語 (Giapponese)
+MSG_CFG_INF_54	English (Inglese)
+MSG_CFG_INF_55	Français (Francese)
+MSG_CFG_INF_56	Italiano
+MSG_CFG_INF_57	Deutsch (Tedesco)
+MSG_CFG_INF_58	Español (Spagnolo)
+MSG_CFG_INF_59	한국어 (Coreano)
+MSG_CFG_INF_60	繁體中文 (Cinese tradizionale)
+MSG_CFG_INF_61	简体中文 (Cinese semplificato)
+MSG_CFG_INF_62	Русский (Russo)
+MSG_CFG_INF_63	ภาษาไทย (Thailandese)
+MSG_CFG_INF_64	Português brasileiro (Portoghese brasiliano)
+MSG_CFG_INF_66	Schermo intero
+MSG_CFG_INF_67	Finestra
+MSG_CFG_INF_68	Finestra senza bordi
+MSG_CFG_INF_76	Imposti la lingua selezionata?
+MSG_CFG_INF_130	(Il gioco sarà riavviato per rendere effettiva la modifica.)
+MSG_CFG_INF_78	Applichi le modifiche?
+MSG_CFG_INF_89	Torna alla schermata del titolo.
+MSG_CFG_INF_131	Le impostazioni non salvate saranno annullate.
+MSG_CFG_INF_132	Procedi?
+MSG_CFG_INF_155	Seleziona una lingua.
+MSG_SYSTEM_290	Termina il gioco.
+MSG_SYSTEM_292	Chocobo ciccio:
+MSG_SYSTEM_293	Salve! Che vuoi fare?
+MSG_SYSTEM_294	Depositare
+MSG_SYSTEM_295	Ritirare
+MSG_SYSTEM_296	Non suonarlo qui!
+MSG_SYSTEM_297	Che cosa vuoi lasciarmi?
+MSG_SYSTEM_298	Che cosa vuoi riprendere?
+MSG_SYSTEM_309	Nessun oggetto depositato.
+MSG_SYSTEM_310	Quantità
+MSG_SYSTEM_342	Quantità
+MSG_SYSTEM_311	Quanti me ne dai?
+MSG_SYSTEM_312	Quanti ne vuoi?
+MSG_SYSTEM_303	A chi desiderate cambiare il nome?
+MSG_SYSTEM_313	Cambio del nome
+MSG_SYSTEM_334	Scegli un nome.
+MSG_SYSTEM_335	(Fino a 12 caratteri standard. Caratteri accentati o non pertinenti all'alfabeto latino contano doppio.)
+MSG_SYSTEM_336	Confermi questo nome?
+MSG_SYSTEM_337	(Alcuni caratteri speciali e simboli potrebbero non essere visualizzati correttamente.)
+MSG_PC_KEY_CONFIG_01	Backspace
+MSG_PC_KEY_CONFIG_02	Invio
+MSG_PC_KEY_CONFIG_03	Maiusc (sinistra)
+MSG_PC_KEY_CONFIG_04	Maiusc\n(destra)
+MSG_PC_KEY_CONFIG_05	Alt\n(sinistra)
+MSG_PC_KEY_CONFIG_06	Alt (destra)
+MSG_PC_KEY_CONFIG_07	Tab
+MSG_PC_KEY_CONFIG_08	Bloc Maiusc
+MSG_PC_KEY_CONFIG_09	Barra\nspaziatrice
+MSG_PC_KEY_CONFIG_10	Ins
+MSG_PC_KEY_CONFIG_11	Inizio
+MSG_PC_KEY_CONFIG_12	Canc
+MSG_PC_KEY_CONFIG_13	Pausa
+MSG_PC_KEY_CONFIG_14	Bloc Scorr
+MSG_PC_KEY_CONFIG_15	Invio (num)
+MSG_SYSTEM_349	Mostri affrontati
+MSG_SYSTEM_350	Mappa
+MSG_SYSTEM_351	Scorrimento rapido
+MSG_SYSTEM_421	Scorrimento
+MSG_SYSTEM_352	Cambia immagine
+MSG_SYSTEM_422	Cambia mappa
+MSG_SYSTEM_353	Conferma
+MSG_SYSTEM_354	Eliminati
+MSG_SYSTEM_355	Habitat
+MSG_SYSTEM_358	Vulnerabilità
+MSG_SYSTEM_359	Resistenze
+MSG_SYSTEM_360	Assorbimento
+MSG_SYSTEM_361	---
+MSG_SYSTEM_362	Tipo
+MSG_SYSTEM_363	Morte istantanea
+MSG_SYSTEM_364	Pietrificazione graduale
+MSG_SYSTEM_365	Fuoco
+MSG_SYSTEM_366	Gelo
+MSG_SYSTEM_367	Tuono
+MSG_SYSTEM_368	Oscurità
+MSG_SYSTEM_369	Sacro
+MSG_SYSTEM_423	Sacro (armi)
+MSG_SYSTEM_424	Sacro (magia)
+MSG_SYSTEM_370	Armi da lancio
+MSG_SYSTEM_371	Rettile
+MSG_SYSTEM_372	Mago
+MSG_SYSTEM_373	Spettro
+MSG_SYSTEM_374	Drago
+MSG_SYSTEM_375	Non morto
+MSG_SYSTEM_376	Budino
+MSG_SYSTEM_377	Gigante
+MSG_SYSTEM_378	Macchina
+MSG_SYSTEM_395	Potenza magica
+MSG_SYSTEM_396	Bottino
+MSG_SYSTEM_397	Oggetti rubabili
+MSG_SYSTEM_379	Scegli l'immagine da visualizzare.
+MSG_SYSTEM_380	Nascondi la finestra
+MSG_SYSTEM_381	Battaglia RA
+MSG_SYSTEM_427	Modalità RA
+MSG_SYSTEM_382	Attiva la fotocamera
+MSG_SYSTEM_383	Disattiva la fotocamera
+MSG_SYSTEM_384	Cambia la squadra nemica
+MSG_SYSTEM_385	Avvia la battaglia
+MSG_SYSTEM_386	Nascondi l'interfaccia
+MSG_SYSTEM_387	Vuoi consentire a FINAL FANTASY IV di accedere alla fotocamera?
+MSG_SYSTEM_388	Consenti
+MSG_SYSTEM_389	Non consentire
+MSG_SYSTEM_419	Termini la battaglia RA?
+MSG_SYSTEM_433	Questa app richiede l'accesso alla fotocamera per la funzionalità di realtà aumentata (RA). Per usarla, consenti l'accesso alla fotocamera.
+MSG_SYSTEM_434	Questa app non è autorizzata ad accedere alla fotocamera. Per poter utilizzare la funzionalità di realtà aumentata (RA), devi consentire l'accesso alla fotocamera.
+MSG_SYSTEM_435	Se desideri modificare questa scelta in seguito, accedi alle impostazioni del tuo dispositivo e autorizza l'accesso alla fotocamera per questa app.
+MSG_SYSTEM_437	Le immagini della videocamera saranno utilizzate come sfondo per la battaglia.
+MSG_SYSTEM_390	Scegli il brano da riprodurre.
+MSG_SYSTEM_391	Riproduci
+MSG_SYSTEM_392	Pausa
+MSG_SYSTEM_393	Riproduzione in sequenza
+MSG_SYSTEM_394	Riproduzione brano attuale
+MSG_SYSTEM_425	In sequenza
+MSG_SYSTEM_402	Salvataggio nel cloud
+MSG_SYSTEM_403	Carica
+MSG_SYSTEM_404	Scarica
+MSG_SYSTEM_405	Dati locali
+MSG_SYSTEM_406	Dati nel cloud
+MSG_SYSTEM_420	Dettagli
+MSG_SYSTEM_407	Permette di caricare online un backup dei dati di salvataggio.
+MSG_SYSTEM_408	Carica tutti i dati di salvataggio locali, sovrascrivendo quelli già presenti nel cloud.
+MSG_SYSTEM_409	Scarica tutti i dati di salvataggio dal cloud, sovrascrivendo quelli locali.
+MSG_SYSTEM_410	Tutti i dati di salvataggio saranno caricati nel cloud.
+MSG_SYSTEM_411	Tutti i dati di salvataggio nel cloud saranno sovrascritti.
+MSG_SYSTEM_412	Caricamento completato.
+MSG_SYSTEM_413	Caricamento non riuscito.
+MSG_SYSTEM_414	Verifica la tua connessione a Internet.
+MSG_SYSTEM_415	Tutti i dati di salvataggio saranno scaricati dal cloud.
+MSG_SYSTEM_416	Tutti i dati di salvataggio locali saranno sovrascritti.
+MSG_SYSTEM_417	Download completato.
+MSG_SYSTEM_418	Download non riuscito.
+MSG_SYSTEM_429	Sincronizzazione in corso…
+MSG_SYSTEM_430	Sincronizzazione non riuscita.
+MSG_SYSTEM_431	Comunicazione con il server non riuscita.
+MSG_SYSTEM_432	Riprova
+MSG_SYSTEM_426	Caricamento...
+MSG_SYSTEM_439	Impossibile verificare la licenza. L'applicazione sarà chiusa.
+MSG_SYSTEM_440	Controlla lo stato della connessione e le impostazioni del dispositivo, poi riavvia l'applicazione.
+

@@ -1,0 +1,1 @@
+{"name":"Map_20260","asset_group_name":"map_20260","texture":[{"name":"ship_sky","asset":"ship_sky"}],"map":[{"name":"Map_20260","tilemap":"Map_20260/tilemap","collision":"Map_20260/collision","entity_default":"Map_20260/entity_default","entity":[],"script":[]}]}

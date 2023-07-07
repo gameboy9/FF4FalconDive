@@ -1,0 +1,745 @@
+{
+	"Name": "BattleAI-monster-template",
+	"Title": {
+		"main": "オクトマンモスAIスクリプト"
+	},
+	"EntryPoint": 0,
+	"Count": 1,
+	"Mnemonics": [
+		{
+			"label": "0000",
+			"mnemonic": "AttackAfterMes",
+			"operands": {
+				"sValues": [
+					"E0014_00_172_b_01",
+					"E0014_00_172_b_02"
+				]
+			},
+			"comment": "メッセージ表示タイミング後に設定"
+		},
+		{
+			"label": "0001",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0002",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					83
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0003",
+			"mnemonic": "ExecMsg",
+			"operands": {
+				"iValues": [
+					2,
+					0
+				],
+				"rValues": [
+					3
+				]
+			}
+		},
+		{
+			"label": "0004",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					16,
+					71
+				]
+			},
+			"comment": "内部モードが16であれば別テーブルへ移動"
+		},
+		{
+			"label": "0005",
+			"mnemonic": "IsAttackType",
+			"operands": {
+				"iValues": [
+					1,
+					10
+				]
+			},
+			"comment": "カウンターの時ジャンプ"
+		},
+		{
+			"label": "0006",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					0
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0007",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "通常行動"
+		},
+		{
+			"label": "0008",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0009",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0010",
+			"mnemonic": "Nop",
+			"comment": "カウンターの時ジャンプ先"
+		},
+		{
+			"label": "0011",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					2,
+					29
+				]
+			},
+			"comment": "内部モードが2であれば別テーブルへ移動"
+		},
+		{
+			"label": "0012",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					3,
+					32
+				]
+			},
+			"comment": "内部モードが3であれば別テーブルへ移動"
+		},
+		{
+			"label": "0013",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					4,
+					35
+				]
+			},
+			"comment": "内部モードが4であれば別テーブルへ移動"
+		},
+		{
+			"label": "0014",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					5,
+					38
+				]
+			},
+			"comment": "内部モードが5であれば別テーブルへ移動"
+		},
+		{
+			"label": "0015",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					6,
+					41
+				]
+			},
+			"comment": "内部モードが6であれば別テーブルへ移動"
+		},
+		{
+			"label": "0016",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					7,
+					44
+				]
+			},
+			"comment": "内部モードが7であれば別テーブルへ移動"
+		},
+		{
+			"label": "0017",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					8,
+					47
+				]
+			},
+			"comment": "内部モードが8であれば別テーブルへ移動"
+		},
+		{
+			"label": "0018",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					9,
+					50
+				]
+			},
+			"comment": "内部モードが9であれば別テーブルへ移動"
+		},
+		{
+			"label": "0019",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					10,
+					53
+				]
+			},
+			"comment": "内部モードが10であれば別テーブルへ移動"
+		},
+		{
+			"label": "0020",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					11,
+					56
+				]
+			},
+			"comment": "内部モードが11であれば別テーブルへ移動"
+		},
+		{
+			"label": "0021",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					12,
+					59
+				]
+			},
+			"comment": "内部モードが12であれば別テーブルへ移動"
+		},
+		{
+			"label": "0022",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					13,
+					62
+				]
+			},
+			"comment": "内部モードが13であれば別テーブルへ移動"
+		},
+		{
+			"label": "0023",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					14,
+					65
+				]
+			},
+			"comment": "内部モードが14であれば別テーブルへ移動"
+		},
+		{
+			"label": "0024",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					15,
+					68
+				]
+			},
+			"comment": "内部モードが15であれば別テーブルへ移動"
+		},
+		{
+			"label": "0025",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0026",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					466
+				]
+			},
+			"comment": "1回攻撃受けた時：内部モード2に変更"
+		},
+		{
+			"label": "0027",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0028",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0029",
+			"mnemonic": "Nop",
+			"comment": "内部モード2の時ジャンプ先"
+		},
+		{
+			"label": "0030",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					467
+				]
+			},
+			"comment": "内部モード2の行動：内部モード3に変更"
+		},
+		{
+			"label": "0031",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0032",
+			"mnemonic": "Nop",
+			"comment": "内部モード3の時ジャンプ先"
+		},
+		{
+			"label": "0033",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					235
+				]
+			},
+			"comment": "内部モード3の行動：内部モード4に変更＆画像変更"
+		},
+		{
+			"label": "0034",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0035",
+			"mnemonic": "Nop",
+			"comment": "内部モード4の時ジャンプ先"
+		},
+		{
+			"label": "0036",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					468
+				]
+			},
+			"comment": "内部モード4の行動：内部モード5に変更"
+		},
+		{
+			"label": "0037",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0038",
+			"mnemonic": "Nop",
+			"comment": "内部モード5の時ジャンプ先"
+		},
+		{
+			"label": "0039",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					236
+				]
+			},
+			"comment": "内部モード5の行動：内部モード6に変更＆画像変更"
+		},
+		{
+			"label": "0040",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0041",
+			"mnemonic": "Nop",
+			"comment": "内部モード6の時ジャンプ先"
+		},
+		{
+			"label": "0042",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					469
+				]
+			},
+			"comment": "内部モード6の行動：内部モード7に変更"
+		},
+		{
+			"label": "0043",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0044",
+			"mnemonic": "Nop",
+			"comment": "内部モード7の時ジャンプ先"
+		},
+		{
+			"label": "0045",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					237
+				]
+			},
+			"comment": "内部モード7の行動：内部モード8に変更＆画像変更"
+		},
+		{
+			"label": "0046",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0047",
+			"mnemonic": "Nop",
+			"comment": "内部モード8の時ジャンプ先"
+		},
+		{
+			"label": "0048",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					470
+				]
+			},
+			"comment": "内部モード8の行動：内部モード9に変更"
+		},
+		{
+			"label": "0049",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0050",
+			"mnemonic": "Nop",
+			"comment": "内部モード9の時ジャンプ先"
+		},
+		{
+			"label": "0051",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					238
+				]
+			},
+			"comment": "内部モード9の行動：内部モード10に変更＆画像変更"
+		},
+		{
+			"label": "0052",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0053",
+			"mnemonic": "Nop",
+			"comment": "内部モード10の時ジャンプ先"
+		},
+		{
+			"label": "0054",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					471
+				]
+			},
+			"comment": "内部モード10の行動：内部モード11に変更"
+		},
+		{
+			"label": "0055",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0056",
+			"mnemonic": "Nop",
+			"comment": "内部モード11の時ジャンプ先"
+		},
+		{
+			"label": "0057",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					239
+				]
+			},
+			"comment": "内部モード11の行動：内部モード12に変更＆画像変更"
+		},
+		{
+			"label": "0058",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0059",
+			"mnemonic": "Nop",
+			"comment": "内部モード12の時ジャンプ先"
+		},
+		{
+			"label": "0060",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					472
+				]
+			},
+			"comment": "内部モード12の行動：内部モード13に変更"
+		},
+		{
+			"label": "0061",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0062",
+			"mnemonic": "Nop",
+			"comment": "内部モード13の時ジャンプ先"
+		},
+		{
+			"label": "0063",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					240
+				]
+			},
+			"comment": "内部モード13の行動：内部モード14に変更＆画像変更"
+		},
+		{
+			"label": "0064",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0065",
+			"mnemonic": "Nop",
+			"comment": "内部モード14の時ジャンプ先"
+		},
+		{
+			"label": "0066",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					473
+				]
+			},
+			"comment": "内部モード14の行動：内部モード15に変更"
+		},
+		{
+			"label": "0067",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0068",
+			"mnemonic": "Nop",
+			"comment": "内部モード15の時ジャンプ先"
+		},
+		{
+			"label": "0069",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					241
+				]
+			},
+			"comment": "内部モード15の行動：内部モード16に変更＆画像変更"
+		},
+		{
+			"label": "0070",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0071",
+			"mnemonic": "Nop",
+			"comment": "内部モードが16の時ジャンプ先"
+		},
+		{
+			"label": "0072",
+			"mnemonic": "IsParameterValue",
+			"operands": {
+				"iValues": [
+					2,
+					5,
+					2,
+					2,
+					77
+				]
+			},
+			"comment": "HPが1以下の時ジャンプ"
+		},
+		{
+			"label": "0073",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					16
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0074",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "通常行動"
+		},
+		{
+			"label": "0075",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0076",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0077",
+			"mnemonic": "Nop",
+			"comment": "HPが1以下の時ジャンプ先"
+		},
+		{
+			"label": "0078",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					16
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0079",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "通常行動"
+		},
+		{
+			"label": "0080",
+			"mnemonic": "CounterActByHit",
+			"operands": {
+				"iValues": [
+					285
+				]
+			},
+			"comment": "HPが1以下の時カウンター"
+		},
+		{
+			"label": "0081",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0082",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					0
+				]
+			}
+		},
+		{
+			"label": "0083",
+			"mnemonic": "Nop",
+			"comment": "終了"
+		},
+		{
+			"label": "0084",
+			"mnemonic": "Exit"
+		}
+	]
+}

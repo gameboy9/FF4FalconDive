@@ -1,0 +1,1769 @@
+MSG_CHAR_NAME_01	세실
+MSG_CHAR_NAME_02	카인
+MSG_CHAR_NAME_03	로자
+MSG_CHAR_NAME_04	리디아
+MSG_CHAR_NAME_05	시드
+MSG_CHAR_NAME_06	테라
+MSG_CHAR_NAME_07	길버트
+MSG_CHAR_NAME_08	양
+MSG_CHAR_NAME_09	파롬
+MSG_CHAR_NAME_10	포롬
+MSG_CHAR_NAME_11	엣지
+MSG_CHAR_NAME_12	후스야
+MSG_CHAR_NAME_13	골베자
+MSG_JOB_NAME_01	암흑기사
+MSG_JOB_NAME_02	용기사
+MSG_JOB_NAME_03	백마도사
+MSG_JOB_NAME_04	소환사
+MSG_JOB_NAME_05	기술자
+MSG_JOB_NAME_06	현자
+MSG_JOB_NAME_07	왕족
+MSG_JOB_NAME_08	몽크
+MSG_JOB_NAME_09	흑마도사
+MSG_JOB_NAME_10	백마도사
+MSG_JOB_NAME_11	닌자
+MSG_JOB_NAME_12	달의 주민
+MSG_JOB_NAME_13	팔라딘
+MSG_MAGIC_NAME_01	<IC_WMGC>홀드
+MSG_MAGIC_NAME_02	<IC_WMGC>사일레스
+MSG_MAGIC_NAME_03	<IC_WMGC>컨퓨
+MSG_MAGIC_NAME_04	<IC_WMGC>블링크
+MSG_MAGIC_NAME_05	<IC_WMGC>프로테스
+MSG_MAGIC_NAME_06	<IC_WMGC>셸
+MSG_MAGIC_NAME_07	<IC_WMGC>슬로우
+MSG_MAGIC_NAME_08	<IC_WMGC>헤이스트
+MSG_MAGIC_NAME_09	<IC_WMGC>버서크
+MSG_MAGIC_NAME_10	<IC_WMGC>리플렉
+MSG_MAGIC_NAME_11	<IC_WMGC>홀리
+MSG_MAGIC_NAME_12	<IC_WMGC>디스펠
+MSG_MAGIC_NAME_13	<IC_WMGC>라이브라
+MSG_MAGIC_NAME_14	<IC_WMGC>케알
+MSG_MAGIC_NAME_15	<IC_WMGC>케알라
+MSG_MAGIC_NAME_16	<IC_WMGC>케알다
+MSG_MAGIC_NAME_17	<IC_WMGC>케알가
+MSG_MAGIC_NAME_18	<IC_WMGC>에스나
+MSG_MAGIC_NAME_19	<IC_WMGC>레이즈
+MSG_MAGIC_NAME_20	<IC_WMGC>아레이즈
+MSG_MAGIC_NAME_21	<IC_WMGC>미니멈
+MSG_MAGIC_NAME_22	<IC_WMGC>텔레포
+MSG_MAGIC_NAME_23	<IC_WMGC>사이트로
+MSG_MAGIC_NAME_24	<IC_WMGC>레비테트
+MSG_MAGIC_NAME_25	<IC_BMGC>토드
+MSG_MAGIC_NAME_26	<IC_BMGC>포키
+MSG_MAGIC_NAME_27	<IC_BMGC>데존
+MSG_MAGIC_NAME_28	<IC_BMGC>포이즌
+MSG_MAGIC_NAME_29	<IC_BMGC>파이어
+MSG_MAGIC_NAME_30	<IC_BMGC>파이라
+MSG_MAGIC_NAME_31	<IC_BMGC>파이가
+MSG_MAGIC_NAME_32	<IC_BMGC>블리자드
+MSG_MAGIC_NAME_33	<IC_BMGC>블리자라
+MSG_MAGIC_NAME_34	<IC_BMGC>블리자가
+MSG_MAGIC_NAME_35	<IC_BMGC>선더
+MSG_MAGIC_NAME_36	<IC_BMGC>선더라
+MSG_MAGIC_NAME_37	<IC_BMGC>선더가
+MSG_MAGIC_NAME_38	<IC_BMGC>바이오
+MSG_MAGIC_NAME_39	<IC_BMGC>토네이도
+MSG_MAGIC_NAME_40	<IC_BMGC>퀘이크
+MSG_MAGIC_NAME_41	<IC_BMGC>슬리플
+MSG_MAGIC_NAME_42	<IC_BMGC>브레이크
+MSG_MAGIC_NAME_43	<IC_BMGC>데스
+MSG_MAGIC_NAME_44	<IC_BMGC>스톱
+MSG_MAGIC_NAME_45	<IC_BMGC>드레인
+MSG_MAGIC_NAME_46	<IC_BMGC>아스필
+MSG_MAGIC_NAME_47	<IC_BMGC>메테오
+MSG_MAGIC_NAME_48	<IC_BMGC>플레어
+MSG_MAGIC_NAME_49	<IC_SMGC>고블린
+MSG_MAGIC_NAME_50	<IC_SMGC>봄
+MSG_MAGIC_NAME_51	<IC_SMGC>코카트리스
+MSG_MAGIC_NAME_52	<IC_SMGC>마인드 플레이어
+MSG_MAGIC_NAME_53	<IC_SMGC>초코보
+MSG_MAGIC_NAME_54	<IC_SMGC>시바
+MSG_MAGIC_NAME_55	<IC_SMGC>라무
+MSG_MAGIC_NAME_56	<IC_SMGC>이프리트
+MSG_MAGIC_NAME_57	<IC_SMGC>타이탄
+MSG_MAGIC_NAME_58	<IC_SMGC>미스트 드래곤
+MSG_MAGIC_NAME_59	<IC_SMGC>실프
+MSG_MAGIC_NAME_60	<IC_SMGC>오딘
+MSG_MAGIC_NAME_61	<IC_SMGC>리바이어선
+MSG_MAGIC_NAME_62	<IC_SMGC>아슈라
+MSG_MAGIC_NAME_63	<IC_SMGC>바하무트
+MSG_MAGIC_NAME_64	<IC_BMGC>프티 메테오
+MSG_MAGIC_NAME_65	<IC_BMGC>프티 플레어
+MSG_MAGIC_NAME_66	화둔
+MSG_MAGIC_NAME_67	수둔
+MSG_MAGIC_NAME_68	뇌신
+MSG_MAGIC_NAME_69	연막탄
+MSG_MAGIC_NAME_70	그림자 묶기
+MSG_MAGIC_NAME_71	분신
+MSG_MAGIC_NAME_72	매직 애로
+MSG_MAGIC_NAME_73	힐
+MSG_MAGIC_NAME_74	바스나
+MSG_MAGIC_NAME_75	포이즈나
+MSG_MAGIC_NAME_76	댄싱 대거
+MSG_MAGIC_NAME_77	고블린 펀치
+MSG_MAGIC_NAME_78	자폭
+MSG_MAGIC_NAME_79	석화 부리
+MSG_MAGIC_NAME_80	마인드 블래스트
+MSG_MAGIC_NAME_81	초코보 킥
+MSG_MAGIC_NAME_82	눈보라
+MSG_MAGIC_NAME_83	심판의 번개
+MSG_MAGIC_NAME_84	지옥의 화염
+MSG_MAGIC_NAME_85	대지의 분노
+MSG_MAGIC_NAME_86	안개 브레스
+MSG_MAGIC_NAME_87	바람의 속삭임
+MSG_MAGIC_NAME_88	참철검
+MSG_MAGIC_NAME_89	쓰나미
+MSG_MAGIC_NAME_90	아슈라
+MSG_MAGIC_NAME_91	메가 플레어
+MSG_MON_ATK_01	시선
+MSG_MON_ATK_02	블래스터
+MSG_MON_ATK_03	뺨 때리기
+MSG_MON_ATK_04	인분
+MSG_MON_ATK_05	눈동자
+MSG_MON_ATK_06	유혹
+MSG_MON_ATK_07	핥기
+MSG_MON_ATK_08	저주
+MSG_MON_ATK_09	지목
+MSG_MON_ATK_10	죽음의 선고
+MSG_MON_ATK_11	부리
+MSG_MON_ATK_12	석화 노려보기
+MSG_MON_ATK_13	마인드 블래스트
+MSG_MON_ATK_14	포옹
+MSG_MON_ATK_15	입냄새
+MSG_MON_ATK_16	속삭임
+MSG_MON_ATK_17	휘감기
+MSG_MON_ATK_18	소용돌이
+MSG_MON_ATK_19	차원 일그러짐
+MSG_MON_ATK_20	찬 안개
+MSG_MON_ATK_21	대폭발
+MSG_MON_ATK_22	저주의 노래
+MSG_MON_ATK_23	속박의 냉기
+MSG_MON_ATK_24	수면 가스
+MSG_MON_ATK_25	독가스
+MSG_MON_ATK_26	투과 레이저
+MSG_MON_ATK_27	검은 엄니
+MSG_MON_ATK_28	블랙홀
+MSG_MON_ATK_29	공주의 노래
+MSG_MON_ATK_30	9차원
+MSG_MON_ATK_31	대소용돌이
+MSG_MON_ATK_32	전자기장
+MSG_MON_ATK_33	연쇄 폭발
+MSG_MON_ATK_34	부화
+MSG_MON_ATK_35	회복
+MSG_MON_ATK_36	흡수
+MSG_MON_ATK_37	치료
+MSG_MON_ATK_38	빅뱅
+MSG_MON_ATK_39	흡혈
+MSG_MON_ATK_40	소화액
+MSG_MON_ATK_41	꽃가루
+MSG_MON_ATK_42	크래시 다운
+MSG_MON_ATK_43	경보
+MSG_MON_ATK_44	소환
+MSG_MON_ATK_45	조준
+MSG_MON_ATK_46	핵폭발
+MSG_MON_ATK_47	퇴각
+MSG_MON_ATK_48	빔
+MSG_MON_ATK_49	물체 199
+MSG_MON_ATK_50	화염
+MSG_MON_ATK_51	블레이즈
+MSG_MON_ATK_52	벼락
+MSG_MON_ATK_53	번개
+MSG_MON_ATK_54	다크 브레스
+MSG_MON_ATK_55	대쓰나미
+MSG_MON_ATK_56	눈보라
+MSG_MON_ATK_57	쓰나미
+MSG_MON_ATK_58	회오리
+MSG_MON_ATK_59	레이저
+MSG_MON_ATK_60	자폭
+MSG_MON_ATK_61	지진
+MSG_MON_ATK_62	화염방사
+MSG_MON_ATK_63	열선
+MSG_MON_ATK_64	화염류
+MSG_MON_ATK_65	참철검
+MSG_MON_ATK_66	메가 플레어
+MSG_MON_ATK_67	바늘
+MSG_MON_ATK_68	반격의 뿔
+MSG_MON_ATK_69	재생
+MSG_MON_ATK_71	더블 메테오
+MSG_MAG_INF_01	'마비' 상태로 만든다.
+MSG_MAG_INF_02	'침묵' 상태로 만든다.
+MSG_MAG_INF_03	'혼란' 상태로 만든다.
+MSG_MAG_INF_04	적의 눈을 속일 수 있는 분신을 만든다.
+MSG_MAG_INF_05	방어력을 높이는 마법의 막을 친다.
+MSG_MAG_INF_06	마법 방어력을 높이는 마법의 막을 친다.
+MSG_MAG_INF_07	시간의 흐름을 느리게 한다.
+MSG_MAG_INF_08	시간의 흐름을 빠르게 한다.
+MSG_MAG_INF_09	'광전사' 상태로 만든다.
+MSG_MAG_INF_10	마법을 반사하는 배리어를 친다.
+MSG_MAG_INF_11	성스러운 힘으로 공격한다.
+MSG_MAG_INF_12	마법 효과를 제거한다.
+MSG_MAG_INF_13	HP와 약점을 조사한다.
+MSG_MAG_INF_14	HP를 회복한다.
+MSG_MAG_INF_15	HP를 회복한다.
+MSG_MAG_INF_16	HP를 회복한다.
+MSG_MAG_INF_17	HP를 회복한다.
+MSG_MAG_INF_18	'전투 불능'을 제외한 상태 이상을 회복한다.
+MSG_MAG_INF_19	'전투 불능' 상태를 회복한다.
+MSG_MAG_INF_20	'전투 불능' 상태를 회복하고 HP를 완전히 회복한다.
+MSG_MAG_INF_21	'소인' 상태를 부여하거나 해제한다.
+MSG_MAG_INF_22	던전이나 전투에서 탈출한다.
+MSG_MAG_INF_23	상세한 지도를 연다.
+MSG_MAG_INF_24	몸을 띄운다.
+MSG_MAG_INF_25	'개구리' 상태를 부여하거나 해제한다.
+MSG_MAG_INF_26	'돼지' 상태를 부여하거나 해제한다.
+MSG_MAG_INF_27	한 층 전으로 돌아간다.
+MSG_MAG_INF_28	'중독' 상태로 만든다.
+MSG_MAG_INF_29	화염으로 공격한다.
+MSG_MAG_INF_30	화염으로 공격한다.
+MSG_MAG_INF_31	화염으로 공격한다.
+MSG_MAG_INF_32	냉기로 공격한다.
+MSG_MAG_INF_33	냉기로 공격한다.
+MSG_MAG_INF_34	냉기로 공격한다.
+MSG_MAG_INF_35	번개로 공격한다.
+MSG_MAG_INF_36	번개로 공격한다.
+MSG_MAG_INF_37	번개로 공격한다.
+MSG_MAG_INF_38	세균으로 공격하여 출혈 피해를 준다.
+MSG_MAG_INF_39	회오리바람으로 심각한 피해를 준다.
+MSG_MAG_INF_40	지진으로 적 전체에게 피해를 준다.
+MSG_MAG_INF_41	'수면' 상태로 만든다.
+MSG_MAG_INF_42	'석화' 상태로 만든다.
+MSG_MAG_INF_43	생명 활동을 멈추어 '전투 불능'으로 만든다.
+MSG_MAG_INF_44	시간의 흐름을 멈추어 행동할 수 없게 한다.
+MSG_MAG_INF_45	HP를 흡수한다.
+MSG_MAG_INF_46	MP를 흡수한다.
+MSG_MAG_INF_47	운석 낙하로 적 전체에게 피해를 준다.
+MSG_MAG_INF_48	열 에너지 폭발로 피해를 준다.
+MSG_MAG_INF_49	적 한 체를 공격하는\n'고블린 펀치'를 사용한다.
+MSG_MAG_INF_50	적 한 체에게 자신의 현재 HP에 따른 피해를 주는\n'자폭'을 사용한다.
+MSG_MAG_INF_51	적 한 체를 '석화' 상태로 만드는\n'석화 부리'를 사용한다.
+MSG_MAG_INF_52	적 한 체에게 출혈 피해를 주고 '마비' 상태로 만드는\n'마인드 블래스트'를 사용한다.
+MSG_MAG_INF_53	적 한 체를 공격하는\n'초코보 킥'을 사용한다.
+MSG_MAG_INF_54	적 전체를 냉기로 공격하는\n'눈보라'를 사용한다.
+MSG_MAG_INF_55	적 전체를 번개로 공격하는\n'심판의 번개'를 사용한다.
+MSG_MAG_INF_56	적 전체를 화염으로 공격하는\n'지옥의 화염'을 사용한다.
+MSG_MAG_INF_57	적 전체에게 지진으로 피해를 주는\n'대지의 분노'를 사용한다.
+MSG_MAG_INF_58	적 전체에게 자신의 현재 HP에 따른 피해를 주는\n'안개 브레스'를 사용한다.
+MSG_MAG_INF_59	적 한 체의 HP를 흡수하여 아군 전원을 회복하는\n'바람의 속삭임'을 사용한다.
+MSG_MAG_INF_60	적 전체를 즉사시키는\n'참철검'을 사용한다.
+MSG_MAG_INF_61	적 전체에게 큰 피해를 주는\n'쓰나미'를 사용한다.
+MSG_MAG_INF_62	'케알다', '프로테스', '레이즈' 중\n하나를 사용한다.
+MSG_MAG_INF_63	적 전체에게 고열 에너지로 큰 피해를 주는\n'메가 플레어'를 사용한다.
+MSG_MAG_INF_64	화염을 일으켜서 적 전체를 공격한다.
+MSG_MAG_INF_65	쓰나미를 일으켜서 적 전체를 공격한다.
+MSG_MAG_INF_66	번개를 일으켜서 적 전체를 공격한다.
+MSG_MAG_INF_67	연막으로 적의 눈을 속이며 전투에서 탈출한다.
+MSG_MAG_INF_68	적의 움직임을 멈추어 행동할 수 없게 한다.
+MSG_MAG_INF_69	적의 눈을 속일 수 있는 자신의 분신을 만든다.
+MSG_WEAPON_NAME_01	<IC_CLW>화염의 발톱
+MSG_WEAPON_NAME_02	<IC_CLW>얼음의 발톱
+MSG_WEAPON_NAME_03	<IC_CLW>번개의 발톱
+MSG_WEAPON_NAME_04	<IC_CLW>요정의 발톱
+MSG_WEAPON_NAME_05	<IC_CLW>지옥의 발톱
+MSG_WEAPON_NAME_06	<IC_CLW>고양이 발톱
+MSG_WEAPON_NAME_07	<IC_ROD>로드
+MSG_WEAPON_NAME_08	<IC_ROD>아이스 로드
+MSG_WEAPON_NAME_09	<IC_ROD>플레임 로드
+MSG_WEAPON_NAME_10	<IC_ROD>선더 로드
+MSG_WEAPON_NAME_11	<IC_ROD>변화의 로드
+MSG_WEAPON_NAME_12	<IC_ROD>요정의 로드
+MSG_WEAPON_NAME_13	<IC_ROD>별조각 로드
+MSG_WEAPON_NAME_14	<IC_ROD>릴리스의 로드
+MSG_WEAPON_NAME_15	<IC_WND>지팡이
+MSG_WEAPON_NAME_16	<IC_WND>치유의 지팡이
+MSG_WEAPON_NAME_17	<IC_WND>미스릴 지팡이
+MSG_WEAPON_NAME_18	<IC_WND>힘의 지팡이
+MSG_WEAPON_NAME_19	<IC_WND>파동의 지팡이
+MSG_WEAPON_NAME_20	<IC_WND>현자의 지팡이
+MSG_WEAPON_NAME_21	<IC_WND>룬의 지팡이
+MSG_WEAPON_NAME_22	<IC_DSRD>암흑의 검
+MSG_WEAPON_NAME_23	<IC_DSRD>섀도 블레이드
+MSG_WEAPON_NAME_24	<IC_DSRD>데스브링어
+MSG_WEAPON_NAME_25	<IC_NSRD>전설의 검
+MSG_WEAPON_NAME_26	<IC_NSRD>빛의 검
+MSG_WEAPON_NAME_27	<IC_NSRD>엑스칼리버
+MSG_WEAPON_NAME_28	<IC_NSRD>라그나로크
+MSG_WEAPON_NAME_29	<IC_SRD>플레임 소드
+MSG_WEAPON_NAME_30	<IC_SRD>아이스 브랜드
+MSG_WEAPON_NAME_31	<IC_SRD>디펜더
+MSG_WEAPON_NAME_32	<IC_SRD>블러드 소드
+MSG_WEAPON_NAME_33	<IC_SRD>고대의 검
+MSG_WEAPON_NAME_34	<IC_SRD>수면의 검
+MSG_WEAPON_NAME_35	<IC_SRD>브레이크 블레이드
+MSG_WEAPON_NAME_36	<IC_SRD>미스릴 소드
+MSG_WEAPON_NAME_37	<IC_SRD>어벤저
+MSG_WEAPON_NAME_38	<IC_SPR>스피어
+MSG_WEAPON_NAME_39	<IC_SPR>윈드 스피어
+MSG_WEAPON_NAME_40	<IC_SPR>화염의 창
+MSG_WEAPON_NAME_41	<IC_SPR>얼음의 창
+MSG_WEAPON_NAME_42	<IC_SPR>비룡의 창
+MSG_WEAPON_NAME_43	<IC_SPR>홀리 랜스
+MSG_WEAPON_NAME_44	<IC_SPR>블러드 랜스
+MSG_WEAPON_NAME_45	<IC_SPR>궁니르
+MSG_WEAPON_NAME_46	<IC_KTN>쿠나이
+MSG_WEAPON_NAME_47	<IC_KTN>아수라
+MSG_WEAPON_NAME_48	<IC_KTN>코테츠
+MSG_WEAPON_NAME_49	<IC_KTN>키쿠이치몬지
+MSG_WEAPON_NAME_50	<IC_KTN>무라사메
+MSG_WEAPON_NAME_51	<IC_KTN>마사무네
+MSG_WEAPON_NAME_52	<IC_NIF>메이지 매셔
+MSG_WEAPON_NAME_53	<IC_NIF>미스릴 나이프
+MSG_WEAPON_NAME_54	<IC_NIF>댄싱 대거
+MSG_WEAPON_NAME_55	<IC_NIF>식칼
+MSG_WEAPON_NAME_56	<IC_WHP>채찍
+MSG_WEAPON_NAME_57	<IC_WHP>사슬 채찍
+MSG_WEAPON_NAME_58	<IC_WHP>번개 채찍
+MSG_WEAPON_NAME_59	<IC_WHP>파이어 뷰트
+MSG_WEAPON_NAME_60	<IC_WHP>용의 수염
+MSG_WEAPON_NAME_61	<IC_AX>드워프의 도끼
+MSG_WEAPON_NAME_62	<IC_AX>오거 킬러
+MSG_WEAPON_NAME_63	<IC_AX>포이즌 액스
+MSG_WEAPON_NAME_64	<IC_AX>룬 액스
+MSG_WEAPON_NAME_65	<IC_SRK>수리검
+MSG_WEAPON_NAME_66	<IC_SRK>풍마의 수리검
+MSG_WEAPON_NAME_67	<IC_TRW>부메랑
+MSG_WEAPON_NAME_68	<IC_TRW>원월륜
+MSG_WEAPON_NAME_69	<IC_HRP>꿈의 하프
+MSG_WEAPON_NAME_70	<IC_HRP>라미아의 하프
+MSG_WEAPON_NAME_71	<IC_HMR>나무 망치
+MSG_WEAPON_NAME_72	<IC_HMR>미스릴 해머
+MSG_WEAPON_NAME_73	<IC_HMR>대지의 해머
+MSG_WEAPON_NAME_74	<IC_BOW>활
+MSG_WEAPON_NAME_75	<IC_BOW>석궁
+MSG_WEAPON_NAME_76	<IC_BOW>그레이트 보우
+MSG_WEAPON_NAME_77	<IC_BOW>킬러 보우
+MSG_WEAPON_NAME_78	<IC_BOW>엘핀 보우
+MSG_WEAPON_NAME_79	<IC_BOW>요이치의 활
+MSG_WEAPON_NAME_80	<IC_BOW>아르테미스의 활
+MSG_WEAPON_NAME_81	<IC_ARW>철 화살
+MSG_WEAPON_NAME_82	<IC_ARW>성스러운 화살
+MSG_WEAPON_NAME_83	<IC_ARW>화염의 화살
+MSG_WEAPON_NAME_84	<IC_ARW>얼음의 화살
+MSG_WEAPON_NAME_85	<IC_ARW>번개의 화살
+MSG_WEAPON_NAME_86	<IC_ARW>실명의 화살
+MSG_WEAPON_NAME_87	<IC_ARW>독화살
+MSG_WEAPON_NAME_88	<IC_ARW>침묵의 화살
+MSG_WEAPON_NAME_89	<IC_ARW>천사의 화살
+MSG_WEAPON_NAME_90	<IC_ARW>요이치의 화살
+MSG_WEAPON_NAME_91	<IC_ARW>메두사의 화살
+MSG_WEAPON_NAME_92	<IC_ARW>아르테미스의 화살
+MSG_WEAPON_NAME_99	<IC_NSRD>Excalipoor
+MSG_WEAPON_NAME_100	<IC_NSRD>Flandango
+MSG_WEAPON_NAME_101	<IC_NSRD>Lightbringer
+MSG_WEAPON_NAME_102	<IC_SRD>Piggy Stick
+MSG_WEAPON_NAME_103	<IC_SPR>Abel's Lance
+MSG_WEAPON_NAME_104	<IC_AX>Gigant Axe
+MSG_WEAPON_NAME_105	<IC_BOW>Perseus Bow
+MSG_WEAPON_NAME_106	<IC_ARW>Perseus Arrow
+MSG_WEAPON_NAME_107	<IC_WHP>Mystic Whip
+MSG_WEAPON_NAME_108	<IC_NIF>Triton's Dagger
+MSG_WEAPON_NAME_109	<IC_NIF>Assassin's Dagger
+MSG_WEAPON_NAME_110	<IC_KTN>Sasuke's Katana
+MSG_WEAPON_NAME_111	<IC_KTN>Mutsunokami
+MSG_WEAPON_NAME_112	<IC_SRK>Scrap Metal
+MSG_WEAPON_NAME_113	<IC_TRW>Rising Sun
+MSG_WEAPON_NAME_114	<IC_CLW>Tiger Fangs
+MSG_WEAPON_NAME_115	<IC_CLW>Dragon Claws
+MSG_WEAPON_NAME_116	<IC_CLW>Godhand
+MSG_WEAPON_NAME_117	<IC_HMR>Thor's Hammer
+MSG_WEAPON_NAME_118	<IC_HMR>Fiery Hammer
+MSG_WEAPON_NAME_119	<IC_ROD>Asura's Rod
+MSG_WEAPON_NAME_120	<IC_WND>Seraphim's Mace
+MSG_WEAPON_NAME_121	<IC_WND>Nirvana
+MSG_WEAPON_NAME_122	<IC_HRP>Apollo's Harp
+MSG_WEAPON_NAME_123	<IC_HRP>Requiem Harp
+MSG_WEAPON_NAME_124	<IC_HRP>Loki's Harp
+MSG_WEAPON_NAME_125	<IC_DSRD>Blood Dark Sword
+MSG_WEAPON_NAME_126	<IC_DSRD>Golbez's Sword
+MSG_WEAPON_NAME_127	<IC_DSRD>Vampire Sword
+MSG_WEAPON_NAME_128	<IC_DSRD>Megido Sword
+MSG_WEAPON_NAME_129	<IC_SRD>Erdrick's Sword
+MSG_WEAPON_NAME_130	<IC_SPR>Vampire Spear
+MSG_WEAPON_NAME_131	<IC_ROD>Super Anger Rod
+MSG_ARMOR_NAME_01	<IC_SHIELD>아이언 실드
+MSG_ARMOR_NAME_02	<IC_SHIELD>암흑의 방패
+MSG_ARMOR_NAME_03	<IC_SHIELD>데몬즈 실드
+MSG_ARMOR_NAME_04	<IC_SHIELD>빛의 방패
+MSG_ARMOR_NAME_05	<IC_SHIELD>미스릴 실드
+MSG_ARMOR_NAME_06	<IC_SHIELD>플레임 실드
+MSG_ARMOR_NAME_07	<IC_SHIELD>아이스 실드
+MSG_ARMOR_NAME_08	<IC_SHIELD>다이아몬드 실드
+MSG_ARMOR_NAME_09	<IC_SHIELD>이지스의 방패
+MSG_ARMOR_NAME_10	<IC_SHIELD>겐지의 방패
+MSG_ARMOR_NAME_11	<IC_SHIELD>드래곤 실드
+MSG_ARMOR_NAME_12	<IC_SHIELD>크리스탈 방패
+MSG_ARMOR_NAME_13	<IC_HEAD>아이언 헬름
+MSG_ARMOR_NAME_14	<IC_HEAD>암흑의 투구
+MSG_ARMOR_NAME_15	<IC_HEAD>하데스의 투구
+MSG_ARMOR_NAME_16	<IC_HEAD>데몬즈 헬름
+MSG_ARMOR_NAME_17	<IC_HEAD>빛의 투구
+MSG_ARMOR_NAME_18	<IC_HEAD>미스릴 헬름
+MSG_ARMOR_NAME_19	<IC_HEAD>다이아몬드 투구
+MSG_ARMOR_NAME_20	<IC_HEAD>겐지의 투구
+MSG_ARMOR_NAME_21	<IC_HEAD>드래곤 헬름
+MSG_ARMOR_NAME_22	<IC_HEAD>크리스탈 헬름
+MSG_ARMOR_NAME_23	<IC_HEAD>가죽 모자
+MSG_ARMOR_NAME_24	<IC_HEAD>깃털 장식 모자
+MSG_ARMOR_NAME_25	<IC_HEAD>삼각 모자
+MSG_ARMOR_NAME_26	<IC_HEAD>사제의 모자
+MSG_ARMOR_NAME_27	<IC_HEAD>금 머리 장식
+MSG_ARMOR_NAME_28	<IC_HEAD>리본
+MSG_ARMOR_NAME_29	<IC_HEAD>꼬아 만든 머리띠
+MSG_ARMOR_NAME_30	<IC_HEAD>그린베레
+MSG_ARMOR_NAME_31	<IC_HEAD>검은 두건
+MSG_ARMOR_NAME_32	<IC_HEAD>유리 가면
+MSG_ARMOR_NAME_33	<IC_ARMOR>아이언 아머
+MSG_ARMOR_NAME_34	<IC_ARMOR>암흑의 갑옷
+MSG_ARMOR_NAME_35	<IC_ARMOR>하데스의 갑옷
+MSG_ARMOR_NAME_36	<IC_ARMOR>데몬즈 아머
+MSG_ARMOR_NAME_37	<IC_ARMOR>나이트 갑옷
+MSG_ARMOR_NAME_38	<IC_ARMOR>미스릴 아머
+MSG_ARMOR_NAME_39	<IC_ARMOR>플레임 메일
+MSG_ARMOR_NAME_40	<IC_ARMOR>아이스 아머
+MSG_ARMOR_NAME_41	<IC_ARMOR>다이아몬드 아머
+MSG_ARMOR_NAME_42	<IC_ARMOR>겐지의 갑옷
+MSG_ARMOR_NAME_43	<IC_ARMOR>드래곤 메일
+MSG_ARMOR_NAME_44	<IC_ARMOR>크리스탈 메일
+MSG_ARMOR_NAME_45	<IC_CLTH>옷
+MSG_ARMOR_NAME_46	<IC_CLTH>가죽옷
+MSG_ARMOR_NAME_47	<IC_CLTH>대지의 옷
+MSG_ARMOR_NAME_48	<IC_CLTH>사제의 로브
+MSG_ARMOR_NAME_49	<IC_CLTH>검은 로브
+MSG_ARMOR_NAME_50	<IC_CLTH>빛의 로브
+MSG_ARMOR_NAME_51	<IC_CLTH>흰 로브
+MSG_ARMOR_NAME_52	<IC_CLTH>힘의 어깨띠
+MSG_ARMOR_NAME_53	<IC_CLTH>미네르바 뷔스티에
+MSG_ARMOR_NAME_54	<IC_CLTH>죄수복
+MSG_ARMOR_NAME_55	<IC_CLTH>시인의 옷
+MSG_ARMOR_NAME_56	<IC_CLTH>권법 도복
+MSG_ARMOR_NAME_57	<IC_CLTH>검은띠 도복
+MSG_ARMOR_NAME_58	<IC_ARMOR>아다만 아머
+MSG_ARMOR_NAME_59	<IC_CLTH>검은 옷
+MSG_ARMOR_NAME_60	<IC_GLOV>철 팔 보호대
+MSG_ARMOR_NAME_61	<IC_GLOV>암흑의 팔 보호대
+MSG_ARMOR_NAME_62	<IC_GLOV>하데스의 팔 보호대
+MSG_ARMOR_NAME_63	<IC_GLOV>악마의 팔 보호대
+MSG_ARMOR_NAME_64	<IC_GLOV>건틀릿
+MSG_ARMOR_NAME_65	<IC_GLOV>미스릴 팔 보호대
+MSG_ARMOR_NAME_66	<IC_GLOV>다이아몬드 팔 보호대
+MSG_ARMOR_NAME_67	<IC_GLOV>거인의 팔 보호대
+MSG_ARMOR_NAME_68	<IC_GLOV>겐지의 팔 보호대
+MSG_ARMOR_NAME_69	<IC_GLOV>드래곤 팔 보호대
+MSG_ARMOR_NAME_70	<IC_GLOV>크리스탈 팔 보호대
+MSG_ARMOR_NAME_71	<IC_GLOV>철 팔찌
+MSG_ARMOR_NAME_72	<IC_GLOV>루비 반지
+MSG_ARMOR_NAME_73	<IC_GLOV>은 팔찌
+MSG_ARMOR_NAME_74	<IC_GLOV>파워 리스트
+MSG_ARMOR_NAME_75	<IC_GLOV>룬의 팔찌
+MSG_ARMOR_NAME_76	<IC_GLOV>크리스탈 링
+MSG_ARMOR_NAME_77	<IC_GLOV>다이아몬드 팔찌
+MSG_ARMOR_NAME_78	<IC_GLOV>수호의 반지
+MSG_ARMOR_NAME_79	<IC_GLOV>저주의 반지
+MSG_ARMOR_NAME_80	<IC_ARMOR>Grand Armor
+MSG_ARMOR_NAME_81	<IC_ARMOR>Dragoon Plate
+MSG_ARMOR_NAME_82	<IC_ARMOR>Caesar's Plate
+MSG_ARMOR_NAME_83	<IC_ARMOR>Maximillian
+MSG_ARMOR_NAME_84	<IC_CLTH>Red Jacket
+MSG_ARMOR_NAME_85	<IC_CLTH>Brave Suit
+MSG_ARMOR_NAME_86	<IC_CLTH>Chocobo Suit
+MSG_ARMOR_NAME_87	<IC_CLTH>Tabby Suit
+MSG_ARMOR_NAME_88	<IC_CLTH>Battle Gear
+MSG_ARMOR_NAME_89	<IC_CLTH>Assassin's Vest
+MSG_ARMOR_NAME_90	<IC_CLTH>Vishnu Vest
+MSG_ARMOR_NAME_91	<IC_CLTH>Sage's Robe
+MSG_ARMOR_NAME_92	<IC_CLTH>Robe Of Lords
+MSG_ARMOR_NAME_93	<IC_CLTH>Rainbow Robe
+MSG_ARMOR_NAME_94	<IC_CLTH>White Dress
+MSG_ARMOR_NAME_95	<IC_SHIELD>Hero's Shield
+MSG_ARMOR_NAME_96	<IC_SHIELD>Chocobo Shield
+MSG_ARMOR_NAME_97	<IC_HEAD>Hypnocrown
+MSG_ARMOR_NAME_98	<IC_HEAD>Cat-Ear Hood
+MSG_ARMOR_NAME_99	<IC_HEAD>White Tiger Mask
+MSG_ARMOR_NAME_100	<IC_HEAD>Red Cap
+MSG_ARMOR_NAME_101	<IC_HEAD>Rabbit-Ear Hood
+MSG_ARMOR_NAME_102	<IC_HEAD>Augustine Tiara
+MSG_ARMOR_NAME_103	<IC_HEAD>Star of Kami Kazari
+MSG_ARMOR_NAME_104	<IC_HEAD>Royal Crown
+MSG_ARMOR_NAME_105	<IC_HEAD>Dual Mask
+MSG_ARMOR_NAME_106	<IC_HEAD>Demon Hat
+MSG_ARMOR_NAME_107	<IC_HEAD>Philosopher's Hat
+MSG_ARMOR_NAME_108	<IC_HEAD>Grand Helm
+MSG_ARMOR_NAME_109	<IC_HEAD>Caesar Helm
+MSG_ARMOR_NAME_110	<IC_HEAD>Dragoon Helm
+MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
+MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
+MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
+MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ITEM_NAME_01	<IC_BAG>봄의 파편
+MSG_ITEM_NAME_02	<IC_BAG>봄의 오른팔
+MSG_ITEM_NAME_03	<IC_BAG>남극의 바람
+MSG_ITEM_NAME_04	<IC_BAG>북극의 바람
+MSG_ITEM_NAME_05	<IC_BAG>제우스의 분노
+MSG_ITEM_NAME_06	<IC_BAG>신들의 분노
+MSG_ITEM_NAME_07	<IC_BAG>별 모래
+MSG_ITEM_NAME_08	<IC_BAG>릴리스의 입맞춤
+MSG_ITEM_NAME_09	<IC_BAG>뱀파이어의 송곳니
+MSG_ITEM_NAME_10	<IC_BAG>바커스의 술
+MSG_ITEM_NAME_11	<IC_BAG>헤르메스의 신발
+MSG_ITEM_NAME_12	<IC_BAG>구리 모래시계
+MSG_ITEM_NAME_13	<IC_BAG>은 모래시계
+MSG_ITEM_NAME_14	<IC_BAG>금 모래시계
+MSG_ITEM_NAME_15	<IC_BAG>거미줄
+MSG_ITEM_NAME_16	<IC_BAG>액막이 인형
+MSG_ITEM_NAME_17	<IC_BAG>붉은 엄니
+MSG_ITEM_NAME_18	<IC_BAG>흰 엄니
+MSG_ITEM_NAME_19	<IC_BAG>푸른 엄니
+MSG_ITEM_NAME_20	<IC_BAG>빛의 장막
+MSG_ITEM_NAME_21	<IC_BAG>봄의 혼
+MSG_ITEM_NAME_22	<IC_BAG>달의 장막
+MSG_ITEM_NAME_23	<IC_BAG>정적의 종
+MSG_ITEM_NAME_24	<IC_BAG>대지의 북
+MSG_ITEM_NAME_25	<IC_BAG>크리스탈
+MSG_ITEM_NAME_26	<IC_BAG>커얼의 수염
+MSG_ITEM_NAME_27	<IC_BAG>오의의 서
+MSG_ITEM_NAME_28	<IC_BAG>괴수 도감
+MSG_ITEM_NAME_29	<IC_BAG>자명종
+MSG_ITEM_NAME_30	<IC_BAG>유니콘의 뿔
+MSG_ITEM_NAME_31	<IC_DRAG>포션
+MSG_ITEM_NAME_32	<IC_DRAG>하이 포션
+MSG_ITEM_NAME_33	<IC_DRAG>엑스 포션
+MSG_ITEM_NAME_34	<IC_DRAG>에테르
+MSG_ITEM_NAME_35	<IC_DRAG>에테르 드라이
+MSG_ITEM_NAME_36	<IC_DRAG>엘릭서
+MSG_ITEM_NAME_37	<IC_BAG>피닉스의 깃털
+MSG_ITEM_NAME_38	<IC_BAG>금침
+MSG_ITEM_NAME_39	<IC_BAG>아가씨의 키스
+MSG_ITEM_NAME_40	<IC_BAG>도깨비 방망이
+MSG_ITEM_NAME_41	<IC_BAG>다이어트식
+MSG_ITEM_NAME_42	<IC_BAG>메아리풀
+MSG_ITEM_NAME_43	<IC_BAG>안약
+MSG_ITEM_NAME_44	<IC_BAG>해독제
+MSG_ITEM_NAME_45	<IC_BAG>십자가
+MSG_ITEM_NAME_46	<IC_BAG>만능약
+MSG_ITEM_NAME_47	<IC_BAG>알람
+MSG_ITEM_NAME_48	<IC_BAG>금 사과
+MSG_ITEM_NAME_49	<IC_BAG>은 사과
+MSG_ITEM_NAME_50	<IC_BAG>소마 방울
+MSG_ITEM_NAME_51	<IC_TENTO>텐트
+MSG_ITEM_NAME_52	<IC_TENTO>코티지
+MSG_ITEM_NAME_54	<IC_BAG>비상구
+MSG_ITEM_NAME_55	<IC_BAG>소인의 빵
+MSG_ITEM_NAME_56	<IC_BAG>고블린
+MSG_ITEM_NAME_57	<IC_BAG>봄
+MSG_ITEM_NAME_58	<IC_BAG>코카트리스
+MSG_ITEM_NAME_59	<IC_BAG>마인드 플레이어
+MSG_ITEM_NAME_60	<IC_BAG>기살의 야채
+MSG_ITEM_NAME_61	<IC_BAG>기살의 피리
+MSG_KEY_NAME_01	<IC_BAG>회원증
+MSG_KEY_NAME_02	<IC_IOBJ>봄의 반지
+MSG_KEY_NAME_03	<IC_IOBJ>바론의 열쇠
+MSG_KEY_NAME_04	<IC_IOBJ>사막의 빛
+MSG_KEY_NAME_05	<IC_IOBJ>땅의 크리스탈
+MSG_KEY_NAME_06	<IC_IOBJ>마그마석
+MSG_KEY_NAME_07	<IC_IOBJ>루카의 목걸이
+MSG_KEY_NAME_08	<IC_IOBJ>속삭임풀
+MSG_KEY_NAME_09	<IC_IOBJ>어둠의 크리스탈
+MSG_KEY_NAME_10	<IC_IOBJ>쥐 꼬리
+MSG_KEY_NAME_11	<IC_IOBJ>아다만타이트
+MSG_KEY_NAME_12	<IC_IOBJ>사랑의 프라이팬
+MSG_KEY_NAME_13	<IC_IOBJ>분홍색 꼬리
+MSG_KEY_NAME_14	<IC_IOBJ>르게이에의 열쇠
+MSG_KEY_NAME_15	<IC_IOBJ>암흑 물질
+MSG_KEY_NAME_16	<IC_IOBJ>Kaipo Inn Pass
+MSG_KEY_NAME_17	<IC_IOBJ>Hook
+MSG_KEY_NAME_18	<IC_IOBJ>Yellow Tail
+MSG_KEY_NAME_19	<IC_IOBJ>Green Tail
+MSG_KEY_NAME_20	<IC_IOBJ>Blue Tail
+MSG_KEY_NAME_21	<IC_IOBJ>Red Tail
+MSG_KEY_NAME_22	<IC_IOBJ>Brown Tail
+MSG_KEY_NAME_23	<IC_IOBJ>Black Tail
+MSG_KEY_NAME_24	<IC_IOBJ>Trash Can
+MSG_KEY_NAME_25	<IC_IOBJ>Crystal Shard
+MSG_KEY_NAME_26	<IC_IOBJ>Orange Tail
+MSG_KEY_NAME_27	<IC_IOBJ>White Tail
+MSG_WEAPON_INF_01	'화염'의 힘을 두른 발톱
+MSG_WEAPON_INF_02	'냉기'의 힘을 두른 발톱
+MSG_WEAPON_INF_03	'번개'의 힘을 두른 발톱
+MSG_WEAPON_INF_04	적을 '혼란' 시키는 경우가 있는 발톱.\n거인 계열 적을 상대할 때 유용함
+MSG_WEAPON_INF_05	적을 '중독' 시키는 경우가 있는 발톱
+MSG_WEAPON_INF_06	적을 '수면' 시키는 경우가 있는 발톱
+MSG_WEAPON_INF_07	사용 시 '매직 애로'로 공격하는 로드
+MSG_WEAPON_INF_08	'냉기'의 힘을 두른 로드.\n사용 시 '블리자드' 효과
+MSG_WEAPON_INF_09	'화염'의 힘을 두른 로드.\n사용 시 '파이어' 효과
+MSG_WEAPON_INF_10	'번개'의 힘을 두른 로드.\n사용 시 '선더' 효과
+MSG_WEAPON_INF_11	사용 시 '포키' 효과를 내는 로드
+MSG_WEAPON_INF_12	사용 시 '컨퓨' 효과를 내는 로드
+MSG_WEAPON_INF_13	사용 시 '프티 메테오' 효과를 내는 로드
+MSG_WEAPON_INF_14	상대의 HP를 빼앗는 로드.\n사용 시 '아스필' 효과
+MSG_WEAPON_INF_15	사용 시 '포이즈나' 효과로 중독을 치료하는 지팡이
+MSG_WEAPON_INF_16	사용 시 '힐' 효과로 전원의 HP를 회복하는 지팡이
+MSG_WEAPON_INF_17	'언데드'를 상대할 때 유용한 미스릴 지팡이.\n사용 시 '바스나' 효과로 일부 상태 이상 회복
+MSG_WEAPON_INF_18	적을 '광전사' 상태로 만드는 경우가 있는 지팡이
+MSG_WEAPON_INF_19	사용 시 '디스펠' 효과를 내는 지팡이
+MSG_WEAPON_INF_20	사용 시 '레이즈' 효과를 내는 지팡이
+MSG_WEAPON_INF_21	적을 '침묵' 시키는 경우가 있는 지팡이.\n사용 시 '사일레스' 효과
+MSG_WEAPON_INF_22	일반적인 암흑검
+MSG_WEAPON_INF_23	날카롭게 벼린 암흑검
+MSG_WEAPON_INF_24	일격에 적을 즉사시키는 경우가 있는 암흑검
+MSG_WEAPON_INF_25	미시디아의 전설이 기록된 성검
+MSG_WEAPON_INF_26	성스럽게 빛나는 성검
+MSG_WEAPON_INF_27	영웅이 사용했던 전설의 성검
+MSG_WEAPON_INF_28	몬스터가 두려워하며 봉인했던 성검
+MSG_WEAPON_INF_29	'화염'의 힘을 두른 검
+MSG_WEAPON_INF_30	'냉기'의 힘을 두른 검
+MSG_WEAPON_INF_31	수호의 힘이 담긴 검.\n사용 시 '프로테스' 효과
+MSG_WEAPON_INF_32	상대의 HP를 빼앗는 검.\n'거인족', '푸딩'을 상대할 때 유용함
+MSG_WEAPON_INF_33	적에게 '저주'를 거는 경우가 있는 검.\n'영혼체'를 상대할 때 유용함
+MSG_WEAPON_INF_34	적을 '수면' 시키는 경우가 있는 검.\n사용 시 '슬리플' 효과
+MSG_WEAPON_INF_35	적을 '서서히 석화' 시키는 경우가 있는 검
+MSG_WEAPON_INF_36	'영혼체'를 상대할 때 유용한 미스릴 재질 검
+MSG_WEAPON_INF_37	'광전사' 상태가 되는 저주가 걸린 양손검
+MSG_WEAPON_INF_38	일반적인 창
+MSG_WEAPON_INF_39	날이 예리한 창
+MSG_WEAPON_INF_40	'화염'의 힘을 두른 창.\n사용 시 '파이라' 효과
+MSG_WEAPON_INF_41	'냉기'의 힘을 두른 창.\n사용 시 '블리자라' 효과
+MSG_WEAPON_INF_42	'용족'을 상대할 때 유용한 창
+MSG_WEAPON_INF_43	'신성'의 힘을 두른 창.\n사용 시 '홀리' 효과
+MSG_WEAPON_INF_44	상대의 HP를 빼앗는 창.\n'거인족', '푸딩'을 상대할 때 유용함
+MSG_WEAPON_INF_45	신들이 애용했다는 전설의 창
+MSG_WEAPON_INF_46	닌자가 사용하는 작은 칼
+MSG_WEAPON_INF_47	전쟁의 화신의 이름이 붙은 칼
+MSG_WEAPON_INF_48	사용 편의성에 중점을 둔 약간 짧은 칼
+MSG_WEAPON_INF_49	검집에 국화 세공 장식이 달린 칼
+MSG_WEAPON_INF_50	요도라고 불리는 칼.\n사용 시 '프로테스' 효과
+MSG_WEAPON_INF_51	최강이라 불리는 칼.\n사용 시 '헤이스트' 효과
+MSG_WEAPON_INF_52	적을 '침묵' 시키는 경우가 있는 나이프.\n'마법사'를 상대할 때 유용함
+MSG_WEAPON_INF_53	'영혼체'를 상대할 때 유용한 미스릴 재질 나이프
+MSG_WEAPON_INF_54	사용 시 무희의 힘으로 공격하는 대거
+MSG_WEAPON_INF_55	잘 썰리는 식칼
+MSG_WEAPON_INF_56	일반적인 채찍.\n적을 '마비' 시키는 경우가 있음
+MSG_WEAPON_INF_57	철 사슬로 만든 채찍.\n적을 '마비' 시키는 경우가 있음
+MSG_WEAPON_INF_58	'번개'의 힘을 두른 채찍.\n적을 '마비' 시키는 경우가 있음
+MSG_WEAPON_INF_59	'화염'의 힘을 두른 채찍.\n적을 '마비' 시키는 경우가 있음
+MSG_WEAPON_INF_60	'용족'을 상대할 때 유용한 채찍.\n적을 '마비' 시키는 경우가 있음
+MSG_WEAPON_INF_61	드워프가 애용하는 투척 도끼
+MSG_WEAPON_INF_62	'거인족'을 상대할 때 유용한 거대 도끼
+MSG_WEAPON_INF_63	적을 '중독' 시키는 경우가 있는 양손도끼.\n사용 시 '포이즌' 효과
+MSG_WEAPON_INF_64	'마법사'를 상대할 때 유용한 양손도끼
+MSG_WEAPON_INF_65	닌자가 사용하는 '던지기' 전용 무기
+MSG_WEAPON_INF_66	닌자가 사용하는 '던지기' 전용 무기
+MSG_WEAPON_INF_67	나무로 만든 투척 무기
+MSG_WEAPON_INF_68	금속으로 만든 투척 무기
+MSG_WEAPON_INF_69	잠이 솔솔 오는 선율을 연주하는 하프.\n적을 '수면' 시키는 경우가 있음
+MSG_WEAPON_INF_70	유혹의 선율을 연주하는 하프.\n적을 '혼란' 시키는 경우가 있음
+MSG_WEAPON_INF_71	'기계'를 상대할 때 유용한 나무 해머
+MSG_WEAPON_INF_72	'영혼체'와 '기계'를 상대할 때 유용한 미스릴 해머
+MSG_WEAPON_INF_73	'화염'의 힘을 둘러서 '기계'를 상대할 때 유용한 해머.\n사용 시 '퀘이크' 효과
+MSG_WEAPON_INF_74	일반적인 활
+MSG_WEAPON_INF_75	수렵용 활
+MSG_WEAPON_INF_76	전투용 활
+MSG_WEAPON_INF_77	살상 능력이 높은 활
+MSG_WEAPON_INF_78	'마법사'를 상대할 때 유용한 엘프가 만든 활.\n사용 시 '셸' 효과
+MSG_WEAPON_INF_79	이국의 활의 명수가 사용했다는 활
+MSG_WEAPON_INF_80	달의 여신의 이름을 붙인 활
+MSG_WEAPON_INF_81	철로 만든 화살
+MSG_WEAPON_INF_82	'신성'의 힘을 두른 화살
+MSG_WEAPON_INF_83	'화염'의 힘을 두른 화살
+MSG_WEAPON_INF_84	'냉기'의 힘을 두른 화살
+MSG_WEAPON_INF_85	'번개'의 힘을 두른 화살
+MSG_WEAPON_INF_86	적을 '실명' 시키는 경우가 있는 화살
+MSG_WEAPON_INF_87	적을 '중독' 시키는 경우가 있는 화살
+MSG_WEAPON_INF_88	적을 '침묵' 시키는 경우가 있는 화살.\n'마법사'를 상대할 때 유용함
+MSG_WEAPON_INF_89	적을 '혼란' 시키는 경우가 있는 화살.\n'거인족'을 상대할 때 유용함
+MSG_WEAPON_INF_90	이국의 활의 명수가 사용했다는 화살
+MSG_WEAPON_INF_91	적을 '석화' 시키는 경우가 있는 화살
+MSG_WEAPON_INF_92	달의 여신의 이름을 붙인 화살.\n'용족'을 상대할 때 유용함
+MSG_WEAPON_INF_99	Legendary holy sword. (NOT)
+MSG_WEAPON_INF_100	Holy sword useful against flan creatures.
+MSG_WEAPON_INF_101	Holy sword immersed in holy power.
+MSG_WEAPON_INF_102	Stick that can turn the enemy into a pig.
+MSG_WEAPON_INF_103	Legendary spear with the power of wind.
+MSG_WEAPON_INF_104	Axe that has the chance to poison the enemy.
+MSG_WEAPON_INF_105	Bow said to have been used by a legendary hero.
+MSG_WEAPON_INF_106	Arrow that sometimes confuses an enemy.
+MSG_WEAPON_INF_107	Whip immersed in holy power.
+MSG_WEAPON_INF_108	Short sword with the power of water.
+MSG_WEAPON_INF_109	Dagger that has a chance to kill with one blow.
+MSG_WEAPON_INF_110	Legendary katana of ninjas.
+MSG_WEAPON_INF_111	Illusionary sword.
+MSG_WEAPON_INF_112	Pile of rusty scrap metal.
+MSG_WEAPON_INF_113	The ultimate thrown weapon.
+MSG_WEAPON_INF_114	Claw that sometimes paralyzes the enemy.
+MSG_WEAPON_INF_115	Claw effective against dragons.
+MSG_WEAPON_INF_116	Claw immersed in holy power.
+MSG_WEAPON_INF_117	Hammer that holds the power of lightning.
+MSG_WEAPON_INF_118	Hammer with the power of heat.
+MSG_WEAPON_INF_119	Rod immersed in holy power.
+MSG_WEAPON_INF_120	Staff with the power of healing.
+MSG_WEAPON_INF_121	Staff with the power of reflection.
+MSG_WEAPON_INF_122	Harp immersed in the power of the sun.
+MSG_WEAPON_INF_123	Lute that can release one's soul.
+MSG_WEAPON_INF_124	The ultimate lute.
+MSG_WEAPON_INF_125	A blood sword that a Dark Knight can really take advantage of.
+MSG_WEAPON_INF_126	Cecil's brother's sword enhances a dark knight Cecil.
+MSG_WEAPON_INF_127	An amazingly efficient blood sword... but it comes at a cost.
+MSG_WEAPON_INF_128	The ultimate sword of anger that makes even Zeromus jealous.  Casts Mega Flare when used in battle.
+MSG_WEAPON_INF_129	A sword from a faraway land that anyone can equip, as another randomizer has proven.
+MSG_WEAPON_INF_130	When finished with this rando, take Kain to the FF3 world and speedrun with this spear!
+MSG_WEAPON_INF_131	If you thought Tellah was miffed when he defeated Golbez... Casts Double Meteor when used in battle.
+MSG_ARMOR_INF_01	철로 만든 방패
+MSG_ARMOR_INF_02	매우 사악한 기운이 담긴 방패
+MSG_ARMOR_INF_03	악마가 소유했었다는 방패
+MSG_ARMOR_INF_04	'언데드'의 공격에 강한 방패
+MSG_ARMOR_INF_05	'영혼체'의 공격에 강한 미스릴 재질 방패
+MSG_ARMOR_INF_06	'화염'의 힘을 두른 방패.\n냉기에 강하고 화염에 약함
+MSG_ARMOR_INF_07	'냉기'의 힘을 두른 방패.\n화염에 강하고 냉기에 약함
+MSG_ARMOR_INF_08	'번개'에 강한 방패
+MSG_ARMOR_INF_09	'석화' 상태를 막는 방패.\n'마법사'의 공격에 강함
+MSG_ARMOR_INF_10	이국에서 사용하던 방패
+MSG_ARMOR_INF_11	'화염', '냉기', '번개'에 강한 방패.\n'용족'의 공격에 강함
+MSG_ARMOR_INF_12	'언데드'의 공격에 강한 방패
+MSG_ARMOR_INF_13	철로 만든 투구
+MSG_ARMOR_INF_14	매우 사악한 기운이 담긴 투구
+MSG_ARMOR_INF_15	악마가 소유했었다는 투구
+MSG_ARMOR_INF_16	악마가 씌어 있다는 투구
+MSG_ARMOR_INF_17	'언데드'의 공격에 강한 투구
+MSG_ARMOR_INF_18	'영혼체'의 공격에 강한 미스릴 재질 투구
+MSG_ARMOR_INF_19	'번개'에 강한 투구
+MSG_ARMOR_INF_20	이국에서 사용하던 투구
+MSG_ARMOR_INF_21	'화염', '냉기', '번개'에 강한 투구.\n'용족'의 공격에 강함
+MSG_ARMOR_INF_22	'화염', '냉기', '번개'에 강한 투구.\n'언데드'의 공격에 강함
+MSG_ARMOR_INF_23	가죽으로 만든 모자
+MSG_ARMOR_INF_24	실크로 만든 가벼운 모자
+MSG_ARMOR_INF_25	특수한 실로 만든 모자
+MSG_ARMOR_INF_26	신성한 실로 만든 모자.\n'언데드'의 공격에 강함
+MSG_ARMOR_INF_27	'번개'에 강한 머리 장식.\n'용족'의 공격에 강함
+MSG_ARMOR_INF_28	각종 상태 이상을 막는 리본.\n'마법사'의 공격에 강함
+MSG_ARMOR_INF_29	'혼란' 상태를 막는 머리띠
+MSG_ARMOR_INF_30	마력이 담긴 모자
+MSG_ARMOR_INF_31	'수면' 상태를 막는 두건
+MSG_ARMOR_INF_32	유리로 만든 마스크
+MSG_ARMOR_INF_33	철로 만든 갑옷
+MSG_ARMOR_INF_34	매우 사악한 기운이 담긴 갑옷
+MSG_ARMOR_INF_35	악마가 소유했었다는 갑옷
+MSG_ARMOR_INF_36	악마가 씌어 있다는 갑옷
+MSG_ARMOR_INF_37	'언데드'의 공격에 강한 갑옷
+MSG_ARMOR_INF_38	'영혼체'의 공격에 강한 미스릴 재질 갑옷
+MSG_ARMOR_INF_39	'화염'의 힘을 두른 갑옷.\n냉기에 강하고 화염에 약함
+MSG_ARMOR_INF_40	'냉기'의 힘을 두른 갑옷.\n화염에 강하고 냉기에 약함
+MSG_ARMOR_INF_41	'번개'에 강한 갑옷
+MSG_ARMOR_INF_42	이국에서 사용하던 갑옷
+MSG_ARMOR_INF_43	'화염', '냉기', '번개'에 강한 갑옷.\n'용족'의 공격에 강함
+MSG_ARMOR_INF_44	각종 상태 이상을 막는 갑옷.\n'언데드'의 공격에 강함
+MSG_ARMOR_INF_45	일반적인 옷
+MSG_ARMOR_INF_46	가죽으로 만든 옷
+MSG_ARMOR_INF_47	'서서히 석화' 상태를 막는 옷
+MSG_ARMOR_INF_48	신성한 실로 만든 로브
+MSG_ARMOR_INF_49	흑마법 사용자용 로브
+MSG_ARMOR_INF_50	'번개'에 강한 로브.\n'언데드'의 공격에 강함
+MSG_ARMOR_INF_51	백마법 사용자용 로브.\n'실명' 방지
+MSG_ARMOR_INF_52	특수한 실로 만든 어깨띠
+MSG_ARMOR_INF_53	천계의 여신이 소유했었다는 옷.\n'마비' 방지
+MSG_ARMOR_INF_54	'수면' 상태를 막는 옷
+MSG_ARMOR_INF_55	'침묵' 상태를 막는 옷
+MSG_ARMOR_INF_56	격투가가 애용하는 옷
+MSG_ARMOR_INF_57	가볍고 움직이기 편한 이국의 옷
+MSG_ARMOR_INF_58	각종 상태 이상을 막는 아다만타이트 갑옷.\n'화염', '냉기', '번개'에 강함
+MSG_ARMOR_INF_59	검은색 일색인 이국의 옷
+MSG_ARMOR_INF_60	철로 만든 팔 보호대
+MSG_ARMOR_INF_61	매우 사악한 기운이 담긴 팔 보호대
+MSG_ARMOR_INF_62	악마가 소유했었다는 팔 보호대
+MSG_ARMOR_INF_63	악마가 씌어 있다는 팔 보호대
+MSG_ARMOR_INF_64	'언데드'의 공격에 강한 팔 보호대
+MSG_ARMOR_INF_65	'영혼체'의 공격에 강한 미스릴 재질 팔 보호대
+MSG_ARMOR_INF_66	'번개'에 강한 팔 보호대
+MSG_ARMOR_INF_67	'소인' 상태를 막는 팔 보호대.\n'거인족'의 공격에 강함
+MSG_ARMOR_INF_68	이국에서 사용하는 팔 보호대
+MSG_ARMOR_INF_69	'화염', '냉기', '번개'에 강한 팔 보호대.\n'용족'의 공격에 강함
+MSG_ARMOR_INF_70	'언데드'의 공격에 강한 팔 보호대
+MSG_ARMOR_INF_71	철로 만든 팔찌
+MSG_ARMOR_INF_72	'돼지' 상태를 막는 반지
+MSG_ARMOR_INF_73	'영혼체'의 공격에 강한 팔찌
+MSG_ARMOR_INF_74	격투가의 힘을 고양하는 손목띠
+MSG_ARMOR_INF_75	'침묵' 상태를 막는 팔찌.\n'마법사'의 공격에 강함
+MSG_ARMOR_INF_76	'혼란', '수면', '마비' 상태를 막는 팔찌.\n'용족'의 공격에 강함
+MSG_ARMOR_INF_77	'번개'에 강한 팔찌
+MSG_ARMOR_INF_78	'화염', '냉기', '번개'에 강한 반지
+MSG_ARMOR_INF_79	방어구의 속성을 강화하는 저주 받은 반지
+MSG_ARMOR_INF_80	Armor resistant against lightning.
+MSG_ARMOR_INF_81	Armor of the legendary dragoon.
+MSG_ARMOR_INF_82	Armor made in worship of an ancient leader.
+MSG_ARMOR_INF_83	Armor made by great blacksmiths.
+MSG_ARMOR_INF_84	Jacket resistant against fire.
+MSG_ARMOR_INF_85	Suit that prevents Curse.
+MSG_ARMOR_INF_86	Chocobo suit that prevents poison.
+MSG_ARMOR_INF_87	Cat suit that prevents poison.
+MSG_ARMOR_INF_88	Gear that prevents Curse, Pig, and Toad.
+MSG_ARMOR_INF_89	Vest that prevents Poison, Petrify, and Paralyze.
+MSG_ARMOR_INF_90	Vest resistant against all attributes.
+MSG_ARMOR_INF_91	Robe that prevents silence.
+MSG_ARMOR_INF_92	Robe resistant against fire, ice, and lightning.
+MSG_ARMOR_INF_93	Robe resistant against magic.
+MSG_ARMOR_INF_94	Dress of purity that is resistant against undead.
+MSG_ARMOR_INF_95	Shield that can only be equipped by true heroes.
+MSG_ARMOR_INF_96	Shield found after making a deal with a Fat Chocobo.  Resistant to Confuse.
+MSG_ARMOR_INF_97	Crown that prevents Toad, Mini, and Pig.
+MSG_ARMOR_INF_98	Hood resistant against ice.
+MSG_ARMOR_INF_99	Mask that prevents Paralyze.
+MSG_ARMOR_INF_100	Hat resistant against fire.
+MSG_ARMOR_INF_101	Discovered after seven trading cards were collected.  Resistant to many conditions.
+MSG_ARMOR_INF_102	Rosa's special hat.  Resists Sleep, Silvence, Confuse, and Pig.
+MSG_ARMOR_INF_103	Rydia's special hat.  Resists Silence, Confuse, and Mini.
+MSG_ARMOR_INF_104	Edward's special crown.  Resistant Poison, Petrify, Silence, and Confuse.
+MSG_ARMOR_INF_105	Yang's special mask.  Resistant to sleep.
+MSG_ARMOR_INF_106	Palom's special hat.  Resists Mini, Toad, and Pig.
+MSG_ARMOR_INF_107	Porom's special hat.  Resists Mini, Toad, and Pig.
+MSG_ARMOR_INF_108	Helm resistant against lightning.
+MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
+MSG_ARMOR_INF_110	Kain's special helmet.
+MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
+MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ITEM_INF_01	'파이어'와 같은 효과를 내는 아이템
+MSG_ITEM_INF_02	'파이라'와 같은 효과를 내는 아이템
+MSG_ITEM_INF_03	'블리자드'와 같은 효과를 내는 돌
+MSG_ITEM_INF_04	'블리자라'와 같은 효과를 내는 돌
+MSG_ITEM_INF_05	'선더'와 같은 효과를 내는 조각상
+MSG_ITEM_INF_06	'선더라'와 같은 효과를 내는 조각상
+MSG_ITEM_INF_07	'프티 메테오'와 같은 효과를 내는 모래
+MSG_ITEM_INF_08	'아스필'과 같은 효과를 내는 조각상
+MSG_ITEM_INF_09	'드레인'과 같은 효과를 내는 송곳니
+MSG_ITEM_INF_10	'버서크'와 같은 효과를 내는 술
+MSG_ITEM_INF_11	'헤이스트'와 같은 효과를 내는 신발
+MSG_ITEM_INF_12	'스톱'과 같은 효과를 내는 시계
+MSG_ITEM_INF_13	'스톱'과 같은 효과를 내는 시계.\n지속 시간이 김
+MSG_ITEM_INF_14	'스톱'과 같은 효과를 내는 시계.\n지속 시간이 매우 김
+MSG_ITEM_INF_15	'슬로우'와 같은 효과가 있는 실
+MSG_ITEM_INF_16	'블링크'와 같은 효과가 있는 인형
+MSG_ITEM_INF_17	화염으로 피해를 주는 드래곤의 엄니
+MSG_ITEM_INF_18	냉기로 피해를 주는 드래곤의 엄니
+MSG_ITEM_INF_19	번개로 피해를 주는 드래곤의 엄니
+MSG_ITEM_INF_20	'리플렉'과 같은 효과가 있는 장막
+MSG_ITEM_INF_21	사용자의 목숨과 맞바꾸어 피해를 주는 아이템
+MSG_ITEM_INF_22	직접 공격 무효 배리어와 '리플렉' 효과가 있는 장막
+MSG_ITEM_INF_23	'사일레스'와 같은 효과가 있는 종
+MSG_ITEM_INF_24	'퀘이크'와 같은 효과가 있는 북
+MSG_ITEM_INF_25	성스럽게 빛나는 크리스탈
+MSG_ITEM_INF_26	'데스'와 같은 효과가 있는 수염
+MSG_ITEM_INF_27	소환수를 불러내는 책.\n무엇이 나올지는 사용할 때 알 수 있음
+MSG_ITEM_INF_28	'라이브라'와 같은 효과가 있는 도감
+MSG_ITEM_INF_29	아군 전원의 '수면' 상태를 회복하는 시계
+MSG_ITEM_INF_30	아군 전원의 '수면', '마비', '혼란', '광전사' 상태를 회복하는 뿔
+MSG_ITEM_INF_31	HP 회복
+MSG_ITEM_INF_32	HP 회복
+MSG_ITEM_INF_33	HP 회복
+MSG_ITEM_INF_34	MP 회복
+MSG_ITEM_INF_35	MP 회복
+MSG_ITEM_INF_36	HP 및 MP 완전 회복
+MSG_ITEM_INF_37	'전투 불능' 상태 회복
+MSG_ITEM_INF_38	'석화' 상태 해제
+MSG_ITEM_INF_39	'개구리' 상태 해제
+MSG_ITEM_INF_40	'소인' 상태 해제
+MSG_ITEM_INF_41	'돼지' 상태 해제
+MSG_ITEM_INF_42	'침묵' 상태 치료
+MSG_ITEM_INF_43	'실명' 상태 치료
+MSG_ITEM_INF_44	'중독' 상태 해제
+MSG_ITEM_INF_45	'저주' 상태 해제
+MSG_ITEM_INF_46	'전투 불능'을 제외한 상태 이상 회복
+MSG_ITEM_INF_47	마물을 불러 모으는 경보기
+MSG_ITEM_INF_48	최대 HP 100 상승
+MSG_ITEM_INF_49	최대 HP 50 상승
+MSG_ITEM_INF_50	최대 MP 10 상승
+MSG_ITEM_INF_51	전원의 HP 및 MP 회복.\n야외에서 사용 가능
+MSG_ITEM_INF_52	전원의 HP 및 MP 완전 회복.\n야외에서 사용 가능
+MSG_ITEM_INF_54	던전에서 바로 탈출 가능
+MSG_ITEM_INF_55	'사이트로'와 같은 효과가 있는 빵
+MSG_ITEM_INF_56	(RYDIA)<josa(이,가)> '고블린' 습득
+MSG_ITEM_INF_57	(RYDIA)<josa(이,가)> '봄' 습득
+MSG_ITEM_INF_58	(RYDIA)<josa(이,가)> '코카트리스' 습득
+MSG_ITEM_INF_59	(RYDIA)<josa(이,가)> '마인드 플레이어' 습득
+MSG_ITEM_INF_60	뚱보 초코보가 매우 좋아하는 야채.\n초코보 냄새가 나는 곳에서 사용하면…?
+MSG_ITEM_INF_61	뚱보 초코보를 불러내는 피리
+MSG_KEY_INF_01	술집 '임금님'의 회원이라는 증표
+MSG_KEY_INF_02	바론 왕이 준 반지
+MSG_KEY_INF_03	바론에 있는 문을 열기 위한 열쇠
+MSG_KEY_INF_04	고열병을 치료하는 약
+MSG_KEY_INF_05	대지에 은혜를 내리는 크리스탈
+MSG_KEY_INF_06	마그마의 힘이 봉인된 돌
+MSG_KEY_INF_07	루카가 가지고 있던 목걸이
+MSG_KEY_INF_08	소리를 멀리 전달하는 신기한 풀
+MSG_KEY_INF_09	지하 세계의 크리스탈
+MSG_KEY_INF_10	용기를 증명하는 쥐 꼬리
+MSG_KEY_INF_11	매우 단단하고 귀한 금속
+MSG_KEY_INF_12	사랑이 담긴 프라이팬
+MSG_KEY_INF_13	분홍색을 띤 꼬리
+MSG_KEY_INF_14	르게이에가 가지고 있던 열쇠
+MSG_KEY_INF_15	????
+MSG_KEY_INF_16	Turn this in to stay at the Kaipo Inn for free!
+MSG_KEY_INF_17	Used to move hovercrafts!
+MSG_KEY_INF_18	A tail not commonly found in Pixel Remaster...
+MSG_KEY_INF_24	Apparently you can use this to effectively throw monsters away...
+MSG_KEY_INF_25	This shard slightly shimmers...
+MSG_MON_NAME_01	고블린
+MSG_MON_NAME_02	바실리스크
+MSG_MON_NAME_03	다이브 이글
+MSG_MON_NAME_04	플로타이볼
+MSG_MON_NAME_05	인섹터스
+MSG_MON_NAME_06	페이스 배트
+MSG_MON_NAME_07	우드 아이즈
+MSG_MON_NAME_08	소드 래트
+MSG_MON_NAME_09	미니 매지션
+MSG_MON_NAME_10	데저트 사하긴
+MSG_MON_NAME_11	플라잉 아이
+MSG_MON_NAME_12	헌드레그
+MSG_MON_NAME_13	샌드 웜
+MSG_MON_NAME_14	기간토드
+MSG_MON_NAME_15	팽 셸
+MSG_MON_NAME_16	좀비
+MSG_MON_NAME_17	플라이 킬러
+MSG_MON_NAME_18	블러드 플라워
+MSG_MON_NAME_19	오거니토드
+MSG_MON_NAME_20	레드 마시멜로
+MSG_MON_NAME_21	옐로 젤리
+MSG_MON_NAME_22	사하긴
+MSG_MON_NAME_23	레시
+MSG_MON_NAME_24	크리설리스
+MSG_MON_NAME_25	고블린 캡
+MSG_MON_NAME_26	검은 도마뱀
+MSG_MON_NAME_27	아다만타이마이
+MSG_MON_NAME_28	도모보이
+MSG_MON_NAME_29	퍼플 바바루아
+MSG_MON_NAME_30	바론군 병사
+MSG_MON_NAME_31	제너럴
+MSG_MON_NAME_32	개틀링어
+MSG_MON_NAME_33	릴 머더
+MSG_MON_NAME_34	데스 뷰티
+MSG_MON_NAME_35	스피릿
+MSG_MON_NAME_36	스켈레톤
+MSG_MON_NAME_37	코카트리스
+MSG_MON_NAME_38	가고일
+MSG_MON_NAME_39	루드라 베이비
+MSG_MON_NAME_40	벨페고르
+MSG_MON_NAME_41	즈
+MSG_MON_NAME_42	시 포츠
+MSG_MON_NAME_43	앨리게이터
+MSG_MON_NAME_44	스플래셔
+MSG_MON_NAME_45	바론군 수병
+MSG_MON_NAME_46	캡틴
+MSG_MON_NAME_47	소울
+MSG_MON_NAME_48	블러디본
+MSG_MON_NAME_49	구울
+MSG_MON_NAME_50	스컬저
+MSG_MON_NAME_51	레버넌트
+MSG_MON_NAME_52	드라큘레이디
+MSG_MON_NAME_53	엘라파트라
+MSG_MON_NAME_54	스컬 드래곤
+MSG_MON_NAME_55	번개어
+MSG_MON_NAME_56	기가스게이터
+MSG_MON_NAME_57	히드라
+MSG_MON_NAME_58	플러드 웜
+MSG_MON_NAME_59	바론군 근위병
+MSG_MON_NAME_60	라미아
+MSG_MON_NAME_61	헬 니들
+MSG_MON_NAME_62	트윈 스네이크
+MSG_MON_NAME_63	번개 정령
+MSG_MON_NAME_64	마인드 플레이어
+MSG_MON_NAME_65	나가
+MSG_MON_NAME_66	오거
+MSG_MON_NAME_67	캐트시
+MSG_MON_NAME_68	블랙 나이트
+MSG_MON_NAME_69	켄타우로 나이트
+MSG_MON_NAME_70	미스 뱀파이어
+MSG_MON_NAME_71	마리오네이터
+MSG_MON_NAME_72	마리온
+MSG_MON_NAME_73	글룸 윙
+MSG_MON_NAME_74	데스터네츠
+MSG_MON_NAME_75	마리드
+MSG_MON_NAME_76	사타나이트
+MSG_MON_NAME_77	암드 마멀
+MSG_MON_NAME_78	레이디 거더
+MSG_MON_NAME_79	유령 기사
+MSG_MON_NAME_80	나가라자
+MSG_MON_NAME_81	메두사
+MSG_MON_NAME_82	사우루스 좀비
+MSG_MON_NAME_83	마그만토터스
+MSG_MON_NAME_85	드림 이블
+MSG_MON_NAME_86	봄
+MSG_MON_NAME_87	페이니 봄
+MSG_MON_NAME_88	키메라
+MSG_MON_NAME_89	헬 터틀
+MSG_MON_NAME_90	아이언 드레스
+MSG_MON_NAME_91	플레임 도그
+MSG_MON_NAME_92	고르곤
+MSG_MON_NAME_93	스톤 골렘
+MSG_MON_NAME_94	릴리스
+MSG_MON_NAME_95	마더 라미아
+MSG_MON_NAME_96	토디 토드
+MSG_MON_NAME_97	모르스
+MSG_MON_NAME_98	루드라
+MSG_MON_NAME_99	소서러
+MSG_MON_NAME_100	버서 오거
+MSG_MON_NAME_101	프라우드 퍼펫
+MSG_MON_NAME_102	블러디 배트
+MSG_MON_NAME_103	아라크네
+MSG_MON_NAME_104	플레임 나이트
+MSG_MON_NAME_105	기계포
+MSG_MON_NAME_106	리메디 봄
+MSG_MON_NAME_107	다크 그레네이드
+MSG_MON_NAME_108	플레이그
+MSG_MON_NAME_109	라스트 암
+MSG_MON_NAME_110	커얼
+MSG_MON_NAME_111	기계용
+MSG_MON_NAME_112	아라우네
+MSG_MON_NAME_113	프라크티
+MSG_MON_NAME_114	언더그라운더
+MSG_MON_NAME_115	어비스 웜
+MSG_MON_NAME_116	블러디 레드
+MSG_MON_NAME_117	미스리더
+MSG_MON_NAME_118	브리즈 리자드
+MSG_MON_NAME_119	헬 플래퍼
+MSG_MON_NAME_120	이블 헤드
+MSG_MON_NAME_121	브리즈 비스트
+MSG_MON_NAME_122	소환사
+MSG_MON_NAME_123	소서레이디
+MSG_MON_NAME_124	어설트 도어
+MSG_MON_NAME_125	토디 위치
+MSG_MON_NAME_126	마몬
+MSG_MON_NAME_127	키메라 브레인
+MSG_MON_NAME_128	루나 바이러스
+MSG_MON_NAME_129	제무스 브레스
+MSG_MON_NAME_130	화이트 무스
+MSG_MON_NAME_131	블랙 푸딩
+MSG_MON_NAME_132	제무스 마인드
+MSG_MON_NAME_133	미스릴 골렘
+MSG_MON_NAME_134	그린 드래곤
+MSG_MON_NAME_135	푸딩 프린세스
+MSG_MON_NAME_136	아이즈
+MSG_MON_NAME_137	기계병
+MSG_MON_NAME_138	거인병
+MSG_MON_NAME_139	달의 여신
+MSG_MON_NAME_140	몰볼
+MSG_MON_NAME_141	은룡
+MSG_MON_NAME_142	옐로 드래곤
+MSG_MON_NAME_143	사타나 주니어
+MSG_MON_NAME_144	유캐리오트
+MSG_MON_NAME_145	페이즈
+MSG_MON_NAME_146	철기병
+MSG_MON_NAME_147	마인병
+MSG_MON_NAME_148	스틸 골렘
+MSG_MON_NAME_149	아리만
+MSG_MON_NAME_150	루나사우루스
+MSG_MON_NAME_151	서쳐
+MSG_MON_NAME_152	암흑마도사
+MSG_MON_NAME_153	다크 바하무트
+MSG_MON_NAME_154	프로캐리오트
+MSG_MON_NAME_155	타이달리어선
+MSG_MON_NAME_156	블루 드래곤
+MSG_MON_NAME_157	금룡
+MSG_MON_NAME_158	뇌룡
+MSG_MON_NAME_159	백룡
+MSG_MON_NAME_160	레드 드래곤
+MSG_MON_NAME_161	베히모스
+MSG_MON_NAME_162	미스트 드래곤
+MSG_MON_NAME_163	옥토맘모스
+MSG_MON_NAME_164	앤트리온
+MSG_MON_NAME_165	마더 봄
+MSG_MON_NAME_166	스카르밀리오네
+MSG_MON_NAME_167	베이건
+MSG_MON_NAME_168	오른팔
+MSG_MON_NAME_169	왼팔
+MSG_MON_NAME_170	카냐초
+MSG_MON_NAME_171	다크 엘프
+MSG_MON_NAME_172	도그
+MSG_MON_NAME_173	마그
+MSG_MON_NAME_174	라그
+MSG_MON_NAME_175	골베자
+MSG_MON_NAME_176	바르바리치아
+MSG_MON_NAME_177	카르코
+MSG_MON_NAME_178	카르코브리나
+MSG_MON_NAME_179	흑룡
+MSG_MON_NAME_180	박사
+MSG_MON_NAME_181	바르나바
+MSG_MON_NAME_182	르게이에
+MSG_MON_NAME_183	에블라나 왕
+MSG_MON_NAME_184	에블라나 왕비
+MSG_MON_NAME_185	루비칸테
+MSG_MON_NAME_186	오딘
+MSG_MON_NAME_187	리바이어선
+MSG_MON_NAME_188	바하무트
+MSG_MON_NAME_189	데몬즈 월
+MSG_MON_NAME_190	아슈라
+MSG_MON_NAME_191	사천왕
+MSG_MON_NAME_192	다크 드래곤
+MSG_MON_NAME_193	사하긴
+MSG_MON_NAME_194	제어 시스템
+MSG_MON_NAME_195	방어 시스템
+MSG_MON_NAME_196	제무스
+MSG_MON_NAME_197	제로무스
+MSG_MON_NAME_198	용기사
+MSG_MON_NAME_199	음유시인
+MSG_MON_NAME_200	몽크
+MSG_MON_NAME_201	암흑기사
+MSG_MON_NAME_202	여자아이
+MSG_MON_NAME_204	플로타이볼
+MSG_MON_NAME_205	즈
+MSG_MON_NAME_206	브리나
+MSG_MON_NAME_207	스컬넌트
+MSG_MON_NAME_208	합체 로봇
+MSG_MON_NAME_209	요격 시스템
+MSG_MON_NAME_210	미스터레그
+MSG_MON_NAME_211	스카르밀리오네 2
+MSG_MON_NAME_212	카냐초 2
+MSG_MON_NAME_213	바르바리치아 2
+MSG_MON_NAME_214	루비칸테 2
+MSG_LOCATION_STICK	(AREA_NAME) (MAP_NAME)
+MSG_LOCATION_STICK_01	(AREA_NAME)
+MSG_LOCATION_STICK_02	(MAP_NAME)
+MSG_MAP_NAME_01	지상 세계
+MSG_MAP_NAME_02	지하 세계
+MSG_MAP_NAME_03	달
+MSG_MAP_NAME_04	바론성
+MSG_MAP_NAME_05	바론
+MSG_MAP_NAME_06	오아시스 마을 카이포
+MSG_MAP_NAME_07	담시안성
+MSG_MAP_NAME_08	파블성
+MSG_MAP_NAME_09	미시디아
+MSG_MAP_NAME_10	미스트 마을
+MSG_MAP_NAME_11	미스릴 마을
+MSG_MAP_NAME_12	에블라나성
+MSG_MAP_NAME_13	트로이아
+MSG_MAP_NAME_14	트로이아성
+MSG_MAP_NAME_15	아가르트
+MSG_MAP_NAME_16	아다만섬 동굴
+MSG_MAP_NAME_17	드워프성
+MSG_MAP_NAME_18	토메라
+MSG_MAP_NAME_19	쿠쿠로의 집
+MSG_MAP_NAME_20	허밍웨이의 거주지
+MSG_MAP_NAME_21	달의 주민의 전당
+MSG_MAP_NAME_23	초코보 마을
+MSG_MAP_NAME_24	지하 수맥
+MSG_MAP_NAME_25	앤트리온 동굴
+MSG_MAP_NAME_26	홉스산
+MSG_MAP_NAME_27	시련의 산
+MSG_MAP_NAME_28	옛 수로
+MSG_MAP_NAME_29	자력 동굴
+MSG_MAP_NAME_30	조트탑
+MSG_MAP_NAME_31	바빌탑
+MSG_MAP_NAME_32	에블라나 동굴
+MSG_MAP_NAME_33	실프 동굴
+MSG_MAP_NAME_34	환수 동굴
+MSG_MAP_NAME_35	환수 마을
+MSG_MAP_NAME_36	봉인의 동굴
+MSG_MAP_NAME_37	달의 지하 통로
+MSG_MAP_NAME_38	환수신의 동굴
+MSG_MAP_NAME_39	바빌의 거인
+MSG_MAP_NAME_40	달의 지하 계곡
+MSG_MAP_NAME_41	미스트 동굴
+MSG_MAP_NAME_47	트레이닝 룸
+MSG_MAP_NAME_48	기원의 관
+MSG_MAP_NAME_87	기원의 탑
+MSG_MAP_NAME_54	드워프 기지
+MSG_MAP_NAME_56	지하로 통하는 폭포
+MSG_MAP_NAME_59	앤트리온 둥지
+MSG_MAP_NAME_60	바빌탑으로 통하는 샛길
+MSG_MAP_NAME_63	거인의 입
+MSG_MAP_NAME_64	거인의 목
+MSG_MAP_NAME_65	거인의 가슴
+MSG_MAP_NAME_66	거인의 배
+MSG_MAP_NAME_67	거인 내부 통로
+MSGARA_NAME_36	거인 내부 웰홀 통로
+MSGARA_NAME_39	거인 제어 장치
+MSG_MAP_NAME_69	에블라나 마을
+MSG_MAP_NAME_70	초코보 숲(바론)
+MSG_MAP_NAME_71	초코보 숲(파블)
+MSG_MAP_NAME_72	초코보 숲(미시디아)
+MSG_MAP_NAME_73	초코보 숲(트로이아)
+MSG_MAP_NAME_74	초코보 숲(남쪽 바다 외딴섬)
+MSG_MAP_NAME_75	실프의 집
+MSG_MAP_NAME_76	지하 호수
+MSG_MAP_NAME_77	미스트 동굴 남쪽 출구
+MSG_MAP_NAME_78	미스트 동굴 북쪽 출구
+MSG_MAP_NAME_79	지하 수맥 남쪽 출구
+MSG_MAP_NAME_80	지하 수맥 북쪽 출구
+MSG_MAP_NAME_81	홉스산 서쪽 출구
+MSG_MAP_NAME_82	홉스산 동쪽 출구
+MSG_MAP_NAME_83	달의 지하 통로(서편) 남쪽 출구
+MSG_MAP_NAME_84	달의 지하 통로(서편) 북쪽 출구
+MSG_MAP_NAME_85	달의 지하 통로(동편) 북쪽 출구
+MSG_MAP_NAME_86	달의 지하 통로(동편) 남쪽 출구
+MSG_MAP_NAME_88	달의 지하 통로(동편)
+MSG_MAP_NAME_89	달의 지하 통로(서편)
+MSGARA_NAME_09	크리스탈 룸
+MSGARA_NAME_10	데빌 로드
+MSGARA_NAME_01	여관
+MSGARA_NAME_02	술집
+MSGARA_NAME_03	술집 2층
+MSGARA_NAME_04	여관&도구 상점
+MSGARA_NAME_05	도구 상점
+MSGARA_NAME_06	무기 상점
+MSGARA_NAME_07	방어구 상점
+MSGARA_NAME_08	무기&방어구 상점
+MSGARA_NAME_11	왼쪽 탑 1층
+MSGARA_NAME_12	왼쪽 탑 2층
+MSGARA_NAME_13	왼쪽 탑 3층
+MSGARA_NAME_14	오른쪽 탑 1층
+MSGARA_NAME_15	오른쪽 탑 2층
+MSGARA_NAME_16	오른쪽 탑 3층
+MSGARA_NAME_17	오른쪽 탑 지하 1층
+MSGARA_NAME_18	오른쪽 탑 지하 2층
+MSGARA_NAME_19	비밀 방
+MSGARA_NAME_20	1층
+MSGARA_NAME_21	2층
+MSGARA_NAME_22	3층
+MSGARA_NAME_23	4층
+MSGARA_NAME_24	5층
+MSGARA_NAME_25	6층
+MSGARA_NAME_26	7층
+MSGARA_NAME_27	지하 1층
+MSGARA_NAME_28	지하 2층
+MSGARA_NAME_29	지하 3층
+MSGARA_NAME_30	지하 4층
+MSGARA_NAME_31	지하 5층
+MSGARA_NAME_32	지하 6층
+MSGARA_NAME_33	지하 7층
+MSGARA_NAME_34	3부 능선
+MSGARA_NAME_35	7부 능선
+MSGARA_NAME_37	알현실
+MSGARA_NAME_38	정상
+MSGARA_NAME_40	서쪽 출구
+MSGARA_NAME_41	지하 통로
+MSGARA_NAME_42	지하 감옥
+MSGARA_NAME_43	지하 세계 1층
+MSGARA_NAME_44	지하 세계 2층
+MSGARA_NAME_45	지하 세계 3층
+MSGARA_NAME_46	지하 세계 4층
+MSGARA_NAME_47	지하 세계 5층
+MSGARA_NAME_48	지하 세계 6층
+MSGARA_NAME_49	지하 세계 7층
+MSGARA_NAME_50	지하 세계 8층
+MSGARA_NAME_51	동쪽 출구
+MSGARA_NAME_52	남쪽 출구
+MSGARA_NAME_53	입구
+MSGARA_NAME_54	북쪽 출구
+MSGARA_NAME_55	감옥
+MSGARA_NAME_56	감옥 지하 1층
+MSGARA_NAME_57	5부 능선
+MSGARA_NAME_58	지하 8층
+MSGARA_NAME_59	지하 9층
+MSGARA_NAME_60	지하 10층
+MSGARA_NAME_61	지하 11층
+MSGARA_NAME_62	지하 12층
+MSG_MAP_NAME_42	(CECIL)의 방
+MSG_MAP_NAME_43	흑마법 연구실
+MSG_MAP_NAME_44	백마법 연구실
+MSG_MAP_NAME_45	(CID)의 집
+MSG_MAP_NAME_46	(ROZA)의 집
+MSG_MAP_NAME_49	술집 '임금님'
+MSG_MAP_NAME_50	검은 초코보 사육장
+MSG_MAP_NAME_51	검은 초코보 사육장 지하 1층
+MSG_MAP_NAME_52	천문대
+MSG_MAP_NAME_53	관측실
+MSG_MAP_NAME_55	술집 '라리호'
+MSG_MAP_NAME_62	환계 도서관
+MSG_MAP_NAME_90	의무실
+MSG_SYSTEM_001	닫기
+MSG_SYSTEM_002	돌아가기
+MSG_SYSTEM_328	그만두기
+MSG_SYSTEM_003	예
+MSG_SYSTEM_004	아니요
+MSG_SYSTEM_010	/
+MSG_SYSTEM_011	(HALF_COLON)
+MSG_SYSTEM_015	×
+MSG_SYSTEM_018	회
+MSG_SYSTEM_019	%
+MSG_SYSTEM_020	????????
+MSG_SYSTEM_022	결정
+MSG_SYSTEM_340	모두 결정
+MSG_SYSTEM_024	초기화
+MSG_SYSTEM_026	선제 공격 기회!
+MSG_SYSTEM_027	적의 급습!
+MSG_SYSTEM_028	백 어택!
+MSG_SYSTEM_030	파티가 전멸했다.
+MSG_SYSTEM_034	효과가 없었다.
+MSG_SYSTEM_035	도주에 성공했다.
+MSG_SYSTEM_036	도주할 수 없다!
+MSG_SYSTEM_037	MP가 부족하다.
+MSG_SYSTEM_040	음…. 아무 것도 떠오르지 않는군.
+MSG_SYSTEM_042	개구리의 노래
+MSG_SYSTEM_043	자장가
+MSG_SYSTEM_044	유혹의 노래
+MSG_SYSTEM_045	침묵의 노래
+MSG_SYSTEM_046	약이 부족하다.
+MSG_SYSTEM_047	기도가 하늘에 닿지 않았다.
+MSG_SYSTEM_048	동조가 어긋났다.
+MSG_SYSTEM_049	마법 위력 상승!
+MSG_SYSTEM_050	마물을 당황시켰다.
+MSG_SYSTEM_051	특별한 약점은 없다.
+MSG_SYSTEM_052	화염에 약함
+MSG_SYSTEM_053	냉기에 약함
+MSG_SYSTEM_054	번개에 약함
+MSG_SYSTEM_055	어둠의 힘에 약함
+MSG_SYSTEM_056	성스러운 힘에 약함
+MSG_SYSTEM_057	투척 무기에 약함
+MSG_SYSTEM_058	훔치지 못했다.
+MSG_SYSTEM_059	몬스터에게 들켰다.
+MSG_SYSTEM_060	(ITEM_N)<josa(을,를)> 훔쳐 냈다.
+MSG_SYSTEM_061	(FC_0)/(FC_9)
+MSG_SYSTEM_075	독 피해
+MSG_SYSTEM_076	서서히 HP 회복
+MSG_SYSTEM_077	힘을 모아서 공격력 2배 축적!
+MSG_SYSTEM_078	방어력 상승
+MSG_SYSTEM_079	획득 길
+MSG_SYSTEM_080	획득 경험치
+MSG_SYSTEM_081	획득 아이템
+MSG_SYSTEM_082	다음
+MSG_SYSTEM_083	종료
+MSG_SYSTEM_084	LEVEL UP
+MSG_SYSTEM_330	(CHA_N)<josa(이,가)> (MAGC_N)<josa(을,를)> 익혔다.
+MSG_SYSTEM_085	공격
+MSG_SYSTEM_086	암흑
+MSG_SYSTEM_087	아이템
+MSG_SYSTEM_088	점프
+MSG_SYSTEM_089	백마법
+MSG_SYSTEM_090	기도
+MSG_SYSTEM_091	조준
+MSG_SYSTEM_092	흑마법
+MSG_SYSTEM_093	소환
+MSG_SYSTEM_094	기억 떠올리기
+MSG_SYSTEM_095	힘 축적
+MSG_SYSTEM_096	발차기
+MSG_SYSTEM_097	견디기
+MSG_SYSTEM_098	노래하기
+MSG_SYSTEM_099	치료약
+MSG_SYSTEM_100	숨기
+MSG_SYSTEM_101	허세 부리기
+MSG_SYSTEM_102	쌍둥이 합심
+MSG_SYSTEM_103	우는 척하기
+MSG_SYSTEM_104	파악하기
+MSG_SYSTEM_105	던지기
+MSG_SYSTEM_106	훔치기
+MSG_SYSTEM_107	인술
+MSG_SYSTEM_108	정신파
+MSG_SYSTEM_109	감싸기
+MSG_SYSTEM_110	감싸기 해제
+MSG_SYSTEM_111	나타나기
+MSG_SYSTEM_112	열 변경
+MSG_SYSTEM_113	방어
+MSG_SYSTEM_338	건너뛰기
+MSG_SYSTEM_114	중독
+MSG_SYSTEM_115	실명
+MSG_SYSTEM_116	침묵
+MSG_SYSTEM_117	돼지
+MSG_SYSTEM_118	소인
+MSG_SYSTEM_119	개구리
+MSG_SYSTEM_120	석화
+MSG_SYSTEM_121	전투 불능
+MSG_SYSTEM_122	광전사
+MSG_SYSTEM_123	혼란
+MSG_SYSTEM_124	수면
+MSG_SYSTEM_125	마비
+MSG_SYSTEM_126	레비테트
+MSG_SYSTEM_127	저주
+MSG_SYSTEM_128	죽음의 선고
+MSG_SYSTEM_129	스톱
+MSG_SYSTEM_131	리플렉
+MSG_SYSTEM_339	자력
+MSG_SYSTEM_341	HP 회복
+MSG_SYSTEM_398	출혈
+MSG_SYSTEM_132	MISS
+MSG_SYSTEM_134	카운터
+MSG_SYSTEM_135	아이템
+MSG_SYSTEM_136	마법
+MSG_SYSTEM_137	장비
+MSG_SYSTEM_138	스테이터스
+MSG_SYSTEM_139	배치 변경
+MSG_SYSTEM_140	설정
+MSG_SYSTEM_141	중단 저장
+MSG_SYSTEM_142	저장하기
+MSG_SYSTEM_143	길
+MSG_SYSTEM_144	Time
+MSG_SYSTEM_145	Lv.
+MSG_SYSTEM_146	HP
+MSG_SYSTEM_147	MP
+MSG_SYSTEM_148	귀중품
+MSG_SYSTEM_149	사용
+MSG_SYSTEM_150	정돈
+MSG_SYSTEM_151	(STATUS_NAME) +(VALUE_NUM)
+MSG_SYSTEM_152	(STATUS_NAME) -(VALUE_NUM)
+MSG_SYSTEM_153	(HALF_SPACE)
+MSG_SYSTEM_154	아이템을 가지고 있지 않습니다.
+MSG_SYSTEM_155	귀중품을 가지고 있지 않습니다.
+MSG_SYSTEM_331	전투 시 사용할 수 있는 아이템을 가지고 있지 않습니다.
+MSG_SYSTEM_156	장착할 수 있는 캐릭터가 없습니다.
+MSG_SYSTEM_157	(RYDIA)<josa(이,가)> (MAGC_N)<josa(을,를)> 익혔다.
+MSG_SYSTEM_160	마법을 사용할 수 없습니다.
+MSG_SYSTEM_161	소비 MP
+MSG_SYSTEM_345	소환
+MSG_SYSTEM_318	전원
+MSG_SYSTEM_319	습득순
+MSG_SYSTEM_320	MP 오름차순
+MSG_SYSTEM_321	MP 내림차순
+MSG_SYSTEM_329	정돈할 카테고리를 선택하십시오.
+MSG_SYSTEM_322	직접 마법을 선택하여 정렬합니다.
+MSG_SYSTEM_323	마법을 습득한 순서에 따라 자동으로 정렬합니다.
+MSG_SYSTEM_324	마법을 소비 MP가 적은 순서에 따라 자동으로 정렬합니다.
+MSG_SYSTEM_325	마법을 소비 MP가 많은 순서에 따라 자동으로 정렬합니다.
+MSG_SYSTEM_326	마법을 일본어 오십음도 순서에 따라 자동으로 정렬합니다.
+MSG_SYSTEM_163	최강
+MSG_SYSTEM_164	해제
+MSG_SYSTEM_165	모두 해제
+MSG_SYSTEM_166	맨손
+MSG_SYSTEM_167	없음
+MSG_SYSTEM_168	오른손
+MSG_SYSTEM_169	왼손
+MSG_SYSTEM_170	머리
+MSG_SYSTEM_171	몸
+MSG_SYSTEM_172	팔
+MSG_SYSTEM_173	경험치
+MSG_SYSTEM_174	다음 레벨까지
+MSG_SYSTEM_175	힘
+MSG_SYSTEM_176	민첩성
+MSG_SYSTEM_177	체력
+MSG_SYSTEM_178	지력
+MSG_SYSTEM_179	정신력
+MSG_SYSTEM_180	공격력
+MSG_SYSTEM_181	명중률
+MSG_SYSTEM_182	방어력
+MSG_SYSTEM_183	회피율
+MSG_SYSTEM_184	마법 방어력
+MSG_SYSTEM_185	마법 회피율
+MSG_SYSTEM_186	오른손잡이
+MSG_SYSTEM_187	왼손잡이
+MSG_SYSTEM_188	양손잡이
+MSG_SYSTEM_189	(주로 쓰는 손)
+MSG_SYSTEM_190	커맨드
+MSG_SYSTEM_192	데이터
+MSG_SYSTEM_194	비어 있음
+MSG_SYSTEM_344	yyyy/MM/dd　H:mm
+MSG_SYSTEM_195	누구에게 사용하시겠습니까?
+MSG_SYSTEM_196	아군 전체
+MSG_SYSTEM_197	아군 한 명
+MSG_SYSTEM_198	적 전체
+MSG_SYSTEM_199	적 한 체
+MSG_SYSTEM_200	전체
+MSG_SYSTEM_201	조작 설명
+MSG_SYSTEM_202	커맨드 전환
+MSG_SYSTEM_203	장비 변경
+MSG_SYSTEM_204	아이템 선택
+MSG_SYSTEM_205	선택
+MSG_SYSTEM_206	위/아래 페이지로 이동
+MSG_SYSTEM_207	메뉴 닫기
+MSG_SYSTEM_208	취소
+MSG_SYSTEM_209	설명문 전환
+MSG_SYSTEM_428	착륙
+MSG_SYSTEM_438	내려놓기
+MSG_SYSTEM_333	대열 변경
+MSG_SYSTEM_346	전체 전환
+MSG_SYSTEM_347	한 체 전환
+MSG_SYSTEM_305	확대
+MSG_SYSTEM_306	축소
+MSG_SYSTEM_307	이동
+MSG_SYSTEM_210	직접 하기
+MSG_SYSTEM_327	무기
+MSG_SYSTEM_211	방어구
+MSG_SYSTEM_212	이름
+MSG_SYSTEM_213	직접 아이템을 선택하여 정렬합니다.
+MSG_SYSTEM_214	소비 아이템이 가장 앞에 오도록 자동으로 정렬합니다.
+MSG_SYSTEM_215	무기가 가장 앞에 오도록 자동으로 정렬합니다.
+MSG_SYSTEM_216	방어구가 가장 앞에 오도록 자동으로 정렬합니다.
+MSG_SYSTEM_217	아이템을 일본어 오십음도 순서에 따라 자동으로 정렬합니다.
+MSG_SYSTEM_218	일시 정지/재개
+MSG_SYSTEM_219	동시에 계속 누름: 도주
+MSG_SYSTEM_220	적 선택 시: 전체/한 체 전환
+MSG_SYSTEM_221	아군 선택 시: 전체/한 명 전환
+MSG_SYSTEM_222	목록 선택 시: 위 페이지로 이동
+MSG_SYSTEM_223	목록 선택 시: 아래 페이지로 이동
+MSG_SYSTEM_224	행동 건너뛰기
+MSG_SYSTEM_225	자동 전투 시작/종료
+MSG_SYSTEM_226	일시 정지/재개
+MSG_SYSTEM_227	도주
+MSG_SYSTEM_228	돌아가기/취소
+MSG_SYSTEM_229	아이템 선택에서 장비 변경으로 전환
+MSG_SYSTEM_230	장비 변경에서 아이템 선택으로 전환
+MSG_SYSTEM_231	대상을 한 체에서 전체로 전환
+MSG_SYSTEM_232	대상을 전체에서 한 체로 전환
+MSG_SYSTEM_233	초기 설정으로 되돌리기
+MSG_SYSTEM_235	변경
+MSG_SYSTEM_236	무기 상점
+MSG_SYSTEM_237	방어구 상점
+MSG_SYSTEM_238	도구 상점
+MSG_SYSTEM_400	무기&방어구 상점
+MSG_SYSTEM_401	술집
+MSG_SYSTEM_239	가격
+MSG_SYSTEM_240	구입 수
+MSG_SYSTEM_241	매각 수
+MSG_SYSTEM_242	합계
+MSG_SYSTEM_243	구입
+MSG_SYSTEM_244	판매
+MSG_SYSTEM_245	나가기
+MSG_SYSTEM_246	소지 수
+MSG_SYSTEM_247	장착 수
+MSG_SYSTEM_249	새 게임
+MSG_SYSTEM_250	불러오기
+MSG_SYSTEM_251	TAP TO START
+MSG_SYSTEM_252	PRESS ANY BUTTON
+MSG_SYSTEM_253	©SQUARE ENIX CO., LTD. All Rights Reserved.\nLOGO & IMAGE ILLUSTRATION: ©YOSHITAKA AMANO
+MSG_SYSTEM_254	엑스트라
+MSG_SYSTEM_255	옵션
+MSG_SYSTEM_256	몬스터 도감
+MSG_SYSTEM_257	사운드 플레이어
+MSG_SYSTEM_260	개인정보 처리 방침
+MSG_SYSTEM_261	라이선스
+MSG_SYSTEM_262	갤러리
+MSG_SYSTEM_263	보물상자
+MSG_SYSTEM_264	아이템
+MSG_SYSTEM_265	공지
+MSG_SYSTEM_308	탭 이동 모드
+MSG_SYSTEM_267	저장을 완료했습니다.
+MSG_SYSTEM_268	이 데이터를 덮어쓰시겠습니까?
+MSG_SYSTEM_314	저장 데이터가 손상되었습니다.
+MSG_SYSTEM_315	저장에 실패했습니다.
+MSG_SYSTEM_270	자동 저장
+MSG_SYSTEM_271	중단 저장
+MSG_SYSTEM_332	클리어 저장
+MSG_SYSTEM_272	지금까지의 상태를 저장하시겠습니까?
+MSG_SYSTEM_273	중단 저장을 완료하였습니다.
+MSG_SYSTEM_316	중단 저장 데이터가 손상되었습니다.
+MSG_SYSTEM_317	중단 저장에 실패했습니다.
+MSG_SYSTEM_436	게임 플레이에 필요한 스토리지가 부족한 상태입니다.\n불필요한 데이터를 삭제하여 스토리지 용량을 확보하십시오.
+MSG_SYSTEM_274	이 데이터로 시작하시겠습니까?
+MSG_SYSTEM_275	클리어 데이터를 저장하시겠습니까?
+MSG_SYSTEM_276	※마지막 전투 직전 상태로 저장됩니다.
+MSG_SYSTEM_277	저장을 완료하였습니다.\n타이틀 화면으로 돌아가시겠습니까?
+MSG_SYSTEM_278	클리어 데이터를 저장하지 않았습니다.\n이대로 타이틀 화면으로 돌아가시겠습니까?
+MSG_SYSTEM_280	맵 전환
+MSG_SYSTEM_284	현재 위치
+MSG_SYSTEM_343	초코보
+MSG_SYSTEM_285	검은 초코보
+MSG_SYSTEM_286	엔터프라이즈
+MSG_SYSTEM_287	팔콘호
+MSG_SYSTEM_288	호버크래프트
+MSG_SYSTEM_289	마도선
+MSG_SYSTEM_399	최신 저장 데이터에서 다시 시작하시겠습니까?
+MSG_CFG_INF_01	시스템
+MSG_CFG_INF_135	전투 모드
+MSG_CFG_INF_136	전투 속도
+MSG_CFG_INF_137	전투 메시지
+MSG_CFG_INF_138	웨이트
+MSG_CFG_INF_139	액티브
+MSG_CFG_INF_02	커서 위치 기억
+MSG_CFG_INF_03	자동 전투 유지
+MSG_CFG_INF_05	언어 설정
+MSG_CFG_INF_06	타이틀로 돌아가기
+MSG_CFG_INF_07	게임 종료
+MSG_CFG_INF_93	화면 설정
+MSG_CFG_INF_09	화면 모드
+MSG_CFG_INF_94	해상도
+MSG_CFG_INF_153	그래픽 표시
+MSG_CFG_INF_11	밝기 설정
+MSG_CFG_INF_12	사운드
+MSG_CFG_INF_13	주음량
+MSG_CFG_INF_14	BGM 음량
+MSG_CFG_INF_15	SE 음량
+MSG_CFG_INF_140	전투 중의 시간 흐름을 설정할 수 있습니다.
+MSG_CFG_INF_141	마법이나 아이템 선택 중에는 시간이 멈춥니다.
+MSG_CFG_INF_142	마법이나 아이템 선택 중에도 시간이 흐릅니다.
+MSG_CFG_INF_143	전투가 이루어지는 시간의 빠르기를 설정할 수 있습니다.
+MSG_CFG_INF_144	전투 중의 메시지 표시 속도를 설정할 수 있습니다.
+MSG_CFG_INF_95	이전 커서 위치를 기억할지 여부를 설정할 수 있습니다.
+MSG_CFG_INF_96	다음 전투에서도 자동 전투를 유지할지 여부를 설정할 수 있습니다.
+MSG_CFG_INF_99	화면의 밝기를 설정할 수 있습니다.
+MSG_CFG_INF_100	게임 전체의 음량을 설정할 수 있습니다.
+MSG_CFG_INF_101	BGM 음량을 설정할 수 있습니다.
+MSG_CFG_INF_102	SE 음량을 설정할 수 있습니다.
+MSG_CFG_INF_104	게임 패드의 조작 버튼을 설정할 수 있습니다.
+MSG_CFG_INF_105	키보드의 조작 키를 설정할 수 있습니다.
+MSG_CFG_INF_106	타이틀 화면으로 돌아갑니다. 저장하지 않은 데이터는 파기됩니다.
+MSG_CFG_INF_107	게임을 종료합니다. 저장하지 않은 데이터는 파기됩니다.
+MSG_CFG_INF_108	게임 패드의 조작 버튼을 초기 설정으로 되돌립니다.
+MSG_CFG_INF_109	키보드의 조작 키를 초기 설정으로 되돌립니다.
+MSG_CFG_INF_158	화면 그래픽 표시 방법을 설정할 수 있습니다.
+MSG_CFG_INF_18	게임 패드 설정
+MSG_CFG_INF_19	결정
+MSG_CFG_INF_21	메뉴 열기/닫기
+MSG_CFG_INF_23	위 페이지로 이동
+MSG_CFG_INF_24	아래 페이지로 이동
+MSG_CFG_INF_25	캐릭터 표시 전환(왼쪽)
+MSG_CFG_INF_26	캐릭터 표시 전환(오른쪽)
+MSG_CFG_INF_28	키보드 설정
+MSG_CFG_INF_29	위쪽 방향으로 이동
+MSG_CFG_INF_30	아래쪽 방향으로 이동
+MSG_CFG_INF_31	왼쪽 방향으로 이동
+MSG_CFG_INF_32	오른쪽 방향으로 이동
+MSG_CFG_INF_145	키보드
+MSG_CFG_INF_146	마우스
+MSG_CFG_INF_33	게임 패드 조작 방법
+MSG_CFG_INF_110	달리기(누르면서 이동)
+MSG_CFG_INF_113	자동 전투 켜기/끄기
+MSG_CFG_INF_114	맵 열기/닫기
+MSG_CFG_INF_115	미니 맵 표시 켜기/끄기
+MSG_CFG_INF_148	일시 정지(전투 중)
+MSG_CFG_INF_34	키보드 조작 방법
+MSG_CFG_INF_116	페이지 스크롤
+MSG_CFG_INF_117	필드 화면
+MSG_CFG_INF_118	메뉴 열기
+MSG_CFG_INF_119	맵 열기
+MSG_CFG_INF_120	이동 모드 전환
+MSG_CFG_INF_121	대화
+MSG_CFG_INF_147	조사
+MSG_CFG_INF_123	전투 화면
+MSG_CFG_INF_35	필드 화면 UI 표시 위치
+MSG_CFG_INF_37	이동 패드 표시 위치
+MSG_CFG_INF_38	메뉴 화면 UI 표시 위치
+MSG_CFG_INF_39	메뉴 커맨드 표시 위치
+MSG_CFG_INF_40	전투 화면 UI 표시 위치
+MSG_CFG_INF_41	전투 커맨드 표시 위치
+MSG_CFG_INF_154	그래픽 설정
+MSG_CFG_INF_42	조작 방법 확인
+MSG_CFG_INF_43	켜기
+MSG_CFG_INF_44	끄기
+MSG_CFG_INF_45	왼쪽
+MSG_CFG_INF_46	오른쪽
+MSG_CFG_INF_156	표준
+MSG_CFG_INF_157	아날로그
+MSG_CFG_INF_48	느림
+MSG_CFG_INF_49	약간 느림
+MSG_CFG_INF_50	표준
+MSG_CFG_INF_51	약간 빠름
+MSG_CFG_INF_52	빠름
+MSG_CFG_INF_129	언어
+MSG_CFG_INF_53	日本語(일본어)
+MSG_CFG_INF_54	English(영어)
+MSG_CFG_INF_55	Français(프랑스어)
+MSG_CFG_INF_56	Italiano(이탈리아어)
+MSG_CFG_INF_57	Deutsch(독일어)
+MSG_CFG_INF_58	Español(스페인어)
+MSG_CFG_INF_59	한국어
+MSG_CFG_INF_60	繁體中文(중국어 번체)
+MSG_CFG_INF_61	简体中文(중국어 간체)
+MSG_CFG_INF_62	русский(러시아어)
+MSG_CFG_INF_63	ภาษาไทย(태국어)
+MSG_CFG_INF_64	Português brasileiro(브라질 포르투갈어)
+MSG_CFG_INF_66	전체 화면
+MSG_CFG_INF_67	창
+MSG_CFG_INF_68	전체창
+MSG_CFG_INF_76	선택한 언어로 변경하시겠습니까?
+MSG_CFG_INF_130	※변경 후 게임을 재기동합니다.
+MSG_CFG_INF_78	선택한 화면 설정으로 변경하시겠습니까?
+MSG_CFG_INF_89	타이틀 화면으로 돌아갑니다.
+MSG_CFG_INF_131	저장하지 않은 내용은 파기됩니다.
+MSG_CFG_INF_132	계속하시겠습니까?
+MSG_CFG_INF_155	설정할 언어를 선택하십시오.
+MSG_SYSTEM_290	게임을 종료합니다.
+MSG_SYSTEM_292	뚱보 초코보
+MSG_SYSTEM_293	어, 그래. 무슨 일인데?
+MSG_SYSTEM_294	맡기기
+MSG_SYSTEM_295	꺼내기
+MSG_SYSTEM_296	이런 데서 피리 불지 말라고.
+MSG_SYSTEM_297	뭘 주려고?
+MSG_SYSTEM_298	뭐가 필요해?
+MSG_SYSTEM_309	아이템을 맡기지 않았습니다.
+MSG_SYSTEM_310	맡길 수
+MSG_SYSTEM_342	꺼낼 수
+MSG_SYSTEM_311	얼마나 주려고?
+MSG_SYSTEM_312	얼마나 달라고?
+MSG_SYSTEM_303	어느 분이 변경하시겠습니까?
+MSG_SYSTEM_313	이름 변경
+MSG_SYSTEM_334	이름을 정하십시오.
+MSG_SYSTEM_335	※최대 전각 6문자(반각 12문자)
+MSG_SYSTEM_336	이 이름으로 하시겠습니까?
+MSG_SYSTEM_337	※특수문자, 기호 등은\n제대로 표시되지 않을 수 있습니다.
+MSG_PC_KEY_CONFIG_01	BackSpace
+MSG_PC_KEY_CONFIG_02	Enter
+MSG_PC_KEY_CONFIG_03	Shift(L)
+MSG_PC_KEY_CONFIG_04	Shift(R)
+MSG_PC_KEY_CONFIG_05	Alt(L)
+MSG_PC_KEY_CONFIG_06	Alt(R)
+MSG_PC_KEY_CONFIG_07	Tab
+MSG_PC_KEY_CONFIG_08	Caps Lock
+MSG_PC_KEY_CONFIG_09	Space
+MSG_PC_KEY_CONFIG_10	Insert
+MSG_PC_KEY_CONFIG_11	Home
+MSG_PC_KEY_CONFIG_12	Delete
+MSG_PC_KEY_CONFIG_13	Pause
+MSG_PC_KEY_CONFIG_14	Scroll Lock
+MSG_PC_KEY_CONFIG_15	Num Enter
+MSG_SYSTEM_349	마주친 몬스터
+MSG_SYSTEM_350	맵 표시
+MSG_SYSTEM_351	고속 이동
+MSG_SYSTEM_421	스크롤
+MSG_SYSTEM_352	표시 전환
+MSG_SYSTEM_422	맵 전환
+MSG_SYSTEM_353	확인
+MSG_SYSTEM_354	쓰러뜨린 수
+MSG_SYSTEM_355	출현 장소
+MSG_SYSTEM_358	약점
+MSG_SYSTEM_359	저항
+MSG_SYSTEM_360	흡수
+MSG_SYSTEM_361	없음
+MSG_SYSTEM_362	종족
+MSG_SYSTEM_363	즉사
+MSG_SYSTEM_364	서서히 석화
+MSG_SYSTEM_365	화염
+MSG_SYSTEM_366	냉기
+MSG_SYSTEM_367	번개
+MSG_SYSTEM_368	어둠
+MSG_SYSTEM_369	신성
+MSG_SYSTEM_423	신성(무기)
+MSG_SYSTEM_424	신성(마법)
+MSG_SYSTEM_370	원거리 무기
+MSG_SYSTEM_371	파충류
+MSG_SYSTEM_372	마법사
+MSG_SYSTEM_373	영혼체
+MSG_SYSTEM_374	용
+MSG_SYSTEM_375	언데드
+MSG_SYSTEM_376	푸딩
+MSG_SYSTEM_377	거인
+MSG_SYSTEM_378	기계
+MSG_SYSTEM_395	마력
+MSG_SYSTEM_396	획득 가능 아이템(승리 시)
+MSG_SYSTEM_397	획득 가능 아이템(훔치기)
+MSG_SYSTEM_379	감상할 이미지를 선택하십시오.
+MSG_SYSTEM_380	창 표시 끄기
+MSG_SYSTEM_381	AR 전투
+MSG_SYSTEM_427	AR 모드
+MSG_SYSTEM_382	카메라 켜기
+MSG_SYSTEM_383	카메라 끄기
+MSG_SYSTEM_384	편성 전환
+MSG_SYSTEM_385	전투 시작
+MSG_SYSTEM_386	UI 표시 끄기
+MSG_SYSTEM_387	FINAL FANTASY IV에서 사진을 촬영하도록 허용하시겠습니까?
+MSG_SYSTEM_388	허용
+MSG_SYSTEM_389	거부
+MSG_SYSTEM_419	AR 전투를 종료하시겠습니까?
+MSG_SYSTEM_433	이 앱은 AR 기능을 위해 카메라를 사용합니다.\n카메라 사용 권한을 허가해 주십시오.
+MSG_SYSTEM_434	현재 이 앱의 카메라 사용 권한을\n허가하지 않은 상태입니다.\nAR 기능을 사용하기 위해서는\n카메라 사용 권한을 허가해 주십시오.
+MSG_SYSTEM_435	나중에 설정하는 경우에는\n단말의 설정 화면에서 이 앱의\n카메라 사용 권한을 허가하시면 됩니다.
+MSG_SYSTEM_437	카메라로 촬영한 장면을 전투 배경으로 사용합니다.
+MSG_SYSTEM_390	재생할 곡을 선택하십시오.
+MSG_SYSTEM_391	재생
+MSG_SYSTEM_392	정지
+MSG_SYSTEM_393	연속 재생 켜기
+MSG_SYSTEM_394	연속 재생 끄기
+MSG_SYSTEM_425	연속 재생
+MSG_SYSTEM_402	클라우드 저장
+MSG_SYSTEM_403	업로드
+MSG_SYSTEM_404	다운로드
+MSG_SYSTEM_405	게임 내 데이터
+MSG_SYSTEM_406	클라우드 데이터
+MSG_SYSTEM_420	자세한 내용
+MSG_SYSTEM_407	저장 데이터를 클라우드에 백업할 수 있습니다.
+MSG_SYSTEM_408	게임 내의 모든 저장 데이터를\n클라우드에 업로드(덮어쓰기)합니다.
+MSG_SYSTEM_409	클라우드의 모든 저장 데이터를\n게임 내에 다운로드(덮어쓰기)합니다.
+MSG_SYSTEM_410	클라우드에 모든 저장 데이터를 업로드합니다.
+MSG_SYSTEM_411	클라우드의 모든 저장 데이터가 덮어쓰기 됩니다.
+MSG_SYSTEM_412	클라우드에 업로드를 완료하였습니다.
+MSG_SYSTEM_413	클라우드에 업로드를 실패하였습니다.
+MSG_SYSTEM_414	통신 상태를 확인하십시오.
+MSG_SYSTEM_415	클라우드로부터 모든 저장 데이터를 다운로드합니다.
+MSG_SYSTEM_416	게임 내의 모든 저장 데이터가 덮어쓰기 됩니다.
+MSG_SYSTEM_417	클라우드로부터 다운로드를 완료하였습니다.
+MSG_SYSTEM_418	클라우드로부터 다운로드를 실패하였습니다.
+MSG_SYSTEM_429	동기화 중…
+MSG_SYSTEM_430	동기화에 실패하였습니다.
+MSG_SYSTEM_431	통신에 실패하였습니다.
+MSG_SYSTEM_432	다시 시도하기
+MSG_SYSTEM_426	불러오는 중…
+MSG_SYSTEM_439	라이선스 인증에 실패하였습니다.\n앱을 종료합니다.
+MSG_SYSTEM_440	통신 상태  및 단말 설정을 확인한 후\n앱을 다시 시작하십시오.
+

@@ -11,5 +11,11 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Collections" Version="4.3.0" />
   </ItemGroup>
+  
+  <ItemGroup>
+	<None Update="csv/**" CopyToOutputDirectory="PreserveNewest" />
+	<None Update="Data/**" CopyToOutputDirectory="PreserveNewest" />
+	<None Update="Res/**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 
 </Project>
