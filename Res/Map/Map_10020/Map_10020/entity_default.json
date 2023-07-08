@@ -1565,6 +1565,40 @@
 					"y": 1456
 				},
 				{
+					"gid": 1007,
+					"height": 16,
+					"id": 107,
+					"name": "TelepoPoint",
+					"properties": [
+						{
+							"name": "entity_id",
+							"type": "int",
+							"value": 909
+						},
+						{
+							"name": "goto_entity_id",
+							"type": "int",
+							"value": 114
+						},
+						{
+							"name": "object_type",
+							"type": "int",
+							"value": 20
+						},
+						{
+							"name": "pointin_entity_id",
+							"type": "int",
+							"value": 121
+						}
+					],
+					"rotation": 0,
+					"type": "",
+					"visible": true,
+					"width": 16,
+					"x": 1824,
+					"y": 2080
+				},
+				{
 					"gid": 1001,
 					"height": 352,
 					"id": 153,

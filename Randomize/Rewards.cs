@@ -109,8 +109,8 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	"Crystal Shard 2", - 89 NEW
 		//	"Crystal Shard 3", - 89 NEW
 		//	"Crystal Shard 4"  - 89 NEW // 29
-		//	"Orange Tail", - 90 NEW
-		//	"White Tail", - 91 NEW
+		//	"Orange Tail", - 91 NEW
+		//	"White Tail", - 92 NEW
 		//};
 
 		static List<int> initialLocations = new List<int> { 0, 4, 5, 6, 7, 8, 9, 10 };
@@ -363,7 +363,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						case 23: finalItem = 88; break;
 						case 24: finalItem = 62; break;
 						case 25: finalItem = 63; break;
-						case 26: finalItem = 90; break;
+						case 26: finalItem = 91; break;
 						case >= 27: finalItem = 89; break;
 					}
 
