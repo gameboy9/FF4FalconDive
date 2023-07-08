@@ -427,12 +427,12 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				if (rewardPair.locationID == 17) // Adamant Grotto / Tail turn-in cave
 				{
-					for (int i = 0; i < 6; i++)
+					for (int i = 0; i < 7; i++)
 					{
-						// Order:  Yellow, Green, Blue, Red, Black, Pink
-						int minTier = i == 0 ? 6 : i == 1 ? 6 : i == 2 ? 7 : i == 3 ? 7 : i == 4 ? 8 : 9;
-						int maxTier = i == 0 ? 7 : i == 1 ? 8 : i == 2 ? 8 : i == 3 ? 9 : i == 4 ? 9 : 9;
-						string commentToUse = i == 0 ? "FE_YellowTail" : i == 1 ? "FE_GreenTail" : i == 2 ? "FE_BlueTail" : i == 3 ? "FE_RedTail" : i == 4 ? "FE_BlackTail" : "FE_PinkTail";
+						// Order:  Orange, Yellow, Green, Blue, Red, Black, Pink
+						int minTier = i == 0 ? 5 : i == 1 ? 6 : i == 2 ? 6 : i == 3 ? 7 : i == 4 ? 7 : i == 5 ? 8 : 9;
+						int maxTier = i == 0 ? 6 : i == 1 ? 7 : i == 2 ? 8 : i == 3 ? 8 : i == 4 ? 9 : i == 5 ? 9 : 9;
+						string commentToUse = i == 0 ? "FE_OrangeTail" : i == 1 ? "FE_YellowTail" : i == 2 ? "FE_GreenTail" : i == 3 ? "FE_BlueTail" : i == 4 ? "FE_RedTail" : i == 5 ? "FE_BlackTail" : "FE_PinkTail";
 						int itemSelected;
 						if (r1.Next() % 2 == 0)
 							itemSelected = new Weapons().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
@@ -496,7 +496,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					int i = 0;
 					foreach (int tail in tailSelection)
 					{
-						string msgId = i == 0 ? "FE_TAIL_YELLOW" : i == 1 ? "FE_TAIL_GREEN" : i == 2 ? "FE_TAIL_BLUE" : i == 3 ? "FE_TAIL_RED" : i == 4 ? "FE_TAIL_BLACK" : "FE_TAIL_PINK";
+						string msgId = i == 0 ? "FE_TAIL_ORANGE" : i == 1 ? "FE_TAIL_YELLOW" : i == 2 ? "FE_TAIL_GREEN" : i == 3 ? "FE_TAIL_BLUE" : i == 4 ? "FE_TAIL_RED" : i == 5 ? "FE_TAIL_BLACK" : "FE_TAIL_PINK";
 						msgStrings.Add(new message { id = msgId, msgString = "You got " + itemLookup(itemIDLookup(tail)) + "!" });
 						i++;
 					}
