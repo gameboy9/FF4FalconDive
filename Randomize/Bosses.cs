@@ -656,6 +656,29 @@ namespace FF4FreeEnterprisePR.Randomize
 				//};
 			}
 
+			// Finally, change the Tricker party group to 9 of a single monster.  This is because Tricker's won't load for some reason or another.
+			var trickerGroup = groups.Where(c => c.id == 405).Single();
+			var trickerMonsterID = normalMonsters[r1.Next() % normalMonsters.Count];
+			trickerMonsterID = SummonerAdjust(trickerMonsterID, r1);
+			trickerGroup.monster1 = trickerMonsterID;
+			trickerGroup.monster2 = trickerMonsterID;
+			trickerGroup.monster3 = trickerMonsterID;
+			trickerGroup.monster4 = trickerMonsterID;
+			trickerGroup.monster5 = trickerMonsterID;
+			trickerGroup.monster6 = trickerMonsterID;
+			trickerGroup.monster7 = trickerMonsterID;
+			trickerGroup.monster8 = trickerMonsterID;
+			trickerGroup.monster9 = trickerMonsterID;
+			trickerGroup.monster1_x_position = 60;
+			trickerGroup.monster2_x_position = 55;
+			trickerGroup.monster3_x_position = 50;
+			trickerGroup.monster4_x_position = 35;
+			trickerGroup.monster5_x_position = 30;
+			trickerGroup.monster6_x_position = 25;
+			trickerGroup.monster7_x_position = 10;
+			trickerGroup.monster8_x_position = 5;
+			trickerGroup.monster9_x_position = 0;
+
 			using (StreamWriter writer = new(Path.Combine(dataDirectory, "monster.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
