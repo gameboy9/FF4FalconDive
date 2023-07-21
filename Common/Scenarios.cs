@@ -435,7 +435,7 @@ namespace FF4FreeEnterprisePR.Common
 					bossbgm = 0,
 					itemLocations = { },
 					battleFlagGroupID = 13,
-					characterXP = -1,
+					characterXP = 200000,
 				},
 				// Giant Of Babel - CPU
 				new scenario {

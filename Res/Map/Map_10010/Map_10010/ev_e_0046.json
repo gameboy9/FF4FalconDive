@@ -60,7 +60,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,
@@ -124,7 +124,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,
@@ -188,7 +188,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,
@@ -252,7 +252,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,
@@ -316,7 +316,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,
@@ -380,7 +380,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,
@@ -444,7 +444,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,
@@ -508,7 +508,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,
@@ -572,7 +572,7 @@
 						{
 							"name": "target_transportation_ids",
 							"type": "string",
-							"value": "9,10"
+							"value": "9"
 						}
 					],
 					"rotation": 0,

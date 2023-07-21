@@ -169,6 +169,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 			if (duplicates)
 			{
+				characters = new List<int>();
 				for (int i = 0; i < 12; i++)
 				{
 					int charID = r1.Next() % 13 + 1;
