@@ -8,9 +8,10 @@ To see differences between Free Enterprise and Falcon Dive, please see this Goog
 Please join our Discord!  https://discord.gg/BYD2d5wj4B
 
 ## Installation
-- For all installations, you will need GameAssets.zip, which you can download here:  https://github.com/gameboy9/FF4FalconDive/releases/download/1.0/GameAssets.zip
-- Make sure you also have FF4FalconDive.zip, found in the releases page.  Extract this ZIP file (but not GameAssets.zip!) to your desired location.
-  - We recommend not placing the randomizer program nor GameAssets.zip in the same folder as your FF4: Pixel Remaster folder.
+- For all installations, you will need to download two files:
+  - FF4FalconDive.zip, the main randomizer program, which you can download here:  https://github.com/gameboy9/FF4FalconDive/releases/latest/download/FF4FalconDive.zip
+  - GameAssets.zip, which consists of the base game files, which you can download here:  https://github.com/gameboy9/FF4FalconDive/releases/download/1.0/GameAssets.zip
+  - **NOTE:**  We recommend not placing the randomizer program nor GameAssets.zip in the same folder as your FF4: Pixel Remaster folder.
 
 ### Mandatory Setup:
 - Click Browse next to the "FF4 PR Folder" Text box and find your FF4 Install Location (This can be found in steam by right clicking on FF4 PR and selecting "Properties" then "Installed Files" Then clicking "Browse") 
