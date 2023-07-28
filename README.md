@@ -8,9 +8,25 @@ To see differences between Free Enterprise and Falcon Dive, please see this Goog
 Please join our Discord!  https://discord.gg/BYD2d5wj4B
 
 ## Installation
-You will need to download both GameAssets.zip and FF4FalconDive.zip.  To install, give the program the location of your GameAssets.zip file, as well as the location of the Final Fantasy IV Pixel Remaster directory.  You'll click on "Extract" to extract GameAssets.zip into the appropriate directory, and then you can set your options, click "Randomize!" and you're ready to play!
+- For all installations, you will need GameAssets.zip, which you can download here:  https://github.com/gameboy9/FF4FalconDive/releases/download/1.0/GameAssets.zip
+- Make sure you also have FF4FalconDive.zip, found in the releases page.  Extract this ZIP file (but not GameAssets.zip!) to your desired location.
+  - We recommend not placing the randomizer program nor GameAssets.zip in the same folder as your FF4: Pixel Remaster folder.
 
-To revert back to vanilla, all you have to do is click "Revert to vanilla", which will delete everything randomizer related from the Steam directory, and you're all set!
+### Mandatory Setup:
+- Click Browse next to the "FF4 PR Folder" Text box and find your FF4 Install Location (This can be found in steam by right clicking on FF4 PR and selecting "Properties" then "Installed Files" Then clicking "Browse") 
+  - Note: The folder should be named "FINAL FANTASY IV PR".
+- Click Browse next to the "Game Assets Folder" Text box and find the GameAssets.zip you downloaded above.
+- Then Click Extract. This may take a few minutes to complete.
+- You will get a extract complete at the bottom of the application when finished
+
+### Optional Setup:
+- Select your randomization options from the General, Heroes, and Enemies tabs.
+
+### Finishing Up:
+- Then click "Randomize!" after a moment you should get a "Complete!" along with a checksum for reference if needed. 
+- Go back into Steam and start your FF4 Falcon Dive Experience.
+
+**NOTE:**  To revert back to vanilla, all you have to do is click "Revert to vanilla", which will delete everything randomizer related from the Steam directory, and you're all set!
 
 ### Creator, Design, and Programming
 gameboyf9
@@ -23,3 +39,4 @@ Antidale, Engidave, Fleury14, Infinious, Inven, Syconawt, Tybalt, and warlink05
 - Albeoris (for creating Memoria that makes creating randomizers for Final Fantasy Pixel Remaster really easy!)
 - SchalaKitty (for the name of this randomizer!)
 - Silvris (for his help with regards to Pixel Remaster)
+- Regasin (for Readme enhancements)
