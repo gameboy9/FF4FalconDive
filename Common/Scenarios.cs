@@ -509,6 +509,18 @@ namespace FF4FreeEnterprisePR.Common
 					battleFlagGroupID = 13,
 					characterXP = 290000,
 				},
+				// Nothing Vending Machine (Agart)
+				new scenario {
+					bossId = -1,
+					rewardId = 31,
+					bossScript = @"",
+					winScript =  @"Res\Map\Map_20121\Map_20121_2\sc_e_0161.json",
+					bossBattleBackground = 14,
+					bossbgm = 27,
+					itemLocations = { },
+					battleFlagGroupID = 13,
+					characterXP = 50000,
+				},
 			};
         }
     }

@@ -20,7 +20,7 @@ namespace FF4FalconDive.Inventory
 			public string msgString { get; set; }
 		}
 
-		public static void updateMessages(string directory, string seed, string flags, string checksum)
+		public static void updateMessages(string directory, string seed, string flags, string checksum, bool sirensAllowed)
 		{
 			List<message> msgStrings;
 
@@ -46,6 +46,17 @@ namespace FF4FalconDive.Inventory
 					msgStrings.Add(new message { id = "LUNAR_BLUE", msgString = "Go To The Blue Planet" });
 					msgStrings.Add(new message { id = "LEGEND_REQ", msgString = "My smithing days are over! I won't forge another sword until I find the legendary ore, adamantite... and I need the Sword Of Legend too..." });
 					msgStrings.Add(new message { id = "FE_NOT_ENOUGH_SHARDS", msgString = "You do not have the required number of shards to face Zeromus." });
+					msgStrings.Add(new message { id = "FE_NOTHING_G1", msgString = "You now have found 3 Nothings!  Check out the Nothing Vending Machine in the Agora Laboratory (the telescope) to receive a possible key item!" });
+					msgStrings.Add(new message { id = "FE_NOTHING_G2", msgString = "You now have found 5 Nothings!  Check out the Nothing Vending Machine in the Agora Laboratory (the telescope) for a special reward!" });
+					msgStrings.Add(new message { id = "FE_ZEROMUS_GOOD", msgString = "You now have enough shards to face Zeromus!" });
+					msgStrings.Add(new message { id = "FE_SIREN_GOOD", msgString = "You now have enough shards to use sirens!" });
+					msgStrings.Add(new message { id = "FE_SIREN_BAD", msgString = sirensAllowed ? "You do not have the required number of shards to use sirens." : "Sirens are not allowed in this seed." });
+					msgStrings.Add(new message { id = "FE_NM_L1_GOOD", msgString = "This is the Nothing Vending Machine.  You have received at least 3 Nothings!  Dispensing prize..." });
+					msgStrings.Add(new message { id = "FE_NM_L2_GOOD", msgString = "This is the Nothing Vending Machine.  You have received at least 5 Nothings!  Dispensing your special prize..." });
+					msgStrings.Add(new message { id = "FE_NM_L1_BAD", msgString = "This is the Nothing Vending Machine.  You need at least 3 nothings to receive a prize." });
+					msgStrings.Add(new message { id = "FE_NM_L2_BAD", msgString = "This is the Nothing Vending Machine.  You need at least 5 nothings to receive a special prize." });
+					msgStrings.Add(new message { id = "FE_NM_FINISH", msgString = "KABOOM!" });
+					msgStrings.Add(new message { id = "FE_NM_DONE", msgString = "You see a note:  The Nothing Vending Machine is out of order." });
 					msgStrings.Add(new message { id = "N105_C00_027_90_10", msgString = "Zzz... you get a Free Enterprise here... but the REAL Free Enterprise is at www.ff4fe.com! Zzz..." });
 
 					msgStrings.Where(c => c.id == "N101_C02_027_01_01").Single().msgString = @"Welcome to Final Fantasy IV:  Falcon Dive!\nThis was based off of and inspired by Final Fantasy IV:  Free Enterprise by b0ardface!<P>" +

@@ -72,8 +72,9 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	"Lunar Subterranne-Crystal Sword", // Darkness Crystal
 		//	"Lunar Subterranne-White Spear", // Darkness Crystal
 		//	"Lunar Subterranne-Ribbons", // Darkness Crystal
-		//	"Lunar Subterranne-Masamune" // Darkness Crystal - 29
+		//	"Lunar Subterranne-Masamune" // Darkness Crystal
 		//	"Giant Of Babil 2", // Darkness Crystal - 30
+		//  "Nothing Vending Machine", // 3 Nothings - 31
 		//	// Upper Babil ALWAYS rewards with the Falcon with the drill installed
 		//	};
 
@@ -145,11 +146,13 @@ namespace FF4FreeEnterprisePR.Randomize
 			new List<int> { },
 			new List<int> { },
 			new List<int> { },
-			new List<int> { } // 30
+			new List<int> { }, // 30
+			new List<int> { } // 31
 		};
 
-		static List<int> allRewards = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 };
+		static List<int> allRewards = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 };
 		static List<int> keyRewards = new List<int> { 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 24 };
+		static List<int> nothingRewards = new List<int> { 17, 18, 19, 20, 21, 26, 27 };
 
 		class pairing
 		{
@@ -170,10 +173,11 @@ namespace FF4FreeEnterprisePR.Randomize
 			List<pairing> tempPairings = new List<pairing>();
 			List<int> validLocations = initialLocations.ToList();
 			List<int> validRewards = allRewards.ToList();
-			List<int> rerollLocations = new List<int> { 9, 12, 13, 14, 20 };
-			List<int> rerollRewards = new List<int> { 6, 16, 17, 18, 19, 20, 21, 22, 23, 25, 30, 31 };
+			List<int> rerollLocations = new List<int> { 9, 12, 13, 14, 20, 31 };
+			List<int> rerollRewards = new List<int> { 6, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27 };
 			bool underground = false;
 			bool moon = false;
+			bool nothingCheck = false;
 
 			while (validRewards.Count > 0)
 			{
@@ -184,6 +188,12 @@ namespace FF4FreeEnterprisePR.Randomize
 				if (rerolls == 1 && rerollRewards.Contains(rewardID))
 					rewardID = validRewards[r1.Next() % validRewards.Count];
 
+				// Debug
+				//if (tempPairings.Count == 0 && pairings.Count == 0)
+				//{
+				//	locationID = 0; rewardID = 17;
+				//}
+
 				tempPairings.Add(new pairing(locationID, rewardID));
 				validLocations.Remove(locationID);
 				validRewards.Remove(rewardID);
@@ -192,6 +202,14 @@ namespace FF4FreeEnterprisePR.Randomize
 					break;
 
 				bool locationAdded = false;
+
+				if (pairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() + tempPairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() >= 3 && !nothingCheck)
+				{
+					validLocations.Add(31);
+					pairings.AddRange(tempPairings);
+					tempPairings.Clear();
+					nothingCheck = true;
+				}
 
 				if (itemLocations[rewardID].Count() > 0)
 				{
@@ -322,6 +340,9 @@ namespace FF4FreeEnterprisePR.Randomize
 
 			List<int> tailSelection = new List<int>();
 
+			int shardID = 301;
+			int nothingID = 321;
+
 			List<scenario> scenarios = getScripts();
 			// Retrieve win JSON file, then change reward text
 			foreach (pairing rewardPair in pairings)
@@ -336,9 +357,10 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				JsonSerializer serializer = new JsonSerializer();
 
+				int finalItem = 0;
+
 				if (rewardPair.rewardID > 3)
 				{
-					int finalItem = 0;
 					switch (rewardPair.rewardID)
 					{
 						case 4:	finalItem = 71; break;
@@ -354,17 +376,18 @@ namespace FF4FreeEnterprisePR.Randomize
 						case 14: finalItem = 74; break;
 						case 15: finalItem = 73; break;
 						case 16: finalItem = 67; break;
-						case 17: finalItem = 82; break;
-						case 18: finalItem = 83; break;
-						case 19: finalItem = 84; break;
-						case 20: finalItem = 85; break;
-						case 21: finalItem = 87; break;
+						case 17: finalItem = 82; break; // 82
+						case 18: finalItem = 82; break; // 83
+						case 19: finalItem = 82; break; // 84
+						case 20: finalItem = 82; break; // 85
+						case 21: finalItem = 82; break; // 87
 						case 22: finalItem = 70; break;
 						case 23: finalItem = 88; break;
 						case 24: finalItem = 62; break;
 						case 25: finalItem = 63; break;
-						case 26: finalItem = 91; break;
-						case >= 27: finalItem = 89; break;
+						case 26: finalItem = 82; break; // 91
+						case 27: finalItem = 82; break;
+						case >= 28: finalItem = 89; break;
 					}
 
 					rewardPair.rewardText = "You got " + itemLookup(itemIDLookup(finalItem)) + "!\\n";
@@ -385,6 +408,10 @@ namespace FF4FreeEnterprisePR.Randomize
 						rewardItem.operands.iValues[1] = 1;
 						rewardItem.operands.sValues[0] = "";
 					}
+
+					var nothingShardFlag = jEvents.Mnemonics.Where(c => c.comment == "FENothingShardFlag").SingleOrDefault();
+					if (nothingShardFlag != null)
+						nothingShardFlag.operands.iValues[0] = finalItem == 82 ? 351 : finalItem == 89 ? 350 : 352;
 				}
 				else
 				{
@@ -422,27 +449,41 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				var rewardFlag = jEvents.Mnemonics.Where(c => c.comment == "FERewardFlag").Single();
 				rewardFlag.mnemonic = "SetFlag";
-				rewardFlag.operands.iValues[0] = 200 + rewardPair.rewardID;
+				if (finalItem == 82) { rewardFlag.operands.iValues[0] = nothingID; nothingID++; }
+				else if (finalItem == 89) { rewardFlag.operands.iValues[0] = shardID; shardID++; }
+				else rewardFlag.operands.iValues[0] = 200 + rewardPair.rewardID;
 				rewardFlag.operands.sValues[0] = "ScenarioFlag1";
 
 				if (rewardPair.locationID == 17) // Adamant Grotto / Tail turn-in cave
 				{
-					for (int i = 0; i < 7; i++)
-					{
-						// Order:  Orange, Yellow, Green, Blue, Red, Black, Pink
-						int minTier = i == 0 ? 5 : i == 1 ? 6 : i == 2 ? 6 : i == 3 ? 7 : i == 4 ? 7 : i == 5 ? 8 : 9;
-						int maxTier = i == 0 ? 6 : i == 1 ? 7 : i == 2 ? 8 : i == 3 ? 8 : i == 4 ? 9 : i == 5 ? 9 : 9;
-						string commentToUse = i == 0 ? "FE_OrangeTail" : i == 1 ? "FE_YellowTail" : i == 2 ? "FE_GreenTail" : i == 3 ? "FE_BlueTail" : i == 4 ? "FE_RedTail" : i == 5 ? "FE_BlackTail" : "FE_PinkTail";
-						int itemSelected;
-						if (r1.Next() % 2 == 0)
-							itemSelected = new Weapons().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
-						else
-							itemSelected = new Armor().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
+					int minTier = 9;
+					int maxTier = 9;
+					string commentToUse = "FE_PinkTail";
+					int itemSelected;
+					if (r1.Next() % 2 == 0)
+						itemSelected = new Weapons().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
+					else
+						itemSelected = new Armor().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
 
-						var rewardItem = jEvents.Mnemonics.Where(c => c.comment == commentToUse).Single();
-						rewardItem.operands.iValues[0] = itemSelected;
-						tailSelection.Add(itemSelected);
-					}
+					var rewardItem = jEvents.Mnemonics.Where(c => c.comment == commentToUse).Single();
+					rewardItem.operands.iValues[0] = itemSelected;
+					tailSelection.Add(itemSelected);
+				}
+
+				if (rewardPair.locationID == 31) // Nothing Vending Machine
+				{
+					int minTier = 9;
+					int maxTier = 9;
+					string commentToUse = "FE_NothingBonus";
+					int itemSelected;
+					if (r1.Next() % 2 == 0)
+						itemSelected = new Weapons().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
+					else
+						itemSelected = new Armor().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
+
+					var rewardItem = jEvents.Mnemonics.Where(c => c.comment == commentToUse).Single();
+					rewardItem.operands.iValues[0] = itemSelected;
+					tailSelection.Add(itemSelected);
 				}
 
 				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, currentReward.winScript)))
@@ -496,7 +537,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					int i = 0;
 					foreach (int tail in tailSelection)
 					{
-						string msgId = i == 0 ? "FE_TAIL_ORANGE" : i == 1 ? "FE_TAIL_YELLOW" : i == 2 ? "FE_TAIL_GREEN" : i == 3 ? "FE_TAIL_BLUE" : i == 4 ? "FE_TAIL_RED" : i == 5 ? "FE_TAIL_BLACK" : "FE_TAIL_PINK";
+						string msgId = i == 0 ? "FE_NOTHING_BONUS" : "FE_TAIL_PINK";
 						msgStrings.Add(new message { id = msgId, msgString = "You got " + itemLookup(itemIDLookup(tail)) + "!" });
 						i++;
 					}

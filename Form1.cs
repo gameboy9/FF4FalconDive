@@ -35,7 +35,7 @@ namespace FF4FreeEnterprisePR
 			flags += convertIntToChar(shopItemQty.SelectedIndex + (8 * shopBuyPrice.SelectedIndex));
 			flags += convertIntToChar(shopItemTypes.SelectedIndex + (8 * treasureTypes.SelectedIndex));
 			flags += convertIntToChar(xpMultiplier.SelectedIndex + (8 * zeromusDifficulty.SelectedIndex));
-			flags += convertIntToChar(gpMultiplier.SelectedIndex);
+			flags += convertIntToChar(gpMultiplier.SelectedIndex + (8 * shardsBeforeSirens.SelectedIndex));
 			flags += convertIntToChar(monsterDifficulty.SelectedIndex + (8 * numHeroes.SelectedIndex));
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { removeBonusItems, exCecil, exCid, exEdge, exEdward, exFusoya }));
 			flags += convertIntToChar(firstHero.SelectedIndex);
@@ -73,6 +73,7 @@ namespace FF4FreeEnterprisePR
 			xpMultiplier.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(4, 1))) % 8;
 			zeromusDifficulty.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(4, 1))) / 8;
 			gpMultiplier.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(5, 1))) % 8;
+			shardsBeforeSirens.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(5, 1))) / 8;
 			monsterDifficulty.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(6, 1))) % 8;
 			numHeroes.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(6, 1))) / 8;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(7, 1))), new CheckBox[] { removeBonusItems, exCecil, exCid, exEdge, exEdward, exFusoya });
@@ -224,7 +225,7 @@ namespace FF4FreeEnterprisePR
 				r1 = new Random((int)(seedNumber / 2147483648));
 
 			randomizeMonstersWithBoost(xpMulti);
-			Zeromus.ZeromusSetup(r1, Convert.ToInt32(requiredShards.Text), zeromusDifficulty.SelectedIndex, mainDirectory);
+			Zeromus.ZeromusSetup(r1, Convert.ToInt32(requiredShards.Text), zeromusDifficulty.SelectedIndex, shardsBeforeSirens.SelectedIndex, mainDirectory);
 			Rewards.establishRewards(r1, party, mainDirectory, 
 				Path.Combine(dataDirectory, "Message"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti);
 			new Map(r1, dataMainDirectory,
@@ -247,7 +248,7 @@ namespace FF4FreeEnterprisePR
 				}
 
 				Clipboard.SetText(checkSum);
-				Messages.updateMessages(Path.Combine(dataDirectory, "Message"), RandoSeed.Text, RandoFlags.Text, checkSum);
+				Messages.updateMessages(Path.Combine(dataDirectory, "Message"), RandoSeed.Text, RandoFlags.Text, checkSum, shardsBeforeSirens.SelectedIndex != 5);
 				NewChecksum.Text = "COMPLETE - checksum " + checkSum + " (copied to clipboard)";
 			}
 			catch
@@ -400,5 +401,10 @@ namespace FF4FreeEnterprisePR
 				gameAssetsFile.Text = openFileDialog1.FileName;
 			}
 		}
-    }
+
+		private void label11_Click(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
