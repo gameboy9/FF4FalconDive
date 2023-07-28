@@ -1,0 +1,366 @@
+{
+	"Name": "BattleAI-monster-template",
+	"Title": {
+		"main": "ミストドラゴンAIスクリプト"
+	},
+	"EntryPoint": 0,
+	"Count": 1,
+	"Mnemonics": [
+		{
+			"label": "0000",
+			"mnemonic": "AttackAfterMes",
+			"operands": {
+				"sValues": [
+					"E0007_00_162_b_02"
+				]
+			},
+			"comment": "メッセージ表示タイミング後に設定"
+		},
+		{
+			"label": "0001",
+			"mnemonic": "Nop",
+			"comment": "ジャンプ先"
+		},
+		{
+			"label": "0002",
+			"mnemonic": "SyncAI",
+			"operands": {
+				"iValues": [
+					39
+				]
+			},
+			"comment": "行動準備が可能になるまでこのステップで待機"
+		},
+		{
+			"label": "0003",
+			"mnemonic": "ExecMsg",
+			"operands": {
+				"iValues": [
+					2,
+					0
+				],
+				"rValues": [
+					3
+				]
+			}
+		},
+		{
+			"label": "0004",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					3,
+					30
+				]
+			},
+			"comment": "内部モードが3であれば別テーブルへ移動"
+		},
+		{
+			"label": "0005",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					2,
+					22
+				]
+			},
+			"comment": "内部モードが2であれば別テーブルへ移動"
+		},
+		{
+			"label": "0006",
+			"mnemonic": "IsModeSelecting",
+			"operands": {
+				"iValues": [
+					1,
+					13
+				]
+			},
+			"comment": "内部モードが1であれば別テーブルへ移動"
+		},
+		{
+			"label": "0007",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					0
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0008",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0009",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0010",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					218
+				],
+				"sValues": [
+					"E0007_00_162_b_01"
+				]
+			}
+		},
+		{
+			"label": "0011",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0012",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0013",
+			"mnemonic": "Nop",
+			"comment": "内部モード1の時ジャンプ先"
+		},
+		{
+			"label": "0014",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					1
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0015",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			}
+		},
+		{
+			"label": "0016",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			}
+		},
+		{
+			"label": "0017",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			}
+		},
+		{
+			"label": "0018",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					219
+				],
+				"sValues": [
+					"E0007_00_162_b_05"
+				]
+			}
+		},
+		{
+			"label": "0019",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					94
+				]
+			}
+		},
+		{
+			"label": "0020",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0021",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0022",
+			"mnemonic": "Nop",
+			"comment": "内部モード2の時ジャンプ先"
+		},
+		{
+			"label": "0023",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					2
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0024",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0025",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0026",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0027",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					486
+				],
+				"sValues": [
+					"E0007_00_162_b_01"
+				]
+			}
+		},
+		{
+			"label": "0028",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0029",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0030",
+			"mnemonic": "Nop",
+			"comment": "内部モード3の時ジャンプ先"
+		},
+		{
+			"label": "0031",
+			"mnemonic": "StartTable",
+			"operands": {
+				"iValues": [
+					3
+				]
+			},
+			"comment": "行動テーブル始め"
+		},
+		{
+			"label": "0032",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			}
+		},
+		{
+			"label": "0033",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			}
+		},
+		{
+			"label": "0034",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					226
+				]
+			}
+		},
+		{
+			"label": "0035",
+			"mnemonic": "Act",
+			"operands": {
+				"iValues": [
+					219
+				],
+				"sValues": [
+					"E0007_00_162_b_05"
+				]
+			}
+		},
+		{
+			"label": "0036",
+			"mnemonic": "CounterAct",
+			"operands": {
+				"iValues": [
+					94
+				]
+			}
+		},
+		{
+			"label": "0037",
+			"mnemonic": "EndTable",
+			"comment": "行動テーブル終わり"
+		},
+		{
+			"label": "0038",
+			"mnemonic": "JumpBattleAI",
+			"operands": {
+				"iValues": [
+					1
+				]
+			}
+		},
+		{
+			"label": "0039",
+			"mnemonic": "Nop",
+			"comment": "終了"
+		},
+		{
+			"label": "0040",
+			"mnemonic": "Exit"
+		}
+	]
+}

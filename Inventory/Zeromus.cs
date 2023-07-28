@@ -15,8 +15,9 @@ namespace FF4FalconDive.Inventory
 {
 	static internal class Zeromus
 	{
-		static public void ZeromusSetup(Random r1, int shards, int difficulty, string directory)
+		static public void ZeromusSetup(Random r1, int ZShards, int difficulty, int sirenShards, string directory)
 		{
+			// Setup the required number of shared for the warps to Z
 			List<string> scripts = new List<string> {
 				@"Res\Map\Map_20101\Map_20101_5\sc_e_0139.json",
 				@"Res\Map\Map_20151\Map_20151_15\sc_e_0129.json",
@@ -24,14 +25,42 @@ namespace FF4FalconDive.Inventory
 			};
 
 			foreach (string script in scripts) {
-				// Setup the required number of shared for the warps to Z
 				string json = File.ReadAllText(script);
 				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
 
 				JsonSerializer serializer = new JsonSerializer();
 
 				var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "FEShardRequired").Single();
-				rewardItem.operands.iValues[1] = shards - 1; // Script looks for greater than, not greater or equal to.
+				rewardItem.operands.iValues[1] = ZShards - 1; // Script looks for greater than, not greater or equal to.
+
+				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, script)))
+				using (JsonWriter writer = new JsonTextWriter(sw))
+				{
+					serializer.Serialize(writer, jEvents);
+				}
+			}
+
+			// We'll set up the number of required shards for siren usage as well.
+			scripts = new List<string>
+			{
+				@"Res\Map\Map_Script\Resident\sc_alarm_0001.json"
+			};
+
+			foreach (string script in scripts)
+			{
+				string json = File.ReadAllText(script);
+				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
+
+				JsonSerializer serializer = new JsonSerializer();
+
+				var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "ZShardCheck").Single();
+				// Do not fire notification that you can beat Zeromus if the required shards is 0.
+				rewardItem.operands.iValues[1] = ZShards == 0 ? 99 : ZShards - 1; // Script looks for greater than, not greater or equal to.
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SirenShardCheck1").Single();
+				rewardItem.operands.iValues[1] = sirenShards - 1; // Script looks for greater than, not greater or equal to.
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SirenShardCheck2").Single();
+				// Do not fire notification that you can use shards if the required siren shards is 0.
+				rewardItem.operands.iValues[1] = sirenShards == 0 ? 99 : sirenShards - 1; // Script looks for greater than, not greater or equal to.
 
 				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, script)))
 				using (JsonWriter writer = new JsonTextWriter(sw))

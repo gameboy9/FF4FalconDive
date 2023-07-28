@@ -84,6 +84,8 @@ namespace FF4FreeEnterprisePR
 			this.label6 = new System.Windows.Forms.Label();
 			this.dupCharactersAllowed = new System.Windows.Forms.CheckBox();
 			this.settingEnemies = new System.Windows.Forms.TabPage();
+			this.zeromusDifficulty = new System.Windows.Forms.ComboBox();
+			this.label10 = new System.Windows.Forms.Label();
 			this.label17 = new System.Windows.Forms.Label();
 			this.encounterRate = new System.Windows.Forms.ComboBox();
 			this.gpMultiplier = new System.Windows.Forms.ComboBox();
@@ -93,8 +95,8 @@ namespace FF4FreeEnterprisePR
 			this.label8 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
 			this.hpAdjustTooltip = new System.Windows.Forms.ToolTip(this.components);
-			this.zeromusDifficulty = new System.Windows.Forms.ComboBox();
-			this.label10 = new System.Windows.Forms.Label();
+			this.label11 = new System.Windows.Forms.Label();
+			this.shardsBeforeSirens = new System.Windows.Forms.ComboBox();
 			this.tabControl1.SuspendLayout();
 			this.settingGeneral.SuspendLayout();
 			this.settingHero.SuspendLayout();
@@ -258,6 +260,8 @@ namespace FF4FreeEnterprisePR
 			// 
 			// settingGeneral
 			// 
+			this.settingGeneral.Controls.Add(this.label11);
+			this.settingGeneral.Controls.Add(this.shardsBeforeSirens);
 			this.settingGeneral.Controls.Add(this.requiredShards);
 			this.settingGeneral.Controls.Add(this.label5);
 			this.settingGeneral.Controls.Add(this.removeFGExclusiveItems);
@@ -292,7 +296,7 @@ namespace FF4FreeEnterprisePR
             "2",
             "3",
             "4"});
-			this.requiredShards.Location = new System.Drawing.Point(160, 160);
+			this.requiredShards.Location = new System.Drawing.Point(160, 156);
 			this.requiredShards.Name = "requiredShards";
 			this.requiredShards.Size = new System.Drawing.Size(67, 28);
 			this.requiredShards.TabIndex = 67;
@@ -301,7 +305,7 @@ namespace FF4FreeEnterprisePR
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(11, 163);
+			this.label5.Location = new System.Drawing.Point(11, 159);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(117, 20);
 			this.label5.TabIndex = 66;
@@ -734,6 +738,31 @@ namespace FF4FreeEnterprisePR
 			this.settingEnemies.Text = "Enemies";
 			this.settingEnemies.UseVisualStyleBackColor = true;
 			// 
+			// zeromusDifficulty
+			// 
+			this.zeromusDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.zeromusDifficulty.FormattingEnabled = true;
+			this.zeromusDifficulty.Items.AddRange(new object[] {
+            "Very Easy",
+            "Easy",
+            "Normal",
+            "Hard",
+            "Very Hard"});
+			this.zeromusDifficulty.Location = new System.Drawing.Point(153, 47);
+			this.zeromusDifficulty.Name = "zeromusDifficulty";
+			this.zeromusDifficulty.Size = new System.Drawing.Size(148, 28);
+			this.zeromusDifficulty.TabIndex = 50;
+			this.zeromusDifficulty.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// label10
+			// 
+			this.label10.AutoSize = true;
+			this.label10.Location = new System.Drawing.Point(3, 51);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(131, 20);
+			this.label10.TabIndex = 49;
+			this.label10.Text = "Zeromus Difficulty";
+			// 
 			// label17
 			// 
 			this.label17.AutoSize = true;
@@ -842,30 +871,32 @@ namespace FF4FreeEnterprisePR
 			this.label7.TabIndex = 34;
 			this.label7.Text = "Monster Difficulty";
 			// 
-			// zeromusDifficulty
+			// label11
 			// 
-			this.zeromusDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.zeromusDifficulty.FormattingEnabled = true;
-			this.zeromusDifficulty.Items.AddRange(new object[] {
-            "Very Easy",
-            "Easy",
-            "Normal",
-            "Hard",
-            "Very Hard"});
-			this.zeromusDifficulty.Location = new System.Drawing.Point(153, 47);
-			this.zeromusDifficulty.Name = "zeromusDifficulty";
-			this.zeromusDifficulty.Size = new System.Drawing.Size(148, 28);
-			this.zeromusDifficulty.TabIndex = 50;
-			this.zeromusDifficulty.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			this.label11.AutoSize = true;
+			this.label11.Location = new System.Drawing.Point(10, 193);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(148, 20);
+			this.label11.TabIndex = 69;
+			this.label11.Text = "... Before Siren Usage";
+			this.label11.Click += new System.EventHandler(this.label11_Click);
 			// 
-			// label10
+			// shardsBeforeSirens
 			// 
-			this.label10.AutoSize = true;
-			this.label10.Location = new System.Drawing.Point(3, 51);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(131, 20);
-			this.label10.TabIndex = 49;
-			this.label10.Text = "Zeromus Difficulty";
+			this.shardsBeforeSirens.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.shardsBeforeSirens.FormattingEnabled = true;
+			this.shardsBeforeSirens.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "Not Allowed"});
+			this.shardsBeforeSirens.Location = new System.Drawing.Point(160, 190);
+			this.shardsBeforeSirens.Name = "shardsBeforeSirens";
+			this.shardsBeforeSirens.Size = new System.Drawing.Size(148, 28);
+			this.shardsBeforeSirens.TabIndex = 68;
+			this.shardsBeforeSirens.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
 			// 
 			// FF4FalconDive
 			// 
@@ -972,6 +1003,8 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.ComboBox zeromusDifficulty;
 		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label label11;
+		private System.Windows.Forms.ComboBox shardsBeforeSirens;
 	}
 }
 

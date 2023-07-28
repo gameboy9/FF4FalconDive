@@ -822,7 +822,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				case 5: monsterBattles = new List<int>() { 12, 29, 30, 31, 32 }; break; // Damcyan
 				case 6: monsterBattles = new List<int>() { 521, 33, 34, 35, 36, 37, 38, 39, 40, 527, 528 }; break; // Antlion Cave
 				case 7: monsterBattles = new List<int>() { 41, 52, 529, 44, 530, 46, 531, 42, 48, 52 }; break; // Mt. Hobs
-				case 8: monsterBattles = new List<int>() { 54, 55, 45, 43, 47, 56, 242, 248, 249, 250 }; break; // Fabul
+				case 8: monsterBattles = new List<int>() { 54, 55, 45, 43, 47, 56, 248, 249, 250 }; break; // Fabul
 				case 9: monsterBattles = new List<int>() { 57, 30, 53, 55, 59, 58 }; break; // Ordeals-Milon
 				case 10: monsterBattles = new List<int>() { 48, 50, 52, 61, 62, 63, 64 }; break; // Ordeals-Milon Z
 				case 11: monsterBattles = new List<int>() { 68, 69, 70, 72, 64, 71, 73, 74 }; break; // Ordeals-DK Cecil
@@ -868,6 +868,8 @@ namespace FF4FreeEnterprisePR.Randomize
 					fgGroup.battle_flag_group_id = flag;
 				fgGroup.script_name = 0;
 				fgGroup.not_escape = 1;
+				if (locationID == 10) {	fgGroup.battle_pattern1 = 0; fgGroup.battle_pattern2 = 1; }
+					else { fgGroup.battle_pattern1 = 1; fgGroup.battle_pattern2 = 0; }
 				groups.Add(fgGroup);
 			}
 
