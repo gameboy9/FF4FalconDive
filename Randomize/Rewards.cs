@@ -537,7 +537,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					int i = 0;
 					foreach (int tail in tailSelection)
 					{
-						string msgId = i == 0 ? "FE_NOTHING_BONUS" : "FE_TAIL_PINK";
+						string msgId = i == 0 ? "FE_TAIL_PINK" : "FE_NOTHING_BONUS";
 						msgStrings.Add(new message { id = msgId, msgString = "You got " + itemLookup(itemIDLookup(tail)) + "!" });
 						i++;
 					}

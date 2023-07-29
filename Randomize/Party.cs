@@ -159,7 +159,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 		private static List<int> characters = new List<int>();
 
-		public static int[] establishParty(Random r1, string directory, int numberOfBattles, bool duplicates, int numHeroes, bool noPromote, bool[] exclude, double xpMultiplier)
+		public static int[] establishParty(Random r1, string directory, int firstHero, bool duplicates, int numHeroes, bool noPromote, bool[] exclude, double xpMultiplier)
 		{
 			List<character> records;
 
@@ -172,6 +172,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				characters = new List<int>();
 				for (int i = 0; i < 12; i++)
 				{
+					if (i == 0 && firstHero != 0) characters.Add(firstHero);
 					int charID = r1.Next() % 13 + 1;
 					if ((charID == dkCecil && !exclude[0]) ||
 						(charID == kain && !exclude[1]) ||
@@ -209,6 +210,15 @@ namespace FF4FreeEnterprisePR.Randomize
 				characters.Shuffle(r1);
 				while (characters.Count < 12)
 					characters.Add(cecil);
+				if (firstHero != 0)
+				{
+					if (characters.Contains(firstHero))
+						characters.Remove(firstHero);
+					characters.Add(firstHero);
+					int tempChar = characters[0];
+					characters[0] = firstHero;
+					characters[characters.Count - 1] = firstHero;
+				}
 			}
 			// Need to move characters around because we have to skip character slots due to promotions based on ScenarioFlag setting.
 			characters[6] = characters[4];
@@ -293,6 +303,9 @@ namespace FF4FreeEnterprisePR.Randomize
 		public static void adjustParty(int i, int xp, string directory, Random r1, double xpMultiplier)
 		{
 			xp = (int)(xp * xpMultiplier);
+			// Must be a value between 0 and 9,000,000
+			xp = Math.Min(xp, 9000000);
+			xp = Math.Max(xp, 0);
 
 			List<character> records;
 			using (StreamReader reader = new StreamReader(Path.Combine(directory, "..", "..", "Data", "Master", "character_status.csv")))

@@ -11,7 +11,7 @@ namespace FF4FreeEnterprisePR
 {
 	public partial class FF4FalconDive : Form
 	{
-		const string defaultFlags = "0VQ9K010000";
+		const string defaultFlags = "0VQ9K0100000";
 		string dataMainDirectory;
 		string mainDirectory;
 		string dataDirectory;
@@ -38,9 +38,10 @@ namespace FF4FreeEnterprisePR
 			flags += convertIntToChar(gpMultiplier.SelectedIndex + (8 * shardsBeforeSirens.SelectedIndex));
 			flags += convertIntToChar(monsterDifficulty.SelectedIndex + (8 * numHeroes.SelectedIndex));
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { removeBonusItems, exCecil, exCid, exEdge, exEdward, exFusoya }));
-			flags += convertIntToChar(firstHero.SelectedIndex);
+			flags += convertIntToChar(firstHero.SelectedIndex); // Maxes out at 13.
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { exKain, exPalom, exPorom, exRosa, exRydia, exTellah }));
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { exYang, removeFGExclusiveItems, exPaladinCecil }));
+			flags += convertIntToChar(startingXP.SelectedIndex);
 			RandoFlags.Text = flags;
 
 			//flags = "";
@@ -50,9 +51,9 @@ namespace FF4FreeEnterprisePR
 
 		private void determineChecks(object sender, EventArgs e)
 		{
-			if (loading && RandoFlags.Text.Length < 11)
+			if (loading && RandoFlags.Text.Length < 12)
 				RandoFlags.Text = defaultFlags; // Default flags here
-			else if (RandoFlags.Text.Length < 11)
+			else if (RandoFlags.Text.Length < 12)
 				return;
 
 			//if (loading && VisualFlags.Text.Length < 1)
@@ -80,6 +81,7 @@ namespace FF4FreeEnterprisePR
 			firstHero.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(8, 1))) % 16;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(9, 1))), new CheckBox[] { exKain, exPalom, exPorom, exRosa, exRydia, exTellah });
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(10, 1))), new CheckBox[] { exYang, removeFGExclusiveItems, exPaladinCecil });
+			startingXP.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(11, 1))) % 8;
 
 			//flags = VisualFlags.Text;
 			//numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { CuteHats });
@@ -206,6 +208,14 @@ namespace FF4FreeEnterprisePR
 				xpMultiplier.SelectedIndex == 5 ? 4 :
 				xpMultiplier.SelectedIndex == 6 ? 5 : 10;
 
+			double xpStart = startingXP.SelectedIndex == 0 ? 1 :
+				startingXP.SelectedIndex == 1 ? -1 :
+				startingXP.SelectedIndex == 2 ? 0.5 :
+				startingXP.SelectedIndex == 3 ? 2 :
+				startingXP.SelectedIndex == 4 ? 3 :
+				startingXP.SelectedIndex == 5 ? 4 :
+				startingXP.SelectedIndex == 6 ? 5 : 10;
+
 			update();
 			long seedNumber;
 			try
@@ -217,7 +227,7 @@ namespace FF4FreeEnterprisePR
 				return;
 			}
 			r1 = new Random((int)(seedNumber % 2147483648));
-			int[] party = randomizeParty(xpMulti);
+			int[] party = randomizeParty(xpMulti * xpStart);
 			randomizeShops(party);
 			randomizeTreasures(party);
 			priceAdjustment();
@@ -227,7 +237,7 @@ namespace FF4FreeEnterprisePR
 			randomizeMonstersWithBoost(xpMulti);
 			Zeromus.ZeromusSetup(r1, Convert.ToInt32(requiredShards.Text), zeromusDifficulty.SelectedIndex, shardsBeforeSirens.SelectedIndex, mainDirectory);
 			Rewards.establishRewards(r1, party, mainDirectory, 
-				Path.Combine(dataDirectory, "Message"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti);
+				Path.Combine(dataDirectory, "Message"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti * xpStart);
 			new Map(r1, dataMainDirectory,
 					encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 4 ? 2 :
 					encounterRate.SelectedIndex == 3 || encounterRate.SelectedIndex == 5 ? 4 :
@@ -264,7 +274,7 @@ namespace FF4FreeEnterprisePR
 
 		private int[] randomizeParty(double xpMulti)
 		{
-			return Party.establishParty(r1, mapDirectory, 0, dupCharactersAllowed.Checked, Convert.ToInt32(numHeroes.SelectedItem), exPaladinCecil.Checked,
+			return Party.establishParty(r1, mapDirectory, firstHero.SelectedIndex, dupCharactersAllowed.Checked, Convert.ToInt32(numHeroes.SelectedItem), exPaladinCecil.Checked,
 				new bool[] { exCecil.Checked, exKain.Checked, exRydia.Checked, exTellah.Checked, exEdward.Checked, exRosa.Checked, exYang.Checked, exPalom.Checked, exPorom.Checked, exCid.Checked, exEdge.Checked, exFusoya.Checked, exPaladinCecil.Checked }, xpMulti);
 		}
 

@@ -41,7 +41,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				new treasureDirectory { directory = "Map_20021", stdMinTier = 1, stdMaxTier = 4, monsterBooster = 1, booster = new List<string>() { "Map_20021_7**", "Map_20021_8**" } }, // Waterway and Weapon/Armor store behind Baron Key
 				new treasureDirectory { directory = "Map_20030", stdMinTier = 1, stdMaxTier = 4, monsterBooster = 1, booster = new List<string>() { } }, // Kaipo
 				new treasureDirectory { directory = "Map_20041", stdMinTier = 1, stdMaxTier = 4, monsterBooster = 1, booster = new List<string>() { } }, // Damcyan Castle
-				new treasureDirectory { directory = "Map_20051", stdMinTier = 1, stdMaxTier = 4, monsterBooster = 1, booster = new List<string>() { "Map_20051_11*", "Map_20051_12*" } }, // Fabul - Boost for King's Tower
+				new treasureDirectory { directory = "Map_20051", stdMinTier = 1, stdMaxTier = 4, monsterBooster = 1, booster = new List<string>() { "Map_20051_11*", "Map_20051_12*", "Map_20051_3*" } }, // Fabul - Boost for King's Tower, Throne Room
 				new treasureDirectory { directory = "Map_20070", stdMinTier = 2, stdMaxTier = 6, monsterBooster = 1, booster = new List<string>() { } }, // Mist - Blocked by Bomb Ring / boss fight
 				new treasureDirectory { directory = "Map_20071", stdMinTier = 2, stdMaxTier = 6, monsterBooster = 1, booster = new List<string>() { } },
 				new treasureDirectory { directory = "Map_20080", stdMinTier = 2, stdMaxTier = 5, monsterBooster = 1, booster = new List<string>() { } }, // Mythril - Not commonly explored
