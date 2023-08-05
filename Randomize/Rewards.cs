@@ -270,7 +270,8 @@ namespace FF4FreeEnterprisePR.Randomize
 								while (chars < charsRequired)
 								{
 									// Replace non-progression items with characters.
-									pairing pair = pairings.Where(c => c.rewardID == 6 || c.rewardID == 12 || c.rewardID == 14 || c.rewardID >= 16).FirstOrDefault();
+									List<int> nonProgression = new List<int> { 6, 12, 14, 16, 22, 23, 24, 25, 28, 29, 30, 31 };
+									pairing pair = pairings.Where(c => nonProgression.Contains(c.rewardID)).FirstOrDefault();
 									if (pair != null)
 									{
 										validRewards.Add(pair.rewardID);

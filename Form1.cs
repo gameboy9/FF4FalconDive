@@ -18,6 +18,7 @@ namespace FF4FreeEnterprisePR
 		string mapDirectory;
 		bool loading = true;
 		Random r1;
+		const int flagLength = 12;
 
 		public FF4FalconDive()
 		{
@@ -51,9 +52,9 @@ namespace FF4FreeEnterprisePR
 
 		private void determineChecks(object sender, EventArgs e)
 		{
-			if (loading && RandoFlags.Text.Length < 12)
+			if (loading && RandoFlags.Text.Length < flagLength)
 				RandoFlags.Text = defaultFlags; // Default flags here
-			else if (RandoFlags.Text.Length < 12)
+			else if (RandoFlags.Text.Length < flagLength)
 				return;
 
 			//if (loading && VisualFlags.Text.Length < 1)
@@ -412,9 +413,18 @@ namespace FF4FreeEnterprisePR
 			}
 		}
 
-		private void label11_Click(object sender, EventArgs e)
+		private void flagDefault_Click(object sender, EventArgs e)
 		{
-
+			Button btn = (Button)sender;
+			if (btn.Name == "flagDefault")
+			{
+				RandoFlags.Text = "0VQ9K0100000";
+			}
+			if (btn.Name == "flagCustom1") { if (flagCustom1.Text.Length == flagLength) RandoFlags.Text = flagCustom1Text.Text; else MessageBox.Show("Invalid flag string"); }
+			if (btn.Name == "flagCustom2") { if (flagCustom2.Text.Length == flagLength) RandoFlags.Text = flagCustom2Text.Text; else MessageBox.Show("Invalid flag string"); }
+			if (btn.Name == "flagCustom3") { if (flagCustom3.Text.Length == flagLength) RandoFlags.Text = flagCustom3Text.Text; else MessageBox.Show("Invalid flag string"); }
+			if (btn.Name == "flagCustom4") { if (flagCustom4.Text.Length == flagLength) RandoFlags.Text = flagCustom4Text.Text; else MessageBox.Show("Invalid flag string"); }
+			if (btn.Name == "flagCustom5") { if (flagCustom5.Text.Length == flagLength) RandoFlags.Text = flagCustom5Text.Text; else MessageBox.Show("Invalid flag string"); }
 		}
 	}
 }

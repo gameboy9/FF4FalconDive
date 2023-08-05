@@ -98,11 +98,24 @@ namespace FF4FreeEnterprisePR
 			this.label9 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
+			this.tabPage1 = new System.Windows.Forms.TabPage();
+			this.flagCustom5Text = new System.Windows.Forms.TextBox();
+			this.flagCustom4Text = new System.Windows.Forms.TextBox();
+			this.flagCustom3Text = new System.Windows.Forms.TextBox();
+			this.flagCustom2Text = new System.Windows.Forms.TextBox();
+			this.flagCustom1Text = new System.Windows.Forms.TextBox();
+			this.flagCustom5 = new System.Windows.Forms.Button();
+			this.flagCustom4 = new System.Windows.Forms.Button();
+			this.flagCustom3 = new System.Windows.Forms.Button();
+			this.flagCustom2 = new System.Windows.Forms.Button();
+			this.flagCustom1 = new System.Windows.Forms.Button();
+			this.flagDefault = new System.Windows.Forms.Button();
 			this.hpAdjustTooltip = new System.Windows.Forms.ToolTip(this.components);
 			this.tabControl1.SuspendLayout();
 			this.settingGeneral.SuspendLayout();
 			this.settingHero.SuspendLayout();
 			this.settingEnemies.SuspendLayout();
+			this.tabPage1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Randomize
@@ -254,6 +267,7 @@ namespace FF4FreeEnterprisePR
 			this.tabControl1.Controls.Add(this.settingGeneral);
 			this.tabControl1.Controls.Add(this.settingHero);
 			this.tabControl1.Controls.Add(this.settingEnemies);
+			this.tabControl1.Controls.Add(this.tabPage1);
 			this.tabControl1.Location = new System.Drawing.Point(12, 133);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
@@ -296,7 +310,6 @@ namespace FF4FreeEnterprisePR
 			this.label11.Size = new System.Drawing.Size(148, 20);
 			this.label11.TabIndex = 69;
 			this.label11.Text = "... Before Siren Usage";
-			this.label11.Click += new System.EventHandler(this.label11_Click);
 			// 
 			// shardsBeforeSirens
 			// 
@@ -930,6 +943,116 @@ namespace FF4FreeEnterprisePR
 			this.label7.TabIndex = 34;
 			this.label7.Text = "Monster Difficulty";
 			// 
+			// tabPage1
+			// 
+			this.tabPage1.Controls.Add(this.flagCustom5Text);
+			this.tabPage1.Controls.Add(this.flagCustom4Text);
+			this.tabPage1.Controls.Add(this.flagCustom3Text);
+			this.tabPage1.Controls.Add(this.flagCustom2Text);
+			this.tabPage1.Controls.Add(this.flagCustom1Text);
+			this.tabPage1.Controls.Add(this.flagCustom5);
+			this.tabPage1.Controls.Add(this.flagCustom4);
+			this.tabPage1.Controls.Add(this.flagCustom3);
+			this.tabPage1.Controls.Add(this.flagCustom2);
+			this.tabPage1.Controls.Add(this.flagCustom1);
+			this.tabPage1.Controls.Add(this.flagDefault);
+			this.tabPage1.Location = new System.Drawing.Point(4, 29);
+			this.tabPage1.Name = "tabPage1";
+			this.tabPage1.Size = new System.Drawing.Size(768, 316);
+			this.tabPage1.TabIndex = 3;
+			this.tabPage1.Text = "Defaults";
+			this.tabPage1.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom5Text
+			// 
+			this.flagCustom5Text.Location = new System.Drawing.Point(138, 274);
+			this.flagCustom5Text.Name = "flagCustom5Text";
+			this.flagCustom5Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom5Text.TabIndex = 10;
+			// 
+			// flagCustom4Text
+			// 
+			this.flagCustom4Text.Location = new System.Drawing.Point(138, 240);
+			this.flagCustom4Text.Name = "flagCustom4Text";
+			this.flagCustom4Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom4Text.TabIndex = 9;
+			// 
+			// flagCustom3Text
+			// 
+			this.flagCustom3Text.Location = new System.Drawing.Point(138, 204);
+			this.flagCustom3Text.Name = "flagCustom3Text";
+			this.flagCustom3Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom3Text.TabIndex = 8;
+			// 
+			// flagCustom2Text
+			// 
+			this.flagCustom2Text.Location = new System.Drawing.Point(138, 167);
+			this.flagCustom2Text.Name = "flagCustom2Text";
+			this.flagCustom2Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom2Text.TabIndex = 7;
+			// 
+			// flagCustom1Text
+			// 
+			this.flagCustom1Text.Location = new System.Drawing.Point(138, 134);
+			this.flagCustom1Text.Name = "flagCustom1Text";
+			this.flagCustom1Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom1Text.TabIndex = 6;
+			// 
+			// flagCustom5
+			// 
+			this.flagCustom5.Location = new System.Drawing.Point(22, 274);
+			this.flagCustom5.Name = "flagCustom5";
+			this.flagCustom5.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom5.TabIndex = 5;
+			this.flagCustom5.Text = "Custom 5";
+			this.flagCustom5.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom4
+			// 
+			this.flagCustom4.Location = new System.Drawing.Point(22, 239);
+			this.flagCustom4.Name = "flagCustom4";
+			this.flagCustom4.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom4.TabIndex = 4;
+			this.flagCustom4.Text = "Custom 4";
+			this.flagCustom4.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom3
+			// 
+			this.flagCustom3.Location = new System.Drawing.Point(22, 204);
+			this.flagCustom3.Name = "flagCustom3";
+			this.flagCustom3.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom3.TabIndex = 3;
+			this.flagCustom3.Text = "Custom 3";
+			this.flagCustom3.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom2
+			// 
+			this.flagCustom2.Location = new System.Drawing.Point(22, 169);
+			this.flagCustom2.Name = "flagCustom2";
+			this.flagCustom2.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom2.TabIndex = 2;
+			this.flagCustom2.Text = "Custom 2";
+			this.flagCustom2.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom1
+			// 
+			this.flagCustom1.Location = new System.Drawing.Point(22, 134);
+			this.flagCustom1.Name = "flagCustom1";
+			this.flagCustom1.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom1.TabIndex = 1;
+			this.flagCustom1.Text = "Custom 1";
+			this.flagCustom1.UseVisualStyleBackColor = true;
+			// 
+			// flagDefault
+			// 
+			this.flagDefault.Location = new System.Drawing.Point(22, 15);
+			this.flagDefault.Name = "flagDefault";
+			this.flagDefault.Size = new System.Drawing.Size(94, 29);
+			this.flagDefault.TabIndex = 0;
+			this.flagDefault.Text = "Default";
+			this.flagDefault.UseVisualStyleBackColor = true;
+			this.flagDefault.Click += new System.EventHandler(this.flagDefault_Click);
+			// 
 			// FF4FalconDive
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -963,6 +1086,8 @@ namespace FF4FreeEnterprisePR
 			this.settingHero.PerformLayout();
 			this.settingEnemies.ResumeLayout(false);
 			this.settingEnemies.PerformLayout();
+			this.tabPage1.ResumeLayout(false);
+			this.tabPage1.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -1039,6 +1164,18 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.ComboBox shardsBeforeSirens;
 		private System.Windows.Forms.ComboBox startingXP;
 		private System.Windows.Forms.Label label18;
+		private System.Windows.Forms.TabPage tabPage1;
+		private System.Windows.Forms.TextBox flagCustom5Text;
+		private System.Windows.Forms.TextBox flagCustom4Text;
+		private System.Windows.Forms.TextBox flagCustom3Text;
+		private System.Windows.Forms.TextBox flagCustom2Text;
+		private System.Windows.Forms.TextBox flagCustom1Text;
+		private System.Windows.Forms.Button flagCustom5;
+		private System.Windows.Forms.Button flagCustom4;
+		private System.Windows.Forms.Button flagCustom3;
+		private System.Windows.Forms.Button flagCustom2;
+		private System.Windows.Forms.Button flagCustom1;
+		private System.Windows.Forms.Button flagDefault;
 	}
 }
 
