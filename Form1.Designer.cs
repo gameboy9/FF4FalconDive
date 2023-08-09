@@ -48,6 +48,8 @@ namespace FF4FreeEnterprisePR
 			this.BrowseForGameAssets = new System.Windows.Forms.Button();
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.settingGeneral = new System.Windows.Forms.TabPage();
+			this.label11 = new System.Windows.Forms.Label();
+			this.shardsBeforeSirens = new System.Windows.Forms.ComboBox();
 			this.requiredShards = new System.Windows.Forms.ComboBox();
 			this.label5 = new System.Windows.Forms.Label();
 			this.removeFGExclusiveItems = new System.Windows.Forms.CheckBox();
@@ -65,6 +67,8 @@ namespace FF4FreeEnterprisePR
 			this.label13 = new System.Windows.Forms.Label();
 			this.label12 = new System.Windows.Forms.Label();
 			this.settingHero = new System.Windows.Forms.TabPage();
+			this.startingXP = new System.Windows.Forms.ComboBox();
+			this.label18 = new System.Windows.Forms.Label();
 			this.exYang = new System.Windows.Forms.CheckBox();
 			this.firstHero = new System.Windows.Forms.ComboBox();
 			this.label16 = new System.Windows.Forms.Label();
@@ -94,13 +98,24 @@ namespace FF4FreeEnterprisePR
 			this.label9 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
+			this.tabPage1 = new System.Windows.Forms.TabPage();
+			this.flagCustom5Text = new System.Windows.Forms.TextBox();
+			this.flagCustom4Text = new System.Windows.Forms.TextBox();
+			this.flagCustom3Text = new System.Windows.Forms.TextBox();
+			this.flagCustom2Text = new System.Windows.Forms.TextBox();
+			this.flagCustom1Text = new System.Windows.Forms.TextBox();
+			this.flagCustom5 = new System.Windows.Forms.Button();
+			this.flagCustom4 = new System.Windows.Forms.Button();
+			this.flagCustom3 = new System.Windows.Forms.Button();
+			this.flagCustom2 = new System.Windows.Forms.Button();
+			this.flagCustom1 = new System.Windows.Forms.Button();
+			this.flagDefault = new System.Windows.Forms.Button();
 			this.hpAdjustTooltip = new System.Windows.Forms.ToolTip(this.components);
-			this.label11 = new System.Windows.Forms.Label();
-			this.shardsBeforeSirens = new System.Windows.Forms.ComboBox();
 			this.tabControl1.SuspendLayout();
 			this.settingGeneral.SuspendLayout();
 			this.settingHero.SuspendLayout();
 			this.settingEnemies.SuspendLayout();
+			this.tabPage1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// Randomize
@@ -252,6 +267,7 @@ namespace FF4FreeEnterprisePR
 			this.tabControl1.Controls.Add(this.settingGeneral);
 			this.tabControl1.Controls.Add(this.settingHero);
 			this.tabControl1.Controls.Add(this.settingEnemies);
+			this.tabControl1.Controls.Add(this.tabPage1);
 			this.tabControl1.Location = new System.Drawing.Point(12, 133);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
@@ -285,6 +301,32 @@ namespace FF4FreeEnterprisePR
 			this.settingGeneral.TabIndex = 0;
 			this.settingGeneral.Text = "General";
 			this.settingGeneral.UseVisualStyleBackColor = true;
+			// 
+			// label11
+			// 
+			this.label11.AutoSize = true;
+			this.label11.Location = new System.Drawing.Point(10, 193);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(148, 20);
+			this.label11.TabIndex = 69;
+			this.label11.Text = "... Before Siren Usage";
+			// 
+			// shardsBeforeSirens
+			// 
+			this.shardsBeforeSirens.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.shardsBeforeSirens.FormattingEnabled = true;
+			this.shardsBeforeSirens.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "Not Allowed"});
+			this.shardsBeforeSirens.Location = new System.Drawing.Point(160, 190);
+			this.shardsBeforeSirens.Name = "shardsBeforeSirens";
+			this.shardsBeforeSirens.Size = new System.Drawing.Size(148, 28);
+			this.shardsBeforeSirens.TabIndex = 68;
+			this.shardsBeforeSirens.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
 			// 
 			// requiredShards
 			// 
@@ -478,6 +520,8 @@ namespace FF4FreeEnterprisePR
 			// 
 			// settingHero
 			// 
+			this.settingHero.Controls.Add(this.startingXP);
+			this.settingHero.Controls.Add(this.label18);
 			this.settingHero.Controls.Add(this.exYang);
 			this.settingHero.Controls.Add(this.firstHero);
 			this.settingHero.Controls.Add(this.label16);
@@ -504,10 +548,38 @@ namespace FF4FreeEnterprisePR
 			this.settingHero.Text = "Heroes";
 			this.settingHero.UseVisualStyleBackColor = true;
 			// 
+			// startingXP
+			// 
+			this.startingXP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			this.startingXP.FormattingEnabled = true;
+			this.startingXP.Items.AddRange(new object[] {
+            "Normal",
+            "Level 1",
+            "1/2 Normal",
+            "2x Normal",
+            "3x Normal",
+            "4x Normal",
+            "5x Normal",
+            "10x Normal"});
+			this.startingXP.Location = new System.Drawing.Point(122, 49);
+			this.startingXP.Name = "startingXP";
+			this.startingXP.Size = new System.Drawing.Size(148, 28);
+			this.startingXP.TabIndex = 75;
+			this.startingXP.SelectedValueChanged += new System.EventHandler(this.DetermineFlags);
+			// 
+			// label18
+			// 
+			this.label18.AutoSize = true;
+			this.label18.Location = new System.Drawing.Point(6, 52);
+			this.label18.Name = "label18";
+			this.label18.Size = new System.Drawing.Size(82, 20);
+			this.label18.TabIndex = 74;
+			this.label18.Text = "Starting XP";
+			// 
 			// exYang
 			// 
 			this.exYang.AutoSize = true;
-			this.exYang.Location = new System.Drawing.Point(201, 136);
+			this.exYang.Location = new System.Drawing.Point(199, 153);
 			this.exYang.Name = "exYang";
 			this.exYang.Size = new System.Drawing.Size(118, 24);
 			this.exYang.TabIndex = 73;
@@ -521,22 +593,23 @@ namespace FF4FreeEnterprisePR
 			this.firstHero.FormattingEnabled = true;
 			this.firstHero.Items.AddRange(new object[] {
             "No Pref.",
-            "Cecil",
+            "Dark Knight Cecil",
             "Kain",
-            "Tellah",
-            "Rydia",
-            "Edward",
             "Rosa",
+            "Rydia",
+            "Cid",
+            "Tellah",
+            "Edward",
+            "Yang",
             "Palom",
             "Porom",
-            "Cid",
             "Edge",
-            "Fusoya"});
+            "Fusoya",
+            "Paladin Cecil"});
 			this.firstHero.Location = new System.Drawing.Point(412, 13);
 			this.firstHero.Name = "firstHero";
 			this.firstHero.Size = new System.Drawing.Size(148, 28);
 			this.firstHero.TabIndex = 72;
-			this.firstHero.Visible = false;
 			this.firstHero.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
 			// 
 			// label16
@@ -547,12 +620,11 @@ namespace FF4FreeEnterprisePR
 			this.label16.Size = new System.Drawing.Size(73, 20);
 			this.label16.TabIndex = 71;
 			this.label16.Text = "First Hero";
-			this.label16.Visible = false;
 			// 
 			// exPaladinCecil
 			// 
 			this.exPaladinCecil.AutoSize = true;
-			this.exPaladinCecil.Location = new System.Drawing.Point(6, 196);
+			this.exPaladinCecil.Location = new System.Drawing.Point(6, 211);
 			this.exPaladinCecil.Name = "exPaladinCecil";
 			this.exPaladinCecil.Size = new System.Drawing.Size(170, 24);
 			this.exPaladinCecil.TabIndex = 69;
@@ -563,7 +635,7 @@ namespace FF4FreeEnterprisePR
 			// exFusoya
 			// 
 			this.exFusoya.AutoSize = true;
-			this.exFusoya.Location = new System.Drawing.Point(412, 166);
+			this.exFusoya.Location = new System.Drawing.Point(410, 183);
 			this.exFusoya.Name = "exFusoya";
 			this.exFusoya.Size = new System.Drawing.Size(131, 24);
 			this.exFusoya.TabIndex = 68;
@@ -574,7 +646,7 @@ namespace FF4FreeEnterprisePR
 			// exRosa
 			// 
 			this.exRosa.AutoSize = true;
-			this.exRosa.Location = new System.Drawing.Point(201, 106);
+			this.exRosa.Location = new System.Drawing.Point(199, 123);
 			this.exRosa.Name = "exRosa";
 			this.exRosa.Size = new System.Drawing.Size(118, 24);
 			this.exRosa.TabIndex = 67;
@@ -585,7 +657,7 @@ namespace FF4FreeEnterprisePR
 			// exPorom
 			// 
 			this.exPorom.AutoSize = true;
-			this.exPorom.Location = new System.Drawing.Point(412, 104);
+			this.exPorom.Location = new System.Drawing.Point(410, 121);
 			this.exPorom.Name = "exPorom";
 			this.exPorom.Size = new System.Drawing.Size(129, 24);
 			this.exPorom.TabIndex = 66;
@@ -596,7 +668,7 @@ namespace FF4FreeEnterprisePR
 			// exCid
 			// 
 			this.exCid.AutoSize = true;
-			this.exCid.Location = new System.Drawing.Point(201, 166);
+			this.exCid.Location = new System.Drawing.Point(199, 183);
 			this.exCid.Name = "exCid";
 			this.exCid.Size = new System.Drawing.Size(108, 24);
 			this.exCid.TabIndex = 65;
@@ -607,7 +679,7 @@ namespace FF4FreeEnterprisePR
 			// exRydia
 			// 
 			this.exRydia.AutoSize = true;
-			this.exRydia.Location = new System.Drawing.Point(6, 166);
+			this.exRydia.Location = new System.Drawing.Point(6, 181);
 			this.exRydia.Name = "exRydia";
 			this.exRydia.Size = new System.Drawing.Size(123, 24);
 			this.exRydia.TabIndex = 64;
@@ -618,7 +690,7 @@ namespace FF4FreeEnterprisePR
 			// exKain
 			// 
 			this.exKain.AutoSize = true;
-			this.exKain.Location = new System.Drawing.Point(6, 106);
+			this.exKain.Location = new System.Drawing.Point(6, 121);
 			this.exKain.Name = "exKain";
 			this.exKain.Size = new System.Drawing.Size(115, 24);
 			this.exKain.TabIndex = 63;
@@ -629,7 +701,7 @@ namespace FF4FreeEnterprisePR
 			// exTellah
 			// 
 			this.exTellah.AutoSize = true;
-			this.exTellah.Location = new System.Drawing.Point(6, 136);
+			this.exTellah.Location = new System.Drawing.Point(6, 151);
 			this.exTellah.Name = "exTellah";
 			this.exTellah.Size = new System.Drawing.Size(125, 24);
 			this.exTellah.TabIndex = 62;
@@ -640,7 +712,7 @@ namespace FF4FreeEnterprisePR
 			// exEdward
 			// 
 			this.exEdward.AutoSize = true;
-			this.exEdward.Location = new System.Drawing.Point(201, 76);
+			this.exEdward.Location = new System.Drawing.Point(199, 93);
 			this.exEdward.Name = "exEdward";
 			this.exEdward.Size = new System.Drawing.Size(136, 24);
 			this.exEdward.TabIndex = 61;
@@ -651,7 +723,7 @@ namespace FF4FreeEnterprisePR
 			// exEdge
 			// 
 			this.exEdge.AutoSize = true;
-			this.exEdge.Location = new System.Drawing.Point(412, 134);
+			this.exEdge.Location = new System.Drawing.Point(410, 151);
 			this.exEdge.Name = "exEdge";
 			this.exEdge.Size = new System.Drawing.Size(120, 24);
 			this.exEdge.TabIndex = 60;
@@ -662,7 +734,7 @@ namespace FF4FreeEnterprisePR
 			// exPalom
 			// 
 			this.exPalom.AutoSize = true;
-			this.exPalom.Location = new System.Drawing.Point(412, 76);
+			this.exPalom.Location = new System.Drawing.Point(410, 93);
 			this.exPalom.Name = "exPalom";
 			this.exPalom.Size = new System.Drawing.Size(127, 24);
 			this.exPalom.TabIndex = 59;
@@ -673,7 +745,7 @@ namespace FF4FreeEnterprisePR
 			// exCecil
 			// 
 			this.exCecil.AutoSize = true;
-			this.exCecil.Location = new System.Drawing.Point(6, 78);
+			this.exCecil.Location = new System.Drawing.Point(6, 93);
 			this.exCecil.Name = "exCecil";
 			this.exCecil.Size = new System.Drawing.Size(187, 24);
 			this.exCecil.TabIndex = 58;
@@ -711,7 +783,7 @@ namespace FF4FreeEnterprisePR
 			// dupCharactersAllowed
 			// 
 			this.dupCharactersAllowed.AutoSize = true;
-			this.dupCharactersAllowed.Location = new System.Drawing.Point(6, 48);
+			this.dupCharactersAllowed.Location = new System.Drawing.Point(316, 53);
 			this.dupCharactersAllowed.Name = "dupCharactersAllowed";
 			this.dupCharactersAllowed.Size = new System.Drawing.Size(223, 24);
 			this.dupCharactersAllowed.TabIndex = 49;
@@ -871,32 +943,115 @@ namespace FF4FreeEnterprisePR
 			this.label7.TabIndex = 34;
 			this.label7.Text = "Monster Difficulty";
 			// 
-			// label11
+			// tabPage1
 			// 
-			this.label11.AutoSize = true;
-			this.label11.Location = new System.Drawing.Point(10, 193);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(148, 20);
-			this.label11.TabIndex = 69;
-			this.label11.Text = "... Before Siren Usage";
-			this.label11.Click += new System.EventHandler(this.label11_Click);
+			this.tabPage1.Controls.Add(this.flagCustom5Text);
+			this.tabPage1.Controls.Add(this.flagCustom4Text);
+			this.tabPage1.Controls.Add(this.flagCustom3Text);
+			this.tabPage1.Controls.Add(this.flagCustom2Text);
+			this.tabPage1.Controls.Add(this.flagCustom1Text);
+			this.tabPage1.Controls.Add(this.flagCustom5);
+			this.tabPage1.Controls.Add(this.flagCustom4);
+			this.tabPage1.Controls.Add(this.flagCustom3);
+			this.tabPage1.Controls.Add(this.flagCustom2);
+			this.tabPage1.Controls.Add(this.flagCustom1);
+			this.tabPage1.Controls.Add(this.flagDefault);
+			this.tabPage1.Location = new System.Drawing.Point(4, 29);
+			this.tabPage1.Name = "tabPage1";
+			this.tabPage1.Size = new System.Drawing.Size(768, 316);
+			this.tabPage1.TabIndex = 3;
+			this.tabPage1.Text = "Defaults";
+			this.tabPage1.UseVisualStyleBackColor = true;
 			// 
-			// shardsBeforeSirens
+			// flagCustom5Text
 			// 
-			this.shardsBeforeSirens.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.shardsBeforeSirens.FormattingEnabled = true;
-			this.shardsBeforeSirens.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "Not Allowed"});
-			this.shardsBeforeSirens.Location = new System.Drawing.Point(160, 190);
-			this.shardsBeforeSirens.Name = "shardsBeforeSirens";
-			this.shardsBeforeSirens.Size = new System.Drawing.Size(148, 28);
-			this.shardsBeforeSirens.TabIndex = 68;
-			this.shardsBeforeSirens.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			this.flagCustom5Text.Location = new System.Drawing.Point(138, 274);
+			this.flagCustom5Text.Name = "flagCustom5Text";
+			this.flagCustom5Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom5Text.TabIndex = 10;
+			// 
+			// flagCustom4Text
+			// 
+			this.flagCustom4Text.Location = new System.Drawing.Point(138, 240);
+			this.flagCustom4Text.Name = "flagCustom4Text";
+			this.flagCustom4Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom4Text.TabIndex = 9;
+			// 
+			// flagCustom3Text
+			// 
+			this.flagCustom3Text.Location = new System.Drawing.Point(138, 204);
+			this.flagCustom3Text.Name = "flagCustom3Text";
+			this.flagCustom3Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom3Text.TabIndex = 8;
+			// 
+			// flagCustom2Text
+			// 
+			this.flagCustom2Text.Location = new System.Drawing.Point(138, 167);
+			this.flagCustom2Text.Name = "flagCustom2Text";
+			this.flagCustom2Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom2Text.TabIndex = 7;
+			// 
+			// flagCustom1Text
+			// 
+			this.flagCustom1Text.Location = new System.Drawing.Point(138, 134);
+			this.flagCustom1Text.Name = "flagCustom1Text";
+			this.flagCustom1Text.Size = new System.Drawing.Size(176, 27);
+			this.flagCustom1Text.TabIndex = 6;
+			// 
+			// flagCustom5
+			// 
+			this.flagCustom5.Location = new System.Drawing.Point(22, 274);
+			this.flagCustom5.Name = "flagCustom5";
+			this.flagCustom5.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom5.TabIndex = 5;
+			this.flagCustom5.Text = "Custom 5";
+			this.flagCustom5.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom4
+			// 
+			this.flagCustom4.Location = new System.Drawing.Point(22, 239);
+			this.flagCustom4.Name = "flagCustom4";
+			this.flagCustom4.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom4.TabIndex = 4;
+			this.flagCustom4.Text = "Custom 4";
+			this.flagCustom4.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom3
+			// 
+			this.flagCustom3.Location = new System.Drawing.Point(22, 204);
+			this.flagCustom3.Name = "flagCustom3";
+			this.flagCustom3.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom3.TabIndex = 3;
+			this.flagCustom3.Text = "Custom 3";
+			this.flagCustom3.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom2
+			// 
+			this.flagCustom2.Location = new System.Drawing.Point(22, 169);
+			this.flagCustom2.Name = "flagCustom2";
+			this.flagCustom2.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom2.TabIndex = 2;
+			this.flagCustom2.Text = "Custom 2";
+			this.flagCustom2.UseVisualStyleBackColor = true;
+			// 
+			// flagCustom1
+			// 
+			this.flagCustom1.Location = new System.Drawing.Point(22, 134);
+			this.flagCustom1.Name = "flagCustom1";
+			this.flagCustom1.Size = new System.Drawing.Size(94, 29);
+			this.flagCustom1.TabIndex = 1;
+			this.flagCustom1.Text = "Custom 1";
+			this.flagCustom1.UseVisualStyleBackColor = true;
+			// 
+			// flagDefault
+			// 
+			this.flagDefault.Location = new System.Drawing.Point(22, 15);
+			this.flagDefault.Name = "flagDefault";
+			this.flagDefault.Size = new System.Drawing.Size(94, 29);
+			this.flagDefault.TabIndex = 0;
+			this.flagDefault.Text = "Default";
+			this.flagDefault.UseVisualStyleBackColor = true;
+			this.flagDefault.Click += new System.EventHandler(this.flagDefault_Click);
 			// 
 			// FF4FalconDive
 			// 
@@ -931,6 +1086,8 @@ namespace FF4FreeEnterprisePR
 			this.settingHero.PerformLayout();
 			this.settingEnemies.ResumeLayout(false);
 			this.settingEnemies.PerformLayout();
+			this.tabPage1.ResumeLayout(false);
+			this.tabPage1.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -1005,6 +1162,20 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.Label label10;
 		private System.Windows.Forms.Label label11;
 		private System.Windows.Forms.ComboBox shardsBeforeSirens;
+		private System.Windows.Forms.ComboBox startingXP;
+		private System.Windows.Forms.Label label18;
+		private System.Windows.Forms.TabPage tabPage1;
+		private System.Windows.Forms.TextBox flagCustom5Text;
+		private System.Windows.Forms.TextBox flagCustom4Text;
+		private System.Windows.Forms.TextBox flagCustom3Text;
+		private System.Windows.Forms.TextBox flagCustom2Text;
+		private System.Windows.Forms.TextBox flagCustom1Text;
+		private System.Windows.Forms.Button flagCustom5;
+		private System.Windows.Forms.Button flagCustom4;
+		private System.Windows.Forms.Button flagCustom3;
+		private System.Windows.Forms.Button flagCustom2;
+		private System.Windows.Forms.Button flagCustom1;
+		private System.Windows.Forms.Button flagDefault;
 	}
 }
 

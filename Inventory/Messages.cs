@@ -79,16 +79,16 @@ namespace FF4FalconDive.Inventory
 					msgStrings.Where(c => c.id == "E0030_00_353_a_01").Single().msgString = @"Congratulations!\nYou have completed a seed of Final Fantasy IV:  Falcon Dive!\n";
 					msgStrings.Where(c => c.id == "E0030_00_353_a_02").Single().msgString = @"";
 					msgStrings.Where(c => c.id == "E0030_00_353_a_03").Single().msgString = @"Creator, Design, and Programming\ngameboyf9\n\n";
-					msgStrings.Where(c => c.id == "E0030_00_353_a_04").Single().msgString = @"Thanks to the Beta Helpers\n";
+					msgStrings.Where(c => c.id == "E0030_00_353_a_04").Single().msgString = @"Beta Helpers\n";
 					msgStrings.Where(c => c.id == "E0030_00_353_a_05").Single().msgString = @"Antidale\nEngidave\nFleury14\nInfinious\nInven\nTybalt\nSyconawt\nwarlink05\n\n";
-					msgStrings.Where(c => c.id == "E0030_00_353_a_06").Single().msgString = @"Special Thanks\n";
-					msgStrings.Where(c => c.id == "E0030_00_353_a_07").Single().msgString = @"mcgrew\nAlbeoris\nSchalaKitty\nSilvris\n\n";
-					msgStrings.Where(c => c.id == "E0074_06_354_a_01").Single().msgString = @"Based off of and inspired by\nFinal Fantasy IV:  Free Enterprise\nwww.ff4fe.com\n";
-					msgStrings.Where(c => c.id == "E0074_06_354_a_02").Single().msgString = @"Created by b0ardface\n";
-					msgStrings.Where(c => c.id == "E0074_06_354_a_03").Single().msgString = @"Additional Special Thanks to\nThe Free Enterprise Community\n";
-					msgStrings.Where(c => c.id == "E0074_06_354_a_04").Single().msgString = @"Thank you for playing!\n";
-					msgStrings.Where(c => c.id == "E0074_06_354_a_05").Single().msgString = @"";
-					msgStrings.Where(c => c.id == "E0074_06_354_a_06").Single().msgString = @"";
+					msgStrings.Where(c => c.id == "E0030_00_353_a_06").Single().msgString = @"Other contributors\n";
+					msgStrings.Where(c => c.id == "E0030_00_353_a_07").Single().msgString = @"CasualGeekDave\nBGG02\nRegasin\nHolySmith";
+					msgStrings.Where(c => c.id == "E0074_06_354_a_01").Single().msgString = @"Special Thanks\n";
+					msgStrings.Where(c => c.id == "E0074_06_354_a_02").Single().msgString = @"mcgrew\nAlbeoris\nSchalaKitty\nSilvris\n\n";
+					msgStrings.Where(c => c.id == "E0074_06_354_a_03").Single().msgString = @"Based off of and inspired by\nFinal Fantasy IV:  Free Enterprise\nwww.ff4fe.com\n";
+					msgStrings.Where(c => c.id == "E0074_06_354_a_04").Single().msgString = @"Created by b0ardface\n";
+					msgStrings.Where(c => c.id == "E0074_06_354_a_05").Single().msgString = @"Additional Special Thanks to\nThe Free Enterprise Community\n";
+					msgStrings.Where(c => c.id == "E0074_06_354_a_06").Single().msgString = @"Thank you for playing!\n";
 
 
 					using (StreamWriter writer = new StreamWriter(Path.Combine(directory, "story_mes_" + language + ".txt")))

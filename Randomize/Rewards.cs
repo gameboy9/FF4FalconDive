@@ -270,7 +270,8 @@ namespace FF4FreeEnterprisePR.Randomize
 								while (chars < charsRequired)
 								{
 									// Replace non-progression items with characters.
-									pairing pair = pairings.Where(c => c.rewardID == 6 || c.rewardID == 12 || c.rewardID == 14 || c.rewardID >= 16).FirstOrDefault();
+									List<int> nonProgression = new List<int> { 6, 12, 14, 16, 22, 23, 24, 25, 28, 29, 30, 31 };
+									pairing pair = pairings.Where(c => nonProgression.Contains(c.rewardID)).FirstOrDefault();
 									if (pair != null)
 									{
 										validRewards.Add(pair.rewardID);
@@ -537,7 +538,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					int i = 0;
 					foreach (int tail in tailSelection)
 					{
-						string msgId = i == 0 ? "FE_NOTHING_BONUS" : "FE_TAIL_PINK";
+						string msgId = i == 0 ? "FE_TAIL_PINK" : "FE_NOTHING_BONUS";
 						msgStrings.Add(new message { id = msgId, msgString = "You got " + itemLookup(itemIDLookup(tail)) + "!" });
 						i++;
 					}
