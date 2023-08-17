@@ -425,6 +425,8 @@ namespace FF4FreeEnterprisePR
 			if (btn.Name == "flagCustom3") { if (flagCustom3.Text.Length == flagLength) RandoFlags.Text = flagCustom3Text.Text; else MessageBox.Show("Invalid flag string"); }
 			if (btn.Name == "flagCustom4") { if (flagCustom4.Text.Length == flagLength) RandoFlags.Text = flagCustom4Text.Text; else MessageBox.Show("Invalid flag string"); }
 			if (btn.Name == "flagCustom5") { if (flagCustom5.Text.Length == flagLength) RandoFlags.Text = flagCustom5Text.Text; else MessageBox.Show("Invalid flag string"); }
+
+			determineChecks(null, null);
 		}
 	}
 }

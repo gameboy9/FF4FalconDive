@@ -175,6 +175,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			List<int> validRewards = allRewards.ToList();
 			List<int> rerollLocations = new List<int> { 9, 12, 13, 14, 20, 31 };
 			List<int> rerollRewards = new List<int> { 6, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27 };
+			List<int> newLocations = new List<int>();
 			bool underground = false;
 			bool moon = false;
 			bool nothingCheck = false;
@@ -203,20 +204,11 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				bool locationAdded = false;
 
-				if (pairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() + tempPairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() >= 3 && !nothingCheck)
-				{
-					validLocations.Add(31);
-					pairings.AddRange(tempPairings);
-					tempPairings.Clear();
-					nothingCheck = true;
-				}
-
 				if (itemLocations[rewardID].Count() > 0)
 				{
 					// NEXT 2 LINES:  Debug
 					if (rewardID == 14) rewardID = 14;
 					if (locationID == 20) locationID = 20;
-					List<int> newLocations = itemLocations[rewardID].ToList();
 
 					bool doNotProcess = false;
 
@@ -229,6 +221,13 @@ namespace FF4FreeEnterprisePR.Randomize
 
 					if (!doNotProcess)
 					{
+						newLocations.AddRange(itemLocations[rewardID].ToList());
+						if (pairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() + tempPairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() >= 3 && !nothingCheck)
+						{
+							newLocations.Add(31);
+							nothingCheck = true;
+						}
+
 						// If the Magma Key or the Hook has been awarded, and the Tower Key has previously been awarded, then add the Super Cannon.
 						if ((rewardID == 11 || rewardID == 13) && (pairings.Exists(c => c.rewardID == 12) || tempPairings.Exists(c => c.rewardID == 12))) // Tower Key
 							newLocations.AddRange(itemLocations[12]);
@@ -238,7 +237,22 @@ namespace FF4FreeEnterprisePR.Randomize
 							newLocations.AddRange(itemLocations[24]);
 						if (rewardID == 13 && (pairings.Exists(c => c.rewardID == 16) || tempPairings.Exists(c => c.rewardID == 16))) // Rat tail
 							newLocations.AddRange(itemLocations[16]);
+					}
+				} 
 
+				if (validLocations.Count == 0)
+				{
+					if (newLocations.Count == 0)
+					{
+						foreach (var pairing in tempPairings)
+						{
+							validLocations.Add(pairing.locationID);
+							validRewards.Add(pairing.rewardID);
+						}
+						tempPairings.Clear();
+					}
+					else
+					{
 						foreach (int location in newLocations)
 						{
 							if (!validLocations.Exists(c => c == location) && !pairings.Exists(c => c.locationID == location) && !tempPairings.Exists(c => c.locationID == location))
@@ -259,7 +273,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 							int charsRequired = -1;
 
-							if (moon)             charsRequired = 3;
+							if (moon) charsRequired = 3;
 							else if (underground) charsRequired = 2;
 
 							// Enforce at least 3 characters when moon access is found or you have to go through the hovercraft route.
@@ -270,7 +284,7 @@ namespace FF4FreeEnterprisePR.Randomize
 								while (chars < charsRequired)
 								{
 									// Replace non-progression items with characters.
-									List<int> nonProgression = new List<int> { 6, 12, 14, 16, 22, 23, 24, 25, 28, 29, 30, 31 };
+									List<int> nonProgression = new List<int> { 6, 12, 14, 16, 22, 23, 25, 28, 29, 30, 31 };
 									pairing pair = pairings.Where(c => nonProgression.Contains(c.rewardID)).FirstOrDefault();
 									if (pair != null)
 									{
@@ -287,22 +301,20 @@ namespace FF4FreeEnterprisePR.Randomize
 										tempPairings = new List<pairing>();
 										validLocations = initialLocations.ToList();
 										validRewards = allRewards.ToList();
+										nothingCheck = false;
 										break;
 									}
 								}
 							}
 						}
-					}
-				} 
+						else
+						{
+							if (newLocations.Contains(31))
+								nothingCheck = false;
+						}
 
-				if (validLocations.Count == 0)
-				{
-					foreach(var pairing in tempPairings)
-					{
-						validLocations.Add(pairing.locationID);
-						validRewards.Add(pairing.rewardID);
+						newLocations = new List<int>();
 					}
-					tempPairings.Clear();
 				}
 			}
 
