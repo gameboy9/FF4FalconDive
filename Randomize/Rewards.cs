@@ -242,6 +242,12 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				if (validLocations.Count == 0)
 				{
+					// Need to remove duplicate newLocations first...
+					List<pairing> dupPairing = pairings.Where(c => newLocations.Contains(c.locationID)).ToList();
+					foreach (pairing dup in dupPairing) { newLocations.Remove(dup.locationID); }
+					dupPairing = tempPairings.Where(c => newLocations.Contains(c.locationID)).ToList();
+					foreach (pairing dup in dupPairing) { newLocations.Remove(dup.locationID); }
+
 					if (newLocations.Count == 0)
 					{
 						foreach (var pairing in tempPairings)
