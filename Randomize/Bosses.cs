@@ -212,7 +212,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 223).ToList()[0];
-						monsterSprites.Add(146);
+						monsterSprites.Add(229);
 						break;
 					case 1: // Soldiers / Baron Captain
 						monster = allMonsters.Where(c => c.id == 31).Single();
@@ -479,7 +479,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 432).Single();
-						monsterSprites.Add(147);
+						monsterSprites.Add(127);
 						break;
 					case 23: // Asura
 						monster = allMonsters.Where(c => c.id == 193).Single();
@@ -544,21 +544,21 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 508).Single();
-						monsterSprites.Add(143);
+						monsterSprites.Add(133);
 						break;
 					case 30: // Dark Bahamut
 						monster = allMonsters.Where(c => c.id == 153).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 509).Single();
-						monsterSprites.Add(142);
+						monsterSprites.Add(98);
 						break;
 					case 31: // Plague
 						monster = allMonsters.Where(c => c.id == 108).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 511).Single();
-						monsterSprites.Add(144);
+						monsterSprites.Add(93);
 						break;
 					case 32: // Lunarsaurs
 						monster = allMonsters.Where(c => c.id == 150).Single();
@@ -572,7 +572,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 507).Single();
-						monsterSprites.Add(143);
+						monsterSprites.Add(44);
 						break;
 					case 34:
 					case 35:
