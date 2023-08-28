@@ -178,7 +178,8 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int megicoSword = 828; // t9
 		public const int erdrickSword = 829; // t7
 		public const int vampireSpear = 865; // t8
-		public const int superAngerRod = 866; // t8
+		public const int superAngerRod = 866; // t9
+		public const int mop = 867; // t9
 
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { darkSword, shadowblade, spear, dreamerHarp, rod, staff, bow, ironArrow },
@@ -190,7 +191,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			  new List<int> { lightSword, avenger, defender, gungnir, catClaw, ogreKiller, poisonAxe, runeAxe, kikuichimonji, fairyRod, yoichiBow, muteArrow, blitzWhip, moonringBlade, apolloHarp, golbezSword },
 			  new List<int> { excalibur, wyvernLance, holyLance, sageStaff, artemisBow, angelArrow, yoichiArrow, flameWhip, fumaShuriken, tigerFangs, erdrickSword },
 			  new List<int> { piggyStick, ragnarok, murasame, masamune, stardustRod, runeStaff, artemisArrow, dragonWhisker, mysticWhip, tritonDagger, risingSun, dragonClaws, thorHammer, seraphimMace, vampireSword },
-			  new List<int> { knife, lightbringer, abelsLance, gigantAxe, perseusBow, perseusArrow, assassinDagger, sasukeKatana, mutsunokami, godhand, fieryHammer, asuraRod, nirvana, requiemHarp, lokiHarp, megicoSword, vampireSpear, superAngerRod }
+			  new List<int> { knife, lightbringer, abelsLance, gigantAxe, perseusBow, perseusArrow, assassinDagger, sasukeKatana, mutsunokami, godhand, fieryHammer, asuraRod, nirvana, requiemHarp, lokiHarp, megicoSword, vampireSpear, superAngerRod, mop }
 		};
 
 		public List<int> bonusWeapons = new List<int>
@@ -199,7 +200,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			scrapMetal, risingSun, tigerFangs, dragonClaws, godhand, thorHammer, fieryHammer, asuraRod, seraphimMace, nirvana, apolloHarp, requiemHarp, lokiHarp
 		};
 
-		public List<int> fgExclusiveWeapons = new List<int> { bloodDarkSword, golbezSword, vampireSword, vampireSpear, megicoSword, erdrickSword, superAngerRod };
+		public List<int> fgExclusiveWeapons = new List<int> { bloodDarkSword, golbezSword, vampireSword, vampireSpear, megicoSword, erdrickSword, superAngerRod, mop };
 
 		public List<int> dkCecilOnly = new List<int> { darkSword, shadowblade, deathbringer, bloodDarkSword, golbezSword, vampireSword, megicoSword };
 		public List<int> pallyCecilOnly = new List<int> { excalibur, excalipoor, flandango, lightSword, ragnarok, lightbringer };
@@ -221,6 +222,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public List<int> edgeOnly = new List<int> { kunai, ashura, kotetsu, kikuichimonji, murasame, masamune, sasukeKatana, mutsunokami, scrapMetal, shuriken, fumaShuriken, boomerang, moonringBlade, risingSun };
 		public List<int> tellahOnly = new List<int> { superAngerRod };
 		public List<int> edgeEdward = new List<int> { knife };
+		public List<int> fusoyaOnly = new List<int> { mop };
 
 		const int dkCecil = 1;
 		const int cecil = 13;
@@ -284,6 +286,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			if (!party.Contains(porom)) selection = selection.Where(c => !poromOnly.Contains(c)).ToList();
 			if (!party.Contains(edge)) selection = selection.Where(c => !edgeOnly.Contains(c)).ToList();
 			if (!party.Contains(tellah)) selection = selection.Where(c => !tellahOnly.Contains(c)).ToList();
+			if (!party.Contains(fusoya)) selection = selection.Where(c => !fusoyaOnly.Contains(c)).ToList();
 
 			if (!party.Contains(cecil) && !party.Contains(kain)) selection = selection.Where(c => !cecilKain.Contains(c)).ToList();
 			if (!party.Contains(cecil) && !party.Contains(kain) && !party.Contains(cid)) selection = selection.Where(c => !cecilKainCid.Contains(c)).ToList();

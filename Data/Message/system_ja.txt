@@ -379,6 +379,7 @@ MSG_WEAPON_NAME_128	<IC_DSRD>Megido Sword
 MSG_WEAPON_NAME_129	<IC_SRD>Erdrick's Sword
 MSG_WEAPON_NAME_130	<IC_SPR>Vampire Spear
 MSG_WEAPON_NAME_131	<IC_ROD>Super Anger Rod
+MSG_WEAPON_NAME_132	<IC_ROD>Mop
 MSG_ARMOR_NAME_01	<IC_SHIELD>アイアンシールド
 MSG_ARMOR_NAME_02	<IC_SHIELD>暗黒の盾
 MSG_ARMOR_NAME_03	<IC_SHIELD>デモンズシールド
@@ -705,6 +706,7 @@ MSG_WEAPON_INF_128	The ultimate sword of anger that makes even Zeromus jealous. 
 MSG_WEAPON_INF_129	A sword from a faraway land that anyone can equip, as another randomizer has proven.
 MSG_WEAPON_INF_130	When finished with this rando, take Kain to the FF3 world and speedrun with this spear!
 MSG_WEAPON_INF_131	If you thought Tellah was miffed when he defeated Golbez... Casts Double Meteor when used in battle.
+MSG_WEAPON_INF_132	The perfect tool for our favorite full-blooded Lunarian.  Casts Tidal Wave when used in battle.
 MSG_ARMOR_INF_01	鉄製の盾
 MSG_ARMOR_INF_02	強力な邪気を持つ盾
 MSG_ARMOR_INF_03	悪魔が持っていたと言われる盾
