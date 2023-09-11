@@ -154,7 +154,7 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	// Note:  Regular monsters should be reformed with boss bit = 1
 		//};
 
-		public static void establishBosses(string directory, string dataDirectory, Random r1)
+		public static void establishBosses(string directory, string dataDirectory, Random r1, bool zAtOrdeals)
 		{
 			List<List<int>> pairings = new List<List<int>>();
 			List<int> validLocations = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37 };
@@ -643,31 +643,38 @@ namespace FF4FreeEnterprisePR.Randomize
 					groups.Add(newParty);
 				}
 
+				string json;
+				JsonSerializer serializer;
+
 				// Open the boss JSON to set up boss fights.
-				string json = File.ReadAllText(currentReward.bossScript);
-				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
-
-				var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG1").Single();
-				rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
-				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG2").Single();
-				rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
-				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG3").Single();
-				rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
-				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG4").Single();
-				rewardItem.mnemonic = (pairing[1] == 5 || pairing[1] == 18 ? "ResetFlag" : "SetFlag");
-
-				JsonSerializer serializer = new JsonSerializer();
-
-				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, currentReward.bossScript)))
-				using (JsonWriter writer = new JsonTextWriter(sw))
+				if (!(currentReward.bossId == 11 && zAtOrdeals))
 				{
-					serializer.Serialize(writer, jEvents);
+					json = File.ReadAllText(currentReward.bossScript);
+					EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
+
+					var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG1").Single();
+					rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
+					rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG2").Single();
+					rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
+					rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG3").Single();
+					rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
+					rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG4").Single();
+					rewardItem.mnemonic = (pairing[1] == 5 || pairing[1] == 18 ? "ResetFlag" : "SetFlag");
+
+					serializer = new JsonSerializer();
+
+					using (StreamWriter sw = new StreamWriter(Path.Combine(directory, currentReward.bossScript)))
+					using (JsonWriter writer = new JsonTextWriter(sw))
+					{
+						serializer.Serialize(writer, jEvents);
+					}
 				}
 
 				// Open the entity JSON to set up the correct boss sprite.
 				if (currentReward.entityScript != null)
 				{
-					if (currentReward.rewardId == 5) { int asdf = 1234; }
+					// Debug
+					//if (currentReward.rewardId == 5) { int asdf = 1234; }
 					if (currentReward.bossId == 12 || currentReward.bossId == 13)
 					{
 						if (boss1213)
@@ -705,6 +712,12 @@ namespace FF4FreeEnterprisePR.Randomize
 					}
 					EntityJSON jEntities = JsonConvert.DeserializeObject<EntityJSON>(json);
 
+					// If Z @ Ordeals, replace whatever monsterSprite was selected with Zeromus
+					if (currentReward.bossId == 11 && zAtOrdeals)
+					{
+						monsterSprites.Clear();
+						monsterSprites.Add(129);
+					}
 					int i = 0;
 
 					foreach (int j in currentReward.entityIDs)

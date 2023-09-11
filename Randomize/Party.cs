@@ -237,6 +237,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				var newRecord = (character)oldRecord.Clone();
 				newRecord.id = id;
 				newRecord.growth_curve_group_id = id;
+				newRecord.mes_id_name = "MSG_CHAR_NAME_" + id.ToString("D2");
 				newRecords.Add(newRecord);
 				id++;
 			}

@@ -62,6 +62,32 @@ namespace FF4FalconDive.Inventory
 				// Do not fire notification that you can use shards if the required siren shards is 0.
 				rewardItem.operands.iValues[1] = sirenShards == 0 ? 99 : sirenShards - 1; // Script looks for greater than, not greater or equal to.
 
+				// Establish weak siren battles
+				// Level 0:  Baron overworld, Mist Cave
+				List<int> weakSirenBattles = new List<int> { 1, 2, 3, 4, 5, 7, 8, 6, 521, 522, 523, 524, 525, 210 };
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "WeakSirenBattle0").Single();
+				rewardItem.operands.iValues[0] = weakSirenBattles[r1.Next() % weakSirenBattles.Count]; // Script looks for greater than, not greater or equal to.
+
+				// Level 1:  Mist/Kaipo overworld, Underground waterway, Antlion Cave
+				weakSirenBattles = new List<int> { 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 };
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "WeakSirenBattle1").Single();
+				rewardItem.operands.iValues[0] = weakSirenBattles[r1.Next() % weakSirenBattles.Count]; // Script looks for greater than, not greater or equal to.
+
+				// Level 2:  Mt. Hobs, Fabul overworld
+				weakSirenBattles = new List<int> { 41, 42, 43, 44, 45, 46, 47, 53, 54, 55, 56, 529, 530, 531 };
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "WeakSirenBattle2").Single();
+				rewardItem.operands.iValues[0] = weakSirenBattles[r1.Next() % weakSirenBattles.Count]; // Script looks for greater than, not greater or equal to.
+
+				// Level 3:  Mysidia overworld, Mt. Ordeals
+				weakSirenBattles = new List<int> { 41, 42, 46, 48, 50, 51, 52, 53, 55, 57, 58, 59, 61, 62, 63, 64, 68, 69, 70, 71, 72, 73, 74, 529, 531, 530 };
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "WeakSirenBattle3").Single();
+				rewardItem.operands.iValues[0] = weakSirenBattles[r1.Next() % weakSirenBattles.Count]; // Script looks for greater than, not greater or equal to.
+
+				// Level 4:  Old Waterway
+				weakSirenBattles = new List<int> { 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88 };
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "WeakSirenBattle4").Single();
+				rewardItem.operands.iValues[0] = weakSirenBattles[r1.Next() % weakSirenBattles.Count]; // Script looks for greater than, not greater or equal to.
+
 				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, script)))
 				using (JsonWriter writer = new JsonTextWriter(sw))
 				{

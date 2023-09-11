@@ -19,6 +19,7 @@ namespace FF4FreeEnterprisePR
 		bool loading = true;
 		Random r1;
 		const int flagLength = 12;
+		TextBox[,] heroNames = new TextBox[12, 5];
 
 		public FF4FalconDive()
 		{
@@ -41,7 +42,7 @@ namespace FF4FreeEnterprisePR
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { removeBonusItems, exCecil, exCid, exEdge, exEdward, exFusoya }));
 			flags += convertIntToChar(firstHero.SelectedIndex); // Maxes out at 13.
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { exKain, exPalom, exPorom, exRosa, exRydia, exTellah }));
-			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { exYang, removeFGExclusiveItems, exPaladinCecil }));
+			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { exYang, removeFGExclusiveItems, exPaladinCecil, zFalcon, zOrdeals }));
 			flags += convertIntToChar(startingXP.SelectedIndex);
 			RandoFlags.Text = flags;
 
@@ -81,7 +82,7 @@ namespace FF4FreeEnterprisePR
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(7, 1))), new CheckBox[] { removeBonusItems, exCecil, exCid, exEdge, exEdward, exFusoya });
 			firstHero.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(8, 1))) % 16;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(9, 1))), new CheckBox[] { exKain, exPalom, exPorom, exRosa, exRydia, exTellah });
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(10, 1))), new CheckBox[] { exYang, removeFGExclusiveItems, exPaladinCecil });
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(10, 1))), new CheckBox[] { exYang, removeFGExclusiveItems, exPaladinCecil, zFalcon, zOrdeals });
 			startingXP.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(11, 1))) % 8;
 
 			//flags = VisualFlags.Text;
@@ -135,6 +136,18 @@ namespace FF4FreeEnterprisePR
 
 		private void FF4FabulGauntlet_Load(object sender, EventArgs e)
 		{
+			for (int i = 0; i < 12; i++)
+				for (int j = 0; j < 5; j++)
+				{
+					heroNames[i, j] = new TextBox
+					{
+						Location = new System.Drawing.Point(86 + (j * 131), 12 + (i * 28)),
+						Size = new System.Drawing.Size(125, 27),
+						MaxLength = 8
+					};
+					heroNameTab.Controls.Add(heroNames[i, j]);
+				}
+
 			RandoSeed.Text = (DateTime.Now.Ticks % 2147483647).ToString();
 
 			try
@@ -148,6 +161,28 @@ namespace FF4FreeEnterprisePR
 					//VisualFlags.Text = reader.ReadLine();
 					determineChecks(null, null);
 
+					for (int i = 0; i < 12; i++)
+						for (int j = 0; j < 5; j++)
+						{
+							string heroName = reader.ReadLine();
+							if (heroName == null)
+								heroNames[i, j].Text =
+									i == 0 ? "Cecil" :
+									i == 1 ? "Kain" :
+									i == 2 ? "Rosa" :
+									i == 3 ? "Rydia" :
+									i == 4 ? "Cid" :
+									i == 5 ? "Tellah" :
+									i == 6 ? "Edward" :
+									i == 7 ? "Yang" :
+									i == 8 ? "Palom" :
+									i == 9 ? "Porom" :
+									i == 10 ? "Edge" :
+									"Fusoya"; // i == 11
+							else
+								heroNames[i, j].Text = heroName;
+						}
+
 					loading = false;
 				}
 			}
@@ -159,6 +194,24 @@ namespace FF4FreeEnterprisePR
 				// ignore error
 				loading = false;
 				determineChecks(null, null);
+
+				for (int i = 0; i < 12; i++)
+					for (int j = 0; j < 5; j++)
+					{
+						heroNames[i, j].Text =
+							i == 0 ? "Cecil" :
+							i == 1 ? "Kain" :
+							i == 2 ? "Rosa" :
+							i == 3 ? "Rydia" :
+							i == 4 ? "Cid" :
+							i == 5 ? "Tellah" :
+							i == 6 ? "Edward" :
+							i == 7 ? "Yang" :
+							i == 8 ? "Palom" :
+							i == 9 ? "Porom" :
+							i == 10 ? "Edge" :
+							"Fusoya"; // i == 11
+					}
 			}
 		}
 
@@ -187,15 +240,15 @@ namespace FF4FreeEnterprisePR
 				(exRosa.Checked ? 0 : 1) +
 				(exRydia.Checked ? 0 : 1) +
 				(exTellah.Checked ? 0 : 1) +
-				(exYang.Checked ? 0 : 1) + 
+				(exYang.Checked ? 0 : 1) +
 				(exPaladinCecil.Checked ? 0 : 1);
 
 			if (included < Convert.ToInt32(numHeroes.SelectedItem) && !dupCharactersAllowed.Checked)
-            {
+			{
 				MessageBox.Show("Included heroes exceed number of heroes and duplicate heroes is not checked.  Please try again.");
 				return;
 			}
-			
+
 			mainDirectory = Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets", "Serial");
 			dataDirectory = Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data");
 			dataMainDirectory = Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master");
@@ -217,16 +270,19 @@ namespace FF4FreeEnterprisePR
 				startingXP.SelectedIndex == 5 ? 4 :
 				startingXP.SelectedIndex == 6 ? 5 : 10;
 
-			update();
 			long seedNumber;
 			try
 			{
 				seedNumber = Convert.ToInt64(RandoSeed.Text);
-			} catch
+			}
+			catch
 			{
 				MessageBox.Show("Invalid seed number");
 				return;
 			}
+
+			update();
+
 			r1 = new Random((int)(seedNumber % 2147483648));
 			int[] party = randomizeParty(xpMulti * xpStart);
 			randomizeShops(party);
@@ -237,8 +293,8 @@ namespace FF4FreeEnterprisePR
 
 			randomizeMonstersWithBoost(xpMulti);
 			Zeromus.ZeromusSetup(r1, Convert.ToInt32(requiredShards.Text), zeromusDifficulty.SelectedIndex, shardsBeforeSirens.SelectedIndex, mainDirectory);
-			Rewards.establishRewards(r1, party, mainDirectory, 
-				Path.Combine(dataDirectory, "Message"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti * xpStart);
+			Rewards.establishRewards(r1, party, mainDirectory,
+				Path.Combine(dataDirectory, "Message"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti * xpStart, zOrdeals.Checked, zFalcon.Checked);
 			new Map(r1, dataMainDirectory,
 					encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 4 ? 2 :
 					encounterRate.SelectedIndex == 3 || encounterRate.SelectedIndex == 5 ? 4 :
@@ -259,7 +315,7 @@ namespace FF4FreeEnterprisePR
 				}
 
 				Clipboard.SetText(checkSum);
-				Messages.updateMessages(Path.Combine(dataDirectory, "Message"), RandoSeed.Text, RandoFlags.Text, checkSum, shardsBeforeSirens.SelectedIndex != 5);
+				Messages.updateMessages(Path.Combine(dataDirectory, "Message"), RandoSeed.Text, RandoFlags.Text, checkSum, shardsBeforeSirens.SelectedIndex != 5, party, heroNames, r1);
 				NewChecksum.Text = "COMPLETE - checksum " + checkSum + " (copied to clipboard)";
 			}
 			catch
@@ -270,7 +326,7 @@ namespace FF4FreeEnterprisePR
 
 		private void update()
 		{
-			new Updater(mainDirectory);
+			Updater.update(mainDirectory, zFalcon.Checked, zOrdeals.Checked);
 		}
 
 		private int[] randomizeParty(double xpMulti)
@@ -282,7 +338,7 @@ namespace FF4FreeEnterprisePR
 		private void randomizeShops(int[] party)
 		{
 			int buyMultiplier = shopBuyPrice.SelectedIndex == 0 ? 0 : shopBuyPrice.SelectedIndex == 1 ? 1 : shopBuyPrice.SelectedIndex == 2 ? 2 : shopBuyPrice.SelectedIndex == 3 ? 4 : shopBuyPrice.SelectedIndex == 4 ? 8 : 20;
-			new Shops(r1, shopItemTypes.SelectedIndex, shopItemQty.SelectedIndex, shopNoJ.Checked, shopNoSuper.Checked, 
+			new Shops(r1, shopItemTypes.SelectedIndex, shopItemQty.SelectedIndex, shopNoJ.Checked, shopNoSuper.Checked,
 				Path.Combine(dataMainDirectory, "product.csv"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, buyMultiplier, 20, party);
 		}
 
@@ -294,7 +350,7 @@ namespace FF4FreeEnterprisePR
 
 		private void randomizeMonstersWithBoost(double xpMulti)
 		{
-			Bosses.establishBosses(mainDirectory, dataMainDirectory, r1);
+			Bosses.establishBosses(mainDirectory, dataMainDirectory, r1, zOrdeals.Checked);
 
 			double gpMulti = gpMultiplier.SelectedIndex == 0 ? 1 :
 				gpMultiplier.SelectedIndex == 1 ? 1.5 :
@@ -325,6 +381,10 @@ namespace FF4FreeEnterprisePR
 				writer.WriteLine(RandoSeed.Text);
 				writer.WriteLine(RandoFlags.Text);
 				writer.WriteLine(gameAssetsFile.Text);
+				for (int i = 0; i < 12; i++)
+					for (int j = 0; j < 5; j++)
+						writer.WriteLine(heroNames[i, j].Text);
+
 				//writer.WriteLine(VisualFlags.Text);
 			}
 		}

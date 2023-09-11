@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,7 +21,7 @@ namespace FF4FalconDive.Inventory
 			public string msgString { get; set; }
 		}
 
-		public static void updateMessages(string directory, string seed, string flags, string checksum, bool sirensAllowed)
+		public static void updateMessages(string directory, string seed, string flags, string checksum, bool sirensAllowed, int[] party, TextBox[,] heroNames, Random r1)
 		{
 			List<message> msgStrings;
 
@@ -57,6 +58,12 @@ namespace FF4FalconDive.Inventory
 					msgStrings.Add(new message { id = "FE_NM_L2_BAD", msgString = "This is the Nothing Vending Machine.  You need at least 5 nothings to receive a special prize." });
 					msgStrings.Add(new message { id = "FE_NM_FINISH", msgString = "KABOOM!" });
 					msgStrings.Add(new message { id = "FE_NM_DONE", msgString = "You see a note:  The Nothing Vending Machine is out of order." });
+					msgStrings.Add(new message { id = "FE_ZO_MISS1", msgString = "You must defeat the boss at Mist Cave to enter." });
+					msgStrings.Add(new message { id = "FE_ZO_MISS2", msgString = "You must defeat the boss at the Underground Waterway to enter." });
+					msgStrings.Add(new message { id = "FE_ZO_MISS3", msgString = "You must defeat the boss at Damcyan Castle to enter." });
+					msgStrings.Add(new message { id = "FE_ZO_MISS4", msgString = "You must defeat the boss at Antlion Cave to enter." });
+					msgStrings.Add(new message { id = "FE_ZO_MISS5", msgString = "You must defeat the boss at Mt. Hobs to enter." });
+					msgStrings.Add(new message { id = "FE_ZO_MISS6", msgString = "You must defeat the boss at Fabul Castle to enter." });
 					msgStrings.Add(new message { id = "N105_C00_027_90_10", msgString = "Zzz... you get a Free Enterprise here... but the REAL Free Enterprise is at www.ff4fe.com! Zzz..." });
 
 					msgStrings.Where(c => c.id == "N101_C02_027_01_01").Single().msgString = @"Welcome to Final Fantasy IV:  Falcon Dive!\nThis was based off of and inspired by Final Fantasy IV:  Free Enterprise by b0ardface!<P>" +
@@ -109,6 +116,17 @@ namespace FF4FalconDive.Inventory
 						msgStrings = csv.GetRecords<message>().ToList();
 
 					msgStrings.Where(c => c.id == "MSG_SYSTEM_253").Single().msgString = @"©SQUARE ENIX CO., LTD. All Rights Reserved.  Final Fantasy IV:  Falcon Dive by gameboyf9\nSeed - " + seed + @"\nFlags - " + flags + @"\nChecksum - " + checksum;
+					
+					//int[] charMarker = new int[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+					for (int i = 0; i < 5; i++) 
+					{
+						int partyMarker = i == 0 ? 1 : i == 1 ? 3 : i == 2 ? 5 : i == 3 ? 6 : 7;
+
+						msgStrings.Where(c => c.id == "MSG_CHAR_NAME_" + partyMarker.ToString("D2")).Single().msgString = heroNames[party[i] - 1, r1.Next() % 5].Text;
+						//charMarker[party[i] - 1]++;
+					}
+
+
 
 					using (StreamWriter writer = new StreamWriter(Path.Combine(directory, "system_" + language + ".txt")))
 					using (CsvWriter csv = new CsvWriter(writer, config))

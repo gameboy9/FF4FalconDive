@@ -808,7 +808,7 @@ MSG_ARMOR_INF_98	Hood resistant against ice.
 MSG_ARMOR_INF_99	Mask that prevents Paralyze.
 MSG_ARMOR_INF_100	Hat resistant against fire.
 MSG_ARMOR_INF_101	Discovered after seven trading cards were collected.  Resistant to many conditions.
-MSG_ARMOR_INF_102	Rosa's special hat.  Resists Sleep, Silvence, Confuse, and Pig.
+MSG_ARMOR_INF_102	Rosa's special hat.  Resists Sleep, Silence, Confuse, and Pig.
 MSG_ARMOR_INF_103	Rydia's special hat.  Resists Silence, Confuse, and Mini.
 MSG_ARMOR_INF_104	Edward's special crown.  Resistant Poison, Petrify, Silence, and Confuse.
 MSG_ARMOR_INF_105	Yang's special mask.  Resistant to sleep.

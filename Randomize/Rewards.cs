@@ -151,7 +151,6 @@ namespace FF4FreeEnterprisePR.Randomize
 		};
 
 		static List<int> allRewards = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 };
-		static List<int> keyRewards = new List<int> { 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 24 };
 		static List<int> nothingRewards = new List<int> { 17, 18, 19, 20, 21, 26, 27 };
 
 		class pairing
@@ -167,7 +166,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			}
 		}
 
-		public static void establishRewards(Random r1, int[] characters, string directory, string dataDirectory, bool includeBonus, bool includeFGExclusive, int[] party, double xpMultiplier)
+		public static void establishRewards(Random r1, int[] characters, string directory, string dataDirectory, bool includeBonus, bool includeFGExclusive, int[] party, double xpMultiplier, bool zAtOrdeals, bool zAtFalcon)
 		{
 			List<pairing> pairings = new List<pairing>();
 			List<pairing> tempPairings = new List<pairing>();
@@ -179,6 +178,13 @@ namespace FF4FreeEnterprisePR.Randomize
 			bool underground = false;
 			bool moon = false;
 			bool nothingCheck = false;
+			bool finalPass = false;
+
+			// Remove the following if zAtFalcon or zAtOrdeals == true:
+			// Legend Sword, Magma Key, Tower Key, Luca Key, Dark Crystal, Pan, Adamant, and all Crystal Shards
+			// Keep the following rewards:  
+			if (zAtFalcon || zAtOrdeals)
+				validRewards = new List<int> { 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 13, 16, 17, 18, 19, 20, 21, 22, 23, 30, 31 };
 
 			while (validRewards.Count > 0)
 			{
@@ -242,6 +248,8 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				if (validLocations.Count == 0)
 				{
+					if (finalPass) break;
+
 					// Need to remove duplicate newLocations first...
 					List<pairing> dupPairing = pairings.Where(c => newLocations.Contains(c.locationID)).ToList();
 					foreach (pairing dup in dupPairing) { newLocations.Remove(dup.locationID); }
@@ -256,6 +264,14 @@ namespace FF4FreeEnterprisePR.Randomize
 							validRewards.Add(pairing.rewardID);
 						}
 						tempPairings.Clear();
+
+						// If we have early Z, see if we have only nothings left for validRewards.  If there are, then we should have "one more pass", and then move on.
+						if (zAtFalcon || zAtOrdeals)
+						{
+							int nothingRewards = validRewards.Where(c => c >= 16 || c <= 3).Count();
+							if (nothingRewards == validRewards.Count())
+								finalPass = true;
+						}
 					}
 					else
 					{
@@ -369,6 +385,12 @@ namespace FF4FreeEnterprisePR.Randomize
 				scenario currentReward = scenarios.Where(c => c.rewardId == rewardPair.locationID).SingleOrDefault();
 				// Skip if the scenario entry hasn't been recorded yet; that part is either still under construction.
 				if (currentReward == null) { continue; }
+
+				// Do not change the win script if zAtOrdeals is active and we're at DK Cecil spot.
+				if (currentReward.rewardId == 9 && zAtOrdeals)
+				{
+					continue;
+				}
 
 				// Open the winning JSON to set up rewards.
 				string json = File.ReadAllText(currentReward.winScript);
@@ -592,7 +614,10 @@ namespace FF4FreeEnterprisePR.Randomize
 			int i = min;
 			while (i <= max)
 			{
-				newPairing.Add(pairings.Where(c => c.locationID == i).Single());
+				pairing toAdd = pairings.Where(c => c.locationID == i).SingleOrDefault();
+
+				if (toAdd != null)
+					newPairing.Add(toAdd);
 				i++;
 			}
 
