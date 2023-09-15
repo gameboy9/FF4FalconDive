@@ -281,30 +281,30 @@ namespace FF4FreeEnterprisePR
 				return;
 			}
 
-			update();
-
-			r1 = new Random((int)(seedNumber % 2147483648));
-			int[] party = randomizeParty(xpMulti * xpStart);
-			randomizeShops(party);
-			randomizeTreasures(party);
-			priceAdjustment();
-			if (seedNumber > 2147483647)
-				r1 = new Random((int)(seedNumber / 2147483648));
-
-			randomizeMonstersWithBoost(xpMulti);
-			Zeromus.ZeromusSetup(r1, Convert.ToInt32(requiredShards.Text), zeromusDifficulty.SelectedIndex, shardsBeforeSirens.SelectedIndex, mainDirectory);
-			Rewards.establishRewards(r1, party, mainDirectory,
-				Path.Combine(dataDirectory, "Message"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti * xpStart, zOrdeals.Checked, zFalcon.Checked);
-			new Map(r1, dataMainDirectory,
-					encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 4 ? 2 :
-					encounterRate.SelectedIndex == 3 || encounterRate.SelectedIndex == 5 ? 4 :
-					encounterRate.SelectedIndex == 6 ? 8 : 1,
-					encounterRate.SelectedIndex == 0 ? 2 :
-					encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 3 ? 3 : 1,
-				encounterRate.SelectedIndex == 7);
-
 			try
 			{
+				update();
+
+				r1 = new Random((int)(seedNumber % 2147483648));
+				int[] party = randomizeParty(xpMulti * xpStart);
+				randomizeShops(party);
+				randomizeTreasures(party);
+				priceAdjustment();
+				if (seedNumber > 2147483647)
+					r1 = new Random((int)(seedNumber / 2147483648));
+
+				randomizeMonstersWithBoost(xpMulti);
+				Zeromus.ZeromusSetup(r1, Convert.ToInt32(requiredShards.Text), zeromusDifficulty.SelectedIndex, shardsBeforeSirens.SelectedIndex, mainDirectory);
+				Rewards.establishRewards(r1, party, mainDirectory,
+					Path.Combine(dataDirectory, "Message"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti * xpStart, zOrdeals.Checked, zFalcon.Checked);
+				new Map(r1, dataMainDirectory,
+						encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 4 ? 2 :
+						encounterRate.SelectedIndex == 3 || encounterRate.SelectedIndex == 5 ? 4 :
+						encounterRate.SelectedIndex == 6 ? 8 : 1,
+						encounterRate.SelectedIndex == 0 ? 2 :
+						encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 3 ? 3 : 1,
+					encounterRate.SelectedIndex == 7);
+
 				string checkSum = "";
 				using (SHA1 sha1Crypto = SHA1.Create())
 				{
@@ -318,9 +318,15 @@ namespace FF4FreeEnterprisePR
 				Messages.updateMessages(Path.Combine(dataDirectory, "Message"), RandoSeed.Text, RandoFlags.Text, checkSum, shardsBeforeSirens.SelectedIndex != 5, party, heroNames, r1);
 				NewChecksum.Text = "COMPLETE - checksum " + checkSum + " (copied to clipboard)";
 			}
-			catch
+			catch (Exception ex)
 			{
-
+				using (StreamWriter sw = new StreamWriter("FDError.txt", true))
+				{
+					sw.WriteLine(ex.ToString());
+					sw.WriteLine(RandoFlags.Text + "/" + RandoSeed.Text);
+					sw.WriteLine("---------------------");
+				}
+				NewChecksum.Text = "Error generating seed - see FDError.txt for details";
 			}
 		}
 

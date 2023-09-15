@@ -121,8 +121,9 @@ namespace FF4FalconDive.Inventory
 					for (int i = 0; i < 5; i++) 
 					{
 						int partyMarker = i == 0 ? 1 : i == 1 ? 3 : i == 2 ? 5 : i == 3 ? 6 : 7;
+						int heroToUse = (party[i] == 13 ? 1 : party[i]) - 1;
 
-						msgStrings.Where(c => c.id == "MSG_CHAR_NAME_" + partyMarker.ToString("D2")).Single().msgString = heroNames[party[i] - 1, r1.Next() % 5].Text;
+						msgStrings.Where(c => c.id == "MSG_CHAR_NAME_" + partyMarker.ToString("D2")).Single().msgString = heroNames[heroToUse, r1.Next() % 5].Text;
 						//charMarker[party[i] - 1]++;
 					}
 
