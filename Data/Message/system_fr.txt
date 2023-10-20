@@ -494,6 +494,7 @@ MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
 MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
 MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
 MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ARMOR_NAME_115	<IC_GLOV>Reflect Ring
 MSG_ITEM_NAME_01	<IC_BAG>Éclat de bombo
 MSG_ITEM_NAME_02	<IC_BAG>Bras de bombo
 MSG_ITEM_NAME_03	<IC_BAG>Vent antarctique
@@ -554,6 +555,7 @@ MSG_ITEM_NAME_58	<IC_BAG>Coquatrice
 MSG_ITEM_NAME_59	<IC_BAG>Psychopolype
 MSG_ITEM_NAME_60	<IC_BAG>Légume Gysahl
 MSG_ITEM_NAME_61	<IC_BAG>Flûte Gysahl
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
 MSG_KEY_NAME_01	<IC_BAG>Carte de membre
 MSG_KEY_NAME_02	<IC_IOBJ>Anneau de bombo
 MSG_KEY_NAME_03	<IC_IOBJ>Clef de Baron
@@ -819,8 +821,9 @@ MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
 MSG_ARMOR_INF_110	Kain's special helmet.
 MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
 MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
-MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Float in battle, resistant to fire and silence.
 MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ARMOR_INF_115	Ring with the same effect as Reflect.
 MSG_ITEM_INF_01	Un éclat qui produit les mêmes effets que le sort Feu.
 MSG_ITEM_INF_02	Un bras qui produit les mêmes effets que le sort Feu².
 MSG_ITEM_INF_03	Une pierre qui produit les mêmes effets que le sort Glace.
@@ -881,6 +884,7 @@ MSG_ITEM_INF_58	Permet à (RYDIA) d'apprendre Coquatrice.
 MSG_ITEM_INF_59	Permet à (RYDIA) d'apprendre Psychopolype.
 MSG_ITEM_INF_60	Le légume préféré des gros chocobos.\nUtilisez-le quand une odeur de chocobo flotte dans l'air.
 MSG_ITEM_INF_61	Une flûte qui permet d'appeler un gros chocobo.
+MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
 MSG_KEY_INF_01	Une carte de membre de la Taverne du roi.
 MSG_KEY_INF_02	L'anneau que le roi vous a donné.
 MSG_KEY_INF_03	Le passe-partout de la cité de Baron.

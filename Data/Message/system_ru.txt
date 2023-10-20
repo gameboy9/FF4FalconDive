@@ -494,6 +494,7 @@ MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
 MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
 MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
 MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ARMOR_NAME_115	<IC_GLOV>Reflect Ring
 MSG_ITEM_NAME_01	<IC_BAG>Осколок бомбы
 MSG_ITEM_NAME_02	<IC_BAG>Рука бомбы
 MSG_ITEM_NAME_03	<IC_BAG>Антарктический ветер
@@ -554,6 +555,7 @@ MSG_ITEM_NAME_58	<IC_BAG>Кокатрис
 MSG_ITEM_NAME_59	<IC_BAG>Мозгодер
 MSG_ITEM_NAME_60	<IC_BAG>Гисальская зелень
 MSG_ITEM_NAME_61	<IC_BAG>Гисальский свисток
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
 MSG_KEY_NAME_01	<IC_BAG>Членская грамота
 MSG_KEY_NAME_02	<IC_IOBJ>Взрывное кольцо
 MSG_KEY_NAME_03	<IC_IOBJ>Ключ от замка Барон
@@ -819,8 +821,9 @@ MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
 MSG_ARMOR_INF_110	Kain's special helmet.
 MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
 MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
-MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Float in battle, resistant to fire and silence.
 MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ARMOR_INF_115	Ring with the same effect as Reflect.
 MSG_ITEM_INF_01	Действует так же, как «Искра».
 MSG_ITEM_INF_02	Действует так же, как «Пламя».
 MSG_ITEM_INF_03	Камень с эффектом заклинания «Метель».
@@ -881,6 +884,7 @@ MSG_ITEM_INF_58	(RYDIA) научится призывать кокатриса.
 MSG_ITEM_INF_59	(RYDIA) научится призывать мозгодера.
 MSG_ITEM_INF_60	Любимая еда Жирного чокобо.\nИспользуйте там, где витает дух чокобо.
 MSG_ITEM_INF_61	Свисток, привлекающий Жирного чокобо.
+MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
 MSG_KEY_INF_01	Подтверждение членства в Королевском пабе.
 MSG_KEY_INF_02	Кольцо, полученное от короля Барона.
 MSG_KEY_INF_03	Ключ, отпирающий запертые двери Барона.

@@ -494,6 +494,7 @@ MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
 MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
 MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
 MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ARMOR_NAME_115	<IC_GLOV>Reflect Ring
 MSG_ITEM_NAME_01	<IC_BAG>봄의 파편
 MSG_ITEM_NAME_02	<IC_BAG>봄의 오른팔
 MSG_ITEM_NAME_03	<IC_BAG>남극의 바람
@@ -554,6 +555,7 @@ MSG_ITEM_NAME_58	<IC_BAG>코카트리스
 MSG_ITEM_NAME_59	<IC_BAG>마인드 플레이어
 MSG_ITEM_NAME_60	<IC_BAG>기살의 야채
 MSG_ITEM_NAME_61	<IC_BAG>기살의 피리
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
 MSG_KEY_NAME_01	<IC_BAG>회원증
 MSG_KEY_NAME_02	<IC_IOBJ>봄의 반지
 MSG_KEY_NAME_03	<IC_IOBJ>바론의 열쇠
@@ -819,8 +821,9 @@ MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
 MSG_ARMOR_INF_110	Kain's special helmet.
 MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
 MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
-MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Float in battle, resistant to fire and silence.
 MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ARMOR_INF_115	Ring with the same effect as Reflect.
 MSG_ITEM_INF_01	'파이어'와 같은 효과를 내는 아이템
 MSG_ITEM_INF_02	'파이라'와 같은 효과를 내는 아이템
 MSG_ITEM_INF_03	'블리자드'와 같은 효과를 내는 돌
@@ -881,6 +884,7 @@ MSG_ITEM_INF_58	(RYDIA)<josa(이,가)> '코카트리스' 습득
 MSG_ITEM_INF_59	(RYDIA)<josa(이,가)> '마인드 플레이어' 습득
 MSG_ITEM_INF_60	뚱보 초코보가 매우 좋아하는 야채.\n초코보 냄새가 나는 곳에서 사용하면…?
 MSG_ITEM_INF_61	뚱보 초코보를 불러내는 피리
+MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
 MSG_KEY_INF_01	술집 '임금님'의 회원이라는 증표
 MSG_KEY_INF_02	바론 왕이 준 반지
 MSG_KEY_INF_03	바론에 있는 문을 열기 위한 열쇠

@@ -11,7 +11,7 @@ namespace FF4FreeEnterprisePR
 {
 	public partial class FF4FalconDive : Form
 	{
-		const string defaultFlags = "0VQ9K0100000";
+		const string defaultFlags = "0VQ9KO100000";
 		string dataMainDirectory;
 		string mainDirectory;
 		string dataDirectory;
@@ -484,7 +484,7 @@ namespace FF4FreeEnterprisePR
 			Button btn = (Button)sender;
 			if (btn.Name == "flagDefault")
 			{
-				RandoFlags.Text = "0VQ9K0100000";
+				RandoFlags.Text = defaultFlags;
 			}
 			if (btn.Name == "flagCustom1") { if (flagCustom1.Text.Length == flagLength) RandoFlags.Text = flagCustom1Text.Text; else MessageBox.Show("Invalid flag string"); }
 			if (btn.Name == "flagCustom2") { if (flagCustom2.Text.Length == flagLength) RandoFlags.Text = flagCustom2Text.Text; else MessageBox.Show("Invalid flag string"); }

@@ -494,6 +494,7 @@ MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
 MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
 MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
 MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ARMOR_NAME_115	<IC_GLOV>Reflect Ring
 MSG_ITEM_NAME_01	<IC_BAG>Trozo de bom
 MSG_ITEM_NAME_02	<IC_BAG>Alma de bom
 MSG_ITEM_NAME_03	<IC_BAG>Aire antártico
@@ -554,6 +555,7 @@ MSG_ITEM_NAME_58	<IC_BAG>Tomo de cocatriz
 MSG_ITEM_NAME_59	<IC_BAG>Tomo de rompementes
 MSG_ITEM_NAME_60	<IC_BAG>Verdura gysahl
 MSG_ITEM_NAME_61	<IC_BAG>Silbato de Gysahl
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
 MSG_KEY_NAME_01	<IC_BAG>Carné de socio
 MSG_KEY_NAME_02	<IC_IOBJ>Anillo de bom
 MSG_KEY_NAME_03	<IC_IOBJ>Llave de Baronia
@@ -819,8 +821,9 @@ MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
 MSG_ARMOR_INF_110	Kain's special helmet.
 MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
 MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
-MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Float in battle, resistant to fire and silence.
 MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ARMOR_INF_115	Ring with the same effect as Reflect.
 MSG_ITEM_INF_01	Causa el mismo efecto que Piro.
 MSG_ITEM_INF_02	Causa el mismo efecto que Piro+.
 MSG_ITEM_INF_03	Piedra que conjura Hielo.
@@ -881,6 +884,7 @@ MSG_ITEM_INF_58	Enseña a (RYDIA) el hechizo Cocatriz.
 MSG_ITEM_INF_59	Enseña a (RYDIA) el hechizo Descarga mental.
 MSG_ITEM_INF_60	Comida preferida de los chocobos.\nPruébala donde huela a chocobo.
 MSG_ITEM_INF_61	Silbido para llamar al Chocobo gordo.
+MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
 MSG_KEY_INF_01	Carné de socio para el Bar Real.
 MSG_KEY_INF_02	Anillo recibido de parte del rey de Baronia.
 MSG_KEY_INF_03	Llave que abre las puertas de Baronia.

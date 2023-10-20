@@ -163,6 +163,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int safetyMet = 862; // t9
 		public const int erdrickArmor = 863; // t8
 		public const int silverShield = 864; // t8
+		public const int reflectRing = 868; // t7
 
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { ironShield, darkShield, leatherCap, ironHelm, clothes, prisonerCloth, leatherGarb, bardTunic, ironArmor, darkArmor, rubyRing, ironGloves, darkGloves, ironArmlet },
@@ -172,7 +173,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			  new List<int> { flameShield, iceShield, mythrilHelm, flameMail, iceArmor, runeArmlet, diamondGloves },
 			  new List<int> { diamondShield, sageMiter, blackCowl, lightHelm, goldHairpin, blackBeltGi, powerSash, diamondArmor, diamondArmlet },
 			  new List<int> { aegisShield, genjiShield, dragonShield, diamondHelm, genjiHelm, dragonHelm, whiteRobe, minervaBustier, genjiArmor,
-				dragonMail, blackGarb, gauntlets, genjiGloves, dragonGloves, giantGloves, crystalRing, redJacket, chocoboShield, hypnocrown, catearHood, whiteTigerMask },
+				dragonMail, blackGarb, gauntlets, genjiGloves, dragonGloves, giantGloves, crystalRing, redJacket, chocoboShield, hypnocrown, catearHood, whiteTigerMask, reflectRing },
 			  new List<int> { crystalShield, ribbon, crystalHelm, glassMask, crystalMail, crystalGloves, protectRing, grandArmor, dragoonPlate, braveSuit, chocoboSuit, tabbySuit, redCap, erdrickArmor, silverShield },
 			  new List<int> { adamantArmor, caesarsPlate, maximiillian, battleGear, assassinVest, vishnuVest, sageRobe, robeOfLords, rainbowRobe, whiteDress, heroShield, 
 				  rabbitearHood, augustineTiara, starOfKamiKazari, royalCrown, dualMask, demonHat, philosopherHat, grandHelm, caesarHelm, dragonHelm, safetyMet, edgeDemonHelm }
@@ -180,9 +181,9 @@ namespace FF4FreeEnterprisePR.Inventory
 
 		public List<int> bonusArmor = new List<int> { grandArmor, dragoonPlate, caesarsPlate, maximiillian, redJacket, braveSuit, chocoboSuit, tabbySuit, battleGear, assassinVest, vishnuVest, 
 			sageRobe, robeOfLords, rainbowRobe, whiteDress, heroShield, chocoboShield, hypnocrown, catearHood, whiteTigerMask, redCap, rabbitearHood, augustineTiara, starOfKamiKazari, royalCrown, 
-			dualMask, demonHat, philosopherHat, grandHelm, caesarHelm, dragoonHelm, edgeDemonHelm, safetyMet, erdrickArmor, silverShield };
+			dualMask, demonHat, philosopherHat, grandHelm, caesarHelm, dragoonHelm, edgeDemonHelm, safetyMet, erdrickArmor, silverShield, reflectRing };
 
-		public List<int> fgExclusiveArmor = new List<int> { erdrickArmor, silverShield };
+		public List<int> fgExclusiveArmor = new List<int> { erdrickArmor, silverShield, reflectRing };
 
 		public List<int> dkCecilOnly = new List<int> { darkHelm, hadesHelm, demonHelm, darkShield, demonShield, darkArmor, hadesArmor, demonArmor, darkGloves, hadesGloves, demonGloves };
 		public List<int> pallyCecilOnly = new List<int> { knightArmor, crystalMail, caesarsPlate, lightShield, crystalShield, lightHelm, crystalHelm, caesarHelm, gauntlets, crystalGloves };

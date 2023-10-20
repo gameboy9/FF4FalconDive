@@ -494,6 +494,7 @@ MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
 MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
 MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
 MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ARMOR_NAME_115	<IC_GLOV>Reflect Ring
 MSG_ITEM_NAME_01	<IC_BAG>Bombensplitter
 MSG_ITEM_NAME_02	<IC_BAG>Bombenarm
 MSG_ITEM_NAME_03	<IC_BAG>Antarktiswind
@@ -554,6 +555,7 @@ MSG_ITEM_NAME_58	<IC_BAG>Cockatrice
 MSG_ITEM_NAME_59	<IC_BAG>Seelenschinder
 MSG_ITEM_NAME_60	<IC_BAG>Gizarkraut
 MSG_ITEM_NAME_61	<IC_BAG>Gizarpfeife
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
 MSG_KEY_NAME_01	<IC_BAG>Mitgliedsausweis
 MSG_KEY_NAME_02	<IC_IOBJ>Bombenring
 MSG_KEY_NAME_03	<IC_IOBJ>Baronschlüssel
@@ -819,8 +821,9 @@ MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
 MSG_ARMOR_INF_110	Kain's special helmet.
 MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
 MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
-MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Float in battle, resistant to fire and silence.
 MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ARMOR_INF_115	Ring with the same effect as Reflect.
 MSG_ITEM_INF_01	Ein Splitter mit demselben Effekt wie »Feuer«.
 MSG_ITEM_INF_02	Ein Arm mit demselben Effekt wie »Feura«.
 MSG_ITEM_INF_03	Ein Stein mit demselben Effekt wie »Eisra«.
@@ -881,6 +884,7 @@ MSG_ITEM_INF_58	Lehrt (RYDIA) die Beschwörung »Cockatrice«.
 MSG_ITEM_INF_59	Lehrt (RYDIA) die Beschwörung »Seelenschinder«.
 MSG_ITEM_INF_60	Die Lieblingsspeise des Fetten Chocobos. Benutze sie dort, wo es nach Chocobo riecht.
 MSG_ITEM_INF_61	Eine Pfeife, mit der man den Fetten Chocobo rufen kann.
+MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
 MSG_KEY_INF_01	Ein Mitgliedsausweis der Schänke »Zum König«.
 MSG_KEY_INF_02	Ein Ring, erhalten vom König von Baron.
 MSG_KEY_INF_03	Ein Schlüssel, um Türen in Baron zu öffnen.

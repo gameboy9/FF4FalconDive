@@ -494,6 +494,7 @@ MSG_ARMOR_NAME_111	<IC_HEAD>Edge Demon Helm
 MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
 MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
 MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
+MSG_ARMOR_NAME_115	<IC_GLOV>Reflect Ring
 MSG_ITEM_NAME_01	<IC_BAG>炸彈碎片
 MSG_ITEM_NAME_02	<IC_BAG>炸彈右臂
 MSG_ITEM_NAME_03	<IC_BAG>南極之風
@@ -554,6 +555,7 @@ MSG_ITEM_NAME_58	<IC_BAG>蛇雞獸
 MSG_ITEM_NAME_59	<IC_BAG>精神吸取者
 MSG_ITEM_NAME_60	<IC_BAG>基薩爾野菜
 MSG_ITEM_NAME_61	<IC_BAG>基薩爾之笛
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
 MSG_KEY_NAME_01	<IC_BAG>會員證
 MSG_KEY_NAME_02	<IC_IOBJ>炸彈戒指
 MSG_KEY_NAME_03	<IC_IOBJ>巴隆的鑰匙
@@ -819,8 +821,9 @@ MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
 MSG_ARMOR_INF_110	Kain's special helmet.
 MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
 MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
-MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Resistant to fire and silence.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Float in battle, resistant to fire and silence.
 MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
+MSG_ARMOR_INF_115	Ring with the same effect as Reflect.
 MSG_ITEM_INF_01	和火焰擁有同樣的效果
 MSG_ITEM_INF_02	和中火焰擁有同樣的效果
 MSG_ITEM_INF_03	和暴雪擁有同樣效果的石頭
@@ -881,6 +884,7 @@ MSG_ITEM_INF_58	讓(RYDIA)學會召喚蛇雞獸
 MSG_ITEM_INF_59	讓(RYDIA)學會召喚精神吸取者
 MSG_ITEM_INF_60	胖陸行鳥最喜歡的食物\n在能夠聞到陸行鳥的味道的地方用用看？
 MSG_ITEM_INF_61	召喚出胖陸行鳥的笛子
+MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
 MSG_KEY_INF_01	帝王酒吧的會員證
 MSG_KEY_INF_02	巴隆王所給的戒指
 MSG_KEY_INF_03	打開巴隆鎮大門的鑰匙
