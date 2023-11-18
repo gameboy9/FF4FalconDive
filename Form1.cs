@@ -287,9 +287,9 @@ namespace FF4FreeEnterprisePR
 
 				r1 = new Random((int)(seedNumber % 2147483648));
 				int[] party = randomizeParty(xpMulti * xpStart);
+				priceAdjustment();
 				randomizeShops(party);
 				randomizeTreasures(party);
-				priceAdjustment();
 				if (seedNumber > 2147483647)
 					r1 = new Random((int)(seedNumber / 2147483648));
 

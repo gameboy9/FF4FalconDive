@@ -378,7 +378,7 @@ MSG_WEAPON_NAME_127	<IC_DSRD>Vampire Sword
 MSG_WEAPON_NAME_128	<IC_DSRD>Megido Sword
 MSG_WEAPON_NAME_129	<IC_SRD>Erdrick's Sword
 MSG_WEAPON_NAME_130	<IC_SPR>Vampire Spear
-MSG_WEAPON_NAME_131	<IC_ROD>Super Anger Rod
+MSG_WEAPON_NAME_131	<IC_ROD>Rage Rod
 MSG_WEAPON_NAME_132	<IC_ROD>Mop
 MSG_ARMOR_NAME_01	<IC_SHIELD>Eisenschild
 MSG_ARMOR_NAME_02	<IC_SHIELD>Dunkelschild
@@ -495,6 +495,10 @@ MSG_ARMOR_NAME_112	<IC_HEAD>Safety Met
 MSG_ARMOR_NAME_113	<IC_ARMOR>Erdrick's Armor
 MSG_ARMOR_NAME_114	<IC_SHIELD>Silver Shield
 MSG_ARMOR_NAME_115	<IC_GLOV>Reflect Ring
+MSG_ARMOR_NAME_116	<IC_CLTH>Platinum Robe
+MSG_ARMOR_NAME_117	<IC_HEAD>Swift Hat
+MSG_ARMOR_NAME_118	<IC_SHIELD>Focus Shield
+MSG_ARMOR_NAME_119	<IC_GLOV>Glow Ring
 MSG_ITEM_NAME_01	<IC_BAG>Bombensplitter
 MSG_ITEM_NAME_02	<IC_BAG>Bombenarm
 MSG_ITEM_NAME_03	<IC_BAG>Antarktiswind
@@ -707,7 +711,7 @@ MSG_WEAPON_INF_127	An amazingly efficient blood sword... but it comes at a cost.
 MSG_WEAPON_INF_128	The ultimate sword of anger that makes even Zeromus jealous.  Casts Mega Flare when used in battle.
 MSG_WEAPON_INF_129	A sword from a faraway land that anyone can equip, as another randomizer has proven.
 MSG_WEAPON_INF_130	When finished with this rando, take Kain to the FF3 world and speedrun with this spear!
-MSG_WEAPON_INF_131	If you thought Tellah was miffed when he defeated Golbez... Casts Double Meteor when used in battle.
+MSG_WEAPON_INF_131	Tellah's ultimate weapon turns his anger into the ultimate glass cannon.  Casts Double Meteor when used in battle.
 MSG_WEAPON_INF_132	The perfect tool for our favorite full-blooded Lunarian.  Casts Tidal Wave when used in battle.
 MSG_ARMOR_INF_01	Ein eiserner Schild.
 MSG_ARMOR_INF_02	Ein Schild mit einer mächtigen, dunklen Kraft.
@@ -821,9 +825,13 @@ MSG_ARMOR_INF_109	Paladin Cecil's special helmet.
 MSG_ARMOR_INF_110	Kain's special helmet.
 MSG_ARMOR_INF_111	Edge's special helmet.  Resistant to confuse.
 MSG_ARMOR_INF_112	Cid's special helmet.  Resistant to petrify.
-MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Float in battle, resistant to fire and silence.
+MSG_ARMOR_INF_113	Armor from a faraway world that anyone can equip, as another rando has proven.  Float in battle; resistant to fire and silence.
 MSG_ARMOR_INF_114	A shield from a faraway world that anyone can equip, as another randomizer has proven.
 MSG_ARMOR_INF_115	Ring with the same effect as Reflect.
+MSG_ARMOR_INF_116	A robe which hardens Tellah's resolve.
+MSG_ARMOR_INF_117	A hat which speeds Tellah up greatly.
+MSG_ARMOR_INF_118	A shield which greatly improves Tellah's magical focus.
+MSG_ARMOR_INF_119	A ring that glows in the bask of Shell, Protect, and Haste in battle.  Improves all stats too!
 MSG_ITEM_INF_01	Ein Splitter mit demselben Effekt wie »Feuer«.
 MSG_ITEM_INF_02	Ein Arm mit demselben Effekt wie »Feura«.
 MSG_ITEM_INF_03	Ein Stein mit demselben Effekt wie »Eisra«.
