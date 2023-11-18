@@ -29,1068 +29,1150 @@ namespace FF4FreeEnterprisePR
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.components = new System.ComponentModel.Container();
-			this.Randomize = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
-			this.FF4PRFolder = new System.Windows.Forms.TextBox();
-			this.label2 = new System.Windows.Forms.Label();
-			this.RandoFlags = new System.Windows.Forms.TextBox();
-			this.NewChecksum = new System.Windows.Forms.Label();
-			this.RandoSeed = new System.Windows.Forms.TextBox();
-			this.label3 = new System.Windows.Forms.Label();
-			this.NewSeed = new System.Windows.Forms.Button();
-			this.BrowseForFolder = new System.Windows.Forms.Button();
-			this.button1 = new System.Windows.Forms.Button();
-			this.label15 = new System.Windows.Forms.Label();
-			this.gameAssetsFile = new System.Windows.Forms.TextBox();
-			this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-			this.extractGameAssets = new System.Windows.Forms.Button();
-			this.BrowseForGameAssets = new System.Windows.Forms.Button();
-			this.tabControl1 = new System.Windows.Forms.TabControl();
-			this.settingGeneral = new System.Windows.Forms.TabPage();
-			this.label11 = new System.Windows.Forms.Label();
-			this.shardsBeforeSirens = new System.Windows.Forms.ComboBox();
-			this.requiredShards = new System.Windows.Forms.ComboBox();
-			this.label5 = new System.Windows.Forms.Label();
-			this.removeFGExclusiveItems = new System.Windows.Forms.CheckBox();
-			this.removeBonusItems = new System.Windows.Forms.CheckBox();
-			this.treasureNoSuper = new System.Windows.Forms.CheckBox();
-			this.shopNoSuper = new System.Windows.Forms.CheckBox();
-			this.treasureNoJ = new System.Windows.Forms.CheckBox();
-			this.shopNoJ = new System.Windows.Forms.CheckBox();
-			this.treasureTypes = new System.Windows.Forms.ComboBox();
-			this.shopItemTypes = new System.Windows.Forms.ComboBox();
-			this.label14 = new System.Windows.Forms.Label();
-			this.label4 = new System.Windows.Forms.Label();
-			this.shopBuyPrice = new System.Windows.Forms.ComboBox();
-			this.shopItemQty = new System.Windows.Forms.ComboBox();
-			this.label13 = new System.Windows.Forms.Label();
-			this.label12 = new System.Windows.Forms.Label();
-			this.settingHero = new System.Windows.Forms.TabPage();
-			this.startingXP = new System.Windows.Forms.ComboBox();
-			this.label18 = new System.Windows.Forms.Label();
-			this.exYang = new System.Windows.Forms.CheckBox();
-			this.firstHero = new System.Windows.Forms.ComboBox();
-			this.label16 = new System.Windows.Forms.Label();
-			this.exPaladinCecil = new System.Windows.Forms.CheckBox();
-			this.exFusoya = new System.Windows.Forms.CheckBox();
-			this.exRosa = new System.Windows.Forms.CheckBox();
-			this.exPorom = new System.Windows.Forms.CheckBox();
-			this.exCid = new System.Windows.Forms.CheckBox();
-			this.exRydia = new System.Windows.Forms.CheckBox();
-			this.exKain = new System.Windows.Forms.CheckBox();
-			this.exTellah = new System.Windows.Forms.CheckBox();
-			this.exEdward = new System.Windows.Forms.CheckBox();
-			this.exEdge = new System.Windows.Forms.CheckBox();
-			this.exPalom = new System.Windows.Forms.CheckBox();
-			this.exCecil = new System.Windows.Forms.CheckBox();
-			this.numHeroes = new System.Windows.Forms.ComboBox();
-			this.label6 = new System.Windows.Forms.Label();
-			this.dupCharactersAllowed = new System.Windows.Forms.CheckBox();
-			this.settingEnemies = new System.Windows.Forms.TabPage();
-			this.zeromusDifficulty = new System.Windows.Forms.ComboBox();
-			this.label10 = new System.Windows.Forms.Label();
-			this.label17 = new System.Windows.Forms.Label();
-			this.encounterRate = new System.Windows.Forms.ComboBox();
-			this.gpMultiplier = new System.Windows.Forms.ComboBox();
-			this.xpMultiplier = new System.Windows.Forms.ComboBox();
-			this.monsterDifficulty = new System.Windows.Forms.ComboBox();
-			this.label9 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
-			this.label7 = new System.Windows.Forms.Label();
-			this.tabPage1 = new System.Windows.Forms.TabPage();
-			this.flagCustom5Text = new System.Windows.Forms.TextBox();
-			this.flagCustom4Text = new System.Windows.Forms.TextBox();
-			this.flagCustom3Text = new System.Windows.Forms.TextBox();
-			this.flagCustom2Text = new System.Windows.Forms.TextBox();
-			this.flagCustom1Text = new System.Windows.Forms.TextBox();
-			this.flagCustom5 = new System.Windows.Forms.Button();
-			this.flagCustom4 = new System.Windows.Forms.Button();
-			this.flagCustom3 = new System.Windows.Forms.Button();
-			this.flagCustom2 = new System.Windows.Forms.Button();
-			this.flagCustom1 = new System.Windows.Forms.Button();
-			this.flagDefault = new System.Windows.Forms.Button();
-			this.hpAdjustTooltip = new System.Windows.Forms.ToolTip(this.components);
-			this.tabControl1.SuspendLayout();
-			this.settingGeneral.SuspendLayout();
-			this.settingHero.SuspendLayout();
-			this.settingEnemies.SuspendLayout();
-			this.tabPage1.SuspendLayout();
-			this.SuspendLayout();
+			components = new System.ComponentModel.Container();
+			Randomize = new System.Windows.Forms.Button();
+			label1 = new System.Windows.Forms.Label();
+			FF4PRFolder = new System.Windows.Forms.TextBox();
+			label2 = new System.Windows.Forms.Label();
+			RandoFlags = new System.Windows.Forms.TextBox();
+			NewChecksum = new System.Windows.Forms.Label();
+			RandoSeed = new System.Windows.Forms.TextBox();
+			label3 = new System.Windows.Forms.Label();
+			NewSeed = new System.Windows.Forms.Button();
+			BrowseForFolder = new System.Windows.Forms.Button();
+			button1 = new System.Windows.Forms.Button();
+			label15 = new System.Windows.Forms.Label();
+			gameAssetsFile = new System.Windows.Forms.TextBox();
+			linkLabel1 = new System.Windows.Forms.LinkLabel();
+			extractGameAssets = new System.Windows.Forms.Button();
+			BrowseForGameAssets = new System.Windows.Forms.Button();
+			tabControl1 = new System.Windows.Forms.TabControl();
+			settingGeneral = new System.Windows.Forms.TabPage();
+			label11 = new System.Windows.Forms.Label();
+			shardsBeforeSirens = new System.Windows.Forms.ComboBox();
+			requiredShards = new System.Windows.Forms.ComboBox();
+			label5 = new System.Windows.Forms.Label();
+			removeFGExclusiveItems = new System.Windows.Forms.CheckBox();
+			removeBonusItems = new System.Windows.Forms.CheckBox();
+			treasureNoSuper = new System.Windows.Forms.CheckBox();
+			shopNoSuper = new System.Windows.Forms.CheckBox();
+			treasureNoJ = new System.Windows.Forms.CheckBox();
+			shopNoJ = new System.Windows.Forms.CheckBox();
+			treasureTypes = new System.Windows.Forms.ComboBox();
+			shopItemTypes = new System.Windows.Forms.ComboBox();
+			label14 = new System.Windows.Forms.Label();
+			label4 = new System.Windows.Forms.Label();
+			shopBuyPrice = new System.Windows.Forms.ComboBox();
+			shopItemQty = new System.Windows.Forms.ComboBox();
+			label13 = new System.Windows.Forms.Label();
+			label12 = new System.Windows.Forms.Label();
+			settingHero = new System.Windows.Forms.TabPage();
+			startingXP = new System.Windows.Forms.ComboBox();
+			label18 = new System.Windows.Forms.Label();
+			exYang = new System.Windows.Forms.CheckBox();
+			firstHero = new System.Windows.Forms.ComboBox();
+			label16 = new System.Windows.Forms.Label();
+			exPaladinCecil = new System.Windows.Forms.CheckBox();
+			exFusoya = new System.Windows.Forms.CheckBox();
+			exRosa = new System.Windows.Forms.CheckBox();
+			exPorom = new System.Windows.Forms.CheckBox();
+			exCid = new System.Windows.Forms.CheckBox();
+			exRydia = new System.Windows.Forms.CheckBox();
+			exKain = new System.Windows.Forms.CheckBox();
+			exTellah = new System.Windows.Forms.CheckBox();
+			exEdward = new System.Windows.Forms.CheckBox();
+			exEdge = new System.Windows.Forms.CheckBox();
+			exPalom = new System.Windows.Forms.CheckBox();
+			exCecil = new System.Windows.Forms.CheckBox();
+			numHeroes = new System.Windows.Forms.ComboBox();
+			label6 = new System.Windows.Forms.Label();
+			dupCharactersAllowed = new System.Windows.Forms.CheckBox();
+			settingEnemies = new System.Windows.Forms.TabPage();
+			zFalcon = new System.Windows.Forms.CheckBox();
+			zOrdeals = new System.Windows.Forms.CheckBox();
+			zeromusDifficulty = new System.Windows.Forms.ComboBox();
+			label10 = new System.Windows.Forms.Label();
+			label17 = new System.Windows.Forms.Label();
+			encounterRate = new System.Windows.Forms.ComboBox();
+			gpMultiplier = new System.Windows.Forms.ComboBox();
+			xpMultiplier = new System.Windows.Forms.ComboBox();
+			monsterDifficulty = new System.Windows.Forms.ComboBox();
+			label9 = new System.Windows.Forms.Label();
+			label8 = new System.Windows.Forms.Label();
+			label7 = new System.Windows.Forms.Label();
+			tabPage1 = new System.Windows.Forms.TabPage();
+			flagCustom5Text = new System.Windows.Forms.TextBox();
+			flagCustom4Text = new System.Windows.Forms.TextBox();
+			flagCustom3Text = new System.Windows.Forms.TextBox();
+			flagCustom2Text = new System.Windows.Forms.TextBox();
+			flagCustom1Text = new System.Windows.Forms.TextBox();
+			flagCustom5 = new System.Windows.Forms.Button();
+			flagCustom4 = new System.Windows.Forms.Button();
+			flagCustom3 = new System.Windows.Forms.Button();
+			flagCustom2 = new System.Windows.Forms.Button();
+			flagCustom1 = new System.Windows.Forms.Button();
+			flagDefault = new System.Windows.Forms.Button();
+			heroNameTab = new System.Windows.Forms.TabPage();
+			label30 = new System.Windows.Forms.Label();
+			label29 = new System.Windows.Forms.Label();
+			label28 = new System.Windows.Forms.Label();
+			label27 = new System.Windows.Forms.Label();
+			label26 = new System.Windows.Forms.Label();
+			label25 = new System.Windows.Forms.Label();
+			label24 = new System.Windows.Forms.Label();
+			label23 = new System.Windows.Forms.Label();
+			label22 = new System.Windows.Forms.Label();
+			label21 = new System.Windows.Forms.Label();
+			label20 = new System.Windows.Forms.Label();
+			label19 = new System.Windows.Forms.Label();
+			hpAdjustTooltip = new System.Windows.Forms.ToolTip(components);
+			tabControl1.SuspendLayout();
+			settingGeneral.SuspendLayout();
+			settingHero.SuspendLayout();
+			settingEnemies.SuspendLayout();
+			tabPage1.SuspendLayout();
+			heroNameTab.SuspendLayout();
+			SuspendLayout();
 			// 
 			// Randomize
 			// 
-			this.Randomize.Location = new System.Drawing.Point(668, 488);
-			this.Randomize.Name = "Randomize";
-			this.Randomize.Size = new System.Drawing.Size(120, 29);
-			this.Randomize.TabIndex = 0;
-			this.Randomize.Text = "Randomize!";
-			this.Randomize.UseVisualStyleBackColor = true;
-			this.Randomize.Click += new System.EventHandler(this.Randomize_Click);
+			Randomize.Location = new System.Drawing.Point(664, 533);
+			Randomize.Name = "Randomize";
+			Randomize.Size = new System.Drawing.Size(120, 29);
+			Randomize.TabIndex = 0;
+			Randomize.Text = "Randomize!";
+			Randomize.UseVisualStyleBackColor = true;
+			Randomize.Click += Randomize_Click;
 			// 
 			// label1
 			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(12, 9);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(98, 20);
-			this.label1.TabIndex = 1;
-			this.label1.Text = "FF4 PR Folder";
+			label1.AutoSize = true;
+			label1.Location = new System.Drawing.Point(12, 9);
+			label1.Name = "label1";
+			label1.Size = new System.Drawing.Size(98, 20);
+			label1.TabIndex = 1;
+			label1.Text = "FF4 PR Folder";
 			// 
 			// FF4PRFolder
 			// 
-			this.FF4PRFolder.Location = new System.Drawing.Point(138, 6);
-			this.FF4PRFolder.Name = "FF4PRFolder";
-			this.FF4PRFolder.Size = new System.Drawing.Size(502, 27);
-			this.FF4PRFolder.TabIndex = 2;
+			FF4PRFolder.Location = new System.Drawing.Point(138, 6);
+			FF4PRFolder.Name = "FF4PRFolder";
+			FF4PRFolder.Size = new System.Drawing.Size(502, 27);
+			FF4PRFolder.TabIndex = 2;
 			// 
 			// label2
 			// 
-			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(12, 50);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(90, 20);
-			this.label2.TabIndex = 6;
-			this.label2.Text = "Rando Flags";
+			label2.AutoSize = true;
+			label2.Location = new System.Drawing.Point(12, 50);
+			label2.Name = "label2";
+			label2.Size = new System.Drawing.Size(90, 20);
+			label2.TabIndex = 6;
+			label2.Text = "Rando Flags";
 			// 
 			// RandoFlags
 			// 
-			this.RandoFlags.Location = new System.Drawing.Point(138, 47);
-			this.RandoFlags.Name = "RandoFlags";
-			this.RandoFlags.Size = new System.Drawing.Size(346, 27);
-			this.RandoFlags.TabIndex = 7;
-			this.RandoFlags.Leave += new System.EventHandler(this.determineChecks);
+			RandoFlags.Location = new System.Drawing.Point(138, 47);
+			RandoFlags.Name = "RandoFlags";
+			RandoFlags.Size = new System.Drawing.Size(346, 27);
+			RandoFlags.TabIndex = 7;
+			RandoFlags.Leave += determineChecks;
 			// 
 			// NewChecksum
 			// 
-			this.NewChecksum.AutoSize = true;
-			this.NewChecksum.Location = new System.Drawing.Point(12, 535);
-			this.NewChecksum.Name = "NewChecksum";
-			this.NewChecksum.Size = new System.Drawing.Size(267, 20);
-			this.NewChecksum.TabIndex = 8;
-			this.NewChecksum.Text = "New Checksum:  (Not Randomized Yet)";
+			NewChecksum.AutoSize = true;
+			NewChecksum.Location = new System.Drawing.Point(8, 580);
+			NewChecksum.Name = "NewChecksum";
+			NewChecksum.Size = new System.Drawing.Size(267, 20);
+			NewChecksum.TabIndex = 8;
+			NewChecksum.Text = "New Checksum:  (Not Randomized Yet)";
 			// 
 			// RandoSeed
 			// 
-			this.RandoSeed.Location = new System.Drawing.Point(554, 44);
-			this.RandoSeed.Name = "RandoSeed";
-			this.RandoSeed.Size = new System.Drawing.Size(160, 27);
-			this.RandoSeed.TabIndex = 10;
+			RandoSeed.Location = new System.Drawing.Point(554, 44);
+			RandoSeed.Name = "RandoSeed";
+			RandoSeed.Size = new System.Drawing.Size(160, 27);
+			RandoSeed.TabIndex = 10;
 			// 
 			// label3
 			// 
-			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(506, 47);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(42, 20);
-			this.label3.TabIndex = 9;
-			this.label3.Text = "Seed";
+			label3.AutoSize = true;
+			label3.Location = new System.Drawing.Point(506, 47);
+			label3.Name = "label3";
+			label3.Size = new System.Drawing.Size(42, 20);
+			label3.TabIndex = 9;
+			label3.Text = "Seed";
 			// 
 			// NewSeed
 			// 
-			this.NewSeed.Location = new System.Drawing.Point(729, 43);
-			this.NewSeed.Name = "NewSeed";
-			this.NewSeed.Size = new System.Drawing.Size(59, 29);
-			this.NewSeed.TabIndex = 11;
-			this.NewSeed.Text = "New";
-			this.NewSeed.UseVisualStyleBackColor = true;
-			this.NewSeed.Click += new System.EventHandler(this.NewSeed_Click);
+			NewSeed.Location = new System.Drawing.Point(729, 43);
+			NewSeed.Name = "NewSeed";
+			NewSeed.Size = new System.Drawing.Size(59, 29);
+			NewSeed.TabIndex = 11;
+			NewSeed.Text = "New";
+			NewSeed.UseVisualStyleBackColor = true;
+			NewSeed.Click += NewSeed_Click;
 			// 
 			// BrowseForFolder
 			// 
-			this.BrowseForFolder.Location = new System.Drawing.Point(693, 6);
-			this.BrowseForFolder.Name = "BrowseForFolder";
-			this.BrowseForFolder.Size = new System.Drawing.Size(95, 28);
-			this.BrowseForFolder.TabIndex = 14;
-			this.BrowseForFolder.Text = "Browse";
-			this.BrowseForFolder.UseVisualStyleBackColor = true;
-			this.BrowseForFolder.Click += new System.EventHandler(this.btnBrowse_Click);
+			BrowseForFolder.Location = new System.Drawing.Point(693, 6);
+			BrowseForFolder.Name = "BrowseForFolder";
+			BrowseForFolder.Size = new System.Drawing.Size(95, 28);
+			BrowseForFolder.TabIndex = 14;
+			BrowseForFolder.Text = "Browse";
+			BrowseForFolder.UseVisualStyleBackColor = true;
+			BrowseForFolder.Click += btnBrowse_Click;
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(478, 488);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(140, 29);
-			this.button1.TabIndex = 42;
-			this.button1.Text = "Revert to vanilla";
-			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.revertToDefault_click);
+			button1.Location = new System.Drawing.Point(474, 533);
+			button1.Name = "button1";
+			button1.Size = new System.Drawing.Size(140, 29);
+			button1.TabIndex = 42;
+			button1.Text = "Revert to vanilla";
+			button1.UseVisualStyleBackColor = true;
+			button1.Click += revertToDefault_click;
 			// 
 			// label15
 			// 
-			this.label15.AutoSize = true;
-			this.label15.Location = new System.Drawing.Point(12, 92);
-			this.label15.Name = "label15";
-			this.label15.Size = new System.Drawing.Size(120, 20);
-			this.label15.TabIndex = 43;
-			this.label15.Text = "Game Assets File";
+			label15.AutoSize = true;
+			label15.Location = new System.Drawing.Point(12, 92);
+			label15.Name = "label15";
+			label15.Size = new System.Drawing.Size(120, 20);
+			label15.TabIndex = 43;
+			label15.Text = "Game Assets File";
 			// 
 			// gameAssetsFile
 			// 
-			this.gameAssetsFile.Location = new System.Drawing.Point(138, 89);
-			this.gameAssetsFile.Name = "gameAssetsFile";
-			this.gameAssetsFile.Size = new System.Drawing.Size(346, 27);
-			this.gameAssetsFile.TabIndex = 44;
+			gameAssetsFile.Location = new System.Drawing.Point(138, 89);
+			gameAssetsFile.Name = "gameAssetsFile";
+			gameAssetsFile.Size = new System.Drawing.Size(346, 27);
+			gameAssetsFile.TabIndex = 44;
 			// 
 			// linkLabel1
 			// 
-			this.linkLabel1.AutoSize = true;
-			this.linkLabel1.Location = new System.Drawing.Point(710, 92);
-			this.linkLabel1.Name = "linkLabel1";
-			this.linkLabel1.Size = new System.Drawing.Size(78, 20);
-			this.linkLabel1.TabIndex = 45;
-			this.linkLabel1.TabStop = true;
-			this.linkLabel1.Text = "Download";
+			linkLabel1.AutoSize = true;
+			linkLabel1.Location = new System.Drawing.Point(710, 92);
+			linkLabel1.Name = "linkLabel1";
+			linkLabel1.Size = new System.Drawing.Size(78, 20);
+			linkLabel1.TabIndex = 45;
+			linkLabel1.TabStop = true;
+			linkLabel1.Text = "Download";
 			// 
 			// extractGameAssets
 			// 
-			this.extractGameAssets.Location = new System.Drawing.Point(595, 88);
-			this.extractGameAssets.Name = "extractGameAssets";
-			this.extractGameAssets.Size = new System.Drawing.Size(95, 28);
-			this.extractGameAssets.TabIndex = 46;
-			this.extractGameAssets.Text = "Extract";
-			this.extractGameAssets.UseVisualStyleBackColor = true;
-			this.extractGameAssets.Click += new System.EventHandler(this.extractGameAssets_Click);
+			extractGameAssets.Location = new System.Drawing.Point(595, 88);
+			extractGameAssets.Name = "extractGameAssets";
+			extractGameAssets.Size = new System.Drawing.Size(95, 28);
+			extractGameAssets.TabIndex = 46;
+			extractGameAssets.Text = "Extract";
+			extractGameAssets.UseVisualStyleBackColor = true;
+			extractGameAssets.Click += extractGameAssets_Click;
 			// 
 			// BrowseForGameAssets
 			// 
-			this.BrowseForGameAssets.Location = new System.Drawing.Point(494, 89);
-			this.BrowseForGameAssets.Name = "BrowseForGameAssets";
-			this.BrowseForGameAssets.Size = new System.Drawing.Size(95, 28);
-			this.BrowseForGameAssets.TabIndex = 47;
-			this.BrowseForGameAssets.Text = "Browse";
-			this.BrowseForGameAssets.UseVisualStyleBackColor = true;
-			this.BrowseForGameAssets.Click += new System.EventHandler(this.BrowseForGameAssets_Click);
+			BrowseForGameAssets.Location = new System.Drawing.Point(494, 89);
+			BrowseForGameAssets.Name = "BrowseForGameAssets";
+			BrowseForGameAssets.Size = new System.Drawing.Size(95, 28);
+			BrowseForGameAssets.TabIndex = 47;
+			BrowseForGameAssets.Text = "Browse";
+			BrowseForGameAssets.UseVisualStyleBackColor = true;
+			BrowseForGameAssets.Click += BrowseForGameAssets_Click;
 			// 
 			// tabControl1
 			// 
-			this.tabControl1.Controls.Add(this.settingGeneral);
-			this.tabControl1.Controls.Add(this.settingHero);
-			this.tabControl1.Controls.Add(this.settingEnemies);
-			this.tabControl1.Controls.Add(this.tabPage1);
-			this.tabControl1.Location = new System.Drawing.Point(12, 133);
-			this.tabControl1.Name = "tabControl1";
-			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(776, 349);
-			this.tabControl1.TabIndex = 50;
+			tabControl1.Controls.Add(settingGeneral);
+			tabControl1.Controls.Add(settingHero);
+			tabControl1.Controls.Add(settingEnemies);
+			tabControl1.Controls.Add(tabPage1);
+			tabControl1.Controls.Add(heroNameTab);
+			tabControl1.Location = new System.Drawing.Point(12, 133);
+			tabControl1.Name = "tabControl1";
+			tabControl1.SelectedIndex = 0;
+			tabControl1.Size = new System.Drawing.Size(776, 394);
+			tabControl1.TabIndex = 50;
 			// 
 			// settingGeneral
 			// 
-			this.settingGeneral.Controls.Add(this.label11);
-			this.settingGeneral.Controls.Add(this.shardsBeforeSirens);
-			this.settingGeneral.Controls.Add(this.requiredShards);
-			this.settingGeneral.Controls.Add(this.label5);
-			this.settingGeneral.Controls.Add(this.removeFGExclusiveItems);
-			this.settingGeneral.Controls.Add(this.removeBonusItems);
-			this.settingGeneral.Controls.Add(this.treasureNoSuper);
-			this.settingGeneral.Controls.Add(this.shopNoSuper);
-			this.settingGeneral.Controls.Add(this.treasureNoJ);
-			this.settingGeneral.Controls.Add(this.shopNoJ);
-			this.settingGeneral.Controls.Add(this.treasureTypes);
-			this.settingGeneral.Controls.Add(this.shopItemTypes);
-			this.settingGeneral.Controls.Add(this.label14);
-			this.settingGeneral.Controls.Add(this.label4);
-			this.settingGeneral.Controls.Add(this.shopBuyPrice);
-			this.settingGeneral.Controls.Add(this.shopItemQty);
-			this.settingGeneral.Controls.Add(this.label13);
-			this.settingGeneral.Controls.Add(this.label12);
-			this.settingGeneral.Location = new System.Drawing.Point(4, 29);
-			this.settingGeneral.Name = "settingGeneral";
-			this.settingGeneral.Padding = new System.Windows.Forms.Padding(3);
-			this.settingGeneral.Size = new System.Drawing.Size(768, 316);
-			this.settingGeneral.TabIndex = 0;
-			this.settingGeneral.Text = "General";
-			this.settingGeneral.UseVisualStyleBackColor = true;
+			settingGeneral.Controls.Add(label11);
+			settingGeneral.Controls.Add(shardsBeforeSirens);
+			settingGeneral.Controls.Add(requiredShards);
+			settingGeneral.Controls.Add(label5);
+			settingGeneral.Controls.Add(removeFGExclusiveItems);
+			settingGeneral.Controls.Add(removeBonusItems);
+			settingGeneral.Controls.Add(treasureNoSuper);
+			settingGeneral.Controls.Add(shopNoSuper);
+			settingGeneral.Controls.Add(treasureNoJ);
+			settingGeneral.Controls.Add(shopNoJ);
+			settingGeneral.Controls.Add(treasureTypes);
+			settingGeneral.Controls.Add(shopItemTypes);
+			settingGeneral.Controls.Add(label14);
+			settingGeneral.Controls.Add(label4);
+			settingGeneral.Controls.Add(shopBuyPrice);
+			settingGeneral.Controls.Add(shopItemQty);
+			settingGeneral.Controls.Add(label13);
+			settingGeneral.Controls.Add(label12);
+			settingGeneral.Location = new System.Drawing.Point(4, 29);
+			settingGeneral.Name = "settingGeneral";
+			settingGeneral.Padding = new System.Windows.Forms.Padding(3);
+			settingGeneral.Size = new System.Drawing.Size(768, 361);
+			settingGeneral.TabIndex = 0;
+			settingGeneral.Text = "General";
+			settingGeneral.UseVisualStyleBackColor = true;
 			// 
 			// label11
 			// 
-			this.label11.AutoSize = true;
-			this.label11.Location = new System.Drawing.Point(10, 193);
-			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(148, 20);
-			this.label11.TabIndex = 69;
-			this.label11.Text = "... Before Siren Usage";
+			label11.AutoSize = true;
+			label11.Location = new System.Drawing.Point(10, 193);
+			label11.Name = "label11";
+			label11.Size = new System.Drawing.Size(148, 20);
+			label11.TabIndex = 69;
+			label11.Text = "... Before Siren Usage";
 			// 
 			// shardsBeforeSirens
 			// 
-			this.shardsBeforeSirens.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.shardsBeforeSirens.FormattingEnabled = true;
-			this.shardsBeforeSirens.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4",
-            "Not Allowed"});
-			this.shardsBeforeSirens.Location = new System.Drawing.Point(160, 190);
-			this.shardsBeforeSirens.Name = "shardsBeforeSirens";
-			this.shardsBeforeSirens.Size = new System.Drawing.Size(148, 28);
-			this.shardsBeforeSirens.TabIndex = 68;
-			this.shardsBeforeSirens.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			shardsBeforeSirens.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			shardsBeforeSirens.FormattingEnabled = true;
+			shardsBeforeSirens.Items.AddRange(new object[] { "0", "1", "2", "3", "4", "Not Allowed" });
+			shardsBeforeSirens.Location = new System.Drawing.Point(160, 190);
+			shardsBeforeSirens.Name = "shardsBeforeSirens";
+			shardsBeforeSirens.Size = new System.Drawing.Size(148, 28);
+			shardsBeforeSirens.TabIndex = 68;
+			shardsBeforeSirens.SelectedIndexChanged += DetermineFlags;
 			// 
 			// requiredShards
 			// 
-			this.requiredShards.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.requiredShards.FormattingEnabled = true;
-			this.requiredShards.Items.AddRange(new object[] {
-            "0",
-            "1",
-            "2",
-            "3",
-            "4"});
-			this.requiredShards.Location = new System.Drawing.Point(160, 156);
-			this.requiredShards.Name = "requiredShards";
-			this.requiredShards.Size = new System.Drawing.Size(67, 28);
-			this.requiredShards.TabIndex = 67;
-			this.requiredShards.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			requiredShards.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			requiredShards.FormattingEnabled = true;
+			requiredShards.Items.AddRange(new object[] { "0", "1", "2", "3", "4" });
+			requiredShards.Location = new System.Drawing.Point(160, 156);
+			requiredShards.Name = "requiredShards";
+			requiredShards.Size = new System.Drawing.Size(67, 28);
+			requiredShards.TabIndex = 67;
+			requiredShards.SelectedIndexChanged += DetermineFlags;
 			// 
 			// label5
 			// 
-			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(11, 159);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(117, 20);
-			this.label5.TabIndex = 66;
-			this.label5.Text = "Required Shards";
+			label5.AutoSize = true;
+			label5.Location = new System.Drawing.Point(11, 159);
+			label5.Name = "label5";
+			label5.Size = new System.Drawing.Size(117, 20);
+			label5.TabIndex = 66;
+			label5.Text = "Required Shards";
 			// 
 			// removeFGExclusiveItems
 			// 
-			this.removeFGExclusiveItems.AutoSize = true;
-			this.removeFGExclusiveItems.Location = new System.Drawing.Point(10, 50);
-			this.removeFGExclusiveItems.Name = "removeFGExclusiveItems";
-			this.removeFGExclusiveItems.Size = new System.Drawing.Size(209, 24);
-			this.removeFGExclusiveItems.TabIndex = 65;
-			this.removeFGExclusiveItems.Text = "Remove FG Exclusive Items";
-			this.removeFGExclusiveItems.UseVisualStyleBackColor = true;
-			this.removeFGExclusiveItems.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			removeFGExclusiveItems.AutoSize = true;
+			removeFGExclusiveItems.Location = new System.Drawing.Point(10, 50);
+			removeFGExclusiveItems.Name = "removeFGExclusiveItems";
+			removeFGExclusiveItems.Size = new System.Drawing.Size(209, 24);
+			removeFGExclusiveItems.TabIndex = 65;
+			removeFGExclusiveItems.Text = "Remove FG Exclusive Items";
+			removeFGExclusiveItems.UseVisualStyleBackColor = true;
+			removeFGExclusiveItems.CheckedChanged += DetermineFlags;
 			// 
 			// removeBonusItems
 			// 
-			this.removeBonusItems.AutoSize = true;
-			this.removeBonusItems.Location = new System.Drawing.Point(10, 19);
-			this.removeBonusItems.Name = "removeBonusItems";
-			this.removeBonusItems.Size = new System.Drawing.Size(211, 24);
-			this.removeBonusItems.TabIndex = 64;
-			this.removeBonusItems.Text = "Remove GBA/Mobile Items";
-			this.removeBonusItems.UseVisualStyleBackColor = true;
-			this.removeBonusItems.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			removeBonusItems.AutoSize = true;
+			removeBonusItems.Location = new System.Drawing.Point(10, 19);
+			removeBonusItems.Name = "removeBonusItems";
+			removeBonusItems.Size = new System.Drawing.Size(211, 24);
+			removeBonusItems.TabIndex = 64;
+			removeBonusItems.Text = "Remove GBA/Mobile Items";
+			removeBonusItems.UseVisualStyleBackColor = true;
+			removeBonusItems.CheckedChanged += DetermineFlags;
 			// 
 			// treasureNoSuper
 			// 
-			this.treasureNoSuper.AutoSize = true;
-			this.treasureNoSuper.Location = new System.Drawing.Point(463, 122);
-			this.treasureNoSuper.Name = "treasureNoSuper";
-			this.treasureNoSuper.Size = new System.Drawing.Size(262, 24);
-			this.treasureNoSuper.TabIndex = 63;
-			this.treasureNoSuper.Text = "No super items (except in trapped)";
-			this.treasureNoSuper.UseVisualStyleBackColor = true;
-			this.treasureNoSuper.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			treasureNoSuper.AutoSize = true;
+			treasureNoSuper.Location = new System.Drawing.Point(463, 122);
+			treasureNoSuper.Name = "treasureNoSuper";
+			treasureNoSuper.Size = new System.Drawing.Size(262, 24);
+			treasureNoSuper.TabIndex = 63;
+			treasureNoSuper.Text = "No super items (except in trapped)";
+			treasureNoSuper.UseVisualStyleBackColor = true;
+			treasureNoSuper.CheckedChanged += DetermineFlags;
 			// 
 			// shopNoSuper
 			// 
-			this.shopNoSuper.AutoSize = true;
-			this.shopNoSuper.Location = new System.Drawing.Point(463, 87);
-			this.shopNoSuper.Name = "shopNoSuper";
-			this.shopNoSuper.Size = new System.Drawing.Size(131, 24);
-			this.shopNoSuper.TabIndex = 62;
-			this.shopNoSuper.Text = "No super items";
-			this.shopNoSuper.UseVisualStyleBackColor = true;
-			this.shopNoSuper.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			shopNoSuper.AutoSize = true;
+			shopNoSuper.Location = new System.Drawing.Point(463, 87);
+			shopNoSuper.Name = "shopNoSuper";
+			shopNoSuper.Size = new System.Drawing.Size(131, 24);
+			shopNoSuper.TabIndex = 62;
+			shopNoSuper.Text = "No super items";
+			shopNoSuper.UseVisualStyleBackColor = true;
+			shopNoSuper.CheckedChanged += DetermineFlags;
 			// 
 			// treasureNoJ
 			// 
-			this.treasureNoJ.AutoSize = true;
-			this.treasureNoJ.Location = new System.Drawing.Point(329, 122);
-			this.treasureNoJ.Name = "treasureNoJ";
-			this.treasureNoJ.Size = new System.Drawing.Size(114, 24);
-			this.treasureNoJ.TabIndex = 61;
-			this.treasureNoJ.Text = "No \"J-items\"";
-			this.treasureNoJ.UseVisualStyleBackColor = true;
-			this.treasureNoJ.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			treasureNoJ.AutoSize = true;
+			treasureNoJ.Location = new System.Drawing.Point(329, 122);
+			treasureNoJ.Name = "treasureNoJ";
+			treasureNoJ.Size = new System.Drawing.Size(114, 24);
+			treasureNoJ.TabIndex = 61;
+			treasureNoJ.Text = "No \"J-items\"";
+			treasureNoJ.UseVisualStyleBackColor = true;
+			treasureNoJ.CheckedChanged += DetermineFlags;
 			// 
 			// shopNoJ
 			// 
-			this.shopNoJ.AutoSize = true;
-			this.shopNoJ.Location = new System.Drawing.Point(329, 87);
-			this.shopNoJ.Name = "shopNoJ";
-			this.shopNoJ.Size = new System.Drawing.Size(114, 24);
-			this.shopNoJ.TabIndex = 60;
-			this.shopNoJ.Text = "No \"J-items\"";
-			this.shopNoJ.UseVisualStyleBackColor = true;
-			this.shopNoJ.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			shopNoJ.AutoSize = true;
+			shopNoJ.Location = new System.Drawing.Point(329, 87);
+			shopNoJ.Name = "shopNoJ";
+			shopNoJ.Size = new System.Drawing.Size(114, 24);
+			shopNoJ.TabIndex = 60;
+			shopNoJ.Text = "No \"J-items\"";
+			shopNoJ.UseVisualStyleBackColor = true;
+			shopNoJ.CheckedChanged += DetermineFlags;
 			// 
 			// treasureTypes
 			// 
-			this.treasureTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.treasureTypes.FormattingEnabled = true;
-			this.treasureTypes.Items.AddRange(new object[] {
-            "Relaxed",
-            "Standard",
-            "Pro",
-            "Wild"});
-			this.treasureTypes.Location = new System.Drawing.Point(160, 120);
-			this.treasureTypes.Name = "treasureTypes";
-			this.treasureTypes.Size = new System.Drawing.Size(148, 28);
-			this.treasureTypes.TabIndex = 59;
-			this.treasureTypes.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			treasureTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			treasureTypes.FormattingEnabled = true;
+			treasureTypes.Items.AddRange(new object[] { "Relaxed", "Standard", "Pro", "Wild" });
+			treasureTypes.Location = new System.Drawing.Point(160, 120);
+			treasureTypes.Name = "treasureTypes";
+			treasureTypes.Size = new System.Drawing.Size(148, 28);
+			treasureTypes.TabIndex = 59;
+			treasureTypes.SelectedIndexChanged += DetermineFlags;
 			// 
 			// shopItemTypes
 			// 
-			this.shopItemTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.shopItemTypes.FormattingEnabled = true;
-			this.shopItemTypes.Items.AddRange(new object[] {
-            "Relaxed",
-            "Standard",
-            "Pro",
-            "Wild"});
-			this.shopItemTypes.Location = new System.Drawing.Point(160, 85);
-			this.shopItemTypes.Name = "shopItemTypes";
-			this.shopItemTypes.Size = new System.Drawing.Size(148, 28);
-			this.shopItemTypes.TabIndex = 58;
-			this.shopItemTypes.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			shopItemTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			shopItemTypes.FormattingEnabled = true;
+			shopItemTypes.Items.AddRange(new object[] { "Relaxed", "Standard", "Pro", "Wild" });
+			shopItemTypes.Location = new System.Drawing.Point(160, 85);
+			shopItemTypes.Name = "shopItemTypes";
+			shopItemTypes.Size = new System.Drawing.Size(148, 28);
+			shopItemTypes.TabIndex = 58;
+			shopItemTypes.SelectedIndexChanged += DetermineFlags;
 			// 
 			// label14
 			// 
-			this.label14.AutoSize = true;
-			this.label14.Location = new System.Drawing.Point(10, 124);
-			this.label14.Name = "label14";
-			this.label14.Size = new System.Drawing.Size(105, 20);
-			this.label14.TabIndex = 57;
-			this.label14.Text = "Treasure Types";
+			label14.AutoSize = true;
+			label14.Location = new System.Drawing.Point(10, 124);
+			label14.Name = "label14";
+			label14.Size = new System.Drawing.Size(105, 20);
+			label14.TabIndex = 57;
+			label14.Text = "Treasure Types";
 			// 
 			// label4
 			// 
-			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(10, 89);
-			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(118, 20);
-			this.label4.TabIndex = 56;
-			this.label4.Text = "Shop Item Types";
+			label4.AutoSize = true;
+			label4.Location = new System.Drawing.Point(10, 89);
+			label4.Name = "label4";
+			label4.Size = new System.Drawing.Size(118, 20);
+			label4.TabIndex = 56;
+			label4.Text = "Shop Item Types";
 			// 
 			// shopBuyPrice
 			// 
-			this.shopBuyPrice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.shopBuyPrice.FormattingEnabled = true;
-			this.shopBuyPrice.Items.AddRange(new object[] {
-            "1 Gold",
-            "Very Cheap",
-            "Cheap",
-            "Normal",
-            "Expensive",
-            "Very Expensive"});
-			this.shopBuyPrice.Location = new System.Drawing.Point(504, 50);
-			this.shopBuyPrice.Name = "shopBuyPrice";
-			this.shopBuyPrice.Size = new System.Drawing.Size(151, 28);
-			this.shopBuyPrice.TabIndex = 54;
-			this.shopBuyPrice.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			shopBuyPrice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			shopBuyPrice.FormattingEnabled = true;
+			shopBuyPrice.Items.AddRange(new object[] { "1 Gold", "Very Cheap", "Cheap", "Normal", "Expensive", "Very Expensive" });
+			shopBuyPrice.Location = new System.Drawing.Point(504, 50);
+			shopBuyPrice.Name = "shopBuyPrice";
+			shopBuyPrice.Size = new System.Drawing.Size(151, 28);
+			shopBuyPrice.TabIndex = 54;
+			shopBuyPrice.SelectedIndexChanged += DetermineFlags;
 			// 
 			// shopItemQty
 			// 
-			this.shopItemQty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.shopItemQty.FormattingEnabled = true;
-			this.shopItemQty.Items.AddRange(new object[] {
-            "Very Sparse",
-            "Sparse",
-            "Normal",
-            "Plentiful",
-            "Very Plentiful"});
-			this.shopItemQty.Location = new System.Drawing.Point(504, 15);
-			this.shopItemQty.Name = "shopItemQty";
-			this.shopItemQty.Size = new System.Drawing.Size(151, 28);
-			this.shopItemQty.TabIndex = 53;
-			this.shopItemQty.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			shopItemQty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			shopItemQty.FormattingEnabled = true;
+			shopItemQty.Items.AddRange(new object[] { "Very Sparse", "Sparse", "Normal", "Plentiful", "Very Plentiful" });
+			shopItemQty.Location = new System.Drawing.Point(504, 15);
+			shopItemQty.Name = "shopItemQty";
+			shopItemQty.Size = new System.Drawing.Size(151, 28);
+			shopItemQty.TabIndex = 53;
+			shopItemQty.SelectedIndexChanged += DetermineFlags;
 			// 
 			// label13
 			// 
-			this.label13.AutoSize = true;
-			this.label13.Location = new System.Drawing.Point(329, 54);
-			this.label13.Name = "label13";
-			this.label13.Size = new System.Drawing.Size(141, 20);
-			this.label13.TabIndex = 52;
-			this.label13.Text = "Shop Purchase Price";
+			label13.AutoSize = true;
+			label13.Location = new System.Drawing.Point(329, 54);
+			label13.Name = "label13";
+			label13.Size = new System.Drawing.Size(141, 20);
+			label13.TabIndex = 52;
+			label13.Text = "Shop Purchase Price";
 			// 
 			// label12
 			// 
-			this.label12.AutoSize = true;
-			this.label12.Location = new System.Drawing.Point(329, 19);
-			this.label12.Name = "label12";
-			this.label12.Size = new System.Drawing.Size(137, 20);
-			this.label12.TabIndex = 51;
-			this.label12.Text = "Shop Item Quantity";
+			label12.AutoSize = true;
+			label12.Location = new System.Drawing.Point(329, 19);
+			label12.Name = "label12";
+			label12.Size = new System.Drawing.Size(137, 20);
+			label12.TabIndex = 51;
+			label12.Text = "Shop Item Quantity";
 			// 
 			// settingHero
 			// 
-			this.settingHero.Controls.Add(this.startingXP);
-			this.settingHero.Controls.Add(this.label18);
-			this.settingHero.Controls.Add(this.exYang);
-			this.settingHero.Controls.Add(this.firstHero);
-			this.settingHero.Controls.Add(this.label16);
-			this.settingHero.Controls.Add(this.exPaladinCecil);
-			this.settingHero.Controls.Add(this.exFusoya);
-			this.settingHero.Controls.Add(this.exRosa);
-			this.settingHero.Controls.Add(this.exPorom);
-			this.settingHero.Controls.Add(this.exCid);
-			this.settingHero.Controls.Add(this.exRydia);
-			this.settingHero.Controls.Add(this.exKain);
-			this.settingHero.Controls.Add(this.exTellah);
-			this.settingHero.Controls.Add(this.exEdward);
-			this.settingHero.Controls.Add(this.exEdge);
-			this.settingHero.Controls.Add(this.exPalom);
-			this.settingHero.Controls.Add(this.exCecil);
-			this.settingHero.Controls.Add(this.numHeroes);
-			this.settingHero.Controls.Add(this.label6);
-			this.settingHero.Controls.Add(this.dupCharactersAllowed);
-			this.settingHero.Location = new System.Drawing.Point(4, 29);
-			this.settingHero.Name = "settingHero";
-			this.settingHero.Padding = new System.Windows.Forms.Padding(3);
-			this.settingHero.Size = new System.Drawing.Size(768, 316);
-			this.settingHero.TabIndex = 1;
-			this.settingHero.Text = "Heroes";
-			this.settingHero.UseVisualStyleBackColor = true;
+			settingHero.Controls.Add(startingXP);
+			settingHero.Controls.Add(label18);
+			settingHero.Controls.Add(exYang);
+			settingHero.Controls.Add(firstHero);
+			settingHero.Controls.Add(label16);
+			settingHero.Controls.Add(exPaladinCecil);
+			settingHero.Controls.Add(exFusoya);
+			settingHero.Controls.Add(exRosa);
+			settingHero.Controls.Add(exPorom);
+			settingHero.Controls.Add(exCid);
+			settingHero.Controls.Add(exRydia);
+			settingHero.Controls.Add(exKain);
+			settingHero.Controls.Add(exTellah);
+			settingHero.Controls.Add(exEdward);
+			settingHero.Controls.Add(exEdge);
+			settingHero.Controls.Add(exPalom);
+			settingHero.Controls.Add(exCecil);
+			settingHero.Controls.Add(numHeroes);
+			settingHero.Controls.Add(label6);
+			settingHero.Controls.Add(dupCharactersAllowed);
+			settingHero.Location = new System.Drawing.Point(4, 29);
+			settingHero.Name = "settingHero";
+			settingHero.Padding = new System.Windows.Forms.Padding(3);
+			settingHero.Size = new System.Drawing.Size(768, 361);
+			settingHero.TabIndex = 1;
+			settingHero.Text = "Heroes";
+			settingHero.UseVisualStyleBackColor = true;
 			// 
 			// startingXP
 			// 
-			this.startingXP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.startingXP.FormattingEnabled = true;
-			this.startingXP.Items.AddRange(new object[] {
-            "Normal",
-            "Level 1",
-            "1/2 Normal",
-            "2x Normal",
-            "3x Normal",
-            "4x Normal",
-            "5x Normal",
-            "10x Normal"});
-			this.startingXP.Location = new System.Drawing.Point(122, 49);
-			this.startingXP.Name = "startingXP";
-			this.startingXP.Size = new System.Drawing.Size(148, 28);
-			this.startingXP.TabIndex = 75;
-			this.startingXP.SelectedValueChanged += new System.EventHandler(this.DetermineFlags);
+			startingXP.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			startingXP.FormattingEnabled = true;
+			startingXP.Items.AddRange(new object[] { "Normal", "Level 1", "1/2 Normal", "2x Normal", "3x Normal", "4x Normal", "5x Normal", "10x Normal" });
+			startingXP.Location = new System.Drawing.Point(122, 49);
+			startingXP.Name = "startingXP";
+			startingXP.Size = new System.Drawing.Size(148, 28);
+			startingXP.TabIndex = 75;
+			startingXP.SelectedValueChanged += DetermineFlags;
 			// 
 			// label18
 			// 
-			this.label18.AutoSize = true;
-			this.label18.Location = new System.Drawing.Point(6, 52);
-			this.label18.Name = "label18";
-			this.label18.Size = new System.Drawing.Size(82, 20);
-			this.label18.TabIndex = 74;
-			this.label18.Text = "Starting XP";
+			label18.AutoSize = true;
+			label18.Location = new System.Drawing.Point(6, 52);
+			label18.Name = "label18";
+			label18.Size = new System.Drawing.Size(82, 20);
+			label18.TabIndex = 74;
+			label18.Text = "Starting XP";
 			// 
 			// exYang
 			// 
-			this.exYang.AutoSize = true;
-			this.exYang.Location = new System.Drawing.Point(199, 153);
-			this.exYang.Name = "exYang";
-			this.exYang.Size = new System.Drawing.Size(118, 24);
-			this.exYang.TabIndex = 73;
-			this.exYang.Text = "Exclude Yang";
-			this.exYang.UseVisualStyleBackColor = true;
-			this.exYang.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exYang.AutoSize = true;
+			exYang.Location = new System.Drawing.Point(199, 153);
+			exYang.Name = "exYang";
+			exYang.Size = new System.Drawing.Size(118, 24);
+			exYang.TabIndex = 73;
+			exYang.Text = "Exclude Yang";
+			exYang.UseVisualStyleBackColor = true;
+			exYang.CheckedChanged += DetermineFlags;
 			// 
 			// firstHero
 			// 
-			this.firstHero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.firstHero.FormattingEnabled = true;
-			this.firstHero.Items.AddRange(new object[] {
-            "No Pref.",
-            "Dark Knight Cecil",
-            "Kain",
-            "Rosa",
-            "Rydia",
-            "Cid",
-            "Tellah",
-            "Edward",
-            "Yang",
-            "Palom",
-            "Porom",
-            "Edge",
-            "Fusoya",
-            "Paladin Cecil"});
-			this.firstHero.Location = new System.Drawing.Point(412, 13);
-			this.firstHero.Name = "firstHero";
-			this.firstHero.Size = new System.Drawing.Size(148, 28);
-			this.firstHero.TabIndex = 72;
-			this.firstHero.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			firstHero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			firstHero.FormattingEnabled = true;
+			firstHero.Items.AddRange(new object[] { "No Pref.", "Dark Knight Cecil", "Kain", "Rosa", "Rydia", "Cid", "Tellah", "Edward", "Yang", "Palom", "Porom", "Edge", "Fusoya", "Paladin Cecil" });
+			firstHero.Location = new System.Drawing.Point(412, 13);
+			firstHero.Name = "firstHero";
+			firstHero.Size = new System.Drawing.Size(148, 28);
+			firstHero.TabIndex = 72;
+			firstHero.SelectedIndexChanged += DetermineFlags;
 			// 
 			// label16
 			// 
-			this.label16.AutoSize = true;
-			this.label16.Location = new System.Drawing.Point(310, 16);
-			this.label16.Name = "label16";
-			this.label16.Size = new System.Drawing.Size(73, 20);
-			this.label16.TabIndex = 71;
-			this.label16.Text = "First Hero";
+			label16.AutoSize = true;
+			label16.Location = new System.Drawing.Point(310, 16);
+			label16.Name = "label16";
+			label16.Size = new System.Drawing.Size(73, 20);
+			label16.TabIndex = 71;
+			label16.Text = "First Hero";
 			// 
 			// exPaladinCecil
 			// 
-			this.exPaladinCecil.AutoSize = true;
-			this.exPaladinCecil.Location = new System.Drawing.Point(6, 211);
-			this.exPaladinCecil.Name = "exPaladinCecil";
-			this.exPaladinCecil.Size = new System.Drawing.Size(170, 24);
-			this.exPaladinCecil.TabIndex = 69;
-			this.exPaladinCecil.Text = "Exclude Paladin Cecil";
-			this.exPaladinCecil.UseVisualStyleBackColor = true;
-			this.exPaladinCecil.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exPaladinCecil.AutoSize = true;
+			exPaladinCecil.Location = new System.Drawing.Point(6, 211);
+			exPaladinCecil.Name = "exPaladinCecil";
+			exPaladinCecil.Size = new System.Drawing.Size(170, 24);
+			exPaladinCecil.TabIndex = 69;
+			exPaladinCecil.Text = "Exclude Paladin Cecil";
+			exPaladinCecil.UseVisualStyleBackColor = true;
+			exPaladinCecil.CheckedChanged += DetermineFlags;
 			// 
 			// exFusoya
 			// 
-			this.exFusoya.AutoSize = true;
-			this.exFusoya.Location = new System.Drawing.Point(410, 183);
-			this.exFusoya.Name = "exFusoya";
-			this.exFusoya.Size = new System.Drawing.Size(131, 24);
-			this.exFusoya.TabIndex = 68;
-			this.exFusoya.Text = "Exclude Fusoya";
-			this.exFusoya.UseVisualStyleBackColor = true;
-			this.exFusoya.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exFusoya.AutoSize = true;
+			exFusoya.Location = new System.Drawing.Point(410, 183);
+			exFusoya.Name = "exFusoya";
+			exFusoya.Size = new System.Drawing.Size(131, 24);
+			exFusoya.TabIndex = 68;
+			exFusoya.Text = "Exclude Fusoya";
+			exFusoya.UseVisualStyleBackColor = true;
+			exFusoya.CheckedChanged += DetermineFlags;
 			// 
 			// exRosa
 			// 
-			this.exRosa.AutoSize = true;
-			this.exRosa.Location = new System.Drawing.Point(199, 123);
-			this.exRosa.Name = "exRosa";
-			this.exRosa.Size = new System.Drawing.Size(118, 24);
-			this.exRosa.TabIndex = 67;
-			this.exRosa.Text = "Exclude Rosa";
-			this.exRosa.UseVisualStyleBackColor = true;
-			this.exRosa.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exRosa.AutoSize = true;
+			exRosa.Location = new System.Drawing.Point(199, 123);
+			exRosa.Name = "exRosa";
+			exRosa.Size = new System.Drawing.Size(118, 24);
+			exRosa.TabIndex = 67;
+			exRosa.Text = "Exclude Rosa";
+			exRosa.UseVisualStyleBackColor = true;
+			exRosa.CheckedChanged += DetermineFlags;
 			// 
 			// exPorom
 			// 
-			this.exPorom.AutoSize = true;
-			this.exPorom.Location = new System.Drawing.Point(410, 121);
-			this.exPorom.Name = "exPorom";
-			this.exPorom.Size = new System.Drawing.Size(129, 24);
-			this.exPorom.TabIndex = 66;
-			this.exPorom.Text = "Exclude Porom";
-			this.exPorom.UseVisualStyleBackColor = true;
-			this.exPorom.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exPorom.AutoSize = true;
+			exPorom.Location = new System.Drawing.Point(410, 121);
+			exPorom.Name = "exPorom";
+			exPorom.Size = new System.Drawing.Size(129, 24);
+			exPorom.TabIndex = 66;
+			exPorom.Text = "Exclude Porom";
+			exPorom.UseVisualStyleBackColor = true;
+			exPorom.CheckedChanged += DetermineFlags;
 			// 
 			// exCid
 			// 
-			this.exCid.AutoSize = true;
-			this.exCid.Location = new System.Drawing.Point(199, 183);
-			this.exCid.Name = "exCid";
-			this.exCid.Size = new System.Drawing.Size(108, 24);
-			this.exCid.TabIndex = 65;
-			this.exCid.Text = "Exclude Cid";
-			this.exCid.UseVisualStyleBackColor = true;
-			this.exCid.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exCid.AutoSize = true;
+			exCid.Location = new System.Drawing.Point(199, 183);
+			exCid.Name = "exCid";
+			exCid.Size = new System.Drawing.Size(108, 24);
+			exCid.TabIndex = 65;
+			exCid.Text = "Exclude Cid";
+			exCid.UseVisualStyleBackColor = true;
+			exCid.CheckedChanged += DetermineFlags;
 			// 
 			// exRydia
 			// 
-			this.exRydia.AutoSize = true;
-			this.exRydia.Location = new System.Drawing.Point(6, 181);
-			this.exRydia.Name = "exRydia";
-			this.exRydia.Size = new System.Drawing.Size(123, 24);
-			this.exRydia.TabIndex = 64;
-			this.exRydia.Text = "Exclude Rydia";
-			this.exRydia.UseVisualStyleBackColor = true;
-			this.exRydia.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exRydia.AutoSize = true;
+			exRydia.Location = new System.Drawing.Point(6, 181);
+			exRydia.Name = "exRydia";
+			exRydia.Size = new System.Drawing.Size(123, 24);
+			exRydia.TabIndex = 64;
+			exRydia.Text = "Exclude Rydia";
+			exRydia.UseVisualStyleBackColor = true;
+			exRydia.CheckedChanged += DetermineFlags;
 			// 
 			// exKain
 			// 
-			this.exKain.AutoSize = true;
-			this.exKain.Location = new System.Drawing.Point(6, 121);
-			this.exKain.Name = "exKain";
-			this.exKain.Size = new System.Drawing.Size(115, 24);
-			this.exKain.TabIndex = 63;
-			this.exKain.Text = "Exclude Kain";
-			this.exKain.UseVisualStyleBackColor = true;
-			this.exKain.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exKain.AutoSize = true;
+			exKain.Location = new System.Drawing.Point(6, 121);
+			exKain.Name = "exKain";
+			exKain.Size = new System.Drawing.Size(115, 24);
+			exKain.TabIndex = 63;
+			exKain.Text = "Exclude Kain";
+			exKain.UseVisualStyleBackColor = true;
+			exKain.CheckedChanged += DetermineFlags;
 			// 
 			// exTellah
 			// 
-			this.exTellah.AutoSize = true;
-			this.exTellah.Location = new System.Drawing.Point(6, 151);
-			this.exTellah.Name = "exTellah";
-			this.exTellah.Size = new System.Drawing.Size(125, 24);
-			this.exTellah.TabIndex = 62;
-			this.exTellah.Text = "Exclude Tellah";
-			this.exTellah.UseVisualStyleBackColor = true;
-			this.exTellah.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exTellah.AutoSize = true;
+			exTellah.Location = new System.Drawing.Point(6, 151);
+			exTellah.Name = "exTellah";
+			exTellah.Size = new System.Drawing.Size(125, 24);
+			exTellah.TabIndex = 62;
+			exTellah.Text = "Exclude Tellah";
+			exTellah.UseVisualStyleBackColor = true;
+			exTellah.CheckedChanged += DetermineFlags;
 			// 
 			// exEdward
 			// 
-			this.exEdward.AutoSize = true;
-			this.exEdward.Location = new System.Drawing.Point(199, 93);
-			this.exEdward.Name = "exEdward";
-			this.exEdward.Size = new System.Drawing.Size(136, 24);
-			this.exEdward.TabIndex = 61;
-			this.exEdward.Text = "Exclude Edward";
-			this.exEdward.UseVisualStyleBackColor = true;
-			this.exEdward.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exEdward.AutoSize = true;
+			exEdward.Location = new System.Drawing.Point(199, 93);
+			exEdward.Name = "exEdward";
+			exEdward.Size = new System.Drawing.Size(136, 24);
+			exEdward.TabIndex = 61;
+			exEdward.Text = "Exclude Edward";
+			exEdward.UseVisualStyleBackColor = true;
+			exEdward.CheckedChanged += DetermineFlags;
 			// 
 			// exEdge
 			// 
-			this.exEdge.AutoSize = true;
-			this.exEdge.Location = new System.Drawing.Point(410, 151);
-			this.exEdge.Name = "exEdge";
-			this.exEdge.Size = new System.Drawing.Size(120, 24);
-			this.exEdge.TabIndex = 60;
-			this.exEdge.Text = "Exclude Edge";
-			this.exEdge.UseVisualStyleBackColor = true;
-			this.exEdge.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exEdge.AutoSize = true;
+			exEdge.Location = new System.Drawing.Point(410, 151);
+			exEdge.Name = "exEdge";
+			exEdge.Size = new System.Drawing.Size(120, 24);
+			exEdge.TabIndex = 60;
+			exEdge.Text = "Exclude Edge";
+			exEdge.UseVisualStyleBackColor = true;
+			exEdge.CheckedChanged += DetermineFlags;
 			// 
 			// exPalom
 			// 
-			this.exPalom.AutoSize = true;
-			this.exPalom.Location = new System.Drawing.Point(410, 93);
-			this.exPalom.Name = "exPalom";
-			this.exPalom.Size = new System.Drawing.Size(127, 24);
-			this.exPalom.TabIndex = 59;
-			this.exPalom.Text = "Exclude Palom";
-			this.exPalom.UseVisualStyleBackColor = true;
-			this.exPalom.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exPalom.AutoSize = true;
+			exPalom.Location = new System.Drawing.Point(410, 93);
+			exPalom.Name = "exPalom";
+			exPalom.Size = new System.Drawing.Size(127, 24);
+			exPalom.TabIndex = 59;
+			exPalom.Text = "Exclude Palom";
+			exPalom.UseVisualStyleBackColor = true;
+			exPalom.CheckedChanged += DetermineFlags;
 			// 
 			// exCecil
 			// 
-			this.exCecil.AutoSize = true;
-			this.exCecil.Location = new System.Drawing.Point(6, 93);
-			this.exCecil.Name = "exCecil";
-			this.exCecil.Size = new System.Drawing.Size(187, 24);
-			this.exCecil.TabIndex = 58;
-			this.exCecil.Text = "Exclude Dk Knight Cecil";
-			this.exCecil.UseVisualStyleBackColor = true;
-			this.exCecil.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			exCecil.AutoSize = true;
+			exCecil.Location = new System.Drawing.Point(6, 93);
+			exCecil.Name = "exCecil";
+			exCecil.Size = new System.Drawing.Size(187, 24);
+			exCecil.TabIndex = 58;
+			exCecil.Text = "Exclude Dk Knight Cecil";
+			exCecil.UseVisualStyleBackColor = true;
+			exCecil.CheckedChanged += DetermineFlags;
 			// 
 			// numHeroes
 			// 
-			this.numHeroes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.numHeroes.FormattingEnabled = true;
-			this.numHeroes.Items.AddRange(new object[] {
-            "5",
-            "4",
-            "3",
-            "2",
-            "1"});
-			this.numHeroes.Location = new System.Drawing.Point(122, 13);
-			this.numHeroes.Name = "numHeroes";
-			this.numHeroes.Size = new System.Drawing.Size(148, 28);
-			this.numHeroes.TabIndex = 57;
-			this.numHeroes.Visible = false;
-			this.numHeroes.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			numHeroes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			numHeroes.FormattingEnabled = true;
+			numHeroes.Items.AddRange(new object[] { "5", "4", "3", "2", "1" });
+			numHeroes.Location = new System.Drawing.Point(122, 13);
+			numHeroes.Name = "numHeroes";
+			numHeroes.Size = new System.Drawing.Size(148, 28);
+			numHeroes.TabIndex = 57;
+			numHeroes.Visible = false;
+			numHeroes.SelectedIndexChanged += DetermineFlags;
 			// 
 			// label6
 			// 
-			this.label6.AutoSize = true;
-			this.label6.Location = new System.Drawing.Point(6, 16);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(87, 20);
-			this.label6.TabIndex = 56;
-			this.label6.Text = "# of Heroes";
-			this.label6.Visible = false;
+			label6.AutoSize = true;
+			label6.Location = new System.Drawing.Point(6, 16);
+			label6.Name = "label6";
+			label6.Size = new System.Drawing.Size(87, 20);
+			label6.TabIndex = 56;
+			label6.Text = "# of Heroes";
+			label6.Visible = false;
 			// 
 			// dupCharactersAllowed
 			// 
-			this.dupCharactersAllowed.AutoSize = true;
-			this.dupCharactersAllowed.Location = new System.Drawing.Point(316, 53);
-			this.dupCharactersAllowed.Name = "dupCharactersAllowed";
-			this.dupCharactersAllowed.Size = new System.Drawing.Size(223, 24);
-			this.dupCharactersAllowed.TabIndex = 49;
-			this.dupCharactersAllowed.Text = "Duplicate characters allowed";
-			this.dupCharactersAllowed.UseVisualStyleBackColor = true;
-			this.dupCharactersAllowed.CheckedChanged += new System.EventHandler(this.DetermineFlags);
+			dupCharactersAllowed.AutoSize = true;
+			dupCharactersAllowed.Location = new System.Drawing.Point(316, 53);
+			dupCharactersAllowed.Name = "dupCharactersAllowed";
+			dupCharactersAllowed.Size = new System.Drawing.Size(223, 24);
+			dupCharactersAllowed.TabIndex = 49;
+			dupCharactersAllowed.Text = "Duplicate characters allowed";
+			dupCharactersAllowed.UseVisualStyleBackColor = true;
+			dupCharactersAllowed.CheckedChanged += DetermineFlags;
 			// 
 			// settingEnemies
 			// 
-			this.settingEnemies.Controls.Add(this.zeromusDifficulty);
-			this.settingEnemies.Controls.Add(this.label10);
-			this.settingEnemies.Controls.Add(this.label17);
-			this.settingEnemies.Controls.Add(this.encounterRate);
-			this.settingEnemies.Controls.Add(this.gpMultiplier);
-			this.settingEnemies.Controls.Add(this.xpMultiplier);
-			this.settingEnemies.Controls.Add(this.monsterDifficulty);
-			this.settingEnemies.Controls.Add(this.label9);
-			this.settingEnemies.Controls.Add(this.label8);
-			this.settingEnemies.Controls.Add(this.label7);
-			this.settingEnemies.Location = new System.Drawing.Point(4, 29);
-			this.settingEnemies.Name = "settingEnemies";
-			this.settingEnemies.Size = new System.Drawing.Size(768, 316);
-			this.settingEnemies.TabIndex = 2;
-			this.settingEnemies.Text = "Enemies";
-			this.settingEnemies.UseVisualStyleBackColor = true;
+			settingEnemies.Controls.Add(zFalcon);
+			settingEnemies.Controls.Add(zOrdeals);
+			settingEnemies.Controls.Add(zeromusDifficulty);
+			settingEnemies.Controls.Add(label10);
+			settingEnemies.Controls.Add(label17);
+			settingEnemies.Controls.Add(encounterRate);
+			settingEnemies.Controls.Add(gpMultiplier);
+			settingEnemies.Controls.Add(xpMultiplier);
+			settingEnemies.Controls.Add(monsterDifficulty);
+			settingEnemies.Controls.Add(label9);
+			settingEnemies.Controls.Add(label8);
+			settingEnemies.Controls.Add(label7);
+			settingEnemies.Location = new System.Drawing.Point(4, 29);
+			settingEnemies.Name = "settingEnemies";
+			settingEnemies.Size = new System.Drawing.Size(768, 361);
+			settingEnemies.TabIndex = 2;
+			settingEnemies.Text = "Enemies";
+			settingEnemies.UseVisualStyleBackColor = true;
+			// 
+			// zFalcon
+			// 
+			zFalcon.AutoSize = true;
+			zFalcon.Location = new System.Drawing.Point(469, 47);
+			zFalcon.Name = "zFalcon";
+			zFalcon.Size = new System.Drawing.Size(104, 24);
+			zFalcon.TabIndex = 52;
+			zFalcon.Text = "Z @ Falcon";
+			zFalcon.UseVisualStyleBackColor = true;
+			zFalcon.CheckedChanged += DetermineFlags;
+			// 
+			// zOrdeals
+			// 
+			zOrdeals.AutoSize = true;
+			zOrdeals.Location = new System.Drawing.Point(333, 47);
+			zOrdeals.Name = "zOrdeals";
+			zOrdeals.Size = new System.Drawing.Size(113, 24);
+			zOrdeals.TabIndex = 51;
+			zOrdeals.Text = "Z @ Ordeals";
+			zOrdeals.UseVisualStyleBackColor = true;
+			zOrdeals.CheckedChanged += DetermineFlags;
 			// 
 			// zeromusDifficulty
 			// 
-			this.zeromusDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.zeromusDifficulty.FormattingEnabled = true;
-			this.zeromusDifficulty.Items.AddRange(new object[] {
-            "Very Easy",
-            "Easy",
-            "Normal",
-            "Hard",
-            "Very Hard"});
-			this.zeromusDifficulty.Location = new System.Drawing.Point(153, 47);
-			this.zeromusDifficulty.Name = "zeromusDifficulty";
-			this.zeromusDifficulty.Size = new System.Drawing.Size(148, 28);
-			this.zeromusDifficulty.TabIndex = 50;
-			this.zeromusDifficulty.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			zeromusDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			zeromusDifficulty.FormattingEnabled = true;
+			zeromusDifficulty.Items.AddRange(new object[] { "Very Easy", "Easy", "Normal", "Hard", "Very Hard" });
+			zeromusDifficulty.Location = new System.Drawing.Point(153, 47);
+			zeromusDifficulty.Name = "zeromusDifficulty";
+			zeromusDifficulty.Size = new System.Drawing.Size(148, 28);
+			zeromusDifficulty.TabIndex = 50;
+			zeromusDifficulty.SelectedIndexChanged += DetermineFlags;
 			// 
 			// label10
 			// 
-			this.label10.AutoSize = true;
-			this.label10.Location = new System.Drawing.Point(3, 51);
-			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(131, 20);
-			this.label10.TabIndex = 49;
-			this.label10.Text = "Zeromus Difficulty";
+			label10.AutoSize = true;
+			label10.Location = new System.Drawing.Point(3, 51);
+			label10.Name = "label10";
+			label10.Size = new System.Drawing.Size(131, 20);
+			label10.TabIndex = 49;
+			label10.Text = "Zeromus Difficulty";
 			// 
 			// label17
 			// 
-			this.label17.AutoSize = true;
-			this.label17.Location = new System.Drawing.Point(3, 153);
-			this.label17.Name = "label17";
-			this.label17.Size = new System.Drawing.Size(109, 20);
-			this.label17.TabIndex = 48;
-			this.label17.Text = "Encounter Rate";
+			label17.AutoSize = true;
+			label17.Location = new System.Drawing.Point(3, 153);
+			label17.Name = "label17";
+			label17.Size = new System.Drawing.Size(109, 20);
+			label17.TabIndex = 48;
+			label17.Text = "Encounter Rate";
 			// 
 			// encounterRate
 			// 
-			this.encounterRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.encounterRate.FormattingEnabled = true;
-			this.encounterRate.Items.AddRange(new object[] {
-            "2x",
-            "1.5x",
-            "1.0x",
-            "0.75x",
-            "0.5x",
-            "0.25x",
-            "0.125x",
-            "1/10000"});
-			this.encounterRate.Location = new System.Drawing.Point(153, 149);
-			this.encounterRate.Name = "encounterRate";
-			this.encounterRate.Size = new System.Drawing.Size(148, 28);
-			this.encounterRate.TabIndex = 47;
-			this.encounterRate.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			encounterRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			encounterRate.FormattingEnabled = true;
+			encounterRate.Items.AddRange(new object[] { "2x", "1.5x", "1.0x", "0.75x", "0.5x", "0.25x", "0.125x", "1/10000" });
+			encounterRate.Location = new System.Drawing.Point(153, 149);
+			encounterRate.Name = "encounterRate";
+			encounterRate.Size = new System.Drawing.Size(148, 28);
+			encounterRate.TabIndex = 47;
+			encounterRate.SelectedIndexChanged += DetermineFlags;
 			// 
 			// gpMultiplier
 			// 
-			this.gpMultiplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.gpMultiplier.FormattingEnabled = true;
-			this.gpMultiplier.Items.AddRange(new object[] {
-            "1x",
-            "1.5x",
-            "2x",
-            "2.5x",
-            "3x",
-            "4x",
-            "5x",
-            "10x"});
-			this.gpMultiplier.Location = new System.Drawing.Point(153, 115);
-			this.gpMultiplier.Name = "gpMultiplier";
-			this.gpMultiplier.Size = new System.Drawing.Size(148, 28);
-			this.gpMultiplier.TabIndex = 42;
-			this.gpMultiplier.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			gpMultiplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			gpMultiplier.FormattingEnabled = true;
+			gpMultiplier.Items.AddRange(new object[] { "1x", "1.5x", "2x", "2.5x", "3x", "4x", "5x", "10x" });
+			gpMultiplier.Location = new System.Drawing.Point(153, 115);
+			gpMultiplier.Name = "gpMultiplier";
+			gpMultiplier.Size = new System.Drawing.Size(148, 28);
+			gpMultiplier.TabIndex = 42;
+			gpMultiplier.SelectedIndexChanged += DetermineFlags;
 			// 
 			// xpMultiplier
 			// 
-			this.xpMultiplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.xpMultiplier.FormattingEnabled = true;
-			this.xpMultiplier.Items.AddRange(new object[] {
-            "1x",
-            "1.5x",
-            "2x",
-            "2.5x",
-            "3x",
-            "4x",
-            "5x",
-            "10x"});
-			this.xpMultiplier.Location = new System.Drawing.Point(153, 82);
-			this.xpMultiplier.Name = "xpMultiplier";
-			this.xpMultiplier.Size = new System.Drawing.Size(148, 28);
-			this.xpMultiplier.TabIndex = 41;
-			this.xpMultiplier.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			xpMultiplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			xpMultiplier.FormattingEnabled = true;
+			xpMultiplier.Items.AddRange(new object[] { "1x", "1.5x", "2x", "2.5x", "3x", "4x", "5x", "10x" });
+			xpMultiplier.Location = new System.Drawing.Point(153, 82);
+			xpMultiplier.Name = "xpMultiplier";
+			xpMultiplier.Size = new System.Drawing.Size(148, 28);
+			xpMultiplier.TabIndex = 41;
+			xpMultiplier.SelectedIndexChanged += DetermineFlags;
 			// 
 			// monsterDifficulty
 			// 
-			this.monsterDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.monsterDifficulty.FormattingEnabled = true;
-			this.monsterDifficulty.Items.AddRange(new object[] {
-            "Easy",
-            "Normal",
-            "Hard",
-            "Very Hard"});
-			this.monsterDifficulty.Location = new System.Drawing.Point(153, 14);
-			this.monsterDifficulty.Name = "monsterDifficulty";
-			this.monsterDifficulty.Size = new System.Drawing.Size(148, 28);
-			this.monsterDifficulty.TabIndex = 40;
-			this.monsterDifficulty.SelectedIndexChanged += new System.EventHandler(this.DetermineFlags);
+			monsterDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			monsterDifficulty.FormattingEnabled = true;
+			monsterDifficulty.Items.AddRange(new object[] { "Easy", "Normal", "Hard", "Very Hard" });
+			monsterDifficulty.Location = new System.Drawing.Point(153, 14);
+			monsterDifficulty.Name = "monsterDifficulty";
+			monsterDifficulty.Size = new System.Drawing.Size(148, 28);
+			monsterDifficulty.TabIndex = 40;
+			monsterDifficulty.SelectedIndexChanged += DetermineFlags;
 			// 
 			// label9
 			// 
-			this.label9.AutoSize = true;
-			this.label9.Location = new System.Drawing.Point(3, 119);
-			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(95, 20);
-			this.label9.TabIndex = 37;
-			this.label9.Text = "GP Multiplier";
+			label9.AutoSize = true;
+			label9.Location = new System.Drawing.Point(3, 119);
+			label9.Name = "label9";
+			label9.Size = new System.Drawing.Size(95, 20);
+			label9.TabIndex = 37;
+			label9.Text = "GP Multiplier";
 			// 
 			// label8
 			// 
-			this.label8.AutoSize = true;
-			this.label8.Location = new System.Drawing.Point(3, 86);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(94, 20);
-			this.label8.TabIndex = 36;
-			this.label8.Text = "XP Multiplier";
+			label8.AutoSize = true;
+			label8.Location = new System.Drawing.Point(3, 86);
+			label8.Name = "label8";
+			label8.Size = new System.Drawing.Size(94, 20);
+			label8.TabIndex = 36;
+			label8.Text = "XP Multiplier";
 			// 
 			// label7
 			// 
-			this.label7.AutoSize = true;
-			this.label7.Location = new System.Drawing.Point(3, 18);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(127, 20);
-			this.label7.TabIndex = 34;
-			this.label7.Text = "Monster Difficulty";
+			label7.AutoSize = true;
+			label7.Location = new System.Drawing.Point(3, 18);
+			label7.Name = "label7";
+			label7.Size = new System.Drawing.Size(127, 20);
+			label7.TabIndex = 34;
+			label7.Text = "Monster Difficulty";
 			// 
 			// tabPage1
 			// 
-			this.tabPage1.Controls.Add(this.flagCustom5Text);
-			this.tabPage1.Controls.Add(this.flagCustom4Text);
-			this.tabPage1.Controls.Add(this.flagCustom3Text);
-			this.tabPage1.Controls.Add(this.flagCustom2Text);
-			this.tabPage1.Controls.Add(this.flagCustom1Text);
-			this.tabPage1.Controls.Add(this.flagCustom5);
-			this.tabPage1.Controls.Add(this.flagCustom4);
-			this.tabPage1.Controls.Add(this.flagCustom3);
-			this.tabPage1.Controls.Add(this.flagCustom2);
-			this.tabPage1.Controls.Add(this.flagCustom1);
-			this.tabPage1.Controls.Add(this.flagDefault);
-			this.tabPage1.Location = new System.Drawing.Point(4, 29);
-			this.tabPage1.Name = "tabPage1";
-			this.tabPage1.Size = new System.Drawing.Size(768, 316);
-			this.tabPage1.TabIndex = 3;
-			this.tabPage1.Text = "Defaults";
-			this.tabPage1.UseVisualStyleBackColor = true;
+			tabPage1.Controls.Add(flagCustom5Text);
+			tabPage1.Controls.Add(flagCustom4Text);
+			tabPage1.Controls.Add(flagCustom3Text);
+			tabPage1.Controls.Add(flagCustom2Text);
+			tabPage1.Controls.Add(flagCustom1Text);
+			tabPage1.Controls.Add(flagCustom5);
+			tabPage1.Controls.Add(flagCustom4);
+			tabPage1.Controls.Add(flagCustom3);
+			tabPage1.Controls.Add(flagCustom2);
+			tabPage1.Controls.Add(flagCustom1);
+			tabPage1.Controls.Add(flagDefault);
+			tabPage1.Location = new System.Drawing.Point(4, 29);
+			tabPage1.Name = "tabPage1";
+			tabPage1.Size = new System.Drawing.Size(768, 361);
+			tabPage1.TabIndex = 3;
+			tabPage1.Text = "Defaults";
+			tabPage1.UseVisualStyleBackColor = true;
 			// 
 			// flagCustom5Text
 			// 
-			this.flagCustom5Text.Location = new System.Drawing.Point(138, 274);
-			this.flagCustom5Text.Name = "flagCustom5Text";
-			this.flagCustom5Text.Size = new System.Drawing.Size(176, 27);
-			this.flagCustom5Text.TabIndex = 10;
+			flagCustom5Text.Location = new System.Drawing.Point(138, 274);
+			flagCustom5Text.Name = "flagCustom5Text";
+			flagCustom5Text.Size = new System.Drawing.Size(176, 27);
+			flagCustom5Text.TabIndex = 10;
 			// 
 			// flagCustom4Text
 			// 
-			this.flagCustom4Text.Location = new System.Drawing.Point(138, 240);
-			this.flagCustom4Text.Name = "flagCustom4Text";
-			this.flagCustom4Text.Size = new System.Drawing.Size(176, 27);
-			this.flagCustom4Text.TabIndex = 9;
+			flagCustom4Text.Location = new System.Drawing.Point(138, 240);
+			flagCustom4Text.Name = "flagCustom4Text";
+			flagCustom4Text.Size = new System.Drawing.Size(176, 27);
+			flagCustom4Text.TabIndex = 9;
 			// 
 			// flagCustom3Text
 			// 
-			this.flagCustom3Text.Location = new System.Drawing.Point(138, 204);
-			this.flagCustom3Text.Name = "flagCustom3Text";
-			this.flagCustom3Text.Size = new System.Drawing.Size(176, 27);
-			this.flagCustom3Text.TabIndex = 8;
+			flagCustom3Text.Location = new System.Drawing.Point(138, 204);
+			flagCustom3Text.Name = "flagCustom3Text";
+			flagCustom3Text.Size = new System.Drawing.Size(176, 27);
+			flagCustom3Text.TabIndex = 8;
 			// 
 			// flagCustom2Text
 			// 
-			this.flagCustom2Text.Location = new System.Drawing.Point(138, 167);
-			this.flagCustom2Text.Name = "flagCustom2Text";
-			this.flagCustom2Text.Size = new System.Drawing.Size(176, 27);
-			this.flagCustom2Text.TabIndex = 7;
+			flagCustom2Text.Location = new System.Drawing.Point(138, 167);
+			flagCustom2Text.Name = "flagCustom2Text";
+			flagCustom2Text.Size = new System.Drawing.Size(176, 27);
+			flagCustom2Text.TabIndex = 7;
 			// 
 			// flagCustom1Text
 			// 
-			this.flagCustom1Text.Location = new System.Drawing.Point(138, 134);
-			this.flagCustom1Text.Name = "flagCustom1Text";
-			this.flagCustom1Text.Size = new System.Drawing.Size(176, 27);
-			this.flagCustom1Text.TabIndex = 6;
+			flagCustom1Text.Location = new System.Drawing.Point(138, 134);
+			flagCustom1Text.Name = "flagCustom1Text";
+			flagCustom1Text.Size = new System.Drawing.Size(176, 27);
+			flagCustom1Text.TabIndex = 6;
 			// 
 			// flagCustom5
 			// 
-			this.flagCustom5.Location = new System.Drawing.Point(22, 274);
-			this.flagCustom5.Name = "flagCustom5";
-			this.flagCustom5.Size = new System.Drawing.Size(94, 29);
-			this.flagCustom5.TabIndex = 5;
-			this.flagCustom5.Text = "Custom 5";
-			this.flagCustom5.UseVisualStyleBackColor = true;
+			flagCustom5.Location = new System.Drawing.Point(22, 274);
+			flagCustom5.Name = "flagCustom5";
+			flagCustom5.Size = new System.Drawing.Size(94, 29);
+			flagCustom5.TabIndex = 5;
+			flagCustom5.Text = "Custom 5";
+			flagCustom5.UseVisualStyleBackColor = true;
 			// 
 			// flagCustom4
 			// 
-			this.flagCustom4.Location = new System.Drawing.Point(22, 239);
-			this.flagCustom4.Name = "flagCustom4";
-			this.flagCustom4.Size = new System.Drawing.Size(94, 29);
-			this.flagCustom4.TabIndex = 4;
-			this.flagCustom4.Text = "Custom 4";
-			this.flagCustom4.UseVisualStyleBackColor = true;
+			flagCustom4.Location = new System.Drawing.Point(22, 239);
+			flagCustom4.Name = "flagCustom4";
+			flagCustom4.Size = new System.Drawing.Size(94, 29);
+			flagCustom4.TabIndex = 4;
+			flagCustom4.Text = "Custom 4";
+			flagCustom4.UseVisualStyleBackColor = true;
 			// 
 			// flagCustom3
 			// 
-			this.flagCustom3.Location = new System.Drawing.Point(22, 204);
-			this.flagCustom3.Name = "flagCustom3";
-			this.flagCustom3.Size = new System.Drawing.Size(94, 29);
-			this.flagCustom3.TabIndex = 3;
-			this.flagCustom3.Text = "Custom 3";
-			this.flagCustom3.UseVisualStyleBackColor = true;
+			flagCustom3.Location = new System.Drawing.Point(22, 204);
+			flagCustom3.Name = "flagCustom3";
+			flagCustom3.Size = new System.Drawing.Size(94, 29);
+			flagCustom3.TabIndex = 3;
+			flagCustom3.Text = "Custom 3";
+			flagCustom3.UseVisualStyleBackColor = true;
 			// 
 			// flagCustom2
 			// 
-			this.flagCustom2.Location = new System.Drawing.Point(22, 169);
-			this.flagCustom2.Name = "flagCustom2";
-			this.flagCustom2.Size = new System.Drawing.Size(94, 29);
-			this.flagCustom2.TabIndex = 2;
-			this.flagCustom2.Text = "Custom 2";
-			this.flagCustom2.UseVisualStyleBackColor = true;
+			flagCustom2.Location = new System.Drawing.Point(22, 169);
+			flagCustom2.Name = "flagCustom2";
+			flagCustom2.Size = new System.Drawing.Size(94, 29);
+			flagCustom2.TabIndex = 2;
+			flagCustom2.Text = "Custom 2";
+			flagCustom2.UseVisualStyleBackColor = true;
 			// 
 			// flagCustom1
 			// 
-			this.flagCustom1.Location = new System.Drawing.Point(22, 134);
-			this.flagCustom1.Name = "flagCustom1";
-			this.flagCustom1.Size = new System.Drawing.Size(94, 29);
-			this.flagCustom1.TabIndex = 1;
-			this.flagCustom1.Text = "Custom 1";
-			this.flagCustom1.UseVisualStyleBackColor = true;
+			flagCustom1.Location = new System.Drawing.Point(22, 134);
+			flagCustom1.Name = "flagCustom1";
+			flagCustom1.Size = new System.Drawing.Size(94, 29);
+			flagCustom1.TabIndex = 1;
+			flagCustom1.Text = "Custom 1";
+			flagCustom1.UseVisualStyleBackColor = true;
 			// 
 			// flagDefault
 			// 
-			this.flagDefault.Location = new System.Drawing.Point(22, 15);
-			this.flagDefault.Name = "flagDefault";
-			this.flagDefault.Size = new System.Drawing.Size(94, 29);
-			this.flagDefault.TabIndex = 0;
-			this.flagDefault.Text = "Default";
-			this.flagDefault.UseVisualStyleBackColor = true;
-			this.flagDefault.Click += new System.EventHandler(this.flagDefault_Click);
+			flagDefault.Location = new System.Drawing.Point(22, 15);
+			flagDefault.Name = "flagDefault";
+			flagDefault.Size = new System.Drawing.Size(94, 29);
+			flagDefault.TabIndex = 0;
+			flagDefault.Text = "Default";
+			flagDefault.UseVisualStyleBackColor = true;
+			flagDefault.Click += flagDefault_Click;
+			// 
+			// heroNameTab
+			// 
+			heroNameTab.Controls.Add(label30);
+			heroNameTab.Controls.Add(label29);
+			heroNameTab.Controls.Add(label28);
+			heroNameTab.Controls.Add(label27);
+			heroNameTab.Controls.Add(label26);
+			heroNameTab.Controls.Add(label25);
+			heroNameTab.Controls.Add(label24);
+			heroNameTab.Controls.Add(label23);
+			heroNameTab.Controls.Add(label22);
+			heroNameTab.Controls.Add(label21);
+			heroNameTab.Controls.Add(label20);
+			heroNameTab.Controls.Add(label19);
+			heroNameTab.Location = new System.Drawing.Point(4, 29);
+			heroNameTab.Name = "heroNameTab";
+			heroNameTab.Padding = new System.Windows.Forms.Padding(3);
+			heroNameTab.Size = new System.Drawing.Size(768, 361);
+			heroNameTab.TabIndex = 4;
+			heroNameTab.Text = "Names";
+			heroNameTab.UseVisualStyleBackColor = true;
+			// 
+			// label30
+			// 
+			label30.AutoSize = true;
+			label30.Location = new System.Drawing.Point(6, 322);
+			label30.Name = "label30";
+			label30.Size = new System.Drawing.Size(54, 20);
+			label30.TabIndex = 11;
+			label30.Text = "Fusoya";
+			// 
+			// label29
+			// 
+			label29.AutoSize = true;
+			label29.Location = new System.Drawing.Point(6, 294);
+			label29.Name = "label29";
+			label29.Size = new System.Drawing.Size(43, 20);
+			label29.TabIndex = 10;
+			label29.Text = "Edge";
+			// 
+			// label28
+			// 
+			label28.AutoSize = true;
+			label28.Location = new System.Drawing.Point(6, 266);
+			label28.Name = "label28";
+			label28.Size = new System.Drawing.Size(52, 20);
+			label28.TabIndex = 9;
+			label28.Text = "Porom";
+			// 
+			// label27
+			// 
+			label27.AutoSize = true;
+			label27.Location = new System.Drawing.Point(6, 238);
+			label27.Name = "label27";
+			label27.Size = new System.Drawing.Size(50, 20);
+			label27.TabIndex = 8;
+			label27.Text = "Palom";
+			// 
+			// label26
+			// 
+			label26.AutoSize = true;
+			label26.Location = new System.Drawing.Point(6, 210);
+			label26.Name = "label26";
+			label26.Size = new System.Drawing.Size(41, 20);
+			label26.TabIndex = 7;
+			label26.Text = "Yang";
+			// 
+			// label25
+			// 
+			label25.AutoSize = true;
+			label25.Location = new System.Drawing.Point(6, 182);
+			label25.Name = "label25";
+			label25.Size = new System.Drawing.Size(59, 20);
+			label25.TabIndex = 6;
+			label25.Text = "Edward";
+			// 
+			// label24
+			// 
+			label24.AutoSize = true;
+			label24.Location = new System.Drawing.Point(6, 154);
+			label24.Name = "label24";
+			label24.Size = new System.Drawing.Size(48, 20);
+			label24.TabIndex = 5;
+			label24.Text = "Tellah";
+			// 
+			// label23
+			// 
+			label23.AutoSize = true;
+			label23.Location = new System.Drawing.Point(6, 126);
+			label23.Name = "label23";
+			label23.Size = new System.Drawing.Size(31, 20);
+			label23.TabIndex = 4;
+			label23.Text = "Cid";
+			// 
+			// label22
+			// 
+			label22.AutoSize = true;
+			label22.Location = new System.Drawing.Point(6, 98);
+			label22.Name = "label22";
+			label22.Size = new System.Drawing.Size(46, 20);
+			label22.TabIndex = 3;
+			label22.Text = "Rydia";
+			// 
+			// label21
+			// 
+			label21.AutoSize = true;
+			label21.Location = new System.Drawing.Point(6, 70);
+			label21.Name = "label21";
+			label21.Size = new System.Drawing.Size(41, 20);
+			label21.TabIndex = 2;
+			label21.Text = "Rosa";
+			// 
+			// label20
+			// 
+			label20.AutoSize = true;
+			label20.Location = new System.Drawing.Point(6, 42);
+			label20.Name = "label20";
+			label20.Size = new System.Drawing.Size(38, 20);
+			label20.TabIndex = 1;
+			label20.Text = "Kain";
+			// 
+			// label19
+			// 
+			label19.AutoSize = true;
+			label19.Location = new System.Drawing.Point(6, 14);
+			label19.Name = "label19";
+			label19.Size = new System.Drawing.Size(41, 20);
+			label19.TabIndex = 0;
+			label19.Text = "Cecil";
 			// 
 			// FF4FalconDive
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(812, 566);
-			this.Controls.Add(this.tabControl1);
-			this.Controls.Add(this.BrowseForGameAssets);
-			this.Controls.Add(this.extractGameAssets);
-			this.Controls.Add(this.linkLabel1);
-			this.Controls.Add(this.gameAssetsFile);
-			this.Controls.Add(this.label15);
-			this.Controls.Add(this.button1);
-			this.Controls.Add(this.BrowseForFolder);
-			this.Controls.Add(this.NewSeed);
-			this.Controls.Add(this.RandoSeed);
-			this.Controls.Add(this.label3);
-			this.Controls.Add(this.NewChecksum);
-			this.Controls.Add(this.RandoFlags);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.FF4PRFolder);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.Randomize);
-			this.Name = "FF4FalconDive";
-			this.Text = "Final Fantasy 4: Falcon Dive";
-			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FF4FabulGauntlet_FormClosing);
-			this.Load += new System.EventHandler(this.FF4FabulGauntlet_Load);
-			this.tabControl1.ResumeLayout(false);
-			this.settingGeneral.ResumeLayout(false);
-			this.settingGeneral.PerformLayout();
-			this.settingHero.ResumeLayout(false);
-			this.settingHero.PerformLayout();
-			this.settingEnemies.ResumeLayout(false);
-			this.settingEnemies.PerformLayout();
-			this.tabPage1.ResumeLayout(false);
-			this.tabPage1.PerformLayout();
-			this.ResumeLayout(false);
-			this.PerformLayout();
-
+			AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			ClientSize = new System.Drawing.Size(812, 616);
+			Controls.Add(tabControl1);
+			Controls.Add(BrowseForGameAssets);
+			Controls.Add(extractGameAssets);
+			Controls.Add(linkLabel1);
+			Controls.Add(gameAssetsFile);
+			Controls.Add(label15);
+			Controls.Add(button1);
+			Controls.Add(BrowseForFolder);
+			Controls.Add(NewSeed);
+			Controls.Add(RandoSeed);
+			Controls.Add(label3);
+			Controls.Add(NewChecksum);
+			Controls.Add(RandoFlags);
+			Controls.Add(label2);
+			Controls.Add(FF4PRFolder);
+			Controls.Add(label1);
+			Controls.Add(Randomize);
+			Name = "FF4FalconDive";
+			Text = "Final Fantasy 4: Falcon Dive";
+			FormClosing += FF4FabulGauntlet_FormClosing;
+			Load += FF4FabulGauntlet_Load;
+			tabControl1.ResumeLayout(false);
+			settingGeneral.ResumeLayout(false);
+			settingGeneral.PerformLayout();
+			settingHero.ResumeLayout(false);
+			settingHero.PerformLayout();
+			settingEnemies.ResumeLayout(false);
+			settingEnemies.PerformLayout();
+			tabPage1.ResumeLayout(false);
+			tabPage1.PerformLayout();
+			heroNameTab.ResumeLayout(false);
+			heroNameTab.PerformLayout();
+			ResumeLayout(false);
+			PerformLayout();
 		}
 
 		#endregion
@@ -1111,51 +1193,51 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.LinkLabel linkLabel1;
 		private System.Windows.Forms.Button extractGameAssets;
 		private System.Windows.Forms.Button BrowseForGameAssets;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage settingGeneral;
-        private System.Windows.Forms.CheckBox removeBonusItems;
-        private System.Windows.Forms.CheckBox treasureNoSuper;
-        private System.Windows.Forms.CheckBox shopNoSuper;
-        private System.Windows.Forms.CheckBox treasureNoJ;
-        private System.Windows.Forms.CheckBox shopNoJ;
-        private System.Windows.Forms.ComboBox treasureTypes;
-        private System.Windows.Forms.ComboBox shopItemTypes;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox shopBuyPrice;
-        private System.Windows.Forms.ComboBox shopItemQty;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TabPage settingHero;
-        private System.Windows.Forms.CheckBox dupCharactersAllowed;
-        private System.Windows.Forms.TabPage settingEnemies;
-        private System.Windows.Forms.ComboBox gpMultiplier;
-        private System.Windows.Forms.ComboBox xpMultiplier;
-        private System.Windows.Forms.ComboBox monsterDifficulty;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox exPaladinCecil;
-        private System.Windows.Forms.CheckBox exFusoya;
-        private System.Windows.Forms.CheckBox exRosa;
-        private System.Windows.Forms.CheckBox exPorom;
-        private System.Windows.Forms.CheckBox exCid;
-        private System.Windows.Forms.CheckBox exRydia;
-        private System.Windows.Forms.CheckBox exKain;
-        private System.Windows.Forms.CheckBox exTellah;
-        private System.Windows.Forms.CheckBox exEdward;
-        private System.Windows.Forms.CheckBox exEdge;
-        private System.Windows.Forms.CheckBox exPalom;
-        private System.Windows.Forms.CheckBox exCecil;
-        private System.Windows.Forms.ComboBox numHeroes;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox firstHero;
-        private System.Windows.Forms.Label label16;
+		private System.Windows.Forms.TabControl tabControl1;
+		private System.Windows.Forms.TabPage settingGeneral;
+		private System.Windows.Forms.CheckBox removeBonusItems;
+		private System.Windows.Forms.CheckBox treasureNoSuper;
+		private System.Windows.Forms.CheckBox shopNoSuper;
+		private System.Windows.Forms.CheckBox treasureNoJ;
+		private System.Windows.Forms.CheckBox shopNoJ;
+		private System.Windows.Forms.ComboBox treasureTypes;
+		private System.Windows.Forms.ComboBox shopItemTypes;
+		private System.Windows.Forms.Label label14;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.ComboBox shopBuyPrice;
+		private System.Windows.Forms.ComboBox shopItemQty;
+		private System.Windows.Forms.Label label13;
+		private System.Windows.Forms.Label label12;
+		private System.Windows.Forms.TabPage settingHero;
+		private System.Windows.Forms.CheckBox dupCharactersAllowed;
+		private System.Windows.Forms.TabPage settingEnemies;
+		private System.Windows.Forms.ComboBox gpMultiplier;
+		private System.Windows.Forms.ComboBox xpMultiplier;
+		private System.Windows.Forms.ComboBox monsterDifficulty;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Label label8;
+		private System.Windows.Forms.Label label7;
+		private System.Windows.Forms.CheckBox exPaladinCecil;
+		private System.Windows.Forms.CheckBox exFusoya;
+		private System.Windows.Forms.CheckBox exRosa;
+		private System.Windows.Forms.CheckBox exPorom;
+		private System.Windows.Forms.CheckBox exCid;
+		private System.Windows.Forms.CheckBox exRydia;
+		private System.Windows.Forms.CheckBox exKain;
+		private System.Windows.Forms.CheckBox exTellah;
+		private System.Windows.Forms.CheckBox exEdward;
+		private System.Windows.Forms.CheckBox exEdge;
+		private System.Windows.Forms.CheckBox exPalom;
+		private System.Windows.Forms.CheckBox exCecil;
+		private System.Windows.Forms.ComboBox numHeroes;
+		private System.Windows.Forms.Label label6;
+		private System.Windows.Forms.ComboBox firstHero;
+		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.ToolTip hpAdjustTooltip;
-        private System.Windows.Forms.CheckBox exYang;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.ComboBox encounterRate;
-        private System.Windows.Forms.CheckBox removeFGExclusiveItems;
+		private System.Windows.Forms.CheckBox exYang;
+		private System.Windows.Forms.Label label17;
+		private System.Windows.Forms.ComboBox encounterRate;
+		private System.Windows.Forms.CheckBox removeFGExclusiveItems;
 		private System.Windows.Forms.ComboBox requiredShards;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.ComboBox zeromusDifficulty;
@@ -1176,6 +1258,21 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.Button flagCustom2;
 		private System.Windows.Forms.Button flagCustom1;
 		private System.Windows.Forms.Button flagDefault;
+		private System.Windows.Forms.TabPage heroNameTab;
+		private System.Windows.Forms.Label label30;
+		private System.Windows.Forms.Label label29;
+		private System.Windows.Forms.Label label28;
+		private System.Windows.Forms.Label label27;
+		private System.Windows.Forms.Label label26;
+		private System.Windows.Forms.Label label25;
+		private System.Windows.Forms.Label label24;
+		private System.Windows.Forms.Label label23;
+		private System.Windows.Forms.Label label22;
+		private System.Windows.Forms.Label label21;
+		private System.Windows.Forms.Label label20;
+		private System.Windows.Forms.Label label19;
+		private System.Windows.Forms.CheckBox zFalcon;
+		private System.Windows.Forms.CheckBox zOrdeals;
 	}
 }
 

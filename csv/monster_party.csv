@@ -1,5 +1,5 @@
 id,battle_background_asset_id,battle_bgm_asset_id,appearance_production,script_name,battle_pattern1,battle_pattern2,battle_pattern3,battle_pattern4,battle_pattern5,battle_pattern6,not_escape,battle_flag_group_id,get_value,get_ap,monster1,monster1_x_position,monster1_y_position,monster1_group,monster2,monster2_x_position,monster2_y_position,monster2_group,monster3,monster3_x_position,monster3_y_position,monster3_group,monster4,monster4_x_position,monster4_y_position,monster4_group,monster5,monster5_x_position,monster5_y_position,monster5_group,monster6,monster6_x_position,monster6_y_position,monster6_group,monster7,monster7_x_position,monster7_y_position,monster7_group,monster8,monster8_x_position,monster8_y_position,monster8_group,monster9,monster9_x_position,monster9_y_position,monster9_group
-1,1,7,1,0,1,1,0,0,1,1,0,0,0,0,1,25,0,1,1,20,0,1,1,15,0,1,1,15,0,1,1,10,0,1,1,5,0,1,1,10,0,1,1,5,0,1,1,0,0,1
+1,1,7,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,1,1,15,-10,1,0,0,0,1,0,0,0,1,1,15,20,1,0,0,0,1,0,0,0,1,1,5,5,1,0,0,0,1
 2,1,7,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,4,40,15,1,0,0,0,1,0,0,0,1,4,15,-10,1,0,0,0,1
 3,1,7,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,1,3,20,15,1,0,0,0,1,3,30,25,1,0,0,0,1,0,0,0,1,4,10,0,1,0,0,0,1
 4,1,7,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,1,3,40,10,1,0,0,0,1,0,0,0,1,3,20,-5,1,0,0,0,1,0,0,0,1,3,8,30,1,0,0,0,1

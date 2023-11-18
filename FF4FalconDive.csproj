@@ -16,6 +16,7 @@
 	<None Update="csv/**" CopyToOutputDirectory="PreserveNewest" />
 	<None Update="Data/**" CopyToOutputDirectory="PreserveNewest" />
 	<None Update="Res/**" CopyToOutputDirectory="PreserveNewest" />
+	<None Update="AltScenarios/**" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>

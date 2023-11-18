@@ -35,7 +35,7 @@
 						{
 							"name": "asset_id",
 							"type": "int",
-							"value": 121
+							"value": 131
 						},
 						{
 							"name": "birdview_puppet",
@@ -147,8 +147,8 @@
 					"type": "",
 					"visible": true,
 					"width": 16,
-					"x": 112,
-					"y": 208
+					"x": -16,
+					"y": 192
 				},
 				{
 					"gid": 1024,
@@ -179,7 +179,7 @@
 						{
 							"name": "asset_id",
 							"type": "int",
-							"value": 121
+							"value": 131
 						},
 						{
 							"name": "birdview_puppet",
@@ -291,7 +291,7 @@
 					"type": "",
 					"visible": true,
 					"width": 16,
-					"x": 112,
+					"x": -16,
 					"y": 240
 				},
 				{
@@ -323,7 +323,7 @@
 						{
 							"name": "asset_id",
 							"type": "int",
-							"value": 121
+							"value": 131
 						},
 						{
 							"name": "birdview_puppet",
@@ -435,7 +435,7 @@
 					"type": "",
 					"visible": true,
 					"width": 16,
-					"x": 176,
+					"x": 304,
 					"y": 208
 				},
 				{
@@ -467,7 +467,7 @@
 						{
 							"name": "asset_id",
 							"type": "int",
-							"value": 121
+							"value": 131
 						},
 						{
 							"name": "birdview_puppet",
@@ -579,8 +579,8 @@
 					"type": "",
 					"visible": true,
 					"width": 16,
-					"x": 176,
-					"y": 240
+					"x": 304,
+					"y": 224
 				},
 				{
 					"gid": 1024,

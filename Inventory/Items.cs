@@ -90,18 +90,19 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int decoy = 56; // t3
 		public const int lightCurtain = 57; // t6
 		public const int lunarCurtain = 58; // t8
+		public const int megalixer = 869; // t8
 
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { potion, phoenixDown, maidensKiss, mallet, dietFood, echoHerbs, eyeDrops, antidote,
 					bombFragment, antarcticWind, zeusWrath, bestiary },
-			  new List<int> { phoenixDown, bellOfSilence },
-			  new List<int> { hiPotion, goldNeedle, ether, cross, alarmClock, tent, bombCore, lilithKiss, spiderSilk, decoy },
-			  new List<int> { bombArm, arcticWind, rageOfTheGods, vampireFang, bacchusCider, hermesShoes, emergencyExit },
+			  new List<int> { vampireFang, goldNeedle, bellOfSilence },
+			  new List<int> { hiPotion, ether, cross, alarmClock, tent, bombCore, lilithKiss, spiderSilk, decoy },
+			  new List<int> { bombArm, arcticWind, rageOfTheGods, bacchusCider, hermesShoes, emergencyExit },
 			  new List<int> { remedy, unicornHorn, redFang, whiteFang, stardust, blueFang },
 			  new List<int> { xPotion, dryEther, cottage, coeurlWhisker, lightCurtain, hourglass, gaiaDrum },
 			  new List<int> { xPotion, silverApple, somaDrop, silverHourglass },
 			  new List<int> { elixer, goldenApple, goldenHourglass, lunarCurtain },
-			  new List<int> { elixer, goldenApple, goldenHourglass, lunarCurtain }
+			  new List<int> { megalixer, elixer, goldenApple, goldenHourglass, lunarCurtain }
 		};
 
 		List<int> jItems = new List<int>
@@ -109,7 +110,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			maidensKiss, mallet, dietFood, echoHerbs, eyeDrops, antidote, bombFragment, antarcticWind, zeusWrath, bestiary, bellOfSilence,
 				cross, alarmClock, bombCore, lilithKiss, spiderSilk, decoy, bombArm, arcticWind, rageOfTheGods, gaiaDrum, stardust,
 			vampireFang, bacchusCider, hermesShoes, unicornHorn, redFang, whiteFang, blueFang, hourglass, coeurlWhisker, lightCurtain,
-			silverApple, somaDrop, silverHourglass, goldenApple, goldenHourglass, lunarCurtain, emergencyExit
+			silverApple, somaDrop, silverHourglass, goldenApple, goldenHourglass, lunarCurtain, emergencyExit, megalixer
 		};
 
 		public void adjustPrices(string directory, int multiplier, int divisor)

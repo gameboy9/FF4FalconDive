@@ -163,6 +163,11 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int safetyMet = 862; // t9
 		public const int erdrickArmor = 863; // t8
 		public const int silverShield = 864; // t8
+		public const int reflectRing = 868; // t7
+		public const int platinumRobe = 870; // t8
+		public const int swiftHat = 871; // t8
+		public const int focusShield = 872; // t9
+		public const int glowRing = 873; // t9
 
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { ironShield, darkShield, leatherCap, ironHelm, clothes, prisonerCloth, leatherGarb, bardTunic, ironArmor, darkArmor, rubyRing, ironGloves, darkGloves, ironArmlet },
@@ -172,17 +177,17 @@ namespace FF4FreeEnterprisePR.Inventory
 			  new List<int> { flameShield, iceShield, mythrilHelm, flameMail, iceArmor, runeArmlet, diamondGloves },
 			  new List<int> { diamondShield, sageMiter, blackCowl, lightHelm, goldHairpin, blackBeltGi, powerSash, diamondArmor, diamondArmlet },
 			  new List<int> { aegisShield, genjiShield, dragonShield, diamondHelm, genjiHelm, dragonHelm, whiteRobe, minervaBustier, genjiArmor,
-				dragonMail, blackGarb, gauntlets, genjiGloves, dragonGloves, giantGloves, crystalRing, redJacket, chocoboShield, hypnocrown, catearHood, whiteTigerMask },
-			  new List<int> { crystalShield, ribbon, crystalHelm, glassMask, crystalMail, crystalGloves, protectRing, grandArmor, dragoonPlate, braveSuit, chocoboSuit, tabbySuit, redCap, erdrickArmor, silverShield },
+				dragonMail, blackGarb, gauntlets, genjiGloves, dragonGloves, giantGloves, crystalRing, redJacket, chocoboShield, hypnocrown, catearHood, whiteTigerMask, reflectRing },
+			  new List<int> { crystalShield, ribbon, crystalHelm, glassMask, crystalMail, crystalGloves, protectRing, grandArmor, dragoonPlate, braveSuit, chocoboSuit, tabbySuit, redCap, erdrickArmor, silverShield, platinumRobe, swiftHat },
 			  new List<int> { adamantArmor, caesarsPlate, maximiillian, battleGear, assassinVest, vishnuVest, sageRobe, robeOfLords, rainbowRobe, whiteDress, heroShield, 
-				  rabbitearHood, augustineTiara, starOfKamiKazari, royalCrown, dualMask, demonHat, philosopherHat, grandHelm, caesarHelm, dragonHelm, safetyMet, edgeDemonHelm }
+				  rabbitearHood, augustineTiara, starOfKamiKazari, royalCrown, dualMask, demonHat, philosopherHat, grandHelm, caesarHelm, dragonHelm, safetyMet, edgeDemonHelm, focusShield, glowRing }
 		};
 
 		public List<int> bonusArmor = new List<int> { grandArmor, dragoonPlate, caesarsPlate, maximiillian, redJacket, braveSuit, chocoboSuit, tabbySuit, battleGear, assassinVest, vishnuVest, 
 			sageRobe, robeOfLords, rainbowRobe, whiteDress, heroShield, chocoboShield, hypnocrown, catearHood, whiteTigerMask, redCap, rabbitearHood, augustineTiara, starOfKamiKazari, royalCrown, 
-			dualMask, demonHat, philosopherHat, grandHelm, caesarHelm, dragoonHelm, edgeDemonHelm, safetyMet, erdrickArmor, silverShield };
+			dualMask, demonHat, philosopherHat, grandHelm, caesarHelm, dragoonHelm, edgeDemonHelm, safetyMet, erdrickArmor, silverShield, reflectRing, platinumRobe, swiftHat, focusShield, glowRing };
 
-		public List<int> fgExclusiveArmor = new List<int> { erdrickArmor, silverShield };
+		public List<int> fgExclusiveArmor = new List<int> { erdrickArmor, silverShield, reflectRing, platinumRobe, swiftHat, focusShield, glowRing };
 
 		public List<int> dkCecilOnly = new List<int> { darkHelm, hadesHelm, demonHelm, darkShield, demonShield, darkArmor, hadesArmor, demonArmor, darkGloves, hadesGloves, demonGloves };
 		public List<int> pallyCecilOnly = new List<int> { knightArmor, crystalMail, caesarsPlate, lightShield, crystalShield, lightHelm, crystalHelm, caesarHelm, gauntlets, crystalGloves };
@@ -195,6 +200,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public List<int> palomOnly = new List<int> { chocoboSuit, sageRobe, hypnocrown, demonHat };
 		public List<int> poromOnly = new List<int> { tabbySuit, robeOfLords, catearHood, philosopherHat };
 		public List<int> edgeOnly = new List<int> { assassinVest, edgeDemonHelm, blackGarb };
+		public List<int> tellahOnly = new List<int> { platinumRobe, swiftHat, focusShield, glowRing };
 		public List<int> cecilKainCid = new List<int> { ironArmor, mythrilArmor, flameMail, iceArmor, diamondArmor, dragonMail, ironShield, mythrilShield, flameShield, iceShield, diamondShield, 
 			aegisShield, genjiShield, dragonShield, ironHelm, mythrilHelm, diamondHelm, dragonHelm, diamondGloves, dragonGloves };
 		public List<int> cecilKainCidEdge = new List<int> { genjiArmor, ironGloves, mythrilGloves, genjiGloves, giantGloves, genjiHelm };
@@ -261,6 +267,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			if (!party.Contains(palom)) selection = selection.Where(c => !palomOnly.Contains(c)).ToList();
 			if (!party.Contains(porom)) selection = selection.Where(c => !poromOnly.Contains(c)).ToList();
 			if (!party.Contains(edge)) selection = selection.Where(c => !edgeOnly.Contains(c)).ToList();
+			if (!party.Contains(tellah)) selection = selection.Where(c => !tellahOnly.Contains(c)).ToList();
 			if (!party.Contains(cecil) && !party.Contains(kain) && !party.Contains(cid)) selection = selection.Where(c => !cecilKainCid.Contains(c)).ToList();
 			if (!party.Contains(edge) && !party.Contains(kain) && !party.Contains(cid) && !party.Contains(edge)) selection = selection.Where(c => !cecilKainCidEdge.Contains(c)).ToList();
 			if (!party.Contains(rydia) && !party.Contains(rosa) && !party.Contains(porom)) selection = selection.Where(c => !rydiaRosaPorom.Contains(c)).ToList();

@@ -154,11 +154,16 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	// Note:  Regular monsters should be reformed with boss bit = 1
 		//};
 
-		public static void establishBosses(string directory, string dataDirectory, Random r1)
+		public static void establishBosses(string directory, string dataDirectory, Random r1, bool zAtOrdeals)
 		{
 			List<List<int>> pairings = new List<List<int>>();
 			List<int> validLocations = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37 };
 			List<int> validBosses = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37 };
+
+			// In case we load the same entity file twice...
+			bool boss1213 = false;
+			bool boss2021 = false;
+			bool boss2425 = false;
 
 			// Debug
 			//bool firstLocation = true;
@@ -198,6 +203,8 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				singleMonster monster;
 				singleGroup monsterParty = new singleGroup();
+				List<int> monsterSprites = new List<int>();
+
 				switch (pairing[1])
 				{
 					case 0: // Mist Dragon
@@ -205,6 +212,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 223).ToList()[0];
+						monsterSprites.Add(229);
 						break;
 					case 1: // Soldiers / Baron Captain
 						monster = allMonsters.Where(c => c.id == 31).Single();
@@ -213,18 +221,24 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 10, 18);
 
 						monsterParty = groups.Where(c => c.id == 238).Single();
+						monsterSprites.Add(17);
+						monsterSprites.Add(21);
+						monsterSprites.Add(21);
+						monsterSprites.Add(21);
 						break;
 					case 2: // Octomammoth
 						monster = allMonsters.Where(c => c.id == 163).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 224).Single();
+						monsterSprites.Add(116);
 						break;
 					case 3: // Antlion
 						monster = allMonsters.Where(c => c.id == 164).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 225).Single();
+						monsterSprites.Add(120);
 						break;
 					case 4:
 						// Mom Bomb is worth 100% experience...
@@ -250,6 +264,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						monsterParty.monster3 = 301;
 						monsterParty.monster8 = 301;
 						monsterParty = groups.Where(c => c.id == 226).Single();
+						monsterSprites.Add(107);
 						break;
 					case 5:
 						// Fabul Gauntlet; curate monster battles based on the location.
@@ -258,6 +273,7 @@ namespace FF4FreeEnterprisePR.Randomize
 							groups = FabulGauntlet(pairing[0], groups, r1, currentReward.bossBattleBackground, currentReward.bossbgm, currentReward.battleFlagGroupID);
 						else
 							groups = FabulGauntlet(pairing[0], groups, r1, 1, 12, 13);
+						monsterSprites.Add(86);
 						break;
 					case 6: // Milon
 						monster = allMonsters.Where(c => c.id == 166).Single();
@@ -266,18 +282,21 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 5, 0);
 
 						monsterParty = groups.Where(c => c.id == 227).Single();
+						monsterSprites.Add(91);
 						break;
 					case 7: // Milon Z
 						monster = allMonsters.Where(c => c.id == 167).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 228).Single();
+						monsterSprites.Add(91);
 						break;
 					case 8: // DK Cecil
 						monster = allMonsters.Where(c => c.id == 206).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 247).Single();
+						monsterSprites.Add(227);
 						break;
 					case 9: // 2 guards
 						// Do not allow Summoners or Security Eyes to appear in early boss spots
@@ -301,12 +320,14 @@ namespace FF4FreeEnterprisePR.Randomize
 						monsterParty = groups.Where(c => c.id == 251).Single();
 						monsterParty.monster3 = 303;
 						monsterParty.monster4 = 303;
+						monsterSprites.Add(17);
 						break;
 					case 10: // Yang
 						monster = allMonsters.Where(c => c.id == 205).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 243).Single();
+						monsterSprites.Add(233);
 						break;
 					case 11: // Baigan
 						monster = allMonsters.Where(c => c.id == 168).Single();
@@ -317,6 +338,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 5, 0);
 
 						monsterParty = groups.Where(c => c.id == 229).Single();
+						monsterSprites.Add(18);
 						break;
 					case 12: // Cagnazzo
 						monster = allMonsters.Where(c => c.id == 171).Single();
@@ -324,6 +346,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustCagnazzo(bossStats[pairing[0]][1], directory); // Change Turtle Defense HP
 
 						monsterParty = groups.Where(c => c.id == 230).Single();
+						monsterSprites.Add(109);
 						break;
 					case 13: // Dark Dragon
 						monster = allMonsters.Where(c => c.id == 196).Single();
@@ -331,6 +354,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 						// Draw from the Dark Dragon monster party, not the weakened Dark Elf monster party.
 						monsterParty = groups.Where(c => c.id == 599).Single();
+						monsterSprites.Add(111);
 						break;
 					case 14: // Magus Sisters
 						monster = allMonsters.Where(c => c.id == 174).Single();
@@ -341,12 +365,16 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 26, 33);
 
 						monsterParty = groups.Where(c => c.id == 233).Single();
+						monsterSprites.Add(94);
+						monsterSprites.Add(95);
+						monsterSprites.Add(96);
 						break;
 					case 15: // Barbariccia
 						monster = allMonsters.Where(c => c.id == 178).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 235).Single();
+						monsterSprites.Add(124);
 						break;
 					case 16: // Calcobrena
 						// Award full points for Calcobrena.
@@ -359,6 +387,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 4, 7);
 
 						monsterParty = groups.Where(c => c.id == 424).Single();
+						monsterSprites.Add(121);
 						break;
 					case 17: // Golbez
 						monster = allMonsters.Where(c => c.id == 181).Single();
@@ -371,6 +400,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 						monsterParty = groups.Where(c => c.id == 425).Single();
 						monsterParty.monster3 = 182;
+						monsterSprites.Add(1);
 						break;
 					case 18: // Dr. Lugae
 						// Doctor and Barnabas
@@ -398,6 +428,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						}
 						monsterParty.battle_flag_group_id = 4; // Continue music and do not show victory screen after defeat of first part.  Also consider "1, 3, 5" if "2" doesn't work.
 						monsterParty = groups.Where(c => c.id == 438).Single();
+						monsterSprites.Add(102);
 						break;
 					case 19: // 3 Dark Imps (pick any monster)
 						 // Do not allow Summoners or Security Eyes to appear in early boss spots
@@ -424,6 +455,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						monsterParty.monster1 = 304;
 						monsterParty.monster2 = 304;
 						monsterParty.monster3 = 304;
+						monsterSprites.Add(88);
 						break;
 					case 20: // Queen/King Eblan
 						monster = allMonsters.Where(c => c.id == 186).Single();
@@ -432,42 +464,50 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 50, 50);
 
 						monsterParty = groups.Where(c => c.id == 255).Single();
+						monsterSprites.Add(103);
+						monsterSprites.Add(41);
 						break;
 					case 21: // Rubicante
 						monster = allMonsters.Where(c => c.id == 188).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 256).Single();
+						monsterSprites.Add(113);
 						break;
 					case 22: // Demon Wall
 						monster = allMonsters.Where(c => c.id == 192).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 432).Single();
+						monsterSprites.Add(127);
 						break;
 					case 23: // Asura
 						monster = allMonsters.Where(c => c.id == 193).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 433).Single();
+						monsterSprites.Add(104);
 						break;
 					case 24: // Leviathan
 						monster = allMonsters.Where(c => c.id == 190).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 430).Single();
+						monsterSprites.Add(43);
 						break;
 					case 25: // Odin
 						monster = allMonsters.Where(c => c.id == 189).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 252).Single();
+						monsterSprites.Add(42);
 						break;
 					case 26: // Bahamut
 						monster = allMonsters.Where(c => c.id == 191).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 431).Single();
+						monsterSprites.Add(98);
 						break;
 					case 27: // Elemental Lords
 						monster = allMonsters.Where(c => c.id == 194).Single();
@@ -483,6 +523,10 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustElementalLords(bossStats[pairing[0]][1], directory);
 
 						monsterParty = groups.Where(c => c.id == 434).Single();
+						monsterSprites.Add(113);
+						monsterSprites.Add(124);
+						monsterSprites.Add(109);
+						monsterSprites.Add(91);
 						break;
 					case 28: // CPU
 						monster = allMonsters.Where(c => c.id == 198).Single();
@@ -493,36 +537,42 @@ namespace FF4FreeEnterprisePR.Randomize
 						adjustMonsterStats(monster, pairing[0], 8, 0);
 
 						monsterParty = groups.Where(c => c.id == 222).Single();
+						monsterSprites.Add(131);
 						break;
 					case 29: // White Dragon
 						monster = allMonsters.Where(c => c.id == 159).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 508).Single();
+						monsterSprites.Add(133);
 						break;
 					case 30: // Dark Bahamut
 						monster = allMonsters.Where(c => c.id == 153).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 509).Single();
+						monsterSprites.Add(98);
 						break;
 					case 31: // Plague
 						monster = allMonsters.Where(c => c.id == 108).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 511).Single();
+						monsterSprites.Add(93);
 						break;
 					case 32: // Lunarsaurs
 						monster = allMonsters.Where(c => c.id == 150).Single();
 						adjustMonsterStats(monster, pairing[0], 50, 50);
 
 						monsterParty = groups.Where(c => c.id == 510).Single();
+						monsterSprites.Add(87);
 						break;
 					case 33: // Ogopogo
 						monster = allMonsters.Where(c => c.id == 155).Single();
 						adjustMonsterStats(monster, pairing[0], 100);
 
 						monsterParty = groups.Where(c => c.id == 507).Single();
+						monsterSprites.Add(44);
 						break;
 					case 34:
 					case 35:
@@ -563,6 +613,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						monsterParty.monster5 = monster.id;
 						groups.Add(monsterParty);
 
+						monsterSprites.Add(pairing[1] == 34 ? 86 : pairing[1] == 35 ? 89 : pairing[1] == 36 ? 90 : 92);
 						break;
 				}
 
@@ -592,25 +643,109 @@ namespace FF4FreeEnterprisePR.Randomize
 					groups.Add(newParty);
 				}
 
+				string json;
+				JsonSerializer serializer;
+
 				// Open the boss JSON to set up boss fights.
-				string json = File.ReadAllText(currentReward.bossScript);
-				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
-
-				var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG1").Single();
-				rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
-				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG2").Single();
-				rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
-				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG3").Single();
-				rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
-				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG4").Single();
-				rewardItem.mnemonic = (pairing[1] == 5 || pairing[1] == 18 ? "ResetFlag" : "SetFlag");
-
-				JsonSerializer serializer = new JsonSerializer();
-
-				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, currentReward.bossScript)))
-				using (JsonWriter writer = new JsonTextWriter(sw))
+				if (!(currentReward.bossId == 11 && zAtOrdeals))
 				{
-					serializer.Serialize(writer, jEvents);
+					json = File.ReadAllText(currentReward.bossScript);
+					EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
+
+					var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG1").Single();
+					rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
+					rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG2").Single();
+					rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
+					rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG3").Single();
+					rewardItem.mnemonic = (pairing[1] == 5 ? "ResetFlag" : "SetFlag");
+					rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SetFG4").Single();
+					rewardItem.mnemonic = (pairing[1] == 5 || pairing[1] == 18 ? "ResetFlag" : "SetFlag");
+
+					serializer = new JsonSerializer();
+
+					using (StreamWriter sw = new StreamWriter(Path.Combine(directory, currentReward.bossScript)))
+					using (JsonWriter writer = new JsonTextWriter(sw))
+					{
+						serializer.Serialize(writer, jEvents);
+					}
+				}
+
+				// Open the entity JSON to set up the correct boss sprite.
+				if (currentReward.entityScript != null)
+				{
+					// Debug
+					//if (currentReward.rewardId == 5) { int asdf = 1234; }
+					if (currentReward.bossId == 12 || currentReward.bossId == 13)
+					{
+						if (boss1213)
+							json = File.ReadAllText(Path.Combine(directory, currentReward.entityScript));
+						else
+						{
+							boss1213 = true;
+							json = File.ReadAllText(currentReward.entityScript);
+						}
+					}
+					else if (currentReward.bossId == 20 || currentReward.bossId == 21)
+					{
+						if (boss2021)
+							json = File.ReadAllText(Path.Combine(directory, currentReward.entityScript));
+						else
+						{
+							boss2021 = true;
+							json = File.ReadAllText(currentReward.entityScript);
+						}
+
+					}
+					else if (currentReward.bossId == 24 || currentReward.bossId == 25)
+					{
+						if (boss2425)
+							json = File.ReadAllText(Path.Combine(directory, currentReward.entityScript));
+						else
+						{
+							boss2425 = true;
+							json = File.ReadAllText(currentReward.entityScript);
+						}
+					}
+					else
+					{
+						json = File.ReadAllText(currentReward.entityScript);
+					}
+					EntityJSON jEntities = JsonConvert.DeserializeObject<EntityJSON>(json);
+
+					// If Z @ Ordeals, replace whatever monsterSprite was selected with Zeromus
+					if (currentReward.bossId == 11 && zAtOrdeals)
+					{
+						monsterSprites.Clear();
+						monsterSprites.Add(129);
+					}
+					int i = 0;
+
+					foreach (int j in currentReward.entityIDs)
+					{
+						foreach (var layer in jEntities.layers)
+						{ 
+							foreach (var sObject in layer.objects)
+							{
+								bool process = sObject.properties.Where(c => c.name == "entity_id" && (long)c.value == j).Any();
+								if (process)
+								{
+									foreach (var prop in sObject.properties.Where(c => c.name == "asset_id"))
+										prop.value = monsterSprites[i];
+
+									i++;
+									if (i >= monsterSprites.Count)
+										i = 0;
+								}
+							}
+						}
+					}
+					serializer = new JsonSerializer();
+
+					using (StreamWriter sw = new StreamWriter(Path.Combine(directory, currentReward.entityScript)))
+					using (JsonWriter writer = new JsonTextWriter(sw))
+					{
+						serializer.Serialize(writer, jEntities);
+					}
 				}
 
 				//		static List<string> locations = new List<string> { // 38 locations total
