@@ -559,7 +559,7 @@ MSG_ITEM_NAME_58	<IC_BAG>Кокатрис
 MSG_ITEM_NAME_59	<IC_BAG>Мозгодер
 MSG_ITEM_NAME_60	<IC_BAG>Гисальская зелень
 MSG_ITEM_NAME_61	<IC_BAG>Гисальский свисток
-MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixir
 MSG_KEY_NAME_01	<IC_BAG>Членская грамота
 MSG_KEY_NAME_02	<IC_IOBJ>Взрывное кольцо
 MSG_KEY_NAME_03	<IC_IOBJ>Ключ от замка Барон

@@ -48,6 +48,7 @@ namespace FF4FreeEnterprisePR
 			BrowseForGameAssets = new System.Windows.Forms.Button();
 			tabControl1 = new System.Windows.Forms.TabControl();
 			settingGeneral = new System.Windows.Forms.TabPage();
+			FDItemLink = new System.Windows.Forms.LinkLabel();
 			label11 = new System.Windows.Forms.Label();
 			shardsBeforeSirens = new System.Windows.Forms.ComboBox();
 			requiredShards = new System.Windows.Forms.ComboBox();
@@ -126,6 +127,7 @@ namespace FF4FreeEnterprisePR
 			label20 = new System.Windows.Forms.Label();
 			label19 = new System.Windows.Forms.Label();
 			hpAdjustTooltip = new System.Windows.Forms.ToolTip(components);
+			copyRacebot = new System.Windows.Forms.Button();
 			tabControl1.SuspendLayout();
 			settingGeneral.SuspendLayout();
 			settingHero.SuspendLayout();
@@ -293,6 +295,7 @@ namespace FF4FreeEnterprisePR
 			// 
 			// settingGeneral
 			// 
+			settingGeneral.Controls.Add(FDItemLink);
 			settingGeneral.Controls.Add(label11);
 			settingGeneral.Controls.Add(shardsBeforeSirens);
 			settingGeneral.Controls.Add(requiredShards);
@@ -318,6 +321,17 @@ namespace FF4FreeEnterprisePR
 			settingGeneral.TabIndex = 0;
 			settingGeneral.Text = "General";
 			settingGeneral.UseVisualStyleBackColor = true;
+			// 
+			// FDItemLink
+			// 
+			FDItemLink.AutoSize = true;
+			FDItemLink.Location = new System.Drawing.Point(226, 50);
+			FDItemLink.Name = "FDItemLink";
+			FDItemLink.Size = new System.Drawing.Size(54, 20);
+			FDItemLink.TabIndex = 70;
+			FDItemLink.TabStop = true;
+			FDItemLink.Text = "(More)";
+			FDItemLink.LinkClicked += FDItemLink_LinkClicked;
 			// 
 			// label11
 			// 
@@ -364,9 +378,9 @@ namespace FF4FreeEnterprisePR
 			removeFGExclusiveItems.AutoSize = true;
 			removeFGExclusiveItems.Location = new System.Drawing.Point(10, 50);
 			removeFGExclusiveItems.Name = "removeFGExclusiveItems";
-			removeFGExclusiveItems.Size = new System.Drawing.Size(209, 24);
+			removeFGExclusiveItems.Size = new System.Drawing.Size(210, 24);
 			removeFGExclusiveItems.TabIndex = 65;
-			removeFGExclusiveItems.Text = "Remove FG Exclusive Items";
+			removeFGExclusiveItems.Text = "Remove FD Exclusive Items";
 			removeFGExclusiveItems.UseVisualStyleBackColor = true;
 			removeFGExclusiveItems.CheckedChanged += DetermineFlags;
 			// 
@@ -1134,11 +1148,22 @@ namespace FF4FreeEnterprisePR
 			label19.TabIndex = 0;
 			label19.Text = "Cecil";
 			// 
+			// copyRacebot
+			// 
+			copyRacebot.Location = new System.Drawing.Point(626, 571);
+			copyRacebot.Name = "copyRacebot";
+			copyRacebot.Size = new System.Drawing.Size(158, 29);
+			copyRacebot.TabIndex = 51;
+			copyRacebot.Text = "Copy for dr-race-bot";
+			copyRacebot.UseVisualStyleBackColor = true;
+			copyRacebot.Click += copyRaceBot_Click;
+			// 
 			// FF4FalconDive
 			// 
 			AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			ClientSize = new System.Drawing.Size(812, 616);
+			Controls.Add(copyRacebot);
 			Controls.Add(tabControl1);
 			Controls.Add(BrowseForGameAssets);
 			Controls.Add(extractGameAssets);
@@ -1273,6 +1298,8 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.Label label19;
 		private System.Windows.Forms.CheckBox zFalcon;
 		private System.Windows.Forms.CheckBox zOrdeals;
+		private System.Windows.Forms.LinkLabel FDItemLink;
+		private System.Windows.Forms.Button copyRacebot;
 	}
 }
 

@@ -20,6 +20,7 @@ namespace FF4FreeEnterprisePR
 		Random r1;
 		const int flagLength = 12;
 		TextBox[,] heroNames = new TextBox[12, 5];
+		string checkSum;
 
 		public FF4FalconDive()
 		{
@@ -305,7 +306,6 @@ namespace FF4FreeEnterprisePR
 						encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 3 ? 3 : 1,
 					encounterRate.SelectedIndex == 7);
 
-				string checkSum = "";
 				using (SHA1 sha1Crypto = SHA1.Create())
 				{
 					using (FileStream stream = File.OpenRead(Path.Combine(dataMainDirectory, "monster_party.csv")))
@@ -314,9 +314,9 @@ namespace FF4FreeEnterprisePR
 					}
 				}
 
-				Clipboard.SetText(checkSum);
+				Clipboard.SetText("FF4FD_" + RandoFlags.Text + "_" + RandoSeed.Text + "_" + checkSum);
 				Messages.updateMessages(Path.Combine(dataDirectory, "Message"), RandoSeed.Text, RandoFlags.Text, checkSum, shardsBeforeSirens.SelectedIndex != 5, party, heroNames, r1);
-				NewChecksum.Text = "COMPLETE - checksum " + checkSum + " (copied to clipboard)";
+				NewChecksum.Text = "COMPLETE - checksum " + checkSum + " - copied to clipboard with seed and flags";
 			}
 			catch (Exception ex)
 			{
@@ -493,6 +493,17 @@ namespace FF4FreeEnterprisePR
 			if (btn.Name == "flagCustom5") { if (flagCustom5.Text.Length == flagLength) RandoFlags.Text = flagCustom5Text.Text; else MessageBox.Show("Invalid flag string"); }
 
 			determineChecks(null, null);
+		}
+
+		private void FDItemLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			System.Diagnostics.Process.Start("https://docs.google.com/spreadsheets/d/1lULu47K_qzDfWUxVXHlzmDaYO1RL7CbF3A2cvBa1OXk/edit#gid=843831314");
+		}
+
+		private void copyRaceBot_Click(object sender, EventArgs e)
+		{
+			Clipboard.SetText("!setmetadata seed " + RandoSeed.Text + " flags " + RandoFlags.Text + " checksum " + checkSum);
+			NewChecksum.Text = "COMPLETE - checksum " + checkSum + " - copied as !setmetadata command";
 		}
 	}
 }

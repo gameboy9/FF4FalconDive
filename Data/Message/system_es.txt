@@ -559,7 +559,7 @@ MSG_ITEM_NAME_58	<IC_BAG>Tomo de cocatriz
 MSG_ITEM_NAME_59	<IC_BAG>Tomo de rompementes
 MSG_ITEM_NAME_60	<IC_BAG>Verdura gysahl
 MSG_ITEM_NAME_61	<IC_BAG>Silbato de Gysahl
-MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixir
 MSG_KEY_NAME_01	<IC_BAG>Carné de socio
 MSG_KEY_NAME_02	<IC_IOBJ>Anillo de bom
 MSG_KEY_NAME_03	<IC_IOBJ>Llave de Baronia

@@ -90,7 +90,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int decoy = 56; // t3
 		public const int lightCurtain = 57; // t6
 		public const int lunarCurtain = 58; // t8
-		public const int megalixer = 869; // t8
+		public const int megalixir = 869; // t8
 
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { potion, phoenixDown, maidensKiss, mallet, dietFood, echoHerbs, eyeDrops, antidote,
@@ -102,7 +102,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			  new List<int> { xPotion, dryEther, cottage, coeurlWhisker, lightCurtain, hourglass, gaiaDrum },
 			  new List<int> { xPotion, silverApple, somaDrop, silverHourglass },
 			  new List<int> { elixer, goldenApple, goldenHourglass, lunarCurtain },
-			  new List<int> { megalixer, elixer, goldenApple, goldenHourglass, lunarCurtain }
+			  new List<int> { megalixir, elixer, goldenApple, goldenHourglass, lunarCurtain }
 		};
 
 		List<int> jItems = new List<int>
@@ -110,7 +110,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			maidensKiss, mallet, dietFood, echoHerbs, eyeDrops, antidote, bombFragment, antarcticWind, zeusWrath, bestiary, bellOfSilence,
 				cross, alarmClock, bombCore, lilithKiss, spiderSilk, decoy, bombArm, arcticWind, rageOfTheGods, gaiaDrum, stardust,
 			vampireFang, bacchusCider, hermesShoes, unicornHorn, redFang, whiteFang, blueFang, hourglass, coeurlWhisker, lightCurtain,
-			silverApple, somaDrop, silverHourglass, goldenApple, goldenHourglass, lunarCurtain, emergencyExit, megalixer
+			silverApple, somaDrop, silverHourglass, goldenApple, goldenHourglass, lunarCurtain, emergencyExit, megalixir
 		};
 
 		public void adjustPrices(string directory, int multiplier, int divisor)

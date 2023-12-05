@@ -559,7 +559,7 @@ MSG_ITEM_NAME_58	<IC_BAG>Coquatrice
 MSG_ITEM_NAME_59	<IC_BAG>Psychopolype
 MSG_ITEM_NAME_60	<IC_BAG>Légume Gysahl
 MSG_ITEM_NAME_61	<IC_BAG>Flûte Gysahl
-MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixir
 MSG_KEY_NAME_01	<IC_BAG>Carte de membre
 MSG_KEY_NAME_02	<IC_IOBJ>Anneau de bombo
 MSG_KEY_NAME_03	<IC_IOBJ>Clef de Baron

@@ -559,7 +559,7 @@ MSG_ITEM_NAME_58	<IC_BAG>คอกกะทริซ
 MSG_ITEM_NAME_59	<IC_BAG>มายด์เฟลเยอร์
 MSG_ITEM_NAME_60	<IC_BAG>ผักกีซาล
 MSG_ITEM_NAME_61	<IC_BAG>นกหวีดกีซาล
-MSG_ITEM_NAME_62	<IC_DRAG>Megalixer
+MSG_ITEM_NAME_62	<IC_DRAG>Megalixir
 MSG_KEY_NAME_01	<IC_BAG>บัตรสมาชิก
 MSG_KEY_NAME_02	<IC_IOBJ>แหวนระเบิด
 MSG_KEY_NAME_03	<IC_IOBJ>กุญแจบารอน
