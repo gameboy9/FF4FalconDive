@@ -560,6 +560,7 @@ MSG_ITEM_NAME_59	<IC_BAG>精神吸取者
 MSG_ITEM_NAME_60	<IC_BAG>基薩爾野菜
 MSG_ITEM_NAME_61	<IC_BAG>基薩爾之笛
 MSG_ITEM_NAME_62	<IC_DRAG>Megalixir
+MSG_ITEM_NAME_63	<IC_IOBJ>Recycle Bin
 MSG_KEY_NAME_01	<IC_BAG>會員證
 MSG_KEY_NAME_02	<IC_IOBJ>炸彈戒指
 MSG_KEY_NAME_03	<IC_IOBJ>巴隆的鑰匙
@@ -893,6 +894,7 @@ MSG_ITEM_INF_59	讓(RYDIA)學會召喚精神吸取者
 MSG_ITEM_INF_60	胖陸行鳥最喜歡的食物\n在能夠聞到陸行鳥的味道的地方用用看？
 MSG_ITEM_INF_61	召喚出胖陸行鳥的笛子
 MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
+MSG_ITEM_INF_63	Know you can't win a battle?  This will end it quickly!  You will, of course, respawn from your last save.
 MSG_KEY_INF_01	帝王酒吧的會員證
 MSG_KEY_INF_02	巴隆王所給的戒指
 MSG_KEY_INF_03	打開巴隆鎮大門的鑰匙

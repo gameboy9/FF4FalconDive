@@ -785,3 +785,4 @@ id,mes_id_name,mes_id_battle,mes_id_description,icon_id,type_id,type_value
 871,MSG_ARMOR_NAME_117,None,MSG_ARMOR_INF_117,0,3,124
 872,MSG_ARMOR_NAME_118,None,MSG_ARMOR_INF_118,0,3,125
 873,MSG_ARMOR_NAME_119,None,MSG_ARMOR_INF_119,0,3,126
+874,MSG_ITEM_NAME_63,None,MSG_ITEM_INF_63,0,1,93

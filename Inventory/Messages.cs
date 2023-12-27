@@ -90,7 +90,7 @@ namespace FF4FalconDive.Inventory
 					msgStrings.Where(c => c.id == "E0030_00_353_a_04").Single().msgString = @"Beta Helpers";
 					msgStrings.Where(c => c.id == "E0030_00_353_a_05").Single().msgString = @"Antidale\nEngidave\nFleury14\nInfinious\nInven\nTybalt\nSyconawt\nwarlink05\n\n";
 					msgStrings.Where(c => c.id == "E0030_00_353_a_06").Single().msgString = @"Idea Initiators\n\nAntidale\nGamer1758\nTheRPGChick\n";
-					msgStrings.Where(c => c.id == "E0030_00_353_a_07").Single().msgString = @"Other contributors\n\nCasualGeekDave\nBGG02\nRegasin\nHolySmith\nmarcmagus";
+					msgStrings.Where(c => c.id == "E0030_00_353_a_07").Single().msgString = @"Other contributors\n\nCasualGeekDave\nBGG02\nRegasin\nHolySmith\nmarcmagus\nMarthSR";
 					msgStrings.Where(c => c.id == "E0074_06_354_a_01").Single().msgString = @"Special Thanks\n";
 					msgStrings.Where(c => c.id == "E0074_06_354_a_02").Single().msgString = @"mcgrew\nAlbeoris\nSchalaKitty\nSilvris\n\n";
 					msgStrings.Where(c => c.id == "E0074_06_354_a_03").Single().msgString = @"Based off of and inspired by\nFinal Fantasy IV:  Free Enterprise\nwww.ff4fe.com\n";

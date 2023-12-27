@@ -560,6 +560,7 @@ MSG_ITEM_NAME_59	<IC_BAG>Mind Flayer
 MSG_ITEM_NAME_60	<IC_BAG>Gysahl Greens
 MSG_ITEM_NAME_61	<IC_BAG>Gysahl Whistle
 MSG_ITEM_NAME_62	<IC_DRAG>Megalixir
+MSG_ITEM_NAME_63	<IC_IOBJ>Recycle Bin
 MSG_KEY_NAME_01	<IC_BAG>Membership Pass
 MSG_KEY_NAME_02	<IC_IOBJ>Bomb Ring
 MSG_KEY_NAME_03	<IC_IOBJ>Baron Key
@@ -893,6 +894,7 @@ MSG_ITEM_INF_59	Teaches (RYDIA) Mind Flayer.
 MSG_ITEM_INF_60	The favorite food of Fat Chocobo.\nTry using it where it smells of chocobo.
 MSG_ITEM_INF_61	A whistle for calling Fat Chocobo.
 MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
+MSG_ITEM_INF_63	Know you can't win a battle?  This will end it quickly!  You will, of course, respawn from your last save.
 MSG_KEY_INF_01	Proof of membership at King's Pub.
 MSG_KEY_INF_02	A ring received from the King of Baron.
 MSG_KEY_INF_03	A key that opens locked doors in the Town of Baron.

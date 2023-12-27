@@ -560,6 +560,7 @@ MSG_ITEM_NAME_59	<IC_BAG>Noetikos
 MSG_ITEM_NAME_60	<IC_BAG>Erba ghisal
 MSG_ITEM_NAME_61	<IC_BAG>Flauto ghisal
 MSG_ITEM_NAME_62	<IC_DRAG>Megalixir
+MSG_ITEM_NAME_63	<IC_IOBJ>Recycle Bin
 MSG_KEY_NAME_01	<IC_BAG>Tessera d'associazione
 MSG_KEY_NAME_02	<IC_IOBJ>Anello piros
 MSG_KEY_NAME_03	<IC_IOBJ>Chiave di Baron
@@ -893,6 +894,7 @@ MSG_ITEM_INF_59	Insegna a (RYDIA) l'invocazione Noetikos.
 MSG_ITEM_INF_60	Adorata dal chocobo ciccio. Usala dove si sente odore di chocobo.
 MSG_ITEM_INF_61	Flauto che richiama il chocobo ciccio.
 MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
+MSG_ITEM_INF_63	Know you can't win a battle?  This will end it quickly!  You will, of course, respawn from your last save.
 MSG_KEY_INF_01	Tessera di riconoscimento dei soci della taverna "Sua Maestà".
 MSG_KEY_INF_02	Anello ricevuto dal Re di Baron.
 MSG_KEY_INF_03	Chiave per aprire alcune porte nella città di Baron.

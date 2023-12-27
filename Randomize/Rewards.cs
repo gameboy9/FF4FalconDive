@@ -157,6 +157,8 @@ namespace FF4FreeEnterprisePR.Randomize
 		{
 			public int locationID { get; set; }
 			public int rewardID { get; set; }
+			public bool underUnlocked { get; set; }
+			public bool moonUnlocked { get; set; }
 			public string rewardText { get; set; }
 
 			public pairing(int pLocID, int pRewardID) 

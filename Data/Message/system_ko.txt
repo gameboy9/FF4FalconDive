@@ -560,6 +560,7 @@ MSG_ITEM_NAME_59	<IC_BAG>마인드 플레이어
 MSG_ITEM_NAME_60	<IC_BAG>기살의 야채
 MSG_ITEM_NAME_61	<IC_BAG>기살의 피리
 MSG_ITEM_NAME_62	<IC_DRAG>Megalixir
+MSG_ITEM_NAME_63	<IC_IOBJ>Recycle Bin
 MSG_KEY_NAME_01	<IC_BAG>회원증
 MSG_KEY_NAME_02	<IC_IOBJ>봄의 반지
 MSG_KEY_NAME_03	<IC_IOBJ>바론의 열쇠
@@ -893,6 +894,7 @@ MSG_ITEM_INF_59	(RYDIA)<josa(이,가)> '마인드 플레이어' 습득
 MSG_ITEM_INF_60	뚱보 초코보가 매우 좋아하는 야채.\n초코보 냄새가 나는 곳에서 사용하면…?
 MSG_ITEM_INF_61	뚱보 초코보를 불러내는 피리
 MSG_ITEM_INF_62	Fully restores the entire party's HP and MP.
+MSG_ITEM_INF_63	Know you can't win a battle?  This will end it quickly!  You will, of course, respawn from your last save.
 MSG_KEY_INF_01	술집 '임금님'의 회원이라는 증표
 MSG_KEY_INF_02	바론 왕이 준 반지
 MSG_KEY_INF_03	바론에 있는 문을 열기 위한 열쇠
