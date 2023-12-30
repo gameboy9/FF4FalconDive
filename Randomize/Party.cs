@@ -208,8 +208,6 @@ namespace FF4FreeEnterprisePR.Randomize
 				if (exclude[11]) characters.Remove(fusoya);
 				if (exclude[12]) characters.Remove(cecil);
 				characters.Shuffle(r1);
-				while (characters.Count < 12)
-					characters.Add(cecil);
 				if (firstHero != 0)
 				{
 					if (characters.Contains(firstHero))
@@ -217,8 +215,10 @@ namespace FF4FreeEnterprisePR.Randomize
 					characters.Add(firstHero);
 					int tempChar = characters[0];
 					characters[0] = firstHero;
-					characters[characters.Count - 1] = firstHero;
+					characters[characters.Count - 1] = tempChar;
 				}
+				while (characters.Count < 12)
+					characters.Add(cecil);
 			}
 			// Need to move characters around because we have to skip character slots due to promotions based on ScenarioFlag setting.
 			characters[6] = characters[4];
