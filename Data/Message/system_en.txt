@@ -677,7 +677,7 @@ MSG_WEAPON_INF_86	An arrow that may envelop the enemy in darkness.
 MSG_WEAPON_INF_87	An arrow that may poison the enemy.
 MSG_WEAPON_INF_88	An arrow that may cause silence and is effective against mages.
 MSG_WEAPON_INF_89	An arrow that may cause confusion and is effective against giant enemies.
-MSG_WEAPON_INF_90	An arrow that belonged to a marksmen from a distant land.
+MSG_WEAPON_INF_90	An arrow that belonged to a marksman from a distant land.
 MSG_WEAPON_INF_91	An arrow that may petrify the enemy.
 MSG_WEAPON_INF_92	An arrow named after the goddess of the moon that is effective against dragons.
 MSG_WEAPON_INF_99	Legendary holy sword. (NOT)
@@ -1391,6 +1391,7 @@ MSG_SYSTEM_139	Order
 MSG_SYSTEM_140	Configuration
 MSG_SYSTEM_141	Quick Save
 MSG_SYSTEM_142	Save
+MSG_SYSTEM_442	Load
 MSG_SYSTEM_143	Gil
 MSG_SYSTEM_144	Time
 MSG_SYSTEM_145	Lv.
@@ -1517,11 +1518,14 @@ MSG_SYSTEM_247	Equipped
 MSG_SYSTEM_249	New Game
 MSG_SYSTEM_250	Load Game
 MSG_SYSTEM_251	TAP TO START
-MSG_SYSTEM_252	PRESS ANY KEY
+MSG_SYSTEM_252	PRESS ANY BUTTON
+MSG_SYSTEM_CS_0_039	PRESS ANY BUTTON
+MSG_SYSTEM_CS_0_040	PRESS ANY BUTTON
 MSG_SYSTEM_253	©SQUARE ENIX CO., LTD. All Rights Reserved.\nLogo & Image Illustration: ©YOSHITAKA AMANO
 MSG_SYSTEM_254	Extras
 MSG_SYSTEM_255	Options
 MSG_SYSTEM_256	Bestiary
+MSG_SYSTEM_443	Check which monsters you have defeated.
 MSG_SYSTEM_257	Music Player
 MSG_SYSTEM_260	Privacy Policy
 MSG_SYSTEM_261	License
@@ -1543,10 +1547,12 @@ MSG_SYSTEM_316	Quick Save data is corrupted.
 MSG_SYSTEM_317	Quick Save data could not be saved.
 MSG_SYSTEM_436	Not enough storage available to play the game. Please delete unnecessary files to free up storage space.
 MSG_SYSTEM_274	Start playing using this data?
+MSG_SYSTEM_450	Load this data file?
 MSG_SYSTEM_275	Save Completed Game data?
 MSG_SYSTEM_276	*Data saves progress up to the final boss.
 MSG_SYSTEM_277	Save complete. Return to title screen?
 MSG_SYSTEM_278	Completed Game data has not been saved. Return to title screen?
+MSG_SYSTEM_448	Saving
 MSG_SYSTEM_280	Switch Maps
 MSG_SYSTEM_284	Current Location
 MSG_SYSTEM_343	Chocobo
@@ -1566,6 +1572,7 @@ MSG_CFG_INF_02	Cursor Memory
 MSG_CFG_INF_03	Continue Auto-Battle
 MSG_CFG_INF_05	Language Settings
 MSG_CFG_INF_06	Return to Title Screen
+MSG_CFG_INF_160	Resume Battle
 MSG_CFG_INF_07	Quit Game
 MSG_CFG_INF_93	Display Settings
 MSG_CFG_INF_09	Mode
@@ -1576,6 +1583,9 @@ MSG_CFG_INF_12	Sound
 MSG_CFG_INF_13	Master Volume
 MSG_CFG_INF_14	BGM Volume
 MSG_CFG_INF_15	SFX Volume
+MSG_CFG_INF_16	BGM Type
+MSG_CFG_INF_161	Sound Settings
+MSG_CFG_INF_162	Font Style
 MSG_CFG_INF_140	Set how time flows in battle.
 MSG_CFG_INF_141	Time stops when selecting items or magic spells.
 MSG_CFG_INF_142	Time continues to flow when selecting items or magic spells.
@@ -1587,6 +1597,7 @@ MSG_CFG_INF_99	Adjust the screen brightness.
 MSG_CFG_INF_100	Adjust the volume for the entire game.
 MSG_CFG_INF_101	Adjust the volume of the background music.
 MSG_CFG_INF_102	Adjust the volume of the sound effects.
+MSG_CFG_INF_103	Change the type of background music.
 MSG_CFG_INF_104	Set the controls on the gamepad.
 MSG_CFG_INF_105	Set the controls on the keyboard.
 MSG_CFG_INF_106	Return to title screen. Unsaved progress will be lost.
@@ -1594,6 +1605,9 @@ MSG_CFG_INF_107	Quit the game. Unsaved progress will be lost.
 MSG_CFG_INF_108	Gamepad controls will return to their default settings.
 MSG_CFG_INF_109	Keyboard controls will return to their default settings.
 MSG_CFG_INF_158	Adjust the look of the on-screen graphics.
+MSG_CFG_INF_165	Set the game's text font.
+MSG_CFG_INF_166	Apply the setting changes?
+MSG_CFG_INF_168	Changes saved.
 MSG_CFG_INF_18	Gamepad Settings
 MSG_CFG_INF_19	Confirm
 MSG_CFG_INF_21	Open/Close Menu
@@ -1610,6 +1624,7 @@ MSG_CFG_INF_145	Keyboard
 MSG_CFG_INF_146	Mouse
 MSG_CFG_INF_33	Gamepad Controls
 MSG_CFG_INF_110	Run (press and hold)
+MSG_CFG_INF_169	Walk (press and hold while moving)
 MSG_CFG_INF_113	Auto-Battle On/Off
 MSG_CFG_INF_114	Open/Close Map
 MSG_CFG_INF_115	Mini-map On/Off
@@ -1623,6 +1638,7 @@ MSG_CFG_INF_120	Movement Controls
 MSG_CFG_INF_121	Talk
 MSG_CFG_INF_147	Interact
 MSG_CFG_INF_123	Battle menu
+MSG_CFG_INF_159	Movement Speed
 MSG_CFG_INF_35	Field Menu Display
 MSG_CFG_INF_37	Directional Pad Display
 MSG_CFG_INF_38	Menu Display
@@ -1658,6 +1674,10 @@ MSG_CFG_INF_64	Português brasileiro (Brazilian Portuguese)
 MSG_CFG_INF_66	Fullscreen
 MSG_CFG_INF_67	Windowed
 MSG_CFG_INF_68	Borderless Windowed
+MSG_CFG_INF_73	Original
+MSG_CFG_INF_74	Arrangement
+MSG_CFG_INF_163	Modernized
+MSG_CFG_INF_164	Classic
 MSG_CFG_INF_76	Switch to the selected language?
 MSG_CFG_INF_130	*The game will restart after changing settings.
 MSG_CFG_INF_78	Apply these display settings?
@@ -1681,7 +1701,7 @@ MSG_SYSTEM_312	How many are you taking back?
 MSG_SYSTEM_303	Whose name would you like to change?
 MSG_SYSTEM_313	Change Name
 MSG_SYSTEM_334	Select a name for the character.
-MSG_SYSTEM_335	*Up to 6 full-width characters or 12 half-width characters
+MSG_SYSTEM_335	*Up to 6 full-width characters\nor 12 half-width characters
 MSG_SYSTEM_336	Use this name?
 MSG_SYSTEM_337	*Some characters and symbols may not display properly.
 MSG_PC_KEY_CONFIG_01	Backspace
@@ -1706,6 +1726,8 @@ MSG_SYSTEM_421	Scroll
 MSG_SYSTEM_352	Shift Display
 MSG_SYSTEM_422	Switch Maps
 MSG_SYSTEM_353	Confirm
+MSG_SYSTEM_446	Battle
+MSG_SYSTEM_447	End Battle
 MSG_SYSTEM_354	Defeated
 MSG_SYSTEM_355	Spawn Area
 MSG_SYSTEM_358	Weakness
@@ -1757,13 +1779,14 @@ MSG_SYSTEM_392	Pause
 MSG_SYSTEM_393	Play All On
 MSG_SYSTEM_394	Play All Off
 MSG_SYSTEM_425	Play All
+MSG_SYSTEM_441	Switch List
 MSG_SYSTEM_402	Cloud Save Function
 MSG_SYSTEM_403	Upload
 MSG_SYSTEM_404	Download
 MSG_SYSTEM_405	Local Save Files
 MSG_SYSTEM_406	Cloud Save Files
 MSG_SYSTEM_420	Details
-MSG_SYSTEM_407	You can backup your save files to the cloud.
+MSG_SYSTEM_407	You can back up your save files to the cloud.
 MSG_SYSTEM_408	Upload all local save files and overwrite the cloud data.
 MSG_SYSTEM_409	Download all cloud save files and overwrite local save data.
 MSG_SYSTEM_410	All save files will be uploaded to the cloud.
@@ -1779,7 +1802,76 @@ MSG_SYSTEM_429	Syncing...
 MSG_SYSTEM_430	Data sync failed.
 MSG_SYSTEM_431	Network failure.
 MSG_SYSTEM_432	Retry
-MSG_SYSTEM_426	Now Loading...
+MSG_SYSTEM_426	Now Loading
 MSG_SYSTEM_439	License verification failed. The app will close.
 MSG_SYSTEM_440	Please check your device's settings and internet connection and restart the app.
+MSG_SYSTEM_444	Skip
+MSG_SYSTEM_445	Skip the scene?
+MSG_SYSTEM_449	The game cannot run as the resolution of the screen has been changed. Please revert the screen to the original resolution or restart the game to play.
+MSG_SYSTEM_CS_0_001	Select button control settings.
+MSG_SYSTEM_CS_0_002	Button controls will return to their default settings.
+MSG_SYSTEM_CS_0_003	Control Settings
+MSG_SYSTEM_CS_0_004	Check Controls
+MSG_SYSTEM_CS_0_005	Boost
+MSG_SYSTEM_CS_0_025	Default Speed
+MSG_SYSTEM_CS_0_006	Change the balance on a variety of game settings. Please note that this may have an affect on progression through the game.
+MSG_SYSTEM_CS_0_026	Change the default movement speed in towns and dungeons.
+MSG_SYSTEM_CS_0_007	Encounters
+MSG_SYSTEM_CS_0_008	EXP
+MSG_SYSTEM_CS_0_009	Gil
+MSG_SYSTEM_CS_0_010	0x
+MSG_SYSTEM_CS_0_011	0.5x
+MSG_SYSTEM_CS_0_012	1x
+MSG_SYSTEM_CS_0_013	2x
+MSG_SYSTEM_CS_0_014	4x
+MSG_SYSTEM_CS_0_027	Walk
+MSG_SYSTEM_CS_0_028	Run
+MSG_SYSTEM_CS_0_015	Set the default number of encounters. Special encounters are unaffected.
+MSG_SYSTEM_CS_0_016	Change the amount of EXP earned in battle.
+MSG_SYSTEM_CS_0_017	Change the amount of gil obtained in battle.
+MSG_SYSTEM_CS_0_019	Encounters On
+MSG_SYSTEM_CS_0_020	Encounters Off
+MSG_SYSTEM_CS_0_021	Default Speed: Run
+MSG_SYSTEM_CS_0_022	Default Speed: Walk
+MSG_SYSTEM_CS_0_023	Encounters On/Off
+MSG_SYSTEM_CS_0_024	Default Speed: Walk/Run
+MSG_SYSTEM_CS_0_036	Pause Menu
+MSG_SYSTEM_CS_0_037	PAUSE
+MSG_SYSTEM_CS_0_038	Return to field
+MSG_SYSTEM_CS_0_035	© 1991, 2023 SQUARE ENIX CO., LTD. All Rights Reserved.\nLOGO & IMAGE ILLUSTRATION: © 1991 YOSHITAKA AMANO
+MSG_SYSTEM_CS_0_041	This game uses an autosave feature.\nPlease do not close the game when the icon above is displayed.
+MSG_SYSTEM_CS_0_029	
+MSG_SYSTEM_CS_0_030	
+MSG_SYSTEM_CS_0_031	
+MSG_SYSTEM_CS_0_032	
+MSG_SYSTEM_CS_0_033	
+MSG_SYSTEM_CS_0_034	
+MSG_CFG_INF_CS_0_001	(Japanese)
+MSG_CFG_INF_CS_0_002	
+MSG_CFG_INF_CS_0_003	(French)
+MSG_CFG_INF_CS_0_004	(Italian)
+MSG_CFG_INF_CS_0_005	(German)
+MSG_CFG_INF_CS_0_006	(Spanish)
+MSG_CFG_INF_CS_0_007	(Korean)
+MSG_CFG_INF_CS_0_008	(Traditional Chinese)
+MSG_CFG_INF_CS_0_009	(Simplified Chinese)
+MSG_CFG_INF_CS_0_010	(Russian)
+MSG_CFG_INF_CS_0_011	(Thai)
+MSG_CFG_INF_CS_0_012	(Brazilian Portuguese)
+MSG_TOUCHGAMEPAD_01	Gamepad has been disconnected.
+MSG_TOUCHGAMEPAD_02	Game will resume once the gamepad is reconnected.
+MSG_TOUCHGAMEPAD_03	Tap "Yes" to switch to touchpad controls and restart the game after the autosave is complete.
+MSG_TOUCHGAMEPAD_05	*Please note that autosave will not run during battles or cutscenes.
+MSG_TOUCHGAMEPAD_06	Gamepad has been connected.
+MSG_TOUCHGAMEPAD_07	Once the controls are changed, the game will restart after the autosave is complete.
+MSG_TOUCHGAMEPAD_10	Game is currently set to gamepad controls.
+MSG_TOUCHGAMEPAD_11	Game is currently set to touchpad controls.
+MSG_TOUCHGAMEPAD_12	Switch to gamepad controls?
+MSG_TOUCHGAMEPAD_13	Switch to touchpad controls?
+MSG_TOUCHGAMEPAD_14	Gamepad is not connected.
+MSG_TOUCHGAMEPAD_15	Gamepad On/Off
+MSG_TOUCHGAMEPAD_16	Gamepad Controls
+MSG_TOUCHGAMEPAD_17	You can switch to gamepad controls.
+MSG_TOUCHGAMEPAD_18	*Game will restart after controls are switched.
+MSG_TOUCHGAMEPAD_19	You can revert to touchpad controls.
 

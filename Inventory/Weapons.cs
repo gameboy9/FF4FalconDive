@@ -146,40 +146,40 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int shuriken = 222; // t5
 		public const int fumaShuriken = 223; // t7
 
-		public const int excalipoor = 799; // t2
-		public const int flandango = 800; // t4
-		public const int lightbringer = 801; // t9
-		public const int piggyStick = 802; // t8
-		public const int abelsLance = 803; // t9
-		public const int gigantAxe = 804; // t9
-		public const int perseusBow = 805; // t9
-		public const int perseusArrow = 806; // t9
-		public const int mysticWhip = 807; // t8
-		public const int tritonDagger = 808; // t8
-		public const int assassinDagger = 809; // t9
-		public const int sasukeKatana = 810; // t9
-		public const int mutsunokami = 811; // t9
-		public const int scrapMetal = 812; // t2
-		public const int risingSun = 813; // t8
-		public const int tigerFangs = 814; // t7
-		public const int dragonClaws = 815; // t8
-		public const int godhand = 816; // t9
-		public const int thorHammer = 817; // t8
-		public const int fieryHammer = 818; // t9
-		public const int asuraRod = 819; // t9
-		public const int seraphimMace = 820; // t8
-		public const int nirvana = 821; // t9
-		public const int apolloHarp = 822; // t6
-		public const int requiemHarp = 823; // t8
-		public const int lokiHarp = 824; // t9
-		public const int bloodDarkSword = 825; // t5
-		public const int golbezSword = 826; // t6
-		public const int vampireSword = 827; // t7
-		public const int megicoSword = 828; // t9
-		public const int erdrickSword = 829; // t7
-		public const int vampireSpear = 865; // t8
-		public const int superAngerRod = 866; // t9
-		public const int mop = 867; // t9
+		public const int excalipoor = 899; // t2
+		public const int flandango = 900; // t4
+		public const int lightbringer = 901; // t9
+		public const int piggyStick = 902; // t8
+		public const int abelsLance = 903; // t9
+		public const int gigantAxe = 904; // t9
+		public const int perseusBow = 905; // t9
+		public const int perseusArrow = 906; // t9
+		public const int mysticWhip = 907; // t8
+		public const int tritonDagger = 908; // t8
+		public const int assassinDagger = 909; // t9
+		public const int sasukeKatana = 910; // t9
+		public const int mutsunokami = 911; // t9
+		public const int scrapMetal = 912; // t2
+		public const int risingSun = 913; // t8
+		public const int tigerFangs = 914; // t7
+		public const int dragonClaws = 915; // t8
+		public const int godhand = 916; // t9
+		public const int thorHammer = 917; // t8
+		public const int fieryHammer = 918; // t9
+		public const int asuraRod = 919; // t9
+		public const int seraphimMace = 920; // t8
+		public const int nirvana = 921; // t9
+		public const int apolloHarp = 922; // t6
+		public const int requiemHarp = 923; // t8
+		public const int lokiHarp = 924; // t9
+		public const int bloodDarkSword = 925; // t5
+		public const int golbezSword = 926; // t6
+		public const int vampireSword = 927; // t7
+		public const int megicoSword = 928; // t9
+		public const int erdrickSword = 929; // t7
+		public const int vampireSpear = 965; // t8
+		public const int superAngerRod = 966; // t9
+		public const int mop = 967; // t9
 
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { darkSword, shadowblade, spear, dreamerHarp, rod, staff, bow, ironArrow },
@@ -257,7 +257,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				item.sell = item.sell > 99999 ? 99999 : item.sell < 1 ? 1 : item.sell;
 			}
 
-			using (StreamWriter writer = new StreamWriter(Path.Combine(directory, "weapon.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "weapon.csv")))
 			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(records);

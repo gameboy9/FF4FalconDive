@@ -106,12 +106,12 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	"Trash Can", - 88 NEW
 		//	"Pan", - 62
 		//	"Adamant", - 63 // 25
-		//	"Crystal Shard 1", - 89 NEW
-		//	"Crystal Shard 2", - 89 NEW
-		//	"Crystal Shard 3", - 89 NEW
-		//	"Crystal Shard 4"  - 89 NEW // 29
 		//	"Orange Tail", - 91 NEW
 		//	"White Tail", - 92 NEW
+		//	"Crystal Shard 1", - 89 NEW
+		//	"Crystal Shard 2", - 89 NEW
+		//	"Crystal Shard 3", - 89 NEW // 30
+		//	"Crystal Shard 4"  - 89 NEW
 		//};
 
 		static List<int> initialLocations = new List<int> { 0, 4, 5, 6, 7, 8, 9, 10 };
@@ -168,7 +168,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			}
 		}
 
-		public static void establishRewards(Random r1, int[] characters, string directory, string dataDirectory, bool includeBonus, bool includeFGExclusive, int[] party, double xpMultiplier, bool zAtOrdeals, bool zAtFalcon)
+		public static void establishRewards(Random r1, int[] characters, string directory, bool includeBonus, bool includeFGExclusive, int[] party, double xpMultiplier, bool zAtOrdeals, bool zAtFalcon)
 		{
 			List<pairing> pairings = new List<pairing>();
 			List<pairing> tempPairings = new List<pairing>();
@@ -194,6 +194,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				int rerolls = rerollLocations.Contains(locationID) ? 1 : 0;
 				int rewardID = validRewards[r1.Next() % validRewards.Count];
 				// Reroll if a non-progression item is rolled in Ordeals, Magnetic Cavern, Tower of Zot, Dwarf Castle, or Sealed Cave
+				// Non-progression items are the Legend Sword, the Rat Tail, the Pink Tail, the Trash Can, the Adamantite, or a Nothing
 				if (rerolls == 1 && rerollRewards.Contains(rewardID))
 					rewardID = validRewards[r1.Next() % validRewards.Count];
 
@@ -395,7 +396,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				}
 
 				// Open the winning JSON to set up rewards.
-				string json = File.ReadAllText(currentReward.winScript);
+				string json = File.ReadAllText(Path.Combine("Res", "Map", currentReward.winScript));
 				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
 
 				JsonSerializer serializer = new JsonSerializer();
@@ -483,10 +484,10 @@ namespace FF4FreeEnterprisePR.Randomize
 					int xp = currentReward.characterXP - (currentReward.characterXP / 5) + (r1.Next() % currentReward.characterXP * 2 / 5);
 					switch (rewardPair.rewardID)
 					{
-						case 0: rewardItem.operands.sValues[0] = "ローザ加入"; Party.adjustParty(2, xp, Path.Combine(directory, "Data", "Master"), r1, xpMultiplier); break; // Rosa (entry 3 in character_status)
-						case 1: rewardItem.operands.sValues[0] = "シド加入"; Party.adjustParty(4, xp, Path.Combine(directory, "Data", "Master"), r1, xpMultiplier); break; // Cid (entry 5 in character_status)
-						case 2: rewardItem.operands.sValues[0] = "テラ加入"; Party.adjustParty(5, xp, Path.Combine(directory, "Data", "Master"), r1, xpMultiplier); break; // Tellah (entry 6 in character_status)
-						case 3: rewardItem.operands.sValues[0] = "ギルバート加入"; Party.adjustParty(6, xp, Path.Combine(directory, "Data", "Master"), r1, xpMultiplier); break; // Edward (entry 7 in character_status)
+						case 0: rewardItem.operands.sValues[0] = "ローザ加入"; Party.adjustParty(2, xp, Path.Combine(directory), r1, xpMultiplier); break; // Rosa (entry 3 in character_status)
+						case 1: rewardItem.operands.sValues[0] = "シド加入"; Party.adjustParty(4, xp, Path.Combine(directory), r1, xpMultiplier); break; // Cid (entry 5 in character_status)
+						case 2: rewardItem.operands.sValues[0] = "テラ加入"; Party.adjustParty(5, xp, Path.Combine(directory), r1, xpMultiplier); break; // Tellah (entry 6 in character_status)
+						case 3: rewardItem.operands.sValues[0] = "ギルバート加入"; Party.adjustParty(6, xp, Path.Combine(directory), r1, xpMultiplier); break; // Edward (entry 7 in character_status)
 					}					
 				}
 
@@ -529,7 +530,9 @@ namespace FF4FreeEnterprisePR.Randomize
 					tailSelection.Add(itemSelected);
 				}
 
-				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, currentReward.winScript)))
+				using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Map",
+					currentReward.winScript.Substring(0, currentReward.winScript.IndexOf('\\')),
+					currentReward.winScript.Substring(currentReward.winScript.IndexOf('\\') + 1))))
 				using (JsonWriter writer = new JsonTextWriter(sw))
 				{
 					serializer.Serialize(writer, jEvents);
@@ -551,7 +554,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			var swordJSON = jEventsXCal.Mnemonics.Where(c => c.comment == "XcalReward").Single();
 			swordJSON.operands.iValues[0] = swordItem;
 
-			using (StreamWriter sw = new StreamWriter(Path.Combine(directory, @"Res\Map\Map_20181\Map_20181_1\sc_e_0107.json")))
+			using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Map", "Map_20181", @"Map_20181_1\sc_e_0107.json")))
 			using (JsonWriter writer = new JsonTextWriter(sw))
 			{
 				serializerXCal.Serialize(writer, jEventsXCal);
@@ -587,7 +590,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 					msgStrings.Add(new message { id = "XCAL_REWARD", msgString = "Received " + itemLookup(itemIDLookup(swordItem)) + "!" });
 
-					using (StreamWriter writer = new StreamWriter(Path.Combine(dataDirectory, "story_mes_" + language + ".txt")))
+					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "story_mes_" + language + ".txt")))
 					using (CsvWriter csv = new CsvWriter(writer, config))
 					{
 						csv.WriteRecords(msgStrings);

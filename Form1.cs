@@ -12,10 +12,8 @@ namespace FF4FreeEnterprisePR
 	public partial class FF4FalconDive : Form
 	{
 		const string defaultFlags = "0VQ9KO100000";
-		string dataMainDirectory;
-		string mainDirectory;
-		string dataDirectory;
-		string mapDirectory;
+		string updateDirectory;
+
 		bool loading = true;
 		Random r1;
 		const int flagLength = 12;
@@ -34,7 +32,7 @@ namespace FF4FreeEnterprisePR
 			string flags = "";
 			flags += convertIntToChar(checkboxesToNumber(new CheckBox[] { shopNoJ, shopNoSuper, treasureNoJ, treasureNoSuper, dupCharactersAllowed }));
 			//// Combo boxes time...
-			flags += convertIntToChar(encounterRate.SelectedIndex + (8 * requiredShards.SelectedIndex));
+			flags += convertIntToChar((8 * requiredShards.SelectedIndex));
 			flags += convertIntToChar(shopItemQty.SelectedIndex + (8 * shopBuyPrice.SelectedIndex));
 			flags += convertIntToChar(shopItemTypes.SelectedIndex + (8 * treasureTypes.SelectedIndex));
 			flags += convertIntToChar(xpMultiplier.SelectedIndex + (8 * zeromusDifficulty.SelectedIndex));
@@ -68,7 +66,6 @@ namespace FF4FreeEnterprisePR
 
 			string flags = RandoFlags.Text;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(0, 1))), new CheckBox[] { shopNoJ, shopNoSuper, treasureNoJ, treasureNoSuper, dupCharactersAllowed });
-			encounterRate.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) % 8;
 			requiredShards.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(1, 1))) / 8;
 			shopItemQty.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) % 8;
 			shopBuyPrice.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(2, 1))) / 8;
@@ -158,7 +155,6 @@ namespace FF4FreeEnterprisePR
 					FF4PRFolder.Text = reader.ReadLine();
 					RandoSeed.Text = reader.ReadLine();
 					RandoFlags.Text = reader.ReadLine();
-					gameAssetsFile.Text = reader.ReadLine();
 					//VisualFlags.Text = reader.ReadLine();
 					determineChecks(null, null);
 
@@ -214,6 +210,29 @@ namespace FF4FreeEnterprisePR
 							"Fusoya"; // i == 11
 					}
 			}
+
+			if (!string.IsNullOrWhiteSpace(FF4PRFolder.Text))
+			{
+				if (Path.Exists(Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets")) || File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.dll")))
+				{
+					if(MessageBox.Show("You have files from pre-version 5.0 Falcon Dive installations.  It is STRONGLY RECOMMENDED that those files are removed.  Would you like to remove those files?", "FF4 Falcon Dive", MessageBoxButtons.YesNo) == DialogResult.Yes) {
+						try
+						{
+							if (Directory.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx")))
+								Directory.Delete(Path.Combine(FF4PRFolder.Text, "BepInEx"), true);
+							if (Directory.Exists(Path.Combine(FF4PRFolder.Text, "mono")))
+								Directory.Delete(Path.Combine(FF4PRFolder.Text, "mono"), true);
+							if (Directory.Exists(Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets")))
+								Directory.Delete(Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets"), true);
+							MessageBox.Show("Pre-version 5.0 files deleted.");
+						}
+						catch (Exception ex)
+						{
+							MessageBox.Show("Unable to delete - " + ex.Message);
+						}
+					}
+				}
+			}
 		}
 
 		private void NewSeed_Click(object sender, EventArgs e)
@@ -223,10 +242,17 @@ namespace FF4FreeEnterprisePR
 
 		private void Randomize_Click(object sender, EventArgs e)
 		{
-			if (!File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.dll")) || !File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.pdb"))
-				|| !File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "config", "Memoria.ffpr.cfg")) || !Directory.Exists(Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets")))
+			try
 			{
-				MessageBox.Show("Randomizer assets have not been extracted.  Please extract, then try randomization again.");
+				if (!Path.Exists(FF4PRFolder.Text))
+				{
+					MessageBox.Show("FF4 PR folder does not exist.  Please pick a new folder and try again.");
+					return;
+				}
+			} 
+			catch (Exception ex)
+			{
+				MessageBox.Show("There was an issue trying to find the FF4 PR folder:  " + ex.Message);
 				return;
 			}
 
@@ -250,10 +276,7 @@ namespace FF4FreeEnterprisePR
 				return;
 			}
 
-			mainDirectory = Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets", "Serial");
-			dataDirectory = Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data");
-			dataMainDirectory = Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Data", "Master");
-			mapDirectory = Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets", "Serial", "Res", "Map");
+			updateDirectory = Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets");
 
 			double xpMulti = xpMultiplier.SelectedIndex == 0 ? 1 :
 				xpMultiplier.SelectedIndex == 1 ? 1.5 :
@@ -284,7 +307,7 @@ namespace FF4FreeEnterprisePR
 
 			try
 			{
-				update();
+				Updater.update(FF4PRFolder.Text, updateDirectory, zFalcon.Checked, zOrdeals.Checked);
 
 				r1 = new Random((int)(seedNumber % 2147483648));
 				int[] party = randomizeParty(xpMulti * xpStart);
@@ -295,27 +318,20 @@ namespace FF4FreeEnterprisePR
 					r1 = new Random((int)(seedNumber / 2147483648));
 
 				randomizeMonstersWithBoost(xpMulti);
-				Zeromus.ZeromusSetup(r1, Convert.ToInt32(requiredShards.Text), zeromusDifficulty.SelectedIndex, shardsBeforeSirens.SelectedIndex, mainDirectory);
-				Rewards.establishRewards(r1, party, mainDirectory,
-					Path.Combine(dataDirectory, "Message"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti * xpStart, zOrdeals.Checked, zFalcon.Checked);
-				new Map(r1, dataMainDirectory,
-						encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 4 ? 2 :
-						encounterRate.SelectedIndex == 3 || encounterRate.SelectedIndex == 5 ? 4 :
-						encounterRate.SelectedIndex == 6 ? 8 : 1,
-						encounterRate.SelectedIndex == 0 ? 2 :
-						encounterRate.SelectedIndex == 1 || encounterRate.SelectedIndex == 3 ? 3 : 1,
-					encounterRate.SelectedIndex == 7);
+				Zeromus.ZeromusSetup(r1, Convert.ToInt32(requiredShards.Text), zeromusDifficulty.SelectedIndex, shardsBeforeSirens.SelectedIndex, updateDirectory);
+				Rewards.establishRewards(r1, party, updateDirectory,
+					!removeBonusItems.Checked, !removeFGExclusiveItems.Checked, party, xpMulti * xpStart, zOrdeals.Checked, zFalcon.Checked);
 
 				using (SHA1 sha1Crypto = SHA1.Create())
 				{
-					using (FileStream stream = File.OpenRead(Path.Combine(dataMainDirectory, "monster_party.csv")))
+					using (FileStream stream = File.OpenRead(Updater.MemoriaToMagiciteFile(updateDirectory, "MainData", "master", "monster_party.csv")))
 					{
 						checkSum = BitConverter.ToString(sha1Crypto.ComputeHash(stream)).ToLower().Replace("-", "").Substring(0, 16);
 					}
 				}
 
 				Clipboard.SetText("FF4FD_" + RandoFlags.Text + "_" + RandoSeed.Text + "_" + checkSum);
-				Messages.updateMessages(Path.Combine(dataDirectory, "Message"), RandoSeed.Text, RandoFlags.Text, checkSum, shardsBeforeSirens.SelectedIndex != 5, party, heroNames, r1);
+				Messages.updateMessages(updateDirectory, RandoSeed.Text, RandoFlags.Text, checkSum, shardsBeforeSirens.SelectedIndex != 5, party, heroNames, r1);
 				NewChecksum.Text = "COMPLETE - checksum " + checkSum + " - copied to clipboard with seed and flags";
 			}
 			catch (Exception ex)
@@ -330,14 +346,9 @@ namespace FF4FreeEnterprisePR
 			}
 		}
 
-		private void update()
-		{
-			Updater.update(mainDirectory, zFalcon.Checked, zOrdeals.Checked);
-		}
-
 		private int[] randomizeParty(double xpMulti)
 		{
-			return Party.establishParty(r1, mapDirectory, firstHero.SelectedIndex, dupCharactersAllowed.Checked, Convert.ToInt32(numHeroes.SelectedItem), exPaladinCecil.Checked,
+			return Party.establishParty(r1, updateDirectory, firstHero.SelectedIndex, dupCharactersAllowed.Checked, Convert.ToInt32(numHeroes.SelectedItem), exPaladinCecil.Checked,
 				new bool[] { exCecil.Checked, exKain.Checked, exRydia.Checked, exTellah.Checked, exEdward.Checked, exRosa.Checked, exYang.Checked, exPalom.Checked, exPorom.Checked, exCid.Checked, exEdge.Checked, exFusoya.Checked, exPaladinCecil.Checked }, xpMulti);
 		}
 
@@ -345,18 +356,18 @@ namespace FF4FreeEnterprisePR
 		{
 			int buyMultiplier = shopBuyPrice.SelectedIndex == 0 ? 0 : shopBuyPrice.SelectedIndex == 1 ? 1 : shopBuyPrice.SelectedIndex == 2 ? 2 : shopBuyPrice.SelectedIndex == 3 ? 4 : shopBuyPrice.SelectedIndex == 4 ? 8 : 20;
 			new Shops(r1, shopItemTypes.SelectedIndex, shopItemQty.SelectedIndex, shopNoJ.Checked, shopNoSuper.Checked,
-				Path.Combine(dataMainDirectory, "product.csv"), !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, buyMultiplier, 20, party);
+				updateDirectory, !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, buyMultiplier, 20, party);
 		}
 
 		private void randomizeTreasures(int[] party)
 		{
-			new Treasure(r1, treasureTypes.SelectedIndex, mainDirectory,
+			new Treasure(r1, treasureTypes.SelectedIndex, updateDirectory,
 				treasureNoJ.Checked, treasureNoSuper.Checked, !removeBonusItems.Checked, !removeFGExclusiveItems.Checked, 5, party);
 		}
 
 		private void randomizeMonstersWithBoost(double xpMulti)
 		{
-			Bosses.establishBosses(mainDirectory, dataMainDirectory, r1, zOrdeals.Checked);
+			Bosses.establishBosses(updateDirectory, r1, zOrdeals.Checked);
 
 			double gpMulti = gpMultiplier.SelectedIndex == 0 ? 1 :
 				gpMultiplier.SelectedIndex == 1 ? 1.5 :
@@ -367,16 +378,16 @@ namespace FF4FreeEnterprisePR
 				gpMultiplier.SelectedIndex == 6 ? 5 : 10;
 			int xpBoostInt = 0;
 			int gpBoostInt = 0;
-			Monster.MonsterBoost(dataMainDirectory, xpMulti, xpBoostInt, gpMulti, gpBoostInt, 5);
-			Monster.AdjustMonsterDifficulty(dataMainDirectory, monsterDifficulty.SelectedIndex);
+			Monster.MonsterBoost(updateDirectory, xpMulti, xpBoostInt, gpMulti, gpBoostInt, 5);
+			Monster.AdjustMonsterDifficulty(updateDirectory, monsterDifficulty.SelectedIndex);
 		}
 
 		private void priceAdjustment()
 		{
 			int buyMultiplier = shopBuyPrice.SelectedIndex == 0 ? 0 : shopBuyPrice.SelectedIndex == 1 ? 1 : shopBuyPrice.SelectedIndex == 2 ? 2 : shopBuyPrice.SelectedIndex == 3 ? 4 : shopBuyPrice.SelectedIndex == 4 ? 8 : 20;
-			new Weapons().adjustPrices(dataMainDirectory, buyMultiplier, 20);
-			new Items().adjustPrices(dataMainDirectory, buyMultiplier, 20);
-			new Armor().adjustPrices(dataMainDirectory, buyMultiplier, 20);
+			new Weapons().adjustPrices(updateDirectory, buyMultiplier, 20);
+			new Items().adjustPrices(updateDirectory, buyMultiplier, 20);
+			new Armor().adjustPrices(updateDirectory, buyMultiplier, 20);
 		}
 
 		private void FF4FabulGauntlet_FormClosing(object sender, FormClosingEventArgs e)
@@ -386,7 +397,6 @@ namespace FF4FreeEnterprisePR
 				writer.WriteLine(FF4PRFolder.Text);
 				writer.WriteLine(RandoSeed.Text);
 				writer.WriteLine(RandoFlags.Text);
-				writer.WriteLine(gameAssetsFile.Text);
 				for (int i = 0; i < 12; i++)
 					for (int j = 0; j < 5; j++)
 						writer.WriteLine(heroNames[i, j].Text);
@@ -406,37 +416,6 @@ namespace FF4FreeEnterprisePR
 			}
 		}
 
-		private void extractGameAssets_Click(object sender, EventArgs e)
-		{
-			try
-			{
-				if (!File.Exists(gameAssetsFile.Text))
-				{
-					MessageBox.Show("Cannot extract - game assets file listed does not exist...");
-					NewChecksum.Text = "Extraction failed...";
-					return;
-				}
-				NewChecksum.Text = "Extracting...";
-				if (!Directory.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx")))
-					ZipFile.ExtractToDirectory(Path.Combine("install", "BepInEx.zip"), Path.Combine(FF4PRFolder.Text), true);
-
-				if (!File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.dll")))
-					File.Copy(Path.Combine("install", "Memoria.FF4.dll"), Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.dll"));
-				if (!File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.pdb")))
-					File.Copy(Path.Combine("install", "Memoria.FF4.pdb"), Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.pdb"));
-				if (!File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "config", "Memoria.ffpr.cfg")))
-					File.Copy(Path.Combine("install", "Memoria.ffpr.cfg"), Path.Combine(FF4PRFolder.Text, "BepInEx", "config", "Memoria.ffpr.cfg"));
-				if (!Directory.Exists(Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets", "GameAssets")))
-					ZipFile.ExtractToDirectory(gameAssetsFile.Text, Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets"));
-				NewChecksum.Text = "Extraction complete!";
-			}
-			catch (Exception ex)
-			{
-				MessageBox.Show("Unable to extract - " + ex.Message);
-				NewChecksum.Text = "Extraction failed...";
-			}
-		}
-
 		private void revertToDefault_click(object sender, EventArgs e)
 		{
 			if (MessageBox.Show("Are you sure you want to revert Final Fantasy IV back to vanilla?", "Final Fantasy IV: Fabul Gauntlet", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -444,14 +423,10 @@ namespace FF4FreeEnterprisePR
 				try
 				{
 					NewChecksum.Text = "Reverting...";
-					if (File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.dll")))
-						File.Delete(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.dll"));
-					if (File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.pdb")))
-						File.Delete(Path.Combine(FF4PRFolder.Text, "BepInEx", "plugins", "Memoria.FF4.pdb"));
-					if (File.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx", "config", "Memoria.ffpr.cfg")))
-						File.Delete(Path.Combine(FF4PRFolder.Text, "BepInEx", "config", "Memoria.ffpr.cfg"));
 					if (Directory.Exists(Path.Combine(FF4PRFolder.Text, "BepInEx")))
 						Directory.Delete(Path.Combine(FF4PRFolder.Text, "BepInEx"), true);
+					if (Directory.Exists(Path.Combine(FF4PRFolder.Text, "mono")))
+						Directory.Delete(Path.Combine(FF4PRFolder.Text, "mono"), true);
 					if (Directory.Exists(Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets")))
 						Directory.Delete(Path.Combine(FF4PRFolder.Text, "FINAL FANTASY IV_Data", "StreamingAssets", "Assets"), true);
 					NewChecksum.Text = "Revert complete!";
@@ -461,21 +436,6 @@ namespace FF4FreeEnterprisePR
 					MessageBox.Show("Unable to revert - " + ex.Message);
 					NewChecksum.Text = "Revert failed...";
 				}
-			}
-		}
-
-		private void BrowseForGameAssets_Click(object sender, EventArgs e)
-		{
-			OpenFileDialog openFileDialog1 = new OpenFileDialog();
-
-			openFileDialog1.InitialDirectory = @"C:\";
-			openFileDialog1.Filter = "zip files (*.zip)|*.zip|All files (*.*)|*.*";
-			openFileDialog1.FilterIndex = 2;
-			openFileDialog1.RestoreDirectory = true;
-
-			if (openFileDialog1.ShowDialog() == DialogResult.OK)
-			{
-				gameAssetsFile.Text = openFileDialog1.FileName;
 			}
 		}
 

@@ -152,7 +152,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			List<singleMonster> allMonsters;
 
 			// Do not load from initial CSV file.  We need to load from the already saved CSV file because the monsters were already randomized.
-			using (StreamReader reader = new(Path.Combine(directory, "monster.csv")))
+			using (StreamReader reader = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "monster.csv")))
 			using (CsvReader csv = new(reader, System.Globalization.CultureInfo.InvariantCulture))
 				allMonsters = csv.GetRecords<singleMonster>().ToList();
 
@@ -164,7 +164,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				iMonster.gill += gpBoost;
 			}
 
-			using (StreamWriter writer = new(Path.Combine(directory, "monster.csv")))
+			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "monster.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(allMonsters);
@@ -175,7 +175,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		{
 			List<Game_Constant> gameConst;
 
-			using (StreamReader reader = new(Path.Combine(directory, "game_constant_int.csv")))
+			using (StreamReader reader = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "game_constant_int.csv")))
 			using (CsvReader csv = new(reader, System.Globalization.CultureInfo.InvariantCulture))
 				gameConst = csv.GetRecords<Game_Constant>().ToList();
 
@@ -205,7 +205,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				case 3: starterHeroATB.value1 = 50; starterHeroATB.value2 = 100; break;
 			}
 
-			using (StreamWriter writer = new(Path.Combine(directory, "game_constant_int.csv")))
+			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "game_constant_int.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(gameConst);
@@ -214,7 +214,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			List<singleMonster> allMonsters;
 
 			// Do not load from initial CSV file.  We need to load from the already saved CSV file because the monsters were already randomized.
-			using (StreamReader reader = new(Path.Combine(directory, "monster.csv")))
+			using (StreamReader reader = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "monster.csv")))
 			using (CsvReader csv = new(reader, System.Globalization.CultureInfo.InvariantCulture))
 				allMonsters = csv.GetRecords<singleMonster>().ToList();
 
@@ -261,7 +261,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				}
 			}
 
-			using (StreamWriter writer = new(Path.Combine(directory, "monster.csv")))
+			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "monster.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(allMonsters);

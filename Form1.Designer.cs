@@ -41,11 +41,6 @@ namespace FF4FreeEnterprisePR
 			NewSeed = new System.Windows.Forms.Button();
 			BrowseForFolder = new System.Windows.Forms.Button();
 			button1 = new System.Windows.Forms.Button();
-			label15 = new System.Windows.Forms.Label();
-			gameAssetsFile = new System.Windows.Forms.TextBox();
-			linkLabel1 = new System.Windows.Forms.LinkLabel();
-			extractGameAssets = new System.Windows.Forms.Button();
-			BrowseForGameAssets = new System.Windows.Forms.Button();
 			tabControl1 = new System.Windows.Forms.TabControl();
 			settingGeneral = new System.Windows.Forms.TabPage();
 			FDItemLink = new System.Windows.Forms.LinkLabel();
@@ -93,8 +88,6 @@ namespace FF4FreeEnterprisePR
 			zOrdeals = new System.Windows.Forms.CheckBox();
 			zeromusDifficulty = new System.Windows.Forms.ComboBox();
 			label10 = new System.Windows.Forms.Label();
-			label17 = new System.Windows.Forms.Label();
-			encounterRate = new System.Windows.Forms.ComboBox();
 			gpMultiplier = new System.Windows.Forms.ComboBox();
 			xpMultiplier = new System.Windows.Forms.ComboBox();
 			monsterDifficulty = new System.Windows.Forms.ComboBox();
@@ -233,52 +226,6 @@ namespace FF4FreeEnterprisePR
 			button1.Text = "Revert to vanilla";
 			button1.UseVisualStyleBackColor = true;
 			button1.Click += revertToDefault_click;
-			// 
-			// label15
-			// 
-			label15.AutoSize = true;
-			label15.Location = new System.Drawing.Point(12, 92);
-			label15.Name = "label15";
-			label15.Size = new System.Drawing.Size(120, 20);
-			label15.TabIndex = 43;
-			label15.Text = "Game Assets File";
-			// 
-			// gameAssetsFile
-			// 
-			gameAssetsFile.Location = new System.Drawing.Point(138, 89);
-			gameAssetsFile.Name = "gameAssetsFile";
-			gameAssetsFile.Size = new System.Drawing.Size(346, 27);
-			gameAssetsFile.TabIndex = 44;
-			// 
-			// linkLabel1
-			// 
-			linkLabel1.AutoSize = true;
-			linkLabel1.Location = new System.Drawing.Point(710, 92);
-			linkLabel1.Name = "linkLabel1";
-			linkLabel1.Size = new System.Drawing.Size(78, 20);
-			linkLabel1.TabIndex = 45;
-			linkLabel1.TabStop = true;
-			linkLabel1.Text = "Download";
-			// 
-			// extractGameAssets
-			// 
-			extractGameAssets.Location = new System.Drawing.Point(595, 88);
-			extractGameAssets.Name = "extractGameAssets";
-			extractGameAssets.Size = new System.Drawing.Size(95, 28);
-			extractGameAssets.TabIndex = 46;
-			extractGameAssets.Text = "Extract";
-			extractGameAssets.UseVisualStyleBackColor = true;
-			extractGameAssets.Click += extractGameAssets_Click;
-			// 
-			// BrowseForGameAssets
-			// 
-			BrowseForGameAssets.Location = new System.Drawing.Point(494, 89);
-			BrowseForGameAssets.Name = "BrowseForGameAssets";
-			BrowseForGameAssets.Size = new System.Drawing.Size(95, 28);
-			BrowseForGameAssets.TabIndex = 47;
-			BrowseForGameAssets.Text = "Browse";
-			BrowseForGameAssets.UseVisualStyleBackColor = true;
-			BrowseForGameAssets.Click += BrowseForGameAssets_Click;
 			// 
 			// tabControl1
 			// 
@@ -771,8 +718,6 @@ namespace FF4FreeEnterprisePR
 			settingEnemies.Controls.Add(zOrdeals);
 			settingEnemies.Controls.Add(zeromusDifficulty);
 			settingEnemies.Controls.Add(label10);
-			settingEnemies.Controls.Add(label17);
-			settingEnemies.Controls.Add(encounterRate);
 			settingEnemies.Controls.Add(gpMultiplier);
 			settingEnemies.Controls.Add(xpMultiplier);
 			settingEnemies.Controls.Add(monsterDifficulty);
@@ -827,26 +772,6 @@ namespace FF4FreeEnterprisePR
 			label10.Size = new System.Drawing.Size(131, 20);
 			label10.TabIndex = 49;
 			label10.Text = "Zeromus Difficulty";
-			// 
-			// label17
-			// 
-			label17.AutoSize = true;
-			label17.Location = new System.Drawing.Point(3, 153);
-			label17.Name = "label17";
-			label17.Size = new System.Drawing.Size(109, 20);
-			label17.TabIndex = 48;
-			label17.Text = "Encounter Rate";
-			// 
-			// encounterRate
-			// 
-			encounterRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			encounterRate.FormattingEnabled = true;
-			encounterRate.Items.AddRange(new object[] { "2x", "1.5x", "1.0x", "0.75x", "0.5x", "0.25x", "0.125x", "1/10000" });
-			encounterRate.Location = new System.Drawing.Point(153, 149);
-			encounterRate.Name = "encounterRate";
-			encounterRate.Size = new System.Drawing.Size(148, 28);
-			encounterRate.TabIndex = 47;
-			encounterRate.SelectedIndexChanged += DetermineFlags;
 			// 
 			// gpMultiplier
 			// 
@@ -1165,11 +1090,6 @@ namespace FF4FreeEnterprisePR
 			ClientSize = new System.Drawing.Size(812, 616);
 			Controls.Add(copyRacebot);
 			Controls.Add(tabControl1);
-			Controls.Add(BrowseForGameAssets);
-			Controls.Add(extractGameAssets);
-			Controls.Add(linkLabel1);
-			Controls.Add(gameAssetsFile);
-			Controls.Add(label15);
 			Controls.Add(button1);
 			Controls.Add(BrowseForFolder);
 			Controls.Add(NewSeed);
@@ -1213,11 +1133,6 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.Button NewSeed;
 		private System.Windows.Forms.Button BrowseForFolder;
 		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Label label15;
-		private System.Windows.Forms.TextBox gameAssetsFile;
-		private System.Windows.Forms.LinkLabel linkLabel1;
-		private System.Windows.Forms.Button extractGameAssets;
-		private System.Windows.Forms.Button BrowseForGameAssets;
 		private System.Windows.Forms.TabControl tabControl1;
 		private System.Windows.Forms.TabPage settingGeneral;
 		private System.Windows.Forms.CheckBox removeBonusItems;
@@ -1260,8 +1175,6 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.ToolTip hpAdjustTooltip;
 		private System.Windows.Forms.CheckBox exYang;
-		private System.Windows.Forms.Label label17;
-		private System.Windows.Forms.ComboBox encounterRate;
 		private System.Windows.Forms.CheckBox removeFGExclusiveItems;
 		private System.Windows.Forms.ComboBox requiredShards;
 		private System.Windows.Forms.Label label5;

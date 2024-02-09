@@ -19,13 +19,13 @@ namespace FF4FalconDive.Inventory
 		{
 			// Setup the required number of shared for the warps to Z
 			List<string> scripts = new List<string> {
-				@"Res\Map\Map_20101\Map_20101_5\sc_e_0139.json",
-				@"Res\Map\Map_20151\Map_20151_15\sc_e_0129.json",
-				@"Res\Map\Map_30251\Map_30251_22\sc_e_0074.json"
+				@"Map_20101\Map_20101_5\sc_e_0139.json",
+				@"Map_20151\Map_20151_15\sc_e_0129.json",
+				@"Map_30251\Map_30251_22\sc_e_0074.json"
 			};
 
 			foreach (string script in scripts) {
-				string json = File.ReadAllText(script);
+				string json = File.ReadAllText(Path.Combine("Res", "Map", script));
 				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
 
 				JsonSerializer serializer = new JsonSerializer();
@@ -33,7 +33,9 @@ namespace FF4FalconDive.Inventory
 				var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "FEShardRequired").Single();
 				rewardItem.operands.iValues[1] = ZShards - 1; // Script looks for greater than, not greater or equal to.
 
-				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, script)))
+				using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Map",
+								script.Substring(0, script.IndexOf('\\')),
+								script.Substring(script.IndexOf('\\') + 1))))
 				using (JsonWriter writer = new JsonTextWriter(sw))
 				{
 					serializer.Serialize(writer, jEvents);
@@ -43,12 +45,12 @@ namespace FF4FalconDive.Inventory
 			// We'll set up the number of required shards for siren usage as well.
 			scripts = new List<string>
 			{
-				@"Res\Map\Map_Script\Resident\sc_alarm_0001.json"
+				@"Map_Script\Resident\sc_alarm_0001.json"
 			};
 
 			foreach (string script in scripts)
 			{
-				string json = File.ReadAllText(script);
+				string json = File.ReadAllText(Path.Combine("Res", "Map", script));
 				EventJSON jEvents = JsonConvert.DeserializeObject<EventJSON>(json);
 
 				JsonSerializer serializer = new JsonSerializer();
@@ -88,7 +90,9 @@ namespace FF4FalconDive.Inventory
 				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "WeakSirenBattle4").Single();
 				rewardItem.operands.iValues[0] = weakSirenBattles[r1.Next() % weakSirenBattles.Count]; // Script looks for greater than, not greater or equal to.
 
-				using (StreamWriter sw = new StreamWriter(Path.Combine(directory, script)))
+				using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Map",
+								script.Substring(0, script.IndexOf('\\')),
+								script.Substring(script.IndexOf('\\') + 1)))) 
 				using (JsonWriter writer = new JsonTextWriter(sw))
 				{
 					serializer.Serialize(writer, jEvents);
@@ -98,7 +102,7 @@ namespace FF4FalconDive.Inventory
 			List<singleMonster> allMonsters;
 
 			// Do not load from initial CSV file.  We need to load from the already saved CSV file because the monsters were already randomized.
-			using (StreamReader reader = new(Path.Combine(directory, @"Data\Master\monster.csv")))
+			using (StreamReader reader = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "monster.csv")))
 			using (CsvReader csv = new(reader, System.Globalization.CultureInfo.InvariantCulture))
 				allMonsters = csv.GetRecords<singleMonster>().ToList();
 
@@ -109,7 +113,7 @@ namespace FF4FalconDive.Inventory
 			// Very hard difficulty = Much higher HP and double agility
 			if (difficulty == 4) { zeroMonster.hp = 120000; zeroMonster.agility = 202; }
 
-			using (StreamWriter writer = new(Path.Combine(directory, @"Data\Master\monster.csv")))
+			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "monster.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(allMonsters);
@@ -117,7 +121,7 @@ namespace FF4FalconDive.Inventory
 
 
 			List<ability> allAbility;
-			using (StreamReader reader = new(Path.Combine(directory, @"Data\Master\ability.csv")))
+			using (StreamReader reader = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "ability.csv")))
 			using (CsvReader csv = new(reader, System.Globalization.CultureInfo.InvariantCulture))
 				allAbility = csv.GetRecords<ability>().ToList();
 
@@ -147,7 +151,7 @@ namespace FF4FalconDive.Inventory
 			ability meteoLevel1 = new ability { id = 506, sort_id = 506, ability_lv = 0, ability_group_id = 2, type_id = 2, attribute_id = 5, attribute_group_id = 105, system_id = 3, use_value = 99, standard_value = 40, adding_hit_rate = 0, valid_hit_rate = 0, weak_hit_rate = 0, attack_count = 0, accuracy_rate = 100, Impact_status = 0, use_job_group_id = 31, condition_group_id = 93, renge_id = 4, menu_renge_id = 4, battle_renge_id = 4, content_flag_group_id = 0, invalid_reflection = 1, invalid_boss = 0, resistance_attribute = 0, battle_effect_asset_id = 185, menu_se_asset_id = 0, reaction_type = 0, menu_function_group_id = 0, battle_function_group_id = 10, buy = 0, sell = 0, sales_not_possible = 0, ability_wait = 10, process_prog = "None", data_a = 0, data_b = 0, data_c = 0 };
 			allAbility.Add(meteoLevel2);
 
-			using (StreamWriter writer = new(Path.Combine(directory, @"Data\Master\ability.csv")))
+			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "ability.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(allAbility);
@@ -155,23 +159,23 @@ namespace FF4FalconDive.Inventory
 
 			List<content> allContent;
 
-			using (StreamReader reader = new(Path.Combine(directory, @"Data\Master\content.csv")))
+			using (StreamReader reader = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "content.csv")))
 			using (CsvReader csv = new(reader, System.Globalization.CultureInfo.InvariantCulture))
 				allContent = csv.GetRecords<content>().ToList();
-			content newContent = new content { id = 901, mes_id_name = "MSG_MAGIC_NAME_48", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 501 };
+			content newContent = new content { id = 851, mes_id_name = "MSG_MAGIC_NAME_48", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 501 };
 			allContent.Add(newContent);
-			newContent = new content { id = 902, mes_id_name = "MSG_MAGIC_NAME_48", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 502 };
+			newContent = new content { id = 852, mes_id_name = "MSG_MAGIC_NAME_48", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 502 };
 			allContent.Add(newContent);
-			newContent = new content { id = 903, mes_id_name = "MSG_MAGIC_NAME_38", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 503 };
+			newContent = new content { id = 853, mes_id_name = "MSG_MAGIC_NAME_38", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 503 };
 			allContent.Add(newContent);
-			newContent = new content { id = 904, mes_id_name = "MSG_MAGIC_NAME_38", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 504 };
+			newContent = new content { id = 854, mes_id_name = "MSG_MAGIC_NAME_38", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 504 };
 			allContent.Add(newContent);
-			newContent = new content { id = 905, mes_id_name = "MSG_MAGIC_NAME_47", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 505 };
+			newContent = new content { id = 855, mes_id_name = "MSG_MAGIC_NAME_47", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 505 };
 			allContent.Add(newContent);
-			newContent = new content { id = 906, mes_id_name = "MSG_MAGIC_NAME_47", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 506 };
+			newContent = new content { id = 856, mes_id_name = "MSG_MAGIC_NAME_47", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 506 };
 			allContent.Add(newContent);
 
-			using (StreamWriter writer = new(Path.Combine(directory, @"Data\Master\content.csv")))
+			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "content.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(allContent);
@@ -207,7 +211,7 @@ namespace FF4FalconDive.Inventory
 
 			JsonSerializer zeroAISerialize = new();
 
-			using StreamWriter zeroAISW = new(Path.Combine(directory, "Res", "Battle", "MonsterAI", "sc_ai_202_Zeromus.json"));
+			using StreamWriter zeroAISW = new(Updater.MemoriaToMagiciteFile(directory, "MonsterAI", "monster_ai", "sc_ai_202_Zeromus.json"));
 			using JsonWriter zeroAIWriter = new JsonTextWriter(zeroAISW);
 			zeroAISerialize.Serialize(zeroAIWriter, zeroJson);
 		}

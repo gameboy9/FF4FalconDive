@@ -196,7 +196,11 @@ namespace FF4FreeEnterprisePR.Randomize
 
 					JsonSerializer serializer = new();
 
-					using StreamWriter sw = new(Path.Combine(directory, fileName));
+					string finalFile = fileName.Substring(fileName.IndexOf('\\') + 1);
+					finalFile = finalFile.Substring(finalFile.IndexOf('\\') + 1);
+					finalFile = finalFile.Substring(finalFile.IndexOf('\\') + 1);
+
+					using StreamWriter sw = new(Path.Combine(Updater.MemoriaToMagiciteFile(directory, "Map", tDir.directory, finalFile)));
 					using JsonWriter writer = new JsonTextWriter(sw);
 					serializer.Serialize(writer, jEvents);
 				}

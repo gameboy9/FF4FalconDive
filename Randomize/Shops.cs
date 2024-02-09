@@ -120,36 +120,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			public int purchase_limit = 0; // 0 = unlimited
 		}
 
-		List<shopItem> productList = new List<shopItem>();
-
-		private List<shopItem> determineItems(List<int> items, List<int> stores, Random r1)
-		{
-			List<shopItem> shopDB = new List<shopItem>();
-
-			List<int> storeNumItems = new List<int>();
-			bool duplicates = true;
-			while (duplicates)
-			{
-				storeNumItems.Clear();
-				for (int lnI = 0; lnI < stores.Count - 1; lnI++)
-					storeNumItems.Add(r1.Next() % items.Count);
-				storeNumItems.Add(items.Count);
-				duplicates = storeNumItems.AreAnyDuplicates();
-			}
-			storeNumItems.Sort();
-			for (int lnI = 0; lnI < items.Count; lnI++)
-			{
-				shopItem newItem = new shopItem();
-				newItem.id = 0;
-				newItem.group_id = stores[storeNumItems.Select((elem, index) => new { elem, index }).First(p => p.elem > lnI).index];
-				newItem.content_id = items[lnI];
-				shopDB.Add(newItem);
-			}
-
-			return shopDB;
-		}
-
-		public Shops(Random r1, int randoLevel, int freqLevel, bool noJ, bool noSuper, string fileName, bool includeBonus, bool includeFGExclusive, int multiplier, int divisor, int[] party)
+		public Shops(Random r1, int randoLevel, int freqLevel, bool noJ, bool noSuper, string directory, bool includeBonus, bool includeFGExclusive, int multiplier, int divisor, int[] party)
 		{
 			List<shopItem> shopDB = new List<shopItem>();
 			List<shopItem> shopWorking = new List<shopItem>();
@@ -205,7 +176,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				shopDB.AddRange(shopWorking.OrderBy(c => c.content_id));
 			}
 
-			using (StreamWriter sw = new StreamWriter(fileName))
+			using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "product.csv")))
 			{
 				sw.WriteLine("id,content_id,group_id,coefficient,purchase_limit");
 				int finalID = 0;
@@ -223,17 +194,6 @@ namespace FF4FreeEnterprisePR.Randomize
 					sw.WriteLine(finalID + ",0," + (i + 101).ToString() + "," + (prices[i] * multiplier / divisor).ToString() + ",0"); finalID++;
 				}
 			}
-		}
-
-		private shopItem addManualItem(int item, int group_id, ref int id)
-        {
-			shopItem newItem = new shopItem();
-			newItem.group_id = group_id;
-			newItem.id = id;
-			newItem.content_id = item;
-			id++;
-
-			return newItem;
 		}
 	}
 }

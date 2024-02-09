@@ -1,5 +1,6 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration.Attributes;
+using FF4FreeEnterprisePR.Inventory;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -30,7 +31,7 @@ namespace FF4FalconDive.Inventory
 			foreach (string language in languages)
 			{
 				// Get mes_id_name from content.csv, then get accordingly name from whatever language you're using. (system_xx)
-				using (StreamReader reader = new StreamReader(Path.Combine(directory, "story_mes_" + language + ".txt")))
+				using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "story_mes_" + language + ".txt")))
 				{
 					CsvHelper.Configuration.CsvConfiguration config = new CsvHelper.Configuration.CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture);
 					config.Delimiter = "\t";
@@ -48,8 +49,8 @@ namespace FF4FalconDive.Inventory
 					msgStrings.Add(new message { id = "LUNAR_BLUE", msgString = "Go To The Blue Planet" });
 					msgStrings.Add(new message { id = "LEGEND_REQ", msgString = "My smithing days are over! I won't forge another sword until I find the legendary ore, adamantite... and I need the Sword Of Legend too..." });
 					msgStrings.Add(new message { id = "FE_NOT_ENOUGH_SHARDS", msgString = "You do not have the required number of shards to face Zeromus." });
-					msgStrings.Add(new message { id = "FE_NOTHING_G1", msgString = "You now have found 3 Nothings!  Check out the Nothing Vending Machine in the Agora Laboratory (the telescope) to receive a possible key item!" });
-					msgStrings.Add(new message { id = "FE_NOTHING_G2", msgString = "You now have found 5 Nothings!  Check out the Nothing Vending Machine in the Agora Laboratory (the telescope) for a special reward!" });
+					msgStrings.Add(new message { id = "FE_NOTHING_G1", msgString = "You now have found 3 Nothings!  Check out the Nothing Vending Machine in the Agart Laboratory (the telescope) to receive a possible key item!" });
+					msgStrings.Add(new message { id = "FE_NOTHING_G2", msgString = "You now have found 5 Nothings!  Check out the Nothing Vending Machine in the Agart Laboratory (the telescope) for a special reward!" });
 					msgStrings.Add(new message { id = "FE_ZEROMUS_GOOD", msgString = "You now have enough shards to face Zeromus!" });
 					msgStrings.Add(new message { id = "FE_SIREN_GOOD", msgString = "You now have enough shards to use sirens!" });
 					msgStrings.Add(new message { id = "FE_SIREN_BAD", msgString = sirensAllowed ? "You do not have the required number of shards to use sirens." : "Sirens are not allowed in this seed." });
@@ -99,14 +100,14 @@ namespace FF4FalconDive.Inventory
 					msgStrings.Where(c => c.id == "E0074_06_354_a_06").Single().msgString = @"Thank you for playing!\n";
 
 
-					using (StreamWriter writer = new StreamWriter(Path.Combine(directory, "story_mes_" + language + ".txt")))
+					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "story_mes_" + language + ".txt")))
 					using (CsvWriter csv = new CsvWriter(writer, config))
 					{
 						csv.WriteRecords(msgStrings);
 					}
 				}
 
-				using (StreamReader reader = new StreamReader(Path.Combine(directory, "system_" + language + ".txt")))
+				using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "system_" + language + ".txt")))
 				{
 					CsvHelper.Configuration.CsvConfiguration config = new CsvHelper.Configuration.CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture);
 					config.Delimiter = "\t";
@@ -128,9 +129,7 @@ namespace FF4FalconDive.Inventory
 						//charMarker[party[i] - 1]++;
 					}
 
-
-
-					using (StreamWriter writer = new StreamWriter(Path.Combine(directory, "system_" + language + ".txt")))
+					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "system_" + language + ".txt")))
 					using (CsvWriter csv = new CsvWriter(writer, config))
 					{
 						csv.WriteRecords(msgStrings);

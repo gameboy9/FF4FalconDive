@@ -90,7 +90,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int decoy = 56; // t3
 		public const int lightCurtain = 57; // t6
 		public const int lunarCurtain = 58; // t8
-		public const int megalixir = 869; // t8
+		public const int megalixir = 969; // t8
 
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { potion, phoenixDown, maidensKiss, mallet, dietFood, echoHerbs, eyeDrops, antidote,
@@ -132,7 +132,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				item.sell = item.sell > 99999 ? 99999 : item.sell < 1 ? 1 : item.sell;
 			}
 
-			using (StreamWriter writer = new StreamWriter(Path.Combine(directory, "item.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "item.csv")))
 			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(records);

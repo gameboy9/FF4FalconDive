@@ -128,46 +128,46 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int protectRing = 308; // t8
 		public const int crystalRing = 309; // t7
 
-		public const int grandArmor = 830; // t8
-		public const int dragoonPlate = 831; // t8
-		public const int caesarsPlate = 832; // t9
-		public const int maximiillian = 833; // t9
-		public const int redJacket = 834; // t7
-		public const int braveSuit = 835; // t8
-		public const int chocoboSuit = 836; // t8
-		public const int tabbySuit = 837; // t8
-		public const int battleGear = 838; // t9
-		public const int assassinVest = 839; // t9
-		public const int vishnuVest = 840; // t9
-		public const int sageRobe = 841; // t9
-		public const int robeOfLords = 842; // t9
-		public const int rainbowRobe = 843; // t9
-		public const int whiteDress = 844; // t9
-		public const int heroShield = 845; // t9
-		public const int chocoboShield = 846; // t7
-		public const int hypnocrown = 847; // t7
-		public const int catearHood = 848; // t7
-		public const int whiteTigerMask = 849; // t7
-		public const int redCap = 850; // t8
-		public const int rabbitearHood = 851; // t9
-		public const int augustineTiara = 852; // t9
-		public const int starOfKamiKazari = 853; // t9
-		public const int royalCrown = 854; // t9
-		public const int dualMask = 855; // t9
-		public const int demonHat = 856; // t9
-		public const int philosopherHat = 857; // t9
-		public const int grandHelm = 858; // t9
-		public const int caesarHelm = 859; // t9
-		public const int dragoonHelm = 860; // t9
-		public const int edgeDemonHelm = 861; // t9
-		public const int safetyMet = 862; // t9
-		public const int erdrickArmor = 863; // t8
-		public const int silverShield = 864; // t8
-		public const int reflectRing = 868; // t7
-		public const int platinumRobe = 870; // t8
-		public const int swiftHat = 871; // t8
-		public const int focusShield = 872; // t9
-		public const int glowRing = 873; // t9
+		public const int grandArmor = 930; // t8
+		public const int dragoonPlate = 931; // t8
+		public const int caesarsPlate = 932; // t9
+		public const int maximiillian = 933; // t9
+		public const int redJacket = 934; // t7
+		public const int braveSuit = 935; // t8
+		public const int chocoboSuit = 936; // t8
+		public const int tabbySuit = 937; // t8
+		public const int battleGear = 938; // t9
+		public const int assassinVest = 939; // t9
+		public const int vishnuVest = 940; // t9
+		public const int sageRobe = 941; // t9
+		public const int robeOfLords = 942; // t9
+		public const int rainbowRobe = 943; // t9
+		public const int whiteDress = 944; // t9
+		public const int heroShield = 945; // t9
+		public const int chocoboShield = 946; // t7
+		public const int hypnocrown = 947; // t7
+		public const int catearHood = 948; // t7
+		public const int whiteTigerMask = 949; // t7
+		public const int redCap = 950; // t8
+		public const int rabbitearHood = 951; // t9
+		public const int augustineTiara = 952; // t9
+		public const int starOfKamiKazari = 953; // t9
+		public const int royalCrown = 954; // t9
+		public const int dualMask = 955; // t9
+		public const int demonHat = 956; // t9
+		public const int philosopherHat = 957; // t9
+		public const int grandHelm = 958; // t9
+		public const int caesarHelm = 959; // t9
+		public const int dragoonHelm = 960; // t9
+		public const int edgeDemonHelm = 961; // t9
+		public const int safetyMet = 962; // t9
+		public const int erdrickArmor = 963; // t8
+		public const int silverShield = 964; // t8
+		public const int reflectRing = 968; // t7
+		public const int platinumRobe = 970; // t8
+		public const int swiftHat = 971; // t8
+		public const int focusShield = 972; // t9
+		public const int glowRing = 973; // t9
 
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { ironShield, darkShield, leatherCap, ironHelm, clothes, prisonerCloth, leatherGarb, bardTunic, ironArmor, darkArmor, rubyRing, ironGloves, darkGloves, ironArmlet },
@@ -239,7 +239,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				item.sell = item.sell > 99999 ? 99999 : item.sell < 1 ? 1 : item.sell;
 			}
 
-			using (StreamWriter writer = new StreamWriter(Path.Combine(directory, "armor.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "armor.csv")))
 			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(records);
