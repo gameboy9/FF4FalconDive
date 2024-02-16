@@ -239,7 +239,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				item.sell = item.sell > 99999 ? 99999 : item.sell < 1 ? 1 : item.sell;
 			}
 
-			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "armor.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData\\armor.csv")))
 			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(records);

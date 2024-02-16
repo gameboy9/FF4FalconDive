@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
@@ -93,7 +94,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				if (!Directory.Exists(Path.Combine(topDirectory, Path.GetDirectoryName(finalFile))))
 					Directory.CreateDirectory(Path.Combine(topDirectory, Path.GetDirectoryName(finalFile)));
 
-				File.Copy(file, Path.Combine(topDirectory, finalFile), true);
+				File.Copy(file, MemoriaToMagiciteFile(mainDirectory, file), true);
 				importJson.keys.Add(finalFile.Substring(0, finalFile.IndexOf('.')).Replace('\\', '/'));
 				importJson.values.Add(topValue.Replace('\\', '/') + "/" + finalFile.Substring(0, finalFile.IndexOf('.')).Replace('\\', '/'));
 			}
@@ -107,22 +108,26 @@ namespace FF4FreeEnterprisePR.Inventory
 			}
 		}
 
-		public static string MemoriaToMagiciteFile(string mainDirectory, string type, string topKey, string fileToUse)
+		public static string MemoriaToMagiciteFile(string mainDirectory, string type, string fileToUse, string topKey = null)
 		{
             string topValue;
 
 			switch (type)
 			{
 				case "Message":
+					topKey = "message";
 					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Data", "Message");
 					break;
 				case "MainData":
+					topKey = "master";
 					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Data", "Master");
 					break;
 				case "MonsterAI":
+					topKey = "monster_ai";
 					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Battle", "MonsterAI");
 					break;
 				case "Map":
+					if (topKey == null) throw new Exception("Map type has no topKey parameter value");
 					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Map");
 					break;
 				default:
@@ -130,6 +135,42 @@ namespace FF4FreeEnterprisePR.Inventory
 			}
 
 			return Path.Combine(mainDirectory, "Magicite", "FalconDive", topKey, topValue, fileToUse);
+		}
+
+		public static string MemoriaToMagiciteFile(string mainDirectory, string fileToUse)
+		{
+			string finalFile = fileToUse.ToLower();
+			// TODO:  Establish types
+			while (finalFile.StartsWith(@"\"))
+				finalFile = fileToUse[1..];
+			while (finalFile.StartsWith(@"res\") || finalFile.StartsWith(@"data\"))
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+			if (finalFile.StartsWith(@"battle\"))
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+			if (finalFile.StartsWith(@"map\"))
+			{
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				string topKey = finalFile.Substring(0, finalFile.IndexOf('\\'));
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				return MemoriaToMagiciteFile(mainDirectory, "Map", finalFile, topKey);
+			}
+			else if (finalFile.StartsWith(@"monsterai"))
+			{
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				return MemoriaToMagiciteFile(mainDirectory, "MonsterAI", finalFile);
+			}
+			else if (finalFile.StartsWith(@"message"))
+			{
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				return MemoriaToMagiciteFile(mainDirectory, "Message", finalFile);
+			}
+			else if (finalFile.StartsWith(@"master") || finalFile.StartsWith(@"maindata"))
+			{
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				return MemoriaToMagiciteFile(mainDirectory, "MainData", finalFile);
+			}
+
+			throw new Exception("Invalid fileToUse parameter:  " + fileToUse);
 		}
 
 		private class ImportData

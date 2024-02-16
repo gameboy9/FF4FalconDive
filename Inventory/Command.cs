@@ -48,7 +48,7 @@ namespace FF4FreeEnterprisePR.Inventory
             twinCast.release_value1 = position1;
             twinCast.release_value2 = position2;
 
-            using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "command.csv")))
+            using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData\\command.csv")))
             using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
             {
                 csv.WriteRecords(records);

@@ -243,7 +243,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				id++;
 			}
 
-			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "character_status.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData\\character_status.csv")))
 			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
 				csv.WriteRecords(newRecords);
 
@@ -263,13 +263,13 @@ namespace FF4FreeEnterprisePR.Randomize
 			int startingGold = 0 + (r1.Next() % 11 * 10);
 			newInits.Where(c => c.id == 6).Single().value1 = startingGold;
 
-			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "initialize_data.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData\\initialize_data.csv")))
 			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(newInits);
 			}
 
-			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "intermediate_growth_curve.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData\\intermediate_growth_curve.csv")))
 			{
 				writer.WriteLine("id,character_id,job_id,growth_curve_group_id,exp_table_group_id");
 				id = 1;
@@ -310,7 +310,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			xp = Math.Max(xp, 0);
 
 			List<character> records;
-			using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "character_status.csv")))
+			using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "MainData\\character_status.csv")))
 			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
 				records = csv.GetRecords<character>().ToList();
 
@@ -330,12 +330,12 @@ namespace FF4FreeEnterprisePR.Randomize
 				learnings = csv.GetRecords<learning>().ToList();
 
 			List<intGrowCurve> intGrowthCurve;
-			using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "intermediate_growth_curve.csv")))
+			using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, @"MainData\intermediate_growth_curve.csv")))
 			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
 				intGrowthCurve = csv.GetRecords<intGrowCurve>().ToList();
 
 			List<abilityGroup> startGroups;
-			using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "ability_random_group.csv")))
+			using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, @"MainData\ability_random_group.csv")))
 			using (CsvReader csv = new CsvReader(reader, System.Globalization.CultureInfo.InvariantCulture))
 				startGroups = csv.GetRecords<abilityGroup>().ToList();
 
@@ -407,11 +407,11 @@ namespace FF4FreeEnterprisePR.Randomize
 			records[i].exp = xp;
 			records[i].ability_random_group_id = startGroupCharID;
 
-			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "character_status.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData\\character_status.csv")))
 			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
 				csv.WriteRecords(records);
 
-			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "ability_random_group.csv")))
+			using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData\\ability_random_group.csv")))
 			using (CsvWriter csv = new CsvWriter(writer, System.Globalization.CultureInfo.InvariantCulture))
 				csv.WriteRecords(startGroups);
 		}

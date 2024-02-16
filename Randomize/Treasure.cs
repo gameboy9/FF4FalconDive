@@ -200,7 +200,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					finalFile = finalFile.Substring(finalFile.IndexOf('\\') + 1);
 					finalFile = finalFile.Substring(finalFile.IndexOf('\\') + 1);
 
-					using StreamWriter sw = new(Path.Combine(Updater.MemoriaToMagiciteFile(directory, "Map", tDir.directory, finalFile)));
+					using StreamWriter sw = new(Path.Combine(Updater.MemoriaToMagiciteFile(directory, Path.Combine("Map", tDir.directory, finalFile))));
 					using JsonWriter writer = new JsonTextWriter(sw);
 					serializer.Serialize(writer, jEvents);
 				}

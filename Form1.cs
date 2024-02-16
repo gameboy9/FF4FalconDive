@@ -11,7 +11,7 @@ namespace FF4FreeEnterprisePR
 {
 	public partial class FF4FalconDive : Form
 	{
-		const string defaultFlags = "0VQ9KO100000";
+		const string defaultFlags = "0OQ9KO100000";
 		string updateDirectory;
 
 		bool loading = true;
@@ -324,7 +324,7 @@ namespace FF4FreeEnterprisePR
 
 				using (SHA1 sha1Crypto = SHA1.Create())
 				{
-					using (FileStream stream = File.OpenRead(Updater.MemoriaToMagiciteFile(updateDirectory, "MainData", "master", "monster_party.csv")))
+					using (FileStream stream = File.OpenRead(Updater.MemoriaToMagiciteFile(updateDirectory, @"MainData\monster_party.csv")))
 					{
 						checkSum = BitConverter.ToString(sha1Crypto.ComputeHash(stream)).ToLower().Replace("-", "").Substring(0, 16);
 					}

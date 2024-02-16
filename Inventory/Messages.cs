@@ -31,7 +31,7 @@ namespace FF4FalconDive.Inventory
 			foreach (string language in languages)
 			{
 				// Get mes_id_name from content.csv, then get accordingly name from whatever language you're using. (system_xx)
-				using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "story_mes_" + language + ".txt")))
+				using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "Message\\story_mes_" + language + ".txt")))
 				{
 					CsvHelper.Configuration.CsvConfiguration config = new CsvHelper.Configuration.CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture);
 					config.Delimiter = "\t";
@@ -100,14 +100,14 @@ namespace FF4FalconDive.Inventory
 					msgStrings.Where(c => c.id == "E0074_06_354_a_06").Single().msgString = @"Thank you for playing!\n";
 
 
-					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "story_mes_" + language + ".txt")))
+					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message\\story_mes_" + language + ".txt")))
 					using (CsvWriter csv = new CsvWriter(writer, config))
 					{
 						csv.WriteRecords(msgStrings);
 					}
 				}
 
-				using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "system_" + language + ".txt")))
+				using (StreamReader reader = new StreamReader(Updater.MemoriaToMagiciteFile(directory, "Message\\system_" + language + ".txt")))
 				{
 					CsvHelper.Configuration.CsvConfiguration config = new CsvHelper.Configuration.CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture);
 					config.Delimiter = "\t";
@@ -129,7 +129,7 @@ namespace FF4FalconDive.Inventory
 						//charMarker[party[i] - 1]++;
 					}
 
-					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "system_" + language + ".txt")))
+					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message\\system_" + language + ".txt")))
 					using (CsvWriter csv = new CsvWriter(writer, config))
 					{
 						csv.WriteRecords(msgStrings);

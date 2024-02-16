@@ -426,6 +426,8 @@ namespace FF4FreeEnterprisePR.Randomize
 							monsterParty.battle_bgm_asset_id = currentReward.bossbgm;
 							monsterParty.battle_background_asset_id = currentReward.bossBattleBackground;
 						}
+						monsterParty.battle_pattern1 = pairing[0] == 10 ? 0 : 1;
+						monsterParty.battle_pattern2 = pairing[0] == 10 ? 1 : 0;
 						monsterParty.battle_flag_group_id = 4; // Continue music and do not show victory screen after defeat of first part.  Also consider "1, 3, 5" if "2" doesn't work.
 						monsterParty = groups.Where(c => c.id == 438).Single();
 						monsterSprites.Add(102);
@@ -632,7 +634,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				monsterParty.battle_bgm_asset_id = currentReward.bossbgm;
 				monsterParty.battle_background_asset_id = currentReward.bossBattleBackground;
 				monsterParty.battle_flag_group_id = currentReward.battleFlagGroupID;
-				// Do NOT run a back attack if Wyvern or Golbez are selected at the Milon Z fight.
+				// Do NOT run a back attack if Wyvern or Golbez are selected at the Milon Z (pairing[0] == 10) fight.
 				monsterParty.battle_pattern1 = pairing[0] == 10 && pairing[1] != 30 && pairing[1] != 17 ? 0 : 1;
 				monsterParty.battle_pattern2 = pairing[0] == 10 && pairing[1] != 30 && pairing[1] != 17 ? 1 : 0;
 
@@ -663,9 +665,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 					serializer = new JsonSerializer();
 
-					using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Map", 
-						currentReward.bossScript.Substring(0, currentReward.bossScript.IndexOf('\\')), 
-						currentReward.bossScript.Substring(currentReward.bossScript.IndexOf('\\') + 1))))
+					using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, Path.Combine("Map", currentReward.bossScript))))
 					using (JsonWriter writer = new JsonTextWriter(sw))
 					{
 						serializer.Serialize(writer, jEvents);
@@ -680,9 +680,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					if (currentReward.bossId == 12 || currentReward.bossId == 13)
 					{
 						if (boss1213)
-							json = File.ReadAllText(Updater.MemoriaToMagiciteFile(directory, "Map",
-								currentReward.entityScript.Substring(0, currentReward.bossScript.IndexOf('\\')),
-								currentReward.entityScript.Substring(currentReward.bossScript.IndexOf('\\') + 1)));
+							json = File.ReadAllText(Updater.MemoriaToMagiciteFile(directory, Path.Combine("Map", currentReward.entityScript)));
 						else
 						{
 							boss1213 = true;
@@ -692,9 +690,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					else if (currentReward.bossId == 20 || currentReward.bossId == 21)
 					{
 						if (boss2021)
-							json = File.ReadAllText(Updater.MemoriaToMagiciteFile(directory, "Map",
-								currentReward.entityScript.Substring(0, currentReward.bossScript.IndexOf('\\')),
-								currentReward.entityScript.Substring(currentReward.bossScript.IndexOf('\\') + 1)));
+							json = File.ReadAllText(Updater.MemoriaToMagiciteFile(directory, Path.Combine("Map", currentReward.entityScript)));
 						else
 						{
 							boss2021 = true;
@@ -705,9 +701,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					else if (currentReward.bossId == 24 || currentReward.bossId == 25)
 					{
 						if (boss2425)
-							json = File.ReadAllText(Updater.MemoriaToMagiciteFile(directory, "Map",
-								currentReward.entityScript.Substring(0, currentReward.bossScript.IndexOf('\\')),
-								currentReward.entityScript.Substring(currentReward.bossScript.IndexOf('\\') + 1)));
+							json = File.ReadAllText(Updater.MemoriaToMagiciteFile(directory, Path.Combine("Map", currentReward.entityScript)));
 						else
 						{
 							boss2425 = true;
@@ -749,9 +743,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					}
 					serializer = new JsonSerializer();
 
-					using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Map",
-								currentReward.entityScript.Substring(0, currentReward.entityScript.IndexOf('\\')),
-								currentReward.entityScript.Substring(currentReward.entityScript.IndexOf('\\') + 1))))
+					using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, Path.Combine("Map", currentReward.entityScript))))
 					using (JsonWriter writer = new JsonTextWriter(sw))
 					{
 						serializer.Serialize(writer, jEntities);
@@ -824,7 +816,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			trickerGroup.monster8_x_position = 5;
 			trickerGroup.monster9_x_position = 0;
 
-			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "monster.csv")))
+			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, @"MainData\monster.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(allMonsters);
@@ -832,7 +824,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 			groups.Sort((a, b) => b.id.CompareTo(a.id));
 
-			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "monster_party.csv")))
+			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, @"MainData\monster_party.csv")))
 			using (CsvWriter csv = new(writer, System.Globalization.CultureInfo.InvariantCulture))
 			{
 				csv.WriteRecords(groups);
@@ -888,7 +880,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 			JsonSerializer serializer = new();
 
-			using StreamWriter sw = new(Updater.MemoriaToMagiciteFile(directory, "MonsterAI", "monster_ai", "sc_ai_171_Cagnazzo.json"));
+			using StreamWriter sw = new(Updater.MemoriaToMagiciteFile(directory, @"MonsterAI\sc_ai_171_Cagnazzo.json"));
 			using JsonWriter writer = new JsonTextWriter(sw);
 			serializer.Serialize(writer, elementalLord);
 		}
@@ -905,7 +897,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 			JsonSerializer serializer = new();
 
-			using StreamWriter sw = new(Updater.MemoriaToMagiciteFile(directory, "MonsterAI", "monster_ai", "sc_ai_194_ElementalLord.json"));
+			using StreamWriter sw = new(Updater.MemoriaToMagiciteFile(directory, @"MonsterAI\sc_ai_194_ElementalLord.json"));
 			using JsonWriter writer = new JsonTextWriter(sw);
 			serializer.Serialize(writer, elementalLord);
 
@@ -921,7 +913,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 			serializer = new();
 
-			using StreamWriter sw2 = new(Updater.MemoriaToMagiciteFile(directory, "MonsterAI", "monster_ai", "sc_ai_195_ElementalLord.json"));
+			using StreamWriter sw2 = new(Updater.MemoriaToMagiciteFile(directory, @"MonsterAI\sc_ai_195_ElementalLord.json"));
 			using JsonWriter writer2 = new JsonTextWriter(sw2);
 			serializer.Serialize(writer2, elementalLord);
 
@@ -937,7 +929,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 			serializer = new();
 
-			using StreamWriter sw3 = new(Updater.MemoriaToMagiciteFile(directory, "MonsterAI", "monster_ai", "sc_ai_228_ElementalLord.json"));
+			using StreamWriter sw3 = new(Updater.MemoriaToMagiciteFile(directory, @"MonsterAI\sc_ai_228_ElementalLord.json"));
 			using JsonWriter writer3 = new JsonTextWriter(sw3);
 			serializer.Serialize(writer3, elementalLord);
 		}

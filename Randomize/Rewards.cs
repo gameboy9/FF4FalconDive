@@ -530,9 +530,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					tailSelection.Add(itemSelected);
 				}
 
-				using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Map",
-					currentReward.winScript.Substring(0, currentReward.winScript.IndexOf('\\')),
-					currentReward.winScript.Substring(currentReward.winScript.IndexOf('\\') + 1))))
+				using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, Path.Combine("Map", currentReward.winScript))))
 				using (JsonWriter writer = new JsonTextWriter(sw))
 				{
 					serializer.Serialize(writer, jEvents);
@@ -554,7 +552,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			var swordJSON = jEventsXCal.Mnemonics.Where(c => c.comment == "XcalReward").Single();
 			swordJSON.operands.iValues[0] = swordItem;
 
-			using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Map", "Map_20181", @"Map_20181_1\sc_e_0107.json")))
+			using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, @"Map\Map_20181\Map_20181_1\sc_e_0107.json")))
 			using (JsonWriter writer = new JsonTextWriter(sw))
 			{
 				serializerXCal.Serialize(writer, jEventsXCal);
@@ -590,7 +588,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 					msgStrings.Add(new message { id = "XCAL_REWARD", msgString = "Received " + itemLookup(itemIDLookup(swordItem)) + "!" });
 
-					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message", "message", "story_mes_" + language + ".txt")))
+					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message\\story_mes_" + language + ".txt")))
 					using (CsvWriter csv = new CsvWriter(writer, config))
 					{
 						csv.WriteRecords(msgStrings);

@@ -176,7 +176,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				shopDB.AddRange(shopWorking.OrderBy(c => c.content_id));
 			}
 
-			using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData", "master", "product.csv")))
+			using (StreamWriter sw = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "MainData\\product.csv")))
 			{
 				sw.WriteLine("id,content_id,group_id,coefficient,purchase_limit");
 				int finalID = 0;
