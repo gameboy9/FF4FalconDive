@@ -5,14 +5,16 @@ using System.Data;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace FF4FreeEnterprisePR.Inventory
 {
 	public static class Updater
 	{
-		public static void update(string mainDirectory, string directory, bool zAtFalcon, bool zAtOrdeals)
+		public static void update(string mainDirectory, string directory, bool zAtFalcon, bool zAtOrdeals, bool showMonsterChests)
 		{
 			if (!Path.Exists(Path.Combine(mainDirectory, "BepInEx"))) 
 			{
@@ -59,9 +61,19 @@ namespace FF4FreeEnterprisePR.Inventory
 					File.Copy(jsonFile, MemoriaToMagiciteFile(directory, "Map", topKey, fileToUse), true);
 				}
 			}
+
+			if (showMonsterChests)
+			{
+				foreach (string jsonFile in Directory.GetDirectories(Path.Combine("AltScenarios","ShowMonsterChests"), "*.*", SearchOption.AllDirectories))
+				{
+					if (jsonFile.Count(f => f == '\\') != 2) continue;
+
+					MemoriaToMagiciteCopy(directory, jsonFile, "Map", Path.GetFileName(jsonFile), true);
+				}			
+			}
 		}
 
-		public static void MemoriaToMagiciteCopy(string mainDirectory, string origDirectory, string type, string topKey)
+		public static void MemoriaToMagiciteCopy(string mainDirectory, string origDirectory, string type, string topKey, bool merge=false)
 		{
 			string topDirectory;
 			string topValue;
@@ -92,6 +104,15 @@ namespace FF4FreeEnterprisePR.Inventory
 			Directory.CreateDirectory(topDirectory); // <-- We'll be creating an Export.json soon
 			Directory.CreateDirectory(Path.Combine(mainDirectory, "Magicite", "FalconDive", topKey, "keys")); // <-- We'll be creating an Export.json soon
 			ImportData importJson = new ImportData();
+			if (merge && File.Exists(Path.Combine(mainDirectory, "Magicite", "FalconDive", topKey, "keys", "Export.json")))
+			{
+				using (StreamReader sr = new StreamReader(Path.Combine(mainDirectory, "Magicite", "FalconDive", topKey, "keys", "Export.json")))
+				using (JsonTextReader reader = new JsonTextReader(sr))
+				{
+					JsonSerializer deserializer = new JsonSerializer();
+					importJson = deserializer.Deserialize<ImportData>(reader);
+				}
+			}
 
 			// Get files to export
 			string[] filesToExport = Directory.GetFiles(origDirectory, "*.*", SearchOption.AllDirectories);
@@ -107,7 +128,10 @@ namespace FF4FreeEnterprisePR.Inventory
 					Directory.CreateDirectory(Path.Combine(topDirectory, Path.GetDirectoryName(finalFile)));
 
 				File.Copy(file, MemoriaToMagiciteFile(mainDirectory, file), true);
-				if (finalFile.EndsWith("spritedata")) continue;
+
+				if (finalFile.EndsWith("spritedata")) continue; // FIXME this is correct for tilemap pngs which aren't supposed to have a spritedata but may fail if multiple sprites look at one png
+				if (type == "Map" && (finalFile.StartsWith(topKey + '\\',StringComparison.OrdinalIgnoreCase)))
+					finalFile = finalFile.Substring(finalFile.IndexOf('\\') + 1);
 				string keyName = (type == "BattleWeapon") ? finalFile.Substring(finalFile.IndexOf('\\') + 1) : finalFile;
 				importJson.keys.Add(keyName.Substring(0, keyName.IndexOf('.')).Replace('\\', '/'));
 				importJson.values.Add(topValue.Replace('\\', '/') + "/" + finalFile.Substring(0, finalFile.IndexOf('.')).Replace('\\', '/'));
@@ -162,6 +186,15 @@ namespace FF4FreeEnterprisePR.Inventory
 			// TODO:  Establish types
 			while (finalFile.StartsWith(@"\"))
 				finalFile = fileToUse[1..];
+			if (finalFile.StartsWith(@"altscenarios\",StringComparison.OrdinalIgnoreCase))
+			{
+				// Treat AltScenarios as consisting only of Map_XXXXX dirs
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				string topKey = finalFile.Substring(0, finalFile.IndexOf('\\'));
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				return MemoriaToMagiciteFile(mainDirectory, "Map", finalFile, topKey);
+			}
 			while (finalFile.StartsWith(@"res\",StringComparison.OrdinalIgnoreCase) || finalFile.StartsWith(@"data\",StringComparison.OrdinalIgnoreCase))
 				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
 			if (finalFile.StartsWith(@"battle\",StringComparison.OrdinalIgnoreCase))
