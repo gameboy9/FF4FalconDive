@@ -20,11 +20,19 @@ namespace FF4FreeEnterprisePR.Inventory
 			}
 
 			// Iterate through the map directory and copy the files into the other map directory...
-			foreach (string jsonFile in Directory.GetDirectories(Path.Combine("Res"), "*.*", SearchOption.AllDirectories))
+			foreach (string jsonFile in Directory.GetDirectories(Path.Combine("Res","Map"), "*.*", SearchOption.AllDirectories))
 			{
 				if (jsonFile.Count(f => f == '\\') != 2) continue;
 
-				MemoriaToMagiciteCopy(directory, jsonFile, jsonFile.Contains("Map") ? "Map" : "MonsterAI", jsonFile.Contains("Map") ? Path.GetFileName(jsonFile) : "monster_ai");
+				MemoriaToMagiciteCopy(directory, jsonFile, "Map", Path.GetFileName(jsonFile));
+			}
+			MemoriaToMagiciteCopy(directory, Path.Combine("Res","Battle","MonsterAI"), "MonsterAI", "monster_ai");
+			// Likewise for the Battle resources
+			foreach (string jsonFile in Directory.GetDirectories(Path.Combine("Res","Battle","BattleWeapon"), "*.*", SearchOption.AllDirectories))
+			{
+				if (jsonFile.Count(f => f == '\\') != 3) continue;
+
+				MemoriaToMagiciteCopy(directory, jsonFile, "BattleWeapon", Path.GetFileName(jsonFile));
 			}
 
 			foreach (string jsonFile in Directory.GetDirectories(Path.Combine("Data"), "*.*", SearchOption.AllDirectories))
@@ -69,13 +77,17 @@ namespace FF4FreeEnterprisePR.Inventory
 				case "MonsterAI":
 					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Battle");
 					break;
+				case "BattleWeapon":
+					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Battle", "BattleWeapon");
+					break;
 				case "Map":
-					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Map");
+					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Map", topKey);
 					break;
 				default:
 					throw new Exception("Invalid type parameter in MemoriaToMagicite");
 			}
 
+			topKey = topKey.ToLower();
 			topDirectory = Path.Combine(mainDirectory, "Magicite", "FalconDive", topKey, topValue);
 			Directory.CreateDirectory(topDirectory); // <-- We'll be creating an Export.json soon
 			Directory.CreateDirectory(Path.Combine(mainDirectory, "Magicite", "FalconDive", topKey, "keys")); // <-- We'll be creating an Export.json soon
@@ -95,7 +107,9 @@ namespace FF4FreeEnterprisePR.Inventory
 					Directory.CreateDirectory(Path.Combine(topDirectory, Path.GetDirectoryName(finalFile)));
 
 				File.Copy(file, MemoriaToMagiciteFile(mainDirectory, file), true);
-				importJson.keys.Add(finalFile.Substring(0, finalFile.IndexOf('.')).Replace('\\', '/'));
+				if (finalFile.EndsWith("spritedata")) continue;
+				string keyName = (type == "BattleWeapon") ? finalFile.Substring(finalFile.IndexOf('\\') + 1) : finalFile;
+				importJson.keys.Add(keyName.Substring(0, keyName.IndexOf('.')).Replace('\\', '/'));
 				importJson.values.Add(topValue.Replace('\\', '/') + "/" + finalFile.Substring(0, finalFile.IndexOf('.')).Replace('\\', '/'));
 			}
 
@@ -128,7 +142,11 @@ namespace FF4FreeEnterprisePR.Inventory
 					break;
 				case "Map":
 					if (topKey == null) throw new Exception("Map type has no topKey parameter value");
-					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Map");
+					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Map", topKey);
+					break;
+				case "BattleWeapon":
+					if (topKey == null) throw new Exception("BattleWeapon type has no topKey parameter value");
+					topValue = Path.Combine("Assets", "GameAssets", "Serial", "Res", "Battle", "BattleWeapon");
 					break;
 				default:
 					throw new Exception("Invalid type parameter in MemoriaToMagicite");
@@ -139,32 +157,39 @@ namespace FF4FreeEnterprisePR.Inventory
 
 		public static string MemoriaToMagiciteFile(string mainDirectory, string fileToUse)
 		{
-			string finalFile = fileToUse.ToLower();
+			//string finalFile = fileToUse.ToLower();
+			string finalFile = fileToUse;
 			// TODO:  Establish types
 			while (finalFile.StartsWith(@"\"))
 				finalFile = fileToUse[1..];
-			while (finalFile.StartsWith(@"res\") || finalFile.StartsWith(@"data\"))
+			while (finalFile.StartsWith(@"res\",StringComparison.OrdinalIgnoreCase) || finalFile.StartsWith(@"data\",StringComparison.OrdinalIgnoreCase))
 				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
-			if (finalFile.StartsWith(@"battle\"))
+			if (finalFile.StartsWith(@"battle\",StringComparison.OrdinalIgnoreCase))
 				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
-			if (finalFile.StartsWith(@"map\"))
+			if (finalFile.StartsWith(@"map\",StringComparison.OrdinalIgnoreCase))
 			{
 				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
 				string topKey = finalFile.Substring(0, finalFile.IndexOf('\\'));
 				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
 				return MemoriaToMagiciteFile(mainDirectory, "Map", finalFile, topKey);
 			}
-			else if (finalFile.StartsWith(@"monsterai"))
+			else if (finalFile.StartsWith(@"monsterai",StringComparison.OrdinalIgnoreCase))
 			{
 				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
 				return MemoriaToMagiciteFile(mainDirectory, "MonsterAI", finalFile);
 			}
-			else if (finalFile.StartsWith(@"message"))
+			else if (finalFile.StartsWith(@"battleweapon",StringComparison.OrdinalIgnoreCase))
+			{
+				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
+				string topKey = finalFile.Substring(0, finalFile.IndexOf('\\'));
+				return MemoriaToMagiciteFile(mainDirectory, "BattleWeapon", finalFile, topKey);
+			}
+			else if (finalFile.StartsWith(@"message",StringComparison.OrdinalIgnoreCase))
 			{
 				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
 				return MemoriaToMagiciteFile(mainDirectory, "Message", finalFile);
 			}
-			else if (finalFile.StartsWith(@"master") || finalFile.StartsWith(@"maindata"))
+			else if (finalFile.StartsWith(@"master",StringComparison.OrdinalIgnoreCase) || finalFile.StartsWith(@"maindata",StringComparison.OrdinalIgnoreCase))
 			{
 				finalFile = finalFile[(finalFile.IndexOf('\\') + 1)..];
 				return MemoriaToMagiciteFile(mainDirectory, "MainData", finalFile);
