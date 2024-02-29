@@ -130,7 +130,7 @@ namespace FF4FreeEnterprisePR.Inventory
 				File.Copy(file, MemoriaToMagiciteFile(mainDirectory, file), true);
 
 				if (finalFile.EndsWith("spritedata")) continue; // FIXME this is correct for tilemap pngs which aren't supposed to have a spritedata but may fail if multiple sprites look at one png
-				if (type == "Map" && (finalFile.StartsWith(topKey + '\\',StringComparison.OrdinalIgnoreCase)))
+				if (type == "Map" && (file.Count(f => f == '\\') == 3))
 					finalFile = finalFile.Substring(finalFile.IndexOf('\\') + 1);
 				string keyName = (type == "BattleWeapon") ? finalFile.Substring(finalFile.IndexOf('\\') + 1) : finalFile;
 				importJson.keys.Add(keyName.Substring(0, keyName.IndexOf('.')).Replace('\\', '/'));
