@@ -62,6 +62,7 @@ namespace FF4FreeEnterprisePR
 			shopItemQty = new System.Windows.Forms.ComboBox();
 			label13 = new System.Windows.Forms.Label();
 			label12 = new System.Windows.Forms.Label();
+			showMonsterChests = new System.Windows.Forms.CheckBox();
 			settingHero = new System.Windows.Forms.TabPage();
 			startingXP = new System.Windows.Forms.ComboBox();
 			label18 = new System.Windows.Forms.Label();
@@ -261,6 +262,7 @@ namespace FF4FreeEnterprisePR
 			settingGeneral.Controls.Add(shopItemQty);
 			settingGeneral.Controls.Add(label13);
 			settingGeneral.Controls.Add(label12);
+			settingGeneral.Controls.Add(showMonsterChests);
 			settingGeneral.Location = new System.Drawing.Point(4, 29);
 			settingGeneral.Name = "settingGeneral";
 			settingGeneral.Padding = new System.Windows.Forms.Padding(3);
@@ -300,6 +302,17 @@ namespace FF4FreeEnterprisePR
 			shardsBeforeSirens.TabIndex = 68;
 			shardsBeforeSirens.SelectedIndexChanged += DetermineFlags;
 			// 
+			// removeFGExclusiveItems
+			// 
+			removeFGExclusiveItems.AutoSize = true;
+			removeFGExclusiveItems.Location = new System.Drawing.Point(10, 50);
+			removeFGExclusiveItems.Name = "removeFGExclusiveItems";
+			removeFGExclusiveItems.Size = new System.Drawing.Size(210, 24);
+			removeFGExclusiveItems.TabIndex = 65;
+			removeFGExclusiveItems.Text = "Remove FD Exclusive Items";
+			removeFGExclusiveItems.UseVisualStyleBackColor = true;
+			removeFGExclusiveItems.CheckedChanged += DetermineFlags;
+			// 
 			// requiredShards
 			// 
 			requiredShards.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -320,16 +333,16 @@ namespace FF4FreeEnterprisePR
 			label5.TabIndex = 66;
 			label5.Text = "Required Shards";
 			// 
-			// removeFGExclusiveItems
+			// showMonsterChests
 			// 
-			removeFGExclusiveItems.AutoSize = true;
-			removeFGExclusiveItems.Location = new System.Drawing.Point(10, 50);
-			removeFGExclusiveItems.Name = "removeFGExclusiveItems";
-			removeFGExclusiveItems.Size = new System.Drawing.Size(210, 24);
-			removeFGExclusiveItems.TabIndex = 65;
-			removeFGExclusiveItems.Text = "Remove FD Exclusive Items";
-			removeFGExclusiveItems.UseVisualStyleBackColor = true;
-			removeFGExclusiveItems.CheckedChanged += DetermineFlags;
+			showMonsterChests.AutoSize = true;
+			showMonsterChests.Location = new System.Drawing.Point(10, 227);
+			showMonsterChests.Name = "showMonsterChests";
+			showMonsterChests.Size = new System.Drawing.Size(210, 24);
+			showMonsterChests.TabIndex = 76;
+			showMonsterChests.Text = "Show Monster Chests";
+			showMonsterChests.UseVisualStyleBackColor = true;
+			//showMonsterChests.CheckedChanged += DetermineFlags;
 			// 
 			// removeBonusItems
 			// 
@@ -1176,6 +1189,7 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.ToolTip hpAdjustTooltip;
 		private System.Windows.Forms.CheckBox exYang;
 		private System.Windows.Forms.CheckBox removeFGExclusiveItems;
+		private System.Windows.Forms.CheckBox showMonsterChests;
 		private System.Windows.Forms.ComboBox requiredShards;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.ComboBox zeromusDifficulty;

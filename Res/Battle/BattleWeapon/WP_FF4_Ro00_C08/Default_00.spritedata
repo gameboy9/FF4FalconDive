@@ -1,0 +1,5 @@
+Rect = [0,0,16,16]
+Pivot = [0.5,0.5]
+PixelsPerUnit = 1
+Border = [0,0,0,0]
+WrapMode = Clamp

@@ -307,7 +307,7 @@ namespace FF4FreeEnterprisePR
 
 			try
 			{
-				Updater.update(FF4PRFolder.Text, updateDirectory, zFalcon.Checked, zOrdeals.Checked);
+				Updater.update(FF4PRFolder.Text, updateDirectory, zFalcon.Checked, zOrdeals.Checked, showMonsterChests.Checked);
 
 				r1 = new Random((int)(seedNumber % 2147483648));
 				int[] party = randomizeParty(xpMulti * xpStart);
