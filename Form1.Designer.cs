@@ -84,6 +84,7 @@ namespace FF4FreeEnterprisePR
 			label6 = new System.Windows.Forms.Label();
 			dupCharactersAllowed = new System.Windows.Forms.CheckBox();
 			settingEnemies = new System.Windows.Forms.TabPage();
+			showMonsterChests = new System.Windows.Forms.CheckBox();
 			zFalcon = new System.Windows.Forms.CheckBox();
 			zOrdeals = new System.Windows.Forms.CheckBox();
 			zeromusDifficulty = new System.Windows.Forms.ComboBox();
@@ -730,6 +731,17 @@ namespace FF4FreeEnterprisePR
 			settingEnemies.TabIndex = 2;
 			settingEnemies.Text = "Enemies";
 			settingEnemies.UseVisualStyleBackColor = true;
+			// 
+			// showMonsterChests
+			// 
+			showMonsterChests.AutoSize = true;
+			showMonsterChests.Location = new System.Drawing.Point(7, 150);
+			showMonsterChests.Name = "showMonsterChests";
+			showMonsterChests.Size = new System.Drawing.Size(171, 24);
+			showMonsterChests.TabIndex = 77;
+			showMonsterChests.Text = "Show Monster Chests";
+			showMonsterChests.UseVisualStyleBackColor = true;
+			showMonsterChests.CheckedChanged += DetermineFlags;
 			// 
 			// zFalcon
 			// 
