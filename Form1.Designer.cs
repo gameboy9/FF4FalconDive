@@ -43,6 +43,12 @@ namespace FF4FreeEnterprisePR
 			button1 = new System.Windows.Forms.Button();
 			tabControl1 = new System.Windows.Forms.TabControl();
 			settingGeneral = new System.Windows.Forms.TabPage();
+			nothingTier9Item = new System.Windows.Forms.Label();
+			nothingKeyItem = new System.Windows.Forms.Label();
+			replaceNothings = new System.Windows.Forms.CheckBox();
+			nothingAmount = new System.Windows.Forms.Label();
+			numberOfShards = new System.Windows.Forms.ComboBox();
+			label15 = new System.Windows.Forms.Label();
 			FDItemLink = new System.Windows.Forms.LinkLabel();
 			label11 = new System.Windows.Forms.Label();
 			shardsBeforeSirens = new System.Windows.Forms.ComboBox();
@@ -63,6 +69,8 @@ namespace FF4FreeEnterprisePR
 			label13 = new System.Windows.Forms.Label();
 			label12 = new System.Windows.Forms.Label();
 			settingHero = new System.Windows.Forms.TabPage();
+			minHeroes = new System.Windows.Forms.ComboBox();
+			label17 = new System.Windows.Forms.Label();
 			startingXP = new System.Windows.Forms.ComboBox();
 			label18 = new System.Windows.Forms.Label();
 			exYang = new System.Windows.Forms.CheckBox();
@@ -242,6 +250,12 @@ namespace FF4FreeEnterprisePR
 			// 
 			// settingGeneral
 			// 
+			settingGeneral.Controls.Add(nothingTier9Item);
+			settingGeneral.Controls.Add(nothingKeyItem);
+			settingGeneral.Controls.Add(replaceNothings);
+			settingGeneral.Controls.Add(nothingAmount);
+			settingGeneral.Controls.Add(numberOfShards);
+			settingGeneral.Controls.Add(label15);
 			settingGeneral.Controls.Add(FDItemLink);
 			settingGeneral.Controls.Add(label11);
 			settingGeneral.Controls.Add(shardsBeforeSirens);
@@ -269,6 +283,64 @@ namespace FF4FreeEnterprisePR
 			settingGeneral.Text = "General";
 			settingGeneral.UseVisualStyleBackColor = true;
 			// 
+			// nothingTier9Item
+			// 
+			nothingTier9Item.AutoSize = true;
+			nothingTier9Item.Location = new System.Drawing.Point(298, 200);
+			nothingTier9Item.Name = "nothingTier9Item";
+			nothingTier9Item.Size = new System.Drawing.Size(131, 20);
+			nothingTier9Item.TabIndex = 76;
+			nothingTier9Item.Text = "Req For Special:  6";
+			// 
+			// nothingKeyItem
+			// 
+			nothingKeyItem.AutoSize = true;
+			nothingKeyItem.Location = new System.Drawing.Point(298, 179);
+			nothingKeyItem.Name = "nothingKeyItem";
+			nothingKeyItem.Size = new System.Drawing.Size(139, 20);
+			nothingKeyItem.TabIndex = 75;
+			nothingKeyItem.Text = "Req for Key Item:  6";
+			// 
+			// replaceNothings
+			// 
+			replaceNothings.AutoSize = true;
+			replaceNothings.Location = new System.Drawing.Point(463, 158);
+			replaceNothings.Name = "replaceNothings";
+			replaceNothings.Size = new System.Drawing.Size(234, 24);
+			replaceNothings.TabIndex = 74;
+			replaceNothings.Text = "Replace Nothings with an Item";
+			replaceNothings.UseVisualStyleBackColor = true;
+			replaceNothings.CheckedChanged += DetermineFlags;
+			// 
+			// nothingAmount
+			// 
+			nothingAmount.AutoSize = true;
+			nothingAmount.Location = new System.Drawing.Point(298, 159);
+			nothingAmount.Name = "nothingAmount";
+			nothingAmount.Size = new System.Drawing.Size(119, 20);
+			nothingAmount.TabIndex = 73;
+			nothingAmount.Text = "# of Nothings:  6";
+			// 
+			// numberOfShards
+			// 
+			numberOfShards.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			numberOfShards.FormattingEnabled = true;
+			numberOfShards.Items.AddRange(new object[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" });
+			numberOfShards.Location = new System.Drawing.Point(160, 156);
+			numberOfShards.Name = "numberOfShards";
+			numberOfShards.Size = new System.Drawing.Size(67, 28);
+			numberOfShards.TabIndex = 72;
+			numberOfShards.SelectedIndexChanged += DetermineFlags;
+			// 
+			// label15
+			// 
+			label15.AutoSize = true;
+			label15.Location = new System.Drawing.Point(11, 159);
+			label15.Name = "label15";
+			label15.Size = new System.Drawing.Size(84, 20);
+			label15.TabIndex = 71;
+			label15.Text = "# of Shards";
+			// 
 			// FDItemLink
 			// 
 			FDItemLink.AutoSize = true;
@@ -283,7 +355,7 @@ namespace FF4FreeEnterprisePR
 			// label11
 			// 
 			label11.AutoSize = true;
-			label11.Location = new System.Drawing.Point(10, 193);
+			label11.Location = new System.Drawing.Point(10, 229);
 			label11.Name = "label11";
 			label11.Size = new System.Drawing.Size(148, 20);
 			label11.TabIndex = 69;
@@ -293,10 +365,10 @@ namespace FF4FreeEnterprisePR
 			// 
 			shardsBeforeSirens.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			shardsBeforeSirens.FormattingEnabled = true;
-			shardsBeforeSirens.Items.AddRange(new object[] { "0", "1", "2", "3", "4", "Not Allowed" });
-			shardsBeforeSirens.Location = new System.Drawing.Point(160, 190);
+			shardsBeforeSirens.Items.AddRange(new object[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "Not Allowed" });
+			shardsBeforeSirens.Location = new System.Drawing.Point(160, 226);
 			shardsBeforeSirens.Name = "shardsBeforeSirens";
-			shardsBeforeSirens.Size = new System.Drawing.Size(148, 28);
+			shardsBeforeSirens.Size = new System.Drawing.Size(120, 28);
 			shardsBeforeSirens.TabIndex = 68;
 			shardsBeforeSirens.SelectedIndexChanged += DetermineFlags;
 			// 
@@ -304,8 +376,8 @@ namespace FF4FreeEnterprisePR
 			// 
 			requiredShards.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			requiredShards.FormattingEnabled = true;
-			requiredShards.Items.AddRange(new object[] { "0", "1", "2", "3", "4" });
-			requiredShards.Location = new System.Drawing.Point(160, 156);
+			requiredShards.Items.AddRange(new object[] { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13" });
+			requiredShards.Location = new System.Drawing.Point(160, 192);
 			requiredShards.Name = "requiredShards";
 			requiredShards.Size = new System.Drawing.Size(67, 28);
 			requiredShards.TabIndex = 67;
@@ -314,7 +386,7 @@ namespace FF4FreeEnterprisePR
 			// label5
 			// 
 			label5.AutoSize = true;
-			label5.Location = new System.Drawing.Point(11, 159);
+			label5.Location = new System.Drawing.Point(11, 195);
 			label5.Name = "label5";
 			label5.Size = new System.Drawing.Size(117, 20);
 			label5.TabIndex = 66;
@@ -468,6 +540,8 @@ namespace FF4FreeEnterprisePR
 			// 
 			// settingHero
 			// 
+			settingHero.Controls.Add(minHeroes);
+			settingHero.Controls.Add(label17);
 			settingHero.Controls.Add(startingXP);
 			settingHero.Controls.Add(label18);
 			settingHero.Controls.Add(exYang);
@@ -495,6 +569,26 @@ namespace FF4FreeEnterprisePR
 			settingHero.TabIndex = 1;
 			settingHero.Text = "Heroes";
 			settingHero.UseVisualStyleBackColor = true;
+			// 
+			// minHeroes
+			// 
+			minHeroes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+			minHeroes.FormattingEnabled = true;
+			minHeroes.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "Random" });
+			minHeroes.Location = new System.Drawing.Point(222, 250);
+			minHeroes.Name = "minHeroes";
+			minHeroes.Size = new System.Drawing.Size(117, 28);
+			minHeroes.TabIndex = 77;
+			minHeroes.SelectedIndexChanged += DetermineFlags;
+			// 
+			// label17
+			// 
+			label17.AutoSize = true;
+			label17.Location = new System.Drawing.Point(7, 253);
+			label17.Name = "label17";
+			label17.Size = new System.Drawing.Size(194, 20);
+			label17.TabIndex = 76;
+			label17.Text = "Min heroes before new area";
 			// 
 			// startingXP
 			// 
@@ -683,12 +777,11 @@ namespace FF4FreeEnterprisePR
 			// 
 			numHeroes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			numHeroes.FormattingEnabled = true;
-			numHeroes.Items.AddRange(new object[] { "5", "4", "3", "2", "1" });
+			numHeroes.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "Random" });
 			numHeroes.Location = new System.Drawing.Point(122, 13);
 			numHeroes.Name = "numHeroes";
 			numHeroes.Size = new System.Drawing.Size(148, 28);
 			numHeroes.TabIndex = 57;
-			numHeroes.Visible = false;
 			numHeroes.SelectedIndexChanged += DetermineFlags;
 			// 
 			// label6
@@ -699,7 +792,6 @@ namespace FF4FreeEnterprisePR
 			label6.Size = new System.Drawing.Size(87, 20);
 			label6.TabIndex = 56;
 			label6.Text = "# of Heroes";
-			label6.Visible = false;
 			// 
 			// dupCharactersAllowed
 			// 
@@ -734,7 +826,7 @@ namespace FF4FreeEnterprisePR
 			// zFalcon
 			// 
 			zFalcon.AutoSize = true;
-			zFalcon.Location = new System.Drawing.Point(469, 47);
+			zFalcon.Location = new System.Drawing.Point(473, 47);
 			zFalcon.Name = "zFalcon";
 			zFalcon.Size = new System.Drawing.Size(104, 24);
 			zFalcon.TabIndex = 52;
@@ -745,7 +837,7 @@ namespace FF4FreeEnterprisePR
 			// zOrdeals
 			// 
 			zOrdeals.AutoSize = true;
-			zOrdeals.Location = new System.Drawing.Point(333, 47);
+			zOrdeals.Location = new System.Drawing.Point(337, 47);
 			zOrdeals.Name = "zOrdeals";
 			zOrdeals.Size = new System.Drawing.Size(113, 24);
 			zOrdeals.TabIndex = 51;
@@ -758,7 +850,7 @@ namespace FF4FreeEnterprisePR
 			zeromusDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			zeromusDifficulty.FormattingEnabled = true;
 			zeromusDifficulty.Items.AddRange(new object[] { "Very Easy", "Easy", "Normal", "Hard", "Very Hard" });
-			zeromusDifficulty.Location = new System.Drawing.Point(153, 47);
+			zeromusDifficulty.Location = new System.Drawing.Point(157, 47);
 			zeromusDifficulty.Name = "zeromusDifficulty";
 			zeromusDifficulty.Size = new System.Drawing.Size(148, 28);
 			zeromusDifficulty.TabIndex = 50;
@@ -767,7 +859,7 @@ namespace FF4FreeEnterprisePR
 			// label10
 			// 
 			label10.AutoSize = true;
-			label10.Location = new System.Drawing.Point(3, 51);
+			label10.Location = new System.Drawing.Point(7, 51);
 			label10.Name = "label10";
 			label10.Size = new System.Drawing.Size(131, 20);
 			label10.TabIndex = 49;
@@ -778,7 +870,7 @@ namespace FF4FreeEnterprisePR
 			gpMultiplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			gpMultiplier.FormattingEnabled = true;
 			gpMultiplier.Items.AddRange(new object[] { "1x", "1.5x", "2x", "2.5x", "3x", "4x", "5x", "10x" });
-			gpMultiplier.Location = new System.Drawing.Point(153, 115);
+			gpMultiplier.Location = new System.Drawing.Point(157, 115);
 			gpMultiplier.Name = "gpMultiplier";
 			gpMultiplier.Size = new System.Drawing.Size(148, 28);
 			gpMultiplier.TabIndex = 42;
@@ -789,7 +881,7 @@ namespace FF4FreeEnterprisePR
 			xpMultiplier.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			xpMultiplier.FormattingEnabled = true;
 			xpMultiplier.Items.AddRange(new object[] { "1x", "1.5x", "2x", "2.5x", "3x", "4x", "5x", "10x" });
-			xpMultiplier.Location = new System.Drawing.Point(153, 82);
+			xpMultiplier.Location = new System.Drawing.Point(157, 82);
 			xpMultiplier.Name = "xpMultiplier";
 			xpMultiplier.Size = new System.Drawing.Size(148, 28);
 			xpMultiplier.TabIndex = 41;
@@ -800,7 +892,7 @@ namespace FF4FreeEnterprisePR
 			monsterDifficulty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			monsterDifficulty.FormattingEnabled = true;
 			monsterDifficulty.Items.AddRange(new object[] { "Easy", "Normal", "Hard", "Very Hard" });
-			monsterDifficulty.Location = new System.Drawing.Point(153, 14);
+			monsterDifficulty.Location = new System.Drawing.Point(157, 14);
 			monsterDifficulty.Name = "monsterDifficulty";
 			monsterDifficulty.Size = new System.Drawing.Size(148, 28);
 			monsterDifficulty.TabIndex = 40;
@@ -809,7 +901,7 @@ namespace FF4FreeEnterprisePR
 			// label9
 			// 
 			label9.AutoSize = true;
-			label9.Location = new System.Drawing.Point(3, 119);
+			label9.Location = new System.Drawing.Point(7, 119);
 			label9.Name = "label9";
 			label9.Size = new System.Drawing.Size(95, 20);
 			label9.TabIndex = 37;
@@ -818,7 +910,7 @@ namespace FF4FreeEnterprisePR
 			// label8
 			// 
 			label8.AutoSize = true;
-			label8.Location = new System.Drawing.Point(3, 86);
+			label8.Location = new System.Drawing.Point(7, 86);
 			label8.Name = "label8";
 			label8.Size = new System.Drawing.Size(94, 20);
 			label8.TabIndex = 36;
@@ -827,7 +919,7 @@ namespace FF4FreeEnterprisePR
 			// label7
 			// 
 			label7.AutoSize = true;
-			label7.Location = new System.Drawing.Point(3, 18);
+			label7.Location = new System.Drawing.Point(7, 18);
 			label7.Name = "label7";
 			label7.Size = new System.Drawing.Size(127, 20);
 			label7.TabIndex = 34;
@@ -1213,6 +1305,14 @@ namespace FF4FreeEnterprisePR
 		private System.Windows.Forms.CheckBox zOrdeals;
 		private System.Windows.Forms.LinkLabel FDItemLink;
 		private System.Windows.Forms.Button copyRacebot;
+		private System.Windows.Forms.Label nothingAmount;
+		private System.Windows.Forms.ComboBox numberOfShards;
+		private System.Windows.Forms.Label label15;
+		private System.Windows.Forms.CheckBox replaceNothings;
+		private System.Windows.Forms.Label nothingTier9Item;
+		private System.Windows.Forms.Label nothingKeyItem;
+		private System.Windows.Forms.ComboBox minHeroes;
+		private System.Windows.Forms.Label label17;
 	}
 }
 

@@ -101,13 +101,20 @@ namespace FF4FreeEnterprisePR.Randomize
 			new List<int> { 62, 50000, 6250, 61000,     0,    11,  38, 127, 127, 127, 150,  4,  40, 99 }, // Masamune (Ogopogo) - 37
 		};
 
+		// Lil' Murderer (Tricker) cannot be used; the game goes haywire if it is used.
 		static List<int> normalMonsters = new List<int>
 		{
 			1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
 			60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 109, 110, 111,
-			112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 154,
-			156, 157, 158, 159, 160, 161
+			112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 151, 152, 154,
+			156, 157, 158, 160, 161
 		};
+		// Remove monsters that just attack only from the single monster boss pool
+		static List<int> uninterestingMonsters = new List<int>
+		{
+			1, 3, 4, 10, 15, 17, 22, 23, 25, 27, 28, 44, 58, 63, 66, 69, 74, 75, 77, 81, 83, 89, 90, 93, 96, 100, 104, 123, 125, 129, 133, 144, 146, 148, 154
+		};
+
 
 		static List<int> invalidSummonLocations = new List<int> { 0, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 };
 
@@ -299,11 +306,11 @@ namespace FF4FreeEnterprisePR.Randomize
 						monsterSprites.Add(227);
 						break;
 					case 9: // 2 guards
-						// Do not allow Summoners or Security Eyes to appear in early boss spots
+						// Do not allow Summoners or Searchers to appear in early boss spots
 						int normalMonsterID = 122;
 						if (invalidSummonLocations.Contains(normalMonsterID))
 						{
-							while (normalMonsterID == 122 && normalMonsterID == 151)
+							while (normalMonsterID == 122 || normalMonsterID == 151)
 								normalMonsterID = normalMonsters[r1.Next() % normalMonsters.Count];
 						} else
 						{
@@ -312,7 +319,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						normalMonsterID = SummonerAdjust(normalMonsterID, r1);
 
 						monster = allMonsters.Where(c => c.id == normalMonsterID).Single().clone(303);
-						adjustMonsterStats(monster, pairing[0], 50, 50, true);
+						adjustMonsterStats(monster, pairing[0], 60, 50, true);
 						monster.boss = 1;
 						monster.resistance_condition = 111;
 						allMonsters.Add(monster);
@@ -433,11 +440,11 @@ namespace FF4FreeEnterprisePR.Randomize
 						monsterSprites.Add(102);
 						break;
 					case 19: // 3 Dark Imps (pick any monster)
-						 // Do not allow Summoners or Security Eyes to appear in early boss spots
+							 // Do not allow Summoners or Searchers to appear in early boss spots
 						int darkImpMonsterID = 122;
 						if (invalidSummonLocations.Contains(darkImpMonsterID))
 						{
-							while (darkImpMonsterID == 122 && darkImpMonsterID == 151)
+							while (darkImpMonsterID == 122 || darkImpMonsterID == 151)
 								darkImpMonsterID = normalMonsters[r1.Next() % normalMonsters.Count];
 						}
 						else
@@ -447,7 +454,7 @@ namespace FF4FreeEnterprisePR.Randomize
 						darkImpMonsterID = SummonerAdjust(darkImpMonsterID, r1);
 
 						monster = allMonsters.Where(c => c.id == darkImpMonsterID).Single().clone(304);
-						adjustMonsterStats(monster, pairing[0], 34, 34, true);
+						adjustMonsterStats(monster, pairing[0], 40, 34, true);
 						monster.id = 304;
 						monster.boss = 1;
 						monster.resistance_condition = 111;
@@ -576,32 +583,34 @@ namespace FF4FreeEnterprisePR.Randomize
 						monsterParty = groups.Where(c => c.id == 507).Single();
 						monsterSprites.Add(44);
 						break;
-					case 34:
-					case 35:
-					case 36:
-					case 37:
-						if (locationMonsters[pairing[0]].Count == 0 || pairing[1] == 37)
+					case 34: // Single monster
+						if (locationMonsters[pairing[0]].Count == 0 || r1.Next() % 5 == 0)
 						{
-							// Do not allow Summoners or Security Eyes to appear in early boss spots
+							// Do not allow Summoners or Searchers to appear in early boss spots
 							int singleMonsterID2 = 122;
 							if (invalidSummonLocations.Contains(singleMonsterID2))
 							{
-								while (singleMonsterID2 == 122 && singleMonsterID2 == 151)
+								while (singleMonsterID2 == 122 || singleMonsterID2 == 151 || uninterestingMonsters.Contains(singleMonsterID2))
 									singleMonsterID2 = normalMonsters[r1.Next() % normalMonsters.Count];
 							}
 							else
 							{
-								singleMonsterID2 = normalMonsters[r1.Next() % normalMonsters.Count];
+								while (uninterestingMonsters.Contains(singleMonsterID2))
+									singleMonsterID2 = normalMonsters[r1.Next() % normalMonsters.Count];
 							}
 
 							singleMonsterID2 = SummonerAdjust(singleMonsterID2, r1);
-							monster = allMonsters.Where(c => c.id == singleMonsterID2).Single().clone(400 + pairing[0]);
+							monster = allMonsters.Where(c => c.id == singleMonsterID2).Single().clone(305);
 						}
 						else
 						{
 							List<int> locSingleMonsters = locationMonsters[pairing[0]];
-							int singleMonsterID = locSingleMonsters[r1.Next() % locSingleMonsters.Count];
-							monster = allMonsters.Where(c => c.id == singleMonsterID).Single().clone(400 + pairing[0]);
+
+							int singleMonsterID = 1;
+							while (uninterestingMonsters.Contains(singleMonsterID))
+								singleMonsterID = locSingleMonsters[r1.Next() % locSingleMonsters.Count];
+							singleMonsterID = SummonerAdjust(singleMonsterID, r1);
+							monster = allMonsters.Where(c => c.id == singleMonsterID).Single().clone(305);
 						}
 						adjustMonsterStats(monster, pairing[0], 100);
 						monster.boss = 1;
@@ -613,6 +622,150 @@ namespace FF4FreeEnterprisePR.Randomize
 						monsterParty.get_value = 0;
 						monsterParty.get_ap = 0;
 						monsterParty.monster5 = monster.id;
+						groups.Add(monsterParty);
+
+						monsterSprites.Add(pairing[1] == 34 ? 86 : pairing[1] == 35 ? 89 : pairing[1] == 36 ? 90 : 92);
+						break;
+					case 35: // Two groups of one monster each
+							 // Summoners and searchers are allowed here; they can be defeated first.
+						monsterParty = new singleGroup();
+						monsterParty.appearance_production = 1;
+						monsterParty.get_value = 0;
+						monsterParty.get_ap = 0;
+
+						for (int i = 0; i < 2; i++)
+						{
+							if (locationMonsters[pairing[0]].Count == 0 || r1.Next() % 5 == 0)
+							{
+								int singleMonsterID2 = normalMonsters[r1.Next() % normalMonsters.Count];
+								singleMonsterID2 = SummonerAdjust(singleMonsterID2, r1);
+								monster = allMonsters.Where(c => c.id == singleMonsterID2).Single().clone(306 + i);
+							}
+							else
+							{
+								List<int> locSingleMonsters = locationMonsters[pairing[0]];
+								int singleMonsterID = locSingleMonsters[r1.Next() % locSingleMonsters.Count];
+								singleMonsterID = SummonerAdjust(singleMonsterID, r1);
+								monster = allMonsters.Where(c => c.id == singleMonsterID).Single().clone(306 + i);
+							}
+							adjustMonsterStats(monster, pairing[0], 60, 50);
+							monster.boss = 1;
+							monster.resistance_condition = 111;
+							allMonsters.Add(monster);
+
+							if (i == 0)
+								monsterParty.monster3 = monster.id;
+                            else
+								monsterParty.monster7 = monster.id;
+						}
+						groups.Add(monsterParty);
+
+						monsterSprites.Add(pairing[1] == 34 ? 86 : pairing[1] == 35 ? 89 : pairing[1] == 36 ? 90 : 92);
+						break;
+					case 36: // Three groups of one monster each
+							 // Summoners and searchers are allowed here; they can be defeated first.
+						monsterParty = new singleGroup();
+						monsterParty.appearance_production = 1;
+						monsterParty.get_value = 0;
+						monsterParty.get_ap = 0;
+
+						for (int i = 0; i < 3; i++)
+						{
+							if (locationMonsters[pairing[0]].Count == 0 || r1.Next() % 5 == 0)
+							{
+								int singleMonsterID2 = normalMonsters[r1.Next() % normalMonsters.Count];
+								singleMonsterID2 = SummonerAdjust(singleMonsterID2, r1);
+								monster = allMonsters.Where(c => c.id == singleMonsterID2).Single().clone(308 + i);
+							}
+							else
+							{
+								List<int> locSingleMonsters = locationMonsters[pairing[0]];
+								int singleMonsterID = locSingleMonsters[r1.Next() % locSingleMonsters.Count];
+								singleMonsterID = SummonerAdjust(singleMonsterID, r1);
+								monster = allMonsters.Where(c => c.id == singleMonsterID).Single().clone(308 + i);
+							}
+							adjustMonsterStats(monster, pairing[0], 40, 34);
+							monster.boss = 1;
+							monster.resistance_condition = 111;
+							allMonsters.Add(monster);
+
+							switch (i)
+							{
+								case 0: monsterParty.monster1 = monster.id; break;
+								case 1: monsterParty.monster5 = monster.id; break;
+								case 2: monsterParty.monster9 = monster.id; break;
+							}
+						}
+						groups.Add(monsterParty);
+
+						monsterSprites.Add(pairing[1] == 34 ? 86 : pairing[1] == 35 ? 89 : pairing[1] == 36 ? 90 : 92);
+						break;
+					case 37: // Two, three, or four groups of two, three, or four monsters each
+							 // Summoners and searchers are allowed here; they can be defeated first.
+						monsterParty = new singleGroup();
+						monsterParty.appearance_production = 1;
+						monsterParty.get_value = 0;
+						monsterParty.get_ap = 0;
+
+						int monsterGroups = (r1.Next() % 3) + 2;
+						List<int> monsterIDs = new List<int>();
+
+						for (int i = 0; i < monsterGroups; i++)
+						{
+							if (locationMonsters[pairing[0]].Count == 0 || r1.Next() % 5 == 0)
+							{
+								int singleMonsterID2 = normalMonsters[r1.Next() % normalMonsters.Count];
+								singleMonsterID2 = SummonerAdjust(singleMonsterID2, r1);
+								monster = allMonsters.Where(c => c.id == singleMonsterID2).Single().clone(311 + i);
+							}
+							else
+							{
+								List<int> locSingleMonsters = locationMonsters[pairing[0]];
+								int singleMonsterID = locSingleMonsters[r1.Next() % locSingleMonsters.Count];
+								singleMonsterID = SummonerAdjust(singleMonsterID, r1);
+								monster = allMonsters.Where(c => c.id == singleMonsterID).Single().clone(311 + i);
+							}
+							adjustMonsterStats(monster, pairing[0], 20, 12);
+							monster.boss = 1;
+							monster.resistance_condition = 111;
+							allMonsters.Add(monster);
+
+							monsterIDs.Add(monster.id);
+						}
+						switch (monsterGroups)
+						{
+							case 2:
+								monsterParty.monster1 = monsterIDs[0];
+								monsterParty.monster2 = monsterIDs[0];
+								monsterParty.monster3 = monsterIDs[0];
+								monsterParty.monster4 = monsterIDs[0];
+								monsterParty.monster6 = monsterIDs[1];
+								monsterParty.monster7 = monsterIDs[1];
+								monsterParty.monster8 = monsterIDs[1];
+								monsterParty.monster9 = monsterIDs[1];
+								break;
+							case 3:
+								monsterParty.monster1 = monsterIDs[0];
+								monsterParty.monster2 = monsterIDs[0];
+								monsterParty.monster3 = monsterIDs[0];
+								monsterParty.monster4 = monsterIDs[1];
+								monsterParty.monster5 = monsterIDs[1];
+								monsterParty.monster6 = monsterIDs[1];
+								monsterParty.monster7 = monsterIDs[2];
+								monsterParty.monster8 = monsterIDs[2];
+								monsterParty.monster9 = monsterIDs[2];
+								break;
+							case 4:
+								monsterParty.monster1 = monsterIDs[0];
+								monsterParty.monster2 = monsterIDs[0];
+								monsterParty.monster3 = monsterIDs[1];
+								monsterParty.monster4 = monsterIDs[1];
+								monsterParty.monster6 = monsterIDs[2];
+								monsterParty.monster7 = monsterIDs[2];
+								monsterParty.monster8 = monsterIDs[3];
+								monsterParty.monster9 = monsterIDs[3];
+								break;
+						}
 						groups.Add(monsterParty);
 
 						monsterSprites.Add(pairing[1] == 34 ? 86 : pairing[1] == 35 ? 89 : pairing[1] == 36 ? 90 : 92);
