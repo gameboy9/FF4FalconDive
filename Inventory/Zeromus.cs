@@ -15,7 +15,7 @@ namespace FF4FalconDive.Inventory
 {
 	static internal class Zeromus
 	{
-		static public void ZeromusSetup(Random r1, int ZShards, int difficulty, int sirenShards, string directory)
+		static public void ZeromusSetup(Random r1, int ZShards, int difficulty, int sirenShards, int keyNothings, int itemNothings, string directory)
 		{
 			// Setup the required number of shared for the warps to Z
 			List<string> scripts = new List<string> {
@@ -53,7 +53,15 @@ namespace FF4FalconDive.Inventory
 
 				JsonSerializer serializer = new JsonSerializer();
 
-				var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "ZShardCheck").Single();
+				var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "NothingCheck1").Single();
+				// Do not fire notification that you can get a key item if the required shards is 0.
+				rewardItem.operands.iValues[1] = keyNothings == 0 ? 99 : keyNothings - 1; // Script looks for greater than, not greater or equal to.
+
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "NothingCheck2").Single();
+				// Do not award tier 9 item if there are 0 or 1 Nothings available.
+				rewardItem.operands.iValues[1] = itemNothings <= 1 ? 99 : itemNothings - 1; // Script looks for greater than, not greater or equal to.
+
+				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "ZShardCheck").Single();
 				// Do not fire notification that you can beat Zeromus if the required shards is 0.
 				rewardItem.operands.iValues[1] = ZShards == 0 ? 99 : ZShards - 1; // Script looks for greater than, not greater or equal to.
 				rewardItem = jEvents.Mnemonics.Where(c => c.comment == "SirenShardCheck1").Single();
@@ -153,22 +161,22 @@ namespace FF4FalconDive.Inventory
 				csv.WriteRecords(allAbility);
 			}
 
-			List<content> allContent;
+			List<Content> allContent;
 
 			using (StreamReader reader = new(Updater.MemoriaToMagiciteFile(directory, "MainData\\content.csv")))
 			using (CsvReader csv = new(reader, System.Globalization.CultureInfo.InvariantCulture))
-				allContent = csv.GetRecords<content>().ToList();
-			content newContent = new content { id = 851, mes_id_name = "MSG_MAGIC_NAME_48", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 501 };
+				allContent = csv.GetRecords<Content>().ToList();
+			Content newContent = new Content { id = 851, mes_id_name = "MSG_MAGIC_NAME_48", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 501 };
 			allContent.Add(newContent);
-			newContent = new content { id = 852, mes_id_name = "MSG_MAGIC_NAME_48", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 502 };
+			newContent = new Content { id = 852, mes_id_name = "MSG_MAGIC_NAME_48", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 502 };
 			allContent.Add(newContent);
-			newContent = new content { id = 853, mes_id_name = "MSG_MAGIC_NAME_38", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 503 };
+			newContent = new Content { id = 853, mes_id_name = "MSG_MAGIC_NAME_38", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 503 };
 			allContent.Add(newContent);
-			newContent = new content { id = 854, mes_id_name = "MSG_MAGIC_NAME_38", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 504 };
+			newContent = new Content { id = 854, mes_id_name = "MSG_MAGIC_NAME_38", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 504 };
 			allContent.Add(newContent);
-			newContent = new content { id = 855, mes_id_name = "MSG_MAGIC_NAME_47", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 505 };
+			newContent = new Content { id = 855, mes_id_name = "MSG_MAGIC_NAME_47", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 505 };
 			allContent.Add(newContent);
-			newContent = new content { id = 856, mes_id_name = "MSG_MAGIC_NAME_47", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 506 };
+			newContent = new Content { id = 856, mes_id_name = "MSG_MAGIC_NAME_47", mes_id_battle = "None", mes_id_description = "None", icon_id = 0, type_id = 4, type_value = 506 };
 			allContent.Add(newContent);
 
 			using (StreamWriter writer = new(Updater.MemoriaToMagiciteFile(directory, "MainData\\content.csv")))

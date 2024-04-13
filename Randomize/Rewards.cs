@@ -20,7 +20,7 @@ namespace FF4FreeEnterprisePR.Randomize
 {
 	public static class Rewards
 	{
-		public class content
+		public class Content
 		{
 			[Index(0)]
 			public int id { get; set; }
@@ -38,9 +38,9 @@ namespace FF4FreeEnterprisePR.Randomize
 			public int type_value { get; set; }
 		}
 
-		private static List<message> itemStrings;
-		private static List<message> msgStrings;
-		private static List<content> contentCSV = new List<content>();
+		private static List<Message> itemStrings;
+		private static List<Message> msgStrings;
+		private static List<Content> contentCSV = new List<Content>();
 
 		//static List<string> locations = new List<string> { // 31 locations total
 		//	"Mist Cave",
@@ -86,7 +86,7 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	"Character 5",
 		//	"Bomb Ring", - 71
 		//	"Kaipo Inn Pass", - 80 NEW // 5
-		//	"Legend Sword", - 131
+		//	"Crystal Shard 6"  - 89 NEW //	"Legend Sword", - 131
 		//	"Sand Ruby", - 64
 		//	"Baron Key", - 68
 		//	"Twin Harp", - 69
@@ -97,17 +97,17 @@ namespace FF4FreeEnterprisePR.Randomize
 		//	"Luca Key", - 74
 		//	"Darkness Crystal", - 73 // 15
 		//	"Rat Tail", - 67
-		//	"Yellow Tail", - 82 NEW
-		//	"Green Tail", - 83 NEW
-		//	"Blue Tail", - 84 NEW
-		//	"Red Tail", - 85 NEW // 20
-		//	"Black Tail", - 87 NEW
-		//	"Pink Tail", - 70
+		//	"Nothing", - 93 NEW //	"Yellow Tail", - 82 NEW
+		//	"Nothing", - 93 NEW //	"Green Tail", - 83 NEW
+		//	"Nothing", - 93 NEW //	"Blue Tail", - 84 NEW
+		//	"Nothing", - 93 NEW //	"Red Tail", - 85 NEW // 20
+		//	"Nothing", - 93 NEW //	"Black Tail", - 87 NEW
+		//	"Crystal Shard 5"  - 89 NEW //	"Pink Tail", - 70
 		//	"Trash Can", - 88 NEW
 		//	"Pan", - 62
 		//	"Adamant", - 63 // 25
-		//	"Orange Tail", - 91 NEW
-		//	"White Tail", - 92 NEW
+		//	"Nothing", - 93 NEW //	"Orange Tail", - 91 NEW
+		//	"Crystal Shard 7", - 93 NEW // "White Tail", - 92 NEW
 		//	"Crystal Shard 1", - 89 NEW
 		//	"Crystal Shard 2", - 89 NEW
 		//	"Crystal Shard 3", - 89 NEW // 30
@@ -151,9 +151,10 @@ namespace FF4FreeEnterprisePR.Randomize
 		};
 
 		static List<int> allRewards = new List<int> { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 };
-		static List<int> nothingRewards = new List<int> { 17, 18, 19, 20, 21, 26, 27 };
+		static List<int> nothingRewards = new List<int> { };
+		static List<int> nothingCrystalRewards = new List<int> { 6, 17, 18, 19, 20, 21, 22, 26, 27, 28, 29, 30, 31 };
 
-		class pairing
+		class Pairing
 		{
 			public int locationID { get; set; }
 			public int rewardID { get; set; }
@@ -161,21 +162,35 @@ namespace FF4FreeEnterprisePR.Randomize
 			public bool moonUnlocked { get; set; }
 			public string rewardText { get; set; }
 
-			public pairing(int pLocID, int pRewardID) 
+			public Pairing(int pLocID, int pRewardID) 
 			{
 				locationID = pLocID;
 				rewardID = pRewardID;
 			}
 		}
 
-		public static void establishRewards(Random r1, int[] characters, string directory, bool includeBonus, bool includeFGExclusive, int[] party, double xpMultiplier, bool zAtOrdeals, bool zAtFalcon)
+		public static void establishRewards(Random r1, int[] characters, string directory, bool includeBonus, bool includeFGExclusive, int[] party, double xpMultiplier, bool zAtOrdeals, bool zAtFalcon, int crystalShards, bool convertNothings, int nothingKey, int nothingItem, int numHeroes, int charsRequired)
 		{
-			List<pairing> pairings = new List<pairing>();
-			List<pairing> tempPairings = new List<pairing>();
+			List<Pairing> pairings = new List<Pairing>();
+			List<Pairing> tempPairings = new List<Pairing>();
 			List<int> validLocations = initialLocations.ToList();
 			List<int> validRewards = allRewards.ToList();
+			// Reroll at Ordeals, Magnetic Cavern, Zot, Dwarf Castle, Sealed Cave, and the Nothing Vending Machine
 			List<int> rerollLocations = new List<int> { 9, 12, 13, 14, 20, 31 };
-			List<int> rerollRewards = new List<int> { 6, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27 };
+			List<int> rerollRewards = new List<int> { 23, 25 }; // Currently Trash Can and Adamantite.  Add nothings in a moment
+			if (crystalShards <= 12 ) { nothingRewards.Add(6); rerollRewards.Add(6); }
+			if (crystalShards <= 11 ) { nothingRewards.Add(17); rerollRewards.Add(17); }
+			if (crystalShards <= 10 ) { nothingRewards.Add(18); rerollRewards.Add(18); }
+			if (crystalShards <= 9 ) { nothingRewards.Add(19); rerollRewards.Add(19); }
+			if (crystalShards <= 8 ) { nothingRewards.Add(20); rerollRewards.Add(20); }
+			if (crystalShards <= 7 ) { nothingRewards.Add(21); rerollRewards.Add(21); }
+			if (crystalShards <= 6 ) { nothingRewards.Add(22); rerollRewards.Add(22); }
+			if (crystalShards <= 5 ) { nothingRewards.Add(26); rerollRewards.Add(26); }
+			if (crystalShards <= 4 ) { nothingRewards.Add(27); rerollRewards.Add(27); }
+			if (crystalShards <= 3 ) { nothingRewards.Add(28); rerollRewards.Add(28); }
+			if (crystalShards <= 2 ) { nothingRewards.Add(29); rerollRewards.Add(29); }
+			if (crystalShards <= 1 ) { nothingRewards.Add(30); rerollRewards.Add(30); }
+			if (crystalShards == 0 ) { nothingRewards.Add(31); rerollRewards.Add(31); }
 			List<int> newLocations = new List<int>();
 			bool underground = false;
 			bool moon = false;
@@ -204,7 +219,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				//	locationID = 0; rewardID = 17;
 				//}
 
-				tempPairings.Add(new pairing(locationID, rewardID));
+				tempPairings.Add(new Pairing(locationID, rewardID));
 				validLocations.Remove(locationID);
 				validRewards.Remove(rewardID);
 
@@ -215,10 +230,6 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				if (itemLocations[rewardID].Count() > 0)
 				{
-					// NEXT 2 LINES:  Debug
-					if (rewardID == 14) rewardID = 14;
-					if (locationID == 20) locationID = 20;
-
 					bool doNotProcess = false;
 
 					// If the Tower Key, Luca Key, or Pan are awarded, but the Magma Key or Hook has not, then don't process additional locations yet.
@@ -231,7 +242,7 @@ namespace FF4FreeEnterprisePR.Randomize
 					if (!doNotProcess)
 					{
 						newLocations.AddRange(itemLocations[rewardID].ToList());
-						if (pairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() + tempPairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() >= 3 && !nothingCheck)
+						if (pairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() + tempPairings.Where(c => nothingRewards.Contains(c.rewardID)).Count() >= nothingKey && !nothingCheck)
 						{
 							newLocations.Add(31);
 							nothingCheck = true;
@@ -254,10 +265,10 @@ namespace FF4FreeEnterprisePR.Randomize
 					if (finalPass) break;
 
 					// Need to remove duplicate newLocations first...
-					List<pairing> dupPairing = pairings.Where(c => newLocations.Contains(c.locationID)).ToList();
-					foreach (pairing dup in dupPairing) { newLocations.Remove(dup.locationID); }
+					List<Pairing> dupPairing = pairings.Where(c => newLocations.Contains(c.locationID)).ToList();
+					foreach (Pairing dup in dupPairing) { newLocations.Remove(dup.locationID); }
 					dupPairing = tempPairings.Where(c => newLocations.Contains(c.locationID)).ToList();
-					foreach (pairing dup in dupPairing) { newLocations.Remove(dup.locationID); }
+					foreach (Pairing dup in dupPairing) { newLocations.Remove(dup.locationID); }
 
 					if (newLocations.Count == 0)
 					{
@@ -296,13 +307,6 @@ namespace FF4FreeEnterprisePR.Randomize
 							pairings.AddRange(tempPairings);
 							tempPairings.Clear();
 
-							int charsRequired = -1;
-
-							if (moon) charsRequired = 3;
-							else if (underground) charsRequired = 2;
-
-							// Enforce at least 3 characters when moon access is found or you have to go through the hovercraft route.
-							// Enforce at least 2 characters when underground access is found.
 							if (charsRequired > 1)
 							{
 								int chars = 1 + pairings.Where(c => c.rewardID <= 3).Count();
@@ -310,7 +314,7 @@ namespace FF4FreeEnterprisePR.Randomize
 								{
 									// Replace non-progression items with characters.
 									List<int> nonProgression = new List<int> { 6, 12, 14, 16, 22, 23, 25, 28, 29, 30, 31 };
-									pairing pair = pairings.Where(c => nonProgression.Contains(c.rewardID)).FirstOrDefault();
+									Pairing pair = pairings.Where(c => nonProgression.Contains(c.rewardID)).FirstOrDefault();
 									if (pair != null)
 									{
 										validRewards.Add(pair.rewardID);
@@ -322,8 +326,8 @@ namespace FF4FreeEnterprisePR.Randomize
 									else
 									{
 										// If a non-progression item can't be found, reset everything and start over.
-										pairings = new List<pairing>();
-										tempPairings = new List<pairing>();
+										pairings = new List<Pairing>();
+										tempPairings = new List<Pairing>();
 										validLocations = initialLocations.ToList();
 										validRewards = allRewards.ToList();
 										nothingCheck = false;
@@ -361,7 +365,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				config.BadDataFound = null;
 
 				using (CsvReader csv = new CsvReader(reader, config))
-					contentCSV = csv.GetRecords<content>().ToList();
+					contentCSV = csv.GetRecords<Content>().ToList();
 			}
 
 			// Retrieve english item strings so we can look up new key items.
@@ -373,17 +377,18 @@ namespace FF4FreeEnterprisePR.Randomize
 				config.BadDataFound = null;
 
 				using (CsvReader csv = new CsvReader(reader, config))
-					itemStrings = csv.GetRecords<message>().ToList();
+					itemStrings = csv.GetRecords<Message>().ToList();
 			}
 
 			List<int> tailSelection = new List<int>();
 
 			int shardID = 301;
 			int nothingID = 321;
+			int shardCount = 0;
 
 			List<scenario> scenarios = getScripts();
 			// Retrieve win JSON file, then change reward text
-			foreach (pairing rewardPair in pairings)
+			foreach (Pairing rewardPair in pairings)
 			{
 				scenario currentReward = scenarios.Where(c => c.rewardId == rewardPair.locationID).SingleOrDefault();
 				// Skip if the scenario entry hasn't been recorded yet; that part is either still under construction.
@@ -401,15 +406,32 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				JsonSerializer serializer = new JsonSerializer();
 
+				if (currentReward.winScript == @"Map_20121\Map_20121_2\sc_e_0161.json")
+				{
+					var rewardItem = jEvents.Mnemonics.Where(c => c.comment == "NothingCheck1").Single();
+					// Do not fire notification that you can get a key item if the required shards is 0.
+					rewardItem.operands.iValues[1] = nothingKey - 1; // Script looks for greater than, not greater or equal to.
+
+					rewardItem = jEvents.Mnemonics.Where(c => c.comment == "NothingCheck2").Single();
+					// Do not award tier 9 item if there are 0 or 1 Nothings available.
+					rewardItem.operands.iValues[1] = nothingItem <= 1 ? 99 : nothingItem - 1; // Script looks for greater than, not greater or equal to.
+				}
+
 				int finalItem = 0;
 
-				if (rewardPair.rewardID > 3)
+				// rewardID is 0-based.  So it's always true if there's only one hero.  (numHeroes - 2 == -1)
+				if (rewardPair.rewardID > numHeroes - 2)
 				{
 					switch (rewardPair.rewardID)
 					{
+						case 0:
+						case 1:
+						case 2:
+						case 3:
+							finalItem = new Items().selectItem(r1, 1, 4, false, false);
+							break;
 						case 4:	finalItem = 71; break;
 						case 5:	finalItem = 80; break;
-						case 6:	finalItem = 131; break;
 						case 7:	finalItem = 64; break;
 						case 8:	finalItem = 68; break;
 						case 9:	finalItem = 69; break;
@@ -420,18 +442,68 @@ namespace FF4FreeEnterprisePR.Randomize
 						case 14: finalItem = 74; break;
 						case 15: finalItem = 73; break;
 						case 16: finalItem = 67; break;
-						case 17: finalItem = 82; break; // 82
-						case 18: finalItem = 82; break; // 83
-						case 19: finalItem = 82; break; // 84
-						case 20: finalItem = 82; break; // 85
-						case 21: finalItem = 82; break; // 87
-						case 22: finalItem = 70; break;
 						case 23: finalItem = 88; break;
 						case 24: finalItem = 62; break;
 						case 25: finalItem = 63; break;
-						case 26: finalItem = 82; break; // 91
-						case 27: finalItem = 82; break;
-						case >= 28: finalItem = 89; break;
+						default:  // case 6, 22, 27, 28, 29, 30, 31 (all formerly crystal shards, pink tail, legend sword), 17, 18, 19, 20, 21, 26 (all formerly tails and nothings)
+							if (shardCount <= crystalShards)
+							{
+								finalItem = 89; // Crystal Shard
+							}
+							else
+							{
+								if (convertNothings)
+								{
+									int minTier;
+									int maxTier;
+									switch (rewardPair.locationID)
+									{
+										case 0: minTier = 3; maxTier = 4; break;
+										case 1: minTier = 4; maxTier = 7; break;
+										case 2: minTier = 4; maxTier = 7; break;
+										case 3: minTier = 4; maxTier = 7; break;
+										case 4: minTier = 3; maxTier = 5; break;
+										case 5: minTier = 3; maxTier = 5; break;
+										case 6: minTier = 3; maxTier = 5; break;
+										case 7: minTier = 3; maxTier = 5; break;
+										case 8: minTier = 3; maxTier = 5; break;
+										case 9: minTier = 4; maxTier = 6; break;
+										case 10: minTier = 4; maxTier = 6; break;
+										case 11: minTier = 5; maxTier = 7; break;
+										case 12: minTier = 5; maxTier = 7; break;
+										case 13: minTier = 5; maxTier = 7; break;
+										case 14: minTier = 5; maxTier = 8; break;
+										case 15: minTier = 6; maxTier = 8; break;
+										case 16: minTier = 6; maxTier = 8; break;
+										case 17: minTier = 8; maxTier = 9; break;
+										case 18: minTier = 6; maxTier = 8; break;
+										case 19: minTier = 6; maxTier = 8; break;
+										case 20: minTier = 6; maxTier = 8; break;
+										case 21: minTier = 6; maxTier = 8; break;
+										case 22: minTier = 6; maxTier = 8; break;
+										case 23: minTier = 7; maxTier = 9; break;
+										case 24: minTier = 7; maxTier = 9; break;
+										case 25: minTier = 8; maxTier = 9; break;
+										case 26: minTier = 8; maxTier = 9; break;
+										case 27: minTier = 8; maxTier = 9; break;
+										case 28: minTier = 8; maxTier = 9; break;
+										case 29: minTier = 9; maxTier = 9; break;
+										case 30: minTier = 7; maxTier = 9; break;
+										case 31: minTier = 7; maxTier = 9; break;
+										default: minTier = 8; maxTier = 9; break;
+									}
+									if (r1.Next() % 2 == 0)
+										finalItem = new Weapons().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
+									else
+										finalItem = new Armor().selectItem(r1, minTier, maxTier, false, includeBonus, includeFGExclusive, party);
+								}
+								else
+								{
+									finalItem = 82; // Nothing
+								}
+							}
+							shardCount++;
+							break;
 					}
 
 					rewardPair.rewardText = "You got " + itemLookup(itemIDLookup(finalItem)) + "!\\n";
@@ -571,22 +643,22 @@ namespace FF4FreeEnterprisePR.Randomize
 					config.BadDataFound = null;
 
 					using (CsvReader csv = new CsvReader(reader, config))
-						msgStrings = csv.GetRecords<message>().ToList();
+						msgStrings = csv.GetRecords<Message>().ToList();
 
-					foreach (pairing rewardPair in pairings)
+					foreach (Pairing rewardPair in pairings)
 					{
-						msgStrings.Add(new message { id = "FE_REWARD_" + rewardPair.locationID.ToString("0#"), msgString = rewardPair.rewardText });
+						msgStrings.Add(new Message { id = "FE_REWARD_" + rewardPair.locationID.ToString("0#"), msgString = rewardPair.rewardText });
 					}
 
 					int i = 0;
 					foreach (int tail in tailSelection)
 					{
 						string msgId = i == 0 ? "FE_TAIL_PINK" : "FE_NOTHING_BONUS";
-						msgStrings.Add(new message { id = msgId, msgString = "You got " + itemLookup(itemIDLookup(tail)) + "!" });
+						msgStrings.Add(new Message { id = msgId, msgString = "You got " + itemLookup(itemIDLookup(tail)) + "!" });
 						i++;
 					}
 
-					msgStrings.Add(new message { id = "XCAL_REWARD", msgString = "Received " + itemLookup(itemIDLookup(swordItem)) + "!" });
+					msgStrings.Add(new Message { id = "XCAL_REWARD", msgString = "Received " + itemLookup(itemIDLookup(swordItem)) + "!" });
 
 					using (StreamWriter writer = new StreamWriter(Updater.MemoriaToMagiciteFile(directory, "Message\\story_mes_" + language + ".txt")))
 					using (CsvWriter csv = new CsvWriter(writer, config))
@@ -608,16 +680,16 @@ namespace FF4FreeEnterprisePR.Randomize
 		}
 
 
-		static private List<pairing> pairingSort(List<pairing> pairings)
+		static private List<Pairing> pairingSort(List<Pairing> pairings)
 		{
 			int min = pairings.Min(c => c.locationID);
 			int max = pairings.Max(c => c.locationID);
-			List<pairing> newPairing = new List<pairing>();
+			List<Pairing> newPairing = new List<Pairing>();
 
 			int i = min;
 			while (i <= max)
 			{
-				pairing toAdd = pairings.Where(c => c.locationID == i).SingleOrDefault();
+				Pairing toAdd = pairings.Where(c => c.locationID == i).SingleOrDefault();
 
 				if (toAdd != null)
 					newPairing.Add(toAdd);

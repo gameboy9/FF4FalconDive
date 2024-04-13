@@ -57,6 +57,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int darkSword = 128; // t1
 		public const int shadowblade = 129; // t1
 		public const int deathbringer = 130; // t2
+		public const int legendSword = 131; // t3
 		public const int lightSword = 132; // t6
 		public const int excalibur = 133; // t7
 		public const int ragnarok = 134; // t8
@@ -184,7 +185,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public List<List<int>> tiers = new List<List<int>>
 			{ new List<int> { darkSword, shadowblade, spear, dreamerHarp, rod, staff, bow, ironArrow },
 			  new List<int> { deathbringer, lamiaHarp, fireClaw, iceClaw, thunderClaw, woodenHammer, flameRod, iceRod, thunderRod, healingStaff, crossBow, holyArrow, excalipoor, scrapMetal },
-			  new List<int> { ancientSword, bloodSword, windSpear, mythrilKnife, mythrilHammer, mythrilStaff, greatBow, medusaArrow },
+			  new List<int> { legendSword, ancientSword, bloodSword, windSpear, mythrilKnife, mythrilHammer, mythrilStaff, greatBow, medusaArrow },
 			  new List<int> { mythrilSword, sleepBlade, bloodLance, dancingDagger, fairyClaw, kunai, lilithRod, killerBow, fireArrow, iceArrow, thunderArrow, whip, flandango },
 			  new List<int> { flameSword, icebrand, gorgonBlade, fireLance, iceLance, mageMasher, hellClaw, gaiaHammer, dwarfAxe, ashura, kotetsu, elvenBow,
 				changeRod, powerStaff, kinesisStaff, blindingArrow, poisonArrow, chainWhip, boomerang, shuriken, bloodDarkSword, erdrickSword },
@@ -203,7 +204,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public List<int> fgExclusiveWeapons = new List<int> { bloodDarkSword, golbezSword, vampireSword, vampireSpear, megicoSword, erdrickSword, superAngerRod, mop };
 
 		public List<int> dkCecilOnly = new List<int> { darkSword, shadowblade, deathbringer, bloodDarkSword, golbezSword, vampireSword, megicoSword };
-		public List<int> pallyCecilOnly = new List<int> { excalibur, excalipoor, flandango, lightSword, ragnarok, lightbringer };
+		public List<int> pallyCecilOnly = new List<int> { legendSword, excalibur, excalipoor, flandango, lightSword, ragnarok, lightbringer };
 		public List<int> kainOnly = new List<int> { vampireSpear, spear, windSpear, fireLance, iceLance, bloodLance, gungnir, wyvernLance, holyLance, abelsLance };
 		public List<int> cecilKain = new List<int> { ancientSword, bloodSword, mythrilSword, sleepBlade, flameSword, icebrand, gorgonBlade, avenger, defender, piggyStick };
 		public List<int> cecilKainCid = new List<int> { dwarfAxe, ogreKiller, poisonAxe, runeAxe, gigantAxe };
