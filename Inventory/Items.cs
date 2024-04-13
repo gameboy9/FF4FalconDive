@@ -44,7 +44,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int xPotion = 4; // t6
 		public const int ether = 5; // t3
 		public const int dryEther = 6; // t6
-		public const int elixer = 7; // t8
+		public const int elixir = 7; // t8
 		public const int phoenixDown = 9; // t1
 		public const int goldNeedle = 10; // t3
 		public const int maidensKiss = 11; // t1
@@ -90,6 +90,7 @@ namespace FF4FreeEnterprisePR.Inventory
 		public const int decoy = 56; // t3
 		public const int lightCurtain = 57; // t6
 		public const int lunarCurtain = 58; // t8
+		public const int pinkTail = 70; // t8
 		public const int megalixir = 969; // t8
 
 		public List<List<int>> tiers = new List<List<int>>
@@ -101,8 +102,9 @@ namespace FF4FreeEnterprisePR.Inventory
 			  new List<int> { remedy, unicornHorn, redFang, whiteFang, stardust, blueFang },
 			  new List<int> { xPotion, dryEther, cottage, coeurlWhisker, lightCurtain, hourglass, gaiaDrum },
 			  new List<int> { xPotion, silverApple, somaDrop, silverHourglass },
-			  new List<int> { elixer, goldenApple, goldenHourglass, lunarCurtain },
-			  new List<int> { megalixir, elixer, goldenApple, goldenHourglass, lunarCurtain }
+			  // Duplicating the first part to reduce the chance of acquiring a Pink Tail.
+			  new List<int> { elixir, goldenApple, goldenHourglass, lunarCurtain, elixir, goldenApple, goldenHourglass, lunarCurtain, pinkTail },
+			  new List<int> { megalixir, goldenApple, pinkTail }
 		};
 
 		List<int> jItems = new List<int>

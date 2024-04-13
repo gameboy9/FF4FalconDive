@@ -106,7 +106,7 @@ namespace FF4FreeEnterprisePR.Randomize
 			new store { id = feymarchArmor, stdMinTier = 4, stdMaxTier = 7, type = storeArmor },
 			new store { id = feymarchItem1, stdMinTier = 4, stdMaxTier = 7, type = storeItem },
 			new store { id = feymarchItem2, stdMinTier = 4, stdMaxTier = 7, type = storeItem },
-			new store { id = smithyWeaponArmor, stdMinTier = 6, stdMaxTier = 8, type = storeWeaponArmor },
+			new store { id = smithyWeaponArmor, stdMinTier = 7, stdMaxTier = 9, type = storeWeaponArmor },
 			new store { id = hummingwayItem, stdMinTier = 4, stdMaxTier = 7, type = storeItem },
 			new store { id = giantItem, stdMinTier = 5, stdMaxTier = 8, type = storeItem }
 		};
@@ -166,7 +166,8 @@ namespace FF4FreeEnterprisePR.Randomize
 					}
 
 					// Do not add if an item couldn't be found or if it's a duplicate.
-					if (newItem.content_id != -1 && shopWorking.Where(c => c.content_id == newItem.content_id).Count() == 0)
+					// Also, do not allow Pink Tails to be sold in shops.
+					if (newItem.content_id != -1 && newItem.content_id != 70 && shopWorking.Where(c => c.content_id == newItem.content_id).Count() == 0)
 					{
 						shopWorking.Add(newItem);
 						id++;
