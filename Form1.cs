@@ -6,6 +6,9 @@ using System.Windows.Forms;
 using System.IO.Compression;
 using System.Security.Cryptography;
 using FF4FalconDive.Inventory;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+using System.Security.Policy;
 
 namespace FF4FreeEnterprisePR
 {
@@ -53,7 +56,7 @@ namespace FF4FreeEnterprisePR
 			flags += convertIntToChar(checkboxesToNumber([removeBonusItems, exCecil, exCid, exEdge, exEdward, exFusoya]));
 			flags += convertIntToChar(firstHero.SelectedIndex); // Maxes out at 13.
 			flags += convertIntToChar(checkboxesToNumber([exKain, exPalom, exPorom, exRosa, exRydia, exTellah]));
-			flags += convertIntToChar(checkboxesToNumber([exYang, removeFGExclusiveItems, exPaladinCecil, zFalcon, zOrdeals]));
+			flags += convertIntToChar(checkboxesToNumber([exYang, removeFGExclusiveItems, exPaladinCecil, zFalcon, zOrdeals, showMonsterChests]));
 			flags += convertIntToChar(startingXP.SelectedIndex);
 			flags += convertIntToChar(numberOfShards.SelectedIndex);
 			flags += convertIntToChar(shardsBeforeSirens.SelectedIndex);
@@ -85,7 +88,7 @@ namespace FF4FreeEnterprisePR
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(7, 1))), [removeBonusItems, exCecil, exCid, exEdge, exEdward, exFusoya]);
 			firstHero.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(8, 1))) % 16;
 			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(9, 1))), [exKain, exPalom, exPorom, exRosa, exRydia, exTellah]);
-			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(10, 1))), [exYang, removeFGExclusiveItems, exPaladinCecil, zFalcon, zOrdeals]);
+			numberToCheckboxes(convertChartoInt(Convert.ToChar(flags.Substring(10, 1))), [exYang, removeFGExclusiveItems, exPaladinCecil, zFalcon, zOrdeals, showMonsterChests]);
 			startingXP.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(11, 1))) % 8;
 			numberOfShards.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(12, 1))) % 16;
 			shardsBeforeSirens.SelectedIndex = convertChartoInt(Convert.ToChar(flags.Substring(13, 1))) % 16;
@@ -475,7 +478,32 @@ namespace FF4FreeEnterprisePR
 
 		private void FDItemLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
 		{
-			System.Diagnostics.Process.Start("https://docs.google.com/spreadsheets/d/1lULu47K_qzDfWUxVXHlzmDaYO1RL7CbF3A2cvBa1OXk/edit#gid=843831314");
+			string url = "https://docs.google.com/spreadsheets/d/1lULu47K_qzDfWUxVXHlzmDaYO1RL7CbF3A2cvBa1OXk/edit#gid=843831314";
+			try
+			{
+				Process.Start(url);
+			}
+			catch
+			{
+				// hack because of this: https://github.com/dotnet/corefx/issues/10361
+				if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+				{
+					url = url.Replace("&", "^&");
+					Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+				}
+				else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+				{
+					Process.Start("xdg-open", url);
+				}
+				else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+				{
+					Process.Start("open", url);
+				}
+				else
+				{
+					throw;
+				}
+			}
 		}
 
 		private void copyRaceBot_Click(object sender, EventArgs e)
