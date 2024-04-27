@@ -418,6 +418,7 @@ namespace FF4FreeEnterprisePR.Randomize
 				}
 
 				int finalItem = 0;
+				bool nothing = false;
 
 				// rewardID is 0-based.  So it's always true if there's only one hero.  (numHeroes - 2 == -1)
 				if (rewardPair.rewardID > numHeroes - 2)
@@ -501,6 +502,7 @@ namespace FF4FreeEnterprisePR.Randomize
 								{
 									finalItem = 82; // Nothing
 								}
+								nothing = true;
 							}
 							shardCount++;
 							break;
@@ -527,7 +529,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 					var nothingShardFlag = jEvents.Mnemonics.Where(c => c.comment == "FENothingShardFlag").SingleOrDefault();
 					if (nothingShardFlag != null)
-						nothingShardFlag.operands.iValues[0] = finalItem == 82 ? 351 : finalItem == 89 ? 350 : 352;
+						nothingShardFlag.operands.iValues[0] = nothing ? 351 : finalItem == 89 ? 350 : 352; // formerly finalItem == 82
 				}
 				else
 				{
@@ -565,7 +567,7 @@ namespace FF4FreeEnterprisePR.Randomize
 
 				var rewardFlag = jEvents.Mnemonics.Where(c => c.comment == "FERewardFlag").Single();
 				rewardFlag.mnemonic = "SetFlag";
-				if (finalItem == 82) { rewardFlag.operands.iValues[0] = nothingID; nothingID++; }
+				if (nothing) { rewardFlag.operands.iValues[0] = nothingID; nothingID++; } // formerly finalItem == 82
 				else if (finalItem == 89) { rewardFlag.operands.iValues[0] = shardID; shardID++; }
 				else rewardFlag.operands.iValues[0] = 200 + rewardPair.rewardID;
 				rewardFlag.operands.sValues[0] = "ScenarioFlag1";

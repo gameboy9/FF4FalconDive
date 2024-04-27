@@ -323,11 +323,10 @@ namespace FF4FreeEnterprisePR
 			{
 				Updater.update(FF4PRFolder.Text, updateDirectory, zFalcon.Checked, zOrdeals.Checked, showMonsterChests.Checked);
 
+				r1 = new Random((int)(seedNumber % 2147483648));
 				int heroCount = numHeroes.SelectedIndex == 5 ? r1.Next() % 5 + 1 : numHeroes.SelectedIndex + 1;
-
 				int heroMin = minHeroes.SelectedIndex == 5 ? r1.Next() % heroCount + 1 : Math.Min(minHeroes.SelectedIndex + 1, heroCount);
 
-				r1 = new Random((int)(seedNumber % 2147483648));
 				int[] party = randomizeParty(xpMulti * xpStart, heroCount);
 				priceAdjustment();
 				randomizeShops(party);
