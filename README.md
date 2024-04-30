@@ -8,17 +8,13 @@ To see differences between Free Enterprise and Falcon Dive, please see this Goog
 Please join our Discord!  https://discord.gg/BYD2d5wj4B
 
 ## Installation
-- For all installations, you will need to download two files:
+- For all installations after version 5.0, you only need to download the randomizer:
   - FF4FalconDive.zip, the main randomizer program, which you can download here:  https://github.com/gameboy9/FF4FalconDive/releases/latest/download/FF4FalconDive.zip
-  - GameAssets.zip, which consists of the base game files, which you can download here:  https://github.com/gameboy9/FF4FalconDive/releases/download/1.0/GameAssets.zip
-  - **NOTE:**  We recommend not placing the randomizer program nor GameAssets.zip in the same folder as your FF4: Pixel Remaster folder.
+  - **NOTE:**  We recommend not placing the randomizer program in the same folder as your FF4: Pixel Remaster folder.
 
 ### Mandatory Setup:
 - Click Browse next to the "FF4 PR Folder" Text box and find your FF4 Install Location (This can be found in steam by right clicking on FF4 PR and selecting "Properties" then "Installed Files" Then clicking "Browse") 
   - Note: The folder should be named "FINAL FANTASY IV PR".
-- Click Browse next to the "Game Assets Folder" Text box and find the GameAssets.zip you downloaded above.
-- Then Click Extract. This may take a few minutes to complete.
-- You will get a extract complete at the bottom of the application when finished
 
 ### Optional Setup:
 - Select your randomization options from the General, Heroes, and Enemies tabs.
@@ -34,6 +30,12 @@ gameboyf9
 
 ### Beta helpers
 Antidale, Engidave, Fleury14, Infinious, Inven, Syconawt, Tybalt, and warlink05
+
+### Idea Initiators
+Antidale, Gamer1758, TheRPGCheck, Inven
+
+### Other Contributors
+CasualGeekDave, BGG02, Regasin, HolySmith, marcmagus, MarthSR
 
 ### Special Thanks
 - mcgrew (for inspiring me to create randomizers)
