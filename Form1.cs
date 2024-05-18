@@ -270,7 +270,33 @@ namespace FF4FreeEnterprisePR
 				return;
 			}
 
-			int included = (exCecil.Checked ? 0 : 1) +
+            long seedNumber;
+            try
+            {
+                seedNumber = Convert.ToInt64(RandoSeed.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Invalid seed number");
+                return;
+            }
+
+            int heroCount, heroMin;
+
+            try
+            {
+                r1 = new Random((int)(seedNumber % 2147483648));
+
+                heroCount = numHeroes.SelectedIndex == 5 ? r1.Next() % 5 + 1 : numHeroes.SelectedIndex + 1;
+                heroMin = minHeroes.SelectedIndex == 5 ? r1.Next() % heroCount + 1 : Math.Min(minHeroes.SelectedIndex + 1, heroCount);
+            }
+            catch (Exception ex)
+            {
+                LogError(ex);
+                return;
+            }
+
+            int included = (exCecil.Checked ? 0 : 1) +
 				(exCid.Checked ? 0 : 1) +
 				(exEdge.Checked ? 0 : 1) +
 				(exEdward.Checked ? 0 : 1) +
@@ -284,7 +310,7 @@ namespace FF4FreeEnterprisePR
 				(exYang.Checked ? 0 : 1) +
 				(exPaladinCecil.Checked ? 0 : 1);
 
-			if (included < Convert.ToInt32(numHeroes.SelectedItem) && !dupCharactersAllowed.Checked)
+			if (included < heroCount && !dupCharactersAllowed.Checked)
 			{
 				MessageBox.Show("Included heroes exceed number of heroes and duplicate heroes is not checked.  Please try again.");
 				return;
@@ -308,24 +334,11 @@ namespace FF4FreeEnterprisePR
 				startingXP.SelectedIndex == 5 ? 4 :
 				startingXP.SelectedIndex == 6 ? 5 : 10;
 
-			long seedNumber;
-			try
-			{
-				seedNumber = Convert.ToInt64(RandoSeed.Text);
-			}
-			catch
-			{
-				MessageBox.Show("Invalid seed number");
-				return;
-			}
+
 
 			try
 			{
 				Updater.update(FF4PRFolder.Text, updateDirectory, zFalcon.Checked, zOrdeals.Checked, showMonsterChests.Checked);
-
-				r1 = new Random((int)(seedNumber % 2147483648));
-				int heroCount = numHeroes.SelectedIndex == 5 ? r1.Next() % 5 + 1 : numHeroes.SelectedIndex + 1;
-				int heroMin = minHeroes.SelectedIndex == 5 ? r1.Next() % heroCount + 1 : Math.Min(minHeroes.SelectedIndex + 1, heroCount);
 
 				int[] party = randomizeParty(xpMulti * xpStart, heroCount);
 				priceAdjustment();
@@ -356,13 +369,7 @@ namespace FF4FreeEnterprisePR
 			}
 			catch (Exception ex)
 			{
-				using (StreamWriter sw = new StreamWriter("FDError.txt", true))
-				{
-					sw.WriteLine(ex.ToString());
-					sw.WriteLine(RandoFlags.Text + "/" + RandoSeed.Text);
-					sw.WriteLine("---------------------");
-				}
-				NewChecksum.Text = "Error generating seed - see FDError.txt for details";
+				LogError(ex);
 			}
 		}
 
@@ -510,5 +517,16 @@ namespace FF4FreeEnterprisePR
 			Clipboard.SetText("!setmetadata seed " + RandoSeed.Text + " flags " + RandoFlags.Text + " checksum " + checkSum);
 			NewChecksum.Text = "COMPLETE - checksum " + checkSum + " - copied as !setmetadata command";
 		}
-	}
+
+        private void LogError(Exception ex)
+        {
+            using (StreamWriter sw = new StreamWriter("FDError.txt", true))
+            {
+                sw.WriteLine(ex.ToString());
+                sw.WriteLine(RandoFlags.Text + "/" + RandoSeed.Text);
+                sw.WriteLine("---------------------");
+            }
+            NewChecksum.Text = "Error generating seed - see FDError.txt for details";
+        }
+    }
 }
