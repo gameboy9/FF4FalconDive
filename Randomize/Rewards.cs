@@ -447,7 +447,19 @@ namespace FF4FreeEnterprisePR.Randomize
 						case 24: finalItem = 62; break;
 						case 25: finalItem = 63; break;
 						default:  // case 6, 22, 27, 28, 29, 30, 31 (all formerly crystal shards, pink tail, legend sword), 17, 18, 19, 20, 21, 26 (all formerly tails and nothings)
-							if (shardCount <= crystalShards)
+							if ((rewardPair.rewardID == 6 && crystalShards >= 13) ||
+								(rewardPair.rewardID == 17 && crystalShards >= 12) ||
+								(rewardPair.rewardID == 18 && crystalShards >= 11) ||
+								(rewardPair.rewardID == 19 && crystalShards >= 10) ||
+								(rewardPair.rewardID == 20 && crystalShards >= 9) ||
+								(rewardPair.rewardID == 21 && crystalShards >= 8) ||
+								(rewardPair.rewardID == 22 && crystalShards >= 7) ||
+								(rewardPair.rewardID == 26 && crystalShards >= 6) ||
+								(rewardPair.rewardID == 27 && crystalShards >= 5) ||
+								(rewardPair.rewardID == 28 && crystalShards >= 4) ||
+								(rewardPair.rewardID == 29 && crystalShards >= 3) ||
+								(rewardPair.rewardID == 30 && crystalShards >= 2) ||
+								(rewardPair.rewardID == 31 && crystalShards >= 1))
 							{
 								finalItem = 89; // Crystal Shard
 							}
