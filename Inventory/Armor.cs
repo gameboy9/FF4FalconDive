@@ -205,6 +205,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			aegisShield, genjiShield, dragonShield, ironHelm, mythrilHelm, diamondHelm, dragonHelm, diamondGloves, dragonGloves };
 		public List<int> cecilKainCidEdge = new List<int> { genjiArmor, ironGloves, mythrilGloves, genjiGloves, giantGloves, genjiHelm };
 		public List<int> rydiaRosaPorom = new List<int> { minervaBustier, goldHairpin };
+		public List<int> whiteRobeEquip = new List<int> { whiteRobe };
 
 		const int dkCecil = 1;
 		const int cecil = 13;
@@ -271,6 +272,7 @@ namespace FF4FreeEnterprisePR.Inventory
 			if (!party.Contains(cecil) && !party.Contains(kain) && !party.Contains(cid)) selection = selection.Where(c => !cecilKainCid.Contains(c)).ToList();
 			if (!party.Contains(edge) && !party.Contains(kain) && !party.Contains(cid) && !party.Contains(edge)) selection = selection.Where(c => !cecilKainCidEdge.Contains(c)).ToList();
 			if (!party.Contains(rydia) && !party.Contains(rosa) && !party.Contains(porom)) selection = selection.Where(c => !rydiaRosaPorom.Contains(c)).ToList();
+			if (!party.Contains(cecil) && !party.Contains(rydia) && !party.Contains(rosa) && !party.Contains(porom) && !party.Contains(tellah) && !party.Contains(fusoya)) selection = selection.Where(c => !whiteRobeEquip.Contains(c)).ToList();
 
 			bool bad = true;
 			int finalSelection = -1;
