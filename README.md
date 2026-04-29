@@ -25,6 +25,17 @@ Please join our Discord!  https://discord.gg/BYD2d5wj4B
 
 **NOTE:**  To revert back to vanilla, all you have to do is click "Revert to vanilla", which will delete everything randomizer related from the Steam directory, and you're all set!
 
+### Stuck due to version updates?
+Thanks to UberCubsFan, there's a way to fix this!  For this, you'll need to run the EXE manually from the game folder instead of via steam.
+
+- Start > Run
+- Paste the steam console in run:  steam://open/console
+- In console paste :  download_depot 1173800 1173801 4405259246497444568
+  - This will download to ...\Steam\steamapps\content\app_1173800\depot_1173801\
+- Open FF4 PR game folder
+- Copy conents from the recently downloaded depot_1173801 on top of the existing(current) game files and overwrite
+- Make shortcut to the Final Fantasy IV.exe
+
 ### Creator, Design, and Programming
 gameboyf9
 
